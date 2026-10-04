@@ -2232,12 +2232,28 @@
         item.className = `region-item ${(gIdx === 0 && !q) || (q && cities.length > 0) ? 'expanded' : ''}`;
         item.dataset.groupId = group.id;
 
+        const isFullyGroupChecked = totalZipsInGroup.length > 0 && activeZipsInGroup === totalZipsInGroup.length;
+        const isIndeterminateGroup = activeZipsInGroup > 0 && activeZipsInGroup < totalZipsInGroup.length;
+
         item.innerHTML = `
           <div class="region-header">
-            <div class="region-info">
-              <div class="region-name">${group.name}, ${currentStateCode}</div>
-              <div class="region-counter">
-                <span class="active-count-text"><b>${activeCities}</b> of ${totalCities} cities selected (${activeZipsInGroup} ZIPs)</span>
+            <div style="display: flex; align-items: center; gap: 12px; flex: 1;">
+              <div class="custom-check ${isFullyGroupChecked ? 'checked' : (isIndeterminateGroup ? 'indeterminate' : '')}" title="Toggle all ZIPs in ${group.name}">
+                ${isFullyGroupChecked ? `
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                ` : (isIndeterminateGroup ? `
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                  </svg>
+                ` : '')}
+              </div>
+              <div class="region-info">
+                <div class="region-name">${group.name}, ${currentStateCode}</div>
+                <div class="region-counter">
+                  <span class="active-count-text"><b>${activeCities}</b> of ${totalCities} cities selected (${activeZipsInGroup} ZIPs)</span>
+                </div>
               </div>
             </div>
             <div class="region-actions">
@@ -2249,7 +2265,7 @@
                 Zoom
               </button>
               <button class="toggle-all-btn" data-action="toggle-all">
-                ${activeZipsInGroup === totalZipsInGroup.length && totalZipsInGroup.length > 0 ? 'Clear All' : 'Select All'}
+                ${isFullyGroupChecked ? 'Clear All' : 'Select All'}
               </button>
               <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
                 <polyline points="6 9 12 15 18 9"></polyline>
@@ -2261,11 +2277,39 @@
 
         const header = item.querySelector('.region-header');
         const body = item.querySelector('.region-body');
+        const groupCheckEl = item.querySelector('.region-header .custom-check');
         const toggleAllBtn = item.querySelector('.toggle-all-btn');
         const zoomBtn = item.querySelector('.city-zoom-btn');
 
+        const toggleGroupZips = () => {
+          const targetZips = group.zips || [];
+          const allActive = targetZips.length > 0 && targetZips.every(z => selectedZips.has(z));
+          const activate = !allActive;
+          targetZips.forEach(z => {
+            if (activate) selectedZips.add(z);
+            else selectedZips.delete(z);
+            const lyr = zipToLeafletLayerMap.get(z);
+            if (lyr) lyr.setStyle(getLeafletZipStyle(activate));
+          });
+          updateAccordionCounters();
+          if (activeZipsCountLabel) activeZipsCountLabel.textContent = selectedZips.size;
+          updateSummaryStats();
+        };
+
+        if (groupCheckEl) {
+          groupCheckEl.addEventListener('click', (e) => {
+            e.stopPropagation();
+            toggleGroupZips();
+          });
+        }
+
+        toggleAllBtn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          toggleGroupZips();
+        });
+
         header.addEventListener('click', (e) => {
-          if (e.target.closest('.toggle-all-btn') || e.target.closest('.city-zoom-btn')) return;
+          if (e.target.closest('.custom-check') || e.target.closest('.toggle-all-btn') || e.target.closest('.city-zoom-btn')) return;
           const isNowExpanded = !item.classList.contains('expanded');
           item.classList.toggle('expanded', isNowExpanded);
           if (isNowExpanded) {
@@ -2276,21 +2320,6 @@
         zoomBtn.addEventListener('click', (e) => {
           e.stopPropagation();
           zoomToZips(group.zips, 11);
-        });
-
-        toggleAllBtn.addEventListener('click', (e) => {
-          e.stopPropagation();
-          const allSelected = (group.zips || []).every(z => selectedZips.has(z));
-          const activate = !allSelected;
-          (group.zips || []).forEach(z => {
-            if (activate) selectedZips.add(z);
-            else selectedZips.delete(z);
-            const lyr = zipToLeafletLayerMap.get(z);
-            if (lyr) lyr.setStyle(getLeafletZipStyle(activate));
-          });
-          updateAccordionCounters();
-          if (activeZipsCountLabel) activeZipsCountLabel.textContent = selectedZips.size;
-          updateSummaryStats();
         });
 
         // Nested City Cards
@@ -2340,7 +2369,8 @@
           const chipsContainer = cityCard.querySelector('.zip-chips-container');
 
           const toggleCity = () => {
-            const activate = !isFullyChecked;
+            const allActive = cityZips.length > 0 && cityZips.every(z => selectedZips.has(z));
+            const activate = !allActive;
             cityZips.forEach(z => {
               if (activate) selectedZips.add(z);
               else selectedZips.delete(z);
@@ -2475,7 +2505,8 @@
         const chipsContainer = item.querySelector('.zip-chips-container');
 
         const toggleCityZips = () => {
-          const activate = !isFullyChecked;
+          const allActive = cityZips.length > 0 && cityZips.every(z => selectedZips.has(z));
+          const activate = !allActive;
           cityZips.forEach(z => {
             if (activate) selectedZips.add(z);
             else selectedZips.delete(z);
@@ -2640,7 +2671,8 @@
         const chipsContainer = item.querySelector('.zip-chips-container');
 
         const toggleCityZips = () => {
-          const activate = !isFullyChecked;
+          const allActive = cityZips.length > 0 && cityZips.every(z => selectedZips.has(z));
+          const activate = !allActive;
           cityZips.forEach(z => {
             if (activate) selectedZips.add(z);
             else selectedZips.delete(z);
@@ -2734,6 +2766,22 @@
           const toggleBtn = item.querySelector('.toggle-all-btn');
           if (toggleBtn) {
             toggleBtn.textContent = (activeZipsInGroup === totalZipsInGroup.length && totalZipsInGroup.length > 0) ? 'Clear All' : 'Select All';
+          }
+
+          const groupCheckEl = item.querySelector('.region-header > div > .custom-check');
+          if (groupCheckEl) {
+            const isFully = totalZipsInGroup.length > 0 && activeZipsInGroup === totalZipsInGroup.length;
+            const isIndet = activeZipsInGroup > 0 && activeZipsInGroup < totalZipsInGroup.length;
+            groupCheckEl.className = `custom-check ${isFully ? 'checked' : (isIndet ? 'indeterminate' : '')}`;
+            groupCheckEl.innerHTML = isFully ? `
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+            ` : (isIndet ? `
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+              </svg>
+            ` : '');
           }
 
           cities.forEach(city => {
