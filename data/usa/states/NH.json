@@ -123,7 +123,10 @@
           "tier": 1,
           "county": "Sullivan",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03603"
+          ]
         },
         {
           "id": "NH-alton",
@@ -132,7 +135,10 @@
           "tier": 1,
           "county": "Belknap",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03809"
+          ]
         },
         {
           "id": "NH-hinsdale",
@@ -141,7 +147,10 @@
           "tier": 1,
           "county": "Cheshire",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03451"
+          ]
         },
         {
           "id": "NH-plainfield",
@@ -150,7 +159,10 @@
           "tier": 1,
           "county": "Sullivan",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03781"
+          ]
         },
         {
           "id": "NH-jaffrey",
@@ -159,7 +171,10 @@
           "tier": 1,
           "county": "Cheshire",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03452"
+          ]
         },
         {
           "id": "NH-meredith",
@@ -168,7 +183,10 @@
           "tier": 1,
           "county": "Belknap",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03253"
+          ]
         },
         {
           "id": "NH-laconia",
@@ -177,7 +195,10 @@
           "tier": 1,
           "county": "Belknap",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03246"
+          ]
         },
         {
           "id": "NH-marlborough",
@@ -186,7 +207,10 @@
           "tier": 1,
           "county": "Cheshire",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03455"
+          ]
         },
         {
           "id": "NH-winchester",
@@ -195,7 +219,10 @@
           "tier": 1,
           "county": "Cheshire",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03470"
+          ]
         },
         {
           "id": "NH-belmont",
@@ -204,7 +231,10 @@
           "tier": 1,
           "county": "Belknap",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03220"
+          ]
         },
         {
           "id": "NH-north-walpole",
@@ -213,7 +243,10 @@
           "tier": 1,
           "county": "Cheshire",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03609"
+          ]
         },
         {
           "id": "NH-walpole",
@@ -222,7 +255,10 @@
           "tier": 1,
           "county": "Cheshire",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03608"
+          ]
         },
         {
           "id": "NH-troy",
@@ -231,7 +267,10 @@
           "tier": 1,
           "county": "Cheshire",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03465"
+          ]
         },
         {
           "id": "NH-newport",
@@ -240,7 +279,10 @@
           "tier": 1,
           "county": "Sullivan",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03773"
+          ]
         },
         {
           "id": "NH-claremont",
@@ -249,7 +291,10 @@
           "tier": 1,
           "county": "Sullivan",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03743"
+          ]
         },
         {
           "id": "NH-keene",
@@ -258,7 +303,10 @@
           "tier": 1,
           "county": "Cheshire",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03431"
+          ]
         },
         {
           "id": "NH-new-hampton",
@@ -267,7 +315,10 @@
           "tier": 1,
           "county": "Belknap",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03256"
+          ]
         },
         {
           "id": "NH-acworth",
@@ -276,7 +327,10 @@
           "tier": 1,
           "county": "Sullivan",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03601"
+          ]
         },
         {
           "id": "NH-alton-bay",
@@ -285,7 +339,10 @@
           "tier": 1,
           "county": "Belknap",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03810"
+          ]
         },
         {
           "id": "NH-center-barnstead",
@@ -294,7 +351,10 @@
           "tier": 1,
           "county": "Belknap",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03225"
+          ]
         },
         {
           "id": "NH-gilford",
@@ -303,7 +363,10 @@
           "tier": 1,
           "county": "Belknap",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03249"
+          ]
         },
         {
           "id": "NH-gilsum",
@@ -312,7 +375,10 @@
           "tier": 1,
           "county": "Cheshire",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03448"
+          ]
         },
         {
           "id": "NH-rindge",
@@ -321,7 +387,10 @@
           "tier": 1,
           "county": "Cheshire",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03461"
+          ]
         },
         {
           "id": "NH-swanzey",
@@ -330,7 +399,10 @@
           "tier": 1,
           "county": "Cheshire",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03446"
+          ]
         },
         {
           "id": "NH-tilton",
@@ -339,7 +411,10 @@
           "tier": 1,
           "county": "Belknap",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03276"
+          ]
         },
         {
           "id": "NH-westmoreland",
@@ -348,7 +423,10 @@
           "tier": 1,
           "county": "Cheshire",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03467"
+          ]
         },
         {
           "id": "NH-ashuelot",
@@ -357,7 +435,10 @@
           "tier": 1,
           "county": "Cheshire",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03441"
+          ]
         },
         {
           "id": "NH-grantham",
@@ -366,7 +447,10 @@
           "tier": 1,
           "county": "Sullivan",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03753"
+          ]
         },
         {
           "id": "NH-center-harbor",
@@ -375,7 +459,10 @@
           "tier": 1,
           "county": "Belknap",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03226"
+          ]
         },
         {
           "id": "NH-fitzwilliam",
@@ -384,7 +471,10 @@
           "tier": 1,
           "county": "Cheshire",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03447"
+          ]
         },
         {
           "id": "NH-dublin",
@@ -393,7 +483,10 @@
           "tier": 1,
           "county": "Cheshire",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03444"
+          ]
         },
         {
           "id": "NH-gilmanton",
@@ -402,7 +495,10 @@
           "tier": 1,
           "county": "Belknap",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03237"
+          ]
         },
         {
           "id": "NH-stoddard",
@@ -411,7 +507,10 @@
           "tier": 1,
           "county": "Cheshire",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03464"
+          ]
         },
         {
           "id": "NH-nelson",
@@ -420,7 +519,10 @@
           "tier": 1,
           "county": "Cheshire",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03457"
+          ]
         },
         {
           "id": "NH-lempster",
@@ -429,7 +531,10 @@
           "tier": 1,
           "county": "Sullivan",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03605"
+          ]
         },
         {
           "id": "NH-south-acworth",
@@ -438,7 +543,10 @@
           "tier": 1,
           "county": "Sullivan",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03607"
+          ]
         },
         {
           "id": "NH-gilmanton-iron-works",
@@ -447,7 +555,10 @@
           "tier": 1,
           "county": "Belknap",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03837"
+          ]
         },
         {
           "id": "NH-sullivan",
@@ -456,7 +567,10 @@
           "tier": 1,
           "county": "Cheshire",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03445"
+          ]
         },
         {
           "id": "NH-drewsville",
@@ -465,7 +579,10 @@
           "tier": 1,
           "county": "Cheshire",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03604"
+          ]
         },
         {
           "id": "NH-chesterfield",
@@ -474,7 +591,10 @@
           "tier": 1,
           "county": "Cheshire",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03443"
+          ]
         },
         {
           "id": "NH-alstead",
@@ -483,7 +603,10 @@
           "tier": 1,
           "county": "Cheshire",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03602"
+          ]
         },
         {
           "id": "NH-spofford",
@@ -492,7 +615,10 @@
           "tier": 1,
           "county": "Cheshire",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03462"
+          ]
         },
         {
           "id": "NH-west-chesterfield",
@@ -501,7 +627,10 @@
           "tier": 1,
           "county": "Cheshire",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03466"
+          ]
         },
         {
           "id": "NH-washington",
@@ -510,7 +639,10 @@
           "tier": 1,
           "county": "Sullivan",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03280"
+          ]
         },
         {
           "id": "NH-barnstead",
@@ -519,7 +651,10 @@
           "tier": 1,
           "county": "Belknap",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03218"
+          ]
         },
         {
           "id": "NH-harrisville",
@@ -528,7 +663,10 @@
           "tier": 1,
           "county": "Cheshire",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03450"
+          ]
         },
         {
           "id": "NH-sanbornton",
@@ -537,7 +675,10 @@
           "tier": 1,
           "county": "Belknap",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03269"
+          ]
         },
         {
           "id": "NH-marlow",
@@ -546,7 +687,10 @@
           "tier": 1,
           "county": "Cheshire",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03456"
+          ]
         },
         {
           "id": "NH-sunapee",
@@ -555,7 +699,10 @@
           "tier": 1,
           "county": "Sullivan",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03782"
+          ]
         },
         {
           "id": "NH-springfield",
@@ -564,7 +711,10 @@
           "tier": 1,
           "county": "Sullivan",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03284"
+          ]
         },
         {
           "id": "NH-georges-mills",
@@ -573,7 +723,10 @@
           "tier": 1,
           "county": "Sullivan",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03751"
+          ]
         },
         {
           "id": "NH-cornish",
@@ -582,7 +735,10 @@
           "tier": 1,
           "county": "Sullivan",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03745"
+          ]
         },
         {
           "id": "NH-guild",
@@ -591,7 +747,10 @@
           "tier": 1,
           "county": "Sullivan",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03754"
+          ]
         },
         {
           "id": "NH-meriden",
@@ -600,7 +759,10 @@
           "tier": 1,
           "county": "Sullivan",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03770"
+          ]
         },
         {
           "id": "NH-cornish-flat",
@@ -609,7 +771,10 @@
           "tier": 1,
           "county": "Sullivan",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03746"
+          ]
         },
         {
           "id": "NH-goshen",
@@ -618,7 +783,10 @@
           "tier": 1,
           "county": "Sullivan",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03752"
+          ]
         }
       ],
       "adTargeting": {
@@ -781,7 +949,11 @@
           "tier": 1,
           "county": "Merrimack",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03303",
+            "03301"
+          ]
         },
         {
           "id": "NH-manchester",
@@ -790,7 +962,14 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 5,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03103",
+            "03101",
+            "03104",
+            "03102",
+            "03109"
+          ]
         },
         {
           "id": "NH-nashua",
@@ -799,7 +978,13 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03064",
+            "03062",
+            "03063",
+            "03060"
+          ]
         },
         {
           "id": "NH-rochester",
@@ -808,7 +993,12 @@
           "tier": 1,
           "county": "Strafford",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03867",
+            "03868",
+            "03839"
+          ]
         },
         {
           "id": "NH-milton-mills",
@@ -817,7 +1007,10 @@
           "tier": 1,
           "county": "Strafford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03852"
+          ]
         },
         {
           "id": "NH-newfields",
@@ -826,7 +1019,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03856"
+          ]
         },
         {
           "id": "NH-newmarket",
@@ -835,7 +1031,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03857"
+          ]
         },
         {
           "id": "NH-amherst",
@@ -844,7 +1043,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03031"
+          ]
         },
         {
           "id": "NH-bradford",
@@ -853,7 +1055,10 @@
           "tier": 1,
           "county": "Merrimack",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03221"
+          ]
         },
         {
           "id": "NH-durham",
@@ -862,7 +1067,10 @@
           "tier": 1,
           "county": "Strafford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03824"
+          ]
         },
         {
           "id": "NH-greenville",
@@ -871,7 +1079,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03048"
+          ]
         },
         {
           "id": "NH-raymond",
@@ -880,7 +1091,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03077"
+          ]
         },
         {
           "id": "NH-portsmouth",
@@ -889,7 +1103,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03801"
+          ]
         },
         {
           "id": "NH-hudson",
@@ -898,7 +1115,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03051"
+          ]
         },
         {
           "id": "NH-milford",
@@ -907,7 +1127,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03055"
+          ]
         },
         {
           "id": "NH-francestown",
@@ -916,7 +1139,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03043"
+          ]
         },
         {
           "id": "NH-epping",
@@ -925,7 +1151,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03042"
+          ]
         },
         {
           "id": "NH-exeter",
@@ -934,7 +1163,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03833"
+          ]
         },
         {
           "id": "NH-contoocook",
@@ -943,7 +1175,10 @@
           "tier": 1,
           "county": "Merrimack",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03229"
+          ]
         },
         {
           "id": "NH-milton",
@@ -952,7 +1187,10 @@
           "tier": 1,
           "county": "Strafford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03851"
+          ]
         },
         {
           "id": "NH-goffstown",
@@ -961,7 +1199,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03045"
+          ]
         },
         {
           "id": "NH-bennington",
@@ -970,7 +1211,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03442"
+          ]
         },
         {
           "id": "NH-loudon",
@@ -979,7 +1223,10 @@
           "tier": 1,
           "county": "Merrimack",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03307"
+          ]
         },
         {
           "id": "NH-warner",
@@ -988,7 +1235,10 @@
           "tier": 1,
           "county": "Merrimack",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03278"
+          ]
         },
         {
           "id": "NH-peterborough",
@@ -997,7 +1247,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03458"
+          ]
         },
         {
           "id": "NH-antrim",
@@ -1006,7 +1259,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03440"
+          ]
         },
         {
           "id": "NH-wilton",
@@ -1015,7 +1271,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03086"
+          ]
         },
         {
           "id": "NH-londonderry",
@@ -1024,7 +1283,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03053"
+          ]
         },
         {
           "id": "NH-dover",
@@ -1033,7 +1295,10 @@
           "tier": 1,
           "county": "Strafford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03820"
+          ]
         },
         {
           "id": "NH-hooksett",
@@ -1042,7 +1307,10 @@
           "tier": 1,
           "county": "Merrimack",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03106"
+          ]
         },
         {
           "id": "NH-somersworth",
@@ -1051,7 +1319,10 @@
           "tier": 1,
           "county": "Strafford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03878"
+          ]
         },
         {
           "id": "NH-hancock",
@@ -1060,7 +1331,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03449"
+          ]
         },
         {
           "id": "NH-suncook",
@@ -1069,7 +1343,10 @@
           "tier": 1,
           "county": "Merrimack",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03275"
+          ]
         },
         {
           "id": "NH-derry",
@@ -1078,7 +1355,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03038"
+          ]
         },
         {
           "id": "NH-hampton",
@@ -1087,7 +1367,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03842"
+          ]
         },
         {
           "id": "NH-franklin",
@@ -1096,7 +1379,10 @@
           "tier": 1,
           "county": "Merrimack",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03235"
+          ]
         },
         {
           "id": "NH-pittsfield",
@@ -1105,7 +1391,10 @@
           "tier": 1,
           "county": "Merrimack",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03263"
+          ]
         },
         {
           "id": "NH-new-boston",
@@ -1114,7 +1403,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03070"
+          ]
         },
         {
           "id": "NH-farmington",
@@ -1123,7 +1415,10 @@
           "tier": 1,
           "county": "Strafford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03835"
+          ]
         },
         {
           "id": "NH-new-london",
@@ -1132,7 +1427,10 @@
           "tier": 1,
           "county": "Merrimack",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03257"
+          ]
         },
         {
           "id": "NH-henniker",
@@ -1141,7 +1439,10 @@
           "tier": 1,
           "county": "Merrimack",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03242"
+          ]
         },
         {
           "id": "NH-atkinson",
@@ -1150,7 +1451,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03811"
+          ]
         },
         {
           "id": "NH-auburn",
@@ -1159,7 +1463,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03032"
+          ]
         },
         {
           "id": "NH-barrington",
@@ -1168,7 +1475,10 @@
           "tier": 1,
           "county": "Strafford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03825"
+          ]
         },
         {
           "id": "NH-bedford",
@@ -1177,7 +1487,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03110"
+          ]
         },
         {
           "id": "NH-bow",
@@ -1186,7 +1499,10 @@
           "tier": 1,
           "county": "Merrimack",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03304"
+          ]
         },
         {
           "id": "NH-brookline",
@@ -1195,7 +1511,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03033"
+          ]
         },
         {
           "id": "NH-candia",
@@ -1204,7 +1523,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03034"
+          ]
         },
         {
           "id": "NH-canterbury",
@@ -1213,7 +1535,10 @@
           "tier": 1,
           "county": "Merrimack",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03224"
+          ]
         },
         {
           "id": "NH-chester",
@@ -1222,7 +1547,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03036"
+          ]
         },
         {
           "id": "NH-chichester",
@@ -1231,7 +1559,10 @@
           "tier": 1,
           "county": "Merrimack",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03258"
+          ]
         },
         {
           "id": "NH-danbury",
@@ -1240,7 +1571,10 @@
           "tier": 1,
           "county": "Merrimack",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03230"
+          ]
         },
         {
           "id": "NH-danville",
@@ -1249,7 +1583,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03819"
+          ]
         },
         {
           "id": "NH-deerfield",
@@ -1258,7 +1595,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03037"
+          ]
         },
         {
           "id": "NH-dunbarton",
@@ -1267,7 +1607,10 @@
           "tier": 1,
           "county": "Merrimack",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03046"
+          ]
         },
         {
           "id": "NH-east-kingston",
@@ -1276,7 +1619,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03827"
+          ]
         },
         {
           "id": "NH-epsom",
@@ -1285,7 +1631,10 @@
           "tier": 1,
           "county": "Merrimack",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03234"
+          ]
         },
         {
           "id": "NH-fremont",
@@ -1294,7 +1643,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03044"
+          ]
         },
         {
           "id": "NH-greenfield",
@@ -1303,7 +1655,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03047"
+          ]
         },
         {
           "id": "NH-greenland",
@@ -1312,7 +1667,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03840"
+          ]
         },
         {
           "id": "NH-hampstead",
@@ -1321,7 +1679,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03841"
+          ]
         },
         {
           "id": "NH-hollis",
@@ -1330,7 +1691,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03049"
+          ]
         },
         {
           "id": "NH-kingston",
@@ -1339,7 +1703,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03848"
+          ]
         },
         {
           "id": "NH-litchfield",
@@ -1348,7 +1715,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03052"
+          ]
         },
         {
           "id": "NH-lyndeborough",
@@ -1357,7 +1727,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03082"
+          ]
         },
         {
           "id": "NH-merrimack",
@@ -1366,7 +1739,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03054"
+          ]
         },
         {
           "id": "NH-mont-vernon",
@@ -1375,7 +1751,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03057"
+          ]
         },
         {
           "id": "NH-new-ipswich",
@@ -1384,7 +1763,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03071"
+          ]
         },
         {
           "id": "NH-newton",
@@ -1393,7 +1775,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03858"
+          ]
         },
         {
           "id": "NH-north-hampton",
@@ -1402,7 +1787,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03862"
+          ]
         },
         {
           "id": "NH-northwood",
@@ -1411,7 +1799,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03261"
+          ]
         },
         {
           "id": "NH-nottingham",
@@ -1420,7 +1811,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03290"
+          ]
         },
         {
           "id": "NH-pelham",
@@ -1429,7 +1823,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03076"
+          ]
         },
         {
           "id": "NH-plaistow",
@@ -1438,7 +1835,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03865"
+          ]
         },
         {
           "id": "NH-rollinsford",
@@ -1447,7 +1847,10 @@
           "tier": 1,
           "county": "Strafford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03869"
+          ]
         },
         {
           "id": "NH-rye-beach",
@@ -1456,7 +1859,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03871"
+          ]
         },
         {
           "id": "NH-salem",
@@ -1465,7 +1871,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03079"
+          ]
         },
         {
           "id": "NH-salisbury",
@@ -1474,7 +1883,10 @@
           "tier": 1,
           "county": "Merrimack",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03268"
+          ]
         },
         {
           "id": "NH-sandown",
@@ -1483,7 +1895,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03873"
+          ]
         },
         {
           "id": "NH-seabrook",
@@ -1492,7 +1907,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03874"
+          ]
         },
         {
           "id": "NH-strafford",
@@ -1501,7 +1919,10 @@
           "tier": 1,
           "county": "Strafford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03884"
+          ]
         },
         {
           "id": "NH-stratham",
@@ -1510,7 +1931,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03885"
+          ]
         },
         {
           "id": "NH-temple",
@@ -1519,7 +1943,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03084"
+          ]
         },
         {
           "id": "NH-weare",
@@ -1528,7 +1955,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03281"
+          ]
         },
         {
           "id": "NH-windham",
@@ -1537,7 +1967,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03087"
+          ]
         },
         {
           "id": "NH-east-andover",
@@ -1546,7 +1979,10 @@
           "tier": 1,
           "county": "Merrimack",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03231"
+          ]
         },
         {
           "id": "NH-west-nottingham",
@@ -1555,7 +1991,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03291"
+          ]
         },
         {
           "id": "NH-new-durham",
@@ -1564,7 +2003,10 @@
           "tier": 1,
           "county": "Strafford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03855"
+          ]
         },
         {
           "id": "NH-wilmot",
@@ -1573,7 +2015,10 @@
           "tier": 1,
           "county": "Merrimack",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03287"
+          ]
         },
         {
           "id": "NH-rye",
@@ -1582,7 +2027,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03870"
+          ]
         },
         {
           "id": "NH-new-castle",
@@ -1591,7 +2039,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03854"
+          ]
         },
         {
           "id": "NH-elkins",
@@ -1600,7 +2051,10 @@
           "tier": 1,
           "county": "Merrimack",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03233"
+          ]
         },
         {
           "id": "NH-south-sutton",
@@ -1609,7 +2063,10 @@
           "tier": 1,
           "county": "Merrimack",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03273"
+          ]
         },
         {
           "id": "NH-hillsboro",
@@ -1618,7 +2075,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03244"
+          ]
         },
         {
           "id": "NH-andover",
@@ -1627,7 +2087,10 @@
           "tier": 1,
           "county": "Merrimack",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03216"
+          ]
         },
         {
           "id": "NH-north-sutton",
@@ -1636,7 +2099,10 @@
           "tier": 1,
           "county": "Merrimack",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03260"
+          ]
         },
         {
           "id": "NH-hill",
@@ -1645,7 +2111,10 @@
           "tier": 1,
           "county": "Merrimack",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03243"
+          ]
         },
         {
           "id": "NH-east-hampstead",
@@ -1654,7 +2123,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03826"
+          ]
         },
         {
           "id": "NH-hampton-falls",
@@ -1663,7 +2135,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03844"
+          ]
         },
         {
           "id": "NH-newbury",
@@ -1672,7 +2147,10 @@
           "tier": 1,
           "county": "Merrimack",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03255"
+          ]
         }
       ],
       "adTargeting": {
@@ -1801,7 +2279,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03814"
+          ]
         },
         {
           "id": "NH-union",
@@ -1810,7 +2291,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03887"
+          ]
         },
         {
           "id": "NH-groveton",
@@ -1819,7 +2303,10 @@
           "tier": 1,
           "county": "Coos",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03582"
+          ]
         },
         {
           "id": "NH-north-woodstock",
@@ -1828,7 +2315,10 @@
           "tier": 1,
           "county": "Grafton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03262"
+          ]
         },
         {
           "id": "NH-canaan",
@@ -1837,7 +2327,10 @@
           "tier": 1,
           "county": "Grafton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03741"
+          ]
         },
         {
           "id": "NH-center-sandwich",
@@ -1846,7 +2339,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03227"
+          ]
         },
         {
           "id": "NH-whitefield",
@@ -1855,7 +2351,10 @@
           "tier": 1,
           "county": "Coos",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03598"
+          ]
         },
         {
           "id": "NH-bartlett",
@@ -1864,7 +2363,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03812"
+          ]
         },
         {
           "id": "NH-bristol",
@@ -1873,7 +2375,10 @@
           "tier": 1,
           "county": "Grafton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03222"
+          ]
         },
         {
           "id": "NH-sanbornville",
@@ -1882,7 +2387,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03872"
+          ]
         },
         {
           "id": "NH-lebanon",
@@ -1891,7 +2399,10 @@
           "tier": 1,
           "county": "Grafton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03766"
+          ]
         },
         {
           "id": "NH-conway",
@@ -1900,7 +2411,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03818"
+          ]
         },
         {
           "id": "NH-wolfeboro",
@@ -1909,7 +2423,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03894"
+          ]
         },
         {
           "id": "NH-lisbon",
@@ -1918,7 +2435,10 @@
           "tier": 1,
           "county": "Grafton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03585"
+          ]
         },
         {
           "id": "NH-woodsville",
@@ -1927,7 +2447,10 @@
           "tier": 1,
           "county": "Grafton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03785"
+          ]
         },
         {
           "id": "NH-north-haverhill",
@@ -1936,7 +2459,10 @@
           "tier": 1,
           "county": "Grafton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03774"
+          ]
         },
         {
           "id": "NH-lincoln",
@@ -1945,7 +2471,10 @@
           "tier": 1,
           "county": "Grafton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03251"
+          ]
         },
         {
           "id": "NH-colebrook",
@@ -1954,7 +2483,10 @@
           "tier": 1,
           "county": "Coos",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03576"
+          ]
         },
         {
           "id": "NH-bethlehem",
@@ -1963,7 +2495,10 @@
           "tier": 1,
           "county": "Grafton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03574"
+          ]
         },
         {
           "id": "NH-enfield",
@@ -1972,7 +2507,10 @@
           "tier": 1,
           "county": "Grafton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03748"
+          ]
         },
         {
           "id": "NH-littleton",
@@ -1981,7 +2519,10 @@
           "tier": 1,
           "county": "Grafton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03561"
+          ]
         },
         {
           "id": "NH-melvin-village",
@@ -1990,7 +2531,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03850"
+          ]
         },
         {
           "id": "NH-gorham",
@@ -1999,7 +2543,10 @@
           "tier": 1,
           "county": "Coos",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03581"
+          ]
         },
         {
           "id": "NH-north-conway",
@@ -2008,7 +2555,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03860"
+          ]
         },
         {
           "id": "NH-berlin",
@@ -2017,7 +2567,10 @@
           "tier": 1,
           "county": "Coos",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03570"
+          ]
         },
         {
           "id": "NH-lancaster",
@@ -2026,7 +2579,10 @@
           "tier": 1,
           "county": "Coos",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03584"
+          ]
         },
         {
           "id": "NH-plymouth",
@@ -2035,7 +2591,10 @@
           "tier": 1,
           "county": "Grafton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03264"
+          ]
         },
         {
           "id": "NH-ashland",
@@ -2044,7 +2603,10 @@
           "tier": 1,
           "county": "Grafton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03217"
+          ]
         },
         {
           "id": "NH-west-stewartstown",
@@ -2053,7 +2615,10 @@
           "tier": 1,
           "county": "Coos",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03597"
+          ]
         },
         {
           "id": "NH-hanover",
@@ -2062,7 +2627,10 @@
           "tier": 1,
           "county": "Grafton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03755"
+          ]
         },
         {
           "id": "NH-center-conway",
@@ -2071,7 +2639,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03813"
+          ]
         },
         {
           "id": "NH-center-tuftonboro",
@@ -2080,7 +2651,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03816"
+          ]
         },
         {
           "id": "NH-etna",
@@ -2089,7 +2663,10 @@
           "tier": 1,
           "county": "Grafton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03750"
+          ]
         },
         {
           "id": "NH-franconia",
@@ -2098,7 +2675,10 @@
           "tier": 1,
           "county": "Grafton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03580"
+          ]
         },
         {
           "id": "NH-moultonborough",
@@ -2107,7 +2687,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03254"
+          ]
         },
         {
           "id": "NH-north-stratford",
@@ -2116,7 +2699,10 @@
           "tier": 1,
           "county": "Coos",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03590"
+          ]
         },
         {
           "id": "NH-south-tamworth",
@@ -2125,7 +2711,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03883"
+          ]
         },
         {
           "id": "NH-west-lebanon",
@@ -2134,7 +2723,10 @@
           "tier": 1,
           "county": "Grafton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03784"
+          ]
         },
         {
           "id": "NH-mirror-lake",
@@ -2143,7 +2735,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03853"
+          ]
         },
         {
           "id": "NH-holderness",
@@ -2152,7 +2747,10 @@
           "tier": 1,
           "county": "Grafton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03245"
+          ]
         },
         {
           "id": "NH-silver-lake",
@@ -2161,7 +2759,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03875"
+          ]
         },
         {
           "id": "NH-kearsarge",
@@ -2170,7 +2771,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03847"
+          ]
         },
         {
           "id": "NH-eaton-center",
@@ -2179,7 +2783,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03832"
+          ]
         },
         {
           "id": "NH-jackson",
@@ -2188,7 +2795,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03846"
+          ]
         },
         {
           "id": "NH-milan",
@@ -2197,7 +2807,10 @@
           "tier": 1,
           "county": "Coos",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03588"
+          ]
         },
         {
           "id": "NH-lyme",
@@ -2206,7 +2819,10 @@
           "tier": 1,
           "county": "Grafton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03768"
+          ]
         },
         {
           "id": "NH-monroe",
@@ -2215,7 +2831,10 @@
           "tier": 1,
           "county": "Grafton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03771"
+          ]
         },
         {
           "id": "NH-tamworth",
@@ -2224,7 +2843,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03886"
+          ]
         },
         {
           "id": "NH-freedom",
@@ -2233,7 +2855,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03836"
+          ]
         },
         {
           "id": "NH-jefferson",
@@ -2242,7 +2867,10 @@
           "tier": 1,
           "county": "Coos",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03583"
+          ]
         },
         {
           "id": "NH-rumney",
@@ -2251,7 +2879,10 @@
           "tier": 1,
           "county": "Grafton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03266"
+          ]
         },
         {
           "id": "NH-orford",
@@ -2260,7 +2891,10 @@
           "tier": 1,
           "county": "Grafton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03777"
+          ]
         },
         {
           "id": "NH-twin-mountain",
@@ -2269,7 +2903,10 @@
           "tier": 1,
           "county": "Coos",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03595"
+          ]
         },
         {
           "id": "NH-campton",
@@ -2278,7 +2915,10 @@
           "tier": 1,
           "county": "Grafton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03223"
+          ]
         },
         {
           "id": "NH-piermont",
@@ -2287,7 +2927,10 @@
           "tier": 1,
           "county": "Grafton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03779"
+          ]
         },
         {
           "id": "NH-woodstock",
@@ -2296,7 +2939,10 @@
           "tier": 1,
           "county": "Grafton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03293"
+          ]
         },
         {
           "id": "NH-ossipee",
@@ -2305,7 +2951,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03864"
+          ]
         },
         {
           "id": "NH-bretton-woods",
@@ -2314,7 +2963,10 @@
           "tier": 1,
           "county": "Coos",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03575"
+          ]
         },
         {
           "id": "NH-waterville-valley",
@@ -2323,7 +2975,10 @@
           "tier": 1,
           "county": "Grafton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03215"
+          ]
         },
         {
           "id": "NH-chocorua",
@@ -2332,7 +2987,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03817"
+          ]
         },
         {
           "id": "NH-glen",
@@ -2341,7 +2999,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03838"
+          ]
         },
         {
           "id": "NH-haverhill",
@@ -2350,7 +3011,10 @@
           "tier": 1,
           "county": "Grafton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03765"
+          ]
         },
         {
           "id": "NH-grafton",
@@ -2359,7 +3023,10 @@
           "tier": 1,
           "county": "Grafton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03240"
+          ]
         },
         {
           "id": "NH-north-sandwich",
@@ -2368,7 +3035,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03259"
+          ]
         },
         {
           "id": "NH-east-wakefield",
@@ -2377,7 +3047,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03830"
+          ]
         },
         {
           "id": "NH-west-ossipee",
@@ -2386,7 +3059,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03890"
+          ]
         },
         {
           "id": "NH-warren",
@@ -2395,7 +3071,10 @@
           "tier": 1,
           "county": "Grafton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03279"
+          ]
         },
         {
           "id": "NH-bath",
@@ -2404,7 +3083,10 @@
           "tier": 1,
           "county": "Grafton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03740"
+          ]
         },
         {
           "id": "NH-hebron",
@@ -2413,7 +3095,10 @@
           "tier": 1,
           "county": "Grafton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03241"
+          ]
         },
         {
           "id": "NH-wentworth",
@@ -2422,7 +3107,10 @@
           "tier": 1,
           "county": "Grafton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03282"
+          ]
         },
         {
           "id": "NH-intervale",
@@ -2431,7 +3119,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03845"
+          ]
         },
         {
           "id": "NH-effingham",
@@ -2440,7 +3131,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03882"
+          ]
         },
         {
           "id": "NH-madison",
@@ -2449,7 +3143,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03849"
+          ]
         },
         {
           "id": "NH-pittsburg",
@@ -2458,7 +3155,10 @@
           "tier": 1,
           "county": "Coos",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03592"
+          ]
         },
         {
           "id": "NH-errol",
@@ -2467,7 +3167,10 @@
           "tier": 1,
           "county": "Coos",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03579"
+          ]
         },
         {
           "id": "NH-pike",
@@ -2476,7 +3179,10 @@
           "tier": 1,
           "county": "Grafton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03780"
+          ]
         },
         {
           "id": "NH-glencliff",
@@ -2485,7 +3191,10 @@
           "tier": 1,
           "county": "Grafton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03238"
+          ]
         }
       ],
       "adTargeting": {
@@ -2569,7 +3278,14 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 5,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03103",
+            "03101",
+            "03104",
+            "03102",
+            "03109"
+          ]
         },
         {
           "id": "NH-nashua",
@@ -2578,7 +3294,13 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03064",
+            "03062",
+            "03063",
+            "03060"
+          ]
         },
         {
           "id": "NH-amherst",
@@ -2587,7 +3309,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03031"
+          ]
         },
         {
           "id": "NH-greenville",
@@ -2596,7 +3321,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03048"
+          ]
         },
         {
           "id": "NH-hudson",
@@ -2605,7 +3333,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03051"
+          ]
         },
         {
           "id": "NH-milford",
@@ -2614,7 +3345,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03055"
+          ]
         },
         {
           "id": "NH-francestown",
@@ -2623,7 +3357,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03043"
+          ]
         },
         {
           "id": "NH-goffstown",
@@ -2632,7 +3369,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03045"
+          ]
         },
         {
           "id": "NH-bennington",
@@ -2641,7 +3381,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03442"
+          ]
         },
         {
           "id": "NH-peterborough",
@@ -2650,7 +3393,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03458"
+          ]
         },
         {
           "id": "NH-antrim",
@@ -2659,7 +3405,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03440"
+          ]
         },
         {
           "id": "NH-wilton",
@@ -2668,7 +3417,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03086"
+          ]
         },
         {
           "id": "NH-hancock",
@@ -2677,7 +3429,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03449"
+          ]
         },
         {
           "id": "NH-new-boston",
@@ -2686,7 +3441,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03070"
+          ]
         },
         {
           "id": "NH-bedford",
@@ -2695,7 +3453,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03110"
+          ]
         },
         {
           "id": "NH-brookline",
@@ -2704,7 +3465,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03033"
+          ]
         },
         {
           "id": "NH-greenfield",
@@ -2713,7 +3477,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03047"
+          ]
         },
         {
           "id": "NH-hollis",
@@ -2722,7 +3489,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03049"
+          ]
         },
         {
           "id": "NH-litchfield",
@@ -2731,7 +3501,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03052"
+          ]
         },
         {
           "id": "NH-lyndeborough",
@@ -2740,7 +3513,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03082"
+          ]
         },
         {
           "id": "NH-merrimack",
@@ -2749,7 +3525,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03054"
+          ]
         },
         {
           "id": "NH-mont-vernon",
@@ -2758,7 +3537,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03057"
+          ]
         },
         {
           "id": "NH-new-ipswich",
@@ -2767,7 +3549,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03071"
+          ]
         },
         {
           "id": "NH-pelham",
@@ -2776,7 +3561,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03076"
+          ]
         },
         {
           "id": "NH-temple",
@@ -2785,7 +3573,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03084"
+          ]
         },
         {
           "id": "NH-weare",
@@ -2794,7 +3585,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03281"
+          ]
         },
         {
           "id": "NH-hillsboro",
@@ -2803,7 +3597,10 @@
           "tier": 1,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03244"
+          ]
         }
       ],
       "adTargeting": {
@@ -2889,7 +3686,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03856"
+          ]
         },
         {
           "id": "NH-newmarket",
@@ -2898,7 +3698,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03857"
+          ]
         },
         {
           "id": "NH-raymond",
@@ -2907,7 +3710,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03077"
+          ]
         },
         {
           "id": "NH-portsmouth",
@@ -2916,7 +3722,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03801"
+          ]
         },
         {
           "id": "NH-epping",
@@ -2925,7 +3734,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03042"
+          ]
         },
         {
           "id": "NH-exeter",
@@ -2934,7 +3746,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03833"
+          ]
         },
         {
           "id": "NH-londonderry",
@@ -2943,7 +3758,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03053"
+          ]
         },
         {
           "id": "NH-derry",
@@ -2952,7 +3770,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03038"
+          ]
         },
         {
           "id": "NH-hampton",
@@ -2961,7 +3782,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03842"
+          ]
         },
         {
           "id": "NH-atkinson",
@@ -2970,7 +3794,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03811"
+          ]
         },
         {
           "id": "NH-auburn",
@@ -2979,7 +3806,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03032"
+          ]
         },
         {
           "id": "NH-candia",
@@ -2988,7 +3818,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03034"
+          ]
         },
         {
           "id": "NH-chester",
@@ -2997,7 +3830,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03036"
+          ]
         },
         {
           "id": "NH-danville",
@@ -3006,7 +3842,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03819"
+          ]
         },
         {
           "id": "NH-deerfield",
@@ -3015,7 +3854,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03037"
+          ]
         },
         {
           "id": "NH-east-kingston",
@@ -3024,7 +3866,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03827"
+          ]
         },
         {
           "id": "NH-fremont",
@@ -3033,7 +3878,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03044"
+          ]
         },
         {
           "id": "NH-greenland",
@@ -3042,7 +3890,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03840"
+          ]
         },
         {
           "id": "NH-hampstead",
@@ -3051,7 +3902,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03841"
+          ]
         },
         {
           "id": "NH-kingston",
@@ -3060,7 +3914,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03848"
+          ]
         },
         {
           "id": "NH-newton",
@@ -3069,7 +3926,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03858"
+          ]
         },
         {
           "id": "NH-north-hampton",
@@ -3078,7 +3938,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03862"
+          ]
         },
         {
           "id": "NH-northwood",
@@ -3087,7 +3950,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03261"
+          ]
         },
         {
           "id": "NH-nottingham",
@@ -3096,7 +3962,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03290"
+          ]
         },
         {
           "id": "NH-plaistow",
@@ -3105,7 +3974,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03865"
+          ]
         },
         {
           "id": "NH-rye-beach",
@@ -3114,7 +3986,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03871"
+          ]
         },
         {
           "id": "NH-salem",
@@ -3123,7 +3998,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03079"
+          ]
         },
         {
           "id": "NH-sandown",
@@ -3132,7 +4010,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03873"
+          ]
         },
         {
           "id": "NH-seabrook",
@@ -3141,7 +4022,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03874"
+          ]
         },
         {
           "id": "NH-stratham",
@@ -3150,7 +4034,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03885"
+          ]
         },
         {
           "id": "NH-windham",
@@ -3159,7 +4046,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03087"
+          ]
         },
         {
           "id": "NH-west-nottingham",
@@ -3168,7 +4058,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03291"
+          ]
         },
         {
           "id": "NH-rye",
@@ -3177,7 +4070,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03870"
+          ]
         },
         {
           "id": "NH-new-castle",
@@ -3186,7 +4082,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03854"
+          ]
         },
         {
           "id": "NH-east-hampstead",
@@ -3195,7 +4094,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03826"
+          ]
         },
         {
           "id": "NH-hampton-falls",
@@ -3204,7 +4106,10 @@
           "tier": 1,
           "county": "Rockingham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03844"
+          ]
         }
       ],
       "adTargeting": {

@@ -81,7 +81,11 @@
           "tier": 1,
           "county": "Kent",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19904",
+            "19901"
+          ]
         },
         {
           "id": "DE-magnolia",
@@ -90,7 +94,10 @@
           "tier": 2,
           "county": "Kent",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19962"
+          ]
         },
         {
           "id": "DE-viola",
@@ -99,7 +106,10 @@
           "tier": 2,
           "county": "Kent",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19979"
+          ]
         },
         {
           "id": "DE-kenton",
@@ -108,7 +118,10 @@
           "tier": 2,
           "county": "Kent",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19955"
+          ]
         },
         {
           "id": "DE-houston",
@@ -117,7 +130,10 @@
           "tier": 2,
           "county": "Kent",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19954"
+          ]
         },
         {
           "id": "DE-clayton",
@@ -126,7 +142,10 @@
           "tier": 2,
           "county": "Kent",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19938"
+          ]
         },
         {
           "id": "DE-smyrna",
@@ -135,7 +154,10 @@
           "tier": 2,
           "county": "Kent",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19977"
+          ]
         },
         {
           "id": "DE-cheswold",
@@ -144,7 +166,10 @@
           "tier": 2,
           "county": "Kent",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19936"
+          ]
         },
         {
           "id": "DE-felton",
@@ -153,7 +178,10 @@
           "tier": 2,
           "county": "Kent",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19943"
+          ]
         },
         {
           "id": "DE-harrington",
@@ -162,7 +190,10 @@
           "tier": 2,
           "county": "Kent",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19952"
+          ]
         },
         {
           "id": "DE-hartly",
@@ -171,7 +202,10 @@
           "tier": 2,
           "county": "Kent",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19953"
+          ]
         },
         {
           "id": "DE-frederica",
@@ -180,7 +214,10 @@
           "tier": 2,
           "county": "Kent",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19946"
+          ]
         },
         {
           "id": "DE-marydel",
@@ -189,7 +226,10 @@
           "tier": 2,
           "county": "Kent",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19964"
+          ]
         },
         {
           "id": "DE-camden-wyoming",
@@ -198,7 +238,10 @@
           "tier": 2,
           "county": "Kent",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19934"
+          ]
         },
         {
           "id": "DE-dover-afb",
@@ -207,7 +250,10 @@
           "tier": 2,
           "county": "Kent",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19902"
+          ]
         }
       ],
       "adTargeting": {
@@ -286,7 +332,19 @@
           "tier": 2,
           "county": "New Castle",
           "zipCount": 10,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19806",
+            "19804",
+            "19801",
+            "19807",
+            "19808",
+            "19803",
+            "19805",
+            "19809",
+            "19810",
+            "19802"
+          ]
         },
         {
           "id": "DE-newark",
@@ -295,7 +353,14 @@
           "tier": 2,
           "county": "New Castle",
           "zipCount": 5,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19711",
+            "19717",
+            "19713",
+            "19716",
+            "19702"
+          ]
         },
         {
           "id": "DE-odessa",
@@ -304,7 +369,10 @@
           "tier": 2,
           "county": "New Castle",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19730"
+          ]
         },
         {
           "id": "DE-townsend",
@@ -313,7 +381,10 @@
           "tier": 2,
           "county": "New Castle",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19734"
+          ]
         },
         {
           "id": "DE-new-castle",
@@ -322,7 +393,10 @@
           "tier": 2,
           "county": "New Castle",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19720"
+          ]
         },
         {
           "id": "DE-port-penn",
@@ -331,7 +405,10 @@
           "tier": 2,
           "county": "New Castle",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19731"
+          ]
         },
         {
           "id": "DE-claymont",
@@ -340,7 +417,10 @@
           "tier": 2,
           "county": "New Castle",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19703"
+          ]
         },
         {
           "id": "DE-hockessin",
@@ -349,7 +429,10 @@
           "tier": 2,
           "county": "New Castle",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19707"
+          ]
         },
         {
           "id": "DE-bear",
@@ -358,7 +441,10 @@
           "tier": 2,
           "county": "New Castle",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19701"
+          ]
         },
         {
           "id": "DE-delaware-city",
@@ -367,7 +453,10 @@
           "tier": 2,
           "county": "New Castle",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19706"
+          ]
         },
         {
           "id": "DE-middletown",
@@ -376,7 +465,10 @@
           "tier": 2,
           "county": "New Castle",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19709"
+          ]
         },
         {
           "id": "DE-winterthur",
@@ -385,7 +477,10 @@
           "tier": 2,
           "county": "New Castle",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19735"
+          ]
         },
         {
           "id": "DE-montchanin",
@@ -394,7 +489,10 @@
           "tier": 2,
           "county": "New Castle",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19710"
+          ]
         },
         {
           "id": "DE-yorklyn",
@@ -403,7 +501,10 @@
           "tier": 2,
           "county": "New Castle",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19736"
+          ]
         },
         {
           "id": "DE-rockland",
@@ -412,7 +513,10 @@
           "tier": 2,
           "county": "New Castle",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19732"
+          ]
         },
         {
           "id": "DE-saint-georges",
@@ -421,7 +525,10 @@
           "tier": 2,
           "county": "New Castle",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19733"
+          ]
         }
       ],
       "adTargeting": {
@@ -493,7 +600,10 @@
           "tier": 2,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19950"
+          ]
         },
         {
           "id": "DE-fenwick-island",
@@ -502,7 +612,10 @@
           "tier": 2,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19944"
+          ]
         },
         {
           "id": "DE-seaford",
@@ -511,7 +624,10 @@
           "tier": 2,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19973"
+          ]
         },
         {
           "id": "DE-georgetown",
@@ -520,7 +636,10 @@
           "tier": 2,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19947"
+          ]
         },
         {
           "id": "DE-milford",
@@ -529,7 +648,10 @@
           "tier": 2,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19963"
+          ]
         },
         {
           "id": "DE-bethany-beach",
@@ -538,7 +660,10 @@
           "tier": 2,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19930"
+          ]
         },
         {
           "id": "DE-laurel",
@@ -547,7 +672,10 @@
           "tier": 2,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19956"
+          ]
         },
         {
           "id": "DE-lincoln",
@@ -556,7 +684,10 @@
           "tier": 2,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19960"
+          ]
         },
         {
           "id": "DE-dagsboro",
@@ -565,7 +696,10 @@
           "tier": 2,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19939"
+          ]
         },
         {
           "id": "DE-delmar",
@@ -574,7 +708,10 @@
           "tier": 2,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19940"
+          ]
         },
         {
           "id": "DE-lewes",
@@ -583,7 +720,10 @@
           "tier": 2,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19958"
+          ]
         },
         {
           "id": "DE-ocean-view",
@@ -592,7 +732,10 @@
           "tier": 2,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19970"
+          ]
         },
         {
           "id": "DE-selbyville",
@@ -601,7 +744,10 @@
           "tier": 2,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19975"
+          ]
         },
         {
           "id": "DE-ellendale",
@@ -610,7 +756,10 @@
           "tier": 2,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19941"
+          ]
         },
         {
           "id": "DE-millsboro",
@@ -619,7 +768,10 @@
           "tier": 2,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19966"
+          ]
         },
         {
           "id": "DE-bridgeville",
@@ -628,7 +780,10 @@
           "tier": 2,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19933"
+          ]
         },
         {
           "id": "DE-millville",
@@ -637,7 +792,10 @@
           "tier": 2,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19967"
+          ]
         },
         {
           "id": "DE-rehoboth-beach",
@@ -646,7 +804,10 @@
           "tier": 2,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19971"
+          ]
         },
         {
           "id": "DE-milton",
@@ -655,7 +816,10 @@
           "tier": 2,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19968"
+          ]
         },
         {
           "id": "DE-frankford",
@@ -664,7 +828,10 @@
           "tier": 2,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19945"
+          ]
         },
         {
           "id": "DE-bethel",
@@ -673,7 +840,10 @@
           "tier": 2,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19931"
+          ]
         },
         {
           "id": "DE-harbeson",
@@ -682,7 +852,10 @@
           "tier": 2,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19951"
+          ]
         }
       ],
       "adTargeting": {
@@ -761,7 +934,19 @@
           "tier": 2,
           "county": "New Castle",
           "zipCount": 10,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19806",
+            "19804",
+            "19801",
+            "19807",
+            "19808",
+            "19803",
+            "19805",
+            "19809",
+            "19810",
+            "19802"
+          ]
         },
         {
           "id": "DE-newark",
@@ -770,7 +955,14 @@
           "tier": 2,
           "county": "New Castle",
           "zipCount": 5,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19711",
+            "19717",
+            "19713",
+            "19716",
+            "19702"
+          ]
         },
         {
           "id": "DE-odessa",
@@ -779,7 +971,10 @@
           "tier": 2,
           "county": "New Castle",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19730"
+          ]
         },
         {
           "id": "DE-townsend",
@@ -788,7 +983,10 @@
           "tier": 2,
           "county": "New Castle",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19734"
+          ]
         },
         {
           "id": "DE-new-castle",
@@ -797,7 +995,10 @@
           "tier": 2,
           "county": "New Castle",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19720"
+          ]
         },
         {
           "id": "DE-port-penn",
@@ -806,7 +1007,10 @@
           "tier": 2,
           "county": "New Castle",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19731"
+          ]
         },
         {
           "id": "DE-claymont",
@@ -815,7 +1019,10 @@
           "tier": 2,
           "county": "New Castle",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19703"
+          ]
         },
         {
           "id": "DE-hockessin",
@@ -824,7 +1031,10 @@
           "tier": 2,
           "county": "New Castle",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19707"
+          ]
         },
         {
           "id": "DE-bear",
@@ -833,7 +1043,10 @@
           "tier": 2,
           "county": "New Castle",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19701"
+          ]
         },
         {
           "id": "DE-delaware-city",
@@ -842,7 +1055,10 @@
           "tier": 2,
           "county": "New Castle",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19706"
+          ]
         },
         {
           "id": "DE-middletown",
@@ -851,7 +1067,10 @@
           "tier": 2,
           "county": "New Castle",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19709"
+          ]
         },
         {
           "id": "DE-winterthur",
@@ -860,7 +1079,10 @@
           "tier": 2,
           "county": "New Castle",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19735"
+          ]
         },
         {
           "id": "DE-montchanin",
@@ -869,7 +1091,10 @@
           "tier": 2,
           "county": "New Castle",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19710"
+          ]
         },
         {
           "id": "DE-yorklyn",
@@ -878,7 +1103,10 @@
           "tier": 2,
           "county": "New Castle",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19736"
+          ]
         },
         {
           "id": "DE-rockland",
@@ -887,7 +1115,10 @@
           "tier": 2,
           "county": "New Castle",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19732"
+          ]
         },
         {
           "id": "DE-saint-georges",
@@ -896,7 +1127,10 @@
           "tier": 2,
           "county": "New Castle",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "19733"
+          ]
         }
       ],
       "adTargeting": {

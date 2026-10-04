@@ -115,7 +115,12 @@
           "tier": 1,
           "county": "Pennington",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57701",
+            "57703",
+            "57702"
+          ]
         },
         {
           "id": "SD-spearfish",
@@ -124,7 +129,11 @@
           "tier": 1,
           "county": "Lawrence",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57783",
+            "57799"
+          ]
         },
         {
           "id": "SD-quinn",
@@ -133,7 +142,10 @@
           "tier": 1,
           "county": "Pennington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57775"
+          ]
         },
         {
           "id": "SD-wasta",
@@ -142,7 +154,10 @@
           "tier": 1,
           "county": "Pennington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57791"
+          ]
         },
         {
           "id": "SD-nisland",
@@ -151,7 +166,10 @@
           "tier": 1,
           "county": "Butte",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57762"
+          ]
         },
         {
           "id": "SD-pringle",
@@ -160,7 +178,10 @@
           "tier": 1,
           "county": "Custer",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57773"
+          ]
         },
         {
           "id": "SD-caputa",
@@ -169,7 +190,10 @@
           "tier": 1,
           "county": "Pennington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57725"
+          ]
         },
         {
           "id": "SD-buffalo-gap",
@@ -178,7 +202,10 @@
           "tier": 1,
           "county": "Custer",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57722"
+          ]
         },
         {
           "id": "SD-oelrichs",
@@ -187,7 +214,10 @@
           "tier": 1,
           "county": "Fall River",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57763"
+          ]
         },
         {
           "id": "SD-fairburn",
@@ -196,7 +226,10 @@
           "tier": 1,
           "county": "Custer",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57738"
+          ]
         },
         {
           "id": "SD-faith",
@@ -205,7 +238,10 @@
           "tier": 1,
           "county": "Meade",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57626"
+          ]
         },
         {
           "id": "SD-newell",
@@ -214,7 +250,10 @@
           "tier": 1,
           "county": "Butte",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57760"
+          ]
         },
         {
           "id": "SD-hill-city",
@@ -223,7 +262,10 @@
           "tier": 1,
           "county": "Pennington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57745"
+          ]
         },
         {
           "id": "SD-piedmont",
@@ -232,7 +274,10 @@
           "tier": 1,
           "county": "Meade",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57769"
+          ]
         },
         {
           "id": "SD-hermosa",
@@ -241,7 +286,10 @@
           "tier": 1,
           "county": "Custer",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57744"
+          ]
         },
         {
           "id": "SD-vale",
@@ -250,7 +298,10 @@
           "tier": 1,
           "county": "Butte",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57788"
+          ]
         },
         {
           "id": "SD-new-underwood",
@@ -259,7 +310,10 @@
           "tier": 1,
           "county": "Pennington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57761"
+          ]
         },
         {
           "id": "SD-belle-fourche",
@@ -268,7 +322,10 @@
           "tier": 1,
           "county": "Butte",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57717"
+          ]
         },
         {
           "id": "SD-keystone",
@@ -277,7 +334,10 @@
           "tier": 1,
           "county": "Pennington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57751"
+          ]
         },
         {
           "id": "SD-deadwood",
@@ -286,7 +346,10 @@
           "tier": 1,
           "county": "Lawrence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57732"
+          ]
         },
         {
           "id": "SD-custer",
@@ -295,7 +358,10 @@
           "tier": 1,
           "county": "Custer",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57730"
+          ]
         },
         {
           "id": "SD-smithwick",
@@ -304,7 +370,10 @@
           "tier": 1,
           "county": "Fall River",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57782"
+          ]
         },
         {
           "id": "SD-oral",
@@ -313,7 +382,10 @@
           "tier": 1,
           "county": "Fall River",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57766"
+          ]
         },
         {
           "id": "SD-hot-springs",
@@ -322,7 +394,10 @@
           "tier": 1,
           "county": "Fall River",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57747"
+          ]
         },
         {
           "id": "SD-wall",
@@ -331,7 +406,10 @@
           "tier": 1,
           "county": "Pennington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57790"
+          ]
         },
         {
           "id": "SD-whitewood",
@@ -340,7 +418,10 @@
           "tier": 1,
           "county": "Lawrence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57793"
+          ]
         },
         {
           "id": "SD-box-elder",
@@ -349,7 +430,10 @@
           "tier": 1,
           "county": "Pennington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57719"
+          ]
         },
         {
           "id": "SD-sturgis",
@@ -358,7 +442,10 @@
           "tier": 1,
           "county": "Meade",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57785"
+          ]
         },
         {
           "id": "SD-lead",
@@ -367,7 +454,10 @@
           "tier": 1,
           "county": "Lawrence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57754"
+          ]
         },
         {
           "id": "SD-edgemont",
@@ -376,7 +466,10 @@
           "tier": 1,
           "county": "Fall River",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57735"
+          ]
         },
         {
           "id": "SD-black-hawk",
@@ -385,7 +478,10 @@
           "tier": 1,
           "county": "Meade",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57718"
+          ]
         },
         {
           "id": "SD-ellsworth-afb",
@@ -394,7 +490,10 @@
           "tier": 1,
           "county": "Meade",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57706"
+          ]
         },
         {
           "id": "SD-owanka",
@@ -403,7 +502,10 @@
           "tier": 1,
           "county": "Pennington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57767"
+          ]
         },
         {
           "id": "SD-nemo",
@@ -412,7 +514,10 @@
           "tier": 1,
           "county": "Lawrence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57759"
+          ]
         },
         {
           "id": "SD-white-owl",
@@ -421,7 +526,10 @@
           "tier": 1,
           "county": "Meade",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57792"
+          ]
         },
         {
           "id": "SD-union-center",
@@ -430,7 +538,10 @@
           "tier": 1,
           "county": "Meade",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57787"
+          ]
         },
         {
           "id": "SD-fort-meade",
@@ -439,7 +550,10 @@
           "tier": 1,
           "county": "Meade",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57741"
+          ]
         },
         {
           "id": "SD-howes",
@@ -448,7 +562,10 @@
           "tier": 1,
           "county": "Meade",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57748"
+          ]
         },
         {
           "id": "SD-mud-butte",
@@ -457,7 +574,10 @@
           "tier": 1,
           "county": "Meade",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57758"
+          ]
         },
         {
           "id": "SD-saint-onge",
@@ -466,7 +586,10 @@
           "tier": 1,
           "county": "Lawrence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57779"
+          ]
         },
         {
           "id": "SD-scenic",
@@ -475,7 +598,10 @@
           "tier": 1,
           "county": "Pennington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57780"
+          ]
         },
         {
           "id": "SD-dudley",
@@ -484,7 +610,10 @@
           "tier": 1,
           "county": "Fall River",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57735"
+          ]
         },
         {
           "id": "SD-provo",
@@ -493,7 +622,10 @@
           "tier": 1,
           "county": "Fall River",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57735"
+          ]
         },
         {
           "id": "SD-ardmore",
@@ -511,7 +643,10 @@
           "tier": 1,
           "county": "Pennington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57701"
+          ]
         }
       ],
       "adTargeting": {
@@ -645,7 +780,10 @@
           "tier": 1,
           "county": "Hughes",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57501"
+          ]
         },
         {
           "id": "SD-fairfax",
@@ -654,7 +792,10 @@
           "tier": 1,
           "county": "Gregory",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57335"
+          ]
         },
         {
           "id": "SD-dallas",
@@ -663,7 +804,10 @@
           "tier": 1,
           "county": "Gregory",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57529"
+          ]
         },
         {
           "id": "SD-murdo",
@@ -672,7 +816,10 @@
           "tier": 1,
           "county": "Jones",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57559"
+          ]
         },
         {
           "id": "SD-lebanon",
@@ -681,7 +828,10 @@
           "tier": 1,
           "county": "Potter",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57455"
+          ]
         },
         {
           "id": "SD-timber-lake",
@@ -690,7 +840,10 @@
           "tier": 1,
           "county": "Dewey",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57656"
+          ]
         },
         {
           "id": "SD-wood",
@@ -699,7 +852,10 @@
           "tier": 1,
           "county": "Mellette",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57585"
+          ]
         },
         {
           "id": "SD-fort-pierre",
@@ -708,7 +864,10 @@
           "tier": 1,
           "county": "Stanley",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57532"
+          ]
         },
         {
           "id": "SD-onida",
@@ -717,7 +876,10 @@
           "tier": 1,
           "county": "Sully",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57564"
+          ]
         },
         {
           "id": "SD-dupree",
@@ -726,7 +888,10 @@
           "tier": 1,
           "county": "Ziebach",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57623"
+          ]
         },
         {
           "id": "SD-hamill",
@@ -735,7 +900,10 @@
           "tier": 1,
           "county": "Tripp",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57534"
+          ]
         },
         {
           "id": "SD-hoven",
@@ -744,7 +912,10 @@
           "tier": 1,
           "county": "Potter",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57450"
+          ]
         },
         {
           "id": "SD-reliance",
@@ -753,7 +924,10 @@
           "tier": 1,
           "county": "Lyman",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57569"
+          ]
         },
         {
           "id": "SD-blunt",
@@ -762,7 +936,10 @@
           "tier": 1,
           "county": "Hughes",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57522"
+          ]
         },
         {
           "id": "SD-kennebec",
@@ -771,7 +948,10 @@
           "tier": 1,
           "county": "Lyman",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57544"
+          ]
         },
         {
           "id": "SD-morristown",
@@ -780,7 +960,10 @@
           "tier": 1,
           "county": "Corson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57645"
+          ]
         },
         {
           "id": "SD-midland",
@@ -789,7 +972,10 @@
           "tier": 1,
           "county": "Haakon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57552"
+          ]
         },
         {
           "id": "SD-bonesteel",
@@ -798,7 +984,10 @@
           "tier": 1,
           "county": "Gregory",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57317"
+          ]
         },
         {
           "id": "SD-kadoka",
@@ -807,7 +996,10 @@
           "tier": 1,
           "county": "Jackson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57543"
+          ]
         },
         {
           "id": "SD-mission",
@@ -816,7 +1008,10 @@
           "tier": 1,
           "county": "Todd",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57555"
+          ]
         },
         {
           "id": "SD-belvidere",
@@ -825,7 +1020,10 @@
           "tier": 1,
           "county": "Jackson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57521"
+          ]
         },
         {
           "id": "SD-draper",
@@ -834,7 +1032,10 @@
           "tier": 1,
           "county": "Jones",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57531"
+          ]
         },
         {
           "id": "SD-agar",
@@ -843,7 +1044,10 @@
           "tier": 1,
           "county": "Sully",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57520"
+          ]
         },
         {
           "id": "SD-philip",
@@ -852,7 +1056,10 @@
           "tier": 1,
           "county": "Haakon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57567"
+          ]
         },
         {
           "id": "SD-kimball",
@@ -861,7 +1068,10 @@
           "tier": 1,
           "county": "Brule",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57355"
+          ]
         },
         {
           "id": "SD-burke",
@@ -870,7 +1080,10 @@
           "tier": 1,
           "county": "Gregory",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57523"
+          ]
         },
         {
           "id": "SD-harrold",
@@ -879,7 +1092,10 @@
           "tier": 1,
           "county": "Hughes",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57536"
+          ]
         },
         {
           "id": "SD-interior",
@@ -888,7 +1104,10 @@
           "tier": 1,
           "county": "Jackson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57750"
+          ]
         },
         {
           "id": "SD-pukwana",
@@ -897,7 +1116,10 @@
           "tier": 1,
           "county": "Brule",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57370"
+          ]
         },
         {
           "id": "SD-cherry-creek",
@@ -906,7 +1128,10 @@
           "tier": 1,
           "county": "Ziebach",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57622"
+          ]
         },
         {
           "id": "SD-okreek",
@@ -915,7 +1140,10 @@
           "tier": 1,
           "county": "Todd",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57563"
+          ]
         },
         {
           "id": "SD-whitehorse",
@@ -924,7 +1152,10 @@
           "tier": 1,
           "county": "Dewey",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57661"
+          ]
         },
         {
           "id": "SD-lantry",
@@ -933,7 +1164,10 @@
           "tier": 1,
           "county": "Dewey",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57636"
+          ]
         },
         {
           "id": "SD-oacoma",
@@ -942,7 +1176,10 @@
           "tier": 1,
           "county": "Lyman",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57365"
+          ]
         },
         {
           "id": "SD-little-eagle",
@@ -951,7 +1188,10 @@
           "tier": 1,
           "county": "Corson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57639"
+          ]
         },
         {
           "id": "SD-colome",
@@ -960,7 +1200,10 @@
           "tier": 1,
           "county": "Tripp",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57528"
+          ]
         },
         {
           "id": "SD-winner",
@@ -969,7 +1212,10 @@
           "tier": 1,
           "county": "Tripp",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57580"
+          ]
         },
         {
           "id": "SD-white-river",
@@ -978,7 +1224,10 @@
           "tier": 1,
           "county": "Mellette",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57579"
+          ]
         },
         {
           "id": "SD-tolstoy",
@@ -987,7 +1236,10 @@
           "tier": 1,
           "county": "Potter",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57475"
+          ]
         },
         {
           "id": "SD-herrick",
@@ -996,7 +1248,10 @@
           "tier": 1,
           "county": "Gregory",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57538"
+          ]
         },
         {
           "id": "SD-parmelee",
@@ -1005,7 +1260,10 @@
           "tier": 1,
           "county": "Todd",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57566"
+          ]
         },
         {
           "id": "SD-rosebud",
@@ -1014,7 +1272,10 @@
           "tier": 1,
           "county": "Todd",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57570"
+          ]
         },
         {
           "id": "SD-chamberlain",
@@ -1023,7 +1284,10 @@
           "tier": 1,
           "county": "Brule",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57325"
+          ]
         },
         {
           "id": "SD-presho",
@@ -1032,7 +1296,10 @@
           "tier": 1,
           "county": "Lyman",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57568"
+          ]
         },
         {
           "id": "SD-norris",
@@ -1041,7 +1308,10 @@
           "tier": 1,
           "county": "Mellette",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57560"
+          ]
         },
         {
           "id": "SD-wanblee",
@@ -1050,7 +1320,10 @@
           "tier": 1,
           "county": "Jackson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57577"
+          ]
         },
         {
           "id": "SD-wakpala",
@@ -1059,7 +1332,10 @@
           "tier": 1,
           "county": "Corson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57658"
+          ]
         },
         {
           "id": "SD-vivian",
@@ -1068,7 +1344,10 @@
           "tier": 1,
           "county": "Lyman",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57576"
+          ]
         },
         {
           "id": "SD-ideal",
@@ -1077,7 +1356,10 @@
           "tier": 1,
           "county": "Tripp",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57541"
+          ]
         },
         {
           "id": "SD-gettysburg",
@@ -1086,7 +1368,10 @@
           "tier": 1,
           "county": "Potter",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57442"
+          ]
         },
         {
           "id": "SD-bullhead",
@@ -1095,7 +1380,10 @@
           "tier": 1,
           "county": "Corson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57621"
+          ]
         },
         {
           "id": "SD-gregory",
@@ -1104,7 +1392,10 @@
           "tier": 1,
           "county": "Gregory",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57533"
+          ]
         },
         {
           "id": "SD-eagle-butte",
@@ -1113,7 +1404,10 @@
           "tier": 1,
           "county": "Dewey",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57625"
+          ]
         },
         {
           "id": "SD-isabel",
@@ -1122,7 +1416,10 @@
           "tier": 1,
           "county": "Dewey",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57633"
+          ]
         },
         {
           "id": "SD-okaton",
@@ -1131,7 +1428,10 @@
           "tier": 1,
           "county": "Jones",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57562"
+          ]
         },
         {
           "id": "SD-lower-brule",
@@ -1140,7 +1440,10 @@
           "tier": 1,
           "county": "Lyman",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57548"
+          ]
         },
         {
           "id": "SD-saint-charles",
@@ -1149,7 +1452,10 @@
           "tier": 1,
           "county": "Gregory",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57571"
+          ]
         },
         {
           "id": "SD-hayes",
@@ -1158,7 +1464,10 @@
           "tier": 1,
           "county": "Stanley",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57537"
+          ]
         },
         {
           "id": "SD-saint-francis",
@@ -1167,7 +1476,10 @@
           "tier": 1,
           "county": "Todd",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57572"
+          ]
         },
         {
           "id": "SD-trail-city",
@@ -1176,7 +1488,10 @@
           "tier": 1,
           "county": "Corson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57657"
+          ]
         },
         {
           "id": "SD-long-valley",
@@ -1185,7 +1500,10 @@
           "tier": 1,
           "county": "Jackson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57547"
+          ]
         },
         {
           "id": "SD-mc-laughlin",
@@ -1194,7 +1512,10 @@
           "tier": 1,
           "county": "Corson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57642"
+          ]
         },
         {
           "id": "SD-ridgeview",
@@ -1203,7 +1524,10 @@
           "tier": 1,
           "county": "Dewey",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57652"
+          ]
         },
         {
           "id": "SD-milesville",
@@ -1212,7 +1536,10 @@
           "tier": 1,
           "county": "Haakon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57553"
+          ]
         },
         {
           "id": "SD-keldron",
@@ -1221,7 +1548,10 @@
           "tier": 1,
           "county": "Corson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57634"
+          ]
         },
         {
           "id": "SD-mc-intosh",
@@ -1230,7 +1560,10 @@
           "tier": 1,
           "county": "Corson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57641"
+          ]
         },
         {
           "id": "SD-witten",
@@ -1239,7 +1572,10 @@
           "tier": 1,
           "county": "Tripp",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57584"
+          ]
         },
         {
           "id": "SD-watauga",
@@ -1248,7 +1584,10 @@
           "tier": 1,
           "county": "Corson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57660"
+          ]
         },
         {
           "id": "SD-glencross",
@@ -1257,7 +1596,10 @@
           "tier": 1,
           "county": "Dewey",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57630"
+          ]
         },
         {
           "id": "SD-st-charles",
@@ -1266,7 +1608,10 @@
           "tier": 1,
           "county": "Gregory",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57571"
+          ]
         },
         {
           "id": "SD-platte-colony",
@@ -1302,7 +1647,10 @@
           "tier": 1,
           "county": "Todd",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57555"
+          ]
         }
       ],
       "adTargeting": {
@@ -1459,7 +1807,18 @@
           "tier": 1,
           "county": "Minnehaha",
           "zipCount": 9,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57106",
+            "57110",
+            "57105",
+            "57107",
+            "57108",
+            "57117",
+            "57197",
+            "57104",
+            "57103"
+          ]
         },
         {
           "id": "SD-mission-hill",
@@ -1468,7 +1827,10 @@
           "tier": 1,
           "county": "Yankton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57046"
+          ]
         },
         {
           "id": "SD-claremont",
@@ -1477,7 +1839,10 @@
           "tier": 1,
           "county": "Brown",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57432"
+          ]
         },
         {
           "id": "SD-egan",
@@ -1486,7 +1851,10 @@
           "tier": 1,
           "county": "Moody",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57024"
+          ]
         },
         {
           "id": "SD-winfred",
@@ -1495,7 +1863,10 @@
           "tier": 1,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57076"
+          ]
         },
         {
           "id": "SD-colton",
@@ -1504,7 +1875,10 @@
           "tier": 1,
           "county": "Minnehaha",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57018"
+          ]
         },
         {
           "id": "SD-humboldt",
@@ -1513,7 +1887,10 @@
           "tier": 1,
           "county": "Minnehaha",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57035"
+          ]
         },
         {
           "id": "SD-columbia",
@@ -1522,7 +1899,10 @@
           "tier": 1,
           "county": "Brown",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57433"
+          ]
         },
         {
           "id": "SD-groton",
@@ -1531,7 +1911,10 @@
           "tier": 1,
           "county": "Brown",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57445"
+          ]
         },
         {
           "id": "SD-hecla",
@@ -1540,7 +1923,10 @@
           "tier": 1,
           "county": "Brown",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57446"
+          ]
         },
         {
           "id": "SD-warner",
@@ -1549,7 +1935,10 @@
           "tier": 1,
           "county": "Brown",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57479"
+          ]
         },
         {
           "id": "SD-hudson",
@@ -1558,7 +1947,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57034"
+          ]
         },
         {
           "id": "SD-sinai",
@@ -1567,7 +1959,10 @@
           "tier": 1,
           "county": "Brookings",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57061"
+          ]
         },
         {
           "id": "SD-centerville",
@@ -1576,7 +1971,10 @@
           "tier": 1,
           "county": "Turner",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57014"
+          ]
         },
         {
           "id": "SD-monroe",
@@ -1585,7 +1983,10 @@
           "tier": 1,
           "county": "Turner",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57047"
+          ]
         },
         {
           "id": "SD-lesterville",
@@ -1594,7 +1995,10 @@
           "tier": 1,
           "county": "Yankton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57040"
+          ]
         },
         {
           "id": "SD-wakonda",
@@ -1603,7 +2007,10 @@
           "tier": 1,
           "county": "Clay",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57073"
+          ]
         },
         {
           "id": "SD-spencer",
@@ -1612,7 +2019,10 @@
           "tier": 1,
           "county": "Mccook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57374"
+          ]
         },
         {
           "id": "SD-trent",
@@ -1621,7 +2031,10 @@
           "tier": 1,
           "county": "Moody",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57065"
+          ]
         },
         {
           "id": "SD-florence",
@@ -1630,7 +2043,10 @@
           "tier": 1,
           "county": "Codington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57235"
+          ]
         },
         {
           "id": "SD-henry",
@@ -1639,7 +2055,10 @@
           "tier": 1,
           "county": "Codington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57243"
+          ]
         },
         {
           "id": "SD-ferney",
@@ -1648,7 +2067,10 @@
           "tier": 1,
           "county": "Brown",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57439"
+          ]
         },
         {
           "id": "SD-lyons",
@@ -1657,7 +2079,10 @@
           "tier": 1,
           "county": "Minnehaha",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57041"
+          ]
         },
         {
           "id": "SD-burbank",
@@ -1666,7 +2091,10 @@
           "tier": 1,
           "county": "Clay",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57010"
+          ]
         },
         {
           "id": "SD-fairview",
@@ -1675,7 +2103,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57027"
+          ]
         },
         {
           "id": "SD-kranzburg",
@@ -1684,7 +2115,10 @@
           "tier": 1,
           "county": "Codington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57245"
+          ]
         },
         {
           "id": "SD-elkton",
@@ -1693,7 +2127,10 @@
           "tier": 1,
           "county": "Brookings",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57026"
+          ]
         },
         {
           "id": "SD-crooks",
@@ -1702,7 +2139,10 @@
           "tier": 1,
           "county": "Minnehaha",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57020"
+          ]
         },
         {
           "id": "SD-viborg",
@@ -1711,7 +2151,10 @@
           "tier": 1,
           "county": "Turner",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57070"
+          ]
         },
         {
           "id": "SD-ramona",
@@ -1720,7 +2163,10 @@
           "tier": 1,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57054"
+          ]
         },
         {
           "id": "SD-wallace",
@@ -1729,7 +2175,10 @@
           "tier": 1,
           "county": "Codington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57272"
+          ]
         },
         {
           "id": "SD-worthing",
@@ -1738,7 +2187,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57077"
+          ]
         },
         {
           "id": "SD-garretson",
@@ -1747,7 +2199,10 @@
           "tier": 1,
           "county": "Minnehaha",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57030"
+          ]
         },
         {
           "id": "SD-westport",
@@ -1756,7 +2211,10 @@
           "tier": 1,
           "county": "Brown",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57481"
+          ]
         },
         {
           "id": "SD-yankton",
@@ -1765,7 +2223,10 @@
           "tier": 1,
           "county": "Yankton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57078"
+          ]
         },
         {
           "id": "SD-frederick",
@@ -1774,7 +2235,10 @@
           "tier": 1,
           "county": "Brown",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57441"
+          ]
         },
         {
           "id": "SD-alcester",
@@ -1783,7 +2247,10 @@
           "tier": 1,
           "county": "Union",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57001"
+          ]
         },
         {
           "id": "SD-jefferson",
@@ -1792,7 +2259,10 @@
           "tier": 1,
           "county": "Union",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57038"
+          ]
         },
         {
           "id": "SD-chancellor",
@@ -1801,7 +2271,10 @@
           "tier": 1,
           "county": "Turner",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57015"
+          ]
         },
         {
           "id": "SD-south-shore",
@@ -1810,7 +2283,10 @@
           "tier": 1,
           "county": "Codington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57263"
+          ]
         },
         {
           "id": "SD-canistota",
@@ -1819,7 +2295,10 @@
           "tier": 1,
           "county": "Mccook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57012"
+          ]
         },
         {
           "id": "SD-mount-vernon",
@@ -1828,7 +2307,10 @@
           "tier": 1,
           "county": "Davison",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57363"
+          ]
         },
         {
           "id": "SD-parker",
@@ -1837,7 +2319,10 @@
           "tier": 1,
           "county": "Turner",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57053"
+          ]
         },
         {
           "id": "SD-nunda",
@@ -1846,7 +2331,10 @@
           "tier": 1,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57050"
+          ]
         },
         {
           "id": "SD-wentworth",
@@ -1855,7 +2343,10 @@
           "tier": 1,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57075"
+          ]
         },
         {
           "id": "SD-aberdeen",
@@ -1864,7 +2355,10 @@
           "tier": 1,
           "county": "Brown",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57401"
+          ]
         },
         {
           "id": "SD-marion",
@@ -1873,7 +2367,10 @@
           "tier": 1,
           "county": "Turner",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57043"
+          ]
         },
         {
           "id": "SD-hurley",
@@ -1882,7 +2379,10 @@
           "tier": 1,
           "county": "Turner",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57036"
+          ]
         },
         {
           "id": "SD-aurora",
@@ -1891,7 +2391,10 @@
           "tier": 1,
           "county": "Brookings",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57002"
+          ]
         },
         {
           "id": "SD-beresford",
@@ -1900,7 +2403,10 @@
           "tier": 1,
           "county": "Union",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57004"
+          ]
         },
         {
           "id": "SD-chester",
@@ -1909,7 +2415,10 @@
           "tier": 1,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57016"
+          ]
         },
         {
           "id": "SD-brandon",
@@ -1918,7 +2427,10 @@
           "tier": 1,
           "county": "Minnehaha",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57005"
+          ]
         },
         {
           "id": "SD-dell-rapids",
@@ -1927,7 +2439,10 @@
           "tier": 1,
           "county": "Minnehaha",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57022"
+          ]
         },
         {
           "id": "SD-valley-springs",
@@ -1936,7 +2451,10 @@
           "tier": 1,
           "county": "Minnehaha",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57068"
+          ]
         },
         {
           "id": "SD-davis",
@@ -1945,7 +2463,10 @@
           "tier": 1,
           "county": "Turner",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57021"
+          ]
         },
         {
           "id": "SD-irene",
@@ -1954,7 +2475,10 @@
           "tier": 1,
           "county": "Clay",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57037"
+          ]
         },
         {
           "id": "SD-canton",
@@ -1963,7 +2487,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57013"
+          ]
         },
         {
           "id": "SD-harrisburg",
@@ -1972,7 +2499,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57032"
+          ]
         },
         {
           "id": "SD-north-sioux-city",
@@ -1981,7 +2511,10 @@
           "tier": 1,
           "county": "Union",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57049"
+          ]
         },
         {
           "id": "SD-gayville",
@@ -1990,7 +2523,10 @@
           "tier": 1,
           "county": "Yankton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57031"
+          ]
         },
         {
           "id": "SD-utica",
@@ -1999,7 +2535,10 @@
           "tier": 1,
           "county": "Yankton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57067"
+          ]
         },
         {
           "id": "SD-white",
@@ -2008,7 +2547,10 @@
           "tier": 1,
           "county": "Brookings",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57276"
+          ]
         },
         {
           "id": "SD-stratford",
@@ -2017,7 +2559,10 @@
           "tier": 1,
           "county": "Brown",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57474"
+          ]
         },
         {
           "id": "SD-montrose",
@@ -2026,7 +2571,10 @@
           "tier": 1,
           "county": "Mccook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57048"
+          ]
         },
         {
           "id": "SD-watertown",
@@ -2035,7 +2583,10 @@
           "tier": 1,
           "county": "Codington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57201"
+          ]
         },
         {
           "id": "SD-ethan",
@@ -2044,7 +2595,10 @@
           "tier": 1,
           "county": "Davison",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57334"
+          ]
         },
         {
           "id": "SD-mitchell",
@@ -2053,7 +2607,10 @@
           "tier": 1,
           "county": "Davison",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57301"
+          ]
         },
         {
           "id": "SD-baltic",
@@ -2062,7 +2619,10 @@
           "tier": 1,
           "county": "Minnehaha",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57003"
+          ]
         },
         {
           "id": "SD-bath",
@@ -2071,7 +2631,10 @@
           "tier": 1,
           "county": "Brown",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57427"
+          ]
         },
         {
           "id": "SD-vermillion",
@@ -2080,7 +2643,10 @@
           "tier": 1,
           "county": "Clay",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57069"
+          ]
         },
         {
           "id": "SD-tea",
@@ -2089,7 +2655,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57064"
+          ]
         },
         {
           "id": "SD-volga",
@@ -2098,7 +2667,10 @@
           "tier": 1,
           "county": "Brookings",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57071"
+          ]
         },
         {
           "id": "SD-flandreau",
@@ -2107,7 +2679,10 @@
           "tier": 1,
           "county": "Moody",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57028"
+          ]
         },
         {
           "id": "SD-elk-point",
@@ -2116,7 +2691,10 @@
           "tier": 1,
           "county": "Union",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57025"
+          ]
         },
         {
           "id": "SD-colman",
@@ -2125,7 +2703,10 @@
           "tier": 1,
           "county": "Moody",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57017"
+          ]
         },
         {
           "id": "SD-brookings",
@@ -2134,7 +2715,10 @@
           "tier": 1,
           "county": "Brookings",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57006"
+          ]
         },
         {
           "id": "SD-salem",
@@ -2143,7 +2727,10 @@
           "tier": 1,
           "county": "Mccook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57058"
+          ]
         },
         {
           "id": "SD-bridgewater",
@@ -2152,7 +2739,10 @@
           "tier": 1,
           "county": "Mccook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57319"
+          ]
         },
         {
           "id": "SD-madison",
@@ -2161,7 +2751,10 @@
           "tier": 1,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57042"
+          ]
         },
         {
           "id": "SD-hartford",
@@ -2170,7 +2763,10 @@
           "tier": 1,
           "county": "Minnehaha",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57033"
+          ]
         },
         {
           "id": "SD-lennox",
@@ -2179,7 +2775,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57039"
+          ]
         },
         {
           "id": "SD-bruce",
@@ -2188,7 +2787,10 @@
           "tier": 1,
           "county": "Brookings",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57220"
+          ]
         },
         {
           "id": "SD-volin",
@@ -2197,7 +2799,10 @@
           "tier": 1,
           "county": "Yankton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57072"
+          ]
         },
         {
           "id": "SD-barnard",
@@ -2206,7 +2811,10 @@
           "tier": 1,
           "county": "Brown",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57426"
+          ]
         },
         {
           "id": "SD-rutland",
@@ -2215,7 +2823,10 @@
           "tier": 1,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57057"
+          ]
         },
         {
           "id": "SD-renner",
@@ -2224,7 +2835,10 @@
           "tier": 1,
           "county": "Minnehaha",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57055"
+          ]
         },
         {
           "id": "SD-houghton",
@@ -2233,7 +2847,10 @@
           "tier": 1,
           "county": "Brown",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57449"
+          ]
         },
         {
           "id": "SD-rolland-colony",
@@ -2242,7 +2859,10 @@
           "tier": 1,
           "county": "Brookings",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57276"
+          ]
         },
         {
           "id": "SD-cameron-colony",
@@ -2251,7 +2871,10 @@
           "tier": 1,
           "county": "Turner",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57070"
+          ]
         },
         {
           "id": "SD-orland-colony",
@@ -2260,7 +2883,10 @@
           "tier": 1,
           "county": "McCook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57048"
+          ]
         },
         {
           "id": "SD-loomis",
@@ -2269,7 +2895,10 @@
           "tier": 1,
           "county": "Davison",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57301"
+          ]
         },
         {
           "id": "SD-pine-lakes-addition",
@@ -2278,7 +2907,10 @@
           "tier": 1,
           "county": "Minnehaha",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57110"
+          ]
         },
         {
           "id": "SD-hutterville-colony",
@@ -2287,7 +2919,10 @@
           "tier": 1,
           "county": "Brown",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57474"
+          ]
         },
         {
           "id": "SD-bath-corner",
@@ -2296,7 +2931,10 @@
           "tier": 1,
           "county": "Brown",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57427"
+          ]
         },
         {
           "id": "SD-jamesville-colony",
@@ -2305,7 +2943,10 @@
           "tier": 1,
           "county": "Yankton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57067"
+          ]
         },
         {
           "id": "SD-rowena",
@@ -2314,7 +2955,10 @@
           "tier": 1,
           "county": "Minnehaha",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57005"
+          ]
         },
         {
           "id": "SD-meckling",
@@ -2323,7 +2967,10 @@
           "tier": 1,
           "county": "Clay",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57069"
+          ]
         },
         {
           "id": "SD-newdale-colony",
@@ -2332,7 +2979,10 @@
           "tier": 1,
           "county": "Brookings",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57026"
+          ]
         }
       ],
       "adTargeting": {
@@ -2410,7 +3060,18 @@
           "tier": 1,
           "county": "Minnehaha",
           "zipCount": 9,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57106",
+            "57110",
+            "57105",
+            "57107",
+            "57108",
+            "57117",
+            "57197",
+            "57104",
+            "57103"
+          ]
         },
         {
           "id": "SD-colton",
@@ -2419,7 +3080,10 @@
           "tier": 1,
           "county": "Minnehaha",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57018"
+          ]
         },
         {
           "id": "SD-humboldt",
@@ -2428,7 +3092,10 @@
           "tier": 1,
           "county": "Minnehaha",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57035"
+          ]
         },
         {
           "id": "SD-hudson",
@@ -2437,7 +3104,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57034"
+          ]
         },
         {
           "id": "SD-lyons",
@@ -2446,7 +3116,10 @@
           "tier": 1,
           "county": "Minnehaha",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57041"
+          ]
         },
         {
           "id": "SD-fairview",
@@ -2455,7 +3128,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57027"
+          ]
         },
         {
           "id": "SD-crooks",
@@ -2464,7 +3140,10 @@
           "tier": 1,
           "county": "Minnehaha",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57020"
+          ]
         },
         {
           "id": "SD-worthing",
@@ -2473,7 +3152,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57077"
+          ]
         },
         {
           "id": "SD-garretson",
@@ -2482,7 +3164,10 @@
           "tier": 1,
           "county": "Minnehaha",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57030"
+          ]
         },
         {
           "id": "SD-brandon",
@@ -2491,7 +3176,10 @@
           "tier": 1,
           "county": "Minnehaha",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57005"
+          ]
         },
         {
           "id": "SD-dell-rapids",
@@ -2500,7 +3188,10 @@
           "tier": 1,
           "county": "Minnehaha",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57022"
+          ]
         },
         {
           "id": "SD-valley-springs",
@@ -2509,7 +3200,10 @@
           "tier": 1,
           "county": "Minnehaha",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57068"
+          ]
         },
         {
           "id": "SD-canton",
@@ -2518,7 +3212,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57013"
+          ]
         },
         {
           "id": "SD-harrisburg",
@@ -2527,7 +3224,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57032"
+          ]
         },
         {
           "id": "SD-baltic",
@@ -2536,7 +3236,10 @@
           "tier": 1,
           "county": "Minnehaha",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57003"
+          ]
         },
         {
           "id": "SD-tea",
@@ -2545,7 +3248,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57064"
+          ]
         },
         {
           "id": "SD-hartford",
@@ -2554,7 +3260,10 @@
           "tier": 1,
           "county": "Minnehaha",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57033"
+          ]
         },
         {
           "id": "SD-lennox",
@@ -2563,7 +3272,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57039"
+          ]
         },
         {
           "id": "SD-renner",
@@ -2572,7 +3284,10 @@
           "tier": 1,
           "county": "Minnehaha",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57055"
+          ]
         },
         {
           "id": "SD-pine-lakes-addition",
@@ -2581,7 +3296,10 @@
           "tier": 1,
           "county": "Minnehaha",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57110"
+          ]
         },
         {
           "id": "SD-rowena",
@@ -2590,7 +3308,10 @@
           "tier": 1,
           "county": "Minnehaha",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "57005"
+          ]
         }
       ],
       "adTargeting": {

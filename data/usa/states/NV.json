@@ -137,7 +137,46 @@
           "tier": 1,
           "county": "Clark",
           "zipCount": 37,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89120",
+            "89145",
+            "89119",
+            "89147",
+            "89128",
+            "89110",
+            "89108",
+            "89135",
+            "89117",
+            "89131",
+            "89148",
+            "89109",
+            "89122",
+            "89123",
+            "89104",
+            "89129",
+            "89106",
+            "89144",
+            "89146",
+            "89142",
+            "89101",
+            "89139",
+            "89107",
+            "89113",
+            "89102",
+            "89124",
+            "89138",
+            "89115",
+            "89134",
+            "89130",
+            "89156",
+            "89143",
+            "89149",
+            "89141",
+            "89121",
+            "89118",
+            "89103"
+          ]
         },
         {
           "id": "NV-henderson",
@@ -146,7 +185,15 @@
           "tier": 1,
           "county": "Clark",
           "zipCount": 6,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89015",
+            "89074",
+            "89012",
+            "89052",
+            "89011",
+            "89014"
+          ]
         },
         {
           "id": "NV-north-las-vegas",
@@ -155,7 +202,14 @@
           "tier": 1,
           "county": "Clark",
           "zipCount": 5,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89086",
+            "89031",
+            "89084",
+            "89030",
+            "89032"
+          ]
         },
         {
           "id": "NV-pahrump",
@@ -164,7 +218,12 @@
           "tier": 1,
           "county": "Nye",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89060",
+            "89061",
+            "89048"
+          ]
         },
         {
           "id": "NV-jean",
@@ -173,7 +232,11 @@
           "tier": 1,
           "county": "Clark",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89026",
+            "89019"
+          ]
         },
         {
           "id": "NV-searchlight",
@@ -182,7 +245,10 @@
           "tier": 1,
           "county": "Clark",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89046"
+          ]
         },
         {
           "id": "NV-gabbs",
@@ -191,7 +257,10 @@
           "tier": 1,
           "county": "Nye",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89409"
+          ]
         },
         {
           "id": "NV-laughlin",
@@ -200,7 +269,10 @@
           "tier": 1,
           "county": "Clark",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89029"
+          ]
         },
         {
           "id": "NV-moapa-town",
@@ -209,7 +281,10 @@
           "tier": 1,
           "county": "Clark",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89025"
+          ]
         },
         {
           "id": "NV-boulder-city",
@@ -218,7 +293,10 @@
           "tier": 1,
           "county": "Clark",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89005"
+          ]
         },
         {
           "id": "NV-nellis-afb",
@@ -227,7 +305,10 @@
           "tier": 1,
           "county": "Clark",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89191"
+          ]
         },
         {
           "id": "NV-beatty",
@@ -236,7 +317,10 @@
           "tier": 1,
           "county": "Nye",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89003"
+          ]
         },
         {
           "id": "NV-tonopah",
@@ -245,7 +329,10 @@
           "tier": 1,
           "county": "Nye",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89049"
+          ]
         },
         {
           "id": "NV-blue-diamond",
@@ -254,7 +341,10 @@
           "tier": 1,
           "county": "Clark",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89004"
+          ]
         },
         {
           "id": "NV-bunkerville",
@@ -263,7 +353,10 @@
           "tier": 1,
           "county": "Clark",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89007"
+          ]
         },
         {
           "id": "NV-mesquite",
@@ -272,7 +365,10 @@
           "tier": 1,
           "county": "Clark",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89027"
+          ]
         },
         {
           "id": "NV-indian-springs",
@@ -281,7 +377,10 @@
           "tier": 1,
           "county": "Clark",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89018"
+          ]
         },
         {
           "id": "NV-amargosa-valley",
@@ -290,7 +389,10 @@
           "tier": 1,
           "county": "Nye",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89020"
+          ]
         },
         {
           "id": "NV-logandale",
@@ -299,7 +401,10 @@
           "tier": 1,
           "county": "Clark",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89021"
+          ]
         },
         {
           "id": "NV-overton",
@@ -308,7 +413,10 @@
           "tier": 1,
           "county": "Clark",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89040"
+          ]
         },
         {
           "id": "NV-round-mountain",
@@ -317,7 +425,10 @@
           "tier": 1,
           "county": "Nye",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89045"
+          ]
         },
         {
           "id": "NV-moapa",
@@ -326,7 +437,10 @@
           "tier": 1,
           "county": "Clark",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89025"
+          ]
         },
         {
           "id": "NV-manhattan",
@@ -335,7 +449,10 @@
           "tier": 1,
           "county": "Nye",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89022"
+          ]
         },
         {
           "id": "NV-las-vegas-the-las-vegas-strip-downtown",
@@ -344,7 +461,11 @@
           "tier": 2,
           "county": "Clark",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89101",
+            "89109"
+          ]
         },
         {
           "id": "NV-las-vegas-summerlin",
@@ -353,7 +474,12 @@
           "tier": 2,
           "county": "Clark",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89134",
+            "89138",
+            "89144"
+          ]
         }
       ],
       "adTargeting": {
@@ -450,7 +576,14 @@
           "tier": 1,
           "county": "Carson City",
           "zipCount": 5,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89703",
+            "89706",
+            "89701",
+            "89705",
+            "89702"
+          ]
         },
         {
           "id": "NV-reno",
@@ -459,7 +592,18 @@
           "tier": 1,
           "county": "Washoe",
           "zipCount": 9,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89512",
+            "89501",
+            "89502",
+            "89503",
+            "89509",
+            "89506",
+            "89511",
+            "89510",
+            "89523"
+          ]
         },
         {
           "id": "NV-sparks",
@@ -468,7 +612,12 @@
           "tier": 1,
           "county": "Washoe",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89436",
+            "89434",
+            "89431"
+          ]
         },
         {
           "id": "NV-incline-village",
@@ -477,7 +626,11 @@
           "tier": 1,
           "county": "Washoe",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89451",
+            "89450"
+          ]
         },
         {
           "id": "NV-stateline",
@@ -486,7 +639,10 @@
           "tier": 1,
           "county": "Douglas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89449"
+          ]
         },
         {
           "id": "NV-glenbrook",
@@ -495,7 +651,10 @@
           "tier": 1,
           "county": "Douglas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89413"
+          ]
         },
         {
           "id": "NV-empire",
@@ -504,7 +663,10 @@
           "tier": 1,
           "county": "Washoe",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89405"
+          ]
         },
         {
           "id": "NV-sun-valley",
@@ -513,7 +675,10 @@
           "tier": 1,
           "county": "Washoe",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89433"
+          ]
         },
         {
           "id": "NV-genoa",
@@ -522,7 +687,10 @@
           "tier": 1,
           "county": "Douglas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89411"
+          ]
         },
         {
           "id": "NV-gardnerville",
@@ -531,7 +699,10 @@
           "tier": 1,
           "county": "Douglas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89410"
+          ]
         },
         {
           "id": "NV-fallon",
@@ -540,7 +711,10 @@
           "tier": 1,
           "county": "Churchill",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89406"
+          ]
         },
         {
           "id": "NV-fernley",
@@ -549,7 +723,10 @@
           "tier": 1,
           "county": "Lyon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89408"
+          ]
         },
         {
           "id": "NV-silver-city",
@@ -558,7 +735,10 @@
           "tier": 1,
           "county": "Lyon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89428"
+          ]
         },
         {
           "id": "NV-gerlach",
@@ -567,7 +747,10 @@
           "tier": 1,
           "county": "Washoe",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89412"
+          ]
         },
         {
           "id": "NV-dayton",
@@ -576,7 +759,10 @@
           "tier": 1,
           "county": "Lyon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89403"
+          ]
         },
         {
           "id": "NV-washoe-valley",
@@ -585,7 +771,10 @@
           "tier": 1,
           "county": "Washoe",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89704"
+          ]
         },
         {
           "id": "NV-wadsworth",
@@ -594,7 +783,10 @@
           "tier": 1,
           "county": "Washoe",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89442"
+          ]
         },
         {
           "id": "NV-silver-springs",
@@ -603,7 +795,10 @@
           "tier": 1,
           "county": "Lyon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89429"
+          ]
         },
         {
           "id": "NV-yerington",
@@ -612,7 +807,10 @@
           "tier": 1,
           "county": "Lyon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89447"
+          ]
         },
         {
           "id": "NV-crystal-bay",
@@ -621,7 +819,10 @@
           "tier": 1,
           "county": "Washoe",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89402"
+          ]
         },
         {
           "id": "NV-verdi",
@@ -630,7 +831,10 @@
           "tier": 1,
           "county": "Washoe",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89439"
+          ]
         },
         {
           "id": "NV-minden",
@@ -639,7 +843,10 @@
           "tier": 1,
           "county": "Douglas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89423"
+          ]
         },
         {
           "id": "NV-zephyr-cove",
@@ -648,7 +855,10 @@
           "tier": 1,
           "county": "Douglas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89448"
+          ]
         },
         {
           "id": "NV-nixon",
@@ -657,7 +867,10 @@
           "tier": 1,
           "county": "Washoe",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89424"
+          ]
         },
         {
           "id": "NV-virginia-city",
@@ -666,7 +879,10 @@
           "tier": 1,
           "county": "Storey",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89440"
+          ]
         },
         {
           "id": "NV-smith",
@@ -675,7 +891,10 @@
           "tier": 1,
           "county": "Lyon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89430"
+          ]
         },
         {
           "id": "NV-wellington",
@@ -684,7 +903,10 @@
           "tier": 1,
           "county": "Lyon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89444"
+          ]
         }
       ],
       "adTargeting": {
@@ -788,7 +1010,11 @@
           "tier": 1,
           "county": "Humboldt",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89446",
+            "89445"
+          ]
         },
         {
           "id": "NV-montello",
@@ -797,7 +1023,10 @@
           "tier": 1,
           "county": "Elko",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89830"
+          ]
         },
         {
           "id": "NV-imlay",
@@ -806,7 +1035,10 @@
           "tier": 1,
           "county": "Pershing",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89418"
+          ]
         },
         {
           "id": "NV-wells",
@@ -815,7 +1047,10 @@
           "tier": 1,
           "county": "Elko",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89835"
+          ]
         },
         {
           "id": "NV-mountain-city",
@@ -824,7 +1059,10 @@
           "tier": 1,
           "county": "Elko",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89831"
+          ]
         },
         {
           "id": "NV-lund",
@@ -833,7 +1071,10 @@
           "tier": 1,
           "county": "White Pine",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89317"
+          ]
         },
         {
           "id": "NV-ruth",
@@ -842,7 +1083,10 @@
           "tier": 1,
           "county": "White Pine",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89319"
+          ]
         },
         {
           "id": "NV-valmy",
@@ -851,7 +1095,10 @@
           "tier": 1,
           "county": "Humboldt",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89438"
+          ]
         },
         {
           "id": "NV-denio",
@@ -860,7 +1107,10 @@
           "tier": 1,
           "county": "Humboldt",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89404"
+          ]
         },
         {
           "id": "NV-mina",
@@ -869,7 +1119,10 @@
           "tier": 1,
           "county": "Mineral",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89422"
+          ]
         },
         {
           "id": "NV-lovelock",
@@ -878,7 +1131,10 @@
           "tier": 1,
           "county": "Pershing",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89419"
+          ]
         },
         {
           "id": "NV-goldfield",
@@ -887,7 +1143,10 @@
           "tier": 1,
           "county": "Esmeralda",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89013"
+          ]
         },
         {
           "id": "NV-dyer",
@@ -896,7 +1155,10 @@
           "tier": 1,
           "county": "Esmeralda",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89010"
+          ]
         },
         {
           "id": "NV-eureka",
@@ -905,7 +1167,10 @@
           "tier": 1,
           "county": "Eureka",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89316"
+          ]
         },
         {
           "id": "NV-orovada",
@@ -914,7 +1179,10 @@
           "tier": 1,
           "county": "Humboldt",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89425"
+          ]
         },
         {
           "id": "NV-jackpot",
@@ -923,7 +1191,10 @@
           "tier": 1,
           "county": "Elko",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89825"
+          ]
         },
         {
           "id": "NV-carlin",
@@ -932,7 +1203,10 @@
           "tier": 1,
           "county": "Elko",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89822"
+          ]
         },
         {
           "id": "NV-west-wendover",
@@ -941,7 +1215,10 @@
           "tier": 1,
           "county": "Elko",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89883"
+          ]
         },
         {
           "id": "NV-elko",
@@ -950,7 +1227,10 @@
           "tier": 1,
           "county": "Elko",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89801"
+          ]
         },
         {
           "id": "NV-ely",
@@ -959,7 +1239,10 @@
           "tier": 1,
           "county": "White Pine",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89301"
+          ]
         },
         {
           "id": "NV-owyhee",
@@ -968,7 +1251,10 @@
           "tier": 1,
           "county": "Elko",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89832"
+          ]
         },
         {
           "id": "NV-spring-creek",
@@ -977,7 +1263,10 @@
           "tier": 1,
           "county": "Elko",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89815"
+          ]
         },
         {
           "id": "NV-alamo",
@@ -986,7 +1275,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89001"
+          ]
         },
         {
           "id": "NV-panaca",
@@ -995,7 +1287,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89042"
+          ]
         },
         {
           "id": "NV-hiko",
@@ -1004,7 +1299,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89017"
+          ]
         },
         {
           "id": "NV-paradise-valley",
@@ -1013,7 +1311,10 @@
           "tier": 1,
           "county": "Humboldt",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89426"
+          ]
         },
         {
           "id": "NV-pioche",
@@ -1022,7 +1323,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89043"
+          ]
         },
         {
           "id": "NV-baker",
@@ -1031,7 +1335,10 @@
           "tier": 1,
           "county": "White Pine",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89311"
+          ]
         },
         {
           "id": "NV-battle-mountain",
@@ -1040,7 +1347,10 @@
           "tier": 1,
           "county": "Lander",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89820"
+          ]
         },
         {
           "id": "NV-hawthorne",
@@ -1049,7 +1359,10 @@
           "tier": 1,
           "county": "Mineral",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89415"
+          ]
         },
         {
           "id": "NV-schurz",
@@ -1058,7 +1371,10 @@
           "tier": 1,
           "county": "Mineral",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89427"
+          ]
         },
         {
           "id": "NV-austin",
@@ -1067,7 +1383,10 @@
           "tier": 1,
           "county": "Lander",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89310"
+          ]
         },
         {
           "id": "NV-caliente",
@@ -1076,7 +1395,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89008"
+          ]
         },
         {
           "id": "NV-crescent-valley",
@@ -1085,7 +1407,10 @@
           "tier": 1,
           "county": "Eureka",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89821"
+          ]
         },
         {
           "id": "NV-lamoille",
@@ -1094,7 +1419,10 @@
           "tier": 1,
           "county": "Elko",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89828"
+          ]
         },
         {
           "id": "NV-golconda",
@@ -1103,7 +1431,10 @@
           "tier": 1,
           "county": "Humboldt",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89414"
+          ]
         },
         {
           "id": "NV-deeth",
@@ -1112,7 +1443,10 @@
           "tier": 1,
           "county": "Elko",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89823"
+          ]
         },
         {
           "id": "NV-ruby-valley",
@@ -1121,7 +1455,10 @@
           "tier": 1,
           "county": "Elko",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89833"
+          ]
         },
         {
           "id": "NV-duckwater",
@@ -1130,7 +1467,10 @@
           "tier": 1,
           "county": "White Pine",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89314"
+          ]
         },
         {
           "id": "NV-mc-gill",
@@ -1139,7 +1479,10 @@
           "tier": 1,
           "county": "White Pine",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89318"
+          ]
         },
         {
           "id": "NV-tuscarora",
@@ -1148,7 +1491,10 @@
           "tier": 1,
           "county": "Elko",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89834"
+          ]
         },
         {
           "id": "NV-mc-dermitt",
@@ -1157,7 +1503,10 @@
           "tier": 1,
           "county": "Humboldt",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89421"
+          ]
         },
         {
           "id": "NV-luning",
@@ -1166,7 +1515,10 @@
           "tier": 1,
           "county": "Mineral",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89420"
+          ]
         },
         {
           "id": "NV-jarbidge",
@@ -1175,7 +1527,10 @@
           "tier": 1,
           "county": "Elko",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89826"
+          ]
         },
         {
           "id": "NV-silverpeak",
@@ -1184,7 +1539,10 @@
           "tier": 1,
           "county": "Esmeralda",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89047"
+          ]
         }
       ],
       "adTargeting": {
@@ -1296,7 +1654,46 @@
           "tier": 1,
           "county": "Clark",
           "zipCount": 37,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89120",
+            "89145",
+            "89119",
+            "89147",
+            "89128",
+            "89110",
+            "89108",
+            "89135",
+            "89117",
+            "89131",
+            "89148",
+            "89109",
+            "89122",
+            "89123",
+            "89104",
+            "89129",
+            "89106",
+            "89144",
+            "89146",
+            "89142",
+            "89101",
+            "89139",
+            "89107",
+            "89113",
+            "89102",
+            "89124",
+            "89138",
+            "89115",
+            "89134",
+            "89130",
+            "89156",
+            "89143",
+            "89149",
+            "89141",
+            "89121",
+            "89118",
+            "89103"
+          ]
         },
         {
           "id": "NV-henderson",
@@ -1305,7 +1702,15 @@
           "tier": 1,
           "county": "Clark",
           "zipCount": 6,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89015",
+            "89074",
+            "89012",
+            "89052",
+            "89011",
+            "89014"
+          ]
         },
         {
           "id": "NV-north-las-vegas",
@@ -1314,7 +1719,14 @@
           "tier": 1,
           "county": "Clark",
           "zipCount": 5,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89086",
+            "89031",
+            "89084",
+            "89030",
+            "89032"
+          ]
         },
         {
           "id": "NV-jean",
@@ -1323,7 +1735,11 @@
           "tier": 1,
           "county": "Clark",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89026",
+            "89019"
+          ]
         },
         {
           "id": "NV-searchlight",
@@ -1332,7 +1748,10 @@
           "tier": 1,
           "county": "Clark",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89046"
+          ]
         },
         {
           "id": "NV-laughlin",
@@ -1341,7 +1760,10 @@
           "tier": 1,
           "county": "Clark",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89029"
+          ]
         },
         {
           "id": "NV-moapa-town",
@@ -1350,7 +1772,10 @@
           "tier": 1,
           "county": "Clark",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89025"
+          ]
         },
         {
           "id": "NV-boulder-city",
@@ -1359,7 +1784,10 @@
           "tier": 1,
           "county": "Clark",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89005"
+          ]
         },
         {
           "id": "NV-nellis-afb",
@@ -1368,7 +1796,10 @@
           "tier": 1,
           "county": "Clark",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89191"
+          ]
         },
         {
           "id": "NV-blue-diamond",
@@ -1377,7 +1808,10 @@
           "tier": 1,
           "county": "Clark",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89004"
+          ]
         },
         {
           "id": "NV-bunkerville",
@@ -1386,7 +1820,10 @@
           "tier": 1,
           "county": "Clark",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89007"
+          ]
         },
         {
           "id": "NV-mesquite",
@@ -1395,7 +1832,10 @@
           "tier": 1,
           "county": "Clark",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89027"
+          ]
         },
         {
           "id": "NV-indian-springs",
@@ -1404,7 +1844,10 @@
           "tier": 1,
           "county": "Clark",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89018"
+          ]
         },
         {
           "id": "NV-logandale",
@@ -1413,7 +1856,10 @@
           "tier": 1,
           "county": "Clark",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89021"
+          ]
         },
         {
           "id": "NV-overton",
@@ -1422,7 +1868,10 @@
           "tier": 1,
           "county": "Clark",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89040"
+          ]
         },
         {
           "id": "NV-moapa",
@@ -1431,7 +1880,10 @@
           "tier": 1,
           "county": "Clark",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89025"
+          ]
         },
         {
           "id": "NV-las-vegas-the-las-vegas-strip-downtown",
@@ -1440,7 +1892,11 @@
           "tier": 2,
           "county": "Clark",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89101",
+            "89109"
+          ]
         },
         {
           "id": "NV-las-vegas-summerlin",
@@ -1449,7 +1905,12 @@
           "tier": 2,
           "county": "Clark",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89134",
+            "89138",
+            "89144"
+          ]
         }
       ],
       "adTargeting": {
@@ -1521,7 +1982,18 @@
           "tier": 1,
           "county": "Washoe",
           "zipCount": 9,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89512",
+            "89501",
+            "89502",
+            "89503",
+            "89509",
+            "89506",
+            "89511",
+            "89510",
+            "89523"
+          ]
         },
         {
           "id": "NV-sparks",
@@ -1530,7 +2002,12 @@
           "tier": 1,
           "county": "Washoe",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89436",
+            "89434",
+            "89431"
+          ]
         },
         {
           "id": "NV-incline-village",
@@ -1539,7 +2016,11 @@
           "tier": 1,
           "county": "Washoe",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89451",
+            "89450"
+          ]
         },
         {
           "id": "NV-empire",
@@ -1548,7 +2029,10 @@
           "tier": 1,
           "county": "Washoe",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89405"
+          ]
         },
         {
           "id": "NV-sun-valley",
@@ -1557,7 +2041,10 @@
           "tier": 1,
           "county": "Washoe",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89433"
+          ]
         },
         {
           "id": "NV-gerlach",
@@ -1566,7 +2053,10 @@
           "tier": 1,
           "county": "Washoe",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89412"
+          ]
         },
         {
           "id": "NV-washoe-valley",
@@ -1575,7 +2065,10 @@
           "tier": 1,
           "county": "Washoe",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89704"
+          ]
         },
         {
           "id": "NV-wadsworth",
@@ -1584,7 +2077,10 @@
           "tier": 1,
           "county": "Washoe",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89442"
+          ]
         },
         {
           "id": "NV-crystal-bay",
@@ -1593,7 +2089,10 @@
           "tier": 1,
           "county": "Washoe",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89402"
+          ]
         },
         {
           "id": "NV-verdi",
@@ -1602,7 +2101,10 @@
           "tier": 1,
           "county": "Washoe",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89439"
+          ]
         },
         {
           "id": "NV-nixon",
@@ -1611,7 +2113,10 @@
           "tier": 1,
           "county": "Washoe",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "89424"
+          ]
         }
       ],
       "adTargeting": {

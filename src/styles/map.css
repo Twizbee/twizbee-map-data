@@ -390,6 +390,32 @@
   cursor: pointer;
 }
 
+/* Scaled borders for dense urban / small ZIPs vs rural large ZIPs */
+.zipcode-path.zip-scale-xs {
+  stroke-width: 0.28px;
+  stroke-opacity: 0.50;
+}
+
+.zipcode-path.zip-scale-sm {
+  stroke-width: 0.38px;
+  stroke-opacity: 0.60;
+}
+
+.zipcode-path.zip-scale-md {
+  stroke-width: 0.50px;
+  stroke-opacity: 0.75;
+}
+
+.zipcode-path.zip-scale-lg {
+  stroke-width: 0.68px;
+  stroke-opacity: 0.85;
+}
+
+.zipcode-path.zip-scale-xl {
+  stroke-width: 0.85px;
+  stroke-opacity: 0.90;
+}
+
 .zipcode-path:hover {
   fill: rgba(239, 68, 68, 0.12);
   stroke: #ef4444;

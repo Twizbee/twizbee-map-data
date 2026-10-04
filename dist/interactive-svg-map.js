@@ -532,11 +532,22 @@ var GeoMapPlugin = (() => {
 
       <!-- Layer: Zip Codes -->
       <g id="layer-zipcodes" class="layer-zipcodes" style="display: ${["zipcodes", "all"].includes(this.activeLayer) ? "block" : "none"}">
-        ${stateData.zipcodes.map((z) => `
-          <path id="zip-${z.zip}" class="zipcode-path" data-zip="${z.zip}" data-city="${z.city || ""}" data-county="${z.county || ""}" data-district="${z.district || ""}" d="${z.path}" vector-effect="non-scaling-stroke">
+        ${stateData.zipcodes.map((z) => {
+        let scaleCls = "";
+        if (z.bounds && z.bounds.length >= 4) {
+          const maxDim = Math.max(z.bounds[2], z.bounds[3]);
+          if (maxDim < 0.6) scaleCls = " zip-scale-xs";
+          else if (maxDim < 1.5) scaleCls = " zip-scale-sm";
+          else if (maxDim < 3.5) scaleCls = " zip-scale-md";
+          else if (maxDim < 8) scaleCls = " zip-scale-lg";
+          else scaleCls = " zip-scale-xl";
+        }
+        return `
+          <path id="zip-${z.zip}" class="zipcode-path${scaleCls}" data-zip="${z.zip}" data-city="${z.city || ""}" data-county="${z.county || ""}" data-district="${z.district || ""}" d="${z.path}" vector-effect="non-scaling-stroke">
             <title>ZIP ${z.zip} (${z.city || ""}) ${z.district ? "\u2022 " + z.district : ""}</title>
           </path>
-        `).join("")}
+        `;
+      }).join("")}
       </g>
 
       <!-- Layer: Stitched City Boundaries -->

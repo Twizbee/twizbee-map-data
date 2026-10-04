@@ -170,7 +170,13 @@
           "tier": 1,
           "county": "Burleigh",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58503",
+            "58501",
+            "58505",
+            "58504"
+          ]
         },
         {
           "id": "ND-minot",
@@ -179,7 +185,13 @@
           "tier": 1,
           "county": "Ward",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58701",
+            "58707",
+            "58703",
+            "58702"
+          ]
         },
         {
           "id": "ND-jamestown",
@@ -188,7 +200,12 @@
           "tier": 1,
           "county": "Stutsman",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58401",
+            "58405",
+            "58402"
+          ]
         },
         {
           "id": "ND-minot-afb",
@@ -197,7 +214,11 @@
           "tier": 1,
           "county": "Ward",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58705",
+            "58704"
+          ]
         },
         {
           "id": "ND-regan",
@@ -206,7 +227,10 @@
           "tier": 1,
           "county": "Burleigh",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58477"
+          ]
         },
         {
           "id": "ND-drake",
@@ -215,7 +239,10 @@
           "tier": 1,
           "county": "Mchenry",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58736"
+          ]
         },
         {
           "id": "ND-golden-valley",
@@ -224,7 +251,10 @@
           "tier": 1,
           "county": "Mercer",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58541"
+          ]
         },
         {
           "id": "ND-glen-ullin",
@@ -233,7 +263,10 @@
           "tier": 1,
           "county": "Morton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58631"
+          ]
         },
         {
           "id": "ND-des-lacs",
@@ -242,7 +275,10 @@
           "tier": 1,
           "county": "Ward",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58733"
+          ]
         },
         {
           "id": "ND-sykeston",
@@ -251,7 +287,10 @@
           "tier": 1,
           "county": "Wells",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58486"
+          ]
         },
         {
           "id": "ND-bowdon",
@@ -260,7 +299,10 @@
           "tier": 1,
           "county": "Wells",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58418"
+          ]
         },
         {
           "id": "ND-pettibone",
@@ -269,7 +311,10 @@
           "tier": 1,
           "county": "Kidder",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58475"
+          ]
         },
         {
           "id": "ND-ypsilanti",
@@ -278,7 +323,10 @@
           "tier": 1,
           "county": "Stutsman",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58497"
+          ]
         },
         {
           "id": "ND-cathay",
@@ -287,7 +335,10 @@
           "tier": 1,
           "county": "Wells",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58422"
+          ]
         },
         {
           "id": "ND-hurdsfield",
@@ -296,7 +347,10 @@
           "tier": 1,
           "county": "Wells",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58451"
+          ]
         },
         {
           "id": "ND-dawson",
@@ -305,7 +359,10 @@
           "tier": 1,
           "county": "Kidder",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58428"
+          ]
         },
         {
           "id": "ND-tuttle",
@@ -314,7 +371,10 @@
           "tier": 1,
           "county": "Kidder",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58488"
+          ]
         },
         {
           "id": "ND-butte",
@@ -323,7 +383,10 @@
           "tier": 1,
           "county": "Mclean",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58723"
+          ]
         },
         {
           "id": "ND-bantry",
@@ -332,7 +395,10 @@
           "tier": 1,
           "county": "Mchenry",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58713"
+          ]
         },
         {
           "id": "ND-cleveland",
@@ -341,7 +407,10 @@
           "tier": 1,
           "county": "Stutsman",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58424"
+          ]
         },
         {
           "id": "ND-montpelier",
@@ -350,7 +419,10 @@
           "tier": 1,
           "county": "Stutsman",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58472"
+          ]
         },
         {
           "id": "ND-pingree",
@@ -359,7 +431,10 @@
           "tier": 1,
           "county": "Stutsman",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58476"
+          ]
         },
         {
           "id": "ND-douglas",
@@ -368,7 +443,10 @@
           "tier": 1,
           "county": "Ward",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58735"
+          ]
         },
         {
           "id": "ND-benedict",
@@ -377,7 +455,10 @@
           "tier": 1,
           "county": "Mclean",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58716"
+          ]
         },
         {
           "id": "ND-karlsruhe",
@@ -386,7 +467,10 @@
           "tier": 1,
           "county": "Mchenry",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58744"
+          ]
         },
         {
           "id": "ND-kensal",
@@ -395,7 +479,10 @@
           "tier": 1,
           "county": "Stutsman",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58455"
+          ]
         },
         {
           "id": "ND-steele",
@@ -404,7 +491,10 @@
           "tier": 1,
           "county": "Kidder",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58482"
+          ]
         },
         {
           "id": "ND-mercer",
@@ -413,7 +503,10 @@
           "tier": 1,
           "county": "Mclean",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58559"
+          ]
         },
         {
           "id": "ND-medina",
@@ -422,7 +515,10 @@
           "tier": 1,
           "county": "Stutsman",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58467"
+          ]
         },
         {
           "id": "ND-robinson",
@@ -431,7 +527,10 @@
           "tier": 1,
           "county": "Kidder",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58478"
+          ]
         },
         {
           "id": "ND-coleharbor",
@@ -440,7 +539,10 @@
           "tier": 1,
           "county": "Mclean",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58531"
+          ]
         },
         {
           "id": "ND-almont",
@@ -449,7 +551,10 @@
           "tier": 1,
           "county": "Morton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58520"
+          ]
         },
         {
           "id": "ND-menoken",
@@ -458,7 +563,10 @@
           "tier": 1,
           "county": "Burleigh",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58558"
+          ]
         },
         {
           "id": "ND-turtle-lake",
@@ -467,7 +575,10 @@
           "tier": 1,
           "county": "Mclean",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58575"
+          ]
         },
         {
           "id": "ND-streeter",
@@ -476,7 +587,10 @@
           "tier": 1,
           "county": "Stutsman",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58483"
+          ]
         },
         {
           "id": "ND-donnybrook",
@@ -485,7 +599,10 @@
           "tier": 1,
           "county": "Ward",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58734"
+          ]
         },
         {
           "id": "ND-carpio",
@@ -494,7 +611,10 @@
           "tier": 1,
           "county": "Ward",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58725"
+          ]
         },
         {
           "id": "ND-harvey",
@@ -503,7 +623,10 @@
           "tier": 1,
           "county": "Wells",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58341"
+          ]
         },
         {
           "id": "ND-hebron",
@@ -512,7 +635,10 @@
           "tier": 1,
           "county": "Morton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58638"
+          ]
         },
         {
           "id": "ND-garrison",
@@ -521,7 +647,10 @@
           "tier": 1,
           "county": "Mclean",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58540"
+          ]
         },
         {
           "id": "ND-wilton",
@@ -530,7 +659,10 @@
           "tier": 1,
           "county": "Mclean",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58579"
+          ]
         },
         {
           "id": "ND-wolford",
@@ -539,7 +671,10 @@
           "tier": 1,
           "county": "Pierce",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58385"
+          ]
         },
         {
           "id": "ND-kenmare",
@@ -548,7 +683,10 @@
           "tier": 1,
           "county": "Ward",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58746"
+          ]
         },
         {
           "id": "ND-max",
@@ -557,7 +695,10 @@
           "tier": 1,
           "county": "Mclean",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58759"
+          ]
         },
         {
           "id": "ND-sawyer",
@@ -566,7 +707,10 @@
           "tier": 1,
           "county": "Ward",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58781"
+          ]
         },
         {
           "id": "ND-flasher",
@@ -575,7 +719,10 @@
           "tier": 1,
           "county": "Morton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58535"
+          ]
         },
         {
           "id": "ND-velva",
@@ -584,7 +731,10 @@
           "tier": 1,
           "county": "Mchenry",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58790"
+          ]
         },
         {
           "id": "ND-zap",
@@ -593,7 +743,10 @@
           "tier": 1,
           "county": "Mercer",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58580"
+          ]
         },
         {
           "id": "ND-wing",
@@ -602,7 +755,10 @@
           "tier": 1,
           "county": "Burleigh",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58494"
+          ]
         },
         {
           "id": "ND-center",
@@ -611,7 +767,10 @@
           "tier": 1,
           "county": "Oliver",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58530"
+          ]
         },
         {
           "id": "ND-makoti",
@@ -620,7 +779,10 @@
           "tier": 1,
           "county": "Ward",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58756"
+          ]
         },
         {
           "id": "ND-tappen",
@@ -629,7 +791,10 @@
           "tier": 1,
           "county": "Kidder",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58487"
+          ]
         },
         {
           "id": "ND-ruso",
@@ -638,7 +803,10 @@
           "tier": 1,
           "county": "Mclean",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58778"
+          ]
         },
         {
           "id": "ND-rugby",
@@ -647,7 +815,10 @@
           "tier": 1,
           "county": "Pierce",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58368"
+          ]
         },
         {
           "id": "ND-granville",
@@ -656,7 +827,10 @@
           "tier": 1,
           "county": "Mchenry",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58741"
+          ]
         },
         {
           "id": "ND-towner",
@@ -665,7 +839,10 @@
           "tier": 1,
           "county": "Mchenry",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58788"
+          ]
         },
         {
           "id": "ND-upham",
@@ -674,7 +851,10 @@
           "tier": 1,
           "county": "Mchenry",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58789"
+          ]
         },
         {
           "id": "ND-berthold",
@@ -683,7 +863,10 @@
           "tier": 1,
           "county": "Ward",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58718"
+          ]
         },
         {
           "id": "ND-ryder",
@@ -692,7 +875,10 @@
           "tier": 1,
           "county": "Ward",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58779"
+          ]
         },
         {
           "id": "ND-surrey",
@@ -701,7 +887,10 @@
           "tier": 1,
           "county": "Ward",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58785"
+          ]
         },
         {
           "id": "ND-balfour",
@@ -710,7 +899,10 @@
           "tier": 1,
           "county": "Mchenry",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58712"
+          ]
         },
         {
           "id": "ND-riverdale",
@@ -719,7 +911,10 @@
           "tier": 1,
           "county": "Mclean",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58565"
+          ]
         },
         {
           "id": "ND-beulah",
@@ -728,7 +923,10 @@
           "tier": 1,
           "county": "Mercer",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58523"
+          ]
         },
         {
           "id": "ND-driscoll",
@@ -737,7 +935,10 @@
           "tier": 1,
           "county": "Burleigh",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58532"
+          ]
         },
         {
           "id": "ND-spiritwood",
@@ -746,7 +947,10 @@
           "tier": 1,
           "county": "Stutsman",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58481"
+          ]
         },
         {
           "id": "ND-anamoose",
@@ -755,7 +959,10 @@
           "tier": 1,
           "county": "Mchenry",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58710"
+          ]
         },
         {
           "id": "ND-underwood",
@@ -764,7 +971,10 @@
           "tier": 1,
           "county": "Mclean",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58576"
+          ]
         },
         {
           "id": "ND-woodworth",
@@ -773,7 +983,10 @@
           "tier": 1,
           "county": "Stutsman",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58496"
+          ]
         },
         {
           "id": "ND-courtenay",
@@ -782,7 +995,10 @@
           "tier": 1,
           "county": "Stutsman",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58426"
+          ]
         },
         {
           "id": "ND-fessenden",
@@ -791,7 +1007,10 @@
           "tier": 1,
           "county": "Wells",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58438"
+          ]
         },
         {
           "id": "ND-deering",
@@ -800,7 +1019,10 @@
           "tier": 1,
           "county": "Mchenry",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58731"
+          ]
         },
         {
           "id": "ND-burlington",
@@ -809,7 +1031,10 @@
           "tier": 1,
           "county": "Ward",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58722"
+          ]
         },
         {
           "id": "ND-washburn",
@@ -818,7 +1043,10 @@
           "tier": 1,
           "county": "Mclean",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58577"
+          ]
         },
         {
           "id": "ND-mandan",
@@ -827,7 +1055,10 @@
           "tier": 1,
           "county": "Morton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58554"
+          ]
         },
         {
           "id": "ND-voltaire",
@@ -836,7 +1067,10 @@
           "tier": 1,
           "county": "Mchenry",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58792"
+          ]
         },
         {
           "id": "ND-hazen",
@@ -845,7 +1079,10 @@
           "tier": 1,
           "county": "Mercer",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58545"
+          ]
         },
         {
           "id": "ND-stanton",
@@ -854,7 +1091,10 @@
           "tier": 1,
           "county": "Mercer",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58571"
+          ]
         },
         {
           "id": "ND-new-salem",
@@ -863,7 +1103,10 @@
           "tier": 1,
           "county": "Morton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58563"
+          ]
         },
         {
           "id": "ND-buchanan",
@@ -872,7 +1115,10 @@
           "tier": 1,
           "county": "Stutsman",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58420"
+          ]
         },
         {
           "id": "ND-roseglen",
@@ -881,7 +1127,10 @@
           "tier": 1,
           "county": "Mclean",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58775"
+          ]
         },
         {
           "id": "ND-moffit",
@@ -890,7 +1139,10 @@
           "tier": 1,
           "county": "Burleigh",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58560"
+          ]
         },
         {
           "id": "ND-sterling",
@@ -899,7 +1151,10 @@
           "tier": 1,
           "county": "Burleigh",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58572"
+          ]
         },
         {
           "id": "ND-saint-anthony",
@@ -908,7 +1163,10 @@
           "tier": 1,
           "county": "Morton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58566"
+          ]
         },
         {
           "id": "ND-baldwin",
@@ -917,7 +1175,10 @@
           "tier": 1,
           "county": "Burleigh",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58521"
+          ]
         },
         {
           "id": "ND-norwich",
@@ -926,7 +1187,10 @@
           "tier": 1,
           "county": "Mchenry",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58768"
+          ]
         },
         {
           "id": "ND-chaseley",
@@ -935,7 +1199,10 @@
           "tier": 1,
           "county": "Wells",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58423"
+          ]
         },
         {
           "id": "ND-orrin",
@@ -944,7 +1211,10 @@
           "tier": 1,
           "county": "Pierce",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58368"
+          ]
         },
         {
           "id": "ND-apple-valley",
@@ -980,7 +1250,10 @@
           "tier": 1,
           "county": "Ward",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58703"
+          ]
         }
       ],
       "adTargeting": {
@@ -1140,7 +1413,13 @@
           "tier": 1,
           "county": "Cass",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58103",
+            "58105",
+            "58102",
+            "58104"
+          ]
         },
         {
           "id": "ND-grand-forks",
@@ -1149,7 +1428,12 @@
           "tier": 1,
           "county": "Grand Forks",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58201",
+            "58203",
+            "58202"
+          ]
         },
         {
           "id": "ND-grand-forks-afb",
@@ -1158,7 +1442,11 @@
           "tier": 1,
           "county": "Grand Forks",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58205",
+            "58204"
+          ]
         },
         {
           "id": "ND-wahpeton",
@@ -1167,7 +1455,11 @@
           "tier": 1,
           "county": "Richland",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58075",
+            "58076"
+          ]
         },
         {
           "id": "ND-luverne",
@@ -1176,7 +1468,10 @@
           "tier": 1,
           "county": "Steele",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58056"
+          ]
         },
         {
           "id": "ND-sharon",
@@ -1185,7 +1480,10 @@
           "tier": 1,
           "county": "Steele",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58277"
+          ]
         },
         {
           "id": "ND-gilby",
@@ -1194,7 +1492,10 @@
           "tier": 1,
           "county": "Grand Forks",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58235"
+          ]
         },
         {
           "id": "ND-niagara",
@@ -1203,7 +1504,10 @@
           "tier": 1,
           "county": "Grand Forks",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58266"
+          ]
         },
         {
           "id": "ND-forest-river",
@@ -1212,7 +1516,10 @@
           "tier": 1,
           "county": "Walsh",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58233"
+          ]
         },
         {
           "id": "ND-dazey",
@@ -1221,7 +1528,10 @@
           "tier": 1,
           "county": "Barnes",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58429"
+          ]
         },
         {
           "id": "ND-mapleton",
@@ -1230,7 +1540,10 @@
           "tier": 1,
           "county": "Cass",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58059"
+          ]
         },
         {
           "id": "ND-caledonia",
@@ -1239,7 +1552,10 @@
           "tier": 1,
           "county": "Traill",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58219"
+          ]
         },
         {
           "id": "ND-inkster",
@@ -1248,7 +1564,10 @@
           "tier": 1,
           "county": "Grand Forks",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58244"
+          ]
         },
         {
           "id": "ND-reynolds",
@@ -1257,7 +1576,10 @@
           "tier": 1,
           "county": "Grand Forks",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58275"
+          ]
         },
         {
           "id": "ND-crystal",
@@ -1266,7 +1588,10 @@
           "tier": 1,
           "county": "Pembina",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58222"
+          ]
         },
         {
           "id": "ND-neche",
@@ -1275,7 +1600,10 @@
           "tier": 1,
           "county": "Pembina",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58265"
+          ]
         },
         {
           "id": "ND-galesburg",
@@ -1284,7 +1612,10 @@
           "tier": 1,
           "county": "Traill",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58035"
+          ]
         },
         {
           "id": "ND-portland",
@@ -1293,7 +1624,10 @@
           "tier": 1,
           "county": "Traill",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58274"
+          ]
         },
         {
           "id": "ND-amenia",
@@ -1302,7 +1636,10 @@
           "tier": 1,
           "county": "Cass",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58004"
+          ]
         },
         {
           "id": "ND-ayr",
@@ -1311,7 +1648,10 @@
           "tier": 1,
           "county": "Cass",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58007"
+          ]
         },
         {
           "id": "ND-gardner",
@@ -1320,7 +1660,10 @@
           "tier": 1,
           "county": "Cass",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58036"
+          ]
         },
         {
           "id": "ND-leonard",
@@ -1329,7 +1672,10 @@
           "tier": 1,
           "county": "Cass",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58052"
+          ]
         },
         {
           "id": "ND-fingal",
@@ -1338,7 +1684,10 @@
           "tier": 1,
           "county": "Barnes",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58031"
+          ]
         },
         {
           "id": "ND-oriska",
@@ -1347,7 +1696,10 @@
           "tier": 1,
           "county": "Barnes",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58063"
+          ]
         },
         {
           "id": "ND-barney",
@@ -1356,7 +1708,10 @@
           "tier": 1,
           "county": "Richland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58008"
+          ]
         },
         {
           "id": "ND-colfax",
@@ -1365,7 +1720,10 @@
           "tier": 1,
           "county": "Richland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58018"
+          ]
         },
         {
           "id": "ND-fairmount",
@@ -1374,7 +1732,10 @@
           "tier": 1,
           "county": "Richland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58030"
+          ]
         },
         {
           "id": "ND-lidgerwood",
@@ -1383,7 +1744,10 @@
           "tier": 1,
           "county": "Richland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58053"
+          ]
         },
         {
           "id": "ND-edinburg",
@@ -1392,7 +1756,10 @@
           "tier": 1,
           "county": "Walsh",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58227"
+          ]
         },
         {
           "id": "ND-fordville",
@@ -1401,7 +1768,10 @@
           "tier": 1,
           "county": "Walsh",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58231"
+          ]
         },
         {
           "id": "ND-lankin",
@@ -1410,7 +1780,10 @@
           "tier": 1,
           "county": "Walsh",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58250"
+          ]
         },
         {
           "id": "ND-pisek",
@@ -1419,7 +1792,10 @@
           "tier": 1,
           "county": "Walsh",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58273"
+          ]
         },
         {
           "id": "ND-adams",
@@ -1428,7 +1804,10 @@
           "tier": 1,
           "county": "Walsh",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58210"
+          ]
         },
         {
           "id": "ND-grandin",
@@ -1437,7 +1816,10 @@
           "tier": 1,
           "county": "Cass",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58038"
+          ]
         },
         {
           "id": "ND-pillsbury",
@@ -1446,7 +1828,10 @@
           "tier": 1,
           "county": "Barnes",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58065"
+          ]
         },
         {
           "id": "ND-wheatland",
@@ -1455,7 +1840,10 @@
           "tier": 1,
           "county": "Cass",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58079"
+          ]
         },
         {
           "id": "ND-wimbledon",
@@ -1464,7 +1852,10 @@
           "tier": 1,
           "county": "Barnes",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58492"
+          ]
         },
         {
           "id": "ND-drayton",
@@ -1473,7 +1864,10 @@
           "tier": 1,
           "county": "Pembina",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58225"
+          ]
         },
         {
           "id": "ND-argusville",
@@ -1482,7 +1876,10 @@
           "tier": 1,
           "county": "Cass",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58005"
+          ]
         },
         {
           "id": "ND-hoople",
@@ -1491,7 +1888,10 @@
           "tier": 1,
           "county": "Walsh",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58243"
+          ]
         },
         {
           "id": "ND-walcott",
@@ -1500,7 +1900,10 @@
           "tier": 1,
           "county": "Richland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58077"
+          ]
         },
         {
           "id": "ND-arthur",
@@ -1509,7 +1912,10 @@
           "tier": 1,
           "county": "Cass",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58006"
+          ]
         },
         {
           "id": "ND-davenport",
@@ -1518,7 +1924,10 @@
           "tier": 1,
           "county": "Cass",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58021"
+          ]
         },
         {
           "id": "ND-tower-city",
@@ -1527,7 +1936,10 @@
           "tier": 1,
           "county": "Cass",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58071"
+          ]
         },
         {
           "id": "ND-bathgate",
@@ -1536,7 +1948,10 @@
           "tier": 1,
           "county": "Pembina",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58216"
+          ]
         },
         {
           "id": "ND-christine",
@@ -1545,7 +1960,10 @@
           "tier": 1,
           "county": "Richland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58015"
+          ]
         },
         {
           "id": "ND-park-river",
@@ -1554,7 +1972,10 @@
           "tier": 1,
           "county": "Walsh",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58270"
+          ]
         },
         {
           "id": "ND-emerado",
@@ -1563,7 +1984,10 @@
           "tier": 1,
           "county": "Grand Forks",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58228"
+          ]
         },
         {
           "id": "ND-litchville",
@@ -1572,7 +1996,10 @@
           "tier": 1,
           "county": "Barnes",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58461"
+          ]
         },
         {
           "id": "ND-minto",
@@ -1581,7 +2008,10 @@
           "tier": 1,
           "county": "Walsh",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58261"
+          ]
         },
         {
           "id": "ND-pembina",
@@ -1590,7 +2020,10 @@
           "tier": 1,
           "county": "Pembina",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58271"
+          ]
         },
         {
           "id": "ND-hillsboro",
@@ -1599,7 +2032,10 @@
           "tier": 1,
           "county": "Traill",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58045"
+          ]
         },
         {
           "id": "ND-harwood",
@@ -1608,7 +2044,10 @@
           "tier": 1,
           "county": "Cass",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58042"
+          ]
         },
         {
           "id": "ND-fairdale",
@@ -1617,7 +2056,10 @@
           "tier": 1,
           "county": "Walsh",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58229"
+          ]
         },
         {
           "id": "ND-finley",
@@ -1626,7 +2068,10 @@
           "tier": 1,
           "county": "Steele",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58230"
+          ]
         },
         {
           "id": "ND-wyndmere",
@@ -1635,7 +2080,10 @@
           "tier": 1,
           "county": "Richland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58081"
+          ]
         },
         {
           "id": "ND-cavalier",
@@ -1644,7 +2092,10 @@
           "tier": 1,
           "county": "Pembina",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58220"
+          ]
         },
         {
           "id": "ND-sanborn",
@@ -1653,7 +2104,10 @@
           "tier": 1,
           "county": "Barnes",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58480"
+          ]
         },
         {
           "id": "ND-casselton",
@@ -1662,7 +2116,10 @@
           "tier": 1,
           "county": "Cass",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58012"
+          ]
         },
         {
           "id": "ND-horace",
@@ -1671,7 +2128,10 @@
           "tier": 1,
           "county": "Cass",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58047"
+          ]
         },
         {
           "id": "ND-kindred",
@@ -1680,7 +2140,10 @@
           "tier": 1,
           "county": "Cass",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58051"
+          ]
         },
         {
           "id": "ND-page",
@@ -1689,7 +2152,10 @@
           "tier": 1,
           "county": "Cass",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58064"
+          ]
         },
         {
           "id": "ND-west-fargo",
@@ -1698,7 +2164,10 @@
           "tier": 1,
           "county": "Cass",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58078"
+          ]
         },
         {
           "id": "ND-larimore",
@@ -1707,7 +2176,10 @@
           "tier": 1,
           "county": "Grand Forks",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58251"
+          ]
         },
         {
           "id": "ND-manvel",
@@ -1716,7 +2188,10 @@
           "tier": 1,
           "county": "Grand Forks",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58256"
+          ]
         },
         {
           "id": "ND-northwood",
@@ -1725,7 +2200,10 @@
           "tier": 1,
           "county": "Grand Forks",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58267"
+          ]
         },
         {
           "id": "ND-mayville",
@@ -1734,7 +2212,10 @@
           "tier": 1,
           "county": "Traill",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58257"
+          ]
         },
         {
           "id": "ND-mountain",
@@ -1743,7 +2224,10 @@
           "tier": 1,
           "county": "Pembina",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58262"
+          ]
         },
         {
           "id": "ND-kathryn",
@@ -1752,7 +2236,10 @@
           "tier": 1,
           "county": "Barnes",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58049"
+          ]
         },
         {
           "id": "ND-nome",
@@ -1761,7 +2248,10 @@
           "tier": 1,
           "county": "Barnes",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58062"
+          ]
         },
         {
           "id": "ND-rogers",
@@ -1770,7 +2260,10 @@
           "tier": 1,
           "county": "Barnes",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58479"
+          ]
         },
         {
           "id": "ND-valley-city",
@@ -1779,7 +2272,10 @@
           "tier": 1,
           "county": "Barnes",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58072"
+          ]
         },
         {
           "id": "ND-hankinson",
@@ -1788,7 +2284,10 @@
           "tier": 1,
           "county": "Richland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58041"
+          ]
         },
         {
           "id": "ND-mantador",
@@ -1797,7 +2296,10 @@
           "tier": 1,
           "county": "Richland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58058"
+          ]
         },
         {
           "id": "ND-buxton",
@@ -1806,7 +2308,10 @@
           "tier": 1,
           "county": "Traill",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58218"
+          ]
         },
         {
           "id": "ND-mooreton",
@@ -1815,7 +2320,10 @@
           "tier": 1,
           "county": "Richland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58061"
+          ]
         },
         {
           "id": "ND-erie",
@@ -1824,7 +2332,10 @@
           "tier": 1,
           "county": "Cass",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58029"
+          ]
         },
         {
           "id": "ND-thompson",
@@ -1833,7 +2344,10 @@
           "tier": 1,
           "county": "Grand Forks",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58278"
+          ]
         },
         {
           "id": "ND-buffalo",
@@ -1842,7 +2356,10 @@
           "tier": 1,
           "county": "Cass",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58011"
+          ]
         },
         {
           "id": "ND-hunter",
@@ -1851,7 +2368,10 @@
           "tier": 1,
           "county": "Cass",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58048"
+          ]
         },
         {
           "id": "ND-walhalla",
@@ -1860,7 +2380,10 @@
           "tier": 1,
           "county": "Pembina",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58282"
+          ]
         },
         {
           "id": "ND-grafton",
@@ -1869,7 +2392,10 @@
           "tier": 1,
           "county": "Walsh",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58237"
+          ]
         },
         {
           "id": "ND-hope",
@@ -1878,7 +2404,10 @@
           "tier": 1,
           "county": "Steele",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58046"
+          ]
         },
         {
           "id": "ND-clifford",
@@ -1887,7 +2416,10 @@
           "tier": 1,
           "county": "Traill",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58016"
+          ]
         },
         {
           "id": "ND-hatton",
@@ -1896,7 +2428,10 @@
           "tier": 1,
           "county": "Traill",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58240"
+          ]
         },
         {
           "id": "ND-abercrombie",
@@ -1905,7 +2440,10 @@
           "tier": 1,
           "county": "Richland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58001"
+          ]
         },
         {
           "id": "ND-hamilton",
@@ -1914,7 +2452,10 @@
           "tier": 1,
           "county": "Pembina",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58238"
+          ]
         },
         {
           "id": "ND-blanchard",
@@ -1923,7 +2464,10 @@
           "tier": 1,
           "county": "Traill",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58009"
+          ]
         },
         {
           "id": "ND-mekinock",
@@ -1932,7 +2476,10 @@
           "tier": 1,
           "county": "Grand Forks",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58258"
+          ]
         },
         {
           "id": "ND-sidney",
@@ -1941,7 +2488,10 @@
           "tier": 1,
           "county": "Richland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "59270"
+          ]
         },
         {
           "id": "ND-fairview",
@@ -1950,7 +2500,10 @@
           "tier": 1,
           "county": "Richland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "59221"
+          ]
         },
         {
           "id": "ND-hensel",
@@ -1959,7 +2512,10 @@
           "tier": 1,
           "county": "Pembina",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58241"
+          ]
         },
         {
           "id": "ND-cummings",
@@ -1968,7 +2524,10 @@
           "tier": 1,
           "county": "Traill",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58223"
+          ]
         },
         {
           "id": "ND-arvilla",
@@ -1977,7 +2536,10 @@
           "tier": 1,
           "county": "Grand Forks",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58214"
+          ]
         },
         {
           "id": "ND-absaraka",
@@ -1986,7 +2548,10 @@
           "tier": 1,
           "county": "Cass",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58002"
+          ]
         },
         {
           "id": "ND-saint-thomas",
@@ -1995,7 +2560,10 @@
           "tier": 1,
           "county": "Pembina",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58276"
+          ]
         },
         {
           "id": "ND-brooktree-park",
@@ -2004,7 +2572,10 @@
           "tier": 1,
           "county": "Cass",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58042"
+          ]
         }
       ],
       "adTargeting": {
@@ -2120,7 +2691,10 @@
           "tier": 1,
           "county": "Burke",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58773"
+          ]
         },
         {
           "id": "ND-dunn-center",
@@ -2129,7 +2703,10 @@
           "tier": 1,
           "county": "Dunn",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58626"
+          ]
         },
         {
           "id": "ND-palermo",
@@ -2138,7 +2715,10 @@
           "tier": 1,
           "county": "Mountrail",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58769"
+          ]
         },
         {
           "id": "ND-plaza",
@@ -2147,7 +2727,10 @@
           "tier": 1,
           "county": "Mountrail",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58771"
+          ]
         },
         {
           "id": "ND-mcgregor",
@@ -2156,7 +2739,10 @@
           "tier": 1,
           "county": "Williams",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58755"
+          ]
         },
         {
           "id": "ND-epping",
@@ -2165,7 +2751,10 @@
           "tier": 1,
           "county": "Williams",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58843"
+          ]
         },
         {
           "id": "ND-ross",
@@ -2174,7 +2763,10 @@
           "tier": 1,
           "county": "Mountrail",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58776"
+          ]
         },
         {
           "id": "ND-sentinel-butte",
@@ -2183,7 +2775,10 @@
           "tier": 1,
           "county": "Golden Valley",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58654"
+          ]
         },
         {
           "id": "ND-taylor",
@@ -2192,7 +2787,10 @@
           "tier": 1,
           "county": "Stark",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58656"
+          ]
         },
         {
           "id": "ND-bowbells",
@@ -2201,7 +2799,10 @@
           "tier": 1,
           "county": "Burke",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58721"
+          ]
         },
         {
           "id": "ND-alexander",
@@ -2210,7 +2811,10 @@
           "tier": 1,
           "county": "Mckenzie",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58831"
+          ]
         },
         {
           "id": "ND-golva",
@@ -2219,7 +2823,10 @@
           "tier": 1,
           "county": "Golden Valley",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58632"
+          ]
         },
         {
           "id": "ND-grenora",
@@ -2228,7 +2835,10 @@
           "tier": 1,
           "county": "Williams",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58845"
+          ]
         },
         {
           "id": "ND-halliday",
@@ -2237,7 +2847,10 @@
           "tier": 1,
           "county": "Dunn",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58636"
+          ]
         },
         {
           "id": "ND-portal",
@@ -2246,7 +2859,10 @@
           "tier": 1,
           "county": "Burke",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58772"
+          ]
         },
         {
           "id": "ND-manning",
@@ -2255,7 +2871,10 @@
           "tier": 1,
           "county": "Dunn",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58642"
+          ]
         },
         {
           "id": "ND-ambrose",
@@ -2264,7 +2883,10 @@
           "tier": 1,
           "county": "Divide",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58833"
+          ]
         },
         {
           "id": "ND-arnegard",
@@ -2273,7 +2895,10 @@
           "tier": 1,
           "county": "Mckenzie",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58835"
+          ]
         },
         {
           "id": "ND-alamo",
@@ -2282,7 +2907,10 @@
           "tier": 1,
           "county": "Williams",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58830"
+          ]
         },
         {
           "id": "ND-columbus",
@@ -2291,7 +2919,10 @@
           "tier": 1,
           "county": "Burke",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58727"
+          ]
         },
         {
           "id": "ND-lignite",
@@ -2300,7 +2931,10 @@
           "tier": 1,
           "county": "Burke",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58752"
+          ]
         },
         {
           "id": "ND-parshall",
@@ -2309,7 +2943,10 @@
           "tier": 1,
           "county": "Mountrail",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58770"
+          ]
         },
         {
           "id": "ND-amidon",
@@ -2318,7 +2955,10 @@
           "tier": 1,
           "county": "Slope",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58620"
+          ]
         },
         {
           "id": "ND-noonan",
@@ -2327,7 +2967,10 @@
           "tier": 1,
           "county": "Divide",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58765"
+          ]
         },
         {
           "id": "ND-belfield",
@@ -2336,7 +2979,10 @@
           "tier": 1,
           "county": "Stark",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58622"
+          ]
         },
         {
           "id": "ND-gladstone",
@@ -2345,7 +2991,10 @@
           "tier": 1,
           "county": "Stark",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58630"
+          ]
         },
         {
           "id": "ND-crosby",
@@ -2354,7 +3003,10 @@
           "tier": 1,
           "county": "Divide",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58730"
+          ]
         },
         {
           "id": "ND-marmarth",
@@ -2363,7 +3015,10 @@
           "tier": 1,
           "county": "Slope",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58643"
+          ]
         },
         {
           "id": "ND-dodge",
@@ -2372,7 +3027,10 @@
           "tier": 1,
           "county": "Dunn",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58625"
+          ]
         },
         {
           "id": "ND-scranton",
@@ -2381,7 +3039,10 @@
           "tier": 1,
           "county": "Bowman",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58653"
+          ]
         },
         {
           "id": "ND-flaxton",
@@ -2390,7 +3051,10 @@
           "tier": 1,
           "county": "Burke",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58737"
+          ]
         },
         {
           "id": "ND-fortuna",
@@ -2399,7 +3063,10 @@
           "tier": 1,
           "county": "Divide",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58844"
+          ]
         },
         {
           "id": "ND-ray",
@@ -2408,7 +3075,10 @@
           "tier": 1,
           "county": "Williams",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58849"
+          ]
         },
         {
           "id": "ND-trenton",
@@ -2417,7 +3087,10 @@
           "tier": 1,
           "county": "Williams",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58853"
+          ]
         },
         {
           "id": "ND-mandaree",
@@ -2426,7 +3099,10 @@
           "tier": 1,
           "county": "Mckenzie",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58757"
+          ]
         },
         {
           "id": "ND-bowman",
@@ -2435,7 +3111,10 @@
           "tier": 1,
           "county": "Bowman",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58623"
+          ]
         },
         {
           "id": "ND-rhame",
@@ -2444,7 +3123,10 @@
           "tier": 1,
           "county": "Bowman",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58651"
+          ]
         },
         {
           "id": "ND-wildrose",
@@ -2453,7 +3135,10 @@
           "tier": 1,
           "county": "Williams",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58795"
+          ]
         },
         {
           "id": "ND-watford-city",
@@ -2462,7 +3147,10 @@
           "tier": 1,
           "county": "Mckenzie",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58854"
+          ]
         },
         {
           "id": "ND-beach",
@@ -2471,7 +3159,10 @@
           "tier": 1,
           "county": "Golden Valley",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58621"
+          ]
         },
         {
           "id": "ND-medora",
@@ -2480,7 +3171,10 @@
           "tier": 1,
           "county": "Billings",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58645"
+          ]
         },
         {
           "id": "ND-dickinson",
@@ -2489,7 +3183,10 @@
           "tier": 1,
           "county": "Stark",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58601"
+          ]
         },
         {
           "id": "ND-richardton",
@@ -2498,7 +3195,10 @@
           "tier": 1,
           "county": "Stark",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58652"
+          ]
         },
         {
           "id": "ND-new-town",
@@ -2507,7 +3207,10 @@
           "tier": 1,
           "county": "Mountrail",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58763"
+          ]
         },
         {
           "id": "ND-killdeer",
@@ -2516,7 +3219,10 @@
           "tier": 1,
           "county": "Dunn",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58640"
+          ]
         },
         {
           "id": "ND-south-heart",
@@ -2525,7 +3231,10 @@
           "tier": 1,
           "county": "Stark",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58655"
+          ]
         },
         {
           "id": "ND-williston",
@@ -2534,7 +3243,10 @@
           "tier": 1,
           "county": "Williams",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58801"
+          ]
         },
         {
           "id": "ND-stanley",
@@ -2543,7 +3255,10 @@
           "tier": 1,
           "county": "Mountrail",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58784"
+          ]
         },
         {
           "id": "ND-tioga",
@@ -2552,7 +3267,10 @@
           "tier": 1,
           "county": "Williams",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58852"
+          ]
         },
         {
           "id": "ND-white-earth",
@@ -2561,7 +3279,10 @@
           "tier": 1,
           "county": "Mountrail",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58794"
+          ]
         },
         {
           "id": "ND-lefor",
@@ -2570,7 +3291,10 @@
           "tier": 1,
           "county": "Stark",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58641"
+          ]
         },
         {
           "id": "ND-cartwright",
@@ -2579,7 +3303,10 @@
           "tier": 1,
           "county": "Mckenzie",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58838"
+          ]
         },
         {
           "id": "ND-grassy-butte",
@@ -2588,7 +3315,10 @@
           "tier": 1,
           "county": "Mckenzie",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58634"
+          ]
         },
         {
           "id": "ND-fairfield",
@@ -2597,7 +3327,10 @@
           "tier": 1,
           "county": "Billings",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58627"
+          ]
         },
         {
           "id": "ND-zahl",
@@ -2606,7 +3339,10 @@
           "tier": 1,
           "county": "Williams",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58856"
+          ]
         },
         {
           "id": "ND-keene",
@@ -2615,7 +3351,10 @@
           "tier": 1,
           "county": "Mckenzie",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58847"
+          ]
         },
         {
           "id": "ND-long-creek",
@@ -2624,7 +3363,10 @@
           "tier": 1,
           "county": "Williams",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58843"
+          ]
         },
         {
           "id": "ND-east-fairview",
@@ -2633,7 +3375,10 @@
           "tier": 1,
           "county": "McKenzie",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "58838"
+          ]
         }
       ],
       "adTargeting": {

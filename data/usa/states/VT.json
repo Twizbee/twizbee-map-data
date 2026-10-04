@@ -149,7 +149,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05602"
+          ]
         },
         {
           "id": "VT-east-corinth",
@@ -158,7 +161,11 @@
           "tier": 1,
           "county": "Orange",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05040",
+            "05076"
+          ]
         },
         {
           "id": "VT-marshfield",
@@ -167,7 +174,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05658"
+          ]
         },
         {
           "id": "VT-hyde-park",
@@ -176,7 +186,10 @@
           "tier": 1,
           "county": "Lamoille",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05655"
+          ]
         },
         {
           "id": "VT-north-clarendon",
@@ -185,7 +198,10 @@
           "tier": 1,
           "county": "Rutland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05759"
+          ]
         },
         {
           "id": "VT-waterbury-center",
@@ -194,7 +210,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05677"
+          ]
         },
         {
           "id": "VT-fair-haven",
@@ -203,7 +222,10 @@
           "tier": 1,
           "county": "Rutland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05743"
+          ]
         },
         {
           "id": "VT-worcester",
@@ -212,7 +234,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05682"
+          ]
         },
         {
           "id": "VT-johnson",
@@ -221,7 +246,10 @@
           "tier": 1,
           "county": "Lamoille",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05656"
+          ]
         },
         {
           "id": "VT-wells-river",
@@ -230,7 +258,10 @@
           "tier": 1,
           "county": "Orange",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05081"
+          ]
         },
         {
           "id": "VT-stowe",
@@ -239,7 +270,10 @@
           "tier": 1,
           "county": "Lamoille",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05672"
+          ]
         },
         {
           "id": "VT-websterville",
@@ -248,7 +282,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05678"
+          ]
         },
         {
           "id": "VT-east-barre",
@@ -257,7 +294,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05649"
+          ]
         },
         {
           "id": "VT-plainfield",
@@ -266,7 +306,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05667"
+          ]
         },
         {
           "id": "VT-castleton",
@@ -275,7 +318,10 @@
           "tier": 1,
           "county": "Rutland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05735"
+          ]
         },
         {
           "id": "VT-cabot",
@@ -284,7 +330,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05647"
+          ]
         },
         {
           "id": "VT-middletown-springs",
@@ -293,7 +342,10 @@
           "tier": 1,
           "county": "Rutland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05757"
+          ]
         },
         {
           "id": "VT-bradford",
@@ -302,7 +354,10 @@
           "tier": 1,
           "county": "Orange",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05033"
+          ]
         },
         {
           "id": "VT-danby",
@@ -311,7 +366,10 @@
           "tier": 1,
           "county": "Rutland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05739"
+          ]
         },
         {
           "id": "VT-cambridge",
@@ -320,7 +378,10 @@
           "tier": 1,
           "county": "Lamoille",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05444"
+          ]
         },
         {
           "id": "VT-barre",
@@ -329,7 +390,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05641"
+          ]
         },
         {
           "id": "VT-northfield",
@@ -338,7 +402,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05663"
+          ]
         },
         {
           "id": "VT-wells",
@@ -347,7 +414,10 @@
           "tier": 1,
           "county": "Rutland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05774"
+          ]
         },
         {
           "id": "VT-chittenden",
@@ -356,7 +426,10 @@
           "tier": 1,
           "county": "Rutland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05737"
+          ]
         },
         {
           "id": "VT-west-pawlet",
@@ -365,7 +438,10 @@
           "tier": 1,
           "county": "Rutland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05775"
+          ]
         },
         {
           "id": "VT-randolph",
@@ -374,7 +450,10 @@
           "tier": 1,
           "county": "Orange",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05060"
+          ]
         },
         {
           "id": "VT-killington-village",
@@ -383,7 +462,10 @@
           "tier": 1,
           "county": "Rutland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05751"
+          ]
         },
         {
           "id": "VT-poultney",
@@ -392,7 +474,10 @@
           "tier": 1,
           "county": "Rutland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05764"
+          ]
         },
         {
           "id": "VT-brandon",
@@ -401,7 +486,10 @@
           "tier": 1,
           "county": "Rutland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05733"
+          ]
         },
         {
           "id": "VT-morrisville",
@@ -410,7 +498,10 @@
           "tier": 1,
           "county": "Lamoille",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05661"
+          ]
         },
         {
           "id": "VT-graniteville",
@@ -419,7 +510,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05654"
+          ]
         },
         {
           "id": "VT-pittsford",
@@ -428,7 +522,10 @@
           "tier": 1,
           "county": "Rutland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05763"
+          ]
         },
         {
           "id": "VT-williamstown",
@@ -437,7 +534,10 @@
           "tier": 1,
           "county": "Orange",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05679"
+          ]
         },
         {
           "id": "VT-pawlet",
@@ -446,7 +546,10 @@
           "tier": 1,
           "county": "Rutland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05761"
+          ]
         },
         {
           "id": "VT-waterbury",
@@ -455,7 +558,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05676"
+          ]
         },
         {
           "id": "VT-proctor",
@@ -464,7 +570,10 @@
           "tier": 1,
           "county": "Rutland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05765"
+          ]
         },
         {
           "id": "VT-chelsea",
@@ -473,7 +582,10 @@
           "tier": 1,
           "county": "Orange",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05038"
+          ]
         },
         {
           "id": "VT-waitsfield",
@@ -482,7 +594,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05673"
+          ]
         },
         {
           "id": "VT-rutland",
@@ -491,7 +606,10 @@
           "tier": 1,
           "county": "Rutland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05701"
+          ]
         },
         {
           "id": "VT-fairlee",
@@ -500,7 +618,10 @@
           "tier": 1,
           "county": "Orange",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05045"
+          ]
         },
         {
           "id": "VT-wallingford",
@@ -509,7 +630,10 @@
           "tier": 1,
           "county": "Rutland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05773"
+          ]
         },
         {
           "id": "VT-wolcott",
@@ -518,7 +642,10 @@
           "tier": 1,
           "county": "Lamoille",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05680"
+          ]
         },
         {
           "id": "VT-jeffersonville",
@@ -527,7 +654,10 @@
           "tier": 1,
           "county": "Lamoille",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05464"
+          ]
         },
         {
           "id": "VT-newbury",
@@ -536,7 +666,10 @@
           "tier": 1,
           "county": "Orange",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05051"
+          ]
         },
         {
           "id": "VT-west-rutland",
@@ -545,7 +678,10 @@
           "tier": 1,
           "county": "Rutland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05777"
+          ]
         },
         {
           "id": "VT-east-montpelier",
@@ -554,7 +690,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05651"
+          ]
         },
         {
           "id": "VT-cuttingsville",
@@ -563,7 +702,10 @@
           "tier": 1,
           "county": "Rutland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05738"
+          ]
         },
         {
           "id": "VT-killington",
@@ -572,7 +714,10 @@
           "tier": 1,
           "county": "Rutland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05751"
+          ]
         },
         {
           "id": "VT-moretown",
@@ -581,7 +726,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05660"
+          ]
         },
         {
           "id": "VT-belvidere-center",
@@ -590,7 +738,10 @@
           "tier": 1,
           "county": "Lamoille",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05442"
+          ]
         },
         {
           "id": "VT-east-randolph",
@@ -599,7 +750,10 @@
           "tier": 1,
           "county": "Orange",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05041"
+          ]
         },
         {
           "id": "VT-eden-mills",
@@ -608,7 +762,10 @@
           "tier": 1,
           "county": "Lamoille",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05653"
+          ]
         },
         {
           "id": "VT-center-rutland",
@@ -617,7 +774,10 @@
           "tier": 1,
           "county": "Rutland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05736"
+          ]
         },
         {
           "id": "VT-florence",
@@ -626,7 +786,10 @@
           "tier": 1,
           "county": "Rutland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05744"
+          ]
         },
         {
           "id": "VT-eden",
@@ -635,7 +798,10 @@
           "tier": 1,
           "county": "Lamoille",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05652"
+          ]
         },
         {
           "id": "VT-washington",
@@ -644,7 +810,10 @@
           "tier": 1,
           "county": "Orange",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05675"
+          ]
         },
         {
           "id": "VT-northfield-falls",
@@ -653,7 +822,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05664"
+          ]
         },
         {
           "id": "VT-lake-elmore",
@@ -662,7 +834,10 @@
           "tier": 1,
           "county": "Lamoille",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05657"
+          ]
         },
         {
           "id": "VT-randolph-center",
@@ -671,7 +846,10 @@
           "tier": 1,
           "county": "Orange",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05061"
+          ]
         },
         {
           "id": "VT-bomoseen",
@@ -680,7 +858,10 @@
           "tier": 1,
           "county": "Rutland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05732"
+          ]
         },
         {
           "id": "VT-waterville",
@@ -689,7 +870,10 @@
           "tier": 1,
           "county": "Lamoille",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05492"
+          ]
         },
         {
           "id": "VT-vershire",
@@ -698,7 +882,10 @@
           "tier": 1,
           "county": "Orange",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05079"
+          ]
         },
         {
           "id": "VT-west-topsham",
@@ -707,7 +894,10 @@
           "tier": 1,
           "county": "Orange",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05086"
+          ]
         },
         {
           "id": "VT-mount-holly",
@@ -716,7 +906,10 @@
           "tier": 1,
           "county": "Rutland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05758"
+          ]
         },
         {
           "id": "VT-east-calais",
@@ -725,7 +918,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05650"
+          ]
         },
         {
           "id": "VT-calais",
@@ -734,7 +930,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05648"
+          ]
         },
         {
           "id": "VT-warren",
@@ -743,7 +942,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05674"
+          ]
         },
         {
           "id": "VT-woodbury",
@@ -752,7 +954,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05681"
+          ]
         },
         {
           "id": "VT-brookfield",
@@ -761,7 +966,10 @@
           "tier": 1,
           "county": "Orange",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05036"
+          ]
         },
         {
           "id": "VT-tunbridge",
@@ -770,7 +978,10 @@
           "tier": 1,
           "county": "Orange",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05077"
+          ]
         },
         {
           "id": "VT-thetford-center",
@@ -779,7 +990,10 @@
           "tier": 1,
           "county": "Orange",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05075"
+          ]
         },
         {
           "id": "VT-east-thetford",
@@ -788,7 +1002,10 @@
           "tier": 1,
           "county": "Orange",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05043"
+          ]
         },
         {
           "id": "VT-corinth",
@@ -797,7 +1014,10 @@
           "tier": 1,
           "county": "Orange",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05039"
+          ]
         },
         {
           "id": "VT-west-fairlee",
@@ -806,7 +1026,10 @@
           "tier": 1,
           "county": "Orange",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05083"
+          ]
         },
         {
           "id": "VT-pittsfield",
@@ -815,7 +1038,10 @@
           "tier": 1,
           "county": "Rutland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05762"
+          ]
         },
         {
           "id": "VT-strafford",
@@ -824,7 +1050,10 @@
           "tier": 1,
           "county": "Orange",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05072"
+          ]
         },
         {
           "id": "VT-post-mills",
@@ -833,7 +1062,10 @@
           "tier": 1,
           "county": "Orange",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05058"
+          ]
         },
         {
           "id": "VT-south-strafford",
@@ -842,7 +1074,10 @@
           "tier": 1,
           "county": "Orange",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05070"
+          ]
         },
         {
           "id": "VT-east-wallingford",
@@ -851,7 +1086,10 @@
           "tier": 1,
           "county": "Rutland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05742"
+          ]
         },
         {
           "id": "VT-belmont",
@@ -860,7 +1098,10 @@
           "tier": 1,
           "county": "Rutland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05730"
+          ]
         },
         {
           "id": "VT-adamant",
@@ -869,7 +1110,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05640"
+          ]
         },
         {
           "id": "VT-underhill-center",
@@ -878,7 +1122,10 @@
           "tier": 1,
           "county": "Lamoille",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05444"
+          ]
         }
       ],
       "adTargeting": {
@@ -985,7 +1232,11 @@
           "tier": 1,
           "county": "Chittenden",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05405",
+            "05401"
+          ]
         },
         {
           "id": "VT-colchester",
@@ -994,7 +1245,11 @@
           "tier": 1,
           "county": "Chittenden",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05439",
+            "05446"
+          ]
         },
         {
           "id": "VT-westford",
@@ -1003,7 +1258,10 @@
           "tier": 1,
           "county": "Chittenden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05494"
+          ]
         },
         {
           "id": "VT-vergennes",
@@ -1012,7 +1270,10 @@
           "tier": 1,
           "county": "Addison",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05491"
+          ]
         },
         {
           "id": "VT-swanton",
@@ -1021,7 +1282,10 @@
           "tier": 1,
           "county": "Franklin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05488"
+          ]
         },
         {
           "id": "VT-south-hero",
@@ -1030,7 +1294,10 @@
           "tier": 1,
           "county": "Grand Isle",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05486"
+          ]
         },
         {
           "id": "VT-bristol",
@@ -1039,7 +1306,10 @@
           "tier": 1,
           "county": "Addison",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05443"
+          ]
         },
         {
           "id": "VT-highgate-center",
@@ -1048,7 +1318,10 @@
           "tier": 1,
           "county": "Franklin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05459"
+          ]
         },
         {
           "id": "VT-huntington",
@@ -1057,7 +1330,10 @@
           "tier": 1,
           "county": "Chittenden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05462"
+          ]
         },
         {
           "id": "VT-richford",
@@ -1066,7 +1342,10 @@
           "tier": 1,
           "county": "Franklin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05476"
+          ]
         },
         {
           "id": "VT-essex-junction",
@@ -1075,7 +1354,10 @@
           "tier": 1,
           "county": "Chittenden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05452"
+          ]
         },
         {
           "id": "VT-jericho",
@@ -1084,7 +1366,10 @@
           "tier": 1,
           "county": "Chittenden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05465"
+          ]
         },
         {
           "id": "VT-winooski",
@@ -1093,7 +1378,10 @@
           "tier": 1,
           "county": "Chittenden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05404"
+          ]
         },
         {
           "id": "VT-middlebury",
@@ -1102,7 +1390,10 @@
           "tier": 1,
           "county": "Addison",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05753"
+          ]
         },
         {
           "id": "VT-milton",
@@ -1111,7 +1402,10 @@
           "tier": 1,
           "county": "Chittenden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05468"
+          ]
         },
         {
           "id": "VT-fairfax",
@@ -1120,7 +1414,10 @@
           "tier": 1,
           "county": "Franklin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05454"
+          ]
         },
         {
           "id": "VT-east-middlebury",
@@ -1129,7 +1426,10 @@
           "tier": 1,
           "county": "Addison",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05740"
+          ]
         },
         {
           "id": "VT-richmond",
@@ -1138,7 +1438,10 @@
           "tier": 1,
           "county": "Chittenden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05477"
+          ]
         },
         {
           "id": "VT-south-burlington",
@@ -1147,7 +1450,10 @@
           "tier": 1,
           "county": "Chittenden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05403"
+          ]
         },
         {
           "id": "VT-enosburg-falls",
@@ -1156,7 +1462,10 @@
           "tier": 1,
           "county": "Franklin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05450"
+          ]
         },
         {
           "id": "VT-shelburne",
@@ -1165,7 +1474,10 @@
           "tier": 1,
           "county": "Chittenden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05482"
+          ]
         },
         {
           "id": "VT-hinesburg",
@@ -1174,7 +1486,10 @@
           "tier": 1,
           "county": "Chittenden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05461"
+          ]
         },
         {
           "id": "VT-new-haven",
@@ -1183,7 +1498,10 @@
           "tier": 1,
           "county": "Addison",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05472"
+          ]
         },
         {
           "id": "VT-bakersfield",
@@ -1192,7 +1510,10 @@
           "tier": 1,
           "county": "Franklin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05441"
+          ]
         },
         {
           "id": "VT-saint-albans",
@@ -1201,7 +1522,10 @@
           "tier": 1,
           "county": "Franklin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05478"
+          ]
         },
         {
           "id": "VT-salisbury",
@@ -1210,7 +1534,10 @@
           "tier": 1,
           "county": "Addison",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05769"
+          ]
         },
         {
           "id": "VT-underhill",
@@ -1219,7 +1546,10 @@
           "tier": 1,
           "county": "Chittenden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05489"
+          ]
         },
         {
           "id": "VT-whiting",
@@ -1228,7 +1558,10 @@
           "tier": 1,
           "county": "Addison",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05778"
+          ]
         },
         {
           "id": "VT-williston",
@@ -1237,7 +1570,10 @@
           "tier": 1,
           "county": "Chittenden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05495"
+          ]
         },
         {
           "id": "VT-north-ferrisburg",
@@ -1246,7 +1582,10 @@
           "tier": 1,
           "county": "Addison",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05473"
+          ]
         },
         {
           "id": "VT-granville",
@@ -1255,7 +1594,10 @@
           "tier": 1,
           "county": "Addison",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05747"
+          ]
         },
         {
           "id": "VT-shoreham",
@@ -1264,7 +1606,10 @@
           "tier": 1,
           "county": "Addison",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05770"
+          ]
         },
         {
           "id": "VT-montgomery-center",
@@ -1273,7 +1618,10 @@
           "tier": 1,
           "county": "Franklin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05471"
+          ]
         },
         {
           "id": "VT-saint-albans-bay",
@@ -1282,7 +1630,10 @@
           "tier": 1,
           "county": "Franklin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05481"
+          ]
         },
         {
           "id": "VT-alburg",
@@ -1291,7 +1642,10 @@
           "tier": 1,
           "county": "Grand Isle",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05440"
+          ]
         },
         {
           "id": "VT-starksboro",
@@ -1300,7 +1654,10 @@
           "tier": 1,
           "county": "Addison",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05487"
+          ]
         },
         {
           "id": "VT-sheldon-springs",
@@ -1309,7 +1666,10 @@
           "tier": 1,
           "county": "Franklin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05485"
+          ]
         },
         {
           "id": "VT-ferrisburg",
@@ -1318,7 +1678,10 @@
           "tier": 1,
           "county": "Addison",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05456"
+          ]
         },
         {
           "id": "VT-orwell",
@@ -1327,7 +1690,10 @@
           "tier": 1,
           "county": "Addison",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05760"
+          ]
         },
         {
           "id": "VT-ripton",
@@ -1336,7 +1702,10 @@
           "tier": 1,
           "county": "Addison",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05766"
+          ]
         },
         {
           "id": "VT-roxbury",
@@ -1345,7 +1714,10 @@
           "tier": 1,
           "county": "Addison",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05669"
+          ]
         },
         {
           "id": "VT-east-fairfield",
@@ -1354,7 +1726,10 @@
           "tier": 1,
           "county": "Franklin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05448"
+          ]
         },
         {
           "id": "VT-charlotte",
@@ -1363,7 +1738,10 @@
           "tier": 1,
           "county": "Chittenden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05445"
+          ]
         },
         {
           "id": "VT-bridport",
@@ -1372,7 +1750,10 @@
           "tier": 1,
           "county": "Addison",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05734"
+          ]
         },
         {
           "id": "VT-hancock",
@@ -1381,7 +1762,10 @@
           "tier": 1,
           "county": "Addison",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05748"
+          ]
         },
         {
           "id": "VT-east-berkshire",
@@ -1390,7 +1774,10 @@
           "tier": 1,
           "county": "Franklin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05447"
+          ]
         },
         {
           "id": "VT-fairfield",
@@ -1399,7 +1786,10 @@
           "tier": 1,
           "county": "Franklin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05455"
+          ]
         },
         {
           "id": "VT-sheldon",
@@ -1408,7 +1798,10 @@
           "tier": 1,
           "county": "Franklin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05483"
+          ]
         },
         {
           "id": "VT-franklin",
@@ -1417,7 +1810,10 @@
           "tier": 1,
           "county": "Franklin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05457"
+          ]
         },
         {
           "id": "VT-north-hero",
@@ -1426,7 +1822,10 @@
           "tier": 1,
           "county": "Grand Isle",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05474"
+          ]
         },
         {
           "id": "VT-isle-la-motte",
@@ -1435,7 +1834,10 @@
           "tier": 1,
           "county": "Grand Isle",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05463"
+          ]
         },
         {
           "id": "VT-grand-isle",
@@ -1444,7 +1846,10 @@
           "tier": 1,
           "county": "Grand Isle",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05458"
+          ]
         },
         {
           "id": "VT-bolton",
@@ -1453,7 +1858,10 @@
           "tier": 1,
           "county": "Chittenden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05477"
+          ]
         }
       ],
       "adTargeting": {
@@ -1555,7 +1963,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05904"
+          ]
         },
         {
           "id": "VT-lyndonville",
@@ -1564,7 +1975,10 @@
           "tier": 1,
           "county": "Caledonia",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05851"
+          ]
         },
         {
           "id": "VT-orleans",
@@ -1573,7 +1987,10 @@
           "tier": 1,
           "county": "Orleans",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05860"
+          ]
         },
         {
           "id": "VT-greensboro-bend",
@@ -1582,7 +1999,10 @@
           "tier": 1,
           "county": "Orleans",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05842"
+          ]
         },
         {
           "id": "VT-newport-center",
@@ -1591,7 +2011,10 @@
           "tier": 1,
           "county": "Orleans",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05857"
+          ]
         },
         {
           "id": "VT-coventry",
@@ -1600,7 +2023,10 @@
           "tier": 1,
           "county": "Orleans",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05825"
+          ]
         },
         {
           "id": "VT-concord",
@@ -1609,7 +2035,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05824"
+          ]
         },
         {
           "id": "VT-west-burke",
@@ -1618,7 +2047,10 @@
           "tier": 1,
           "county": "Caledonia",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05871"
+          ]
         },
         {
           "id": "VT-albany",
@@ -1627,7 +2059,10 @@
           "tier": 1,
           "county": "Orleans",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05820"
+          ]
         },
         {
           "id": "VT-lowell",
@@ -1636,7 +2071,10 @@
           "tier": 1,
           "county": "Orleans",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05847"
+          ]
         },
         {
           "id": "VT-groton",
@@ -1645,7 +2083,10 @@
           "tier": 1,
           "county": "Caledonia",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05046"
+          ]
         },
         {
           "id": "VT-island-pond",
@@ -1654,7 +2095,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05846"
+          ]
         },
         {
           "id": "VT-lyndon-center",
@@ -1663,7 +2107,10 @@
           "tier": 1,
           "county": "Caledonia",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05850"
+          ]
         },
         {
           "id": "VT-peacham",
@@ -1672,7 +2119,10 @@
           "tier": 1,
           "county": "Caledonia",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05862"
+          ]
         },
         {
           "id": "VT-sheffield",
@@ -1681,7 +2131,10 @@
           "tier": 1,
           "county": "Caledonia",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05866"
+          ]
         },
         {
           "id": "VT-sutton",
@@ -1690,7 +2143,10 @@
           "tier": 1,
           "county": "Caledonia",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05867"
+          ]
         },
         {
           "id": "VT-derby-line",
@@ -1699,7 +2155,10 @@
           "tier": 1,
           "county": "Orleans",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05830"
+          ]
         },
         {
           "id": "VT-newport",
@@ -1708,7 +2167,10 @@
           "tier": 1,
           "county": "Orleans",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05855"
+          ]
         },
         {
           "id": "VT-barton",
@@ -1717,7 +2179,10 @@
           "tier": 1,
           "county": "Orleans",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05822"
+          ]
         },
         {
           "id": "VT-irasburg",
@@ -1726,7 +2191,10 @@
           "tier": 1,
           "county": "Orleans",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05845"
+          ]
         },
         {
           "id": "VT-glover",
@@ -1735,7 +2203,10 @@
           "tier": 1,
           "county": "Orleans",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05839"
+          ]
         },
         {
           "id": "VT-greensboro",
@@ -1744,7 +2215,10 @@
           "tier": 1,
           "county": "Orleans",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05841"
+          ]
         },
         {
           "id": "VT-hardwick",
@@ -1753,7 +2227,10 @@
           "tier": 1,
           "county": "Caledonia",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05843"
+          ]
         },
         {
           "id": "VT-canaan",
@@ -1762,7 +2239,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05903"
+          ]
         },
         {
           "id": "VT-east-burke",
@@ -1771,7 +2251,10 @@
           "tier": 1,
           "county": "Caledonia",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05832"
+          ]
         },
         {
           "id": "VT-troy",
@@ -1780,7 +2263,10 @@
           "tier": 1,
           "county": "Orleans",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05868"
+          ]
         },
         {
           "id": "VT-lunenburg",
@@ -1789,7 +2275,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05906"
+          ]
         },
         {
           "id": "VT-beecher-falls",
@@ -1798,7 +2287,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05902"
+          ]
         },
         {
           "id": "VT-north-troy",
@@ -1807,7 +2299,10 @@
           "tier": 1,
           "county": "Orleans",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05859"
+          ]
         },
         {
           "id": "VT-danville",
@@ -1816,7 +2311,10 @@
           "tier": 1,
           "county": "Caledonia",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05828"
+          ]
         },
         {
           "id": "VT-barnet",
@@ -1825,7 +2323,10 @@
           "tier": 1,
           "county": "Caledonia",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05821"
+          ]
         },
         {
           "id": "VT-saint-johnsbury",
@@ -1834,7 +2335,10 @@
           "tier": 1,
           "county": "Caledonia",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05819"
+          ]
         },
         {
           "id": "VT-east-ryegate",
@@ -1843,7 +2347,10 @@
           "tier": 1,
           "county": "Caledonia",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05042"
+          ]
         },
         {
           "id": "VT-east-hardwick",
@@ -1852,7 +2359,10 @@
           "tier": 1,
           "county": "Caledonia",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05836"
+          ]
         },
         {
           "id": "VT-east-charleston",
@@ -1861,7 +2371,10 @@
           "tier": 1,
           "county": "Orleans",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05833"
+          ]
         },
         {
           "id": "VT-south-ryegate",
@@ -1870,7 +2383,10 @@
           "tier": 1,
           "county": "Caledonia",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05069"
+          ]
         },
         {
           "id": "VT-east-haven",
@@ -1879,7 +2395,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05837"
+          ]
         },
         {
           "id": "VT-west-charleston",
@@ -1888,7 +2407,10 @@
           "tier": 1,
           "county": "Orleans",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05872"
+          ]
         },
         {
           "id": "VT-craftsbury",
@@ -1897,7 +2419,10 @@
           "tier": 1,
           "county": "Orleans",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05826"
+          ]
         },
         {
           "id": "VT-mc-indoe-falls",
@@ -1906,7 +2431,10 @@
           "tier": 1,
           "county": "Caledonia",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05050"
+          ]
         },
         {
           "id": "VT-derby",
@@ -1915,7 +2443,10 @@
           "tier": 1,
           "county": "Orleans",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05829"
+          ]
         },
         {
           "id": "VT-norton",
@@ -1924,7 +2455,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05907"
+          ]
         },
         {
           "id": "VT-west-danville",
@@ -1933,7 +2467,10 @@
           "tier": 1,
           "county": "Caledonia",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05873"
+          ]
         },
         {
           "id": "VT-north-concord",
@@ -1942,7 +2479,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05858"
+          ]
         },
         {
           "id": "VT-craftsbury-common",
@@ -1951,7 +2491,10 @@
           "tier": 1,
           "county": "Orleans",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05827"
+          ]
         },
         {
           "id": "VT-west-glover",
@@ -1960,7 +2503,10 @@
           "tier": 1,
           "county": "Orleans",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05875"
+          ]
         },
         {
           "id": "VT-westfield",
@@ -1969,7 +2515,10 @@
           "tier": 1,
           "county": "Orleans",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05874"
+          ]
         },
         {
           "id": "VT-averill",
@@ -1978,7 +2527,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05901"
+          ]
         },
         {
           "id": "VT-guildhall",
@@ -1987,7 +2539,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05905"
+          ]
         },
         {
           "id": "VT-morgan",
@@ -1996,7 +2551,10 @@
           "tier": 1,
           "county": "Orleans",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05853"
+          ]
         },
         {
           "id": "VT-lyndon",
@@ -2005,7 +2563,10 @@
           "tier": 1,
           "county": "Orleans",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05842"
+          ]
         }
       ],
       "adTargeting": {
@@ -2126,7 +2687,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05155"
+          ]
         },
         {
           "id": "VT-londonderry",
@@ -2135,7 +2699,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05148"
+          ]
         },
         {
           "id": "VT-rochester",
@@ -2144,7 +2711,10 @@
           "tier": 1,
           "county": "Windsor",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05767"
+          ]
         },
         {
           "id": "VT-south-woodstock",
@@ -2153,7 +2723,10 @@
           "tier": 1,
           "county": "Windsor",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05071"
+          ]
         },
         {
           "id": "VT-ludlow",
@@ -2162,7 +2735,10 @@
           "tier": 1,
           "county": "Windsor",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05149"
+          ]
         },
         {
           "id": "VT-bellows-falls",
@@ -2171,7 +2747,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05101"
+          ]
         },
         {
           "id": "VT-dorset",
@@ -2180,7 +2759,10 @@
           "tier": 1,
           "county": "Bennington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05251"
+          ]
         },
         {
           "id": "VT-proctorsville",
@@ -2189,7 +2771,10 @@
           "tier": 1,
           "county": "Windsor",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05153"
+          ]
         },
         {
           "id": "VT-whitingham",
@@ -2198,7 +2783,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05361"
+          ]
         },
         {
           "id": "VT-grafton",
@@ -2207,7 +2795,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05146"
+          ]
         },
         {
           "id": "VT-north-bennington",
@@ -2216,7 +2807,10 @@
           "tier": 1,
           "county": "Bennington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05257"
+          ]
         },
         {
           "id": "VT-newfane",
@@ -2225,7 +2819,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05345"
+          ]
         },
         {
           "id": "VT-jacksonville",
@@ -2234,7 +2831,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05342"
+          ]
         },
         {
           "id": "VT-westminster",
@@ -2243,7 +2843,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05158"
+          ]
         },
         {
           "id": "VT-white-river-junction",
@@ -2252,7 +2855,10 @@
           "tier": 1,
           "county": "Windsor",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05001"
+          ]
         },
         {
           "id": "VT-chester",
@@ -2261,7 +2867,10 @@
           "tier": 1,
           "county": "Windsor",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05143"
+          ]
         },
         {
           "id": "VT-putney",
@@ -2270,7 +2879,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05346"
+          ]
         },
         {
           "id": "VT-hartland",
@@ -2279,7 +2891,10 @@
           "tier": 1,
           "county": "Windsor",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05048"
+          ]
         },
         {
           "id": "VT-arlington",
@@ -2288,7 +2903,10 @@
           "tier": 1,
           "county": "Bennington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05250"
+          ]
         },
         {
           "id": "VT-quechee",
@@ -2297,7 +2915,10 @@
           "tier": 1,
           "county": "Windsor",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05059"
+          ]
         },
         {
           "id": "VT-bennington",
@@ -2306,7 +2927,10 @@
           "tier": 1,
           "county": "Bennington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05201"
+          ]
         },
         {
           "id": "VT-springfield",
@@ -2315,7 +2939,10 @@
           "tier": 1,
           "county": "Windsor",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05156"
+          ]
         },
         {
           "id": "VT-woodstock",
@@ -2324,7 +2951,10 @@
           "tier": 1,
           "county": "Windsor",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05091"
+          ]
         },
         {
           "id": "VT-saxtons-river",
@@ -2333,7 +2963,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05154"
+          ]
         },
         {
           "id": "VT-stamford",
@@ -2342,7 +2975,10 @@
           "tier": 1,
           "county": "Bennington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05352"
+          ]
         },
         {
           "id": "VT-windsor",
@@ -2351,7 +2987,10 @@
           "tier": 1,
           "county": "Windsor",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05089"
+          ]
         },
         {
           "id": "VT-wilmington",
@@ -2360,7 +2999,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05363"
+          ]
         },
         {
           "id": "VT-north-springfield",
@@ -2369,7 +3011,10 @@
           "tier": 1,
           "county": "Windsor",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05150"
+          ]
         },
         {
           "id": "VT-cavendish",
@@ -2378,7 +3023,10 @@
           "tier": 1,
           "county": "Windsor",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05142"
+          ]
         },
         {
           "id": "VT-norwich",
@@ -2387,7 +3035,10 @@
           "tier": 1,
           "county": "Windsor",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05055"
+          ]
         },
         {
           "id": "VT-readsboro",
@@ -2396,7 +3047,10 @@
           "tier": 1,
           "county": "Bennington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05350"
+          ]
         },
         {
           "id": "VT-brattleboro",
@@ -2405,7 +3059,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05301"
+          ]
         },
         {
           "id": "VT-pownal",
@@ -2414,7 +3071,10 @@
           "tier": 1,
           "county": "Bennington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05261"
+          ]
         },
         {
           "id": "VT-jamaica",
@@ -2423,7 +3083,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05343"
+          ]
         },
         {
           "id": "VT-east-dorset",
@@ -2432,7 +3095,10 @@
           "tier": 1,
           "county": "Bennington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05253"
+          ]
         },
         {
           "id": "VT-bethel",
@@ -2441,7 +3107,10 @@
           "tier": 1,
           "county": "Windsor",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05032"
+          ]
         },
         {
           "id": "VT-townshend",
@@ -2450,7 +3119,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05353"
+          ]
         },
         {
           "id": "VT-north-hartland",
@@ -2459,7 +3131,10 @@
           "tier": 1,
           "county": "Windsor",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05052"
+          ]
         },
         {
           "id": "VT-wardsboro",
@@ -2468,7 +3143,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05355"
+          ]
         },
         {
           "id": "VT-manchester-center",
@@ -2477,7 +3155,10 @@
           "tier": 1,
           "county": "Bennington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05255"
+          ]
         },
         {
           "id": "VT-north-pownal",
@@ -2486,7 +3167,10 @@
           "tier": 1,
           "county": "Bennington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05260"
+          ]
         },
         {
           "id": "VT-manchester",
@@ -2495,7 +3179,10 @@
           "tier": 1,
           "county": "Bennington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05254"
+          ]
         },
         {
           "id": "VT-south-royalton",
@@ -2504,7 +3191,10 @@
           "tier": 1,
           "county": "Windsor",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05068"
+          ]
         },
         {
           "id": "VT-weston",
@@ -2513,7 +3203,10 @@
           "tier": 1,
           "county": "Windsor",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05161"
+          ]
         },
         {
           "id": "VT-east-arlington",
@@ -2522,7 +3215,10 @@
           "tier": 1,
           "county": "Bennington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05252"
+          ]
         },
         {
           "id": "VT-stockbridge",
@@ -2531,7 +3227,10 @@
           "tier": 1,
           "county": "Windsor",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05772"
+          ]
         },
         {
           "id": "VT-north-pomfret",
@@ -2540,7 +3239,10 @@
           "tier": 1,
           "county": "Windsor",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05053"
+          ]
         },
         {
           "id": "VT-west-wardsboro",
@@ -2549,7 +3251,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05360"
+          ]
         },
         {
           "id": "VT-east-dover",
@@ -2558,7 +3263,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05341"
+          ]
         },
         {
           "id": "VT-perkinsville",
@@ -2567,7 +3275,10 @@
           "tier": 1,
           "county": "Windsor",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05151"
+          ]
         },
         {
           "id": "VT-plymouth",
@@ -2576,7 +3287,10 @@
           "tier": 1,
           "county": "Windsor",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05056"
+          ]
         },
         {
           "id": "VT-bridgewater",
@@ -2585,7 +3299,10 @@
           "tier": 1,
           "county": "Windsor",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05034"
+          ]
         },
         {
           "id": "VT-bondville",
@@ -2594,7 +3311,10 @@
           "tier": 1,
           "county": "Bennington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05340"
+          ]
         },
         {
           "id": "VT-west-townshend",
@@ -2603,7 +3323,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05359"
+          ]
         },
         {
           "id": "VT-bridgewater-corners",
@@ -2612,7 +3335,10 @@
           "tier": 1,
           "county": "Windsor",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05035"
+          ]
         },
         {
           "id": "VT-vernon",
@@ -2621,7 +3347,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05354"
+          ]
         },
         {
           "id": "VT-west-halifax",
@@ -2630,7 +3359,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05358"
+          ]
         },
         {
           "id": "VT-barnard",
@@ -2639,7 +3371,10 @@
           "tier": 1,
           "county": "Windsor",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05031"
+          ]
         },
         {
           "id": "VT-reading",
@@ -2648,7 +3383,10 @@
           "tier": 1,
           "county": "Windsor",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05062"
+          ]
         },
         {
           "id": "VT-west-dover",
@@ -2657,7 +3395,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05356"
+          ]
         },
         {
           "id": "VT-cambridgeport",
@@ -2666,7 +3407,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05141"
+          ]
         },
         {
           "id": "VT-williamsville",
@@ -2675,7 +3419,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05362"
+          ]
         },
         {
           "id": "VT-brownsville",
@@ -2684,7 +3431,10 @@
           "tier": 1,
           "county": "Windsor",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05037"
+          ]
         },
         {
           "id": "VT-south-pomfret",
@@ -2693,7 +3443,10 @@
           "tier": 1,
           "county": "Windsor",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05067"
+          ]
         },
         {
           "id": "VT-west-hartford",
@@ -2702,7 +3455,10 @@
           "tier": 1,
           "county": "Windsor",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05084"
+          ]
         },
         {
           "id": "VT-peru",
@@ -2711,7 +3467,10 @@
           "tier": 1,
           "county": "Bennington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05152"
+          ]
         },
         {
           "id": "VT-west-rupert",
@@ -2720,7 +3479,10 @@
           "tier": 1,
           "county": "Bennington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05776"
+          ]
         },
         {
           "id": "VT-shaftsbury",
@@ -2729,7 +3491,10 @@
           "tier": 1,
           "county": "Bennington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05262"
+          ]
         },
         {
           "id": "VT-sharon",
@@ -2738,7 +3503,10 @@
           "tier": 1,
           "county": "Windsor",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05065"
+          ]
         },
         {
           "id": "VT-west-dummerston",
@@ -2747,7 +3515,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05362"
+          ]
         }
       ],
       "adTargeting": {
@@ -2814,7 +3585,11 @@
           "tier": 1,
           "county": "Chittenden",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05405",
+            "05401"
+          ]
         },
         {
           "id": "VT-colchester",
@@ -2823,7 +3598,11 @@
           "tier": 1,
           "county": "Chittenden",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05439",
+            "05446"
+          ]
         },
         {
           "id": "VT-westford",
@@ -2832,7 +3611,10 @@
           "tier": 1,
           "county": "Chittenden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05494"
+          ]
         },
         {
           "id": "VT-huntington",
@@ -2841,7 +3623,10 @@
           "tier": 1,
           "county": "Chittenden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05462"
+          ]
         },
         {
           "id": "VT-essex-junction",
@@ -2850,7 +3635,10 @@
           "tier": 1,
           "county": "Chittenden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05452"
+          ]
         },
         {
           "id": "VT-jericho",
@@ -2859,7 +3647,10 @@
           "tier": 1,
           "county": "Chittenden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05465"
+          ]
         },
         {
           "id": "VT-winooski",
@@ -2868,7 +3659,10 @@
           "tier": 1,
           "county": "Chittenden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05404"
+          ]
         },
         {
           "id": "VT-milton",
@@ -2877,7 +3671,10 @@
           "tier": 1,
           "county": "Chittenden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05468"
+          ]
         },
         {
           "id": "VT-richmond",
@@ -2886,7 +3683,10 @@
           "tier": 1,
           "county": "Chittenden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05477"
+          ]
         },
         {
           "id": "VT-south-burlington",
@@ -2895,7 +3695,10 @@
           "tier": 1,
           "county": "Chittenden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05403"
+          ]
         },
         {
           "id": "VT-shelburne",
@@ -2904,7 +3707,10 @@
           "tier": 1,
           "county": "Chittenden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05482"
+          ]
         },
         {
           "id": "VT-hinesburg",
@@ -2913,7 +3719,10 @@
           "tier": 1,
           "county": "Chittenden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05461"
+          ]
         },
         {
           "id": "VT-underhill",
@@ -2922,7 +3731,10 @@
           "tier": 1,
           "county": "Chittenden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05489"
+          ]
         },
         {
           "id": "VT-williston",
@@ -2931,7 +3743,10 @@
           "tier": 1,
           "county": "Chittenden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05495"
+          ]
         },
         {
           "id": "VT-charlotte",
@@ -2940,7 +3755,10 @@
           "tier": 1,
           "county": "Chittenden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05445"
+          ]
         },
         {
           "id": "VT-bolton",
@@ -2949,7 +3767,10 @@
           "tier": 1,
           "county": "Chittenden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "05477"
+          ]
         }
       ],
       "adTargeting": {

@@ -93,7 +93,10 @@
           "tier": 2,
           "county": "Hawaii",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96728"
+          ]
         },
         {
           "id": "HI-pepeekeo",
@@ -102,7 +105,10 @@
           "tier": 2,
           "county": "Hawaii",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96783"
+          ]
         },
         {
           "id": "HI-pahala",
@@ -111,7 +117,10 @@
           "tier": 2,
           "county": "Hawaii",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96777"
+          ]
         },
         {
           "id": "HI-hilo",
@@ -120,7 +129,10 @@
           "tier": 2,
           "county": "Hawaii",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96720"
+          ]
         },
         {
           "id": "HI-honokaa",
@@ -129,7 +141,10 @@
           "tier": 2,
           "county": "Hawaii",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96727"
+          ]
         },
         {
           "id": "HI-keaau",
@@ -138,7 +153,10 @@
           "tier": 2,
           "county": "Hawaii",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96749"
+          ]
         },
         {
           "id": "HI-papaikou",
@@ -147,7 +165,10 @@
           "tier": 2,
           "county": "Hawaii",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96781"
+          ]
         },
         {
           "id": "HI-paauilo",
@@ -156,7 +177,10 @@
           "tier": 2,
           "county": "Hawaii",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96776"
+          ]
         },
         {
           "id": "HI-laupahoehoe",
@@ -165,7 +189,10 @@
           "tier": 2,
           "county": "Hawaii",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96764"
+          ]
         },
         {
           "id": "HI-naalehu",
@@ -174,7 +201,10 @@
           "tier": 2,
           "county": "Hawaii",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96772"
+          ]
         },
         {
           "id": "HI-pahoa",
@@ -183,7 +213,10 @@
           "tier": 2,
           "county": "Hawaii",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96778"
+          ]
         },
         {
           "id": "HI-captain-cook",
@@ -192,7 +225,10 @@
           "tier": 2,
           "county": "Hawaii",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96704"
+          ]
         },
         {
           "id": "HI-holualoa",
@@ -201,7 +237,10 @@
           "tier": 2,
           "county": "Hawaii",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96725"
+          ]
         },
         {
           "id": "HI-kurtistown",
@@ -210,7 +249,10 @@
           "tier": 2,
           "county": "Hawaii",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96760"
+          ]
         },
         {
           "id": "HI-waikoloa-village",
@@ -219,7 +261,10 @@
           "tier": 2,
           "county": "Hawaii",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96738"
+          ]
         },
         {
           "id": "HI-hawi",
@@ -228,7 +273,10 @@
           "tier": 2,
           "county": "Hawaii",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96719"
+          ]
         },
         {
           "id": "HI-volcano",
@@ -237,7 +285,10 @@
           "tier": 2,
           "county": "Hawaii",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96785"
+          ]
         },
         {
           "id": "HI-kapaau",
@@ -246,7 +297,10 @@
           "tier": 2,
           "county": "Hawaii",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96755"
+          ]
         },
         {
           "id": "HI-kealakekua",
@@ -255,7 +309,10 @@
           "tier": 2,
           "county": "Hawaii",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96750"
+          ]
         },
         {
           "id": "HI-mountain-view",
@@ -264,7 +321,10 @@
           "tier": 2,
           "county": "Hawaii",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96771"
+          ]
         },
         {
           "id": "HI-ocean-view",
@@ -273,7 +333,10 @@
           "tier": 2,
           "county": "Hawaii",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96737"
+          ]
         },
         {
           "id": "HI-ninole",
@@ -282,7 +345,10 @@
           "tier": 2,
           "county": "Hawaii",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96773"
+          ]
         },
         {
           "id": "HI-kailua-kona",
@@ -291,7 +357,10 @@
           "tier": 2,
           "county": "Hawaii",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96740"
+          ]
         },
         {
           "id": "HI-waikoloa",
@@ -300,7 +369,10 @@
           "tier": 2,
           "county": "Hawaii",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96738"
+          ]
         },
         {
           "id": "HI-hakalau",
@@ -309,7 +381,10 @@
           "tier": 2,
           "county": "Hawaii",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96710"
+          ]
         },
         {
           "id": "HI-honaunau",
@@ -318,7 +393,10 @@
           "tier": 2,
           "county": "Hawaii",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96726"
+          ]
         },
         {
           "id": "HI-papaaloa",
@@ -327,7 +405,10 @@
           "tier": 2,
           "county": "Hawaii",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96780"
+          ]
         },
         {
           "id": "HI-kamuela",
@@ -336,7 +417,10 @@
           "tier": 2,
           "county": "Hawaii",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96743"
+          ]
         },
         {
           "id": "HI-ookala",
@@ -345,7 +429,10 @@
           "tier": 2,
           "county": "Hawaii",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96774"
+          ]
         }
       ],
       "adTargeting": {
@@ -411,7 +498,10 @@
           "tier": 2,
           "county": "Kauai",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96705"
+          ]
         },
         {
           "id": "HI-kekaha",
@@ -420,7 +510,10 @@
           "tier": 2,
           "county": "Kauai",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96752"
+          ]
         },
         {
           "id": "HI-koloa",
@@ -429,7 +522,10 @@
           "tier": 2,
           "county": "Kauai",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96756"
+          ]
         },
         {
           "id": "HI-kapaa",
@@ -438,7 +534,10 @@
           "tier": 2,
           "county": "Kauai",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96746"
+          ]
         },
         {
           "id": "HI-waimea",
@@ -447,7 +546,10 @@
           "tier": 2,
           "county": "Kauai",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96796"
+          ]
         },
         {
           "id": "HI-anahola",
@@ -456,7 +558,10 @@
           "tier": 2,
           "county": "Kauai",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96703"
+          ]
         },
         {
           "id": "HI-hanalei",
@@ -465,7 +570,10 @@
           "tier": 2,
           "county": "Kauai",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96714"
+          ]
         },
         {
           "id": "HI-hanapepe",
@@ -474,7 +582,10 @@
           "tier": 2,
           "county": "Kauai",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96716"
+          ]
         },
         {
           "id": "HI-kalaheo",
@@ -483,7 +594,10 @@
           "tier": 2,
           "county": "Kauai",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96741"
+          ]
         },
         {
           "id": "HI-kaumakani",
@@ -492,7 +606,10 @@
           "tier": 2,
           "county": "Kauai",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96747"
+          ]
         },
         {
           "id": "HI-kilauea",
@@ -501,7 +618,10 @@
           "tier": 2,
           "county": "Kauai",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96754"
+          ]
         },
         {
           "id": "HI-lihue",
@@ -510,7 +630,10 @@
           "tier": 2,
           "county": "Kauai",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96766"
+          ]
         },
         {
           "id": "HI-lawai",
@@ -519,7 +642,10 @@
           "tier": 2,
           "county": "Kauai",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96765"
+          ]
         },
         {
           "id": "HI-princeville",
@@ -528,7 +654,10 @@
           "tier": 2,
           "county": "Kauai",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96722"
+          ]
         },
         {
           "id": "HI-makaweli",
@@ -537,7 +666,10 @@
           "tier": 2,
           "county": "Kauai",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96769"
+          ]
         },
         {
           "id": "HI-kealia",
@@ -546,7 +678,10 @@
           "tier": 2,
           "county": "Kauai",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96751"
+          ]
         }
       ],
       "adTargeting": {
@@ -612,7 +747,10 @@
           "tier": 2,
           "county": "Maui",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96761"
+          ]
         },
         {
           "id": "HI-lanai-city",
@@ -621,7 +759,10 @@
           "tier": 2,
           "county": "Maui",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96763"
+          ]
         },
         {
           "id": "HI-kahului",
@@ -630,7 +771,10 @@
           "tier": 2,
           "county": "Maui",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96732"
+          ]
         },
         {
           "id": "HI-wailuku",
@@ -639,7 +783,10 @@
           "tier": 2,
           "county": "Maui",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96793"
+          ]
         },
         {
           "id": "HI-kula",
@@ -648,7 +795,10 @@
           "tier": 2,
           "county": "Maui",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96790"
+          ]
         },
         {
           "id": "HI-kihei",
@@ -657,7 +807,10 @@
           "tier": 2,
           "county": "Maui",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96753"
+          ]
         },
         {
           "id": "HI-kaunakakai",
@@ -666,7 +819,10 @@
           "tier": 2,
           "county": "Maui",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96748"
+          ]
         },
         {
           "id": "HI-paia",
@@ -675,7 +831,10 @@
           "tier": 2,
           "county": "Maui",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96779"
+          ]
         },
         {
           "id": "HI-makawao",
@@ -684,7 +843,10 @@
           "tier": 2,
           "county": "Maui",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96768"
+          ]
         },
         {
           "id": "HI-maunaloa",
@@ -693,7 +855,10 @@
           "tier": 2,
           "county": "Maui",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96770"
+          ]
         },
         {
           "id": "HI-kualapuu",
@@ -702,7 +867,10 @@
           "tier": 2,
           "county": "Maui",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96757"
+          ]
         },
         {
           "id": "HI-hana",
@@ -711,7 +879,10 @@
           "tier": 2,
           "county": "Maui",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96713"
+          ]
         },
         {
           "id": "HI-kalaupapa",
@@ -720,7 +891,10 @@
           "tier": 2,
           "county": "Maui",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96742"
+          ]
         },
         {
           "id": "HI-hoolehua",
@@ -729,7 +903,10 @@
           "tier": 2,
           "county": "Maui",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96729"
+          ]
         },
         {
           "id": "HI-haiku",
@@ -738,7 +915,10 @@
           "tier": 2,
           "county": "Maui",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96708"
+          ]
         }
       ],
       "adTargeting": {
@@ -823,7 +1003,21 @@
           "tier": 1,
           "county": "Honolulu",
           "zipCount": 12,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96826",
+            "96814",
+            "96816",
+            "96813",
+            "96850",
+            "96818",
+            "96821",
+            "96815",
+            "96822",
+            "96817",
+            "96819",
+            "96825"
+          ]
         },
         {
           "id": "HI-hauula",
@@ -832,7 +1026,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96717"
+          ]
         },
         {
           "id": "HI-schofield-barracks",
@@ -841,7 +1038,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96857"
+          ]
         },
         {
           "id": "HI-kahuku",
@@ -850,7 +1050,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96731"
+          ]
         },
         {
           "id": "HI-waianae",
@@ -859,7 +1062,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96792"
+          ]
         },
         {
           "id": "HI-aiea",
@@ -868,7 +1074,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96701"
+          ]
         },
         {
           "id": "HI-wahiawa",
@@ -877,7 +1086,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96786"
+          ]
         },
         {
           "id": "HI-waialua",
@@ -886,7 +1098,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96791"
+          ]
         },
         {
           "id": "HI-waimanalo",
@@ -895,7 +1110,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96795"
+          ]
         },
         {
           "id": "HI-ewa-beach",
@@ -904,7 +1122,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96706"
+          ]
         },
         {
           "id": "HI-haleiwa",
@@ -913,7 +1134,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96712"
+          ]
         },
         {
           "id": "HI-kailua",
@@ -922,7 +1146,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96734"
+          ]
         },
         {
           "id": "HI-pearl-city",
@@ -931,7 +1158,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96782"
+          ]
         },
         {
           "id": "HI-mililani-town",
@@ -940,7 +1170,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96789"
+          ]
         },
         {
           "id": "HI-kapolei",
@@ -949,7 +1182,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96707"
+          ]
         },
         {
           "id": "HI-waipahu",
@@ -958,7 +1194,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96797"
+          ]
         },
         {
           "id": "HI-kaaawa",
@@ -967,7 +1206,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96730"
+          ]
         },
         {
           "id": "HI-laie",
@@ -976,7 +1218,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96762"
+          ]
         },
         {
           "id": "HI-kaneohe",
@@ -985,7 +1230,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96744"
+          ]
         },
         {
           "id": "HI-tripler-army-medical-ctr",
@@ -994,7 +1242,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96859"
+          ]
         },
         {
           "id": "HI-hickam-afb",
@@ -1003,7 +1254,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96853"
+          ]
         },
         {
           "id": "HI-m-c-b-h-kaneohe-bay",
@@ -1012,7 +1266,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96863"
+          ]
         },
         {
           "id": "HI-mililani",
@@ -1021,7 +1278,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96789"
+          ]
         },
         {
           "id": "HI-kunia",
@@ -1030,7 +1290,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96759"
+          ]
         },
         {
           "id": "HI-pearl-harbor",
@@ -1039,7 +1302,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96860"
+          ]
         }
       ],
       "adTargeting": {
@@ -1124,7 +1390,21 @@
           "tier": 1,
           "county": "Honolulu",
           "zipCount": 12,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96826",
+            "96814",
+            "96816",
+            "96813",
+            "96850",
+            "96818",
+            "96821",
+            "96815",
+            "96822",
+            "96817",
+            "96819",
+            "96825"
+          ]
         },
         {
           "id": "HI-hauula",
@@ -1133,7 +1413,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96717"
+          ]
         },
         {
           "id": "HI-schofield-barracks",
@@ -1142,7 +1425,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96857"
+          ]
         },
         {
           "id": "HI-kahuku",
@@ -1151,7 +1437,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96731"
+          ]
         },
         {
           "id": "HI-waianae",
@@ -1160,7 +1449,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96792"
+          ]
         },
         {
           "id": "HI-aiea",
@@ -1169,7 +1461,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96701"
+          ]
         },
         {
           "id": "HI-wahiawa",
@@ -1178,7 +1473,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96786"
+          ]
         },
         {
           "id": "HI-waialua",
@@ -1187,7 +1485,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96791"
+          ]
         },
         {
           "id": "HI-waimanalo",
@@ -1196,7 +1497,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96795"
+          ]
         },
         {
           "id": "HI-ewa-beach",
@@ -1205,7 +1509,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96706"
+          ]
         },
         {
           "id": "HI-haleiwa",
@@ -1214,7 +1521,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96712"
+          ]
         },
         {
           "id": "HI-kailua",
@@ -1223,7 +1533,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96734"
+          ]
         },
         {
           "id": "HI-pearl-city",
@@ -1232,7 +1545,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96782"
+          ]
         },
         {
           "id": "HI-mililani-town",
@@ -1241,7 +1557,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96789"
+          ]
         },
         {
           "id": "HI-kapolei",
@@ -1250,7 +1569,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96707"
+          ]
         },
         {
           "id": "HI-waipahu",
@@ -1259,7 +1581,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96797"
+          ]
         },
         {
           "id": "HI-kaaawa",
@@ -1268,7 +1593,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96730"
+          ]
         },
         {
           "id": "HI-laie",
@@ -1277,7 +1605,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96762"
+          ]
         },
         {
           "id": "HI-kaneohe",
@@ -1286,7 +1617,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96744"
+          ]
         },
         {
           "id": "HI-tripler-army-medical-ctr",
@@ -1295,7 +1629,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96859"
+          ]
         },
         {
           "id": "HI-hickam-afb",
@@ -1304,7 +1641,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96853"
+          ]
         },
         {
           "id": "HI-m-c-b-h-kaneohe-bay",
@@ -1313,7 +1653,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96863"
+          ]
         },
         {
           "id": "HI-mililani",
@@ -1322,7 +1665,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96789"
+          ]
         },
         {
           "id": "HI-kunia",
@@ -1331,7 +1677,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96759"
+          ]
         },
         {
           "id": "HI-pearl-harbor",
@@ -1340,7 +1689,10 @@
           "tier": 2,
           "county": "Honolulu",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "96860"
+          ]
         }
       ],
       "adTargeting": {

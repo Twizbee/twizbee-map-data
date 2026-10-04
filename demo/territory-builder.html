@@ -1,0 +1,1552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geo Preferences & Territory Builder • Thumbtack Pro Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #007c91;
+      --primary-dark: #004754;
+      --primary-light: #e6f7fa;
+      --primary-border: #b2ebf2;
+      --purple-territory: #6b46c1;
+      --purple-fill: rgba(107, 70, 193, 0.42);
+      --purple-stroke: #553c9a;
+      --text-main: #2f343b;
+      --text-muted: #676d77;
+      --border-color: #e2e8f0;
+      --bg-page: #f8fafc;
+      --bg-card: #ffffff;
+      --chip-bg: #f1f5f9;
+      --chip-text: #475569;
+      --chip-border: #cbd5e1;
+      --chip-active-bg: #e0f2fe;
+      --chip-active-text: #0369a1;
+      --chip-active-border: #7dd3fc;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      color: var(--text-main);
+      background-color: var(--bg-page);
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Top Navigation */
+    .top-nav {
+      background: #ffffff;
+      border-bottom: 1px solid var(--border-color);
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 32px;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+
+    .brand-area {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .brand-icon {
+      width: 32px;
+      height: 32px;
+      background: var(--primary-dark);
+      color: #ffffff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 16px;
+    }
+
+    .brand-title {
+      font-weight: 700;
+      font-size: 17px;
+      color: var(--primary-dark);
+      letter-spacing: -0.2px;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+    }
+
+    .nav-link {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      transition: color 0.15s;
+    }
+
+    .nav-link:hover, .nav-link.active {
+      color: var(--primary-dark);
+    }
+
+    .nav-link.active {
+      font-weight: 600;
+      position: relative;
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .state-picker {
+      padding: 6px 12px;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      background: #ffffff;
+      color: var(--text-main);
+      cursor: pointer;
+      outline: none;
+    }
+
+    .state-picker:focus {
+      border-color: var(--primary);
+    }
+
+    /* Page Container */
+    .page-container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 32px 32px 100px 32px;
+    }
+
+    /* Page Header Banner */
+    .header-banner {
+      margin-bottom: 24px;
+    }
+
+    .header-title {
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--text-main);
+      letter-spacing: -0.4px;
+      margin-bottom: 6px;
+    }
+
+    .header-subtitle {
+      font-size: 15px;
+      color: var(--text-muted);
+    }
+
+    /* Mode Navigation Tabs */
+    .mode-tabs {
+      display: flex;
+      border-bottom: 1px solid var(--border-color);
+      margin-bottom: 28px;
+      gap: 32px;
+    }
+
+    .tab-btn {
+      background: none;
+      border: none;
+      font-size: 15px;
+      font-weight: 500;
+      color: var(--text-muted);
+      padding: 12px 0;
+      cursor: pointer;
+      position: relative;
+      transition: color 0.15s;
+    }
+
+    .tab-btn:hover {
+      color: var(--text-main);
+    }
+
+    .tab-btn.active {
+      color: var(--primary-dark);
+      font-weight: 600;
+    }
+
+    .tab-btn.active::after {
+      content: '';
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: var(--primary);
+      border-radius: 3px 3px 0 0;
+    }
+
+    /* Section Subhead */
+    .section-lead {
+      margin-bottom: 24px;
+    }
+
+    .section-title {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 4px;
+    }
+
+    .section-desc {
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+
+    /* Workspace Grid */
+    .workspace-grid {
+      display: grid;
+      grid-template-columns: 580px 1fr;
+      gap: 32px;
+      align-items: start;
+    }
+
+    /* Left Column - Accordions */
+    .accordion-column {
+      background: #ffffff;
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+      overflow: hidden;
+    }
+
+    .search-bar-wrap {
+      padding: 16px;
+      border-bottom: 1px solid var(--border-color);
+      background: #fdfdfd;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 10px 14px;
+      font-size: 14px;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      background: #ffffff;
+      outline: none;
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+
+    .search-input:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(0, 124, 145, 0.12);
+    }
+
+    .accordion-list {
+      max-height: calc(100vh - 280px);
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+
+    .accordion-list::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    .accordion-list::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    .accordion-list::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 3px;
+    }
+
+    /* Accordion Item */
+    .region-item {
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .region-item:last-child {
+      border-bottom: none;
+    }
+
+    .region-header {
+      padding: 18px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      cursor: pointer;
+      user-select: none;
+      background: #ffffff;
+      transition: background 0.15s;
+    }
+
+    .region-header:hover {
+      background: #f8fafc;
+    }
+
+    .region-info {
+      flex: 1;
+    }
+
+    .region-name {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 2px;
+    }
+
+    .region-counter {
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    .region-counter b {
+      color: var(--text-main);
+    }
+
+    .region-actions {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .toggle-all-btn {
+      background: none;
+      border: none;
+      color: var(--primary);
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      padding: 4px 8px;
+      border-radius: 4px;
+      transition: background 0.15s;
+    }
+
+    .toggle-all-btn:hover {
+      background: var(--primary-light);
+    }
+
+    .chevron-icon {
+      width: 18px;
+      height: 18px;
+      color: var(--text-muted);
+      transition: transform 0.2s;
+    }
+
+    .region-item.expanded .chevron-icon {
+      transform: rotate(180deg);
+    }
+
+    /* Region Body */
+    .region-body {
+      display: none;
+      background: #fafbfc;
+      border-top: 1px solid var(--border-color);
+      padding: 16px 20px 20px 20px;
+    }
+
+    .region-item.expanded .region-body {
+      display: block;
+    }
+
+    /* City Card */
+    .city-card {
+      background: #ffffff;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 14px 16px;
+      margin-bottom: 12px;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
+      transition: border-color 0.15s;
+    }
+
+    .city-card:last-child {
+      margin-bottom: 0;
+    }
+
+    .city-top {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 10px;
+    }
+
+    /* Custom Checkbox */
+    .custom-check {
+      width: 20px;
+      height: 20px;
+      border-radius: 4px;
+      border: 2px solid #94a3b8;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.15s;
+      flex-shrink: 0;
+      background: #ffffff;
+    }
+
+    .custom-check.checked {
+      background: var(--primary);
+      border-color: var(--primary);
+      color: #ffffff;
+    }
+
+    .custom-check.indeterminate {
+      background: var(--primary);
+      border-color: var(--primary);
+      color: #ffffff;
+    }
+
+    .custom-check svg {
+      width: 14px;
+      height: 14px;
+      stroke-width: 2.5;
+    }
+
+    .city-label-wrap {
+      flex: 1;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+    }
+
+    .city-label {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text-main);
+      cursor: pointer;
+    }
+
+    .city-county {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    /* ZIP code pills / chips */
+    .zip-chips-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-left: 32px;
+    }
+
+    .zip-chip {
+      background: var(--chip-bg);
+      color: var(--chip-text);
+      border: 1px solid var(--chip-border);
+      font-size: 12px;
+      font-weight: 600;
+      padding: 5px 11px;
+      border-radius: 16px;
+      cursor: pointer;
+      user-select: none;
+      transition: all 0.15s;
+      letter-spacing: 0.2px;
+    }
+
+    .zip-chip:hover {
+      background: #e2e8f0;
+      border-color: #94a3b8;
+    }
+
+    .zip-chip.active {
+      background: var(--chip-active-bg);
+      color: var(--chip-active-text);
+      border-color: var(--chip-active-border);
+    }
+
+    .zip-chip.active:hover {
+      background: #bae6fd;
+    }
+
+    /* Right Column - Sticky Map */
+    .map-column {
+      position: sticky;
+      top: 96px;
+      height: calc(100vh - 130px);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .map-frame {
+      flex: 1;
+      background: #ffffff;
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .map-header-overlay {
+      position: absolute;
+      top: 14px;
+      left: 16px;
+      z-index: 10;
+      background: rgba(255, 255, 255, 0.94);
+      backdrop-filter: blur(8px);
+      padding: 8px 14px;
+      border-radius: 8px;
+      border: 1px solid var(--border-color);
+      font-size: 13px;
+      font-weight: 600;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .legend-indicator {
+      width: 14px;
+      height: 14px;
+      background: var(--purple-territory);
+      border-radius: 3px;
+      opacity: 0.85;
+    }
+
+    .map-canvas-container {
+      flex: 1;
+      width: 100%;
+      height: 100%;
+      background: #eef2f6;
+      cursor: grab;
+      position: relative;
+    }
+
+    .map-canvas-container:active {
+      cursor: grabbing;
+    }
+
+    #territorySvg {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    /* SVG styling with crisp scaled non-scaling strokes */
+    .state-bg-path {
+      fill: #e2e8f0;
+      stroke: #cbd5e1;
+      stroke-width: 0.85px;
+      vector-effect: non-scaling-stroke;
+    }
+
+    .county-bg-path {
+      fill: none;
+      stroke: #d8e2ec;
+      stroke-width: 0.5px;
+      stroke-dasharray: 2, 2;
+      vector-effect: non-scaling-stroke;
+    }
+
+    .zip-bg-path {
+      fill: #f1f5f9;
+      stroke: #e2e8f0;
+      stroke-width: 0.3px;
+      vector-effect: non-scaling-stroke;
+      transition: fill 0.15s, stroke 0.15s;
+    }
+
+    .zip-active-path {
+      fill: var(--purple-fill);
+      stroke: var(--purple-stroke);
+      stroke-linejoin: round;
+      stroke-linecap: round;
+      vector-effect: non-scaling-stroke;
+      transition: fill 0.15s, stroke-width 0.15s;
+    }
+
+    /* Proportional stroke classes scaled for smaller to larger ZIPs */
+    .zip-active-path.zip-scale-xs {
+      stroke-width: 0.28px;
+      stroke-opacity: 0.45;
+    }
+
+    .zip-active-path.zip-scale-sm {
+      stroke-width: 0.38px;
+      stroke-opacity: 0.58;
+    }
+
+    .zip-active-path.zip-scale-md {
+      stroke-width: 0.52px;
+      stroke-opacity: 0.70;
+    }
+
+    .zip-active-path.zip-scale-lg {
+      stroke-width: 0.68px;
+      stroke-opacity: 0.82;
+    }
+
+    .zip-active-path.zip-scale-xl {
+      stroke-width: 0.85px;
+      stroke-opacity: 0.90;
+    }
+
+    .zip-hover-highlight {
+      fill: rgba(234, 179, 8, 0.45) !important;
+      stroke: #ca8a04 !important;
+      stroke-width: 1.8px !important;
+      stroke-opacity: 1 !important;
+      vector-effect: non-scaling-stroke !important;
+    }
+
+    /* Map Controls */
+    .map-controls {
+      position: absolute;
+      right: 16px;
+      bottom: 24px;
+      z-index: 10;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .control-btn {
+      width: 36px;
+      height: 36px;
+      background: #ffffff;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--text-main);
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .control-btn:hover {
+      background: #f8fafc;
+      color: var(--primary);
+    }
+
+    .map-policy-note {
+      margin-top: 10px;
+      font-size: 12px;
+      color: var(--text-muted);
+      text-align: center;
+    }
+
+    .map-policy-note a {
+      color: var(--primary);
+      text-decoration: underline;
+    }
+
+    /* Fixed Bottom Action Bar */
+    .bottom-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 72px;
+      background: #ffffff;
+      border-top: 1px solid var(--border-color);
+      box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.05);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 40px;
+      z-index: 40;
+    }
+
+    .back-action {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: none;
+      border: none;
+      color: var(--text-main);
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+      padding: 8px 12px;
+      border-radius: 6px;
+      transition: background 0.15s;
+    }
+
+    .back-action:hover {
+      background: #f1f5f9;
+    }
+
+    .selection-summary-badge {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text-main);
+    }
+
+    .stat-pill {
+      background: #f1f5f9;
+      padding: 4px 12px;
+      border-radius: 20px;
+      color: var(--primary-dark);
+    }
+
+    .right-actions {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .reset-btn {
+      background: none;
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      font-size: 14px;
+      font-weight: 600;
+      padding: 10px 18px;
+      border-radius: 24px;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .reset-btn:hover {
+      border-color: #94a3b8;
+      color: var(--text-main);
+    }
+
+    .save-btn {
+      background: var(--primary-dark);
+      color: #ffffff;
+      border: none;
+      font-size: 15px;
+      font-weight: 700;
+      padding: 12px 28px;
+      border-radius: 24px;
+      cursor: pointer;
+      box-shadow: 0 2px 6px rgba(0, 71, 84, 0.25);
+      transition: all 0.15s;
+    }
+
+    .save-btn:hover {
+      background: #003640;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 10px rgba(0, 71, 84, 0.35);
+    }
+
+    /* Modal */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(15, 23, 42, 0.55);
+      backdrop-filter: blur(4px);
+      z-index: 100;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .modal-overlay.open {
+      display: flex;
+    }
+
+    .modal-box {
+      background: #ffffff;
+      border-radius: 16px;
+      width: 100%;
+      max-width: 640px;
+      max-height: 90vh;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+      overflow: hidden;
+    }
+
+    .modal-header {
+      padding: 20px 24px;
+      border-bottom: 1px solid var(--border-color);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .modal-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .modal-close-btn {
+      background: none;
+      border: none;
+      font-size: 22px;
+      color: var(--text-muted);
+      cursor: pointer;
+      line-height: 1;
+    }
+
+    .modal-body {
+      padding: 24px;
+      overflow-y: auto;
+    }
+
+    .json-code-box {
+      background: #0f172a;
+      color: #38bdf8;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 13px;
+      line-height: 1.6;
+      padding: 16px;
+      border-radius: 10px;
+      max-height: 380px;
+      overflow-y: auto;
+      white-space: pre;
+    }
+
+    .modal-footer {
+      padding: 16px 24px;
+      border-top: 1px solid var(--border-color);
+      display: flex;
+      justify-content: flex-end;
+      gap: 12px;
+      background: #f8fafc;
+    }
+
+    .copy-btn {
+      background: var(--primary);
+      color: #ffffff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 14px;
+      font-weight: 600;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+
+    .copy-btn:hover {
+      background: var(--primary-dark);
+    }
+
+    /* Tooltip */
+    #mapTooltip {
+      position: fixed;
+      pointer-events: none;
+      background: #0f172a;
+      color: #ffffff;
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 500;
+      z-index: 100;
+      display: none;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Navigation -->
+  <nav class="top-nav">
+    <div class="brand-area">
+      <div class="brand-icon">T</div>
+      <div class="brand-title">Thumbtack Pro Studio</div>
+    </div>
+    <div class="nav-links">
+      <a href="#" class="nav-link">Jobs</a>
+      <a href="#" class="nav-link">Messages</a>
+      <a href="index.html" class="nav-link">Performance</a>
+      <a href="#" class="nav-link active">Services & Territory</a>
+      <a href="#" class="nav-link">Calendar</a>
+      <a href="#" class="nav-link">Profile</a>
+    </div>
+    <div class="nav-actions">
+      <label for="stateSelector" style="font-size: 13px; font-weight: 600; color: var(--text-muted);">State:</label>
+      <select id="stateSelector" class="state-picker">
+        <!-- Populated via JS -->
+      </select>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <main class="page-container">
+    
+    <!-- Banner -->
+    <header class="header-banner">
+      <h1 class="header-title">Choose where you work.</h1>
+      <p class="header-subtitle">You’ll auto-pay for leads in these areas when they match your preferences. You can fine-tune this later.</p>
+    </header>
+
+    <!-- Tabs -->
+    <div class="mode-tabs">
+      <button class="tab-btn">Select by distance</button>
+      <button class="tab-btn active">Select by area and zip code</button>
+      <button class="tab-btn">Advanced</button>
+    </div>
+
+    <!-- Section Intro -->
+    <div class="section-lead">
+      <h2 class="section-title">Select by area and zip code</h2>
+      <p class="section-desc">Set areas and zip codes where you want to work. This will change any selection by distance you may have made.</p>
+    </div>
+
+    <!-- Workspace Grid -->
+    <div class="workspace-grid">
+      
+      <!-- Left Column: Territory Accordions -->
+      <section class="accordion-column">
+        <div class="search-bar-wrap">
+          <input type="text" id="areaSearch" class="search-input" placeholder="Search region, city, or 5-digit ZIP code...">
+        </div>
+        <div class="accordion-list" id="regionsList">
+          <!-- Populated via JS -->
+        </div>
+      </section>
+
+      <!-- Right Column: Sticky Live Vector Map -->
+      <section class="map-column">
+        <div class="map-frame">
+          <div class="map-header-overlay">
+            <div class="legend-indicator"></div>
+            <span id="mapLegendLabel">Active Service Territory (<span id="activeZipsCountLabel">0</span> ZIPs)</span>
+          </div>
+
+          <div class="map-canvas-container" id="mapContainer">
+            <svg id="territorySvg" viewBox="0 0 960 600" preserveAspectRatio="xMidYMid meet">
+              <g id="stateBackgroundGroup"></g>
+              <g id="territoryGroup"></g>
+              <g id="highlightGroup"></g>
+            </svg>
+          </div>
+
+          <div class="map-controls">
+            <button class="control-btn" id="zoomInBtn" title="Zoom In">+</button>
+            <button class="control-btn" id="zoomOutBtn" title="Zoom Out">−</button>
+            <button class="control-btn" id="resetZoomBtn" title="Reset View" style="font-size: 13px;">⟲</button>
+          </div>
+        </div>
+
+        <p class="map-policy-note">
+          We embrace our diverse community of pros and customers. Please <a href="#">review our non-discrimination policy</a>.
+        </p>
+      </section>
+
+    </div>
+
+  </main>
+
+  <!-- Sticky Bottom Action Bar -->
+  <footer class="bottom-bar">
+    <button class="back-action" onclick="history.back()">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+        <line x1="19" y1="12" x2="5" y2="12"></line>
+        <polyline points="12 19 5 12 12 5"></polyline>
+      </svg>
+      Back
+    </button>
+
+    <div class="selection-summary-badge">
+      <span>Targeting:</span>
+      <span class="stat-pill" id="statSummaryText">0 regions • 0 cities • 0 ZIPs</span>
+    </div>
+
+    <div class="right-actions">
+      <button class="reset-btn" id="resetAllBtn">Reset All</button>
+      <button class="save-btn" id="savePreferencesBtn">Save Preferences</button>
+    </div>
+  </footer>
+
+  <!-- Save Preferences Modal -->
+  <div class="modal-overlay" id="saveModal">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3 class="modal-title">Territory Preferences Ready</h3>
+        <button class="modal-close-btn" id="closeModalBtn">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p style="font-size: 14px; color: var(--text-muted); margin-bottom: 14px;">
+          The pro service territory has been compiled. You can send this payload directly to your backend API or save it in PostgreSQL:
+        </p>
+        <pre class="json-code-box" id="jsonPayloadPreview"></pre>
+      </div>
+      <div class="modal-footer">
+        <button class="copy-btn" id="copyJsonBtn">Copy JSON Payload</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="mapTooltip"></div>
+
+  <script>
+    // State Constants
+    const ALL_STATES = [
+      { code: 'CA', name: 'California' }, { code: 'FL', name: 'Florida' }, { code: 'TX', name: 'Texas' },
+      { code: 'NY', name: 'New York' }, { code: 'WA', name: 'Washington' }, { code: 'GA', name: 'Georgia' },
+      { code: 'IL', name: 'Illinois' }, { code: 'PA', name: 'Pennsylvania' }, { code: 'OH', name: 'Ohio' },
+      { code: 'NC', name: 'North Carolina' }, { code: 'MI', name: 'Michigan' }, { code: 'NJ', name: 'New Jersey' },
+      { code: 'VA', name: 'Virginia' }, { code: 'AZ', name: 'Arizona' }, { code: 'MA', name: 'Massachusetts' },
+      { code: 'TN', name: 'Tennessee' }, { code: 'IN', name: 'Indiana' }, { code: 'MO', name: 'Missouri' },
+      { code: 'MD', name: 'Maryland' }, { code: 'WI', name: 'Wisconsin' }, { code: 'CO', name: 'Colorado' },
+      { code: 'MN', name: 'Minnesota' }, { code: 'SC', name: 'South Carolina' }, { code: 'AL', name: 'Alabama' },
+      { code: 'LA', name: 'Louisiana' }, { code: 'KY', name: 'Kentucky' }, { code: 'OR', name: 'Oregon' },
+      { code: 'OK', name: 'Oklahoma' }, { code: 'CT', name: 'Connecticut' }, { code: 'UT', name: 'Utah' },
+      { code: 'IA', name: 'Iowa' }, { code: 'NV', name: 'Nevada' }, { code: 'AR', name: 'Arkansas' },
+      { code: 'MS', name: 'Mississippi' }, { code: 'KS', name: 'Kansas' }, { code: 'NM', name: 'New Mexico' },
+      { code: 'NE', name: 'Nebraska' }, { code: 'ID', name: 'Idaho' }, { code: 'WV', name: 'West Virginia' },
+      { code: 'HI', name: 'Hawaii' }, { code: 'NH', name: 'New Hampshire' }, { code: 'ME', name: 'Maine' },
+      { code: 'MT', name: 'Montana' }, { code: 'RI', name: 'Rhode Island' }, { code: 'DE', name: 'Delaware' },
+      { code: 'SD', name: 'South Dakota' }, { code: 'ND', name: 'North Dakota' }, { code: 'AK', name: 'Alaska' },
+      { code: 'DC', name: 'District of Columbia' }, { code: 'VT', name: 'Vermont' }, { code: 'WY', name: 'Wyoming' },
+      { code: 'PR', name: 'Puerto Rico' }
+    ];
+
+    // App State
+    let currentStateCode = 'CA';
+    let currentStateData = null;
+    let selectedZips = new Set(); // Set<string>
+    let zipPathMap = new Map();   // Map<zip, pathString>
+    let zipMetaMap = new Map();   // Map<zip, { city, county, bounds }>
+
+    // DOM Elements
+    const stateSelector = document.getElementById('stateSelector');
+    const regionsList = document.getElementById('regionsList');
+    const areaSearch = document.getElementById('areaSearch');
+    const territoryGroup = document.getElementById('territoryGroup');
+    const stateBgGroup = document.getElementById('stateBackgroundGroup');
+    const highlightGroup = document.getElementById('highlightGroup');
+    const activeZipsCountLabel = document.getElementById('activeZipsCountLabel');
+    const statSummaryText = document.getElementById('statSummaryText');
+    const saveModal = document.getElementById('saveModal');
+    const jsonPayloadPreview = document.getElementById('jsonPayloadPreview');
+    const copyJsonBtn = document.getElementById('copyJsonBtn');
+    const closeModalBtn = document.getElementById('closeModalBtn');
+    const mapTooltip = document.getElementById('mapTooltip');
+    const territorySvg = document.getElementById('territorySvg');
+
+    // Pan / Zoom variables
+    let viewBox = { x: 0, y: 0, w: 960, h: 600 };
+    let initialViewBox = { x: 0, y: 0, w: 960, h: 600 };
+    let isPanning = false;
+    let startPoint = { x: 0, y: 0 };
+
+    // 1. Initialize
+    function init() {
+      // Populate state selector
+      ALL_STATES.forEach(st => {
+        const opt = document.createElement('option');
+        opt.value = st.code;
+        opt.textContent = `${st.name} (${st.code})`;
+        if (st.code === currentStateCode) opt.selected = true;
+        stateSelector.appendChild(opt);
+      });
+
+      stateSelector.addEventListener('change', (e) => {
+        loadState(e.target.value);
+      });
+
+      areaSearch.addEventListener('input', handleSearch);
+      setupZoomPan();
+      setupModal();
+
+      // Load initial state (California)
+      loadState('CA');
+    }
+
+    // 2. Load State Data
+    async function loadState(code) {
+      currentStateCode = code;
+      regionsList.innerHTML = `<div style="padding: 30px; text-align: center; color: var(--text-muted); font-size: 14px;">Loading ${code} data...</div>`;
+
+      try {
+        const res = await fetch(`../data/usa/states/${code}.json`);
+        currentStateData = await res.json();
+
+        // Build lookup maps
+        zipPathMap.clear();
+        zipMetaMap.clear();
+        selectedZips.clear();
+
+        (currentStateData.zipcodes || []).forEach(z => {
+          if (z.path) zipPathMap.set(z.zip, z.path);
+          zipMetaMap.set(z.zip, {
+            city: z.city || '',
+            county: z.county || '',
+            bounds: z.bounds || null
+          });
+        });
+
+        // Set initial selected ZIPs (default: first region selected as demo initial state)
+        if (currentStateData.regions && currentStateData.regions.length > 0) {
+          const firstReg = currentStateData.regions[0];
+          (firstReg.zips || []).forEach(z => selectedZips.add(z));
+        }
+
+        renderBackground();
+        renderRegionsList();
+        renderTerritoryLayer();
+        updateSummaryStats();
+        zoomToFitState();
+
+      } catch (err) {
+        console.error('Failed to load state:', err);
+        regionsList.innerHTML = `<div style="padding: 30px; text-align: center; color: #ef4444; font-size: 14px;">Failed to load data for ${code}</div>`;
+      }
+    }
+
+    // 3. Render Background SVG Outline
+    function renderBackground() {
+      stateBgGroup.innerHTML = '';
+      if (!currentStateData) return;
+
+      // Draw counties in subtle outline
+      (currentStateData.counties || []).forEach(co => {
+        if (co.path) {
+          const p = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+          p.setAttribute('d', co.path);
+          p.setAttribute('class', 'county-bg-path');
+          stateBgGroup.appendChild(p);
+        }
+      });
+    }
+
+    // 4. Render Accordion Regions List
+    function renderRegionsList(filterQuery = '') {
+      regionsList.innerHTML = '';
+      if (!currentStateData || !currentStateData.regions) return;
+
+      const q = filterQuery.toLowerCase().trim();
+
+      currentStateData.regions.forEach((reg, regIdx) => {
+        // Collect cities in this region
+        let cities = reg.cities || [];
+
+        // If searching, filter cities or check region name
+        if (q) {
+          const regMatches = reg.name.toLowerCase().includes(q);
+          cities = cities.filter(c => {
+            const nameMatch = c.name.toLowerCase().includes(q);
+            const zipMatch = (c.zips || []).some(z => z.includes(q));
+            return regMatches || nameMatch || zipMatch;
+          });
+          if (cities.length === 0 && !regMatches) return;
+        }
+
+        // Region DOM Item
+        const item = document.createElement('div');
+        item.className = `region-item ${regIdx === 0 ? 'expanded' : ''}`;
+        item.dataset.regionId = reg.id;
+
+        // Calculate selected count
+        const totalZipsInReg = reg.zips || [];
+        const activeZipsInReg = totalZipsInReg.filter(z => selectedZips.has(z)).length;
+        const totalCities = cities.length;
+        const activeCities = cities.filter(c => (c.zips || []).some(z => selectedZips.has(z))).length;
+
+        item.innerHTML = `
+          <div class="region-header">
+            <div class="region-info">
+              <div class="region-name">${reg.name}, ${currentStateCode}</div>
+              <div class="region-counter">
+                <span class="active-count-text"><b>${activeCities}</b> of ${totalCities} areas selected</span>
+              </div>
+            </div>
+            <div class="region-actions">
+              <button class="toggle-all-btn" data-action="toggle-all">
+                ${activeZipsInReg === totalZipsInReg.length ? 'Clear All' : 'Select All'}
+              </button>
+              <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </div>
+          </div>
+          <div class="region-body"></div>
+        `;
+
+        const header = item.querySelector('.region-header');
+        const body = item.querySelector('.region-body');
+        const toggleAllBtn = item.querySelector('.toggle-all-btn');
+
+        // Accordion expand/collapse
+        header.addEventListener('click', (e) => {
+          if (e.target.closest('.toggle-all-btn')) return;
+          item.classList.toggle('expanded');
+          if (item.classList.contains('expanded')) {
+            zoomToRegion(reg);
+          }
+        });
+
+        // Toggle All button
+        toggleAllBtn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const allSelected = (reg.zips || []).every(z => selectedZips.has(z));
+          if (allSelected) {
+            (reg.zips || []).forEach(z => selectedZips.delete(z));
+          } else {
+            (reg.zips || []).forEach(z => selectedZips.add(z));
+          }
+          refreshAllUI();
+        });
+
+        // Render each City / Town card
+        cities.forEach(city => {
+          const cityCard = document.createElement('div');
+          cityCard.className = 'city-card';
+          cityCard.dataset.cityId = city.id;
+
+          const cityZips = city.zips || [];
+          const activeCityZips = cityZips.filter(z => selectedZips.has(z));
+          const isFullyChecked = cityZips.length > 0 && activeCityZips.length === cityZips.length;
+          const isIndeterminate = activeCityZips.length > 0 && activeCityZips.length < cityZips.length;
+
+          cityCard.innerHTML = `
+            <div class="city-top">
+              <div class="custom-check ${isFullyChecked ? 'checked' : (isIndeterminate ? 'indeterminate' : '')}">
+                ${isFullyChecked ? `
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                ` : (isIndeterminate ? `
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                  </svg>
+                ` : '')}
+              </div>
+              <div class="city-label-wrap">
+                <span class="city-label">${city.name}</span>
+                <span class="city-county">${city.county ? city.county + ' Co.' : ''}</span>
+              </div>
+            </div>
+            <div class="zip-chips-container"></div>
+          `;
+
+          const checkEl = cityCard.querySelector('.custom-check');
+          const cityLabel = cityCard.querySelector('.city-label');
+          const chipsContainer = cityCard.querySelector('.zip-chips-container');
+
+          // City toggle action
+          const toggleCity = () => {
+            if (isFullyChecked) {
+              cityZips.forEach(z => selectedZips.delete(z));
+            } else {
+              cityZips.forEach(z => selectedZips.add(z));
+            }
+            refreshAllUI();
+          };
+
+          checkEl.addEventListener('click', toggleCity);
+          cityLabel.addEventListener('click', toggleCity);
+
+          // Render individual ZIP code pill chips
+          cityZips.forEach(zip => {
+            const chip = document.createElement('button');
+            const isActive = selectedZips.has(zip);
+            chip.className = `zip-chip ${isActive ? 'active' : ''}`;
+            chip.textContent = zip;
+            chip.dataset.zip = zip;
+
+            // Click chip
+            chip.addEventListener('click', (e) => {
+              e.stopPropagation();
+              if (selectedZips.has(zip)) {
+                selectedZips.delete(zip);
+              } else {
+                selectedZips.add(zip);
+              }
+              refreshAllUI();
+            });
+
+            // Hover chip flashes map boundary
+            chip.addEventListener('mouseenter', () => highlightZipOnMap(zip));
+            chip.addEventListener('mouseleave', () => clearZipHighlight());
+
+            chipsContainer.appendChild(chip);
+          });
+
+          body.appendChild(cityCard);
+        });
+
+        regionsList.appendChild(item);
+      });
+    }
+
+    // 5. Render Active Purple Territory Layer on SVG with scaled borders
+    function renderTerritoryLayer() {
+      territoryGroup.innerHTML = '';
+      if (!currentStateData) return;
+
+      selectedZips.forEach(zip => {
+        const pathD = zipPathMap.get(zip);
+        if (!pathD) return;
+
+        const pathEl = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        pathEl.setAttribute('d', pathD);
+        pathEl.setAttribute('vector-effect', 'non-scaling-stroke');
+        pathEl.dataset.zip = zip;
+
+        // Proportional border scaling based on physical ZIP dimensions
+        const meta = zipMetaMap.get(zip) || {};
+        let maxDim = 2.0;
+        if (meta.bounds && meta.bounds.length >= 4) {
+          maxDim = Math.max(meta.bounds[2], meta.bounds[3]);
+        }
+
+        let scaleClass = 'zip-scale-md';
+        if (maxDim < 0.6) {
+          scaleClass = 'zip-scale-xs';
+        } else if (maxDim < 1.5) {
+          scaleClass = 'zip-scale-sm';
+        } else if (maxDim < 3.5) {
+          scaleClass = 'zip-scale-md';
+        } else if (maxDim < 8.0) {
+          scaleClass = 'zip-scale-lg';
+        } else {
+          scaleClass = 'zip-scale-xl';
+        }
+
+        pathEl.setAttribute('class', `zip-active-path ${scaleClass}`);
+
+        // Tooltip listeners
+        pathEl.addEventListener('mouseenter', (e) => {
+          showTooltip(e, `${zip} • ${meta.city || 'ZIP'} (${meta.county || currentStateCode})`);
+          pathEl.classList.add('zip-hover-highlight');
+        });
+
+        pathEl.addEventListener('mousemove', moveTooltip);
+
+        pathEl.addEventListener('mouseleave', () => {
+          hideTooltip();
+          pathEl.classList.remove('zip-hover-highlight');
+        });
+
+        // Click on map toggles ZIP
+        pathEl.addEventListener('click', () => {
+          selectedZips.delete(zip);
+          refreshAllUI();
+        });
+
+        territoryGroup.appendChild(pathEl);
+      });
+
+      activeZipsCountLabel.textContent = selectedZips.size;
+    }
+
+    // 6. Highlight single ZIP on map when hovering chip
+    function highlightZipOnMap(zip) {
+      clearZipHighlight();
+      const pathD = zipPathMap.get(zip);
+      if (!pathD) return;
+
+      const p = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+      p.setAttribute('d', pathD);
+      p.setAttribute('vector-effect', 'non-scaling-stroke');
+      p.setAttribute('class', 'zip-hover-highlight');
+      highlightGroup.appendChild(p);
+    }
+
+    function clearZipHighlight() {
+      highlightGroup.innerHTML = '';
+    }
+
+    // 7. Refresh UI across both columns
+    function refreshAllUI() {
+      renderTerritoryLayer();
+      renderRegionsList(areaSearch.value);
+      updateSummaryStats();
+    }
+
+    // 8. Update bottom bar stats
+    function updateSummaryStats() {
+      if (!currentStateData) return;
+
+      let targetedCitiesCount = 0;
+      let targetedRegionsCount = 0;
+
+      (currentStateData.regions || []).forEach(reg => {
+        const hasActiveZips = (reg.zips || []).some(z => selectedZips.has(z));
+        if (hasActiveZips) targetedRegionsCount++;
+
+        (reg.cities || []).forEach(c => {
+          if ((c.zips || []).some(z => selectedZips.has(z))) {
+            targetedCitiesCount++;
+          }
+        });
+      });
+
+      statSummaryText.textContent = `${targetedRegionsCount} regions • ${targetedCitiesCount} cities • ${selectedZips.size} ZIPs targeted`;
+    }
+
+    // 9. Map Zoom / Fit functions
+    function zoomToFitState() {
+      if (!currentStateData) return;
+      const b = currentStateData.bounds || [0, 0, 960, 600];
+      animateViewBox(b[0] - 20, b[1] - 20, b[2] + 40, b[3] + 40);
+    }
+
+    function zoomToRegion(reg) {
+      if (reg.bounds) {
+        const [x, y, w, h] = reg.bounds;
+        animateViewBox(x - 15, y - 15, w + 30, h + 30);
+      }
+    }
+
+    function animateViewBox(tx, ty, tw, th) {
+      viewBox = { x: tx, y: ty, w: tw, h: th };
+      territorySvg.setAttribute('viewBox', `${viewBox.x} ${viewBox.y} ${viewBox.w} ${viewBox.h}`);
+    }
+
+    // Zoom controls
+    function setupZoomPan() {
+      document.getElementById('zoomInBtn').addEventListener('click', () => {
+        const factor = 0.75;
+        viewBox.x += (viewBox.w * (1 - factor)) / 2;
+        viewBox.y += (viewBox.h * (1 - factor)) / 2;
+        viewBox.w *= factor;
+        viewBox.h *= factor;
+        territorySvg.setAttribute('viewBox', `${viewBox.x} ${viewBox.y} ${viewBox.w} ${viewBox.h}`);
+      });
+
+      document.getElementById('zoomOutBtn').addEventListener('click', () => {
+        const factor = 1.33;
+        viewBox.x -= (viewBox.w * (factor - 1)) / 2;
+        viewBox.y -= (viewBox.h * (factor - 1)) / 2;
+        viewBox.w *= factor;
+        viewBox.h *= factor;
+        territorySvg.setAttribute('viewBox', `${viewBox.x} ${viewBox.y} ${viewBox.w} ${viewBox.h}`);
+      });
+
+      document.getElementById('resetZoomBtn').addEventListener('click', zoomToFitState);
+
+      // Mouse drag panning
+      const mapContainer = document.getElementById('mapContainer');
+      mapContainer.addEventListener('mousedown', (e) => {
+        if (e.target.tagName === 'BUTTON') return;
+        isPanning = true;
+        startPoint = { x: e.clientX, y: e.clientY };
+      });
+
+      window.addEventListener('mousemove', (e) => {
+        if (!isPanning) return;
+        const dx = (e.clientX - startPoint.x) * (viewBox.w / mapContainer.clientWidth);
+        const dy = (e.clientY - startPoint.y) * (viewBox.h / mapContainer.clientHeight);
+        viewBox.x -= dx;
+        viewBox.y -= dy;
+        territorySvg.setAttribute('viewBox', `${viewBox.x} ${viewBox.y} ${viewBox.w} ${viewBox.h}`);
+        startPoint = { x: e.clientX, y: e.clientY };
+      });
+
+      window.addEventListener('mouseup', () => { isPanning = false; });
+
+      // Wheel zoom
+      mapContainer.addEventListener('wheel', (e) => {
+        e.preventDefault();
+        const factor = e.deltaY > 0 ? 1.15 : 0.87;
+        viewBox.x += (viewBox.w * (1 - factor)) / 2;
+        viewBox.y += (viewBox.h * (1 - factor)) / 2;
+        viewBox.w *= factor;
+        viewBox.h *= factor;
+        territorySvg.setAttribute('viewBox', `${viewBox.x} ${viewBox.y} ${viewBox.w} ${viewBox.h}`);
+      });
+    }
+
+    // 10. Search handler
+    function handleSearch(e) {
+      renderRegionsList(e.target.value);
+    }
+
+    // 11. Modal Setup & Export
+    function setupModal() {
+      const resetBtn = document.getElementById('resetAllBtn');
+      const saveBtn = document.getElementById('savePreferencesBtn');
+
+      resetBtn.addEventListener('click', () => {
+        selectedZips.clear();
+        refreshAllUI();
+      });
+
+      saveBtn.addEventListener('click', () => {
+        const payload = generateExportPayload();
+        jsonPayloadPreview.textContent = JSON.stringify(payload, null, 2);
+        saveModal.classList.add('open');
+      });
+
+      closeModalBtn.addEventListener('click', () => {
+        saveModal.classList.remove('open');
+      });
+
+      saveModal.addEventListener('click', (e) => {
+        if (e.target === saveModal) saveModal.classList.remove('open');
+      });
+
+      copyJsonBtn.addEventListener('click', () => {
+        navigator.clipboard.writeText(jsonPayloadPreview.textContent).then(() => {
+          copyJsonBtn.textContent = 'Copied to Clipboard!';
+          setTimeout(() => { copyJsonBtn.textContent = 'Copy JSON Payload'; }, 2000);
+        });
+      });
+    }
+
+    function generateExportPayload() {
+      const targetedZipsArray = Array.from(selectedZips).sort();
+      const targetedRegions = [];
+      const targetedCities = [];
+      const excludedZips = [];
+
+      (currentStateData.regions || []).forEach(reg => {
+        const regZips = reg.zips || [];
+        const hasZips = regZips.some(z => selectedZips.has(z));
+        if (hasZips) targetedRegions.push(reg.id);
+
+        (reg.cities || []).forEach(c => {
+          const cZips = c.zips || [];
+          const activeInCity = cZips.filter(z => selectedZips.has(z));
+          if (activeInCity.length > 0) {
+            targetedCities.push(c.id);
+            // Any excluded ZIPs in a partially targeted city
+            cZips.forEach(z => {
+              if (!selectedZips.has(z)) excludedZips.push(z);
+            });
+          }
+        });
+      });
+
+      return {
+        proId: 'pro_420686432158990364',
+        state: currentStateCode,
+        serviceCategoryId: 'plumbing',
+        targetedRegions: targetedRegions,
+        targetedCities: Array.from(new Set(targetedCities)),
+        targetedZipsCount: targetedZipsArray.length,
+        targetedZips: targetedZipsArray,
+        excludedZips: Array.from(new Set(excludedZips)),
+        updatedAt: new Date().toISOString()
+      };
+    }
+
+    // 12. Tooltip helpers
+    function showTooltip(e, text) {
+      mapTooltip.textContent = text;
+      mapTooltip.style.display = 'block';
+      moveTooltip(e);
+    }
+
+    function moveTooltip(e) {
+      mapTooltip.style.left = (e.clientX + 12) + 'px';
+      mapTooltip.style.top = (e.clientY + 12) + 'px';
+    }
+
+    function hideTooltip() {
+      mapTooltip.style.display = 'none';
+    }
+
+    // Run on startup
+    window.addEventListener('DOMContentLoaded', init);
+  </script>
+</body>
+</html>

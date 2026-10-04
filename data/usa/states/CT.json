@@ -125,7 +125,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06239"
+          ]
         },
         {
           "id": "CT-stonington",
@@ -134,7 +137,10 @@
           "tier": 1,
           "county": "New London",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06378"
+          ]
         },
         {
           "id": "CT-waterford",
@@ -143,7 +149,10 @@
           "tier": 1,
           "county": "New London",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06385"
+          ]
         },
         {
           "id": "CT-gales-ferry",
@@ -152,7 +161,10 @@
           "tier": 1,
           "county": "New London",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06335"
+          ]
         },
         {
           "id": "CT-south-windham",
@@ -161,7 +173,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06266"
+          ]
         },
         {
           "id": "CT-dayville",
@@ -170,7 +185,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06241"
+          ]
         },
         {
           "id": "CT-groton",
@@ -179,7 +197,10 @@
           "tier": 1,
           "county": "New London",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06340"
+          ]
         },
         {
           "id": "CT-jewett-city",
@@ -188,7 +209,10 @@
           "tier": 1,
           "county": "New London",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06351"
+          ]
         },
         {
           "id": "CT-new-london",
@@ -197,7 +221,10 @@
           "tier": 1,
           "county": "New London",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06320"
+          ]
         },
         {
           "id": "CT-norwich",
@@ -206,7 +233,10 @@
           "tier": 1,
           "county": "New London",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06360"
+          ]
         },
         {
           "id": "CT-wauregan",
@@ -215,7 +245,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06387"
+          ]
         },
         {
           "id": "CT-moosup",
@@ -224,7 +257,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06354"
+          ]
         },
         {
           "id": "CT-plainfield-village",
@@ -233,7 +269,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06374"
+          ]
         },
         {
           "id": "CT-putnam",
@@ -242,7 +281,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06260"
+          ]
         },
         {
           "id": "CT-niantic",
@@ -251,7 +293,10 @@
           "tier": 1,
           "county": "New London",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06357"
+          ]
         },
         {
           "id": "CT-pawcatuck",
@@ -260,7 +305,10 @@
           "tier": 1,
           "county": "New London",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06379"
+          ]
         },
         {
           "id": "CT-brooklyn",
@@ -269,7 +317,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06234"
+          ]
         },
         {
           "id": "CT-colchester",
@@ -278,7 +329,10 @@
           "tier": 1,
           "county": "New London",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06415"
+          ]
         },
         {
           "id": "CT-baltic",
@@ -287,7 +341,10 @@
           "tier": 1,
           "county": "New London",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06330"
+          ]
         },
         {
           "id": "CT-quinebaug",
@@ -296,7 +353,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06262"
+          ]
         },
         {
           "id": "CT-willimantic",
@@ -305,7 +365,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06226"
+          ]
         },
         {
           "id": "CT-mystic",
@@ -314,7 +377,10 @@
           "tier": 1,
           "county": "New London",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06355"
+          ]
         },
         {
           "id": "CT-ashford",
@@ -323,7 +389,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06278"
+          ]
         },
         {
           "id": "CT-canterbury",
@@ -332,7 +401,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06331"
+          ]
         },
         {
           "id": "CT-chaplin",
@@ -341,7 +413,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06235"
+          ]
         },
         {
           "id": "CT-east-lyme",
@@ -350,7 +425,10 @@
           "tier": 1,
           "county": "New London",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06333"
+          ]
         },
         {
           "id": "CT-eastford",
@@ -359,7 +437,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06242"
+          ]
         },
         {
           "id": "CT-lebanon",
@@ -368,7 +449,10 @@
           "tier": 1,
           "county": "New London",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06249"
+          ]
         },
         {
           "id": "CT-ledyard",
@@ -377,7 +461,10 @@
           "tier": 1,
           "county": "New London",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06339"
+          ]
         },
         {
           "id": "CT-north-windham",
@@ -386,7 +473,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06256"
+          ]
         },
         {
           "id": "CT-oakdale",
@@ -395,7 +485,10 @@
           "tier": 1,
           "county": "New London",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06370"
+          ]
         },
         {
           "id": "CT-old-lyme",
@@ -404,7 +497,10 @@
           "tier": 1,
           "county": "New London",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06371"
+          ]
         },
         {
           "id": "CT-preston",
@@ -413,7 +509,10 @@
           "tier": 1,
           "county": "New London",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06365"
+          ]
         },
         {
           "id": "CT-rogers",
@@ -422,7 +521,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06263"
+          ]
         },
         {
           "id": "CT-salem",
@@ -431,7 +533,10 @@
           "tier": 1,
           "county": "New London",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06420"
+          ]
         },
         {
           "id": "CT-scotland",
@@ -440,7 +545,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06264"
+          ]
         },
         {
           "id": "CT-sterling",
@@ -449,7 +557,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06377"
+          ]
         },
         {
           "id": "CT-taftville",
@@ -458,7 +569,10 @@
           "tier": 1,
           "county": "New London",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06380"
+          ]
         },
         {
           "id": "CT-uncasville",
@@ -467,7 +581,10 @@
           "tier": 1,
           "county": "New London",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06382"
+          ]
         },
         {
           "id": "CT-woodstock",
@@ -476,7 +593,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06281"
+          ]
         },
         {
           "id": "CT-woodstock-valley",
@@ -485,7 +605,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06282"
+          ]
         },
         {
           "id": "CT-voluntown",
@@ -494,7 +617,10 @@
           "tier": 1,
           "county": "New London",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06384"
+          ]
         },
         {
           "id": "CT-plainfield",
@@ -503,7 +629,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06374"
+          ]
         },
         {
           "id": "CT-hanover",
@@ -512,7 +641,10 @@
           "tier": 1,
           "county": "New London",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06350"
+          ]
         },
         {
           "id": "CT-north-stonington",
@@ -521,7 +653,10 @@
           "tier": 1,
           "county": "New London",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06359"
+          ]
         },
         {
           "id": "CT-yantic",
@@ -530,7 +665,10 @@
           "tier": 1,
           "county": "New London",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06389"
+          ]
         },
         {
           "id": "CT-east-killingly",
@@ -539,7 +677,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06243"
+          ]
         },
         {
           "id": "CT-hampton",
@@ -548,7 +689,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06247"
+          ]
         },
         {
           "id": "CT-central-village",
@@ -557,7 +701,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06332"
+          ]
         },
         {
           "id": "CT-north-franklin",
@@ -566,7 +713,10 @@
           "tier": 1,
           "county": "New London",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06254"
+          ]
         },
         {
           "id": "CT-windham",
@@ -575,7 +725,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06280"
+          ]
         },
         {
           "id": "CT-pomfret-center",
@@ -584,7 +737,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06259"
+          ]
         },
         {
           "id": "CT-bozrah",
@@ -593,7 +749,10 @@
           "tier": 1,
           "county": "New London",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06334"
+          ]
         },
         {
           "id": "CT-oneco",
@@ -602,7 +761,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06373"
+          ]
         },
         {
           "id": "CT-quaker-hill",
@@ -611,7 +773,10 @@
           "tier": 1,
           "county": "New London",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06375"
+          ]
         },
         {
           "id": "CT-south-lyme",
@@ -620,7 +785,10 @@
           "tier": 1,
           "county": "New London",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06376"
+          ]
         },
         {
           "id": "CT-thompson",
@@ -629,7 +797,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06277"
+          ]
         },
         {
           "id": "CT-montville",
@@ -638,7 +809,10 @@
           "tier": 1,
           "county": "New London",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06353"
+          ]
         },
         {
           "id": "CT-gilman",
@@ -647,7 +821,10 @@
           "tier": 1,
           "county": "New London",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06336"
+          ]
         },
         {
           "id": "CT-north-grosvenordale",
@@ -656,7 +833,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06255"
+          ]
         },
         {
           "id": "CT-lake-chaffee",
@@ -665,7 +845,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06278"
+          ]
         },
         {
           "id": "CT-witches-woods",
@@ -674,7 +857,10 @@
           "tier": 1,
           "county": "Windham",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06282"
+          ]
         }
       ],
       "adTargeting": {
@@ -768,7 +954,15 @@
           "tier": 1,
           "county": "Fairfield",
           "zipCount": 6,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06851",
+            "06854",
+            "06853",
+            "06856",
+            "06850",
+            "06855"
+          ]
         },
         {
           "id": "CT-stamford",
@@ -777,7 +971,15 @@
           "tier": 1,
           "county": "Fairfield",
           "zipCount": 6,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06902",
+            "06906",
+            "06905",
+            "06907",
+            "06903",
+            "06901"
+          ]
         },
         {
           "id": "CT-bridgeport",
@@ -786,7 +988,15 @@
           "tier": 1,
           "county": "Fairfield",
           "zipCount": 6,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06608",
+            "06610",
+            "06606",
+            "06607",
+            "06604",
+            "06605"
+          ]
         },
         {
           "id": "CT-danbury",
@@ -795,7 +1005,11 @@
           "tier": 1,
           "county": "Fairfield",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06810",
+            "06811"
+          ]
         },
         {
           "id": "CT-greenwich",
@@ -804,7 +1018,11 @@
           "tier": 1,
           "county": "Fairfield",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06830",
+            "06831"
+          ]
         },
         {
           "id": "CT-stratford",
@@ -813,7 +1031,11 @@
           "tier": 1,
           "county": "Fairfield",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06615",
+            "06614"
+          ]
         },
         {
           "id": "CT-weston",
@@ -822,7 +1044,10 @@
           "tier": 1,
           "county": "Fairfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06883"
+          ]
         },
         {
           "id": "CT-bethel",
@@ -831,7 +1056,10 @@
           "tier": 1,
           "county": "Fairfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06801"
+          ]
         },
         {
           "id": "CT-westport-village",
@@ -840,7 +1068,10 @@
           "tier": 1,
           "county": "Fairfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06880"
+          ]
         },
         {
           "id": "CT-new-canaan",
@@ -849,7 +1080,10 @@
           "tier": 1,
           "county": "Fairfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06840"
+          ]
         },
         {
           "id": "CT-riverside",
@@ -858,7 +1092,10 @@
           "tier": 1,
           "county": "Fairfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06878"
+          ]
         },
         {
           "id": "CT-old-greenwich",
@@ -867,7 +1104,10 @@
           "tier": 1,
           "county": "Fairfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06870"
+          ]
         },
         {
           "id": "CT-sandy-hook",
@@ -876,7 +1116,10 @@
           "tier": 1,
           "county": "Fairfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06482"
+          ]
         },
         {
           "id": "CT-ridgefield",
@@ -885,7 +1128,10 @@
           "tier": 1,
           "county": "Fairfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06877"
+          ]
         },
         {
           "id": "CT-shelton",
@@ -894,7 +1140,10 @@
           "tier": 1,
           "county": "Fairfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06484"
+          ]
         },
         {
           "id": "CT-cos-cob",
@@ -903,7 +1152,10 @@
           "tier": 1,
           "county": "Fairfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06807"
+          ]
         },
         {
           "id": "CT-newtown",
@@ -912,7 +1164,10 @@
           "tier": 1,
           "county": "Fairfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06470"
+          ]
         },
         {
           "id": "CT-sherman",
@@ -921,7 +1176,10 @@
           "tier": 1,
           "county": "Fairfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06784"
+          ]
         },
         {
           "id": "CT-brookfield",
@@ -930,7 +1188,10 @@
           "tier": 1,
           "county": "Fairfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06804"
+          ]
         },
         {
           "id": "CT-darien",
@@ -939,7 +1200,10 @@
           "tier": 1,
           "county": "Fairfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06820"
+          ]
         },
         {
           "id": "CT-easton",
@@ -948,7 +1212,10 @@
           "tier": 1,
           "county": "Fairfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06612"
+          ]
         },
         {
           "id": "CT-monroe",
@@ -957,7 +1224,10 @@
           "tier": 1,
           "county": "Fairfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06468"
+          ]
         },
         {
           "id": "CT-new-fairfield",
@@ -966,7 +1236,10 @@
           "tier": 1,
           "county": "Fairfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06812"
+          ]
         },
         {
           "id": "CT-redding",
@@ -975,7 +1248,10 @@
           "tier": 1,
           "county": "Fairfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06896"
+          ]
         },
         {
           "id": "CT-trumbull",
@@ -984,7 +1260,10 @@
           "tier": 1,
           "county": "Fairfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06611"
+          ]
         },
         {
           "id": "CT-westport",
@@ -993,7 +1272,10 @@
           "tier": 1,
           "county": "Fairfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06880"
+          ]
         },
         {
           "id": "CT-wilton",
@@ -1002,7 +1284,10 @@
           "tier": 1,
           "county": "Fairfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06897"
+          ]
         },
         {
           "id": "CT-kellogg-point",
@@ -1011,7 +1296,10 @@
           "tier": 1,
           "county": "Fairfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06812"
+          ]
         },
         {
           "id": "CT-knollcrest",
@@ -1020,7 +1308,10 @@
           "tier": 1,
           "county": "Fairfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06812"
+          ]
         },
         {
           "id": "CT-branchville",
@@ -1029,7 +1320,10 @@
           "tier": 1,
           "county": "Fairfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06897"
+          ]
         },
         {
           "id": "CT-candlewood-knolls",
@@ -1038,7 +1332,10 @@
           "tier": 1,
           "county": "Fairfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06812"
+          ]
         },
         {
           "id": "CT-bogus-hill",
@@ -1047,7 +1344,10 @@
           "tier": 1,
           "county": "Fairfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06812"
+          ]
         },
         {
           "id": "CT-chimney-point",
@@ -1056,7 +1356,10 @@
           "tier": 1,
           "county": "Fairfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06812"
+          ]
         },
         {
           "id": "CT-candlewood-shores",
@@ -1065,7 +1368,10 @@
           "tier": 1,
           "county": "Fairfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06804"
+          ]
         },
         {
           "id": "CT-topstone",
@@ -1074,7 +1380,10 @@
           "tier": 1,
           "county": "Fairfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06896"
+          ]
         }
       ],
       "adTargeting": {
@@ -1198,7 +1507,16 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 7,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06114",
+            "06105",
+            "06160",
+            "06120",
+            "06103",
+            "06106",
+            "06112"
+          ]
         },
         {
           "id": "CT-w-hartford",
@@ -1207,7 +1525,13 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06107",
+            "06117",
+            "06110",
+            "06119"
+          ]
         },
         {
           "id": "CT-new-britain",
@@ -1216,7 +1540,12 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06051",
+            "06053",
+            "06052"
+          ]
         },
         {
           "id": "CT-east-hartford",
@@ -1225,7 +1554,11 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06118",
+            "06108"
+          ]
         },
         {
           "id": "CT-storrs-mansfield",
@@ -1234,7 +1567,11 @@
           "tier": 1,
           "county": "Tolland",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06268",
+            "06269"
+          ]
         },
         {
           "id": "CT-plantsville",
@@ -1243,7 +1580,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06479"
+          ]
         },
         {
           "id": "CT-west-simsbury",
@@ -1252,7 +1592,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06092"
+          ]
         },
         {
           "id": "CT-manchester",
@@ -1261,7 +1604,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06040"
+          ]
         },
         {
           "id": "CT-somers",
@@ -1270,7 +1616,10 @@
           "tier": 1,
           "county": "Tolland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06071"
+          ]
         },
         {
           "id": "CT-bristol",
@@ -1279,7 +1628,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06010"
+          ]
         },
         {
           "id": "CT-collinsville",
@@ -1288,7 +1640,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06022"
+          ]
         },
         {
           "id": "CT-newington",
@@ -1297,7 +1652,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06111"
+          ]
         },
         {
           "id": "CT-tariffville",
@@ -1306,7 +1664,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06081"
+          ]
         },
         {
           "id": "CT-weatogue",
@@ -1315,7 +1676,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06089"
+          ]
         },
         {
           "id": "CT-broad-brook",
@@ -1324,7 +1688,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06016"
+          ]
         },
         {
           "id": "CT-stafford-springs",
@@ -1333,7 +1700,10 @@
           "tier": 1,
           "county": "Tolland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06076"
+          ]
         },
         {
           "id": "CT-windsor-locks",
@@ -1342,7 +1712,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06096"
+          ]
         },
         {
           "id": "CT-north-granby",
@@ -1351,7 +1724,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06060"
+          ]
         },
         {
           "id": "CT-wethersfield",
@@ -1360,7 +1736,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06109"
+          ]
         },
         {
           "id": "CT-mansfield-center",
@@ -1369,7 +1748,10 @@
           "tier": 1,
           "county": "Tolland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06250"
+          ]
         },
         {
           "id": "CT-amston",
@@ -1378,7 +1760,10 @@
           "tier": 1,
           "county": "Tolland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06231"
+          ]
         },
         {
           "id": "CT-andover",
@@ -1387,7 +1772,10 @@
           "tier": 1,
           "county": "Tolland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06232"
+          ]
         },
         {
           "id": "CT-avon",
@@ -1396,7 +1784,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06001"
+          ]
         },
         {
           "id": "CT-berlin",
@@ -1405,7 +1796,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06037"
+          ]
         },
         {
           "id": "CT-bloomfield",
@@ -1414,7 +1808,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06002"
+          ]
         },
         {
           "id": "CT-burlington",
@@ -1423,7 +1820,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06013"
+          ]
         },
         {
           "id": "CT-canton",
@@ -1432,7 +1832,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06019"
+          ]
         },
         {
           "id": "CT-coventry",
@@ -1441,7 +1844,10 @@
           "tier": 1,
           "county": "Tolland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06238"
+          ]
         },
         {
           "id": "CT-east-berlin",
@@ -1450,7 +1856,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06023"
+          ]
         },
         {
           "id": "CT-east-granby",
@@ -1459,7 +1868,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06026"
+          ]
         },
         {
           "id": "CT-east-hartland",
@@ -1468,7 +1880,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06027"
+          ]
         },
         {
           "id": "CT-east-windsor",
@@ -1477,7 +1892,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06088"
+          ]
         },
         {
           "id": "CT-ellington",
@@ -1486,7 +1904,10 @@
           "tier": 1,
           "county": "Tolland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06029"
+          ]
         },
         {
           "id": "CT-enfield",
@@ -1495,7 +1916,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06082"
+          ]
         },
         {
           "id": "CT-farmington",
@@ -1504,7 +1928,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06032"
+          ]
         },
         {
           "id": "CT-glastonbury",
@@ -1513,7 +1940,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06033"
+          ]
         },
         {
           "id": "CT-granby",
@@ -1522,7 +1952,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06035"
+          ]
         },
         {
           "id": "CT-marlborough",
@@ -1531,7 +1964,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06447"
+          ]
         },
         {
           "id": "CT-milldale",
@@ -1540,7 +1976,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06467"
+          ]
         },
         {
           "id": "CT-plainville",
@@ -1549,7 +1988,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06062"
+          ]
         },
         {
           "id": "CT-rocky-hill",
@@ -1558,7 +2000,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06067"
+          ]
         },
         {
           "id": "CT-simsbury",
@@ -1567,7 +2012,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06070"
+          ]
         },
         {
           "id": "CT-south-glastonbury",
@@ -1576,7 +2024,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06073"
+          ]
         },
         {
           "id": "CT-south-windsor",
@@ -1585,7 +2036,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06074"
+          ]
         },
         {
           "id": "CT-southington",
@@ -1594,7 +2048,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06489"
+          ]
         },
         {
           "id": "CT-suffield",
@@ -1603,7 +2060,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06078"
+          ]
         },
         {
           "id": "CT-tolland",
@@ -1612,7 +2072,10 @@
           "tier": 1,
           "county": "Tolland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06084"
+          ]
         },
         {
           "id": "CT-unionville",
@@ -1621,7 +2084,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06085"
+          ]
         },
         {
           "id": "CT-vernon-rockville",
@@ -1630,7 +2096,10 @@
           "tier": 1,
           "county": "Tolland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06066"
+          ]
         },
         {
           "id": "CT-windsor",
@@ -1639,7 +2108,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06095"
+          ]
         },
         {
           "id": "CT-hebron",
@@ -1648,7 +2120,10 @@
           "tier": 1,
           "county": "Tolland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06248"
+          ]
         },
         {
           "id": "CT-west-granby",
@@ -1657,7 +2132,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06090"
+          ]
         },
         {
           "id": "CT-willington",
@@ -1666,7 +2144,10 @@
           "tier": 1,
           "county": "Tolland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06279"
+          ]
         },
         {
           "id": "CT-west-suffield",
@@ -1675,7 +2156,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06093"
+          ]
         },
         {
           "id": "CT-bolton",
@@ -1684,7 +2168,10 @@
           "tier": 1,
           "county": "Tolland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06043"
+          ]
         },
         {
           "id": "CT-west-hartland",
@@ -1693,7 +2180,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06091"
+          ]
         },
         {
           "id": "CT-marion",
@@ -1702,7 +2192,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06444"
+          ]
         },
         {
           "id": "CT-canton-center",
@@ -1711,7 +2204,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06020"
+          ]
         },
         {
           "id": "CT-north-canton",
@@ -1720,7 +2216,10 @@
           "tier": 1,
           "county": "Hartford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06059"
+          ]
         },
         {
           "id": "CT-columbia",
@@ -1729,7 +2228,10 @@
           "tier": 1,
           "county": "Tolland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06237"
+          ]
         }
       ],
       "adTargeting": {
@@ -1842,7 +2344,15 @@
           "tier": 1,
           "county": "New Haven",
           "zipCount": 6,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06710",
+            "06708",
+            "06702",
+            "06706",
+            "06705",
+            "06704"
+          ]
         },
         {
           "id": "CT-new-haven",
@@ -1851,7 +2361,14 @@
           "tier": 1,
           "county": "New Haven",
           "zipCount": 5,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06519",
+            "06510",
+            "06515",
+            "06513",
+            "06511"
+          ]
         },
         {
           "id": "CT-hamden",
@@ -1860,7 +2377,12 @@
           "tier": 1,
           "county": "New Haven",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06518",
+            "06514",
+            "06517"
+          ]
         },
         {
           "id": "CT-meriden",
@@ -1869,7 +2391,11 @@
           "tier": 1,
           "county": "New Haven",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06450",
+            "06451"
+          ]
         },
         {
           "id": "CT-portland",
@@ -1878,7 +2404,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06480"
+          ]
         },
         {
           "id": "CT-derby",
@@ -1887,7 +2416,10 @@
           "tier": 1,
           "county": "New Haven",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06418"
+          ]
         },
         {
           "id": "CT-durham",
@@ -1896,7 +2428,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06422"
+          ]
         },
         {
           "id": "CT-north-haven",
@@ -1905,7 +2440,10 @@
           "tier": 1,
           "county": "New Haven",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06473"
+          ]
         },
         {
           "id": "CT-middletown",
@@ -1914,7 +2452,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06457"
+          ]
         },
         {
           "id": "CT-ansonia",
@@ -1923,7 +2464,10 @@
           "tier": 1,
           "county": "New Haven",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06401"
+          ]
         },
         {
           "id": "CT-west-haven",
@@ -1932,7 +2476,10 @@
           "tier": 1,
           "county": "New Haven",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06516"
+          ]
         },
         {
           "id": "CT-naugatuck",
@@ -1941,7 +2488,10 @@
           "tier": 1,
           "county": "New Haven",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06770"
+          ]
         },
         {
           "id": "CT-cheshire-village",
@@ -1950,7 +2500,10 @@
           "tier": 1,
           "county": "New Haven",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06410"
+          ]
         },
         {
           "id": "CT-east-hampton",
@@ -1959,7 +2512,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06424"
+          ]
         },
         {
           "id": "CT-essex-village",
@@ -1968,7 +2524,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06426"
+          ]
         },
         {
           "id": "CT-east-haven",
@@ -1977,7 +2536,10 @@
           "tier": 1,
           "county": "New Haven",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06512"
+          ]
         },
         {
           "id": "CT-orange",
@@ -1986,7 +2548,10 @@
           "tier": 1,
           "county": "New Haven",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06477"
+          ]
         },
         {
           "id": "CT-northford",
@@ -1995,7 +2560,10 @@
           "tier": 1,
           "county": "New Haven",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06472"
+          ]
         },
         {
           "id": "CT-higganum",
@@ -2004,7 +2572,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06441"
+          ]
         },
         {
           "id": "CT-moodus",
@@ -2013,7 +2584,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06469"
+          ]
         },
         {
           "id": "CT-clinton",
@@ -2022,7 +2596,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06413"
+          ]
         },
         {
           "id": "CT-beacon-falls",
@@ -2031,7 +2608,10 @@
           "tier": 1,
           "county": "New Haven",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06403"
+          ]
         },
         {
           "id": "CT-bethany",
@@ -2040,7 +2620,10 @@
           "tier": 1,
           "county": "New Haven",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06524"
+          ]
         },
         {
           "id": "CT-branford",
@@ -2049,7 +2632,10 @@
           "tier": 1,
           "county": "New Haven",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06405"
+          ]
         },
         {
           "id": "CT-cheshire",
@@ -2058,7 +2644,10 @@
           "tier": 1,
           "county": "New Haven",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06410"
+          ]
         },
         {
           "id": "CT-cromwell",
@@ -2067,7 +2656,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06416"
+          ]
         },
         {
           "id": "CT-east-haddam",
@@ -2076,7 +2668,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06423"
+          ]
         },
         {
           "id": "CT-guilford",
@@ -2085,7 +2680,10 @@
           "tier": 1,
           "county": "New Haven",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06437"
+          ]
         },
         {
           "id": "CT-haddam",
@@ -2094,7 +2692,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06438"
+          ]
         },
         {
           "id": "CT-ivoryton",
@@ -2103,7 +2704,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06442"
+          ]
         },
         {
           "id": "CT-killingworth",
@@ -2112,7 +2716,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06419"
+          ]
         },
         {
           "id": "CT-madison",
@@ -2121,7 +2728,10 @@
           "tier": 1,
           "county": "New Haven",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06443"
+          ]
         },
         {
           "id": "CT-middlebury",
@@ -2130,7 +2740,10 @@
           "tier": 1,
           "county": "New Haven",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06762"
+          ]
         },
         {
           "id": "CT-milford",
@@ -2139,7 +2752,10 @@
           "tier": 1,
           "county": "New Haven",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06460"
+          ]
         },
         {
           "id": "CT-north-branford",
@@ -2148,7 +2764,10 @@
           "tier": 1,
           "county": "New Haven",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06471"
+          ]
         },
         {
           "id": "CT-old-saybrook",
@@ -2157,7 +2776,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06475"
+          ]
         },
         {
           "id": "CT-oxford",
@@ -2166,7 +2788,10 @@
           "tier": 1,
           "county": "New Haven",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06478"
+          ]
         },
         {
           "id": "CT-prospect",
@@ -2175,7 +2800,10 @@
           "tier": 1,
           "county": "New Haven",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06712"
+          ]
         },
         {
           "id": "CT-seymour",
@@ -2184,7 +2812,10 @@
           "tier": 1,
           "county": "New Haven",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06483"
+          ]
         },
         {
           "id": "CT-southbury",
@@ -2193,7 +2824,10 @@
           "tier": 1,
           "county": "New Haven",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06488"
+          ]
         },
         {
           "id": "CT-wallingford",
@@ -2202,7 +2836,10 @@
           "tier": 1,
           "county": "New Haven",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06492"
+          ]
         },
         {
           "id": "CT-westbrook",
@@ -2211,7 +2848,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06498"
+          ]
         },
         {
           "id": "CT-wolcott",
@@ -2220,7 +2860,10 @@
           "tier": 1,
           "county": "New Haven",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06716"
+          ]
         },
         {
           "id": "CT-woodbridge",
@@ -2229,7 +2872,10 @@
           "tier": 1,
           "county": "New Haven",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06525"
+          ]
         },
         {
           "id": "CT-rockfall",
@@ -2238,7 +2884,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06481"
+          ]
         },
         {
           "id": "CT-essex",
@@ -2247,7 +2896,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06426"
+          ]
         },
         {
           "id": "CT-chester",
@@ -2256,7 +2908,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06412"
+          ]
         },
         {
           "id": "CT-cobalt",
@@ -2265,7 +2920,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06414"
+          ]
         },
         {
           "id": "CT-centerbrook",
@@ -2274,7 +2932,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06409"
+          ]
         },
         {
           "id": "CT-middlefield",
@@ -2283,7 +2944,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06455"
+          ]
         },
         {
           "id": "CT-deep-river",
@@ -2292,7 +2956,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06417"
+          ]
         },
         {
           "id": "CT-middle-haddam",
@@ -2301,7 +2968,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06456"
+          ]
         },
         {
           "id": "CT-sacred-heart-university",
@@ -2310,7 +2980,10 @@
           "tier": 1,
           "county": "New Haven",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06418"
+          ]
         }
       ],
       "adTargeting": {
@@ -2399,7 +3072,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06752"
+          ]
         },
         {
           "id": "CT-norfolk",
@@ -2408,7 +3084,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06058"
+          ]
         },
         {
           "id": "CT-litchfield",
@@ -2417,7 +3096,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06759"
+          ]
         },
         {
           "id": "CT-thomaston",
@@ -2426,7 +3108,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06787"
+          ]
         },
         {
           "id": "CT-riverton",
@@ -2435,7 +3120,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06065"
+          ]
         },
         {
           "id": "CT-gaylordsville",
@@ -2444,7 +3132,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06755"
+          ]
         },
         {
           "id": "CT-bantam",
@@ -2453,7 +3144,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06750"
+          ]
         },
         {
           "id": "CT-sharon",
@@ -2462,7 +3156,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06069"
+          ]
         },
         {
           "id": "CT-west-cornwall",
@@ -2471,7 +3168,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06796"
+          ]
         },
         {
           "id": "CT-watertown",
@@ -2480,7 +3180,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06795"
+          ]
         },
         {
           "id": "CT-canaan",
@@ -2489,7 +3192,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06018"
+          ]
         },
         {
           "id": "CT-cornwall-bridge",
@@ -2498,7 +3204,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06754"
+          ]
         },
         {
           "id": "CT-torrington",
@@ -2507,7 +3216,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06790"
+          ]
         },
         {
           "id": "CT-bethlehem-village",
@@ -2516,7 +3228,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06751"
+          ]
         },
         {
           "id": "CT-new-milford",
@@ -2525,7 +3240,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06776"
+          ]
         },
         {
           "id": "CT-terryville",
@@ -2534,7 +3252,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06786"
+          ]
         },
         {
           "id": "CT-winsted",
@@ -2543,7 +3264,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06098"
+          ]
         },
         {
           "id": "CT-lakeville",
@@ -2552,7 +3276,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06039"
+          ]
         },
         {
           "id": "CT-falls-village",
@@ -2561,7 +3288,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06031"
+          ]
         },
         {
           "id": "CT-oakville",
@@ -2570,7 +3300,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06779"
+          ]
         },
         {
           "id": "CT-barkhamsted",
@@ -2579,7 +3312,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06063"
+          ]
         },
         {
           "id": "CT-bethlehem",
@@ -2588,7 +3324,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06751"
+          ]
         },
         {
           "id": "CT-east-canaan",
@@ -2597,7 +3336,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06024"
+          ]
         },
         {
           "id": "CT-goshen",
@@ -2606,7 +3348,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06756"
+          ]
         },
         {
           "id": "CT-harwinton",
@@ -2615,7 +3360,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06791"
+          ]
         },
         {
           "id": "CT-morris",
@@ -2624,7 +3372,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06763"
+          ]
         },
         {
           "id": "CT-new-hartford",
@@ -2633,7 +3384,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06057"
+          ]
         },
         {
           "id": "CT-new-preston-marble-dale",
@@ -2642,7 +3396,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06777"
+          ]
         },
         {
           "id": "CT-northfield",
@@ -2651,7 +3408,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06778"
+          ]
         },
         {
           "id": "CT-plymouth",
@@ -2660,7 +3420,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06782"
+          ]
         },
         {
           "id": "CT-washington-depot",
@@ -2669,7 +3432,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06794"
+          ]
         },
         {
           "id": "CT-woodbury",
@@ -2678,7 +3444,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06798"
+          ]
         },
         {
           "id": "CT-kent",
@@ -2687,7 +3456,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06757"
+          ]
         },
         {
           "id": "CT-lakeside",
@@ -2696,7 +3468,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06758"
+          ]
         },
         {
           "id": "CT-roxbury",
@@ -2705,7 +3480,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06783"
+          ]
         },
         {
           "id": "CT-pine-meadow",
@@ -2714,7 +3492,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06061"
+          ]
         },
         {
           "id": "CT-colebrook",
@@ -2723,7 +3504,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06021"
+          ]
         },
         {
           "id": "CT-washington",
@@ -2732,7 +3516,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06793"
+          ]
         },
         {
           "id": "CT-south-kent",
@@ -2741,7 +3528,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06785"
+          ]
         },
         {
           "id": "CT-salisbury",
@@ -2750,7 +3540,10 @@
           "tier": 1,
           "county": "Litchfield",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "06068"
+          ]
         }
       ],
       "adTargeting": {

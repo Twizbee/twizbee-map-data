@@ -108,7 +108,17 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 8,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02909",
+            "02912",
+            "02903",
+            "02907",
+            "02906",
+            "02904",
+            "02908",
+            "02905"
+          ]
         },
         {
           "id": "RI-cranston",
@@ -117,7 +127,12 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02910",
+            "02921",
+            "02920"
+          ]
         },
         {
           "id": "RI-pawtucket",
@@ -126,7 +141,11 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02861",
+            "02860"
+          ]
         },
         {
           "id": "RI-woonsocket",
@@ -135,7 +154,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02895"
+          ]
         },
         {
           "id": "RI-east-providence",
@@ -144,7 +166,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02914"
+          ]
         },
         {
           "id": "RI-harrisville",
@@ -153,7 +178,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02830"
+          ]
         },
         {
           "id": "RI-chepachet",
@@ -162,7 +190,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02814"
+          ]
         },
         {
           "id": "RI-pascoag",
@@ -171,7 +202,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02859"
+          ]
         },
         {
           "id": "RI-greenville",
@@ -180,7 +214,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02828"
+          ]
         },
         {
           "id": "RI-central-falls",
@@ -189,7 +226,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02863"
+          ]
         },
         {
           "id": "RI-clayville",
@@ -198,7 +238,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02815"
+          ]
         },
         {
           "id": "RI-barrington",
@@ -207,7 +250,10 @@
           "tier": 1,
           "county": "Bristol",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02806"
+          ]
         },
         {
           "id": "RI-bristol",
@@ -216,7 +262,10 @@
           "tier": 1,
           "county": "Bristol",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02809"
+          ]
         },
         {
           "id": "RI-cumberland",
@@ -225,7 +274,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02864"
+          ]
         },
         {
           "id": "RI-foster",
@@ -234,7 +286,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02825"
+          ]
         },
         {
           "id": "RI-hope",
@@ -243,7 +298,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02831"
+          ]
         },
         {
           "id": "RI-johnston",
@@ -252,7 +310,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02919"
+          ]
         },
         {
           "id": "RI-lincoln",
@@ -261,7 +322,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02865"
+          ]
         },
         {
           "id": "RI-mapleville",
@@ -270,7 +334,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02839"
+          ]
         },
         {
           "id": "RI-north-providence",
@@ -279,7 +346,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02911"
+          ]
         },
         {
           "id": "RI-north-scituate",
@@ -288,7 +358,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02857"
+          ]
         },
         {
           "id": "RI-north-smithfield",
@@ -297,7 +370,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02896"
+          ]
         },
         {
           "id": "RI-riverside",
@@ -306,7 +382,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02915"
+          ]
         },
         {
           "id": "RI-rumford",
@@ -315,7 +394,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02916"
+          ]
         },
         {
           "id": "RI-smithfield",
@@ -324,7 +406,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02917"
+          ]
         },
         {
           "id": "RI-warren",
@@ -333,7 +418,10 @@
           "tier": 1,
           "county": "Bristol",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02885"
+          ]
         },
         {
           "id": "RI-slatersville",
@@ -342,7 +430,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02876"
+          ]
         },
         {
           "id": "RI-glendale",
@@ -351,7 +442,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02826"
+          ]
         },
         {
           "id": "RI-albion",
@@ -360,7 +454,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02802"
+          ]
         },
         {
           "id": "RI-prudence-island",
@@ -369,7 +466,10 @@
           "tier": 1,
           "county": "Bristol",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02872"
+          ]
         },
         {
           "id": "RI-oakland",
@@ -378,7 +478,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02858"
+          ]
         },
         {
           "id": "RI-manville",
@@ -387,7 +490,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02838"
+          ]
         }
       ],
       "adTargeting": {
@@ -445,7 +551,12 @@
           "tier": 1,
           "county": "Kent",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02888",
+            "02889",
+            "02886"
+          ]
         },
         {
           "id": "RI-greene",
@@ -454,7 +565,10 @@
           "tier": 1,
           "county": "Kent",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02827"
+          ]
         },
         {
           "id": "RI-coventry",
@@ -463,7 +577,10 @@
           "tier": 1,
           "county": "Kent",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02816"
+          ]
         },
         {
           "id": "RI-east-greenwich",
@@ -472,7 +589,10 @@
           "tier": 1,
           "county": "Kent",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02818"
+          ]
         },
         {
           "id": "RI-west-greenwich",
@@ -481,7 +601,10 @@
           "tier": 1,
           "county": "Kent",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02817"
+          ]
         },
         {
           "id": "RI-west-warwick",
@@ -490,7 +613,10 @@
           "tier": 1,
           "county": "Kent",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02893"
+          ]
         }
       ],
       "adTargeting": {
@@ -547,7 +673,11 @@
           "tier": 1,
           "county": "Newport",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02841",
+            "02840"
+          ]
         },
         {
           "id": "RI-tiverton",
@@ -556,7 +686,10 @@
           "tier": 1,
           "county": "Newport",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02878"
+          ]
         },
         {
           "id": "RI-middletown",
@@ -565,7 +698,10 @@
           "tier": 1,
           "county": "Newport",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02842"
+          ]
         },
         {
           "id": "RI-portsmouth",
@@ -574,7 +710,10 @@
           "tier": 1,
           "county": "Newport",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02871"
+          ]
         },
         {
           "id": "RI-little-compton",
@@ -583,7 +722,10 @@
           "tier": 1,
           "county": "Newport",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02837"
+          ]
         },
         {
           "id": "RI-jamestown",
@@ -592,7 +734,10 @@
           "tier": 1,
           "county": "Newport",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02835"
+          ]
         }
       ],
       "adTargeting": {
@@ -662,7 +807,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02808"
+          ]
         },
         {
           "id": "RI-hope-valley",
@@ -671,7 +819,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02832"
+          ]
         },
         {
           "id": "RI-westerly",
@@ -680,7 +831,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02891"
+          ]
         },
         {
           "id": "RI-hopkinton",
@@ -689,7 +843,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02833"
+          ]
         },
         {
           "id": "RI-carolina",
@@ -698,7 +855,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02812"
+          ]
         },
         {
           "id": "RI-wyoming",
@@ -707,7 +867,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02898"
+          ]
         },
         {
           "id": "RI-charlestown",
@@ -716,7 +879,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02813"
+          ]
         },
         {
           "id": "RI-kingston",
@@ -725,7 +891,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02881"
+          ]
         },
         {
           "id": "RI-ashaway",
@@ -734,7 +903,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02804"
+          ]
         },
         {
           "id": "RI-exeter",
@@ -743,7 +915,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02822"
+          ]
         },
         {
           "id": "RI-narragansett",
@@ -752,7 +927,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02882"
+          ]
         },
         {
           "id": "RI-north-kingstown",
@@ -761,7 +939,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02852"
+          ]
         },
         {
           "id": "RI-wakefield",
@@ -770,7 +951,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02879"
+          ]
         },
         {
           "id": "RI-west-kingston",
@@ -779,7 +963,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02892"
+          ]
         },
         {
           "id": "RI-saunderstown",
@@ -788,7 +975,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02874"
+          ]
         },
         {
           "id": "RI-wood-river-junction",
@@ -797,7 +987,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02894"
+          ]
         },
         {
           "id": "RI-block-island",
@@ -806,7 +999,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02807"
+          ]
         },
         {
           "id": "RI-shannock",
@@ -815,7 +1011,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02875"
+          ]
         },
         {
           "id": "RI-rockville",
@@ -824,7 +1023,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02873"
+          ]
         },
         {
           "id": "RI-kenyon",
@@ -833,7 +1035,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02836"
+          ]
         }
       ],
       "adTargeting": {
@@ -921,7 +1126,17 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 8,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02909",
+            "02912",
+            "02903",
+            "02907",
+            "02906",
+            "02904",
+            "02908",
+            "02905"
+          ]
         },
         {
           "id": "RI-cranston",
@@ -930,7 +1145,12 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02910",
+            "02921",
+            "02920"
+          ]
         },
         {
           "id": "RI-pawtucket",
@@ -939,7 +1159,11 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02861",
+            "02860"
+          ]
         },
         {
           "id": "RI-woonsocket",
@@ -948,7 +1172,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02895"
+          ]
         },
         {
           "id": "RI-east-providence",
@@ -957,7 +1184,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02914"
+          ]
         },
         {
           "id": "RI-harrisville",
@@ -966,7 +1196,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02830"
+          ]
         },
         {
           "id": "RI-chepachet",
@@ -975,7 +1208,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02814"
+          ]
         },
         {
           "id": "RI-pascoag",
@@ -984,7 +1220,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02859"
+          ]
         },
         {
           "id": "RI-greenville",
@@ -993,7 +1232,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02828"
+          ]
         },
         {
           "id": "RI-central-falls",
@@ -1002,7 +1244,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02863"
+          ]
         },
         {
           "id": "RI-clayville",
@@ -1011,7 +1256,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02815"
+          ]
         },
         {
           "id": "RI-cumberland",
@@ -1020,7 +1268,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02864"
+          ]
         },
         {
           "id": "RI-foster",
@@ -1029,7 +1280,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02825"
+          ]
         },
         {
           "id": "RI-hope",
@@ -1038,7 +1292,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02831"
+          ]
         },
         {
           "id": "RI-johnston",
@@ -1047,7 +1304,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02919"
+          ]
         },
         {
           "id": "RI-lincoln",
@@ -1056,7 +1316,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02865"
+          ]
         },
         {
           "id": "RI-mapleville",
@@ -1065,7 +1328,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02839"
+          ]
         },
         {
           "id": "RI-north-providence",
@@ -1074,7 +1340,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02911"
+          ]
         },
         {
           "id": "RI-north-scituate",
@@ -1083,7 +1352,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02857"
+          ]
         },
         {
           "id": "RI-north-smithfield",
@@ -1092,7 +1364,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02896"
+          ]
         },
         {
           "id": "RI-riverside",
@@ -1101,7 +1376,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02915"
+          ]
         },
         {
           "id": "RI-rumford",
@@ -1110,7 +1388,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02916"
+          ]
         },
         {
           "id": "RI-smithfield",
@@ -1119,7 +1400,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02917"
+          ]
         },
         {
           "id": "RI-slatersville",
@@ -1128,7 +1412,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02876"
+          ]
         },
         {
           "id": "RI-glendale",
@@ -1137,7 +1424,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02826"
+          ]
         },
         {
           "id": "RI-albion",
@@ -1146,7 +1436,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02802"
+          ]
         },
         {
           "id": "RI-oakland",
@@ -1155,7 +1448,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02858"
+          ]
         },
         {
           "id": "RI-manville",
@@ -1164,7 +1460,10 @@
           "tier": 1,
           "county": "Providence",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "02838"
+          ]
         }
       ],
       "adTargeting": {

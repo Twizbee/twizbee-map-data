@@ -101,7 +101,20 @@
           "tier": 1,
           "county": "Wakulla",
           "zipCount": 11,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32305",
+            "32399",
+            "32303",
+            "32308",
+            "32311",
+            "32312",
+            "32301",
+            "32317",
+            "32310",
+            "32309",
+            "32304"
+          ]
         },
         {
           "id": "FL-quincy",
@@ -110,7 +123,11 @@
           "tier": 2,
           "county": "Gadsden",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32351",
+            "32352"
+          ]
         },
         {
           "id": "FL-apalachicola",
@@ -119,7 +136,10 @@
           "tier": 2,
           "county": "Franklin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32320"
+          ]
         },
         {
           "id": "FL-midway",
@@ -128,7 +148,10 @@
           "tier": 2,
           "county": "Gadsden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32343"
+          ]
         },
         {
           "id": "FL-panacea",
@@ -137,7 +160,10 @@
           "tier": 2,
           "county": "Wakulla",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32346"
+          ]
         },
         {
           "id": "FL-chattahoochee",
@@ -146,7 +172,10 @@
           "tier": 2,
           "county": "Gadsden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32324"
+          ]
         },
         {
           "id": "FL-crawfordville",
@@ -155,7 +184,10 @@
           "tier": 2,
           "county": "Wakulla",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32327"
+          ]
         },
         {
           "id": "FL-greensboro",
@@ -164,7 +196,10 @@
           "tier": 2,
           "county": "Gadsden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32330"
+          ]
         },
         {
           "id": "FL-havana",
@@ -173,7 +208,10 @@
           "tier": 2,
           "county": "Gadsden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32333"
+          ]
         },
         {
           "id": "FL-bristol",
@@ -182,7 +220,10 @@
           "tier": 2,
           "county": "Liberty",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32321"
+          ]
         },
         {
           "id": "FL-sopchoppy",
@@ -191,7 +232,10 @@
           "tier": 2,
           "county": "Wakulla",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32358"
+          ]
         },
         {
           "id": "FL-eastpoint",
@@ -200,7 +244,10 @@
           "tier": 2,
           "county": "Franklin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32328"
+          ]
         },
         {
           "id": "FL-wacissa",
@@ -209,7 +256,10 @@
           "tier": 2,
           "county": "Jefferson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32361"
+          ]
         },
         {
           "id": "FL-lamont",
@@ -218,7 +268,10 @@
           "tier": 2,
           "county": "Jefferson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32336"
+          ]
         },
         {
           "id": "FL-hosford",
@@ -227,7 +280,10 @@
           "tier": 2,
           "county": "Liberty",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32334"
+          ]
         },
         {
           "id": "FL-carrabelle",
@@ -236,7 +292,10 @@
           "tier": 2,
           "county": "Franklin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32322"
+          ]
         },
         {
           "id": "FL-gretna",
@@ -245,7 +304,10 @@
           "tier": 2,
           "county": "Gadsden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32332"
+          ]
         },
         {
           "id": "FL-monticello",
@@ -254,7 +316,10 @@
           "tier": 2,
           "county": "Jefferson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32344"
+          ]
         },
         {
           "id": "FL-saint-marks",
@@ -263,7 +328,10 @@
           "tier": 2,
           "county": "Wakulla",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32355"
+          ]
         },
         {
           "id": "FL-lanark-village",
@@ -272,7 +340,10 @@
           "tier": 2,
           "county": "Franklin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32323"
+          ]
         }
       ],
       "adTargeting": {
@@ -519,7 +590,41 @@
           "tier": 2,
           "county": "Orange",
           "zipCount": 32,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32805",
+            "32803",
+            "32809",
+            "32837",
+            "32836",
+            "32829",
+            "32812",
+            "32814",
+            "32831",
+            "32810",
+            "32824",
+            "32822",
+            "32830",
+            "32807",
+            "32806",
+            "32817",
+            "32825",
+            "32826",
+            "32821",
+            "32818",
+            "32811",
+            "32801",
+            "32835",
+            "32827",
+            "32804",
+            "32832",
+            "32839",
+            "32808",
+            "32819",
+            "32833",
+            "32820",
+            "32828"
+          ]
         },
         {
           "id": "FL-lakeland",
@@ -528,7 +633,17 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 8,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33805",
+            "33810",
+            "33811",
+            "33801",
+            "33815",
+            "33803",
+            "33813",
+            "33809"
+          ]
         },
         {
           "id": "FL-kissimmee",
@@ -537,7 +652,16 @@
           "tier": 2,
           "county": "Osceola",
           "zipCount": 7,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34744",
+            "34759",
+            "34747",
+            "34741",
+            "34746",
+            "34743",
+            "34758"
+          ]
         },
         {
           "id": "FL-daytona-beach",
@@ -546,7 +670,16 @@
           "tier": 2,
           "county": "Volusia",
           "zipCount": 7,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32119",
+            "32118",
+            "32127",
+            "32114",
+            "32124",
+            "32128",
+            "32117"
+          ]
         },
         {
           "id": "FL-melbourne-village",
@@ -555,7 +688,14 @@
           "tier": 2,
           "county": "Brevard",
           "zipCount": 5,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32940",
+            "32934",
+            "32935",
+            "32904",
+            "32901"
+          ]
         },
         {
           "id": "FL-melbourne",
@@ -564,7 +704,14 @@
           "tier": 2,
           "county": "Brevard",
           "zipCount": 5,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32940",
+            "32934",
+            "32935",
+            "32904",
+            "32901"
+          ]
         },
         {
           "id": "FL-palm-bay",
@@ -573,7 +720,13 @@
           "tier": 2,
           "county": "Brevard",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32905",
+            "32908",
+            "32907",
+            "32909"
+          ]
         },
         {
           "id": "FL-saint-cloud",
@@ -582,7 +735,13 @@
           "tier": 2,
           "county": "Osceola",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34773",
+            "34772",
+            "34771",
+            "34769"
+          ]
         },
         {
           "id": "FL-cocoa",
@@ -591,7 +750,12 @@
           "tier": 2,
           "county": "Brevard",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32922",
+            "32926",
+            "32927"
+          ]
         },
         {
           "id": "FL-lake-wales",
@@ -600,7 +764,12 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33859",
+            "33898",
+            "33853"
+          ]
         },
         {
           "id": "FL-davenport",
@@ -609,7 +778,12 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33896",
+            "33837",
+            "33897"
+          ]
         },
         {
           "id": "FL-winter-haven",
@@ -618,7 +792,12 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33881",
+            "33880",
+            "33884"
+          ]
         },
         {
           "id": "FL-eustis",
@@ -627,7 +806,11 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32736",
+            "32726"
+          ]
         },
         {
           "id": "FL-lady-lake",
@@ -636,7 +819,11 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32159",
+            "32162"
+          ]
         },
         {
           "id": "FL-deland",
@@ -645,7 +832,11 @@
           "tier": 2,
           "county": "Volusia",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32720",
+            "32724"
+          ]
         },
         {
           "id": "FL-edgewater",
@@ -654,7 +845,11 @@
           "tier": 2,
           "county": "Volusia",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32132",
+            "32141"
+          ]
         },
         {
           "id": "FL-new-smyrna-beach",
@@ -663,7 +858,11 @@
           "tier": 2,
           "county": "Volusia",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32169",
+            "32168"
+          ]
         },
         {
           "id": "FL-leesburg",
@@ -672,7 +871,11 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34788",
+            "34748"
+          ]
         },
         {
           "id": "FL-apopka",
@@ -681,7 +884,11 @@
           "tier": 2,
           "county": "Orange",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32703",
+            "32712"
+          ]
         },
         {
           "id": "FL-altamonte-springs",
@@ -690,7 +897,11 @@
           "tier": 2,
           "county": "Seminole",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32714",
+            "32701"
+          ]
         },
         {
           "id": "FL-ormond-beach",
@@ -699,7 +910,11 @@
           "tier": 2,
           "county": "Volusia",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32176",
+            "32174"
+          ]
         },
         {
           "id": "FL-sanford",
@@ -708,7 +923,11 @@
           "tier": 2,
           "county": "Seminole",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32771",
+            "32773"
+          ]
         },
         {
           "id": "FL-titusville",
@@ -717,7 +936,11 @@
           "tier": 2,
           "county": "Brevard",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32796",
+            "32780"
+          ]
         },
         {
           "id": "FL-casselberry",
@@ -726,7 +949,11 @@
           "tier": 2,
           "county": "Seminole",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32707",
+            "32730"
+          ]
         },
         {
           "id": "FL-oviedo",
@@ -735,7 +962,11 @@
           "tier": 2,
           "county": "Seminole",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32765",
+            "32766"
+          ]
         },
         {
           "id": "FL-deltona",
@@ -744,7 +975,11 @@
           "tier": 2,
           "county": "Volusia",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32725",
+            "32738"
+          ]
         },
         {
           "id": "FL-longwood",
@@ -753,7 +988,11 @@
           "tier": 2,
           "county": "Seminole",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32750",
+            "32779"
+          ]
         },
         {
           "id": "FL-merritt-island",
@@ -762,7 +1001,11 @@
           "tier": 2,
           "county": "Brevard",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32953",
+            "32952"
+          ]
         },
         {
           "id": "FL-sebastian",
@@ -771,7 +1014,11 @@
           "tier": 2,
           "county": "Brevard",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32976",
+            "32958"
+          ]
         },
         {
           "id": "FL-winter-park",
@@ -780,7 +1027,11 @@
           "tier": 2,
           "county": "Orange",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32792",
+            "32789"
+          ]
         },
         {
           "id": "FL-lake-hamilton",
@@ -789,7 +1040,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33851"
+          ]
         },
         {
           "id": "FL-bartow",
@@ -798,7 +1052,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33830"
+          ]
         },
         {
           "id": "FL-mascotte",
@@ -807,7 +1064,10 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34753"
+          ]
         },
         {
           "id": "FL-pierson",
@@ -816,7 +1076,10 @@
           "tier": 2,
           "county": "Volusia",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32180"
+          ]
         },
         {
           "id": "FL-haines-city",
@@ -825,7 +1088,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33844"
+          ]
         },
         {
           "id": "FL-fruitland-park",
@@ -834,7 +1100,10 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34731"
+          ]
         },
         {
           "id": "FL-ocoee",
@@ -843,7 +1112,10 @@
           "tier": 2,
           "county": "Orange",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34761"
+          ]
         },
         {
           "id": "FL-de-leon-springs",
@@ -852,7 +1124,10 @@
           "tier": 2,
           "county": "Volusia",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32130"
+          ]
         },
         {
           "id": "FL-frostproof",
@@ -861,7 +1136,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33843"
+          ]
         },
         {
           "id": "FL-melbourne-beach",
@@ -870,7 +1148,10 @@
           "tier": 2,
           "county": "Brevard",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32951"
+          ]
         },
         {
           "id": "FL-tavares",
@@ -879,7 +1160,10 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32778"
+          ]
         },
         {
           "id": "FL-sorrento",
@@ -888,7 +1172,10 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32776"
+          ]
         },
         {
           "id": "FL-homeland",
@@ -897,7 +1184,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33847"
+          ]
         },
         {
           "id": "FL-babson-park",
@@ -906,7 +1196,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33827"
+          ]
         },
         {
           "id": "FL-waverly",
@@ -915,7 +1208,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33877"
+          ]
         },
         {
           "id": "FL-indian-lake-estates",
@@ -924,7 +1220,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33855"
+          ]
         },
         {
           "id": "FL-mims",
@@ -933,7 +1232,10 @@
           "tier": 2,
           "county": "Brevard",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32754"
+          ]
         },
         {
           "id": "FL-auburndale",
@@ -942,7 +1244,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33823"
+          ]
         },
         {
           "id": "FL-clermont",
@@ -951,7 +1256,10 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34711"
+          ]
         },
         {
           "id": "FL-mount-dora",
@@ -960,7 +1268,10 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32757"
+          ]
         },
         {
           "id": "FL-oak-hill",
@@ -969,7 +1280,10 @@
           "tier": 2,
           "county": "Volusia",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32759"
+          ]
         },
         {
           "id": "FL-oakland",
@@ -978,7 +1292,10 @@
           "tier": 2,
           "county": "Orange",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34760"
+          ]
         },
         {
           "id": "FL-cocoa-beach",
@@ -987,7 +1304,10 @@
           "tier": 2,
           "county": "Brevard",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32931"
+          ]
         },
         {
           "id": "FL-orange-city",
@@ -996,7 +1316,10 @@
           "tier": 2,
           "county": "Volusia",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32763"
+          ]
         },
         {
           "id": "FL-polk-city",
@@ -1005,7 +1328,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33868"
+          ]
         },
         {
           "id": "FL-malabar",
@@ -1014,7 +1340,10 @@
           "tier": 2,
           "county": "Brevard",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32950"
+          ]
         },
         {
           "id": "FL-montverde",
@@ -1023,7 +1352,10 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34756"
+          ]
         },
         {
           "id": "FL-maitland",
@@ -1032,7 +1364,10 @@
           "tier": 2,
           "county": "Orange",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32751"
+          ]
         },
         {
           "id": "FL-christmas",
@@ -1041,7 +1376,10 @@
           "tier": 2,
           "county": "Orange",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32709"
+          ]
         },
         {
           "id": "FL-paisley",
@@ -1050,7 +1388,10 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32767"
+          ]
         },
         {
           "id": "FL-kathleen",
@@ -1059,7 +1400,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33849"
+          ]
         },
         {
           "id": "FL-yalaha",
@@ -1068,7 +1412,10 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34797"
+          ]
         },
         {
           "id": "FL-zellwood",
@@ -1077,7 +1424,10 @@
           "tier": 2,
           "county": "Orange",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32798"
+          ]
         },
         {
           "id": "FL-satellite-beach",
@@ -1086,7 +1436,10 @@
           "tier": 2,
           "county": "Brevard",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32937"
+          ]
         },
         {
           "id": "FL-bushnell",
@@ -1095,7 +1448,10 @@
           "tier": 2,
           "county": "Sumter",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33513"
+          ]
         },
         {
           "id": "FL-eagle-lake",
@@ -1104,7 +1460,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33839"
+          ]
         },
         {
           "id": "FL-fort-meade",
@@ -1113,7 +1472,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33841"
+          ]
         },
         {
           "id": "FL-mulberry",
@@ -1122,7 +1484,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33860"
+          ]
         },
         {
           "id": "FL-geneva",
@@ -1131,7 +1496,10 @@
           "tier": 2,
           "county": "Seminole",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32732"
+          ]
         },
         {
           "id": "FL-astatula",
@@ -1140,7 +1508,10 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34705"
+          ]
         },
         {
           "id": "FL-umatilla",
@@ -1149,7 +1520,10 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32784"
+          ]
         },
         {
           "id": "FL-winter-garden",
@@ -1158,7 +1532,10 @@
           "tier": 2,
           "county": "Orange",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34787"
+          ]
         },
         {
           "id": "FL-center-hill",
@@ -1167,7 +1544,10 @@
           "tier": 2,
           "county": "Sumter",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33514"
+          ]
         },
         {
           "id": "FL-dundee",
@@ -1176,7 +1556,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33838"
+          ]
         },
         {
           "id": "FL-altoona",
@@ -1185,7 +1568,10 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32702"
+          ]
         },
         {
           "id": "FL-okahumpka",
@@ -1194,7 +1580,10 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34762"
+          ]
         },
         {
           "id": "FL-seville",
@@ -1203,7 +1592,10 @@
           "tier": 2,
           "county": "Volusia",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32190"
+          ]
         },
         {
           "id": "FL-lake-panasoffkee",
@@ -1212,7 +1604,10 @@
           "tier": 2,
           "county": "Sumter",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33538"
+          ]
         },
         {
           "id": "FL-patrick-afb",
@@ -1221,7 +1616,10 @@
           "tier": 2,
           "county": "Brevard",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32925"
+          ]
         },
         {
           "id": "FL-debary",
@@ -1230,7 +1628,10 @@
           "tier": 2,
           "county": "Volusia",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32713"
+          ]
         },
         {
           "id": "FL-lake-helen",
@@ -1239,7 +1640,10 @@
           "tier": 2,
           "county": "Volusia",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32744"
+          ]
         },
         {
           "id": "FL-port-orange",
@@ -1248,7 +1652,10 @@
           "tier": 2,
           "county": "Volusia",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32129"
+          ]
         },
         {
           "id": "FL-winter-springs",
@@ -1257,7 +1664,10 @@
           "tier": 2,
           "county": "Seminole",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32708"
+          ]
         },
         {
           "id": "FL-windermere",
@@ -1266,7 +1676,10 @@
           "tier": 2,
           "county": "Orange",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34786"
+          ]
         },
         {
           "id": "FL-rockledge",
@@ -1275,7 +1688,10 @@
           "tier": 2,
           "county": "Brevard",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32955"
+          ]
         },
         {
           "id": "FL-wildwood",
@@ -1284,7 +1700,10 @@
           "tier": 2,
           "county": "Sumter",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34785"
+          ]
         },
         {
           "id": "FL-lake-mary",
@@ -1293,7 +1712,10 @@
           "tier": 2,
           "county": "Seminole",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32746"
+          ]
         },
         {
           "id": "FL-gotha",
@@ -1302,7 +1724,10 @@
           "tier": 2,
           "county": "Orange",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34734"
+          ]
         },
         {
           "id": "FL-groveland",
@@ -1311,7 +1736,10 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34736"
+          ]
         },
         {
           "id": "FL-coleman",
@@ -1320,7 +1748,10 @@
           "tier": 2,
           "county": "Sumter",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33521"
+          ]
         },
         {
           "id": "FL-lake-alfred",
@@ -1329,7 +1760,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33850"
+          ]
         },
         {
           "id": "FL-indialantic",
@@ -1338,7 +1772,10 @@
           "tier": 2,
           "county": "Brevard",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32903"
+          ]
         },
         {
           "id": "FL-cape-canaveral",
@@ -1347,7 +1784,10 @@
           "tier": 2,
           "county": "Brevard",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32920"
+          ]
         },
         {
           "id": "FL-webster",
@@ -1356,7 +1796,10 @@
           "tier": 2,
           "county": "Sumter",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33597"
+          ]
         },
         {
           "id": "FL-astor",
@@ -1365,7 +1808,10 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32102"
+          ]
         },
         {
           "id": "FL-river-ranch",
@@ -1374,7 +1820,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33867"
+          ]
         },
         {
           "id": "FL-grant",
@@ -1383,7 +1832,10 @@
           "tier": 2,
           "county": "Brevard",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32949"
+          ]
         },
         {
           "id": "FL-kenansville",
@@ -1392,7 +1844,10 @@
           "tier": 2,
           "county": "Osceola",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34739"
+          ]
         },
         {
           "id": "FL-intercession-city",
@@ -1401,7 +1856,10 @@
           "tier": 2,
           "county": "Osceola",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33848"
+          ]
         },
         {
           "id": "FL-nalcrest",
@@ -1410,7 +1868,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33856"
+          ]
         },
         {
           "id": "FL-sumterville",
@@ -1419,7 +1880,10 @@
           "tier": 2,
           "county": "Sumter",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33585"
+          ]
         },
         {
           "id": "FL-grand-island",
@@ -1428,7 +1892,10 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32735"
+          ]
         },
         {
           "id": "FL-oxford",
@@ -1437,7 +1904,10 @@
           "tier": 2,
           "county": "Sumter",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34484"
+          ]
         },
         {
           "id": "FL-osteen",
@@ -1446,7 +1916,10 @@
           "tier": 2,
           "county": "Volusia",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32764"
+          ]
         },
         {
           "id": "FL-fedhaven",
@@ -1455,7 +1928,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33854"
+          ]
         }
       ],
       "adTargeting": {
@@ -1578,7 +2054,41 @@
           "tier": 2,
           "county": "Duval",
           "zipCount": 32,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32234",
+            "32223",
+            "32218",
+            "32208",
+            "32205",
+            "32277",
+            "32212",
+            "32254",
+            "32259",
+            "32256",
+            "32221",
+            "32210",
+            "32204",
+            "32228",
+            "32224",
+            "32207",
+            "32209",
+            "32244",
+            "32219",
+            "32225",
+            "32206",
+            "32246",
+            "32220",
+            "32216",
+            "32258",
+            "32217",
+            "32257",
+            "32222",
+            "32202",
+            "32211",
+            "32226",
+            "32227"
+          ]
         },
         {
           "id": "FL-orange-park",
@@ -1587,7 +2097,12 @@
           "tier": 2,
           "county": "Clay",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32003",
+            "32065",
+            "32073"
+          ]
         },
         {
           "id": "FL-palm-coast",
@@ -1596,7 +2111,11 @@
           "tier": 2,
           "county": "Flagler",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32137",
+            "32164"
+          ]
         },
         {
           "id": "FL-penney-farms",
@@ -1605,7 +2124,10 @@
           "tier": 2,
           "county": "Clay",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32079"
+          ]
         },
         {
           "id": "FL-bunnell",
@@ -1614,7 +2136,10 @@
           "tier": 2,
           "county": "Flagler",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32110"
+          ]
         },
         {
           "id": "FL-palatka",
@@ -1623,7 +2148,10 @@
           "tier": 2,
           "county": "Putnam",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32177"
+          ]
         },
         {
           "id": "FL-interlachen",
@@ -1632,7 +2160,10 @@
           "tier": 2,
           "county": "Putnam",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32148"
+          ]
         },
         {
           "id": "FL-neptune-beach",
@@ -1641,7 +2172,10 @@
           "tier": 2,
           "county": "Duval",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32266"
+          ]
         },
         {
           "id": "FL-pomona-park",
@@ -1650,7 +2184,10 @@
           "tier": 2,
           "county": "Putnam",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32181"
+          ]
         },
         {
           "id": "FL-callahan",
@@ -1659,7 +2196,10 @@
           "tier": 2,
           "county": "Nassau",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32011"
+          ]
         },
         {
           "id": "FL-welaka",
@@ -1668,7 +2208,10 @@
           "tier": 2,
           "county": "Putnam",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32193"
+          ]
         },
         {
           "id": "FL-crescent-city",
@@ -1677,7 +2220,10 @@
           "tier": 2,
           "county": "Putnam",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32112"
+          ]
         },
         {
           "id": "FL-middleburg",
@@ -1686,7 +2232,10 @@
           "tier": 2,
           "county": "Clay",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32068"
+          ]
         },
         {
           "id": "FL-flagler-beach",
@@ -1695,7 +2244,10 @@
           "tier": 2,
           "county": "Flagler",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32136"
+          ]
         },
         {
           "id": "FL-jacksonville-beach",
@@ -1704,7 +2256,10 @@
           "tier": 2,
           "county": "Duval",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32250"
+          ]
         },
         {
           "id": "FL-macclenny",
@@ -1713,7 +2268,10 @@
           "tier": 2,
           "county": "Baker",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32063"
+          ]
         },
         {
           "id": "FL-yulee",
@@ -1722,7 +2280,10 @@
           "tier": 2,
           "county": "Nassau",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32097"
+          ]
         },
         {
           "id": "FL-atlantic-beach",
@@ -1731,7 +2292,10 @@
           "tier": 2,
           "county": "Duval",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32233"
+          ]
         },
         {
           "id": "FL-fernandina-beach",
@@ -1740,7 +2304,10 @@
           "tier": 2,
           "county": "Nassau",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32034"
+          ]
         },
         {
           "id": "FL-green-cove-springs",
@@ -1749,7 +2316,10 @@
           "tier": 2,
           "county": "Clay",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32043"
+          ]
         },
         {
           "id": "FL-hilliard",
@@ -1758,7 +2328,10 @@
           "tier": 2,
           "county": "Nassau",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32046"
+          ]
         },
         {
           "id": "FL-keystone-heights",
@@ -1767,7 +2340,10 @@
           "tier": 2,
           "county": "Clay",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32656"
+          ]
         },
         {
           "id": "FL-east-palatka",
@@ -1776,7 +2352,10 @@
           "tier": 2,
           "county": "Putnam",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32131"
+          ]
         },
         {
           "id": "FL-bryceville",
@@ -1785,7 +2364,10 @@
           "tier": 2,
           "county": "Nassau",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32009"
+          ]
         },
         {
           "id": "FL-olustee",
@@ -1794,7 +2376,10 @@
           "tier": 2,
           "county": "Baker",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32072"
+          ]
         },
         {
           "id": "FL-glen-saint-mary",
@@ -1803,7 +2388,10 @@
           "tier": 2,
           "county": "Baker",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32040"
+          ]
         },
         {
           "id": "FL-florahome",
@@ -1812,7 +2400,10 @@
           "tier": 2,
           "county": "Putnam",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32140"
+          ]
         },
         {
           "id": "FL-san-mateo",
@@ -1821,7 +2412,10 @@
           "tier": 2,
           "county": "Putnam",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32187"
+          ]
         },
         {
           "id": "FL-georgetown",
@@ -1830,7 +2424,10 @@
           "tier": 2,
           "county": "Putnam",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32139"
+          ]
         },
         {
           "id": "FL-hollister",
@@ -1839,7 +2436,10 @@
           "tier": 2,
           "county": "Putnam",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32147"
+          ]
         },
         {
           "id": "FL-melrose",
@@ -1848,7 +2448,10 @@
           "tier": 2,
           "county": "Putnam",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32666"
+          ]
         },
         {
           "id": "FL-satsuma",
@@ -1857,7 +2460,10 @@
           "tier": 2,
           "county": "Putnam",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32189"
+          ]
         },
         {
           "id": "FL-sanderson",
@@ -1866,7 +2472,10 @@
           "tier": 2,
           "county": "Baker",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32087"
+          ]
         },
         {
           "id": "FL-lake-como",
@@ -1875,7 +2484,10 @@
           "tier": 2,
           "county": "Putnam",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32157"
+          ]
         }
       ],
       "adTargeting": {
@@ -2018,7 +2630,22 @@
           "tier": 2,
           "county": "Escambia",
           "zipCount": 13,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32506",
+            "32501",
+            "32504",
+            "32526",
+            "32509",
+            "32534",
+            "32514",
+            "32503",
+            "32505",
+            "32511",
+            "32507",
+            "32508",
+            "32502"
+          ]
         },
         {
           "id": "FL-panama-city",
@@ -2027,7 +2654,15 @@
           "tier": 2,
           "county": "Bay",
           "zipCount": 6,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32409",
+            "32401",
+            "32404",
+            "32408",
+            "32403",
+            "32405"
+          ]
         },
         {
           "id": "FL-milton",
@@ -2036,7 +2671,12 @@
           "tier": 2,
           "county": "Santa Rosa",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32570",
+            "32571",
+            "32583"
+          ]
         },
         {
           "id": "FL-marianna",
@@ -2045,7 +2685,12 @@
           "tier": 2,
           "county": "Jackson",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32446",
+            "32447",
+            "32448"
+          ]
         },
         {
           "id": "FL-panama-city-beach",
@@ -2054,7 +2699,11 @@
           "tier": 2,
           "county": "Bay",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32407",
+            "32413"
+          ]
         },
         {
           "id": "FL-defuniak-springs",
@@ -2063,7 +2712,11 @@
           "tier": 2,
           "county": "Walton",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32435",
+            "32433"
+          ]
         },
         {
           "id": "FL-gulf-breeze",
@@ -2072,7 +2725,11 @@
           "tier": 2,
           "county": "Santa Rosa",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32561",
+            "32563"
+          ]
         },
         {
           "id": "FL-destin",
@@ -2081,7 +2738,11 @@
           "tier": 2,
           "county": "Walton",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32550",
+            "32541"
+          ]
         },
         {
           "id": "FL-crestview",
@@ -2090,7 +2751,11 @@
           "tier": 2,
           "county": "Okaloosa",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32536",
+            "32539"
+          ]
         },
         {
           "id": "FL-fort-walton-beach",
@@ -2099,7 +2764,11 @@
           "tier": 2,
           "county": "Okaloosa",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32547",
+            "32548"
+          ]
         },
         {
           "id": "FL-campbellton",
@@ -2108,7 +2777,10 @@
           "tier": 2,
           "county": "Jackson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32426"
+          ]
         },
         {
           "id": "FL-sneads",
@@ -2117,7 +2789,10 @@
           "tier": 2,
           "county": "Jackson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32460"
+          ]
         },
         {
           "id": "FL-graceville",
@@ -2126,7 +2801,10 @@
           "tier": 2,
           "county": "Jackson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32440"
+          ]
         },
         {
           "id": "FL-altha",
@@ -2135,7 +2813,10 @@
           "tier": 2,
           "county": "Calhoun",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32421"
+          ]
         },
         {
           "id": "FL-eglin-afb",
@@ -2144,7 +2825,10 @@
           "tier": 2,
           "county": "Okaloosa",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32542"
+          ]
         },
         {
           "id": "FL-lynn-haven",
@@ -2153,7 +2837,10 @@
           "tier": 2,
           "county": "Bay",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32444"
+          ]
         },
         {
           "id": "FL-alford",
@@ -2162,7 +2849,10 @@
           "tier": 2,
           "county": "Jackson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32420"
+          ]
         },
         {
           "id": "FL-bascom",
@@ -2171,7 +2861,10 @@
           "tier": 2,
           "county": "Jackson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32423"
+          ]
         },
         {
           "id": "FL-jay",
@@ -2180,7 +2873,10 @@
           "tier": 2,
           "county": "Santa Rosa",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32565"
+          ]
         },
         {
           "id": "FL-wausau",
@@ -2189,7 +2885,10 @@
           "tier": 2,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32463"
+          ]
         },
         {
           "id": "FL-cottondale",
@@ -2198,7 +2897,10 @@
           "tier": 2,
           "county": "Jackson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32431"
+          ]
         },
         {
           "id": "FL-mary-esther",
@@ -2207,7 +2909,10 @@
           "tier": 2,
           "county": "Okaloosa",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32569"
+          ]
         },
         {
           "id": "FL-caryville",
@@ -2216,7 +2921,10 @@
           "tier": 2,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32427"
+          ]
         },
         {
           "id": "FL-vernon",
@@ -2225,7 +2933,10 @@
           "tier": 2,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32462"
+          ]
         },
         {
           "id": "FL-wewahitchka",
@@ -2234,7 +2945,10 @@
           "tier": 2,
           "county": "Gulf",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32465"
+          ]
         },
         {
           "id": "FL-greenwood",
@@ -2243,7 +2957,10 @@
           "tier": 2,
           "county": "Jackson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32443"
+          ]
         },
         {
           "id": "FL-ponce-de-leon",
@@ -2252,7 +2969,10 @@
           "tier": 2,
           "county": "Holmes",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32455"
+          ]
         },
         {
           "id": "FL-laurel-hill",
@@ -2261,7 +2981,10 @@
           "tier": 2,
           "county": "Okaloosa",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32567"
+          ]
         },
         {
           "id": "FL-niceville",
@@ -2270,7 +2993,10 @@
           "tier": 2,
           "county": "Okaloosa",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32578"
+          ]
         },
         {
           "id": "FL-bagdad",
@@ -2279,7 +3005,10 @@
           "tier": 2,
           "county": "Santa Rosa",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32530"
+          ]
         },
         {
           "id": "FL-molino",
@@ -2288,7 +3017,10 @@
           "tier": 2,
           "county": "Escambia",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32577"
+          ]
         },
         {
           "id": "FL-chipley",
@@ -2297,7 +3029,10 @@
           "tier": 2,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32428"
+          ]
         },
         {
           "id": "FL-ebro",
@@ -2306,7 +3041,10 @@
           "tier": 2,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32437"
+          ]
         },
         {
           "id": "FL-blountstown",
@@ -2315,7 +3053,10 @@
           "tier": 2,
           "county": "Calhoun",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32424"
+          ]
         },
         {
           "id": "FL-bonifay",
@@ -2324,7 +3065,10 @@
           "tier": 2,
           "county": "Holmes",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32425"
+          ]
         },
         {
           "id": "FL-westville",
@@ -2333,7 +3077,10 @@
           "tier": 2,
           "county": "Holmes",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32464"
+          ]
         },
         {
           "id": "FL-grand-ridge",
@@ -2342,7 +3089,10 @@
           "tier": 2,
           "county": "Jackson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32442"
+          ]
         },
         {
           "id": "FL-shalimar",
@@ -2351,7 +3101,10 @@
           "tier": 2,
           "county": "Okaloosa",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32579"
+          ]
         },
         {
           "id": "FL-valparaiso",
@@ -2360,7 +3113,10 @@
           "tier": 2,
           "county": "Okaloosa",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32580"
+          ]
         },
         {
           "id": "FL-freeport",
@@ -2369,7 +3125,10 @@
           "tier": 2,
           "county": "Walton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32439"
+          ]
         },
         {
           "id": "FL-century",
@@ -2378,7 +3137,10 @@
           "tier": 2,
           "county": "Escambia",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32535"
+          ]
         },
         {
           "id": "FL-hurlburt-field",
@@ -2387,7 +3149,10 @@
           "tier": 2,
           "county": "Okaloosa",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32544"
+          ]
         },
         {
           "id": "FL-malone",
@@ -2396,7 +3161,10 @@
           "tier": 2,
           "county": "Jackson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32445"
+          ]
         },
         {
           "id": "FL-navarre",
@@ -2405,7 +3173,10 @@
           "tier": 2,
           "county": "Santa Rosa",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32566"
+          ]
         },
         {
           "id": "FL-mexico-beach",
@@ -2414,7 +3185,10 @@
           "tier": 2,
           "county": "Bay",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32410"
+          ]
         },
         {
           "id": "FL-fountain",
@@ -2423,7 +3197,10 @@
           "tier": 2,
           "county": "Bay",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32438"
+          ]
         },
         {
           "id": "FL-baker",
@@ -2432,7 +3209,10 @@
           "tier": 2,
           "county": "Okaloosa",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32531"
+          ]
         },
         {
           "id": "FL-holt",
@@ -2441,7 +3221,10 @@
           "tier": 2,
           "county": "Okaloosa",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32564"
+          ]
         },
         {
           "id": "FL-port-saint-joe",
@@ -2450,7 +3233,10 @@
           "tier": 2,
           "county": "Gulf",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32456"
+          ]
         },
         {
           "id": "FL-youngstown",
@@ -2459,7 +3245,10 @@
           "tier": 2,
           "county": "Bay",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32466"
+          ]
         },
         {
           "id": "FL-clarksville",
@@ -2468,7 +3257,10 @@
           "tier": 2,
           "county": "Calhoun",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32430"
+          ]
         },
         {
           "id": "FL-kinard",
@@ -2477,7 +3269,10 @@
           "tier": 2,
           "county": "Calhoun",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32449"
+          ]
         },
         {
           "id": "FL-rosemary-bch",
@@ -2486,7 +3281,10 @@
           "tier": 2,
           "county": "Bay",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32461"
+          ]
         },
         {
           "id": "FL-mc-david",
@@ -2495,7 +3293,10 @@
           "tier": 2,
           "county": "Escambia",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32568"
+          ]
         },
         {
           "id": "FL-cantonment",
@@ -2504,7 +3305,10 @@
           "tier": 2,
           "county": "Escambia",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32533"
+          ]
         },
         {
           "id": "FL-cypress",
@@ -2513,7 +3317,10 @@
           "tier": 2,
           "county": "Jackson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32432"
+          ]
         },
         {
           "id": "FL-santa-rosa-beach",
@@ -2522,7 +3329,10 @@
           "tier": 2,
           "county": "Walton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32459"
+          ]
         }
       ],
       "adTargeting": {
@@ -2689,7 +3499,20 @@
           "tier": 2,
           "county": "Marion",
           "zipCount": 11,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34482",
+            "34479",
+            "34471",
+            "34470",
+            "34480",
+            "34472",
+            "34475",
+            "34473",
+            "34476",
+            "34481",
+            "34474"
+          ]
         },
         {
           "id": "FL-gainesville",
@@ -2698,7 +3521,19 @@
           "tier": 2,
           "county": "Alachua",
           "zipCount": 10,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32606",
+            "32609",
+            "32612",
+            "32607",
+            "32605",
+            "32641",
+            "32601",
+            "32608",
+            "32603",
+            "32653"
+          ]
         },
         {
           "id": "FL-dunnellon",
@@ -2707,7 +3542,13 @@
           "tier": 2,
           "county": "Marion",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34432",
+            "34433",
+            "34431",
+            "34434"
+          ]
         },
         {
           "id": "FL-lake-city",
@@ -2716,7 +3557,12 @@
           "tier": 2,
           "county": "Columbia",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32055",
+            "32024",
+            "32025"
+          ]
         },
         {
           "id": "FL-inverness",
@@ -2725,7 +3571,12 @@
           "tier": 2,
           "county": "Citrus",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34453",
+            "34452",
+            "34450"
+          ]
         },
         {
           "id": "FL-alachua",
@@ -2734,7 +3585,11 @@
           "tier": 2,
           "county": "Alachua",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32616",
+            "32615"
+          ]
         },
         {
           "id": "FL-perry",
@@ -2743,7 +3598,11 @@
           "tier": 2,
           "county": "Taylor",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32347",
+            "32348"
+          ]
         },
         {
           "id": "FL-live-oak",
@@ -2752,7 +3611,11 @@
           "tier": 2,
           "county": "Suwannee",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32060",
+            "32064"
+          ]
         },
         {
           "id": "FL-homosassa",
@@ -2761,7 +3624,11 @@
           "tier": 2,
           "county": "Citrus",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34446",
+            "34448"
+          ]
         },
         {
           "id": "FL-crystal-river",
@@ -2770,7 +3637,11 @@
           "tier": 2,
           "county": "Citrus",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34428",
+            "34429"
+          ]
         },
         {
           "id": "FL-bronson",
@@ -2779,7 +3650,10 @@
           "tier": 2,
           "county": "Levy",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32621"
+          ]
         },
         {
           "id": "FL-raiford",
@@ -2788,7 +3662,10 @@
           "tier": 2,
           "county": "Union",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32083"
+          ]
         },
         {
           "id": "FL-hampton",
@@ -2797,7 +3674,10 @@
           "tier": 2,
           "county": "Bradford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32044"
+          ]
         },
         {
           "id": "FL-reddick",
@@ -2806,7 +3686,10 @@
           "tier": 2,
           "county": "Marion",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32686"
+          ]
         },
         {
           "id": "FL-micanopy",
@@ -2815,7 +3698,10 @@
           "tier": 2,
           "county": "Alachua",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32667"
+          ]
         },
         {
           "id": "FL-otter-creek",
@@ -2824,7 +3710,10 @@
           "tier": 2,
           "county": "Levy",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32683"
+          ]
         },
         {
           "id": "FL-brooker",
@@ -2833,7 +3722,10 @@
           "tier": 2,
           "county": "Bradford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32622"
+          ]
         },
         {
           "id": "FL-greenville",
@@ -2842,7 +3734,10 @@
           "tier": 2,
           "county": "Madison",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32331"
+          ]
         },
         {
           "id": "FL-branford",
@@ -2851,7 +3746,10 @@
           "tier": 2,
           "county": "Suwannee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32008"
+          ]
         },
         {
           "id": "FL-jennings",
@@ -2860,7 +3758,10 @@
           "tier": 2,
           "county": "Hamilton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32053"
+          ]
         },
         {
           "id": "FL-ocklawaha",
@@ -2869,7 +3770,10 @@
           "tier": 2,
           "county": "Marion",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32179"
+          ]
         },
         {
           "id": "FL-white-springs",
@@ -2878,7 +3782,10 @@
           "tier": 2,
           "county": "Hamilton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32096"
+          ]
         },
         {
           "id": "FL-morriston",
@@ -2887,7 +3794,10 @@
           "tier": 2,
           "county": "Levy",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32668"
+          ]
         },
         {
           "id": "FL-high-springs",
@@ -2896,7 +3806,10 @@
           "tier": 2,
           "county": "Alachua",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32643"
+          ]
         },
         {
           "id": "FL-waldo",
@@ -2905,7 +3818,10 @@
           "tier": 2,
           "county": "Alachua",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32694"
+          ]
         },
         {
           "id": "FL-mayo",
@@ -2914,7 +3830,10 @@
           "tier": 2,
           "county": "Lafayette",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32066"
+          ]
         },
         {
           "id": "FL-lake-butler",
@@ -2923,7 +3842,10 @@
           "tier": 2,
           "county": "Union",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32054"
+          ]
         },
         {
           "id": "FL-steinhatchee",
@@ -2932,7 +3854,10 @@
           "tier": 2,
           "county": "Taylor",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32359"
+          ]
         },
         {
           "id": "FL-yankeetown",
@@ -2941,7 +3866,10 @@
           "tier": 2,
           "county": "Levy",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34498"
+          ]
         },
         {
           "id": "FL-williston",
@@ -2950,7 +3878,10 @@
           "tier": 2,
           "county": "Levy",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32696"
+          ]
         },
         {
           "id": "FL-belleview",
@@ -2959,7 +3890,10 @@
           "tier": 2,
           "county": "Marion",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34420"
+          ]
         },
         {
           "id": "FL-lee",
@@ -2968,7 +3902,10 @@
           "tier": 2,
           "county": "Madison",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32059"
+          ]
         },
         {
           "id": "FL-trenton",
@@ -2977,7 +3914,10 @@
           "tier": 2,
           "county": "Gilchrist",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32693"
+          ]
         },
         {
           "id": "FL-hawthorne",
@@ -2986,7 +3926,10 @@
           "tier": 2,
           "county": "Alachua",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32640"
+          ]
         },
         {
           "id": "FL-archer",
@@ -2995,7 +3938,10 @@
           "tier": 2,
           "county": "Alachua",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32618"
+          ]
         },
         {
           "id": "FL-newberry",
@@ -3004,7 +3950,10 @@
           "tier": 2,
           "county": "Alachua",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32669"
+          ]
         },
         {
           "id": "FL-cedar-key",
@@ -3013,7 +3962,10 @@
           "tier": 2,
           "county": "Levy",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32625"
+          ]
         },
         {
           "id": "FL-inglis",
@@ -3022,7 +3974,10 @@
           "tier": 2,
           "county": "Levy",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34449"
+          ]
         },
         {
           "id": "FL-lawtey",
@@ -3031,7 +3986,10 @@
           "tier": 2,
           "county": "Bradford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32058"
+          ]
         },
         {
           "id": "FL-madison",
@@ -3040,7 +3998,10 @@
           "tier": 2,
           "county": "Madison",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32340"
+          ]
         },
         {
           "id": "FL-horseshoe-beach",
@@ -3049,7 +4010,10 @@
           "tier": 2,
           "county": "Dixie",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32648"
+          ]
         },
         {
           "id": "FL-cross-city",
@@ -3058,7 +4022,10 @@
           "tier": 2,
           "county": "Dixie",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32628"
+          ]
         },
         {
           "id": "FL-lecanto",
@@ -3067,7 +4034,10 @@
           "tier": 2,
           "county": "Citrus",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34461"
+          ]
         },
         {
           "id": "FL-silver-springs",
@@ -3076,7 +4046,10 @@
           "tier": 2,
           "county": "Marion",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34488"
+          ]
         },
         {
           "id": "FL-beverly-hills",
@@ -3085,7 +4058,10 @@
           "tier": 2,
           "county": "Citrus",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34465"
+          ]
         },
         {
           "id": "FL-hernando",
@@ -3094,7 +4070,10 @@
           "tier": 2,
           "county": "Citrus",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34442"
+          ]
         },
         {
           "id": "FL-starke",
@@ -3103,7 +4082,10 @@
           "tier": 2,
           "county": "Bradford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32091"
+          ]
         },
         {
           "id": "FL-chiefland",
@@ -3112,7 +4094,10 @@
           "tier": 2,
           "county": "Levy",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32626"
+          ]
         },
         {
           "id": "FL-fort-white",
@@ -3121,7 +4106,10 @@
           "tier": 2,
           "county": "Columbia",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32038"
+          ]
         },
         {
           "id": "FL-bell",
@@ -3130,7 +4118,10 @@
           "tier": 2,
           "county": "Gilchrist",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32619"
+          ]
         },
         {
           "id": "FL-floral-city",
@@ -3139,7 +4130,10 @@
           "tier": 2,
           "county": "Citrus",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34436"
+          ]
         },
         {
           "id": "FL-jasper",
@@ -3148,7 +4142,10 @@
           "tier": 2,
           "county": "Hamilton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32052"
+          ]
         },
         {
           "id": "FL-worthington-springs",
@@ -3157,7 +4154,10 @@
           "tier": 2,
           "county": "Union",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32697"
+          ]
         },
         {
           "id": "FL-la-crosse",
@@ -3166,7 +4166,10 @@
           "tier": 2,
           "county": "Alachua",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32658"
+          ]
         },
         {
           "id": "FL-lulu",
@@ -3175,7 +4178,10 @@
           "tier": 2,
           "county": "Columbia",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32061"
+          ]
         },
         {
           "id": "FL-summerfield",
@@ -3184,7 +4190,10 @@
           "tier": 2,
           "county": "Marion",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34491"
+          ]
         },
         {
           "id": "FL-anthony",
@@ -3193,7 +4202,10 @@
           "tier": 2,
           "county": "Marion",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32617"
+          ]
         },
         {
           "id": "FL-o-brien",
@@ -3202,7 +4214,10 @@
           "tier": 2,
           "county": "Suwannee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32071"
+          ]
         },
         {
           "id": "FL-eastlake-weir",
@@ -3211,7 +4226,10 @@
           "tier": 2,
           "county": "Marion",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32133"
+          ]
         },
         {
           "id": "FL-fort-mc-coy",
@@ -3220,7 +4238,10 @@
           "tier": 2,
           "county": "Marion",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32134"
+          ]
         },
         {
           "id": "FL-holder",
@@ -3229,7 +4250,10 @@
           "tier": 2,
           "county": "Citrus",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34445"
+          ]
         },
         {
           "id": "FL-wellborn",
@@ -3238,7 +4262,10 @@
           "tier": 2,
           "county": "Suwannee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32094"
+          ]
         },
         {
           "id": "FL-suwannee",
@@ -3247,7 +4274,10 @@
           "tier": 2,
           "county": "Dixie",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32692"
+          ]
         },
         {
           "id": "FL-weirsdale",
@@ -3256,7 +4286,10 @@
           "tier": 2,
           "county": "Marion",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32195"
+          ]
         },
         {
           "id": "FL-pinetta",
@@ -3265,7 +4298,10 @@
           "tier": 2,
           "county": "Madison",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32350"
+          ]
         },
         {
           "id": "FL-mc-intosh",
@@ -3274,7 +4310,10 @@
           "tier": 2,
           "county": "Marion",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32664"
+          ]
         },
         {
           "id": "FL-old-town",
@@ -3283,7 +4322,10 @@
           "tier": 2,
           "county": "Dixie",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32680"
+          ]
         },
         {
           "id": "FL-earleton",
@@ -3292,7 +4334,10 @@
           "tier": 2,
           "county": "Alachua",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32631"
+          ]
         },
         {
           "id": "FL-citra",
@@ -3301,7 +4346,10 @@
           "tier": 2,
           "county": "Marion",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32113"
+          ]
         },
         {
           "id": "FL-orange-lake",
@@ -3310,7 +4358,10 @@
           "tier": 2,
           "county": "Marion",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32681"
+          ]
         },
         {
           "id": "FL-salem",
@@ -3319,7 +4370,10 @@
           "tier": 2,
           "county": "Taylor",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32356"
+          ]
         },
         {
           "id": "FL-gulf-hammock",
@@ -3328,7 +4382,10 @@
           "tier": 2,
           "county": "Levy",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32639"
+          ]
         },
         {
           "id": "FL-mc-alpin",
@@ -3337,7 +4394,10 @@
           "tier": 2,
           "county": "Suwannee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32062"
+          ]
         }
       ],
       "adTargeting": {
@@ -3581,7 +4641,66 @@
           "tier": 2,
           "county": "Miami-Dade",
           "zipCount": 57,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33175",
+            "33177",
+            "33194",
+            "33133",
+            "33145",
+            "33161",
+            "33128",
+            "33165",
+            "33187",
+            "33186",
+            "33155",
+            "33135",
+            "33130",
+            "33166",
+            "33122",
+            "33180",
+            "33184",
+            "33178",
+            "33125",
+            "33174",
+            "33127",
+            "33189",
+            "33185",
+            "33158",
+            "33170",
+            "33150",
+            "33136",
+            "33126",
+            "33137",
+            "33169",
+            "33172",
+            "33182",
+            "33142",
+            "33167",
+            "33179",
+            "33129",
+            "33131",
+            "33190",
+            "33181",
+            "33132",
+            "33154",
+            "33196",
+            "33176",
+            "33146",
+            "33138",
+            "33134",
+            "33157",
+            "33193",
+            "33183",
+            "33156",
+            "33173",
+            "33143",
+            "33147",
+            "33144",
+            "33168",
+            "33162",
+            "33101"
+          ]
         },
         {
           "id": "FL-fort-lauderdale",
@@ -3590,7 +4709,36 @@
           "tier": 2,
           "county": "Broward",
           "zipCount": 27,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33306",
+            "33331",
+            "33308",
+            "33311",
+            "33314",
+            "33327",
+            "33332",
+            "33316",
+            "33324",
+            "33315",
+            "33312",
+            "33304",
+            "33323",
+            "33351",
+            "33328",
+            "33330",
+            "33319",
+            "33326",
+            "33325",
+            "33309",
+            "33334",
+            "33317",
+            "33301",
+            "33313",
+            "33305",
+            "33322",
+            "33321"
+          ]
         },
         {
           "id": "FL-west-palm-beach",
@@ -3599,7 +4747,24 @@
           "tier": 2,
           "county": "Palm Beach",
           "zipCount": 15,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33418",
+            "33417",
+            "33401",
+            "33406",
+            "33403",
+            "33415",
+            "33405",
+            "33412",
+            "33413",
+            "33407",
+            "33404",
+            "33409",
+            "33410",
+            "33411",
+            "33414"
+          ]
         },
         {
           "id": "FL-pompano-beach",
@@ -3608,7 +4773,21 @@
           "tier": 2,
           "county": "Broward",
           "zipCount": 12,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33069",
+            "33076",
+            "33073",
+            "33065",
+            "33062",
+            "33060",
+            "33071",
+            "33063",
+            "33067",
+            "33066",
+            "33064",
+            "33068"
+          ]
         },
         {
           "id": "FL-hollywood",
@@ -3617,7 +4796,19 @@
           "tier": 2,
           "county": "Broward",
           "zipCount": 10,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33023",
+            "33025",
+            "33027",
+            "33021",
+            "33028",
+            "33020",
+            "33029",
+            "33026",
+            "33024",
+            "33019"
+          ]
         },
         {
           "id": "FL-boca-raton",
@@ -3626,7 +4817,18 @@
           "tier": 2,
           "county": "Palm Beach",
           "zipCount": 9,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33432",
+            "33428",
+            "33498",
+            "33433",
+            "33496",
+            "33434",
+            "33486",
+            "33487",
+            "33431"
+          ]
         },
         {
           "id": "FL-hialeah",
@@ -3635,7 +4837,16 @@
           "tier": 2,
           "county": "Miami-Dade",
           "zipCount": 7,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33014",
+            "33016",
+            "33018",
+            "33010",
+            "33012",
+            "33013",
+            "33015"
+          ]
         },
         {
           "id": "FL-homestead",
@@ -3644,7 +4855,16 @@
           "tier": 2,
           "county": "Miami-Dade",
           "zipCount": 7,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33033",
+            "33030",
+            "33035",
+            "33039",
+            "33032",
+            "33031",
+            "33034"
+          ]
         },
         {
           "id": "FL-delray-beach",
@@ -3653,7 +4873,14 @@
           "tier": 2,
           "county": "Palm Beach",
           "zipCount": 5,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33445",
+            "33484",
+            "33483",
+            "33446",
+            "33444"
+          ]
         },
         {
           "id": "FL-lake-worth",
@@ -3662,7 +4889,14 @@
           "tier": 2,
           "county": "Palm Beach",
           "zipCount": 5,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33463",
+            "33461",
+            "33460",
+            "33462",
+            "33467"
+          ]
         },
         {
           "id": "FL-jupiter",
@@ -3671,7 +4905,13 @@
           "tier": 2,
           "county": "Palm Beach",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33469",
+            "33478",
+            "33477",
+            "33458"
+          ]
         },
         {
           "id": "FL-miami-beach",
@@ -3680,7 +4920,13 @@
           "tier": 2,
           "county": "Miami-Dade",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33139",
+            "33141",
+            "33140",
+            "33109"
+          ]
         },
         {
           "id": "FL-boynton-beach",
@@ -3689,7 +4935,13 @@
           "tier": 2,
           "county": "Palm Beach",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33436",
+            "33426",
+            "33437",
+            "33435"
+          ]
         },
         {
           "id": "FL-deerfield-beach",
@@ -3698,7 +4950,11 @@
           "tier": 2,
           "county": "Broward",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33441",
+            "33442"
+          ]
         },
         {
           "id": "FL-marathon",
@@ -3707,7 +4963,10 @@
           "tier": 2,
           "county": "Monroe",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33050"
+          ]
         },
         {
           "id": "FL-key-biscayne",
@@ -3716,7 +4975,10 @@
           "tier": 2,
           "county": "Miami-Dade",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33149"
+          ]
         },
         {
           "id": "FL-canal-point",
@@ -3725,7 +4987,10 @@
           "tier": 2,
           "county": "Palm Beach",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33438"
+          ]
         },
         {
           "id": "FL-north-palm-beach",
@@ -3734,7 +4999,10 @@
           "tier": 2,
           "county": "Palm Beach",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33408"
+          ]
         },
         {
           "id": "FL-big-pine-key",
@@ -3743,7 +5011,10 @@
           "tier": 2,
           "county": "Monroe",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33043"
+          ]
         },
         {
           "id": "FL-key-largo",
@@ -3752,7 +5023,10 @@
           "tier": 2,
           "county": "Monroe",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33037"
+          ]
         },
         {
           "id": "FL-south-bay",
@@ -3761,7 +5035,10 @@
           "tier": 2,
           "county": "Palm Beach",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33493"
+          ]
         },
         {
           "id": "FL-palm-beach",
@@ -3770,7 +5047,10 @@
           "tier": 2,
           "county": "Palm Beach",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33480"
+          ]
         },
         {
           "id": "FL-key-west",
@@ -3779,7 +5059,10 @@
           "tier": 2,
           "county": "Monroe",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33040"
+          ]
         },
         {
           "id": "FL-key-colony-beach",
@@ -3788,7 +5071,10 @@
           "tier": 2,
           "county": "Monroe",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33051"
+          ]
         },
         {
           "id": "FL-tavernier",
@@ -3797,7 +5083,10 @@
           "tier": 2,
           "county": "Monroe",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33070"
+          ]
         },
         {
           "id": "FL-north-miami-beach",
@@ -3806,7 +5095,10 @@
           "tier": 2,
           "county": "Miami-Dade",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33160"
+          ]
         },
         {
           "id": "FL-belle-glade",
@@ -3815,7 +5107,10 @@
           "tier": 2,
           "county": "Palm Beach",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33430"
+          ]
         },
         {
           "id": "FL-pahokee",
@@ -3824,7 +5119,10 @@
           "tier": 2,
           "county": "Palm Beach",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33476"
+          ]
         },
         {
           "id": "FL-hallandale",
@@ -3833,7 +5131,10 @@
           "tier": 2,
           "county": "Broward",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33009"
+          ]
         },
         {
           "id": "FL-long-key",
@@ -3842,7 +5143,10 @@
           "tier": 2,
           "county": "Monroe",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33001"
+          ]
         },
         {
           "id": "FL-summerland-key",
@@ -3851,7 +5155,10 @@
           "tier": 2,
           "county": "Monroe",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33042"
+          ]
         },
         {
           "id": "FL-islamorada",
@@ -3860,7 +5167,10 @@
           "tier": 2,
           "county": "Monroe",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33036"
+          ]
         },
         {
           "id": "FL-dania",
@@ -3869,7 +5179,10 @@
           "tier": 2,
           "county": "Broward",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33004"
+          ]
         },
         {
           "id": "FL-loxahatchee",
@@ -3878,7 +5191,10 @@
           "tier": 2,
           "county": "Palm Beach",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33470"
+          ]
         }
       ],
       "adTargeting": {
@@ -4002,7 +5318,24 @@
           "tier": 2,
           "county": "Collier",
           "zipCount": 15,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34120",
+            "34114",
+            "34112",
+            "34113",
+            "34119",
+            "34108",
+            "34101",
+            "34102",
+            "34110",
+            "34109",
+            "34117",
+            "34103",
+            "34104",
+            "34116",
+            "34105"
+          ]
         },
         {
           "id": "FL-fort-myers",
@@ -4011,7 +5344,18 @@
           "tier": 2,
           "county": "Lee",
           "zipCount": 9,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33908",
+            "33919",
+            "33916",
+            "33905",
+            "33907",
+            "33913",
+            "33912",
+            "33901",
+            "33965"
+          ]
         },
         {
           "id": "FL-cape-coral",
@@ -4020,7 +5364,15 @@
           "tier": 2,
           "county": "Lee",
           "zipCount": 6,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33991",
+            "33914",
+            "33990",
+            "33909",
+            "33904",
+            "33993"
+          ]
         },
         {
           "id": "FL-port-charlotte",
@@ -4029,7 +5381,15 @@
           "tier": 2,
           "county": "Charlotte",
           "zipCount": 6,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33980",
+            "33954",
+            "33948",
+            "33981",
+            "33953",
+            "33952"
+          ]
         },
         {
           "id": "FL-punta-gorda",
@@ -4038,7 +5398,13 @@
           "tier": 2,
           "county": "Charlotte",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33950",
+            "33983",
+            "33982",
+            "33955"
+          ]
         },
         {
           "id": "FL-lehigh-acres",
@@ -4047,7 +5413,12 @@
           "tier": 2,
           "county": "Lee",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33972",
+            "33936",
+            "33971"
+          ]
         },
         {
           "id": "FL-north-fort-myers",
@@ -4056,7 +5427,11 @@
           "tier": 2,
           "county": "Lee",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33903",
+            "33917"
+          ]
         },
         {
           "id": "FL-bonita-springs",
@@ -4065,7 +5440,11 @@
           "tier": 2,
           "county": "Lee",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34134",
+            "34135"
+          ]
         },
         {
           "id": "FL-clewiston",
@@ -4074,7 +5453,10 @@
           "tier": 2,
           "county": "Hendry",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33440"
+          ]
         },
         {
           "id": "FL-captiva",
@@ -4083,7 +5465,10 @@
           "tier": 2,
           "county": "Lee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33924"
+          ]
         },
         {
           "id": "FL-pineland",
@@ -4092,7 +5477,10 @@
           "tier": 2,
           "county": "Lee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33945"
+          ]
         },
         {
           "id": "FL-goodland",
@@ -4101,7 +5489,10 @@
           "tier": 2,
           "county": "Collier",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34140"
+          ]
         },
         {
           "id": "FL-moore-haven",
@@ -4110,7 +5501,10 @@
           "tier": 2,
           "county": "Glades",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33471"
+          ]
         },
         {
           "id": "FL-estero",
@@ -4119,7 +5513,10 @@
           "tier": 2,
           "county": "Lee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33928"
+          ]
         },
         {
           "id": "FL-immokalee",
@@ -4128,7 +5525,10 @@
           "tier": 2,
           "county": "Collier",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34142"
+          ]
         },
         {
           "id": "FL-fort-myers-beach",
@@ -4137,7 +5537,10 @@
           "tier": 2,
           "county": "Lee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33931"
+          ]
         },
         {
           "id": "FL-marco-island",
@@ -4146,7 +5549,10 @@
           "tier": 2,
           "county": "Collier",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34145"
+          ]
         },
         {
           "id": "FL-chokoloskee",
@@ -4155,7 +5561,10 @@
           "tier": 2,
           "county": "Collier",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34138"
+          ]
         },
         {
           "id": "FL-alva",
@@ -4164,7 +5573,10 @@
           "tier": 2,
           "county": "Lee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33920"
+          ]
         },
         {
           "id": "FL-bokeelia",
@@ -4173,7 +5585,10 @@
           "tier": 2,
           "county": "Lee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33922"
+          ]
         },
         {
           "id": "FL-sanibel",
@@ -4182,7 +5597,10 @@
           "tier": 2,
           "county": "Lee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33957"
+          ]
         },
         {
           "id": "FL-labelle",
@@ -4191,7 +5609,10 @@
           "tier": 2,
           "county": "Hendry",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33935"
+          ]
         },
         {
           "id": "FL-placida",
@@ -4200,7 +5621,10 @@
           "tier": 2,
           "county": "Charlotte",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33946"
+          ]
         },
         {
           "id": "FL-ochopee",
@@ -4209,7 +5633,10 @@
           "tier": 2,
           "county": "Collier",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34141"
+          ]
         },
         {
           "id": "FL-saint-james-city",
@@ -4218,7 +5645,10 @@
           "tier": 2,
           "county": "Lee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33956"
+          ]
         },
         {
           "id": "FL-felda",
@@ -4227,7 +5657,10 @@
           "tier": 2,
           "county": "Hendry",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33930"
+          ]
         },
         {
           "id": "FL-rotonda-west",
@@ -4236,7 +5669,10 @@
           "tier": 2,
           "county": "Charlotte",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33947"
+          ]
         },
         {
           "id": "FL-boca-grande",
@@ -4245,7 +5681,10 @@
           "tier": 2,
           "county": "Lee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33921"
+          ]
         },
         {
           "id": "FL-copeland",
@@ -4254,7 +5693,10 @@
           "tier": 2,
           "county": "Collier",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34137"
+          ]
         },
         {
           "id": "FL-everglades-city",
@@ -4263,7 +5705,10 @@
           "tier": 2,
           "county": "Collier",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34139"
+          ]
         },
         {
           "id": "FL-palmdale",
@@ -4272,7 +5717,10 @@
           "tier": 2,
           "county": "Glades",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33944"
+          ]
         }
       ],
       "adTargeting": {
@@ -4495,7 +5943,36 @@
           "tier": 2,
           "county": "Hillsborough",
           "zipCount": 27,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33603",
+            "33619",
+            "33615",
+            "33617",
+            "33618",
+            "33602",
+            "33626",
+            "33624",
+            "33621",
+            "33614",
+            "33606",
+            "33647",
+            "33635",
+            "33613",
+            "33604",
+            "33609",
+            "33611",
+            "33634",
+            "33625",
+            "33605",
+            "33610",
+            "33620",
+            "33629",
+            "33637",
+            "33616",
+            "33612",
+            "33607"
+          ]
         },
         {
           "id": "FL-saint-petersburg",
@@ -4504,7 +5981,25 @@
           "tier": 2,
           "county": "Pinellas",
           "zipCount": 16,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33709",
+            "33703",
+            "33713",
+            "33710",
+            "33705",
+            "33708",
+            "33706",
+            "33707",
+            "33711",
+            "33702",
+            "33704",
+            "33712",
+            "33714",
+            "33715",
+            "33701",
+            "33716"
+          ]
         },
         {
           "id": "FL-sarasota",
@@ -4513,7 +6008,22 @@
           "tier": 2,
           "county": "Sarasota",
           "zipCount": 13,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34236",
+            "34237",
+            "34239",
+            "34240",
+            "34234",
+            "34242",
+            "34235",
+            "34241",
+            "34233",
+            "34238",
+            "34232",
+            "34243",
+            "34231"
+          ]
         },
         {
           "id": "FL-bradenton",
@@ -4522,7 +6032,19 @@
           "tier": 2,
           "county": "Manatee",
           "zipCount": 10,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34210",
+            "34203",
+            "34205",
+            "34202",
+            "34201",
+            "34212",
+            "34211",
+            "34208",
+            "34207",
+            "34209"
+          ]
         },
         {
           "id": "FL-clearwater",
@@ -4531,7 +6053,18 @@
           "tier": 2,
           "county": "Pinellas",
           "zipCount": 9,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33760",
+            "33759",
+            "33762",
+            "33755",
+            "33761",
+            "33765",
+            "33763",
+            "33756",
+            "33764"
+          ]
         },
         {
           "id": "FL-brooksville",
@@ -4540,7 +6073,14 @@
           "tier": 2,
           "county": "Hernando",
           "zipCount": 5,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34613",
+            "34601",
+            "34604",
+            "34602",
+            "34614"
+          ]
         },
         {
           "id": "FL-spring-hill",
@@ -4549,7 +6089,14 @@
           "tier": 2,
           "county": "Hernando",
           "zipCount": 5,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34609",
+            "34607",
+            "34610",
+            "34608",
+            "34606"
+          ]
         },
         {
           "id": "FL-largo",
@@ -4558,7 +6105,14 @@
           "tier": 2,
           "county": "Pinellas",
           "zipCount": 5,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33771",
+            "33778",
+            "33773",
+            "33770",
+            "33774"
+          ]
         },
         {
           "id": "FL-zephyrhills",
@@ -4567,7 +6121,13 @@
           "tier": 2,
           "county": "Pasco",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33544",
+            "33540",
+            "33541",
+            "33543"
+          ]
         },
         {
           "id": "FL-lutz",
@@ -4576,7 +6136,13 @@
           "tier": 2,
           "county": "Hillsborough",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33558",
+            "33548",
+            "33559",
+            "33549"
+          ]
         },
         {
           "id": "FL-north-port",
@@ -4585,7 +6151,13 @@
           "tier": 2,
           "county": "Sarasota",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34289",
+            "34286",
+            "34288",
+            "34287"
+          ]
         },
         {
           "id": "FL-new-port-richey",
@@ -4594,7 +6166,13 @@
           "tier": 2,
           "county": "Pasco",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34652",
+            "34655",
+            "34654",
+            "34653"
+          ]
         },
         {
           "id": "FL-seminole",
@@ -4603,7 +6181,12 @@
           "tier": 2,
           "county": "Pinellas",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33776",
+            "33772",
+            "33777"
+          ]
         },
         {
           "id": "FL-venice",
@@ -4612,7 +6195,12 @@
           "tier": 2,
           "county": "Sarasota",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34292",
+            "34293",
+            "34285"
+          ]
         },
         {
           "id": "FL-plant-city",
@@ -4621,7 +6209,12 @@
           "tier": 2,
           "county": "Hillsborough",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33566",
+            "33565",
+            "33567"
+          ]
         },
         {
           "id": "FL-palm-harbor",
@@ -4630,7 +6223,12 @@
           "tier": 2,
           "county": "Pinellas",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34685",
+            "34683",
+            "34684"
+          ]
         },
         {
           "id": "FL-tarpon-springs",
@@ -4639,7 +6237,11 @@
           "tier": 2,
           "county": "Pinellas",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34689",
+            "34688"
+          ]
         },
         {
           "id": "FL-dade-city",
@@ -4648,7 +6250,11 @@
           "tier": 2,
           "county": "Pasco",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33523",
+            "33525"
+          ]
         },
         {
           "id": "FL-brandon",
@@ -4657,7 +6263,11 @@
           "tier": 2,
           "county": "Hillsborough",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33510",
+            "33511"
+          ]
         },
         {
           "id": "FL-englewood",
@@ -4666,7 +6276,11 @@
           "tier": 2,
           "county": "Sarasota",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34224",
+            "34223"
+          ]
         },
         {
           "id": "FL-hudson",
@@ -4675,7 +6289,11 @@
           "tier": 2,
           "county": "Pasco",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34669",
+            "34667"
+          ]
         },
         {
           "id": "FL-holiday",
@@ -4684,7 +6302,11 @@
           "tier": 2,
           "county": "Pasco",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34691",
+            "34690"
+          ]
         },
         {
           "id": "FL-pinellas-park",
@@ -4693,7 +6315,11 @@
           "tier": 2,
           "county": "Pinellas",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33781",
+            "33782"
+          ]
         },
         {
           "id": "FL-osprey",
@@ -4702,7 +6328,10 @@
           "tier": 2,
           "county": "Sarasota",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34229"
+          ]
         },
         {
           "id": "FL-aripeka",
@@ -4711,7 +6340,10 @@
           "tier": 2,
           "county": "Pasco",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34679"
+          ]
         },
         {
           "id": "FL-belleair-beach",
@@ -4720,7 +6352,10 @@
           "tier": 2,
           "county": "Pinellas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33786"
+          ]
         },
         {
           "id": "FL-odessa",
@@ -4729,7 +6364,10 @@
           "tier": 2,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33556"
+          ]
         },
         {
           "id": "FL-nobleton",
@@ -4738,7 +6376,10 @@
           "tier": 2,
           "county": "Hernando",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34661"
+          ]
         },
         {
           "id": "FL-cortez",
@@ -4747,7 +6388,10 @@
           "tier": 2,
           "county": "Manatee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34215"
+          ]
         },
         {
           "id": "FL-dover",
@@ -4756,7 +6400,10 @@
           "tier": 2,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33527"
+          ]
         },
         {
           "id": "FL-port-richey",
@@ -4765,7 +6412,10 @@
           "tier": 2,
           "county": "Pasco",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34668"
+          ]
         },
         {
           "id": "FL-palmetto",
@@ -4774,7 +6424,10 @@
           "tier": 2,
           "county": "Manatee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34221"
+          ]
         },
         {
           "id": "FL-ellenton",
@@ -4783,7 +6436,10 @@
           "tier": 2,
           "county": "Manatee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34222"
+          ]
         },
         {
           "id": "FL-longboat-key",
@@ -4792,7 +6448,10 @@
           "tier": 2,
           "county": "Manatee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34228"
+          ]
         },
         {
           "id": "FL-wimauma",
@@ -4801,7 +6460,10 @@
           "tier": 2,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33598"
+          ]
         },
         {
           "id": "FL-balm",
@@ -4810,7 +6472,10 @@
           "tier": 2,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33503"
+          ]
         },
         {
           "id": "FL-oldsmar",
@@ -4819,7 +6484,10 @@
           "tier": 2,
           "county": "Pinellas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34677"
+          ]
         },
         {
           "id": "FL-nokomis",
@@ -4828,7 +6496,10 @@
           "tier": 2,
           "county": "Sarasota",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34275"
+          ]
         },
         {
           "id": "FL-safety-harbor",
@@ -4837,7 +6508,10 @@
           "tier": 2,
           "county": "Pinellas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34695"
+          ]
         },
         {
           "id": "FL-valrico",
@@ -4846,7 +6520,10 @@
           "tier": 2,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33594"
+          ]
         },
         {
           "id": "FL-apollo-beach",
@@ -4855,7 +6532,10 @@
           "tier": 2,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33572"
+          ]
         },
         {
           "id": "FL-sun-city-center",
@@ -4864,7 +6544,10 @@
           "tier": 2,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33573"
+          ]
         },
         {
           "id": "FL-riverview",
@@ -4873,7 +6556,10 @@
           "tier": 2,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33569"
+          ]
         },
         {
           "id": "FL-ruskin",
@@ -4882,7 +6568,10 @@
           "tier": 2,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33570"
+          ]
         },
         {
           "id": "FL-bay-pines",
@@ -4891,7 +6580,10 @@
           "tier": 2,
           "county": "Pinellas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33744"
+          ]
         },
         {
           "id": "FL-gibsonton",
@@ -4900,7 +6592,10 @@
           "tier": 2,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33534"
+          ]
         },
         {
           "id": "FL-bradenton-beach",
@@ -4909,7 +6604,10 @@
           "tier": 2,
           "county": "Manatee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34217"
+          ]
         },
         {
           "id": "FL-san-antonio",
@@ -4918,7 +6616,10 @@
           "tier": 2,
           "county": "Pasco",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33576"
+          ]
         },
         {
           "id": "FL-indian-rocks-beach",
@@ -4927,7 +6628,10 @@
           "tier": 2,
           "county": "Pinellas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33785"
+          ]
         },
         {
           "id": "FL-thonotosassa",
@@ -4936,7 +6640,10 @@
           "tier": 2,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33592"
+          ]
         },
         {
           "id": "FL-dunedin",
@@ -4945,7 +6652,10 @@
           "tier": 2,
           "county": "Pinellas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34698"
+          ]
         },
         {
           "id": "FL-anna-maria",
@@ -4954,7 +6664,10 @@
           "tier": 2,
           "county": "Manatee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34216"
+          ]
         },
         {
           "id": "FL-seffner",
@@ -4963,7 +6676,10 @@
           "tier": 2,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33584"
+          ]
         },
         {
           "id": "FL-lithia",
@@ -4972,7 +6688,10 @@
           "tier": 2,
           "county": "Hillsborough",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33547"
+          ]
         },
         {
           "id": "FL-parrish",
@@ -4981,7 +6700,10 @@
           "tier": 2,
           "county": "Manatee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34219"
+          ]
         },
         {
           "id": "FL-clearwater-beach",
@@ -4990,7 +6712,10 @@
           "tier": 2,
           "county": "Pinellas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33767"
+          ]
         },
         {
           "id": "FL-myakka-city",
@@ -4999,7 +6724,10 @@
           "tier": 2,
           "county": "Manatee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34251"
+          ]
         },
         {
           "id": "FL-crystal-beach",
@@ -5008,7 +6736,10 @@
           "tier": 2,
           "county": "Pinellas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34681"
+          ]
         }
       ],
       "adTargeting": {
@@ -5089,7 +6820,18 @@
           "tier": 2,
           "county": "Lee",
           "zipCount": 9,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33908",
+            "33919",
+            "33916",
+            "33905",
+            "33907",
+            "33913",
+            "33912",
+            "33901",
+            "33965"
+          ]
         },
         {
           "id": "FL-cape-coral",
@@ -5098,7 +6840,15 @@
           "tier": 2,
           "county": "Lee",
           "zipCount": 6,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33991",
+            "33914",
+            "33990",
+            "33909",
+            "33904",
+            "33993"
+          ]
         },
         {
           "id": "FL-lehigh-acres",
@@ -5107,7 +6857,12 @@
           "tier": 2,
           "county": "Lee",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33972",
+            "33936",
+            "33971"
+          ]
         },
         {
           "id": "FL-north-fort-myers",
@@ -5116,7 +6871,11 @@
           "tier": 2,
           "county": "Lee",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33903",
+            "33917"
+          ]
         },
         {
           "id": "FL-bonita-springs",
@@ -5125,7 +6884,11 @@
           "tier": 2,
           "county": "Lee",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34134",
+            "34135"
+          ]
         },
         {
           "id": "FL-captiva",
@@ -5134,7 +6897,10 @@
           "tier": 2,
           "county": "Lee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33924"
+          ]
         },
         {
           "id": "FL-pineland",
@@ -5143,7 +6909,10 @@
           "tier": 2,
           "county": "Lee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33945"
+          ]
         },
         {
           "id": "FL-estero",
@@ -5152,7 +6921,10 @@
           "tier": 2,
           "county": "Lee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33928"
+          ]
         },
         {
           "id": "FL-fort-myers-beach",
@@ -5161,7 +6933,10 @@
           "tier": 2,
           "county": "Lee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33931"
+          ]
         },
         {
           "id": "FL-alva",
@@ -5170,7 +6945,10 @@
           "tier": 2,
           "county": "Lee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33920"
+          ]
         },
         {
           "id": "FL-bokeelia",
@@ -5179,7 +6957,10 @@
           "tier": 2,
           "county": "Lee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33922"
+          ]
         },
         {
           "id": "FL-sanibel",
@@ -5188,7 +6969,10 @@
           "tier": 2,
           "county": "Lee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33957"
+          ]
         },
         {
           "id": "FL-saint-james-city",
@@ -5197,7 +6981,10 @@
           "tier": 2,
           "county": "Lee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33956"
+          ]
         },
         {
           "id": "FL-boca-grande",
@@ -5206,7 +6993,10 @@
           "tier": 2,
           "county": "Lee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33921"
+          ]
         }
       ],
       "adTargeting": {
@@ -5265,7 +7055,10 @@
           "tier": 2,
           "county": "Monroe",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33050"
+          ]
         },
         {
           "id": "FL-big-pine-key",
@@ -5274,7 +7067,10 @@
           "tier": 2,
           "county": "Monroe",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33043"
+          ]
         },
         {
           "id": "FL-key-largo",
@@ -5283,7 +7079,10 @@
           "tier": 2,
           "county": "Monroe",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33037"
+          ]
         },
         {
           "id": "FL-key-west",
@@ -5292,7 +7091,10 @@
           "tier": 2,
           "county": "Monroe",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33040"
+          ]
         },
         {
           "id": "FL-key-colony-beach",
@@ -5301,7 +7103,10 @@
           "tier": 2,
           "county": "Monroe",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33051"
+          ]
         },
         {
           "id": "FL-tavernier",
@@ -5310,7 +7115,10 @@
           "tier": 2,
           "county": "Monroe",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33070"
+          ]
         },
         {
           "id": "FL-long-key",
@@ -5319,7 +7127,10 @@
           "tier": 2,
           "county": "Monroe",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33001"
+          ]
         },
         {
           "id": "FL-summerland-key",
@@ -5328,7 +7139,10 @@
           "tier": 2,
           "county": "Monroe",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33042"
+          ]
         },
         {
           "id": "FL-islamorada",
@@ -5337,7 +7151,10 @@
           "tier": 2,
           "county": "Monroe",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33036"
+          ]
         }
       ],
       "adTargeting": {
@@ -5440,7 +7257,36 @@
           "tier": 2,
           "county": "Broward",
           "zipCount": 27,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33306",
+            "33331",
+            "33308",
+            "33311",
+            "33314",
+            "33327",
+            "33332",
+            "33316",
+            "33324",
+            "33315",
+            "33312",
+            "33304",
+            "33323",
+            "33351",
+            "33328",
+            "33330",
+            "33319",
+            "33326",
+            "33325",
+            "33309",
+            "33334",
+            "33317",
+            "33301",
+            "33313",
+            "33305",
+            "33322",
+            "33321"
+          ]
         },
         {
           "id": "FL-pompano-beach",
@@ -5449,7 +7295,21 @@
           "tier": 2,
           "county": "Broward",
           "zipCount": 12,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33069",
+            "33076",
+            "33073",
+            "33065",
+            "33062",
+            "33060",
+            "33071",
+            "33063",
+            "33067",
+            "33066",
+            "33064",
+            "33068"
+          ]
         },
         {
           "id": "FL-hollywood",
@@ -5458,7 +7318,19 @@
           "tier": 2,
           "county": "Broward",
           "zipCount": 10,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33023",
+            "33025",
+            "33027",
+            "33021",
+            "33028",
+            "33020",
+            "33029",
+            "33026",
+            "33024",
+            "33019"
+          ]
         },
         {
           "id": "FL-deerfield-beach",
@@ -5467,7 +7339,11 @@
           "tier": 2,
           "county": "Broward",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33441",
+            "33442"
+          ]
         },
         {
           "id": "FL-hallandale",
@@ -5476,7 +7352,10 @@
           "tier": 2,
           "county": "Broward",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33009"
+          ]
         },
         {
           "id": "FL-dania",
@@ -5485,7 +7364,10 @@
           "tier": 2,
           "county": "Broward",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33004"
+          ]
         }
       ],
       "adTargeting": {
@@ -5629,7 +7511,41 @@
           "tier": 2,
           "county": "Orange",
           "zipCount": 32,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32805",
+            "32803",
+            "32809",
+            "32837",
+            "32836",
+            "32829",
+            "32812",
+            "32814",
+            "32831",
+            "32810",
+            "32824",
+            "32822",
+            "32830",
+            "32807",
+            "32806",
+            "32817",
+            "32825",
+            "32826",
+            "32821",
+            "32818",
+            "32811",
+            "32801",
+            "32835",
+            "32827",
+            "32804",
+            "32832",
+            "32839",
+            "32808",
+            "32819",
+            "32833",
+            "32820",
+            "32828"
+          ]
         },
         {
           "id": "FL-kissimmee",
@@ -5638,7 +7554,16 @@
           "tier": 2,
           "county": "Osceola",
           "zipCount": 7,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34744",
+            "34759",
+            "34747",
+            "34741",
+            "34746",
+            "34743",
+            "34758"
+          ]
         },
         {
           "id": "FL-saint-cloud",
@@ -5647,7 +7572,13 @@
           "tier": 2,
           "county": "Osceola",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34773",
+            "34772",
+            "34771",
+            "34769"
+          ]
         },
         {
           "id": "FL-eustis",
@@ -5656,7 +7587,11 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32736",
+            "32726"
+          ]
         },
         {
           "id": "FL-lady-lake",
@@ -5665,7 +7600,11 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32159",
+            "32162"
+          ]
         },
         {
           "id": "FL-leesburg",
@@ -5674,7 +7613,11 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34788",
+            "34748"
+          ]
         },
         {
           "id": "FL-apopka",
@@ -5683,7 +7626,11 @@
           "tier": 2,
           "county": "Orange",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32703",
+            "32712"
+          ]
         },
         {
           "id": "FL-altamonte-springs",
@@ -5692,7 +7639,11 @@
           "tier": 2,
           "county": "Seminole",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32714",
+            "32701"
+          ]
         },
         {
           "id": "FL-sanford",
@@ -5701,7 +7652,11 @@
           "tier": 2,
           "county": "Seminole",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32771",
+            "32773"
+          ]
         },
         {
           "id": "FL-casselberry",
@@ -5710,7 +7665,11 @@
           "tier": 2,
           "county": "Seminole",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32707",
+            "32730"
+          ]
         },
         {
           "id": "FL-oviedo",
@@ -5719,7 +7678,11 @@
           "tier": 2,
           "county": "Seminole",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32765",
+            "32766"
+          ]
         },
         {
           "id": "FL-longwood",
@@ -5728,7 +7691,11 @@
           "tier": 2,
           "county": "Seminole",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32750",
+            "32779"
+          ]
         },
         {
           "id": "FL-winter-park",
@@ -5737,7 +7704,11 @@
           "tier": 2,
           "county": "Orange",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32792",
+            "32789"
+          ]
         },
         {
           "id": "FL-mascotte",
@@ -5746,7 +7717,10 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34753"
+          ]
         },
         {
           "id": "FL-fruitland-park",
@@ -5755,7 +7729,10 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34731"
+          ]
         },
         {
           "id": "FL-ocoee",
@@ -5764,7 +7741,10 @@
           "tier": 2,
           "county": "Orange",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34761"
+          ]
         },
         {
           "id": "FL-tavares",
@@ -5773,7 +7753,10 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32778"
+          ]
         },
         {
           "id": "FL-sorrento",
@@ -5782,7 +7765,10 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32776"
+          ]
         },
         {
           "id": "FL-clermont",
@@ -5791,7 +7777,10 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34711"
+          ]
         },
         {
           "id": "FL-mount-dora",
@@ -5800,7 +7789,10 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32757"
+          ]
         },
         {
           "id": "FL-oakland",
@@ -5809,7 +7801,10 @@
           "tier": 2,
           "county": "Orange",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34760"
+          ]
         },
         {
           "id": "FL-montverde",
@@ -5818,7 +7813,10 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34756"
+          ]
         },
         {
           "id": "FL-maitland",
@@ -5827,7 +7825,10 @@
           "tier": 2,
           "county": "Orange",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32751"
+          ]
         },
         {
           "id": "FL-christmas",
@@ -5836,7 +7837,10 @@
           "tier": 2,
           "county": "Orange",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32709"
+          ]
         },
         {
           "id": "FL-paisley",
@@ -5845,7 +7849,10 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32767"
+          ]
         },
         {
           "id": "FL-yalaha",
@@ -5854,7 +7861,10 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34797"
+          ]
         },
         {
           "id": "FL-zellwood",
@@ -5863,7 +7873,10 @@
           "tier": 2,
           "county": "Orange",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32798"
+          ]
         },
         {
           "id": "FL-geneva",
@@ -5872,7 +7885,10 @@
           "tier": 2,
           "county": "Seminole",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32732"
+          ]
         },
         {
           "id": "FL-astatula",
@@ -5881,7 +7897,10 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34705"
+          ]
         },
         {
           "id": "FL-umatilla",
@@ -5890,7 +7909,10 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32784"
+          ]
         },
         {
           "id": "FL-winter-garden",
@@ -5899,7 +7921,10 @@
           "tier": 2,
           "county": "Orange",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34787"
+          ]
         },
         {
           "id": "FL-altoona",
@@ -5908,7 +7933,10 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32702"
+          ]
         },
         {
           "id": "FL-okahumpka",
@@ -5917,7 +7945,10 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34762"
+          ]
         },
         {
           "id": "FL-winter-springs",
@@ -5926,7 +7957,10 @@
           "tier": 2,
           "county": "Seminole",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32708"
+          ]
         },
         {
           "id": "FL-windermere",
@@ -5935,7 +7969,10 @@
           "tier": 2,
           "county": "Orange",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34786"
+          ]
         },
         {
           "id": "FL-lake-mary",
@@ -5944,7 +7981,10 @@
           "tier": 2,
           "county": "Seminole",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32746"
+          ]
         },
         {
           "id": "FL-gotha",
@@ -5953,7 +7993,10 @@
           "tier": 2,
           "county": "Orange",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34734"
+          ]
         },
         {
           "id": "FL-groveland",
@@ -5962,7 +8005,10 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34736"
+          ]
         },
         {
           "id": "FL-astor",
@@ -5971,7 +8017,10 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32102"
+          ]
         },
         {
           "id": "FL-kenansville",
@@ -5980,7 +8029,10 @@
           "tier": 2,
           "county": "Osceola",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34739"
+          ]
         },
         {
           "id": "FL-intercession-city",
@@ -5989,7 +8041,10 @@
           "tier": 2,
           "county": "Osceola",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33848"
+          ]
         },
         {
           "id": "FL-grand-island",
@@ -5998,7 +8053,10 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32735"
+          ]
         }
       ],
       "adTargeting": {
@@ -6085,7 +8143,17 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 8,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33805",
+            "33810",
+            "33811",
+            "33801",
+            "33815",
+            "33803",
+            "33813",
+            "33809"
+          ]
         },
         {
           "id": "FL-kissimmee",
@@ -6094,7 +8162,16 @@
           "tier": 2,
           "county": "Osceola",
           "zipCount": 7,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34744",
+            "34759",
+            "34747",
+            "34741",
+            "34746",
+            "34743",
+            "34758"
+          ]
         },
         {
           "id": "FL-lake-wales",
@@ -6103,7 +8180,12 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33859",
+            "33898",
+            "33853"
+          ]
         },
         {
           "id": "FL-davenport",
@@ -6112,7 +8194,12 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33896",
+            "33837",
+            "33897"
+          ]
         },
         {
           "id": "FL-winter-haven",
@@ -6121,7 +8208,12 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33881",
+            "33880",
+            "33884"
+          ]
         },
         {
           "id": "FL-lake-hamilton",
@@ -6130,7 +8222,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33851"
+          ]
         },
         {
           "id": "FL-bartow",
@@ -6139,7 +8234,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33830"
+          ]
         },
         {
           "id": "FL-haines-city",
@@ -6148,7 +8246,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33844"
+          ]
         },
         {
           "id": "FL-frostproof",
@@ -6157,7 +8258,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33843"
+          ]
         },
         {
           "id": "FL-homeland",
@@ -6166,7 +8270,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33847"
+          ]
         },
         {
           "id": "FL-babson-park",
@@ -6175,7 +8282,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33827"
+          ]
         },
         {
           "id": "FL-waverly",
@@ -6184,7 +8294,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33877"
+          ]
         },
         {
           "id": "FL-indian-lake-estates",
@@ -6193,7 +8306,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33855"
+          ]
         },
         {
           "id": "FL-auburndale",
@@ -6202,7 +8318,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33823"
+          ]
         },
         {
           "id": "FL-polk-city",
@@ -6211,7 +8330,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33868"
+          ]
         },
         {
           "id": "FL-kathleen",
@@ -6220,7 +8342,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33849"
+          ]
         },
         {
           "id": "FL-eagle-lake",
@@ -6229,7 +8354,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33839"
+          ]
         },
         {
           "id": "FL-fort-meade",
@@ -6238,7 +8366,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33841"
+          ]
         },
         {
           "id": "FL-mulberry",
@@ -6247,7 +8378,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33860"
+          ]
         },
         {
           "id": "FL-dundee",
@@ -6256,7 +8390,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33838"
+          ]
         },
         {
           "id": "FL-lake-alfred",
@@ -6265,7 +8402,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33850"
+          ]
         },
         {
           "id": "FL-river-ranch",
@@ -6274,7 +8414,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33867"
+          ]
         },
         {
           "id": "FL-nalcrest",
@@ -6283,7 +8426,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33856"
+          ]
         },
         {
           "id": "FL-fedhaven",
@@ -6292,7 +8438,10 @@
           "tier": 2,
           "county": "Polk",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33854"
+          ]
         }
       ],
       "adTargeting": {
@@ -6422,7 +8571,66 @@
           "tier": 2,
           "county": "Miami-Dade",
           "zipCount": 57,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33175",
+            "33177",
+            "33194",
+            "33133",
+            "33145",
+            "33161",
+            "33128",
+            "33165",
+            "33187",
+            "33186",
+            "33155",
+            "33135",
+            "33130",
+            "33166",
+            "33122",
+            "33180",
+            "33184",
+            "33178",
+            "33125",
+            "33174",
+            "33127",
+            "33189",
+            "33185",
+            "33158",
+            "33170",
+            "33150",
+            "33136",
+            "33126",
+            "33137",
+            "33169",
+            "33172",
+            "33182",
+            "33142",
+            "33167",
+            "33179",
+            "33129",
+            "33131",
+            "33190",
+            "33181",
+            "33132",
+            "33154",
+            "33196",
+            "33176",
+            "33146",
+            "33138",
+            "33134",
+            "33157",
+            "33193",
+            "33183",
+            "33156",
+            "33173",
+            "33143",
+            "33147",
+            "33144",
+            "33168",
+            "33162",
+            "33101"
+          ]
         },
         {
           "id": "FL-hialeah",
@@ -6431,7 +8639,16 @@
           "tier": 2,
           "county": "Miami-Dade",
           "zipCount": 7,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33014",
+            "33016",
+            "33018",
+            "33010",
+            "33012",
+            "33013",
+            "33015"
+          ]
         },
         {
           "id": "FL-homestead",
@@ -6440,7 +8657,16 @@
           "tier": 2,
           "county": "Miami-Dade",
           "zipCount": 7,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33033",
+            "33030",
+            "33035",
+            "33039",
+            "33032",
+            "33031",
+            "33034"
+          ]
         },
         {
           "id": "FL-miami-beach",
@@ -6449,7 +8675,13 @@
           "tier": 2,
           "county": "Miami-Dade",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33139",
+            "33141",
+            "33140",
+            "33109"
+          ]
         },
         {
           "id": "FL-key-biscayne",
@@ -6458,7 +8690,10 @@
           "tier": 2,
           "county": "Miami-Dade",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33149"
+          ]
         },
         {
           "id": "FL-north-miami-beach",
@@ -6467,7 +8702,10 @@
           "tier": 2,
           "county": "Miami-Dade",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33160"
+          ]
         }
       ],
       "adTargeting": {
@@ -6539,7 +8777,24 @@
           "tier": 2,
           "county": "Collier",
           "zipCount": 15,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34120",
+            "34114",
+            "34112",
+            "34113",
+            "34119",
+            "34108",
+            "34101",
+            "34102",
+            "34110",
+            "34109",
+            "34117",
+            "34103",
+            "34104",
+            "34116",
+            "34105"
+          ]
         },
         {
           "id": "FL-goodland",
@@ -6548,7 +8803,10 @@
           "tier": 2,
           "county": "Collier",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34140"
+          ]
         },
         {
           "id": "FL-immokalee",
@@ -6557,7 +8815,10 @@
           "tier": 2,
           "county": "Collier",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34142"
+          ]
         },
         {
           "id": "FL-marco-island",
@@ -6566,7 +8827,10 @@
           "tier": 2,
           "county": "Collier",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34145"
+          ]
         },
         {
           "id": "FL-chokoloskee",
@@ -6575,7 +8839,10 @@
           "tier": 2,
           "county": "Collier",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34138"
+          ]
         },
         {
           "id": "FL-ochopee",
@@ -6584,7 +8851,10 @@
           "tier": 2,
           "county": "Collier",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34141"
+          ]
         },
         {
           "id": "FL-copeland",
@@ -6593,7 +8863,10 @@
           "tier": 2,
           "county": "Collier",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34137"
+          ]
         },
         {
           "id": "FL-everglades-city",
@@ -6602,7 +8875,10 @@
           "tier": 2,
           "county": "Collier",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34139"
+          ]
         }
       ],
       "adTargeting": {
@@ -6701,7 +8977,24 @@
           "tier": 2,
           "county": "Palm Beach",
           "zipCount": 15,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33418",
+            "33417",
+            "33401",
+            "33406",
+            "33403",
+            "33415",
+            "33405",
+            "33412",
+            "33413",
+            "33407",
+            "33404",
+            "33409",
+            "33410",
+            "33411",
+            "33414"
+          ]
         },
         {
           "id": "FL-boca-raton",
@@ -6710,7 +9003,18 @@
           "tier": 2,
           "county": "Palm Beach",
           "zipCount": 9,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33432",
+            "33428",
+            "33498",
+            "33433",
+            "33496",
+            "33434",
+            "33486",
+            "33487",
+            "33431"
+          ]
         },
         {
           "id": "FL-delray-beach",
@@ -6719,7 +9023,14 @@
           "tier": 2,
           "county": "Palm Beach",
           "zipCount": 5,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33445",
+            "33484",
+            "33483",
+            "33446",
+            "33444"
+          ]
         },
         {
           "id": "FL-lake-worth",
@@ -6728,7 +9039,14 @@
           "tier": 2,
           "county": "Palm Beach",
           "zipCount": 5,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33463",
+            "33461",
+            "33460",
+            "33462",
+            "33467"
+          ]
         },
         {
           "id": "FL-jupiter",
@@ -6737,7 +9055,13 @@
           "tier": 2,
           "county": "Palm Beach",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33469",
+            "33478",
+            "33477",
+            "33458"
+          ]
         },
         {
           "id": "FL-boynton-beach",
@@ -6746,7 +9070,13 @@
           "tier": 2,
           "county": "Palm Beach",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33436",
+            "33426",
+            "33437",
+            "33435"
+          ]
         },
         {
           "id": "FL-canal-point",
@@ -6755,7 +9085,10 @@
           "tier": 2,
           "county": "Palm Beach",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33438"
+          ]
         },
         {
           "id": "FL-north-palm-beach",
@@ -6764,7 +9097,10 @@
           "tier": 2,
           "county": "Palm Beach",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33408"
+          ]
         },
         {
           "id": "FL-south-bay",
@@ -6773,7 +9109,10 @@
           "tier": 2,
           "county": "Palm Beach",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33493"
+          ]
         },
         {
           "id": "FL-palm-beach",
@@ -6782,7 +9121,10 @@
           "tier": 2,
           "county": "Palm Beach",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33480"
+          ]
         },
         {
           "id": "FL-belle-glade",
@@ -6791,7 +9133,10 @@
           "tier": 2,
           "county": "Palm Beach",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33430"
+          ]
         },
         {
           "id": "FL-pahokee",
@@ -6800,7 +9145,10 @@
           "tier": 2,
           "county": "Palm Beach",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33476"
+          ]
         },
         {
           "id": "FL-loxahatchee",
@@ -6809,7 +9157,10 @@
           "tier": 2,
           "county": "Palm Beach",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33470"
+          ]
         }
       ],
       "adTargeting": {
@@ -6886,7 +9237,14 @@
           "tier": 2,
           "county": "Brevard",
           "zipCount": 5,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32940",
+            "32934",
+            "32935",
+            "32904",
+            "32901"
+          ]
         },
         {
           "id": "FL-melbourne",
@@ -6895,7 +9253,14 @@
           "tier": 2,
           "county": "Brevard",
           "zipCount": 5,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32940",
+            "32934",
+            "32935",
+            "32904",
+            "32901"
+          ]
         },
         {
           "id": "FL-palm-bay",
@@ -6904,7 +9269,13 @@
           "tier": 2,
           "county": "Brevard",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32905",
+            "32908",
+            "32907",
+            "32909"
+          ]
         },
         {
           "id": "FL-cocoa",
@@ -6913,7 +9284,12 @@
           "tier": 2,
           "county": "Brevard",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32922",
+            "32926",
+            "32927"
+          ]
         },
         {
           "id": "FL-titusville",
@@ -6922,7 +9298,11 @@
           "tier": 2,
           "county": "Brevard",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32796",
+            "32780"
+          ]
         },
         {
           "id": "FL-merritt-island",
@@ -6931,7 +9311,11 @@
           "tier": 2,
           "county": "Brevard",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32953",
+            "32952"
+          ]
         },
         {
           "id": "FL-sebastian",
@@ -6940,7 +9324,11 @@
           "tier": 2,
           "county": "Brevard",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32976",
+            "32958"
+          ]
         },
         {
           "id": "FL-melbourne-beach",
@@ -6949,7 +9337,10 @@
           "tier": 2,
           "county": "Brevard",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32951"
+          ]
         },
         {
           "id": "FL-mims",
@@ -6958,7 +9349,10 @@
           "tier": 2,
           "county": "Brevard",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32754"
+          ]
         },
         {
           "id": "FL-cocoa-beach",
@@ -6967,7 +9361,10 @@
           "tier": 2,
           "county": "Brevard",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32931"
+          ]
         },
         {
           "id": "FL-malabar",
@@ -6976,7 +9373,10 @@
           "tier": 2,
           "county": "Brevard",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32950"
+          ]
         },
         {
           "id": "FL-satellite-beach",
@@ -6985,7 +9385,10 @@
           "tier": 2,
           "county": "Brevard",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32937"
+          ]
         },
         {
           "id": "FL-patrick-afb",
@@ -6994,7 +9397,10 @@
           "tier": 2,
           "county": "Brevard",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32925"
+          ]
         },
         {
           "id": "FL-rockledge",
@@ -7003,7 +9409,10 @@
           "tier": 2,
           "county": "Brevard",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32955"
+          ]
         },
         {
           "id": "FL-indialantic",
@@ -7012,7 +9421,10 @@
           "tier": 2,
           "county": "Brevard",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32903"
+          ]
         },
         {
           "id": "FL-cape-canaveral",
@@ -7021,7 +9433,10 @@
           "tier": 2,
           "county": "Brevard",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32920"
+          ]
         },
         {
           "id": "FL-grant",
@@ -7030,7 +9445,10 @@
           "tier": 2,
           "county": "Brevard",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32949"
+          ]
         }
       ],
       "adTargeting": {
@@ -7123,7 +9541,22 @@
           "tier": 2,
           "county": "Sarasota",
           "zipCount": 13,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34236",
+            "34237",
+            "34239",
+            "34240",
+            "34234",
+            "34242",
+            "34235",
+            "34241",
+            "34233",
+            "34238",
+            "34232",
+            "34243",
+            "34231"
+          ]
         },
         {
           "id": "FL-bradenton",
@@ -7132,7 +9565,19 @@
           "tier": 2,
           "county": "Manatee",
           "zipCount": 10,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34210",
+            "34203",
+            "34205",
+            "34202",
+            "34201",
+            "34212",
+            "34211",
+            "34208",
+            "34207",
+            "34209"
+          ]
         },
         {
           "id": "FL-north-port",
@@ -7141,7 +9586,13 @@
           "tier": 2,
           "county": "Sarasota",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34289",
+            "34286",
+            "34288",
+            "34287"
+          ]
         },
         {
           "id": "FL-venice",
@@ -7150,7 +9601,12 @@
           "tier": 2,
           "county": "Sarasota",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34292",
+            "34293",
+            "34285"
+          ]
         },
         {
           "id": "FL-englewood",
@@ -7159,7 +9615,11 @@
           "tier": 2,
           "county": "Sarasota",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34224",
+            "34223"
+          ]
         },
         {
           "id": "FL-osprey",
@@ -7168,7 +9628,10 @@
           "tier": 2,
           "county": "Sarasota",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34229"
+          ]
         },
         {
           "id": "FL-cortez",
@@ -7177,7 +9640,10 @@
           "tier": 2,
           "county": "Manatee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34215"
+          ]
         },
         {
           "id": "FL-palmetto",
@@ -7186,7 +9652,10 @@
           "tier": 2,
           "county": "Manatee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34221"
+          ]
         },
         {
           "id": "FL-ellenton",
@@ -7195,7 +9664,10 @@
           "tier": 2,
           "county": "Manatee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34222"
+          ]
         },
         {
           "id": "FL-longboat-key",
@@ -7204,7 +9676,10 @@
           "tier": 2,
           "county": "Manatee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34228"
+          ]
         },
         {
           "id": "FL-nokomis",
@@ -7213,7 +9688,10 @@
           "tier": 2,
           "county": "Sarasota",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34275"
+          ]
         },
         {
           "id": "FL-bradenton-beach",
@@ -7222,7 +9700,10 @@
           "tier": 2,
           "county": "Manatee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34217"
+          ]
         },
         {
           "id": "FL-anna-maria",
@@ -7231,7 +9712,10 @@
           "tier": 2,
           "county": "Manatee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34216"
+          ]
         },
         {
           "id": "FL-parrish",
@@ -7240,7 +9724,10 @@
           "tier": 2,
           "county": "Manatee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34219"
+          ]
         },
         {
           "id": "FL-myakka-city",
@@ -7249,7 +9736,10 @@
           "tier": 2,
           "county": "Manatee",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34251"
+          ]
         }
       ],
       "adTargeting": {
@@ -7308,7 +9798,11 @@
           "tier": 2,
           "county": "Lake",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32159",
+            "32162"
+          ]
         },
         {
           "id": "FL-bushnell",
@@ -7317,7 +9811,10 @@
           "tier": 2,
           "county": "Sumter",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33513"
+          ]
         },
         {
           "id": "FL-center-hill",
@@ -7326,7 +9823,10 @@
           "tier": 2,
           "county": "Sumter",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33514"
+          ]
         },
         {
           "id": "FL-lake-panasoffkee",
@@ -7335,7 +9835,10 @@
           "tier": 2,
           "county": "Sumter",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33538"
+          ]
         },
         {
           "id": "FL-wildwood",
@@ -7344,7 +9847,10 @@
           "tier": 2,
           "county": "Sumter",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34785"
+          ]
         },
         {
           "id": "FL-coleman",
@@ -7353,7 +9859,10 @@
           "tier": 2,
           "county": "Sumter",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33521"
+          ]
         },
         {
           "id": "FL-webster",
@@ -7362,7 +9871,10 @@
           "tier": 2,
           "county": "Sumter",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33597"
+          ]
         },
         {
           "id": "FL-sumterville",
@@ -7371,7 +9883,10 @@
           "tier": 2,
           "county": "Sumter",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33585"
+          ]
         },
         {
           "id": "FL-oxford",
@@ -7380,7 +9895,10 @@
           "tier": 2,
           "county": "Sumter",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34484"
+          ]
         }
       ],
       "adTargeting": {
@@ -7448,7 +9966,15 @@
           "tier": 2,
           "county": "Indian River",
           "zipCount": 6,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32968",
+            "32960",
+            "32963",
+            "32967",
+            "32966",
+            "32962"
+          ]
         },
         {
           "id": "FL-stuart",
@@ -7457,7 +9983,12 @@
           "tier": 2,
           "county": "Martin",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34994",
+            "34997",
+            "34996"
+          ]
         },
         {
           "id": "FL-sebastian",
@@ -7466,7 +9997,11 @@
           "tier": 2,
           "county": "Brevard",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32976",
+            "32958"
+          ]
         },
         {
           "id": "FL-indiantown",
@@ -7475,7 +10010,10 @@
           "tier": 2,
           "county": "Martin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34956"
+          ]
         },
         {
           "id": "FL-hobe-sound",
@@ -7484,7 +10022,10 @@
           "tier": 2,
           "county": "Martin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "33455"
+          ]
         },
         {
           "id": "FL-fellsmere",
@@ -7493,7 +10034,10 @@
           "tier": 2,
           "county": "Indian River",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32948"
+          ]
         },
         {
           "id": "FL-jensen-beach",
@@ -7502,7 +10046,10 @@
           "tier": 2,
           "county": "Martin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34957"
+          ]
         },
         {
           "id": "FL-palm-city",
@@ -7511,7 +10058,10 @@
           "tier": 2,
           "county": "Martin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "34990"
+          ]
         },
         {
           "id": "FL-wabasso",
@@ -7520,7 +10070,10 @@
           "tier": 2,
           "county": "Indian River",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "32970"
+          ]
         }
       ],
       "adTargeting": {

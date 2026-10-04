@@ -106,7 +106,12 @@
           "tier": 1,
           "county": "Natrona",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82604",
+            "82601",
+            "82609"
+          ]
         },
         {
           "id": "WY-edgerton",
@@ -115,7 +120,10 @@
           "tier": 1,
           "county": "Natrona",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82635"
+          ]
         },
         {
           "id": "WY-dixon",
@@ -124,7 +132,10 @@
           "tier": 1,
           "county": "Carbon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82323"
+          ]
         },
         {
           "id": "WY-riverton",
@@ -133,7 +144,10 @@
           "tier": 1,
           "county": "Fremont",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82501"
+          ]
         },
         {
           "id": "WY-alcova",
@@ -142,7 +156,10 @@
           "tier": 1,
           "county": "Natrona",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82620"
+          ]
         },
         {
           "id": "WY-pavillion",
@@ -151,7 +168,10 @@
           "tier": 1,
           "county": "Fremont",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82523"
+          ]
         },
         {
           "id": "WY-medicine-bow",
@@ -160,7 +180,10 @@
           "tier": 1,
           "county": "Carbon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82329"
+          ]
         },
         {
           "id": "WY-crowheart",
@@ -169,7 +192,10 @@
           "tier": 1,
           "county": "Fremont",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82512"
+          ]
         },
         {
           "id": "WY-sinclair",
@@ -178,7 +204,10 @@
           "tier": 1,
           "county": "Carbon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82334"
+          ]
         },
         {
           "id": "WY-encampment",
@@ -187,7 +216,10 @@
           "tier": 1,
           "county": "Carbon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82325"
+          ]
         },
         {
           "id": "WY-elk-mountain",
@@ -196,7 +228,10 @@
           "tier": 1,
           "county": "Carbon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82324"
+          ]
         },
         {
           "id": "WY-dubois",
@@ -205,7 +240,10 @@
           "tier": 1,
           "county": "Fremont",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82513"
+          ]
         },
         {
           "id": "WY-lost-springs",
@@ -214,7 +252,10 @@
           "tier": 1,
           "county": "Converse",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82224"
+          ]
         },
         {
           "id": "WY-hanna",
@@ -223,7 +264,10 @@
           "tier": 1,
           "county": "Carbon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82327"
+          ]
         },
         {
           "id": "WY-saratoga",
@@ -232,7 +276,10 @@
           "tier": 1,
           "county": "Carbon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82331"
+          ]
         },
         {
           "id": "WY-lander",
@@ -241,7 +288,10 @@
           "tier": 1,
           "county": "Fremont",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82520"
+          ]
         },
         {
           "id": "WY-arapahoe",
@@ -250,7 +300,10 @@
           "tier": 1,
           "county": "Fremont",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82510"
+          ]
         },
         {
           "id": "WY-baggs",
@@ -259,7 +312,10 @@
           "tier": 1,
           "county": "Carbon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82321"
+          ]
         },
         {
           "id": "WY-rawlins",
@@ -268,7 +324,10 @@
           "tier": 1,
           "county": "Carbon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82301"
+          ]
         },
         {
           "id": "WY-douglas",
@@ -277,7 +336,10 @@
           "tier": 1,
           "county": "Converse",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82633"
+          ]
         },
         {
           "id": "WY-glenrock",
@@ -286,7 +348,10 @@
           "tier": 1,
           "county": "Converse",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82637"
+          ]
         },
         {
           "id": "WY-midwest",
@@ -295,7 +360,10 @@
           "tier": 1,
           "county": "Natrona",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82643"
+          ]
         },
         {
           "id": "WY-powder-river",
@@ -304,7 +372,10 @@
           "tier": 1,
           "county": "Natrona",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82648"
+          ]
         },
         {
           "id": "WY-shoshoni",
@@ -313,7 +384,10 @@
           "tier": 1,
           "county": "Fremont",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82649"
+          ]
         },
         {
           "id": "WY-fort-washakie",
@@ -322,7 +396,10 @@
           "tier": 1,
           "county": "Fremont",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82514"
+          ]
         },
         {
           "id": "WY-hudson",
@@ -331,7 +408,10 @@
           "tier": 1,
           "county": "Fremont",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82515"
+          ]
         },
         {
           "id": "WY-mills",
@@ -340,7 +420,10 @@
           "tier": 1,
           "county": "Natrona",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82644"
+          ]
         },
         {
           "id": "WY-evansville",
@@ -349,7 +432,10 @@
           "tier": 1,
           "county": "Natrona",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82636"
+          ]
         },
         {
           "id": "WY-walcott",
@@ -358,7 +444,10 @@
           "tier": 1,
           "county": "Carbon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82335"
+          ]
         },
         {
           "id": "WY-lysite",
@@ -367,7 +456,10 @@
           "tier": 1,
           "county": "Fremont",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82642"
+          ]
         },
         {
           "id": "WY-natrona",
@@ -376,7 +468,10 @@
           "tier": 1,
           "county": "Natrona",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82646"
+          ]
         },
         {
           "id": "WY-savery",
@@ -385,7 +480,10 @@
           "tier": 1,
           "county": "Carbon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82332"
+          ]
         },
         {
           "id": "WY-kinnear",
@@ -394,7 +492,10 @@
           "tier": 1,
           "county": "Fremont",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82516"
+          ]
         },
         {
           "id": "WY-arminto",
@@ -403,7 +504,10 @@
           "tier": 1,
           "county": "Natrona",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82630"
+          ]
         },
         {
           "id": "WY-hiland",
@@ -412,7 +516,10 @@
           "tier": 1,
           "county": "Natrona",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82638"
+          ]
         },
         {
           "id": "WY-shawnee",
@@ -421,7 +528,10 @@
           "tier": 1,
           "county": "Converse",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82229"
+          ]
         }
       ],
       "adTargeting": {
@@ -492,7 +602,10 @@
           "tier": 1,
           "county": "Park",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82423"
+          ]
         },
         {
           "id": "WY-kelly",
@@ -501,7 +614,10 @@
           "tier": 1,
           "county": "Teton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "83011"
+          ]
         },
         {
           "id": "WY-big-piney",
@@ -510,7 +626,10 @@
           "tier": 1,
           "county": "Sublette",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "83113"
+          ]
         },
         {
           "id": "WY-teton-village",
@@ -519,7 +638,10 @@
           "tier": 1,
           "county": "Teton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "83025"
+          ]
         },
         {
           "id": "WY-cody",
@@ -528,7 +650,10 @@
           "tier": 1,
           "county": "Park",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82414"
+          ]
         },
         {
           "id": "WY-pinedale",
@@ -537,7 +662,10 @@
           "tier": 1,
           "county": "Sublette",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82941"
+          ]
         },
         {
           "id": "WY-wilson",
@@ -546,7 +674,10 @@
           "tier": 1,
           "county": "Teton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "83014"
+          ]
         },
         {
           "id": "WY-ralston",
@@ -555,7 +686,10 @@
           "tier": 1,
           "county": "Park",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82440"
+          ]
         },
         {
           "id": "WY-cora",
@@ -564,7 +698,10 @@
           "tier": 1,
           "county": "Sublette",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82925"
+          ]
         },
         {
           "id": "WY-daniel",
@@ -573,7 +710,10 @@
           "tier": 1,
           "county": "Sublette",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "83115"
+          ]
         },
         {
           "id": "WY-bondurant",
@@ -582,7 +722,10 @@
           "tier": 1,
           "county": "Sublette",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82922"
+          ]
         },
         {
           "id": "WY-boulder",
@@ -591,7 +734,10 @@
           "tier": 1,
           "county": "Sublette",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82923"
+          ]
         },
         {
           "id": "WY-jackson",
@@ -600,7 +746,10 @@
           "tier": 1,
           "county": "Teton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "83001"
+          ]
         },
         {
           "id": "WY-meeteetse",
@@ -609,7 +758,10 @@
           "tier": 1,
           "county": "Park",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82433"
+          ]
         },
         {
           "id": "WY-powell",
@@ -618,7 +770,10 @@
           "tier": 1,
           "county": "Park",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82435"
+          ]
         },
         {
           "id": "WY-moran",
@@ -627,7 +782,10 @@
           "tier": 1,
           "county": "Teton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "83013"
+          ]
         },
         {
           "id": "WY-yellowstone-national-park",
@@ -636,7 +794,10 @@
           "tier": 1,
           "county": "Park",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82190"
+          ]
         },
         {
           "id": "WY-wapiti",
@@ -645,7 +806,10 @@
           "tier": 1,
           "county": "Park",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82450"
+          ]
         },
         {
           "id": "WY-moose",
@@ -654,7 +818,10 @@
           "tier": 1,
           "county": "Teton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "83012"
+          ]
         }
       ],
       "adTargeting": {
@@ -800,7 +967,11 @@
           "tier": 1,
           "county": "Campbell",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82718",
+            "82716"
+          ]
         },
         {
           "id": "WY-lusk",
@@ -809,7 +980,10 @@
           "tier": 1,
           "county": "Niobrara",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82225"
+          ]
         },
         {
           "id": "WY-la-barge",
@@ -818,7 +992,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "83123"
+          ]
         },
         {
           "id": "WY-kaycee",
@@ -827,7 +1004,10 @@
           "tier": 1,
           "county": "Johnson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82639"
+          ]
         },
         {
           "id": "WY-kemmerer",
@@ -836,7 +1016,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "83101"
+          ]
         },
         {
           "id": "WY-van-tassell",
@@ -845,7 +1028,10 @@
           "tier": 1,
           "county": "Niobrara",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82242"
+          ]
         },
         {
           "id": "WY-superior",
@@ -854,7 +1040,10 @@
           "tier": 1,
           "county": "Sweetwater",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82945"
+          ]
         },
         {
           "id": "WY-wamsutter",
@@ -863,7 +1052,10 @@
           "tier": 1,
           "county": "Sweetwater",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82336"
+          ]
         },
         {
           "id": "WY-deaver",
@@ -872,7 +1064,10 @@
           "tier": 1,
           "county": "Big Horn",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82421"
+          ]
         },
         {
           "id": "WY-auburn",
@@ -881,7 +1076,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "83111"
+          ]
         },
         {
           "id": "WY-robertson",
@@ -890,7 +1088,10 @@
           "tier": 1,
           "county": "Uinta",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82944"
+          ]
         },
         {
           "id": "WY-beulah",
@@ -899,7 +1100,10 @@
           "tier": 1,
           "county": "Crook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82712"
+          ]
         },
         {
           "id": "WY-clearmont",
@@ -908,7 +1112,10 @@
           "tier": 1,
           "county": "Sheridan",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82835"
+          ]
         },
         {
           "id": "WY-cowley",
@@ -917,7 +1124,10 @@
           "tier": 1,
           "county": "Big Horn",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82420"
+          ]
         },
         {
           "id": "WY-lovell",
@@ -926,7 +1136,10 @@
           "tier": 1,
           "county": "Big Horn",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82431"
+          ]
         },
         {
           "id": "WY-sheridan",
@@ -935,7 +1148,10 @@
           "tier": 1,
           "county": "Sheridan",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82801"
+          ]
         },
         {
           "id": "WY-burlington",
@@ -944,7 +1160,10 @@
           "tier": 1,
           "county": "Big Horn",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82411"
+          ]
         },
         {
           "id": "WY-bairoil",
@@ -953,7 +1172,10 @@
           "tier": 1,
           "county": "Sweetwater",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82322"
+          ]
         },
         {
           "id": "WY-ten-sleep",
@@ -962,7 +1184,10 @@
           "tier": 1,
           "county": "Washakie",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82442"
+          ]
         },
         {
           "id": "WY-byron",
@@ -971,7 +1196,10 @@
           "tier": 1,
           "county": "Big Horn",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82412"
+          ]
         },
         {
           "id": "WY-ranchester",
@@ -980,7 +1208,10 @@
           "tier": 1,
           "county": "Sheridan",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82839"
+          ]
         },
         {
           "id": "WY-diamondville",
@@ -989,7 +1220,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "83116"
+          ]
         },
         {
           "id": "WY-hulett",
@@ -998,7 +1232,10 @@
           "tier": 1,
           "county": "Crook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82720"
+          ]
         },
         {
           "id": "WY-moorcroft",
@@ -1007,7 +1244,10 @@
           "tier": 1,
           "county": "Crook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82721"
+          ]
         },
         {
           "id": "WY-manderson",
@@ -1016,7 +1256,10 @@
           "tier": 1,
           "county": "Big Horn",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82432"
+          ]
         },
         {
           "id": "WY-buffalo",
@@ -1025,7 +1268,10 @@
           "tier": 1,
           "county": "Johnson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82834"
+          ]
         },
         {
           "id": "WY-granger",
@@ -1034,7 +1280,10 @@
           "tier": 1,
           "county": "Sweetwater",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82934"
+          ]
         },
         {
           "id": "WY-grover",
@@ -1043,7 +1292,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "83122"
+          ]
         },
         {
           "id": "WY-bedford",
@@ -1052,7 +1304,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "83112"
+          ]
         },
         {
           "id": "WY-manville",
@@ -1061,7 +1316,10 @@
           "tier": 1,
           "county": "Niobrara",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82227"
+          ]
         },
         {
           "id": "WY-shell",
@@ -1070,7 +1328,10 @@
           "tier": 1,
           "county": "Big Horn",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82441"
+          ]
         },
         {
           "id": "WY-big-horn",
@@ -1079,7 +1340,10 @@
           "tier": 1,
           "county": "Sheridan",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82833"
+          ]
         },
         {
           "id": "WY-etna",
@@ -1088,7 +1352,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "83118"
+          ]
         },
         {
           "id": "WY-reliance",
@@ -1097,7 +1364,10 @@
           "tier": 1,
           "county": "Sweetwater",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82943"
+          ]
         },
         {
           "id": "WY-mountain-view",
@@ -1106,7 +1376,10 @@
           "tier": 1,
           "county": "Uinta",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82939"
+          ]
         },
         {
           "id": "WY-basin",
@@ -1115,7 +1388,10 @@
           "tier": 1,
           "county": "Big Horn",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82410"
+          ]
         },
         {
           "id": "WY-dayton",
@@ -1124,7 +1400,10 @@
           "tier": 1,
           "county": "Sheridan",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82836"
+          ]
         },
         {
           "id": "WY-green-river",
@@ -1133,7 +1412,10 @@
           "tier": 1,
           "county": "Sweetwater",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82935"
+          ]
         },
         {
           "id": "WY-opal",
@@ -1142,7 +1424,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "83124"
+          ]
         },
         {
           "id": "WY-parkman",
@@ -1151,7 +1436,10 @@
           "tier": 1,
           "county": "Sheridan",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82838"
+          ]
         },
         {
           "id": "WY-lance-creek",
@@ -1160,7 +1448,10 @@
           "tier": 1,
           "county": "Niobrara",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82222"
+          ]
         },
         {
           "id": "WY-farson",
@@ -1169,7 +1460,10 @@
           "tier": 1,
           "county": "Sweetwater",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82932"
+          ]
         },
         {
           "id": "WY-little-america",
@@ -1178,7 +1472,10 @@
           "tier": 1,
           "county": "Sweetwater",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82929"
+          ]
         },
         {
           "id": "WY-point-of-rocks",
@@ -1187,7 +1484,10 @@
           "tier": 1,
           "county": "Sweetwater",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82942"
+          ]
         },
         {
           "id": "WY-fairview",
@@ -1196,7 +1496,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "83119"
+          ]
         },
         {
           "id": "WY-hyattville",
@@ -1205,7 +1508,10 @@
           "tier": 1,
           "county": "Big Horn",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82428"
+          ]
         },
         {
           "id": "WY-newcastle",
@@ -1214,7 +1520,10 @@
           "tier": 1,
           "county": "Weston",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82701"
+          ]
         },
         {
           "id": "WY-upton",
@@ -1223,7 +1532,10 @@
           "tier": 1,
           "county": "Weston",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82730"
+          ]
         },
         {
           "id": "WY-kirby",
@@ -1232,7 +1544,10 @@
           "tier": 1,
           "county": "Hot Springs",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82430"
+          ]
         },
         {
           "id": "WY-lyman",
@@ -1241,7 +1556,10 @@
           "tier": 1,
           "county": "Uinta",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82937"
+          ]
         },
         {
           "id": "WY-wright",
@@ -1250,7 +1568,10 @@
           "tier": 1,
           "county": "Campbell",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82732"
+          ]
         },
         {
           "id": "WY-rock-springs",
@@ -1259,7 +1580,10 @@
           "tier": 1,
           "county": "Sweetwater",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82901"
+          ]
         },
         {
           "id": "WY-thayne",
@@ -1268,7 +1592,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "83127"
+          ]
         },
         {
           "id": "WY-osage",
@@ -1277,7 +1604,10 @@
           "tier": 1,
           "county": "Weston",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82723"
+          ]
         },
         {
           "id": "WY-lonetree",
@@ -1286,7 +1616,10 @@
           "tier": 1,
           "county": "Uinta",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82936"
+          ]
         },
         {
           "id": "WY-sundance",
@@ -1295,7 +1628,10 @@
           "tier": 1,
           "county": "Crook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82729"
+          ]
         },
         {
           "id": "WY-freedom",
@@ -1304,7 +1640,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "83120"
+          ]
         },
         {
           "id": "WY-smoot",
@@ -1313,7 +1652,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "83126"
+          ]
         },
         {
           "id": "WY-story",
@@ -1322,7 +1664,10 @@
           "tier": 1,
           "county": "Sheridan",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82842"
+          ]
         },
         {
           "id": "WY-fort-bridger",
@@ -1331,7 +1676,10 @@
           "tier": 1,
           "county": "Uinta",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82933"
+          ]
         },
         {
           "id": "WY-thermopolis",
@@ -1340,7 +1688,10 @@
           "tier": 1,
           "county": "Hot Springs",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82443"
+          ]
         },
         {
           "id": "WY-evanston",
@@ -1349,7 +1700,10 @@
           "tier": 1,
           "county": "Uinta",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82930"
+          ]
         },
         {
           "id": "WY-cokeville",
@@ -1358,7 +1712,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "83114"
+          ]
         },
         {
           "id": "WY-alpine",
@@ -1367,7 +1724,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "83128"
+          ]
         },
         {
           "id": "WY-greybull",
@@ -1376,7 +1736,10 @@
           "tier": 1,
           "county": "Big Horn",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82426"
+          ]
         },
         {
           "id": "WY-afton",
@@ -1385,7 +1748,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "83110"
+          ]
         },
         {
           "id": "WY-arvada",
@@ -1394,7 +1760,10 @@
           "tier": 1,
           "county": "Sheridan",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82831"
+          ]
         },
         {
           "id": "WY-worland",
@@ -1403,7 +1772,10 @@
           "tier": 1,
           "county": "Washakie",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82401"
+          ]
         },
         {
           "id": "WY-weston",
@@ -1412,7 +1784,10 @@
           "tier": 1,
           "county": "Campbell",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82731"
+          ]
         },
         {
           "id": "WY-otto",
@@ -1421,7 +1796,10 @@
           "tier": 1,
           "county": "Big Horn",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82434"
+          ]
         },
         {
           "id": "WY-emblem",
@@ -1430,7 +1808,10 @@
           "tier": 1,
           "county": "Big Horn",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82422"
+          ]
         },
         {
           "id": "WY-recluse",
@@ -1439,7 +1820,10 @@
           "tier": 1,
           "county": "Campbell",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82725"
+          ]
         },
         {
           "id": "WY-devils-tower",
@@ -1448,7 +1832,10 @@
           "tier": 1,
           "county": "Crook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82714"
+          ]
         },
         {
           "id": "WY-banner",
@@ -1457,7 +1844,10 @@
           "tier": 1,
           "county": "Sheridan",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82832"
+          ]
         },
         {
           "id": "WY-leiter",
@@ -1466,7 +1856,10 @@
           "tier": 1,
           "county": "Sheridan",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82837"
+          ]
         },
         {
           "id": "WY-alva",
@@ -1475,7 +1868,10 @@
           "tier": 1,
           "county": "Crook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82711"
+          ]
         },
         {
           "id": "WY-aladdin",
@@ -1484,7 +1880,10 @@
           "tier": 1,
           "county": "Crook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82710"
+          ]
         },
         {
           "id": "WY-wolf",
@@ -1493,7 +1892,10 @@
           "tier": 1,
           "county": "Sheridan",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82844"
+          ]
         },
         {
           "id": "WY-wyarno",
@@ -1502,7 +1904,10 @@
           "tier": 1,
           "county": "Sheridan",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82845"
+          ]
         },
         {
           "id": "WY-rozet",
@@ -1511,7 +1916,10 @@
           "tier": 1,
           "county": "Campbell",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82727"
+          ]
         },
         {
           "id": "WY-frontier",
@@ -1520,7 +1928,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "83121"
+          ]
         },
         {
           "id": "WY-mc-kinnon",
@@ -1529,7 +1940,10 @@
           "tier": 1,
           "county": "Sweetwater",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82938"
+          ]
         },
         {
           "id": "WY-four-corners",
@@ -1538,7 +1952,10 @@
           "tier": 1,
           "county": "Weston",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82715"
+          ]
         },
         {
           "id": "WY-linch",
@@ -1547,7 +1964,10 @@
           "tier": 1,
           "county": "Johnson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82640"
+          ]
         },
         {
           "id": "WY-sleepy-hollow",
@@ -1565,7 +1985,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "83116"
+          ]
         }
       ],
       "adTargeting": {
@@ -1653,7 +2076,12 @@
           "tier": 1,
           "county": "Laramie",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82009",
+            "82001",
+            "82007"
+          ]
         },
         {
           "id": "WY-laramie",
@@ -1662,7 +2090,12 @@
           "tier": 1,
           "county": "Albany",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82072",
+            "82073",
+            "82070"
+          ]
         },
         {
           "id": "WY-yoder",
@@ -1671,7 +2104,10 @@
           "tier": 1,
           "county": "Goshen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82244"
+          ]
         },
         {
           "id": "WY-rock-river",
@@ -1680,7 +2116,10 @@
           "tier": 1,
           "county": "Albany",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82083"
+          ]
         },
         {
           "id": "WY-burns",
@@ -1689,7 +2128,10 @@
           "tier": 1,
           "county": "Laramie",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82053"
+          ]
         },
         {
           "id": "WY-glendo",
@@ -1698,7 +2140,10 @@
           "tier": 1,
           "county": "Platte",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82213"
+          ]
         },
         {
           "id": "WY-hartville",
@@ -1707,7 +2152,10 @@
           "tier": 1,
           "county": "Platte",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82215"
+          ]
         },
         {
           "id": "WY-hawk-springs",
@@ -1716,7 +2164,10 @@
           "tier": 1,
           "county": "Goshen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82217"
+          ]
         },
         {
           "id": "WY-lingle",
@@ -1725,7 +2176,10 @@
           "tier": 1,
           "county": "Goshen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82223"
+          ]
         },
         {
           "id": "WY-hillsdale",
@@ -1734,7 +2188,10 @@
           "tier": 1,
           "county": "Laramie",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82060"
+          ]
         },
         {
           "id": "WY-chugwater",
@@ -1743,7 +2200,10 @@
           "tier": 1,
           "county": "Platte",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82210"
+          ]
         },
         {
           "id": "WY-veteran",
@@ -1752,7 +2212,10 @@
           "tier": 1,
           "county": "Goshen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82243"
+          ]
         },
         {
           "id": "WY-carpenter",
@@ -1761,7 +2224,10 @@
           "tier": 1,
           "county": "Laramie",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82054"
+          ]
         },
         {
           "id": "WY-lagrange",
@@ -1770,7 +2236,10 @@
           "tier": 1,
           "county": "Goshen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82221"
+          ]
         },
         {
           "id": "WY-wheatland",
@@ -1779,7 +2248,10 @@
           "tier": 1,
           "county": "Platte",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82201"
+          ]
         },
         {
           "id": "WY-albin",
@@ -1788,7 +2260,10 @@
           "tier": 1,
           "county": "Laramie",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82050"
+          ]
         },
         {
           "id": "WY-torrington",
@@ -1797,7 +2272,10 @@
           "tier": 1,
           "county": "Goshen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82240"
+          ]
         },
         {
           "id": "WY-fort-laramie",
@@ -1806,7 +2284,10 @@
           "tier": 1,
           "county": "Goshen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82212"
+          ]
         },
         {
           "id": "WY-centennial",
@@ -1815,7 +2296,10 @@
           "tier": 1,
           "county": "Albany",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82055"
+          ]
         },
         {
           "id": "WY-guernsey",
@@ -1824,7 +2308,10 @@
           "tier": 1,
           "county": "Platte",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82214"
+          ]
         },
         {
           "id": "WY-pine-bluffs",
@@ -1833,7 +2320,10 @@
           "tier": 1,
           "county": "Laramie",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82082"
+          ]
         },
         {
           "id": "WY-granite-canon",
@@ -1842,7 +2332,10 @@
           "tier": 1,
           "county": "Laramie",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82059"
+          ]
         },
         {
           "id": "WY-buford",
@@ -1851,7 +2344,10 @@
           "tier": 1,
           "county": "Albany",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82052"
+          ]
         },
         {
           "id": "WY-garrett",
@@ -1860,7 +2356,10 @@
           "tier": 1,
           "county": "Albany",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82058"
+          ]
         },
         {
           "id": "WY-bosler",
@@ -1869,7 +2368,10 @@
           "tier": 1,
           "county": "Albany",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82051"
+          ]
         },
         {
           "id": "WY-fe-warren-afb",
@@ -1878,7 +2380,10 @@
           "tier": 1,
           "county": "Laramie",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82005"
+          ]
         },
         {
           "id": "WY-jelm",
@@ -1887,7 +2392,10 @@
           "tier": 1,
           "county": "Albany",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82063"
+          ]
         },
         {
           "id": "WY-tie-siding",
@@ -1896,7 +2404,10 @@
           "tier": 1,
           "county": "Albany",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82084"
+          ]
         },
         {
           "id": "WY-horse-creek",
@@ -1905,7 +2416,10 @@
           "tier": 1,
           "county": "Laramie",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82061"
+          ]
         },
         {
           "id": "WY-jay-em",
@@ -1914,7 +2428,10 @@
           "tier": 1,
           "county": "Goshen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82219"
+          ]
         },
         {
           "id": "WY-meriden",
@@ -1923,7 +2440,10 @@
           "tier": 1,
           "county": "Laramie",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82081"
+          ]
         },
         {
           "id": "WY-huntley",
@@ -1932,7 +2452,10 @@
           "tier": 1,
           "county": "Goshen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82217"
+          ]
         }
       ],
       "adTargeting": {
@@ -1994,7 +2517,12 @@
           "tier": 1,
           "county": "Laramie",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82009",
+            "82001",
+            "82007"
+          ]
         },
         {
           "id": "WY-burns",
@@ -2003,7 +2531,10 @@
           "tier": 1,
           "county": "Laramie",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82053"
+          ]
         },
         {
           "id": "WY-hillsdale",
@@ -2012,7 +2543,10 @@
           "tier": 1,
           "county": "Laramie",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82060"
+          ]
         },
         {
           "id": "WY-carpenter",
@@ -2021,7 +2555,10 @@
           "tier": 1,
           "county": "Laramie",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82054"
+          ]
         },
         {
           "id": "WY-albin",
@@ -2030,7 +2567,10 @@
           "tier": 1,
           "county": "Laramie",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82050"
+          ]
         },
         {
           "id": "WY-pine-bluffs",
@@ -2039,7 +2579,10 @@
           "tier": 1,
           "county": "Laramie",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82082"
+          ]
         },
         {
           "id": "WY-granite-canon",
@@ -2048,7 +2591,10 @@
           "tier": 1,
           "county": "Laramie",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82059"
+          ]
         },
         {
           "id": "WY-fe-warren-afb",
@@ -2057,7 +2603,10 @@
           "tier": 1,
           "county": "Laramie",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82005"
+          ]
         },
         {
           "id": "WY-horse-creek",
@@ -2066,7 +2615,10 @@
           "tier": 1,
           "county": "Laramie",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82061"
+          ]
         },
         {
           "id": "WY-meriden",
@@ -2075,7 +2627,10 @@
           "tier": 1,
           "county": "Laramie",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "82081"
+          ]
         }
       ],
       "adTargeting": {
@@ -2131,7 +2686,10 @@
           "tier": 1,
           "county": "Teton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "83011"
+          ]
         },
         {
           "id": "WY-teton-village",
@@ -2140,7 +2698,10 @@
           "tier": 1,
           "county": "Teton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "83025"
+          ]
         },
         {
           "id": "WY-wilson",
@@ -2149,7 +2710,10 @@
           "tier": 1,
           "county": "Teton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "83014"
+          ]
         },
         {
           "id": "WY-jackson",
@@ -2158,7 +2722,10 @@
           "tier": 1,
           "county": "Teton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "83001"
+          ]
         },
         {
           "id": "WY-moran",
@@ -2167,7 +2734,10 @@
           "tier": 1,
           "county": "Teton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "83013"
+          ]
         },
         {
           "id": "WY-moose",
@@ -2176,7 +2746,10 @@
           "tier": 1,
           "county": "Teton",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "83012"
+          ]
         }
       ],
       "adTargeting": {

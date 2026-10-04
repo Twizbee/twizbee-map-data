@@ -197,7 +197,13 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21405",
+            "21403",
+            "21402",
+            "21401"
+          ]
         },
         {
           "id": "MD-baltimore",
@@ -206,7 +212,33 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 24,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21252",
+            "21224",
+            "21250",
+            "21230",
+            "21216",
+            "21231",
+            "21251",
+            "21206",
+            "21239",
+            "21217",
+            "21202",
+            "21223",
+            "21212",
+            "21215",
+            "21211",
+            "21229",
+            "21205",
+            "21213",
+            "21240",
+            "21209",
+            "21210",
+            "21201",
+            "21218",
+            "21214"
+          ]
         },
         {
           "id": "MD-columbia",
@@ -215,7 +247,12 @@
           "tier": 1,
           "county": "Howard",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21046",
+            "21044",
+            "21045"
+          ]
         },
         {
           "id": "MD-westminster",
@@ -224,7 +261,11 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21157",
+            "21158"
+          ]
         },
         {
           "id": "MD-glen-burnie",
@@ -233,7 +274,11 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21060",
+            "21061"
+          ]
         },
         {
           "id": "MD-towson",
@@ -242,7 +287,11 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21204",
+            "21286"
+          ]
         },
         {
           "id": "MD-bel-air",
@@ -251,7 +300,11 @@
           "tier": 1,
           "county": "Harford",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21015",
+            "21014"
+          ]
         },
         {
           "id": "MD-ellicott-city",
@@ -260,7 +313,11 @@
           "tier": 1,
           "county": "Howard",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21042",
+            "21043"
+          ]
         },
         {
           "id": "MD-riva",
@@ -269,7 +326,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21140"
+          ]
         },
         {
           "id": "MD-parkville",
@@ -278,7 +338,10 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21234"
+          ]
         },
         {
           "id": "MD-perryman",
@@ -287,7 +350,10 @@
           "tier": 1,
           "county": "Harford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21130"
+          ]
         },
         {
           "id": "MD-pylesville",
@@ -296,7 +362,10 @@
           "tier": 1,
           "county": "Harford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21132"
+          ]
         },
         {
           "id": "MD-darlington",
@@ -305,7 +374,10 @@
           "tier": 1,
           "county": "Harford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21034"
+          ]
         },
         {
           "id": "MD-crownsville",
@@ -314,7 +386,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21032"
+          ]
         },
         {
           "id": "MD-pasadena",
@@ -323,7 +398,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21122"
+          ]
         },
         {
           "id": "MD-elkridge",
@@ -332,7 +410,10 @@
           "tier": 1,
           "county": "Howard",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21075"
+          ]
         },
         {
           "id": "MD-randallstown",
@@ -341,7 +422,10 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21133"
+          ]
         },
         {
           "id": "MD-essex",
@@ -350,7 +434,10 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21221"
+          ]
         },
         {
           "id": "MD-rosedale",
@@ -359,7 +446,10 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21237"
+          ]
         },
         {
           "id": "MD-fallston",
@@ -368,7 +458,10 @@
           "tier": 1,
           "county": "Harford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21047"
+          ]
         },
         {
           "id": "MD-new-windsor",
@@ -377,7 +470,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21776"
+          ]
         },
         {
           "id": "MD-union-bridge",
@@ -386,7 +482,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21791"
+          ]
         },
         {
           "id": "MD-aberdeen",
@@ -395,7 +494,10 @@
           "tier": 1,
           "county": "Harford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21001"
+          ]
         },
         {
           "id": "MD-havre-de-grace",
@@ -404,7 +506,10 @@
           "tier": 1,
           "county": "Harford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21078"
+          ]
         },
         {
           "id": "MD-jessup",
@@ -413,7 +518,10 @@
           "tier": 1,
           "county": "Howard",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20794"
+          ]
         },
         {
           "id": "MD-sykesville",
@@ -422,7 +530,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21784"
+          ]
         },
         {
           "id": "MD-taneytown",
@@ -431,7 +542,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21787"
+          ]
         },
         {
           "id": "MD-manchester",
@@ -440,7 +554,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21102"
+          ]
         },
         {
           "id": "MD-reisterstown",
@@ -449,7 +566,10 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21136"
+          ]
         },
         {
           "id": "MD-white-marsh",
@@ -458,7 +578,10 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21162"
+          ]
         },
         {
           "id": "MD-odenton",
@@ -467,7 +590,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21113"
+          ]
         },
         {
           "id": "MD-cockeysville",
@@ -476,7 +602,10 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21030"
+          ]
         },
         {
           "id": "MD-dundalk",
@@ -485,7 +614,10 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21222"
+          ]
         },
         {
           "id": "MD-kingsville",
@@ -494,7 +626,10 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21087"
+          ]
         },
         {
           "id": "MD-gambrills",
@@ -503,7 +638,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21054"
+          ]
         },
         {
           "id": "MD-perry-hall",
@@ -512,7 +650,10 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21128"
+          ]
         },
         {
           "id": "MD-galesville",
@@ -521,7 +662,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20765"
+          ]
         },
         {
           "id": "MD-fulton",
@@ -530,7 +674,10 @@
           "tier": 1,
           "county": "Howard",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20759"
+          ]
         },
         {
           "id": "MD-highland",
@@ -539,7 +686,10 @@
           "tier": 1,
           "county": "Howard",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20777"
+          ]
         },
         {
           "id": "MD-owings-mills",
@@ -548,7 +698,10 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21117"
+          ]
         },
         {
           "id": "MD-jarrettsville",
@@ -557,7 +710,10 @@
           "tier": 1,
           "county": "Harford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21084"
+          ]
         },
         {
           "id": "MD-abingdon",
@@ -566,7 +722,10 @@
           "tier": 1,
           "county": "Harford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21009"
+          ]
         },
         {
           "id": "MD-edgewood",
@@ -575,7 +734,10 @@
           "tier": 1,
           "county": "Harford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21040"
+          ]
         },
         {
           "id": "MD-savage",
@@ -584,7 +746,10 @@
           "tier": 1,
           "county": "Howard",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20763"
+          ]
         },
         {
           "id": "MD-hampstead",
@@ -593,7 +758,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21074"
+          ]
         },
         {
           "id": "MD-severna-park",
@@ -602,7 +770,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21146"
+          ]
         },
         {
           "id": "MD-arnold",
@@ -611,7 +782,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21012"
+          ]
         },
         {
           "id": "MD-pikesville",
@@ -620,7 +794,10 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21208"
+          ]
         },
         {
           "id": "MD-edgewater",
@@ -629,7 +806,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21037"
+          ]
         },
         {
           "id": "MD-crofton",
@@ -638,7 +818,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21114"
+          ]
         },
         {
           "id": "MD-deale",
@@ -647,7 +830,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20751"
+          ]
         },
         {
           "id": "MD-severn",
@@ -656,7 +842,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21144"
+          ]
         },
         {
           "id": "MD-catonsville",
@@ -665,7 +854,10 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21228"
+          ]
         },
         {
           "id": "MD-aberdeen-proving-ground",
@@ -674,7 +866,10 @@
           "tier": 1,
           "county": "Harford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21005"
+          ]
         },
         {
           "id": "MD-friendship",
@@ -683,7 +878,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20758"
+          ]
         },
         {
           "id": "MD-shady-side",
@@ -692,7 +890,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20764"
+          ]
         },
         {
           "id": "MD-middle-river",
@@ -701,7 +902,10 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21220"
+          ]
         },
         {
           "id": "MD-annapolis-junction",
@@ -710,7 +914,10 @@
           "tier": 1,
           "county": "Howard",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20701"
+          ]
         },
         {
           "id": "MD-belcamp",
@@ -719,7 +926,10 @@
           "tier": 1,
           "county": "Harford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21017"
+          ]
         },
         {
           "id": "MD-brooklyn",
@@ -728,7 +938,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21225"
+          ]
         },
         {
           "id": "MD-churchton",
@@ -737,7 +950,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20733"
+          ]
         },
         {
           "id": "MD-churchville",
@@ -746,7 +962,10 @@
           "tier": 1,
           "county": "Harford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21028"
+          ]
         },
         {
           "id": "MD-clarksville",
@@ -755,7 +974,10 @@
           "tier": 1,
           "county": "Howard",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21029"
+          ]
         },
         {
           "id": "MD-curtis-bay",
@@ -764,7 +986,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21226"
+          ]
         },
         {
           "id": "MD-davidsonville",
@@ -773,7 +998,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21035"
+          ]
         },
         {
           "id": "MD-dayton",
@@ -782,7 +1010,10 @@
           "tier": 1,
           "county": "Howard",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21036"
+          ]
         },
         {
           "id": "MD-finksburg",
@@ -791,7 +1022,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21048"
+          ]
         },
         {
           "id": "MD-forest-hill",
@@ -800,7 +1034,10 @@
           "tier": 1,
           "county": "Harford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21050"
+          ]
         },
         {
           "id": "MD-fort-george-g-meade",
@@ -809,7 +1046,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20755"
+          ]
         },
         {
           "id": "MD-glen-arm",
@@ -818,7 +1058,10 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21057"
+          ]
         },
         {
           "id": "MD-glenwood",
@@ -827,7 +1070,10 @@
           "tier": 1,
           "county": "Howard",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21738"
+          ]
         },
         {
           "id": "MD-gwynn-oak",
@@ -836,7 +1082,10 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21207"
+          ]
         },
         {
           "id": "MD-halethorpe",
@@ -845,7 +1094,10 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21227"
+          ]
         },
         {
           "id": "MD-hanover",
@@ -854,7 +1106,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21076"
+          ]
         },
         {
           "id": "MD-harmans",
@@ -863,7 +1118,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21077"
+          ]
         },
         {
           "id": "MD-harwood",
@@ -872,7 +1130,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20776"
+          ]
         },
         {
           "id": "MD-hydes",
@@ -881,7 +1142,10 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21082"
+          ]
         },
         {
           "id": "MD-joppa",
@@ -890,7 +1154,10 @@
           "tier": 1,
           "county": "Harford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21085"
+          ]
         },
         {
           "id": "MD-keymar",
@@ -899,7 +1166,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21757"
+          ]
         },
         {
           "id": "MD-linthicum-heights",
@@ -908,7 +1178,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21090"
+          ]
         },
         {
           "id": "MD-lothian",
@@ -917,7 +1190,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20711"
+          ]
         },
         {
           "id": "MD-lutherville-timonium",
@@ -926,7 +1202,10 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21093"
+          ]
         },
         {
           "id": "MD-marriottsville",
@@ -935,7 +1214,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21104"
+          ]
         },
         {
           "id": "MD-millersville",
@@ -944,7 +1226,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21108"
+          ]
         },
         {
           "id": "MD-monkton",
@@ -953,7 +1238,10 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21111"
+          ]
         },
         {
           "id": "MD-nottingham",
@@ -962,7 +1250,10 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21236"
+          ]
         },
         {
           "id": "MD-parkton",
@@ -971,7 +1262,10 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21120"
+          ]
         },
         {
           "id": "MD-phoenix",
@@ -980,7 +1274,10 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21131"
+          ]
         },
         {
           "id": "MD-sparrows-point",
@@ -989,7 +1286,10 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21219"
+          ]
         },
         {
           "id": "MD-street",
@@ -998,7 +1298,10 @@
           "tier": 1,
           "county": "Harford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21154"
+          ]
         },
         {
           "id": "MD-tracys-landing",
@@ -1007,7 +1310,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20779"
+          ]
         },
         {
           "id": "MD-upper-falls",
@@ -1016,7 +1322,10 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21156"
+          ]
         },
         {
           "id": "MD-upperco",
@@ -1025,7 +1334,10 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21155"
+          ]
         },
         {
           "id": "MD-west-friendship",
@@ -1034,7 +1346,10 @@
           "tier": 1,
           "county": "Howard",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21794"
+          ]
         },
         {
           "id": "MD-west-river",
@@ -1043,7 +1358,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20778"
+          ]
         },
         {
           "id": "MD-windsor-mill",
@@ -1052,7 +1370,10 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21244"
+          ]
         },
         {
           "id": "MD-woodbine",
@@ -1061,7 +1382,10 @@
           "tier": 1,
           "county": "Carroll",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21797"
+          ]
         },
         {
           "id": "MD-woodstock",
@@ -1070,7 +1394,10 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21163"
+          ]
         },
         {
           "id": "MD-glenelg",
@@ -1079,7 +1406,10 @@
           "tier": 1,
           "county": "Howard",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21737"
+          ]
         },
         {
           "id": "MD-hunt-valley",
@@ -1088,7 +1418,10 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21031"
+          ]
         },
         {
           "id": "MD-stevenson",
@@ -1097,7 +1430,10 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21153"
+          ]
         },
         {
           "id": "MD-fork",
@@ -1106,7 +1442,10 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21051"
+          ]
         },
         {
           "id": "MD-white-hall",
@@ -1115,7 +1454,10 @@
           "tier": 1,
           "county": "Harford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21161"
+          ]
         },
         {
           "id": "MD-fort-howard",
@@ -1124,7 +1466,10 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21052"
+          ]
         },
         {
           "id": "MD-baldwin",
@@ -1133,7 +1478,10 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21013"
+          ]
         },
         {
           "id": "MD-whiteford",
@@ -1142,7 +1490,10 @@
           "tier": 1,
           "county": "Harford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21160"
+          ]
         },
         {
           "id": "MD-cooksville",
@@ -1151,7 +1502,10 @@
           "tier": 1,
           "county": "Howard",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21723"
+          ]
         },
         {
           "id": "MD-sparks-glencoe",
@@ -1160,7 +1514,10 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21152"
+          ]
         },
         {
           "id": "MD-maryland-line",
@@ -1169,7 +1526,10 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21105"
+          ]
         },
         {
           "id": "MD-freeland",
@@ -1178,7 +1538,10 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21053"
+          ]
         },
         {
           "id": "MD-gunpowder",
@@ -1187,7 +1550,10 @@
           "tier": 1,
           "county": "Harford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21010"
+          ]
         },
         {
           "id": "MD-gibson-island",
@@ -1196,7 +1562,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21056"
+          ]
         },
         {
           "id": "MD-glyndon",
@@ -1205,7 +1574,10 @@
           "tier": 1,
           "county": "Baltimore",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21071"
+          ]
         }
       ],
       "adTargeting": {
@@ -1329,7 +1701,16 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 7,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20903",
+            "20906",
+            "20901",
+            "20904",
+            "20905",
+            "20902",
+            "20910"
+          ]
         },
         {
           "id": "MD-frederick",
@@ -1338,7 +1719,14 @@
           "tier": 1,
           "county": "Frederick",
           "zipCount": 5,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21703",
+            "21702",
+            "21704",
+            "21705",
+            "21701"
+          ]
         },
         {
           "id": "MD-gaithersburg",
@@ -1347,7 +1735,14 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 5,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20882",
+            "20899",
+            "20878",
+            "20877",
+            "20879"
+          ]
         },
         {
           "id": "MD-rockville",
@@ -1356,7 +1751,13 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20852",
+            "20850",
+            "20853",
+            "20851"
+          ]
         },
         {
           "id": "MD-bethesda",
@@ -1365,7 +1766,12 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20817",
+            "20814",
+            "20816"
+          ]
         },
         {
           "id": "MD-germantown",
@@ -1374,7 +1780,11 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20874",
+            "20876"
+          ]
         },
         {
           "id": "MD-glen-echo",
@@ -1383,7 +1793,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20812"
+          ]
         },
         {
           "id": "MD-sabillasville",
@@ -1392,7 +1805,10 @@
           "tier": 1,
           "county": "Frederick",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21780"
+          ]
         },
         {
           "id": "MD-spencerville",
@@ -1401,7 +1817,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20868"
+          ]
         },
         {
           "id": "MD-adamstown",
@@ -1410,7 +1829,10 @@
           "tier": 1,
           "county": "Frederick",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21710"
+          ]
         },
         {
           "id": "MD-garrett-park",
@@ -1419,7 +1841,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20896"
+          ]
         },
         {
           "id": "MD-washington-grove",
@@ -1428,7 +1853,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20880"
+          ]
         },
         {
           "id": "MD-barnesville",
@@ -1437,7 +1865,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20838"
+          ]
         },
         {
           "id": "MD-derwood",
@@ -1446,7 +1877,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20855"
+          ]
         },
         {
           "id": "MD-burkittsville",
@@ -1455,7 +1889,10 @@
           "tier": 1,
           "county": "Frederick",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21718"
+          ]
         },
         {
           "id": "MD-walkersville",
@@ -1464,7 +1901,10 @@
           "tier": 1,
           "county": "Frederick",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21793"
+          ]
         },
         {
           "id": "MD-brookeville",
@@ -1473,7 +1913,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20833"
+          ]
         },
         {
           "id": "MD-takoma-park",
@@ -1482,7 +1925,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20912"
+          ]
         },
         {
           "id": "MD-burtonsville",
@@ -1491,7 +1937,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20866"
+          ]
         },
         {
           "id": "MD-emmitsburg",
@@ -1500,7 +1949,10 @@
           "tier": 1,
           "county": "Frederick",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21727"
+          ]
         },
         {
           "id": "MD-jefferson",
@@ -1509,7 +1961,10 @@
           "tier": 1,
           "county": "Frederick",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21755"
+          ]
         },
         {
           "id": "MD-monrovia",
@@ -1518,7 +1973,10 @@
           "tier": 1,
           "county": "Frederick",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21770"
+          ]
         },
         {
           "id": "MD-kensington",
@@ -1527,7 +1985,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20895"
+          ]
         },
         {
           "id": "MD-new-market",
@@ -1536,7 +1997,10 @@
           "tier": 1,
           "county": "Frederick",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21774"
+          ]
         },
         {
           "id": "MD-woodsboro",
@@ -1545,7 +2009,10 @@
           "tier": 1,
           "county": "Frederick",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21798"
+          ]
         },
         {
           "id": "MD-chevy-chase",
@@ -1554,7 +2021,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20815"
+          ]
         },
         {
           "id": "MD-olney",
@@ -1563,7 +2033,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20832"
+          ]
         },
         {
           "id": "MD-potomac",
@@ -1572,7 +2045,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20854"
+          ]
         },
         {
           "id": "MD-thurmont",
@@ -1581,7 +2057,10 @@
           "tier": 1,
           "county": "Frederick",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21788"
+          ]
         },
         {
           "id": "MD-brunswick",
@@ -1590,7 +2069,10 @@
           "tier": 1,
           "county": "Frederick",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21716"
+          ]
         },
         {
           "id": "MD-point-of-rocks",
@@ -1599,7 +2081,10 @@
           "tier": 1,
           "county": "Frederick",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21777"
+          ]
         },
         {
           "id": "MD-cabin-john",
@@ -1608,7 +2093,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20818"
+          ]
         },
         {
           "id": "MD-damascus",
@@ -1617,7 +2105,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20872"
+          ]
         },
         {
           "id": "MD-clarksburg",
@@ -1626,7 +2117,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20871"
+          ]
         },
         {
           "id": "MD-chevy-chase-village",
@@ -1635,7 +2129,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20815"
+          ]
         },
         {
           "id": "MD-poolesville",
@@ -1644,7 +2141,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20837"
+          ]
         },
         {
           "id": "MD-mount-airy",
@@ -1653,7 +2153,10 @@
           "tier": 1,
           "county": "Frederick",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21771"
+          ]
         },
         {
           "id": "MD-montgomery-village",
@@ -1662,7 +2165,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20886"
+          ]
         },
         {
           "id": "MD-myersville",
@@ -1671,7 +2177,10 @@
           "tier": 1,
           "county": "Frederick",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21773"
+          ]
         },
         {
           "id": "MD-middletown",
@@ -1680,7 +2189,10 @@
           "tier": 1,
           "county": "Frederick",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21769"
+          ]
         },
         {
           "id": "MD-buckeystown",
@@ -1689,7 +2201,10 @@
           "tier": 1,
           "county": "Frederick",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21717"
+          ]
         },
         {
           "id": "MD-braddock-heights",
@@ -1698,7 +2213,10 @@
           "tier": 1,
           "county": "Frederick",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21714"
+          ]
         },
         {
           "id": "MD-libertytown",
@@ -1707,7 +2225,10 @@
           "tier": 1,
           "county": "Frederick",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21762"
+          ]
         },
         {
           "id": "MD-ashton",
@@ -1716,7 +2237,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20861"
+          ]
         },
         {
           "id": "MD-boyds",
@@ -1725,7 +2249,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20841"
+          ]
         },
         {
           "id": "MD-brinklow",
@@ -1734,7 +2261,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20862"
+          ]
         },
         {
           "id": "MD-dickerson",
@@ -1743,7 +2273,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20842"
+          ]
         },
         {
           "id": "MD-ijamsville",
@@ -1752,7 +2285,10 @@
           "tier": 1,
           "county": "Frederick",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21754"
+          ]
         },
         {
           "id": "MD-knoxville",
@@ -1761,7 +2297,10 @@
           "tier": 1,
           "county": "Frederick",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21758"
+          ]
         },
         {
           "id": "MD-sandy-spring",
@@ -1770,7 +2309,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20860"
+          ]
         },
         {
           "id": "MD-tuscarora",
@@ -1779,7 +2321,10 @@
           "tier": 1,
           "county": "Frederick",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21790"
+          ]
         },
         {
           "id": "MD-rocky-ridge",
@@ -1788,7 +2333,10 @@
           "tier": 1,
           "county": "Frederick",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21778"
+          ]
         },
         {
           "id": "MD-beallsville",
@@ -1797,7 +2345,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20839"
+          ]
         },
         {
           "id": "MD-friendship-heights-village",
@@ -1806,7 +2357,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20815"
+          ]
         },
         {
           "id": "MD-cedar-heights",
@@ -1815,7 +2369,10 @@
           "tier": 1,
           "county": "Prince George's",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20743"
+          ]
         },
         {
           "id": "MD-maryland-park",
@@ -1824,7 +2381,10 @@
           "tier": 1,
           "county": "Prince George's",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20743"
+          ]
         },
         {
           "id": "MD-bethesda-bethesda-downtown",
@@ -1833,7 +2393,10 @@
           "tier": 2,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20814"
+          ]
         },
         {
           "id": "MD-bethesda-bethesda-chevy-chase",
@@ -1842,7 +2405,11 @@
           "tier": 2,
           "county": "Montgomery",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20814",
+            "20815"
+          ]
         }
       ],
       "adTargeting": {
@@ -2001,7 +2568,12 @@
           "tier": 1,
           "county": "Wicomico",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21801",
+            "21804",
+            "21802"
+          ]
         },
         {
           "id": "MD-westover",
@@ -2010,7 +2582,11 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21871",
+            "21890"
+          ]
         },
         {
           "id": "MD-preston",
@@ -2019,7 +2595,10 @@
           "tier": 1,
           "county": "Caroline",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21655"
+          ]
         },
         {
           "id": "MD-goldsboro",
@@ -2028,7 +2607,10 @@
           "tier": 1,
           "county": "Caroline",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21636"
+          ]
         },
         {
           "id": "MD-marydel",
@@ -2037,7 +2619,10 @@
           "tier": 1,
           "county": "Caroline",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21649"
+          ]
         },
         {
           "id": "MD-pittsville",
@@ -2046,7 +2631,10 @@
           "tier": 1,
           "county": "Wicomico",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21850"
+          ]
         },
         {
           "id": "MD-betterton",
@@ -2055,7 +2643,10 @@
           "tier": 1,
           "county": "Kent",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21610"
+          ]
         },
         {
           "id": "MD-quantico",
@@ -2064,7 +2655,10 @@
           "tier": 1,
           "county": "Wicomico",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21856"
+          ]
         },
         {
           "id": "MD-hillsboro",
@@ -2073,7 +2667,10 @@
           "tier": 1,
           "county": "Caroline",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21641"
+          ]
         },
         {
           "id": "MD-chesapeake-city",
@@ -2082,7 +2679,10 @@
           "tier": 1,
           "county": "Cecil",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21915"
+          ]
         },
         {
           "id": "MD-cordova",
@@ -2091,7 +2691,10 @@
           "tier": 1,
           "county": "Talbot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21625"
+          ]
         },
         {
           "id": "MD-girdletree",
@@ -2100,7 +2703,10 @@
           "tier": 1,
           "county": "Worcester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21829"
+          ]
         },
         {
           "id": "MD-kennedyville",
@@ -2109,7 +2715,10 @@
           "tier": 1,
           "county": "Kent",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21645"
+          ]
         },
         {
           "id": "MD-georgetown",
@@ -2118,7 +2727,10 @@
           "tier": 1,
           "county": "Cecil",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21930"
+          ]
         },
         {
           "id": "MD-allen",
@@ -2127,7 +2739,10 @@
           "tier": 1,
           "county": "Wicomico",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21810"
+          ]
         },
         {
           "id": "MD-galena",
@@ -2136,7 +2751,10 @@
           "tier": 1,
           "county": "Kent",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21635"
+          ]
         },
         {
           "id": "MD-henderson",
@@ -2145,7 +2763,10 @@
           "tier": 1,
           "county": "Caroline",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21640"
+          ]
         },
         {
           "id": "MD-parsonsburg",
@@ -2154,7 +2775,10 @@
           "tier": 1,
           "county": "Wicomico",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21849"
+          ]
         },
         {
           "id": "MD-still-pond",
@@ -2163,7 +2787,10 @@
           "tier": 1,
           "county": "Kent",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21667"
+          ]
         },
         {
           "id": "MD-delmar",
@@ -2172,7 +2799,10 @@
           "tier": 1,
           "county": "Wicomico",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21875"
+          ]
         },
         {
           "id": "MD-port-deposit",
@@ -2181,7 +2811,10 @@
           "tier": 1,
           "county": "Cecil",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21904"
+          ]
         },
         {
           "id": "MD-crisfield",
@@ -2190,7 +2823,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21817"
+          ]
         },
         {
           "id": "MD-millington",
@@ -2199,7 +2835,10 @@
           "tier": 1,
           "county": "Kent",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21651"
+          ]
         },
         {
           "id": "MD-federalsburg",
@@ -2208,7 +2847,10 @@
           "tier": 1,
           "county": "Caroline",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21632"
+          ]
         },
         {
           "id": "MD-north-east",
@@ -2217,7 +2859,10 @@
           "tier": 1,
           "county": "Cecil",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21901"
+          ]
         },
         {
           "id": "MD-cecilton",
@@ -2226,7 +2871,10 @@
           "tier": 1,
           "county": "Cecil",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21913"
+          ]
         },
         {
           "id": "MD-denton",
@@ -2235,7 +2883,10 @@
           "tier": 1,
           "county": "Caroline",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21629"
+          ]
         },
         {
           "id": "MD-pocomoke-city",
@@ -2244,7 +2895,10 @@
           "tier": 1,
           "county": "Worcester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21851"
+          ]
         },
         {
           "id": "MD-greensboro",
@@ -2253,7 +2907,10 @@
           "tier": 1,
           "county": "Caroline",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21639"
+          ]
         },
         {
           "id": "MD-charlestown",
@@ -2262,7 +2919,10 @@
           "tier": 1,
           "county": "Cecil",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21914"
+          ]
         },
         {
           "id": "MD-deal-island",
@@ -2271,7 +2931,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21821"
+          ]
         },
         {
           "id": "MD-elkton",
@@ -2280,7 +2943,10 @@
           "tier": 1,
           "county": "Cecil",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21921"
+          ]
         },
         {
           "id": "MD-ridgely",
@@ -2289,7 +2955,10 @@
           "tier": 1,
           "county": "Caroline",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21660"
+          ]
         },
         {
           "id": "MD-trappe",
@@ -2298,7 +2967,10 @@
           "tier": 1,
           "county": "Talbot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21673"
+          ]
         },
         {
           "id": "MD-sharptown",
@@ -2307,7 +2979,10 @@
           "tier": 1,
           "county": "Wicomico",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21861"
+          ]
         },
         {
           "id": "MD-ocean-city",
@@ -2316,7 +2991,10 @@
           "tier": 1,
           "county": "Worcester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21842"
+          ]
         },
         {
           "id": "MD-oxford",
@@ -2325,7 +3003,10 @@
           "tier": 1,
           "county": "Talbot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21654"
+          ]
         },
         {
           "id": "MD-easton",
@@ -2334,7 +3015,10 @@
           "tier": 1,
           "county": "Talbot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21601"
+          ]
         },
         {
           "id": "MD-secretary",
@@ -2343,7 +3027,10 @@
           "tier": 1,
           "county": "Dorchester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21664"
+          ]
         },
         {
           "id": "MD-vienna",
@@ -2352,7 +3039,10 @@
           "tier": 1,
           "county": "Dorchester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21869"
+          ]
         },
         {
           "id": "MD-eden",
@@ -2361,7 +3051,10 @@
           "tier": 1,
           "county": "Worcester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21822"
+          ]
         },
         {
           "id": "MD-stockton",
@@ -2370,7 +3063,10 @@
           "tier": 1,
           "county": "Worcester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21864"
+          ]
         },
         {
           "id": "MD-whaleyville",
@@ -2379,7 +3075,10 @@
           "tier": 1,
           "county": "Worcester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21872"
+          ]
         },
         {
           "id": "MD-snow-hill",
@@ -2388,7 +3087,10 @@
           "tier": 1,
           "county": "Worcester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21863"
+          ]
         },
         {
           "id": "MD-hurlock",
@@ -2397,7 +3099,10 @@
           "tier": 1,
           "county": "Dorchester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21643"
+          ]
         },
         {
           "id": "MD-church-creek",
@@ -2406,7 +3111,10 @@
           "tier": 1,
           "county": "Dorchester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21622"
+          ]
         },
         {
           "id": "MD-madison",
@@ -2415,7 +3123,10 @@
           "tier": 1,
           "county": "Dorchester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21648"
+          ]
         },
         {
           "id": "MD-fishing-creek",
@@ -2424,7 +3135,10 @@
           "tier": 1,
           "county": "Dorchester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21634"
+          ]
         },
         {
           "id": "MD-worton",
@@ -2433,7 +3147,10 @@
           "tier": 1,
           "county": "Kent",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21678"
+          ]
         },
         {
           "id": "MD-tyaskin",
@@ -2442,7 +3159,10 @@
           "tier": 1,
           "county": "Wicomico",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21865"
+          ]
         },
         {
           "id": "MD-nanticoke",
@@ -2451,7 +3171,10 @@
           "tier": 1,
           "county": "Wicomico",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21840"
+          ]
         },
         {
           "id": "MD-newark",
@@ -2460,7 +3183,10 @@
           "tier": 1,
           "county": "Worcester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21841"
+          ]
         },
         {
           "id": "MD-bishopville",
@@ -2469,7 +3195,10 @@
           "tier": 1,
           "county": "Worcester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21813"
+          ]
         },
         {
           "id": "MD-willards",
@@ -2478,7 +3207,10 @@
           "tier": 1,
           "county": "Wicomico",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21874"
+          ]
         },
         {
           "id": "MD-hebron",
@@ -2487,7 +3219,10 @@
           "tier": 1,
           "county": "Wicomico",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21830"
+          ]
         },
         {
           "id": "MD-chestertown",
@@ -2496,7 +3231,10 @@
           "tier": 1,
           "county": "Kent",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21620"
+          ]
         },
         {
           "id": "MD-rock-hall",
@@ -2505,7 +3243,10 @@
           "tier": 1,
           "county": "Kent",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21661"
+          ]
         },
         {
           "id": "MD-cambridge",
@@ -2514,7 +3255,10 @@
           "tier": 1,
           "county": "Dorchester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21613"
+          ]
         },
         {
           "id": "MD-taylors-island",
@@ -2523,7 +3267,10 @@
           "tier": 1,
           "county": "Dorchester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21669"
+          ]
         },
         {
           "id": "MD-fruitland",
@@ -2532,7 +3279,10 @@
           "tier": 1,
           "county": "Wicomico",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21826"
+          ]
         },
         {
           "id": "MD-bivalve",
@@ -2541,7 +3291,10 @@
           "tier": 1,
           "county": "Wicomico",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21814"
+          ]
         },
         {
           "id": "MD-princess-anne",
@@ -2550,7 +3303,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21853"
+          ]
         },
         {
           "id": "MD-perryville",
@@ -2559,7 +3315,10 @@
           "tier": 1,
           "county": "Cecil",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21903"
+          ]
         },
         {
           "id": "MD-rising-sun",
@@ -2568,7 +3327,10 @@
           "tier": 1,
           "county": "Cecil",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21911"
+          ]
         },
         {
           "id": "MD-east-new-market",
@@ -2577,7 +3339,10 @@
           "tier": 1,
           "county": "Dorchester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21631"
+          ]
         },
         {
           "id": "MD-mardela-springs",
@@ -2586,7 +3351,10 @@
           "tier": 1,
           "county": "Wicomico",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21837"
+          ]
         },
         {
           "id": "MD-berlin",
@@ -2595,7 +3363,10 @@
           "tier": 1,
           "county": "Worcester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21811"
+          ]
         },
         {
           "id": "MD-conowingo",
@@ -2604,7 +3375,10 @@
           "tier": 1,
           "county": "Cecil",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21918"
+          ]
         },
         {
           "id": "MD-warwick",
@@ -2613,7 +3387,10 @@
           "tier": 1,
           "county": "Cecil",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21912"
+          ]
         },
         {
           "id": "MD-earleville",
@@ -2622,7 +3399,10 @@
           "tier": 1,
           "county": "Cecil",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21919"
+          ]
         },
         {
           "id": "MD-elk-mills",
@@ -2631,7 +3411,10 @@
           "tier": 1,
           "county": "Cecil",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21920"
+          ]
         },
         {
           "id": "MD-colora",
@@ -2640,7 +3423,10 @@
           "tier": 1,
           "county": "Cecil",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21917"
+          ]
         },
         {
           "id": "MD-rhodesdale",
@@ -2649,7 +3435,10 @@
           "tier": 1,
           "county": "Dorchester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21659"
+          ]
         },
         {
           "id": "MD-linkwood",
@@ -2658,7 +3447,10 @@
           "tier": 1,
           "county": "Dorchester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21835"
+          ]
         },
         {
           "id": "MD-wingate",
@@ -2667,7 +3459,10 @@
           "tier": 1,
           "county": "Dorchester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21675"
+          ]
         },
         {
           "id": "MD-tilghman",
@@ -2676,7 +3471,10 @@
           "tier": 1,
           "county": "Talbot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21671"
+          ]
         },
         {
           "id": "MD-toddville",
@@ -2685,7 +3483,10 @@
           "tier": 1,
           "county": "Dorchester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21672"
+          ]
         },
         {
           "id": "MD-woolford",
@@ -2694,7 +3495,10 @@
           "tier": 1,
           "county": "Dorchester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21677"
+          ]
         },
         {
           "id": "MD-crapo",
@@ -2703,7 +3507,10 @@
           "tier": 1,
           "county": "Dorchester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21626"
+          ]
         },
         {
           "id": "MD-bozman",
@@ -2712,7 +3519,10 @@
           "tier": 1,
           "county": "Talbot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21612"
+          ]
         },
         {
           "id": "MD-newcomb",
@@ -2721,7 +3531,10 @@
           "tier": 1,
           "county": "Talbot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21653"
+          ]
         },
         {
           "id": "MD-childs",
@@ -2730,7 +3543,10 @@
           "tier": 1,
           "county": "Cecil",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21916"
+          ]
         },
         {
           "id": "MD-sherwood",
@@ -2739,7 +3555,10 @@
           "tier": 1,
           "county": "Talbot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21665"
+          ]
         },
         {
           "id": "MD-neavitt",
@@ -2748,7 +3567,10 @@
           "tier": 1,
           "county": "Talbot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21652"
+          ]
         },
         {
           "id": "MD-massey",
@@ -2757,7 +3579,10 @@
           "tier": 1,
           "county": "Kent",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21650"
+          ]
         },
         {
           "id": "MD-claiborne",
@@ -2766,7 +3591,10 @@
           "tier": 1,
           "county": "Talbot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21624"
+          ]
         },
         {
           "id": "MD-mcdaniel",
@@ -2775,7 +3603,10 @@
           "tier": 1,
           "county": "Talbot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21647"
+          ]
         },
         {
           "id": "MD-royal-oak",
@@ -2784,7 +3615,10 @@
           "tier": 1,
           "county": "Talbot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21662"
+          ]
         },
         {
           "id": "MD-perry-point",
@@ -2793,7 +3627,10 @@
           "tier": 1,
           "county": "Cecil",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21902"
+          ]
         },
         {
           "id": "MD-marion-station",
@@ -2802,7 +3639,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21838"
+          ]
         },
         {
           "id": "MD-upper-fairmount",
@@ -2811,7 +3651,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21867"
+          ]
         },
         {
           "id": "MD-ewell",
@@ -2820,7 +3663,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21824"
+          ]
         },
         {
           "id": "MD-tylerton",
@@ -2829,7 +3675,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21866"
+          ]
         },
         {
           "id": "MD-saint-michaels",
@@ -2838,7 +3687,10 @@
           "tier": 1,
           "county": "Talbot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21663"
+          ]
         },
         {
           "id": "MD-showell",
@@ -2847,7 +3699,10 @@
           "tier": 1,
           "county": "Worcester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21862"
+          ]
         },
         {
           "id": "MD-crocheron",
@@ -2856,7 +3711,10 @@
           "tier": 1,
           "county": "Dorchester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21627"
+          ]
         },
         {
           "id": "MD-wye-mills",
@@ -2865,7 +3723,10 @@
           "tier": 1,
           "county": "Talbot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21679"
+          ]
         },
         {
           "id": "MD-wittman",
@@ -2874,7 +3735,10 @@
           "tier": 1,
           "county": "Talbot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21676"
+          ]
         },
         {
           "id": "MD-williston",
@@ -2883,7 +3747,10 @@
           "tier": 1,
           "county": "Caroline",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21629"
+          ]
         }
       ],
       "adTargeting": {
@@ -3012,7 +3879,12 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21746",
+            "21742",
+            "21740"
+          ]
         },
         {
           "id": "MD-waldorf",
@@ -3021,7 +3893,12 @@
           "tier": 1,
           "county": "Charles",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20601",
+            "20603",
+            "20602"
+          ]
         },
         {
           "id": "MD-keedysville",
@@ -3030,7 +3907,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21756"
+          ]
         },
         {
           "id": "MD-benedict",
@@ -3039,7 +3919,10 @@
           "tier": 1,
           "county": "Charles",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20612"
+          ]
         },
         {
           "id": "MD-rohrersville",
@@ -3048,7 +3931,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21779"
+          ]
         },
         {
           "id": "MD-clear-spring",
@@ -3057,7 +3943,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21722"
+          ]
         },
         {
           "id": "MD-lonaconing",
@@ -3066,7 +3955,10 @@
           "tier": 1,
           "county": "Allegany",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21539"
+          ]
         },
         {
           "id": "MD-port-tobacco-village",
@@ -3075,7 +3967,10 @@
           "tier": 1,
           "county": "Charles",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20677"
+          ]
         },
         {
           "id": "MD-ellerslie",
@@ -3084,7 +3979,10 @@
           "tier": 1,
           "county": "Allegany",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21529"
+          ]
         },
         {
           "id": "MD-prince-frederick",
@@ -3093,7 +3991,10 @@
           "tier": 1,
           "county": "Calvert",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20678"
+          ]
         },
         {
           "id": "MD-pomfret",
@@ -3102,7 +4003,10 @@
           "tier": 1,
           "county": "Charles",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20675"
+          ]
         },
         {
           "id": "MD-swanton",
@@ -3111,7 +4015,10 @@
           "tier": 1,
           "county": "Garrett",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21561"
+          ]
         },
         {
           "id": "MD-barton",
@@ -3120,7 +4027,10 @@
           "tier": 1,
           "county": "Allegany",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21521"
+          ]
         },
         {
           "id": "MD-owings",
@@ -3129,7 +4039,10 @@
           "tier": 1,
           "county": "Calvert",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20736"
+          ]
         },
         {
           "id": "MD-broomes-island",
@@ -3138,7 +4051,10 @@
           "tier": 1,
           "county": "Calvert",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20615"
+          ]
         },
         {
           "id": "MD-accident",
@@ -3147,7 +4063,10 @@
           "tier": 1,
           "county": "Garrett",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21520"
+          ]
         },
         {
           "id": "MD-sharpsburg",
@@ -3156,7 +4075,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21782"
+          ]
         },
         {
           "id": "MD-grantsville",
@@ -3165,7 +4087,10 @@
           "tier": 1,
           "county": "Garrett",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21536"
+          ]
         },
         {
           "id": "MD-little-orleans",
@@ -3174,7 +4099,10 @@
           "tier": 1,
           "county": "Allegany",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21766"
+          ]
         },
         {
           "id": "MD-williamsport",
@@ -3183,7 +4111,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21795"
+          ]
         },
         {
           "id": "MD-solomons",
@@ -3192,7 +4123,10 @@
           "tier": 1,
           "county": "Calvert",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20688"
+          ]
         },
         {
           "id": "MD-hughesville",
@@ -3201,7 +4135,10 @@
           "tier": 1,
           "county": "Charles",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20637"
+          ]
         },
         {
           "id": "MD-bryans-road",
@@ -3210,7 +4147,10 @@
           "tier": 1,
           "county": "Charles",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20616"
+          ]
         },
         {
           "id": "MD-corriganville",
@@ -3219,7 +4159,10 @@
           "tier": 1,
           "county": "Allegany",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21524"
+          ]
         },
         {
           "id": "MD-bryantown",
@@ -3228,7 +4171,10 @@
           "tier": 1,
           "county": "Charles",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20617"
+          ]
         },
         {
           "id": "MD-funkstown",
@@ -3237,7 +4183,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21734"
+          ]
         },
         {
           "id": "MD-hancock",
@@ -3246,7 +4195,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21750"
+          ]
         },
         {
           "id": "MD-friendsville",
@@ -3255,7 +4207,10 @@
           "tier": 1,
           "county": "Garrett",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21531"
+          ]
         },
         {
           "id": "MD-indian-head",
@@ -3264,7 +4219,10 @@
           "tier": 1,
           "county": "Charles",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20640"
+          ]
         },
         {
           "id": "MD-midland",
@@ -3273,7 +4231,10 @@
           "tier": 1,
           "county": "Allegany",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21542"
+          ]
         },
         {
           "id": "MD-westernport",
@@ -3282,7 +4243,10 @@
           "tier": 1,
           "county": "Allegany",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21562"
+          ]
         },
         {
           "id": "MD-north-beach",
@@ -3291,7 +4255,10 @@
           "tier": 1,
           "county": "Calvert",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20714"
+          ]
         },
         {
           "id": "MD-oakland",
@@ -3300,7 +4267,10 @@
           "tier": 1,
           "county": "Garrett",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21550"
+          ]
         },
         {
           "id": "MD-frostburg",
@@ -3309,7 +4279,10 @@
           "tier": 1,
           "county": "Allegany",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21532"
+          ]
         },
         {
           "id": "MD-flintstone",
@@ -3318,7 +4291,10 @@
           "tier": 1,
           "county": "Allegany",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21530"
+          ]
         },
         {
           "id": "MD-oldtown",
@@ -3327,7 +4303,10 @@
           "tier": 1,
           "county": "Allegany",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21555"
+          ]
         },
         {
           "id": "MD-maugansville",
@@ -3336,7 +4315,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21767"
+          ]
         },
         {
           "id": "MD-cobb-island",
@@ -3345,7 +4327,10 @@
           "tier": 1,
           "county": "Charles",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20625"
+          ]
         },
         {
           "id": "MD-lusby",
@@ -3354,7 +4339,10 @@
           "tier": 1,
           "county": "Calvert",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20657"
+          ]
         },
         {
           "id": "MD-bloomington",
@@ -3363,7 +4351,10 @@
           "tier": 1,
           "county": "Garrett",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21523"
+          ]
         },
         {
           "id": "MD-big-pool",
@@ -3372,7 +4363,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21711"
+          ]
         },
         {
           "id": "MD-huntingtown",
@@ -3381,7 +4375,10 @@
           "tier": 1,
           "county": "Calvert",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20639"
+          ]
         },
         {
           "id": "MD-cumberland",
@@ -3390,7 +4387,10 @@
           "tier": 1,
           "county": "Allegany",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21502"
+          ]
         },
         {
           "id": "MD-la-plata",
@@ -3399,7 +4399,10 @@
           "tier": 1,
           "county": "Charles",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20646"
+          ]
         },
         {
           "id": "MD-boonsboro",
@@ -3408,7 +4411,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21713"
+          ]
         },
         {
           "id": "MD-smithsburg",
@@ -3417,7 +4423,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21783"
+          ]
         },
         {
           "id": "MD-luke",
@@ -3426,7 +4435,10 @@
           "tier": 1,
           "county": "Allegany",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21540"
+          ]
         },
         {
           "id": "MD-kitzmiller",
@@ -3435,7 +4447,10 @@
           "tier": 1,
           "county": "Garrett",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21538"
+          ]
         },
         {
           "id": "MD-mount-savage",
@@ -3444,7 +4459,10 @@
           "tier": 1,
           "county": "Allegany",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21545"
+          ]
         },
         {
           "id": "MD-midlothian",
@@ -3453,7 +4471,10 @@
           "tier": 1,
           "county": "Allegany",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21543"
+          ]
         },
         {
           "id": "MD-fairplay",
@@ -3462,7 +4483,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21733"
+          ]
         },
         {
           "id": "MD-dunkirk",
@@ -3471,7 +4495,10 @@
           "tier": 1,
           "county": "Calvert",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20754"
+          ]
         },
         {
           "id": "MD-chesapeake-beach",
@@ -3480,7 +4507,10 @@
           "tier": 1,
           "county": "Calvert",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20732"
+          ]
         },
         {
           "id": "MD-rawlings",
@@ -3489,7 +4519,10 @@
           "tier": 1,
           "county": "Allegany",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21557"
+          ]
         },
         {
           "id": "MD-nanjemoy",
@@ -3498,7 +4531,10 @@
           "tier": 1,
           "county": "Charles",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20662"
+          ]
         },
         {
           "id": "MD-newburg",
@@ -3507,7 +4543,10 @@
           "tier": 1,
           "county": "Charles",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20664"
+          ]
         },
         {
           "id": "MD-port-republic",
@@ -3516,7 +4555,10 @@
           "tier": 1,
           "county": "Calvert",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20676"
+          ]
         },
         {
           "id": "MD-port-tobacco",
@@ -3525,7 +4567,10 @@
           "tier": 1,
           "county": "Charles",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20677"
+          ]
         },
         {
           "id": "MD-white-plains",
@@ -3534,7 +4579,10 @@
           "tier": 1,
           "county": "Charles",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20695"
+          ]
         },
         {
           "id": "MD-issue",
@@ -3543,7 +4591,10 @@
           "tier": 1,
           "county": "Charles",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20645"
+          ]
         },
         {
           "id": "MD-saint-james",
@@ -3552,7 +4603,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21781"
+          ]
         },
         {
           "id": "MD-dowell",
@@ -3561,7 +4615,10 @@
           "tier": 1,
           "county": "Calvert",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20629"
+          ]
         },
         {
           "id": "MD-sunderland",
@@ -3570,7 +4627,10 @@
           "tier": 1,
           "county": "Calvert",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20689"
+          ]
         },
         {
           "id": "MD-welcome",
@@ -3579,7 +4639,10 @@
           "tier": 1,
           "county": "Charles",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20693"
+          ]
         },
         {
           "id": "MD-cascade",
@@ -3588,7 +4651,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21719"
+          ]
         },
         {
           "id": "MD-saint-leonard",
@@ -3597,7 +4663,10 @@
           "tier": 1,
           "county": "Calvert",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20685"
+          ]
         },
         {
           "id": "MD-faulkner",
@@ -3606,7 +4675,10 @@
           "tier": 1,
           "county": "Charles",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20632"
+          ]
         },
         {
           "id": "MD-marbury",
@@ -3615,7 +4687,10 @@
           "tier": 1,
           "county": "Charles",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20658"
+          ]
         },
         {
           "id": "MD-bel-alton",
@@ -3624,7 +4699,10 @@
           "tier": 1,
           "county": "Charles",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20611"
+          ]
         },
         {
           "id": "MD-bittinger",
@@ -3633,7 +4711,10 @@
           "tier": 1,
           "county": "Garrett",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21522"
+          ]
         },
         {
           "id": "MD-mc-henry",
@@ -3642,7 +4723,10 @@
           "tier": 1,
           "county": "Garrett",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21541"
+          ]
         },
         {
           "id": "MD-national",
@@ -3651,7 +4735,10 @@
           "tier": 1,
           "county": "Allegany",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21542"
+          ]
         },
         {
           "id": "MD-carlos",
@@ -3660,7 +4747,10 @@
           "tier": 1,
           "county": "Allegany",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21542"
+          ]
         },
         {
           "id": "MD-dargan",
@@ -3669,7 +4759,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21782"
+          ]
         },
         {
           "id": "MD-clarysville",
@@ -3678,7 +4771,10 @@
           "tier": 1,
           "county": "Allegany",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21545"
+          ]
         },
         {
           "id": "MD-ocean",
@@ -3687,7 +4783,10 @@
           "tier": 1,
           "county": "Allegany",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21542"
+          ]
         },
         {
           "id": "MD-nikep",
@@ -3696,7 +4795,10 @@
           "tier": 1,
           "county": "Allegany",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21539"
+          ]
         },
         {
           "id": "MD-charlton",
@@ -3705,7 +4807,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21722"
+          ]
         },
         {
           "id": "MD-hutton",
@@ -3714,7 +4819,10 @@
           "tier": 1,
           "county": "Garrett",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21550"
+          ]
         },
         {
           "id": "MD-cearfoss",
@@ -3723,7 +4831,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21767"
+          ]
         },
         {
           "id": "MD-barrelville",
@@ -3732,7 +4843,10 @@
           "tier": 1,
           "county": "Allegany",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21545"
+          ]
         },
         {
           "id": "MD-gapland",
@@ -3741,7 +4855,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21779"
+          ]
         },
         {
           "id": "MD-antietam",
@@ -3750,7 +4867,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21782"
+          ]
         },
         {
           "id": "MD-eakles-mill",
@@ -3759,7 +4879,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21756"
+          ]
         },
         {
           "id": "MD-indian-springs",
@@ -3768,7 +4891,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21711"
+          ]
         },
         {
           "id": "MD-middleburg",
@@ -3777,7 +4903,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21767"
+          ]
         },
         {
           "id": "MD-big-spring",
@@ -3786,7 +4915,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21722"
+          ]
         },
         {
           "id": "MD-kemps-mill",
@@ -3795,7 +4927,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21795"
+          ]
         },
         {
           "id": "MD-yarrowsburg",
@@ -3804,7 +4939,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21779"
+          ]
         },
         {
           "id": "MD-woodland",
@@ -3813,7 +4951,10 @@
           "tier": 1,
           "county": "Allegany",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21542"
+          ]
         },
         {
           "id": "MD-detmold",
@@ -3822,7 +4963,10 @@
           "tier": 1,
           "county": "Allegany",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21539"
+          ]
         },
         {
           "id": "MD-reid",
@@ -3831,7 +4975,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21742"
+          ]
         },
         {
           "id": "MD-pondsville",
@@ -3840,7 +4987,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21783"
+          ]
         },
         {
           "id": "MD-gilmore",
@@ -3849,7 +4999,10 @@
           "tier": 1,
           "county": "Allegany",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21542"
+          ]
         },
         {
           "id": "MD-bakersville",
@@ -3858,7 +5011,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21733"
+          ]
         },
         {
           "id": "MD-fairview",
@@ -3867,7 +5023,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21722"
+          ]
         },
         {
           "id": "MD-ernstville",
@@ -3876,7 +5035,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21711"
+          ]
         }
       ],
       "adTargeting": {
@@ -3962,7 +5124,13 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21405",
+            "21403",
+            "21402",
+            "21401"
+          ]
         },
         {
           "id": "MD-glen-burnie",
@@ -3971,7 +5139,11 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21060",
+            "21061"
+          ]
         },
         {
           "id": "MD-riva",
@@ -3980,7 +5152,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21140"
+          ]
         },
         {
           "id": "MD-crownsville",
@@ -3989,7 +5164,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21032"
+          ]
         },
         {
           "id": "MD-pasadena",
@@ -3998,7 +5176,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21122"
+          ]
         },
         {
           "id": "MD-odenton",
@@ -4007,7 +5188,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21113"
+          ]
         },
         {
           "id": "MD-gambrills",
@@ -4016,7 +5200,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21054"
+          ]
         },
         {
           "id": "MD-galesville",
@@ -4025,7 +5212,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20765"
+          ]
         },
         {
           "id": "MD-severna-park",
@@ -4034,7 +5224,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21146"
+          ]
         },
         {
           "id": "MD-arnold",
@@ -4043,7 +5236,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21012"
+          ]
         },
         {
           "id": "MD-edgewater",
@@ -4052,7 +5248,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21037"
+          ]
         },
         {
           "id": "MD-crofton",
@@ -4061,7 +5260,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21114"
+          ]
         },
         {
           "id": "MD-deale",
@@ -4070,7 +5272,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20751"
+          ]
         },
         {
           "id": "MD-severn",
@@ -4079,7 +5284,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21144"
+          ]
         },
         {
           "id": "MD-friendship",
@@ -4088,7 +5296,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20758"
+          ]
         },
         {
           "id": "MD-shady-side",
@@ -4097,7 +5308,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20764"
+          ]
         },
         {
           "id": "MD-brooklyn",
@@ -4106,7 +5320,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21225"
+          ]
         },
         {
           "id": "MD-churchton",
@@ -4115,7 +5332,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20733"
+          ]
         },
         {
           "id": "MD-curtis-bay",
@@ -4124,7 +5344,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21226"
+          ]
         },
         {
           "id": "MD-davidsonville",
@@ -4133,7 +5356,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21035"
+          ]
         },
         {
           "id": "MD-fort-george-g-meade",
@@ -4142,7 +5368,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20755"
+          ]
         },
         {
           "id": "MD-hanover",
@@ -4151,7 +5380,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21076"
+          ]
         },
         {
           "id": "MD-harmans",
@@ -4160,7 +5392,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21077"
+          ]
         },
         {
           "id": "MD-harwood",
@@ -4169,7 +5404,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20776"
+          ]
         },
         {
           "id": "MD-linthicum-heights",
@@ -4178,7 +5416,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21090"
+          ]
         },
         {
           "id": "MD-lothian",
@@ -4187,7 +5428,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20711"
+          ]
         },
         {
           "id": "MD-millersville",
@@ -4196,7 +5440,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21108"
+          ]
         },
         {
           "id": "MD-tracys-landing",
@@ -4205,7 +5452,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20779"
+          ]
         },
         {
           "id": "MD-west-river",
@@ -4214,7 +5464,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20778"
+          ]
         },
         {
           "id": "MD-gibson-island",
@@ -4223,7 +5476,10 @@
           "tier": 1,
           "county": "Anne Arundel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "21056"
+          ]
         }
       ],
       "adTargeting": {
@@ -4318,7 +5574,16 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 7,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20903",
+            "20906",
+            "20901",
+            "20904",
+            "20905",
+            "20902",
+            "20910"
+          ]
         },
         {
           "id": "MD-gaithersburg",
@@ -4327,7 +5592,14 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 5,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20882",
+            "20899",
+            "20878",
+            "20877",
+            "20879"
+          ]
         },
         {
           "id": "MD-rockville",
@@ -4336,7 +5608,13 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20852",
+            "20850",
+            "20853",
+            "20851"
+          ]
         },
         {
           "id": "MD-bethesda",
@@ -4345,7 +5623,12 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20817",
+            "20814",
+            "20816"
+          ]
         },
         {
           "id": "MD-germantown",
@@ -4354,7 +5637,11 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20874",
+            "20876"
+          ]
         },
         {
           "id": "MD-glen-echo",
@@ -4363,7 +5650,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20812"
+          ]
         },
         {
           "id": "MD-spencerville",
@@ -4372,7 +5662,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20868"
+          ]
         },
         {
           "id": "MD-garrett-park",
@@ -4381,7 +5674,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20896"
+          ]
         },
         {
           "id": "MD-washington-grove",
@@ -4390,7 +5686,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20880"
+          ]
         },
         {
           "id": "MD-barnesville",
@@ -4399,7 +5698,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20838"
+          ]
         },
         {
           "id": "MD-derwood",
@@ -4408,7 +5710,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20855"
+          ]
         },
         {
           "id": "MD-brookeville",
@@ -4417,7 +5722,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20833"
+          ]
         },
         {
           "id": "MD-takoma-park",
@@ -4426,7 +5734,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20912"
+          ]
         },
         {
           "id": "MD-burtonsville",
@@ -4435,7 +5746,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20866"
+          ]
         },
         {
           "id": "MD-kensington",
@@ -4444,7 +5758,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20895"
+          ]
         },
         {
           "id": "MD-chevy-chase",
@@ -4453,7 +5770,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20815"
+          ]
         },
         {
           "id": "MD-olney",
@@ -4462,7 +5782,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20832"
+          ]
         },
         {
           "id": "MD-potomac",
@@ -4471,7 +5794,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20854"
+          ]
         },
         {
           "id": "MD-cabin-john",
@@ -4480,7 +5806,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20818"
+          ]
         },
         {
           "id": "MD-damascus",
@@ -4489,7 +5818,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20872"
+          ]
         },
         {
           "id": "MD-clarksburg",
@@ -4498,7 +5830,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20871"
+          ]
         },
         {
           "id": "MD-chevy-chase-village",
@@ -4507,7 +5842,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20815"
+          ]
         },
         {
           "id": "MD-poolesville",
@@ -4516,7 +5854,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20837"
+          ]
         },
         {
           "id": "MD-montgomery-village",
@@ -4525,7 +5866,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20886"
+          ]
         },
         {
           "id": "MD-ashton",
@@ -4534,7 +5878,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20861"
+          ]
         },
         {
           "id": "MD-boyds",
@@ -4543,7 +5890,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20841"
+          ]
         },
         {
           "id": "MD-brinklow",
@@ -4552,7 +5902,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20862"
+          ]
         },
         {
           "id": "MD-dickerson",
@@ -4561,7 +5914,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20842"
+          ]
         },
         {
           "id": "MD-sandy-spring",
@@ -4570,7 +5926,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20860"
+          ]
         },
         {
           "id": "MD-beallsville",
@@ -4579,7 +5938,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20839"
+          ]
         },
         {
           "id": "MD-friendship-heights-village",
@@ -4588,7 +5950,10 @@
           "tier": 1,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20815"
+          ]
         },
         {
           "id": "MD-bethesda-bethesda-downtown",
@@ -4597,7 +5962,10 @@
           "tier": 2,
           "county": "Montgomery",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20814"
+          ]
         },
         {
           "id": "MD-bethesda-bethesda-chevy-chase",
@@ -4606,7 +5974,11 @@
           "tier": 2,
           "county": "Montgomery",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "20814",
+            "20815"
+          ]
         }
       ],
       "adTargeting": {

@@ -104,7 +104,12 @@
           "tier": 1,
           "county": "Caguas",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00725",
+            "00726",
+            "00727"
+          ]
         },
         {
           "id": "PR-canovanas",
@@ -113,7 +118,10 @@
           "tier": 1,
           "county": "Canóvanas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00729"
+          ]
         },
         {
           "id": "PR-ceiba",
@@ -122,7 +130,11 @@
           "tier": 1,
           "county": "Ceiba",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00735",
+            "00742"
+          ]
         },
         {
           "id": "PR-culebra",
@@ -131,7 +143,10 @@
           "tier": 1,
           "county": "Culebra",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00775"
+          ]
         },
         {
           "id": "PR-fajardo",
@@ -140,7 +155,11 @@
           "tier": 1,
           "county": "Fajardo",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00738",
+            "00740"
+          ]
         },
         {
           "id": "PR-gurabo",
@@ -149,7 +168,10 @@
           "tier": 1,
           "county": "Gurabo",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00778"
+          ]
         },
         {
           "id": "PR-humacao",
@@ -158,7 +180,12 @@
           "tier": 1,
           "county": "Humacao",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00741",
+            "00791",
+            "00792"
+          ]
         },
         {
           "id": "PR-juncos",
@@ -167,7 +194,10 @@
           "tier": 1,
           "county": "Juncos",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00777"
+          ]
         },
         {
           "id": "PR-las-piedras",
@@ -176,7 +206,10 @@
           "tier": 1,
           "county": "Las Piedras",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00771"
+          ]
         },
         {
           "id": "PR-loiza",
@@ -185,7 +218,10 @@
           "tier": 1,
           "county": "Loíza",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00772"
+          ]
         },
         {
           "id": "PR-luquillo",
@@ -194,7 +230,10 @@
           "tier": 1,
           "county": "Luquillo",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00773"
+          ]
         },
         {
           "id": "PR-naguabo",
@@ -203,7 +242,11 @@
           "tier": 1,
           "county": "Naguabo",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00718",
+            "00744"
+          ]
         },
         {
           "id": "PR-rio-grande",
@@ -212,7 +255,11 @@
           "tier": 1,
           "county": "Río Grande",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00721",
+            "00745"
+          ]
         },
         {
           "id": "PR-san-lorenzo",
@@ -221,7 +268,10 @@
           "tier": 1,
           "county": "San Lorenzo",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00754"
+          ]
         },
         {
           "id": "PR-vieques",
@@ -230,7 +280,10 @@
           "tier": 1,
           "county": "Vieques",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00765"
+          ]
         },
         {
           "id": "PR-yabucoa",
@@ -239,7 +292,10 @@
           "tier": 1,
           "county": "Yabucoa",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00767"
+          ]
         },
         {
           "id": "PR-7286796",
@@ -248,7 +304,10 @@
           "tier": 2,
           "county": "Canóvanas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00729"
+          ]
         },
         {
           "id": "PR-7246626",
@@ -257,7 +316,10 @@
           "tier": 2,
           "county": "Canóvanas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00729"
+          ]
         },
         {
           "id": "PR-7225685",
@@ -266,7 +328,10 @@
           "tier": 2,
           "county": "Yabucoa",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00767"
+          ]
         },
         {
           "id": "PR-7287282",
@@ -275,7 +340,10 @@
           "tier": 2,
           "county": "Canóvanas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00729"
+          ]
         },
         {
           "id": "PR-7286788",
@@ -284,7 +352,10 @@
           "tier": 2,
           "county": "Canóvanas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00729"
+          ]
         },
         {
           "id": "PR-7284917",
@@ -293,7 +364,10 @@
           "tier": 2,
           "county": "Canóvanas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00729"
+          ]
         },
         {
           "id": "PR-7278317",
@@ -302,7 +376,11 @@
           "tier": 2,
           "county": "Ceiba",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00735",
+            "00742"
+          ]
         },
         {
           "id": "PR-7207496",
@@ -311,7 +389,10 @@
           "tier": 2,
           "county": "Canóvanas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00729"
+          ]
         },
         {
           "id": "PR-7216440",
@@ -320,7 +401,10 @@
           "tier": 2,
           "county": "Gurabo",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00778"
+          ]
         },
         {
           "id": "PR-7206421",
@@ -329,7 +413,11 @@
           "tier": 2,
           "county": "Río Grande",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00721",
+            "00745"
+          ]
         },
         {
           "id": "PR-7225556",
@@ -338,7 +426,10 @@
           "tier": 2,
           "county": "Juncos",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00777"
+          ]
         },
         {
           "id": "PR-7203196",
@@ -347,7 +438,12 @@
           "tier": 2,
           "county": "Humacao",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00741",
+            "00791",
+            "00792"
+          ]
         },
         {
           "id": "PR-7247336",
@@ -356,7 +452,12 @@
           "tier": 2,
           "county": "Caguas",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00725",
+            "00726",
+            "00727"
+          ]
         },
         {
           "id": "PR-7260945",
@@ -365,7 +466,11 @@
           "tier": 2,
           "county": "Naguabo",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00718",
+            "00744"
+          ]
         },
         {
           "id": "PR-7219837",
@@ -374,7 +479,10 @@
           "tier": 2,
           "county": "Yabucoa",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00767"
+          ]
         },
         {
           "id": "PR-7272555",
@@ -383,7 +491,10 @@
           "tier": 2,
           "county": "Yabucoa",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00767"
+          ]
         },
         {
           "id": "PR-7211710",
@@ -392,7 +503,10 @@
           "tier": 2,
           "county": "Canóvanas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00729"
+          ]
         },
         {
           "id": "PR-7204701",
@@ -401,7 +515,12 @@
           "tier": 2,
           "county": "Humacao",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00741",
+            "00791",
+            "00792"
+          ]
         },
         {
           "id": "PR-7212613",
@@ -410,7 +529,12 @@
           "tier": 2,
           "county": "Humacao",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00741",
+            "00791",
+            "00792"
+          ]
         },
         {
           "id": "PR-7259386",
@@ -419,7 +543,10 @@
           "tier": 2,
           "county": "Gurabo",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00778"
+          ]
         },
         {
           "id": "PR-7259450",
@@ -428,7 +555,12 @@
           "tier": 2,
           "county": "Caguas",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00725",
+            "00726",
+            "00727"
+          ]
         },
         {
           "id": "PR-7204620",
@@ -437,7 +569,12 @@
           "tier": 2,
           "county": "Caguas",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00725",
+            "00726",
+            "00727"
+          ]
         },
         {
           "id": "PR-7263525",
@@ -446,7 +583,10 @@
           "tier": 2,
           "county": "Yabucoa",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00767"
+          ]
         },
         {
           "id": "PR-7277672",
@@ -455,7 +595,10 @@
           "tier": 2,
           "county": "Canóvanas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00729"
+          ]
         },
         {
           "id": "PR-7209250",
@@ -464,7 +607,12 @@
           "tier": 2,
           "county": "Humacao",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00741",
+            "00791",
+            "00792"
+          ]
         },
         {
           "id": "PR-7280639",
@@ -473,7 +621,10 @@
           "tier": 2,
           "county": "Loíza",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00772"
+          ]
         },
         {
           "id": "PR-7247701",
@@ -482,7 +633,11 @@
           "tier": 2,
           "county": "Fajardo",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00738",
+            "00740"
+          ]
         },
         {
           "id": "PR-7247422",
@@ -491,7 +646,12 @@
           "tier": 2,
           "county": "Caguas",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00725",
+            "00726",
+            "00727"
+          ]
         },
         {
           "id": "PR-7264500",
@@ -500,7 +660,10 @@
           "tier": 2,
           "county": "Las Piedras",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00771"
+          ]
         },
         {
           "id": "PR-7251657",
@@ -509,7 +672,10 @@
           "tier": 2,
           "county": "Yabucoa",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00767"
+          ]
         },
         {
           "id": "PR-7212568",
@@ -518,7 +684,12 @@
           "tier": 2,
           "county": "Humacao",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00741",
+            "00791",
+            "00792"
+          ]
         },
         {
           "id": "PR-7213065",
@@ -527,7 +698,10 @@
           "tier": 2,
           "county": "Canóvanas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00729"
+          ]
         },
         {
           "id": "PR-7211345",
@@ -536,7 +710,10 @@
           "tier": 2,
           "county": "Canóvanas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00729"
+          ]
         },
         {
           "id": "PR-7224395",
@@ -545,7 +722,11 @@
           "tier": 2,
           "county": "Naguabo",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00718",
+            "00744"
+          ]
         },
         {
           "id": "PR-7258666",
@@ -554,7 +735,11 @@
           "tier": 2,
           "county": "Río Grande",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00721",
+            "00745"
+          ]
         },
         {
           "id": "PR-7227190",
@@ -563,7 +748,10 @@
           "tier": 2,
           "county": "Vieques",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00765"
+          ]
         },
         {
           "id": "PR-7263310",
@@ -572,7 +760,10 @@
           "tier": 2,
           "county": "Luquillo",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00773"
+          ]
         },
         {
           "id": "PR-7270448",
@@ -581,7 +772,11 @@
           "tier": 2,
           "county": "Naguabo",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00718",
+            "00744"
+          ]
         },
         {
           "id": "PR-7266492",
@@ -590,7 +785,12 @@
           "tier": 2,
           "county": "Humacao",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00741",
+            "00791",
+            "00792"
+          ]
         },
         {
           "id": "PR-7233184",
@@ -599,7 +799,12 @@
           "tier": 2,
           "county": "Caguas",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00725",
+            "00726",
+            "00727"
+          ]
         },
         {
           "id": "PR-7258602",
@@ -608,7 +813,12 @@
           "tier": 2,
           "county": "Humacao",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00741",
+            "00791",
+            "00792"
+          ]
         },
         {
           "id": "PR-7240563",
@@ -617,7 +827,12 @@
           "tier": 2,
           "county": "Humacao",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00741",
+            "00791",
+            "00792"
+          ]
         },
         {
           "id": "PR-7237166",
@@ -626,7 +841,10 @@
           "tier": 2,
           "county": "San Lorenzo",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00754"
+          ]
         },
         {
           "id": "PR-7282875",
@@ -635,7 +853,12 @@
           "tier": 2,
           "county": "Caguas",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00725",
+            "00726",
+            "00727"
+          ]
         },
         {
           "id": "PR-7267675",
@@ -644,7 +867,10 @@
           "tier": 2,
           "county": "Canóvanas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00729"
+          ]
         },
         {
           "id": "PR-7258613",
@@ -653,7 +879,10 @@
           "tier": 2,
           "county": "Canóvanas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00729"
+          ]
         },
         {
           "id": "PR-7243057",
@@ -662,7 +891,11 @@
           "tier": 2,
           "county": "Fajardo",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00738",
+            "00740"
+          ]
         },
         {
           "id": "PR-7208099",
@@ -671,7 +904,10 @@
           "tier": 2,
           "county": "Las Piedras",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00771"
+          ]
         },
         {
           "id": "PR-7240348",
@@ -680,7 +916,11 @@
           "tier": 2,
           "county": "Río Grande",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00721",
+            "00745"
+          ]
         },
         {
           "id": "PR-7242842",
@@ -689,7 +929,12 @@
           "tier": 2,
           "county": "Caguas",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00725",
+            "00726",
+            "00727"
+          ]
         },
         {
           "id": "PR-7241274",
@@ -698,7 +943,12 @@
           "tier": 2,
           "county": "Caguas",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00725",
+            "00726",
+            "00727"
+          ]
         },
         {
           "id": "PR-7223062",
@@ -707,7 +957,11 @@
           "tier": 2,
           "county": "Naguabo",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00718",
+            "00744"
+          ]
         },
         {
           "id": "PR-7276339",
@@ -716,7 +970,10 @@
           "tier": 2,
           "county": "Canóvanas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00729"
+          ]
         },
         {
           "id": "PR-7233683",
@@ -725,7 +982,11 @@
           "tier": 2,
           "county": "Río Grande",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00721",
+            "00745"
+          ]
         },
         {
           "id": "PR-7268771",
@@ -734,7 +995,10 @@
           "tier": 2,
           "county": "Luquillo",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00773"
+          ]
         },
         {
           "id": "PR-7201003",
@@ -743,7 +1007,11 @@
           "tier": 2,
           "county": "Ceiba",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00735",
+            "00742"
+          ]
         }
       ],
       "adTargeting": {
@@ -824,7 +1092,15 @@
           "tier": 1,
           "county": "Arecibo",
           "zipCount": 6,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00612",
+            "00613",
+            "00614",
+            "00616",
+            "00652",
+            "00688"
+          ]
         },
         {
           "id": "PR-barceloneta",
@@ -833,7 +1109,10 @@
           "tier": 1,
           "county": "Barceloneta",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00617"
+          ]
         },
         {
           "id": "PR-camuy",
@@ -842,7 +1121,10 @@
           "tier": 1,
           "county": "Camuy",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00627"
+          ]
         },
         {
           "id": "PR-dorado",
@@ -851,7 +1133,10 @@
           "tier": 1,
           "county": "Dorado",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00646"
+          ]
         },
         {
           "id": "PR-florida",
@@ -860,7 +1145,10 @@
           "tier": 1,
           "county": "Florida",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00650"
+          ]
         },
         {
           "id": "PR-hatillo",
@@ -869,7 +1157,10 @@
           "tier": 1,
           "county": "Hatillo",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00659"
+          ]
         },
         {
           "id": "PR-manati",
@@ -878,7 +1169,10 @@
           "tier": 1,
           "county": "Manatí",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00674"
+          ]
         },
         {
           "id": "PR-toa-alta",
@@ -887,7 +1181,11 @@
           "tier": 1,
           "county": "Toa Alta",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00953",
+            "00954"
+          ]
         },
         {
           "id": "PR-toa-baja",
@@ -896,7 +1194,13 @@
           "tier": 1,
           "county": "Toa Baja",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00949",
+            "00950",
+            "00951",
+            "00952"
+          ]
         },
         {
           "id": "PR-vega-alta",
@@ -905,7 +1209,10 @@
           "tier": 1,
           "county": "Vega Alta",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00692"
+          ]
         },
         {
           "id": "PR-vega-baja",
@@ -914,7 +1221,11 @@
           "tier": 1,
           "county": "Vega Baja",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00693",
+            "00694"
+          ]
         },
         {
           "id": "PR-7287272",
@@ -923,7 +1234,13 @@
           "tier": 2,
           "county": "Toa Baja",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00949",
+            "00950",
+            "00951",
+            "00952"
+          ]
         },
         {
           "id": "PR-7271437",
@@ -932,7 +1249,10 @@
           "tier": 2,
           "county": "Dorado",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00646"
+          ]
         },
         {
           "id": "PR-7243294",
@@ -941,7 +1261,13 @@
           "tier": 2,
           "county": "Toa Baja",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00949",
+            "00950",
+            "00951",
+            "00952"
+          ]
         },
         {
           "id": "PR-7226362",
@@ -950,7 +1276,13 @@
           "tier": 2,
           "county": "Toa Baja",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00949",
+            "00950",
+            "00951",
+            "00952"
+          ]
         },
         {
           "id": "PR-7250270",
@@ -959,7 +1291,13 @@
           "tier": 2,
           "county": "Toa Baja",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00949",
+            "00950",
+            "00951",
+            "00952"
+          ]
         },
         {
           "id": "PR-7266660",
@@ -968,7 +1306,10 @@
           "tier": 2,
           "county": "Camuy",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00627"
+          ]
         },
         {
           "id": "PR-7282692",
@@ -977,7 +1318,13 @@
           "tier": 2,
           "county": "Toa Baja",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00949",
+            "00950",
+            "00951",
+            "00952"
+          ]
         },
         {
           "id": "PR-7241810",
@@ -986,7 +1333,10 @@
           "tier": 2,
           "county": "Camuy",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00627"
+          ]
         },
         {
           "id": "PR-7257612",
@@ -995,7 +1345,13 @@
           "tier": 2,
           "county": "Toa Baja",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00949",
+            "00950",
+            "00951",
+            "00952"
+          ]
         },
         {
           "id": "PR-7211597",
@@ -1004,7 +1360,13 @@
           "tier": 2,
           "county": "Toa Baja",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00949",
+            "00950",
+            "00951",
+            "00952"
+          ]
         },
         {
           "id": "PR-7261590",
@@ -1013,7 +1375,10 @@
           "tier": 2,
           "county": "Camuy",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00627"
+          ]
         },
         {
           "id": "PR-7253678",
@@ -1022,7 +1387,11 @@
           "tier": 2,
           "county": "Vega Baja",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00693",
+            "00694"
+          ]
         },
         {
           "id": "PR-7212560",
@@ -1031,7 +1400,13 @@
           "tier": 2,
           "county": "Toa Baja",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00949",
+            "00950",
+            "00951",
+            "00952"
+          ]
         },
         {
           "id": "PR-7241294",
@@ -1040,7 +1415,10 @@
           "tier": 2,
           "county": "Manatí",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00674"
+          ]
         },
         {
           "id": "PR-7223341",
@@ -1049,7 +1427,10 @@
           "tier": 2,
           "county": "Camuy",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00627"
+          ]
         },
         {
           "id": "PR-7230372",
@@ -1058,7 +1439,10 @@
           "tier": 2,
           "county": "Barceloneta",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00617"
+          ]
         },
         {
           "id": "PR-7273200",
@@ -1067,7 +1451,11 @@
           "tier": 2,
           "county": "Vega Baja",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00693",
+            "00694"
+          ]
         },
         {
           "id": "PR-7208700",
@@ -1076,7 +1464,10 @@
           "tier": 2,
           "county": "Vega Alta",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00692"
+          ]
         },
         {
           "id": "PR-7209603",
@@ -1085,7 +1476,10 @@
           "tier": 2,
           "county": "Barceloneta",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00617"
+          ]
         },
         {
           "id": "PR-7286509",
@@ -1094,7 +1488,13 @@
           "tier": 2,
           "county": "Toa Baja",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00949",
+            "00950",
+            "00951",
+            "00952"
+          ]
         },
         {
           "id": "PR-7286250",
@@ -1103,7 +1503,13 @@
           "tier": 2,
           "county": "Toa Baja",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00949",
+            "00950",
+            "00951",
+            "00952"
+          ]
         },
         {
           "id": "PR-7275694",
@@ -1112,7 +1518,10 @@
           "tier": 2,
           "county": "Dorado",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00646"
+          ]
         },
         {
           "id": "PR-7257862",
@@ -1121,7 +1530,10 @@
           "tier": 2,
           "county": "Florida",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00650"
+          ]
         },
         {
           "id": "PR-7220482",
@@ -1130,7 +1542,10 @@
           "tier": 2,
           "county": "Hatillo",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00659"
+          ]
         },
         {
           "id": "PR-7203024",
@@ -1139,7 +1554,15 @@
           "tier": 2,
           "county": "Arecibo",
           "zipCount": 6,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00612",
+            "00613",
+            "00614",
+            "00616",
+            "00652",
+            "00688"
+          ]
         },
         {
           "id": "PR-7276683",
@@ -1148,7 +1571,13 @@
           "tier": 2,
           "county": "Toa Baja",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00949",
+            "00950",
+            "00951",
+            "00952"
+          ]
         },
         {
           "id": "PR-7208722",
@@ -1157,7 +1586,13 @@
           "tier": 2,
           "county": "Toa Baja",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00949",
+            "00950",
+            "00951",
+            "00952"
+          ]
         },
         {
           "id": "PR-7235962",
@@ -1166,7 +1601,10 @@
           "tier": 2,
           "county": "Barceloneta",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00617"
+          ]
         },
         {
           "id": "PR-7274189",
@@ -1175,7 +1613,13 @@
           "tier": 2,
           "county": "Toa Baja",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00949",
+            "00950",
+            "00951",
+            "00952"
+          ]
         },
         {
           "id": "PR-7288293",
@@ -1184,7 +1628,10 @@
           "tier": 2,
           "county": "Camuy",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00627"
+          ]
         },
         {
           "id": "PR-7201863",
@@ -1193,7 +1640,10 @@
           "tier": 2,
           "county": "Camuy",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00627"
+          ]
         },
         {
           "id": "PR-7221385",
@@ -1202,7 +1652,10 @@
           "tier": 2,
           "county": "Manatí",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00674"
+          ]
         },
         {
           "id": "PR-7250260",
@@ -1211,7 +1664,13 @@
           "tier": 2,
           "county": "Toa Baja",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00949",
+            "00950",
+            "00951",
+            "00952"
+          ]
         },
         {
           "id": "PR-7286584",
@@ -1220,7 +1679,13 @@
           "tier": 2,
           "county": "Toa Baja",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00949",
+            "00950",
+            "00951",
+            "00952"
+          ]
         },
         {
           "id": "PR-7287240",
@@ -1229,7 +1694,13 @@
           "tier": 2,
           "county": "Toa Baja",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00949",
+            "00950",
+            "00951",
+            "00952"
+          ]
         },
         {
           "id": "PR-7282125",
@@ -1238,7 +1709,10 @@
           "tier": 2,
           "county": "Barceloneta",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00617"
+          ]
         },
         {
           "id": "PR-7229813",
@@ -1247,7 +1721,11 @@
           "tier": 2,
           "county": "Toa Alta",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00953",
+            "00954"
+          ]
         },
         {
           "id": "PR-7255355",
@@ -1256,7 +1734,11 @@
           "tier": 2,
           "county": "Toa Alta",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00953",
+            "00954"
+          ]
         },
         {
           "id": "PR-7236263",
@@ -1265,7 +1747,13 @@
           "tier": 2,
           "county": "Toa Baja",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00949",
+            "00950",
+            "00951",
+            "00952"
+          ]
         },
         {
           "id": "PR-7253979",
@@ -1274,7 +1762,11 @@
           "tier": 2,
           "county": "Vega Baja",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00693",
+            "00694"
+          ]
         },
         {
           "id": "PR-7214634",
@@ -1283,7 +1775,10 @@
           "tier": 2,
           "county": "Hatillo",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00659"
+          ]
         },
         {
           "id": "PR-7268513",
@@ -1292,7 +1787,10 @@
           "tier": 2,
           "county": "Hatillo",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00659"
+          ]
         },
         {
           "id": "PR-7282187",
@@ -1301,7 +1799,10 @@
           "tier": 2,
           "county": "Manatí",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00674"
+          ]
         },
         {
           "id": "PR-7204658",
@@ -1310,7 +1811,15 @@
           "tier": 2,
           "county": "Arecibo",
           "zipCount": 6,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00612",
+            "00613",
+            "00614",
+            "00616",
+            "00652",
+            "00688"
+          ]
         },
         {
           "id": "PR-7239875",
@@ -1319,7 +1828,15 @@
           "tier": 2,
           "county": "Arecibo",
           "zipCount": 6,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00612",
+            "00613",
+            "00614",
+            "00616",
+            "00652",
+            "00688"
+          ]
         },
         {
           "id": "PR-7268556",
@@ -1328,7 +1845,10 @@
           "tier": 2,
           "county": "Hatillo",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00659"
+          ]
         },
         {
           "id": "PR-7273716",
@@ -1337,7 +1857,15 @@
           "tier": 2,
           "county": "Arecibo",
           "zipCount": 6,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00612",
+            "00613",
+            "00614",
+            "00616",
+            "00652",
+            "00688"
+          ]
         },
         {
           "id": "PR-7257806",
@@ -1346,7 +1874,11 @@
           "tier": 2,
           "county": "Toa Alta",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00953",
+            "00954"
+          ]
         },
         {
           "id": "PR-7211581",
@@ -1355,7 +1887,13 @@
           "tier": 2,
           "county": "Toa Baja",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00949",
+            "00950",
+            "00951",
+            "00952"
+          ]
         },
         {
           "id": "PR-7235403",
@@ -1364,7 +1902,11 @@
           "tier": 2,
           "county": "Toa Alta",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00953",
+            "00954"
+          ]
         },
         {
           "id": "PR-7212441",
@@ -1373,7 +1915,13 @@
           "tier": 2,
           "county": "Toa Baja",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00949",
+            "00950",
+            "00951",
+            "00952"
+          ]
         }
       ],
       "adTargeting": {
@@ -1492,7 +2040,16 @@
           "tier": 1,
           "county": "Bayamón",
           "zipCount": 7,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00934",
+            "00956",
+            "00957",
+            "00958",
+            "00959",
+            "00960",
+            "00961"
+          ]
         },
         {
           "id": "PR-carolina",
@@ -1501,7 +2058,15 @@
           "tier": 1,
           "county": "Carolina",
           "zipCount": 6,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00983",
+            "00984",
+            "00985",
+            "00986",
+            "00987",
+            "00988"
+          ]
         },
         {
           "id": "PR-catano",
@@ -1510,7 +2075,11 @@
           "tier": 1,
           "county": "Cataño",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00962",
+            "00963"
+          ]
         },
         {
           "id": "PR-guaynabo",
@@ -1519,7 +2088,14 @@
           "tier": 1,
           "county": "Guaynabo",
           "zipCount": 5,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00965",
+            "00966",
+            "00969",
+            "00970",
+            "00971"
+          ]
         },
         {
           "id": "PR-san-juan",
@@ -1528,7 +2104,50 @@
           "tier": 1,
           "county": "San Juan",
           "zipCount": 41,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00901",
+            "00902",
+            "00906",
+            "00907",
+            "00908",
+            "00909",
+            "00910",
+            "00911",
+            "00912",
+            "00913",
+            "00914",
+            "00915",
+            "00916",
+            "00917",
+            "00918",
+            "00919",
+            "00920",
+            "00921",
+            "00922",
+            "00923",
+            "00924",
+            "00925",
+            "00926",
+            "00927",
+            "00928",
+            "00929",
+            "00930",
+            "00931",
+            "00933",
+            "00935",
+            "00936",
+            "00937",
+            "00938",
+            "00939",
+            "00940",
+            "00955",
+            "00968",
+            "00975",
+            "00979",
+            "00981",
+            "00982"
+          ]
         },
         {
           "id": "PR-trujillo-alto",
@@ -1537,7 +2156,12 @@
           "tier": 1,
           "county": "Trujillo Alto",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00976",
+            "00977",
+            "00978"
+          ]
         },
         {
           "id": "PR-7212806",
@@ -1546,7 +2170,50 @@
           "tier": 2,
           "county": "San Juan",
           "zipCount": 41,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00901",
+            "00902",
+            "00906",
+            "00907",
+            "00908",
+            "00909",
+            "00910",
+            "00911",
+            "00912",
+            "00913",
+            "00914",
+            "00915",
+            "00916",
+            "00917",
+            "00918",
+            "00919",
+            "00920",
+            "00921",
+            "00922",
+            "00923",
+            "00924",
+            "00925",
+            "00926",
+            "00927",
+            "00928",
+            "00929",
+            "00930",
+            "00931",
+            "00933",
+            "00935",
+            "00936",
+            "00937",
+            "00938",
+            "00939",
+            "00940",
+            "00955",
+            "00968",
+            "00975",
+            "00979",
+            "00981",
+            "00982"
+          ]
         },
         {
           "id": "PR-san-juan-old-san-juan-viejo-san-juan",
@@ -1555,7 +2222,10 @@
           "tier": 2,
           "county": "San Juan",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00901"
+          ]
         },
         {
           "id": "PR-san-juan-condado-miramar",
@@ -1564,7 +2234,10 @@
           "tier": 2,
           "county": "San Juan",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00907"
+          ]
         },
         {
           "id": "PR-san-juan-santurce-arts-district",
@@ -1573,7 +2246,10 @@
           "tier": 2,
           "county": "San Juan",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00909"
+          ]
         },
         {
           "id": "PR-san-juan-hato-rey-golden-mile",
@@ -1582,7 +2258,11 @@
           "tier": 2,
           "county": "San Juan",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00917",
+            "00918"
+          ]
         },
         {
           "id": "PR-carolina-isla-verde",
@@ -1591,7 +2271,10 @@
           "tier": 2,
           "county": "Carolina",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00979"
+          ]
         }
       ],
       "adTargeting": {
@@ -1667,7 +2350,11 @@
           "tier": 1,
           "county": "Guayama",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00704",
+            "00784"
+          ]
         },
         {
           "id": "PR-guayanilla",
@@ -1676,7 +2363,11 @@
           "tier": 1,
           "county": "Guayanilla",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00656",
+            "00785"
+          ]
         },
         {
           "id": "PR-juana-diaz",
@@ -1685,7 +2376,10 @@
           "tier": 1,
           "county": "Juana Díaz",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00795"
+          ]
         },
         {
           "id": "PR-penuelas",
@@ -1694,7 +2388,10 @@
           "tier": 1,
           "county": "Peñuelas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00624"
+          ]
         },
         {
           "id": "PR-ponce",
@@ -1703,7 +2400,19 @@
           "tier": 1,
           "county": "Ponce",
           "zipCount": 10,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00715",
+            "00716",
+            "00717",
+            "00728",
+            "00730",
+            "00731",
+            "00732",
+            "00733",
+            "00734",
+            "00780"
+          ]
         },
         {
           "id": "PR-salinas",
@@ -1712,7 +2421,10 @@
           "tier": 1,
           "county": "Salinas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00751"
+          ]
         },
         {
           "id": "PR-santa-isabel",
@@ -1721,7 +2433,10 @@
           "tier": 1,
           "county": "Santa Isabel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00757"
+          ]
         },
         {
           "id": "PR-yauco",
@@ -1730,7 +2445,10 @@
           "tier": 1,
           "county": "Yauco",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00698"
+          ]
         },
         {
           "id": "PR-7225771",
@@ -1739,7 +2457,10 @@
           "tier": 2,
           "county": "Santa Isabel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00757"
+          ]
         },
         {
           "id": "PR-7270706",
@@ -1748,7 +2469,10 @@
           "tier": 2,
           "county": "Juana Díaz",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00795"
+          ]
         },
         {
           "id": "PR-7259053",
@@ -1757,7 +2481,10 @@
           "tier": 2,
           "county": "Yauco",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00698"
+          ]
         },
         {
           "id": "PR-7244089",
@@ -1766,7 +2493,10 @@
           "tier": 2,
           "county": "Santa Isabel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00757"
+          ]
         },
         {
           "id": "PR-7236177",
@@ -1775,7 +2505,11 @@
           "tier": 2,
           "county": "Guayanilla",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00656",
+            "00785"
+          ]
         },
         {
           "id": "PR-7216526",
@@ -1784,7 +2518,10 @@
           "tier": 2,
           "county": "Salinas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00751"
+          ]
         },
         {
           "id": "PR-7211151",
@@ -1793,7 +2530,19 @@
           "tier": 2,
           "county": "Ponce",
           "zipCount": 10,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00715",
+            "00716",
+            "00717",
+            "00728",
+            "00730",
+            "00731",
+            "00732",
+            "00733",
+            "00734",
+            "00780"
+          ]
         },
         {
           "id": "PR-7257075",
@@ -1802,7 +2551,11 @@
           "tier": 2,
           "county": "Guayama",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00704",
+            "00784"
+          ]
         },
         {
           "id": "PR-7203174",
@@ -1811,7 +2564,19 @@
           "tier": 2,
           "county": "Ponce",
           "zipCount": 10,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00715",
+            "00716",
+            "00717",
+            "00728",
+            "00730",
+            "00731",
+            "00732",
+            "00733",
+            "00734",
+            "00780"
+          ]
         },
         {
           "id": "PR-7242197",
@@ -1820,7 +2585,10 @@
           "tier": 2,
           "county": "Salinas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00751"
+          ]
         },
         {
           "id": "PR-7259440",
@@ -1829,7 +2597,10 @@
           "tier": 2,
           "county": "Santa Isabel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00757"
+          ]
         },
         {
           "id": "PR-7264127",
@@ -1838,7 +2609,10 @@
           "tier": 2,
           "county": "Juana Díaz",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00795"
+          ]
         },
         {
           "id": "PR-7221213",
@@ -1847,7 +2621,19 @@
           "tier": 2,
           "county": "Ponce",
           "zipCount": 10,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00715",
+            "00716",
+            "00717",
+            "00728",
+            "00730",
+            "00731",
+            "00732",
+            "00733",
+            "00734",
+            "00780"
+          ]
         },
         {
           "id": "PR-7217050",
@@ -1856,7 +2642,19 @@
           "tier": 2,
           "county": "Ponce",
           "zipCount": 10,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00715",
+            "00716",
+            "00717",
+            "00728",
+            "00730",
+            "00731",
+            "00732",
+            "00733",
+            "00734",
+            "00780"
+          ]
         },
         {
           "id": "PR-7220310",
@@ -1865,7 +2663,10 @@
           "tier": 2,
           "county": "Salinas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00751"
+          ]
         },
         {
           "id": "PR-7254688",
@@ -1874,7 +2675,19 @@
           "tier": 2,
           "county": "Ponce",
           "zipCount": 10,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00715",
+            "00716",
+            "00717",
+            "00728",
+            "00730",
+            "00731",
+            "00732",
+            "00733",
+            "00734",
+            "00780"
+          ]
         },
         {
           "id": "PR-7248604",
@@ -1883,7 +2696,11 @@
           "tier": 2,
           "county": "Guayanilla",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00656",
+            "00785"
+          ]
         },
         {
           "id": "PR-7220998",
@@ -1892,7 +2709,19 @@
           "tier": 2,
           "county": "Ponce",
           "zipCount": 10,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00715",
+            "00716",
+            "00717",
+            "00728",
+            "00730",
+            "00731",
+            "00732",
+            "00733",
+            "00734",
+            "00780"
+          ]
         },
         {
           "id": "PR-7261545",
@@ -1901,7 +2730,10 @@
           "tier": 2,
           "county": "Juana Díaz",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00795"
+          ]
         },
         {
           "id": "PR-7281456",
@@ -1910,7 +2742,10 @@
           "tier": 2,
           "county": "Peñuelas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00624"
+          ]
         },
         {
           "id": "PR-7264400",
@@ -1919,7 +2754,11 @@
           "tier": 2,
           "county": "Guayama",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00704",
+            "00784"
+          ]
         },
         {
           "id": "PR-7238241",
@@ -1928,7 +2767,10 @@
           "tier": 2,
           "county": "Santa Isabel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00757"
+          ]
         },
         {
           "id": "PR-7279564",
@@ -1937,7 +2779,10 @@
           "tier": 2,
           "county": "Peñuelas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00624"
+          ]
         },
         {
           "id": "PR-7263568",
@@ -1946,7 +2791,10 @@
           "tier": 2,
           "county": "Santa Isabel",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00757"
+          ]
         },
         {
           "id": "PR-7251700",
@@ -1955,7 +2803,19 @@
           "tier": 2,
           "county": "Ponce",
           "zipCount": 10,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00715",
+            "00716",
+            "00717",
+            "00728",
+            "00730",
+            "00731",
+            "00732",
+            "00733",
+            "00734",
+            "00780"
+          ]
         },
         {
           "id": "PR-7244003",
@@ -1964,7 +2824,10 @@
           "tier": 2,
           "county": "Salinas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00751"
+          ]
         },
         {
           "id": "PR-7213925",
@@ -1973,7 +2836,10 @@
           "tier": 2,
           "county": "Juana Díaz",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00795"
+          ]
         },
         {
           "id": "PR-7259422",
@@ -1982,7 +2848,19 @@
           "tier": 2,
           "county": "Ponce",
           "zipCount": 10,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00715",
+            "00716",
+            "00717",
+            "00728",
+            "00730",
+            "00731",
+            "00732",
+            "00733",
+            "00734",
+            "00780"
+          ]
         },
         {
           "id": "PR-7282055",
@@ -1991,7 +2869,19 @@
           "tier": 2,
           "county": "Ponce",
           "zipCount": 10,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00715",
+            "00716",
+            "00717",
+            "00728",
+            "00730",
+            "00731",
+            "00732",
+            "00733",
+            "00734",
+            "00780"
+          ]
         },
         {
           "id": "PR-7285025",
@@ -2000,7 +2890,19 @@
           "tier": 2,
           "county": "Ponce",
           "zipCount": 10,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00715",
+            "00716",
+            "00717",
+            "00728",
+            "00730",
+            "00731",
+            "00732",
+            "00733",
+            "00734",
+            "00780"
+          ]
         },
         {
           "id": "PR-7220353",
@@ -2009,7 +2911,11 @@
           "tier": 2,
           "county": "Guayama",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00704",
+            "00784"
+          ]
         },
         {
           "id": "PR-7201089",
@@ -2018,7 +2924,10 @@
           "tier": 2,
           "county": "Juana Díaz",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00795"
+          ]
         },
         {
           "id": "PR-7267200",
@@ -2027,7 +2936,19 @@
           "tier": 2,
           "county": "Ponce",
           "zipCount": 10,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00715",
+            "00716",
+            "00717",
+            "00728",
+            "00730",
+            "00731",
+            "00732",
+            "00733",
+            "00734",
+            "00780"
+          ]
         },
         {
           "id": "PR-7247615",
@@ -2036,7 +2957,10 @@
           "tier": 2,
           "county": "Juana Díaz",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00795"
+          ]
         },
         {
           "id": "PR-7218891",
@@ -2045,7 +2969,10 @@
           "tier": 2,
           "county": "Salinas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00751"
+          ]
         },
         {
           "id": "PR-7285111",
@@ -2054,7 +2981,10 @@
           "tier": 2,
           "county": "Salinas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00751"
+          ]
         },
         {
           "id": "PR-7263503",
@@ -2063,7 +2993,10 @@
           "tier": 2,
           "county": "Salinas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00751"
+          ]
         },
         {
           "id": "PR-7225835",
@@ -2072,7 +3005,19 @@
           "tier": 2,
           "county": "Ponce",
           "zipCount": 10,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00715",
+            "00716",
+            "00717",
+            "00728",
+            "00730",
+            "00731",
+            "00732",
+            "00733",
+            "00734",
+            "00780"
+          ]
         },
         {
           "id": "PR-7231877",
@@ -2081,7 +3026,10 @@
           "tier": 2,
           "county": "Juana Díaz",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00795"
+          ]
         },
         {
           "id": "PR-7245170",
@@ -2090,7 +3038,19 @@
           "tier": 2,
           "county": "Ponce",
           "zipCount": 10,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00715",
+            "00716",
+            "00717",
+            "00728",
+            "00730",
+            "00731",
+            "00732",
+            "00733",
+            "00734",
+            "00780"
+          ]
         },
         {
           "id": "PR-7238671",
@@ -2099,7 +3059,11 @@
           "tier": 2,
           "county": "Guayama",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00704",
+            "00784"
+          ]
         },
         {
           "id": "PR-7281413",
@@ -2108,7 +3072,10 @@
           "tier": 2,
           "county": "Peñuelas",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00624"
+          ]
         }
       ],
       "adTargeting": {
@@ -2183,7 +3150,10 @@
           "tier": 1,
           "county": "Aguada",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00602"
+          ]
         },
         {
           "id": "PR-aguadilla",
@@ -2192,7 +3162,13 @@
           "tier": 1,
           "county": "Aguadilla",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00603",
+            "00604",
+            "00605",
+            "00690"
+          ]
         },
         {
           "id": "PR-anasco",
@@ -2201,7 +3177,10 @@
           "tier": 1,
           "county": "Añasco",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00610"
+          ]
         },
         {
           "id": "PR-cabo-rojo",
@@ -2210,7 +3189,11 @@
           "tier": 1,
           "county": "Cabo Rojo",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00622",
+            "00623"
+          ]
         },
         {
           "id": "PR-hormigueros",
@@ -2219,7 +3202,10 @@
           "tier": 1,
           "county": "Hormigueros",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00660"
+          ]
         },
         {
           "id": "PR-isabela",
@@ -2228,7 +3214,10 @@
           "tier": 1,
           "county": "Isabela",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00662"
+          ]
         },
         {
           "id": "PR-mayaguez",
@@ -2237,7 +3226,12 @@
           "tier": 1,
           "county": "Mayagüez",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00680",
+            "00681",
+            "00682"
+          ]
         },
         {
           "id": "PR-moca",
@@ -2246,7 +3240,10 @@
           "tier": 1,
           "county": "Moca",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00676"
+          ]
         },
         {
           "id": "PR-rincon",
@@ -2255,7 +3252,10 @@
           "tier": 1,
           "county": "Rincón",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00677"
+          ]
         },
         {
           "id": "PR-san-sebastian",
@@ -2264,7 +3264,11 @@
           "tier": 1,
           "county": "San Sebastián",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00685",
+            "00669"
+          ]
         },
         {
           "id": "PR-7246960",
@@ -2273,7 +3277,10 @@
           "tier": 2,
           "county": "Moca",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00676"
+          ]
         },
         {
           "id": "PR-7207668",
@@ -2282,7 +3289,11 @@
           "tier": 2,
           "county": "Cabo Rojo",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00622",
+            "00623"
+          ]
         },
         {
           "id": "PR-7265589",
@@ -2291,7 +3302,11 @@
           "tier": 2,
           "county": "Cabo Rojo",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00622",
+            "00623"
+          ]
         },
         {
           "id": "PR-7228367",
@@ -2300,7 +3315,10 @@
           "tier": 2,
           "county": "Moca",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00676"
+          ]
         },
         {
           "id": "PR-7275608",
@@ -2309,7 +3327,13 @@
           "tier": 2,
           "county": "Aguadilla",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00603",
+            "00604",
+            "00605",
+            "00690"
+          ]
         },
         {
           "id": "PR-7209689",
@@ -2318,7 +3342,13 @@
           "tier": 2,
           "county": "Aguadilla",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00603",
+            "00604",
+            "00605",
+            "00690"
+          ]
         },
         {
           "id": "PR-7287638",
@@ -2327,7 +3357,10 @@
           "tier": 2,
           "county": "Moca",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00676"
+          ]
         },
         {
           "id": "PR-7242068",
@@ -2336,7 +3369,10 @@
           "tier": 2,
           "county": "Añasco",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00610"
+          ]
         },
         {
           "id": "PR-7246800",
@@ -2345,7 +3381,10 @@
           "tier": 2,
           "county": "Moca",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00676"
+          ]
         },
         {
           "id": "PR-7268599",
@@ -2354,7 +3393,13 @@
           "tier": 2,
           "county": "Aguadilla",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00603",
+            "00604",
+            "00605",
+            "00690"
+          ]
         },
         {
           "id": "PR-7224954",
@@ -2363,7 +3408,11 @@
           "tier": 2,
           "county": "Cabo Rojo",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00622",
+            "00623"
+          ]
         },
         {
           "id": "PR-7233597",
@@ -2372,7 +3421,11 @@
           "tier": 2,
           "county": "San Sebastián",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00685",
+            "00669"
+          ]
         },
         {
           "id": "PR-7236779",
@@ -2381,7 +3434,10 @@
           "tier": 2,
           "county": "Moca",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00676"
+          ]
         },
         {
           "id": "PR-7227263",
@@ -2390,7 +3446,10 @@
           "tier": 2,
           "county": "Añasco",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00610"
+          ]
         },
         {
           "id": "PR-7254882",
@@ -2399,7 +3458,10 @@
           "tier": 2,
           "county": "Isabela",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00662"
+          ]
         },
         {
           "id": "PR-7200186",
@@ -2408,7 +3470,10 @@
           "tier": 2,
           "county": "Moca",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00676"
+          ]
         },
         {
           "id": "PR-7280596",
@@ -2417,7 +3482,10 @@
           "tier": 2,
           "county": "Rincón",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00677"
+          ]
         },
         {
           "id": "PR-7207969",
@@ -2426,7 +3494,11 @@
           "tier": 2,
           "county": "Cabo Rojo",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00622",
+            "00623"
+          ]
         },
         {
           "id": "PR-7247873",
@@ -2435,7 +3507,10 @@
           "tier": 2,
           "county": "Aguada",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00602"
+          ]
         },
         {
           "id": "PR-7254366",
@@ -2444,7 +3519,11 @@
           "tier": 2,
           "county": "Cabo Rojo",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00622",
+            "00623"
+          ]
         },
         {
           "id": "PR-7263697",
@@ -2453,7 +3532,11 @@
           "tier": 2,
           "county": "Cabo Rojo",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00622",
+            "00623"
+          ]
         },
         {
           "id": "PR-7239470",
@@ -2462,7 +3545,11 @@
           "tier": 2,
           "county": "San Sebastián",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00685",
+            "00669"
+          ]
         },
         {
           "id": "PR-7244507",
@@ -2471,7 +3558,10 @@
           "tier": 2,
           "county": "Moca",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00676"
+          ]
         }
       ],
       "adTargeting": {
@@ -2527,7 +3617,11 @@
           "tier": 1,
           "county": "Cabo Rojo",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00622",
+            "00623"
+          ]
         },
         {
           "id": "PR-mayaguez",
@@ -2536,7 +3630,12 @@
           "tier": 1,
           "county": "Mayagüez",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00680",
+            "00681",
+            "00682"
+          ]
         },
         {
           "id": "PR-7207668",
@@ -2545,7 +3644,11 @@
           "tier": 2,
           "county": "Cabo Rojo",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00622",
+            "00623"
+          ]
         },
         {
           "id": "PR-7265589",
@@ -2554,7 +3657,11 @@
           "tier": 2,
           "county": "Cabo Rojo",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00622",
+            "00623"
+          ]
         },
         {
           "id": "PR-7224954",
@@ -2563,7 +3670,11 @@
           "tier": 2,
           "county": "Cabo Rojo",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00622",
+            "00623"
+          ]
         },
         {
           "id": "PR-7207969",
@@ -2572,7 +3683,11 @@
           "tier": 2,
           "county": "Cabo Rojo",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00622",
+            "00623"
+          ]
         },
         {
           "id": "PR-7254366",
@@ -2581,7 +3696,11 @@
           "tier": 2,
           "county": "Cabo Rojo",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00622",
+            "00623"
+          ]
         },
         {
           "id": "PR-7263697",
@@ -2590,7 +3709,11 @@
           "tier": 2,
           "county": "Cabo Rojo",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00622",
+            "00623"
+          ]
         }
       ],
       "adTargeting": {
@@ -2681,7 +3804,50 @@
           "tier": 1,
           "county": "San Juan",
           "zipCount": 41,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00901",
+            "00902",
+            "00906",
+            "00907",
+            "00908",
+            "00909",
+            "00910",
+            "00911",
+            "00912",
+            "00913",
+            "00914",
+            "00915",
+            "00916",
+            "00917",
+            "00918",
+            "00919",
+            "00920",
+            "00921",
+            "00922",
+            "00923",
+            "00924",
+            "00925",
+            "00926",
+            "00927",
+            "00928",
+            "00929",
+            "00930",
+            "00931",
+            "00933",
+            "00935",
+            "00936",
+            "00937",
+            "00938",
+            "00939",
+            "00940",
+            "00955",
+            "00968",
+            "00975",
+            "00979",
+            "00981",
+            "00982"
+          ]
         },
         {
           "id": "PR-7212806",
@@ -2690,7 +3856,50 @@
           "tier": 2,
           "county": "San Juan",
           "zipCount": 41,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00901",
+            "00902",
+            "00906",
+            "00907",
+            "00908",
+            "00909",
+            "00910",
+            "00911",
+            "00912",
+            "00913",
+            "00914",
+            "00915",
+            "00916",
+            "00917",
+            "00918",
+            "00919",
+            "00920",
+            "00921",
+            "00922",
+            "00923",
+            "00924",
+            "00925",
+            "00926",
+            "00927",
+            "00928",
+            "00929",
+            "00930",
+            "00931",
+            "00933",
+            "00935",
+            "00936",
+            "00937",
+            "00938",
+            "00939",
+            "00940",
+            "00955",
+            "00968",
+            "00975",
+            "00979",
+            "00981",
+            "00982"
+          ]
         },
         {
           "id": "PR-san-juan-old-san-juan-viejo-san-juan",
@@ -2699,7 +3908,10 @@
           "tier": 2,
           "county": "San Juan",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00901"
+          ]
         },
         {
           "id": "PR-san-juan-condado-miramar",
@@ -2708,7 +3920,10 @@
           "tier": 2,
           "county": "San Juan",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00907"
+          ]
         },
         {
           "id": "PR-san-juan-santurce-arts-district",
@@ -2717,7 +3932,10 @@
           "tier": 2,
           "county": "San Juan",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00909"
+          ]
         },
         {
           "id": "PR-san-juan-hato-rey-golden-mile",
@@ -2726,7 +3944,11 @@
           "tier": 2,
           "county": "San Juan",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "00917",
+            "00918"
+          ]
         }
       ],
       "adTargeting": {

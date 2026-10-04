@@ -269,7 +269,10 @@
           "tier": 1,
           "county": "Oxford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04217"
+          ]
         },
         {
           "id": "ME-van-buren",
@@ -278,7 +281,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04785"
+          ]
         },
         {
           "id": "ME-wilton",
@@ -287,7 +293,10 @@
           "tier": 1,
           "county": "Franklin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04294"
+          ]
         },
         {
           "id": "ME-mapleton",
@@ -296,7 +305,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04757"
+          ]
         },
         {
           "id": "ME-milbridge",
@@ -305,7 +317,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04658"
+          ]
         },
         {
           "id": "ME-mexico",
@@ -314,7 +329,10 @@
           "tier": 1,
           "county": "Oxford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04257"
+          ]
         },
         {
           "id": "ME-southwest-harbor",
@@ -323,7 +341,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04679"
+          ]
         },
         {
           "id": "ME-presque-isle",
@@ -332,7 +353,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04769"
+          ]
         },
         {
           "id": "ME-hartland",
@@ -341,7 +365,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04943"
+          ]
         },
         {
           "id": "ME-fort-kent",
@@ -350,7 +377,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04743"
+          ]
         },
         {
           "id": "ME-bar-harbor",
@@ -359,7 +389,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04609"
+          ]
         },
         {
           "id": "ME-caribou",
@@ -368,7 +401,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04736"
+          ]
         },
         {
           "id": "ME-pittsfield",
@@ -377,7 +413,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04967"
+          ]
         },
         {
           "id": "ME-fort-fairfield",
@@ -386,7 +425,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04742"
+          ]
         },
         {
           "id": "ME-bucksport",
@@ -395,7 +437,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04416"
+          ]
         },
         {
           "id": "ME-oakfield",
@@ -404,7 +449,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04763"
+          ]
         },
         {
           "id": "ME-washburn",
@@ -413,7 +461,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04786"
+          ]
         },
         {
           "id": "ME-castine",
@@ -422,7 +473,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04421"
+          ]
         },
         {
           "id": "ME-oxford",
@@ -431,7 +485,10 @@
           "tier": 1,
           "county": "Oxford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04270"
+          ]
         },
         {
           "id": "ME-limestone",
@@ -440,7 +497,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04750"
+          ]
         },
         {
           "id": "ME-houlton",
@@ -449,7 +509,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04730"
+          ]
         },
         {
           "id": "ME-norway",
@@ -458,7 +521,10 @@
           "tier": 1,
           "county": "Oxford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04268"
+          ]
         },
         {
           "id": "ME-brownville-junction",
@@ -467,7 +533,10 @@
           "tier": 1,
           "county": "Piscataquis",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04415"
+          ]
         },
         {
           "id": "ME-norridgewock",
@@ -476,7 +545,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04957"
+          ]
         },
         {
           "id": "ME-guilford",
@@ -485,7 +557,10 @@
           "tier": 1,
           "county": "Piscataquis",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04443"
+          ]
         },
         {
           "id": "ME-calais",
@@ -494,7 +569,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04619"
+          ]
         },
         {
           "id": "ME-dixfield",
@@ -503,7 +581,10 @@
           "tier": 1,
           "county": "Oxford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04224"
+          ]
         },
         {
           "id": "ME-farmington",
@@ -512,7 +593,10 @@
           "tier": 1,
           "county": "Franklin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04938"
+          ]
         },
         {
           "id": "ME-kingfield",
@@ -521,7 +605,10 @@
           "tier": 1,
           "county": "Franklin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04947"
+          ]
         },
         {
           "id": "ME-grand-isle",
@@ -530,7 +617,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04746"
+          ]
         },
         {
           "id": "ME-north-anson",
@@ -539,7 +629,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04958"
+          ]
         },
         {
           "id": "ME-jonesport",
@@ -548,7 +641,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04649"
+          ]
         },
         {
           "id": "ME-danforth",
@@ -557,7 +653,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04424"
+          ]
         },
         {
           "id": "ME-eastport",
@@ -566,7 +665,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04631"
+          ]
         },
         {
           "id": "ME-machias",
@@ -575,7 +677,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04654"
+          ]
         },
         {
           "id": "ME-greenville",
@@ -584,7 +689,10 @@
           "tier": 1,
           "county": "Piscataquis",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04441"
+          ]
         },
         {
           "id": "ME-milo",
@@ -593,7 +701,10 @@
           "tier": 1,
           "county": "Piscataquis",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04463"
+          ]
         },
         {
           "id": "ME-eagle-lake",
@@ -602,7 +713,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04739"
+          ]
         },
         {
           "id": "ME-fairfield",
@@ -611,7 +725,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04937"
+          ]
         },
         {
           "id": "ME-madison",
@@ -620,7 +737,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04950"
+          ]
         },
         {
           "id": "ME-fryeburg",
@@ -629,7 +749,10 @@
           "tier": 1,
           "county": "Oxford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04037"
+          ]
         },
         {
           "id": "ME-island-falls",
@@ -638,7 +761,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04747"
+          ]
         },
         {
           "id": "ME-winter-harbor",
@@ -647,7 +773,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04693"
+          ]
         },
         {
           "id": "ME-northeast-harbor",
@@ -656,7 +785,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04662"
+          ]
         },
         {
           "id": "ME-vanceboro",
@@ -665,7 +797,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04491"
+          ]
         },
         {
           "id": "ME-anson",
@@ -674,7 +809,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04911"
+          ]
         },
         {
           "id": "ME-blaine",
@@ -683,7 +821,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04734"
+          ]
         },
         {
           "id": "ME-bingham",
@@ -692,7 +833,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04920"
+          ]
         },
         {
           "id": "ME-ellsworth",
@@ -701,7 +845,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04605"
+          ]
         },
         {
           "id": "ME-rumford",
@@ -710,7 +857,10 @@
           "tier": 1,
           "county": "Oxford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04276"
+          ]
         },
         {
           "id": "ME-madawaska",
@@ -719,7 +869,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04756"
+          ]
         },
         {
           "id": "ME-blue-hill",
@@ -728,7 +881,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04614"
+          ]
         },
         {
           "id": "ME-lubec",
@@ -737,7 +893,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04652"
+          ]
         },
         {
           "id": "ME-mars-hill",
@@ -746,7 +905,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04758"
+          ]
         },
         {
           "id": "ME-rangeley",
@@ -755,7 +917,10 @@
           "tier": 1,
           "county": "Franklin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04970"
+          ]
         },
         {
           "id": "ME-ashland",
@@ -764,7 +929,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04732"
+          ]
         },
         {
           "id": "ME-skowhegan",
@@ -773,7 +941,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04976"
+          ]
         },
         {
           "id": "ME-south-paris",
@@ -782,7 +953,10 @@
           "tier": 1,
           "county": "Oxford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04281"
+          ]
         },
         {
           "id": "ME-athens",
@@ -791,7 +965,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04912"
+          ]
         },
         {
           "id": "ME-buckfield",
@@ -800,7 +977,10 @@
           "tier": 1,
           "county": "Oxford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04220"
+          ]
         },
         {
           "id": "ME-canaan",
@@ -809,7 +989,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04924"
+          ]
         },
         {
           "id": "ME-cherryfield",
@@ -818,7 +1001,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04622"
+          ]
         },
         {
           "id": "ME-orient",
@@ -827,7 +1013,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04471"
+          ]
         },
         {
           "id": "ME-porter",
@@ -836,7 +1025,10 @@
           "tier": 1,
           "county": "Oxford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04068"
+          ]
         },
         {
           "id": "ME-saint-albans",
@@ -845,7 +1037,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04971"
+          ]
         },
         {
           "id": "ME-sangerville",
@@ -854,7 +1049,10 @@
           "tier": 1,
           "county": "Piscataquis",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04479"
+          ]
         },
         {
           "id": "ME-sullivan",
@@ -863,7 +1061,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04664"
+          ]
         },
         {
           "id": "ME-monticello",
@@ -872,7 +1073,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04760"
+          ]
         },
         {
           "id": "ME-oxbow",
@@ -881,7 +1085,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04764"
+          ]
         },
         {
           "id": "ME-saint-agatha",
@@ -890,7 +1097,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04772"
+          ]
         },
         {
           "id": "ME-estcourt-station",
@@ -899,7 +1109,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04741"
+          ]
         },
         {
           "id": "ME-jay",
@@ -908,7 +1121,10 @@
           "tier": 1,
           "county": "Franklin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04239"
+          ]
         },
         {
           "id": "ME-east-wilton",
@@ -917,7 +1133,10 @@
           "tier": 1,
           "county": "Franklin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04234"
+          ]
         },
         {
           "id": "ME-birch-harbor",
@@ -926,7 +1145,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04613"
+          ]
         },
         {
           "id": "ME-orland",
@@ -935,7 +1157,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04472"
+          ]
         },
         {
           "id": "ME-east-blue-hill",
@@ -944,7 +1169,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04629"
+          ]
         },
         {
           "id": "ME-brooklin",
@@ -953,7 +1181,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04616"
+          ]
         },
         {
           "id": "ME-frenchboro",
@@ -962,7 +1193,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04635"
+          ]
         },
         {
           "id": "ME-sargentville",
@@ -971,7 +1205,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04673"
+          ]
         },
         {
           "id": "ME-hulls-cove",
@@ -980,7 +1217,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04644"
+          ]
         },
         {
           "id": "ME-canton",
@@ -989,7 +1229,10 @@
           "tier": 1,
           "county": "Oxford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04221"
+          ]
         },
         {
           "id": "ME-lovell",
@@ -998,7 +1241,10 @@
           "tier": 1,
           "county": "Oxford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04051"
+          ]
         },
         {
           "id": "ME-west-bethel",
@@ -1007,7 +1253,10 @@
           "tier": 1,
           "county": "Oxford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04286"
+          ]
         },
         {
           "id": "ME-greenville-junction",
@@ -1016,7 +1265,10 @@
           "tier": 1,
           "county": "Piscataquis",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04442"
+          ]
         },
         {
           "id": "ME-jackman",
@@ -1025,7 +1277,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04945"
+          ]
         },
         {
           "id": "ME-columbia-falls",
@@ -1034,7 +1289,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04623"
+          ]
         },
         {
           "id": "ME-jonesboro",
@@ -1043,7 +1301,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04648"
+          ]
         },
         {
           "id": "ME-waite",
@@ -1052,7 +1313,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04492"
+          ]
         },
         {
           "id": "ME-robbinston",
@@ -1061,7 +1325,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04671"
+          ]
         },
         {
           "id": "ME-wytopitlock",
@@ -1070,7 +1337,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04497"
+          ]
         },
         {
           "id": "ME-easton",
@@ -1079,7 +1349,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04740"
+          ]
         },
         {
           "id": "ME-phillips",
@@ -1088,7 +1361,10 @@
           "tier": 1,
           "county": "Franklin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04966"
+          ]
         },
         {
           "id": "ME-strong",
@@ -1097,7 +1373,10 @@
           "tier": 1,
           "county": "Franklin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04983"
+          ]
         },
         {
           "id": "ME-temple",
@@ -1106,7 +1385,10 @@
           "tier": 1,
           "county": "Franklin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04984"
+          ]
         },
         {
           "id": "ME-seal-harbor",
@@ -1115,7 +1397,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04675"
+          ]
         },
         {
           "id": "ME-harborside",
@@ -1124,7 +1409,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04642"
+          ]
         },
         {
           "id": "ME-stonington",
@@ -1133,7 +1421,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04681"
+          ]
         },
         {
           "id": "ME-greenwood",
@@ -1142,7 +1433,10 @@
           "tier": 1,
           "county": "Oxford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04255"
+          ]
         },
         {
           "id": "ME-north-waterford",
@@ -1151,7 +1445,10 @@
           "tier": 1,
           "county": "Oxford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04267"
+          ]
         },
         {
           "id": "ME-brownfield",
@@ -1160,7 +1457,10 @@
           "tier": 1,
           "county": "Oxford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04010"
+          ]
         },
         {
           "id": "ME-paris",
@@ -1169,7 +1469,10 @@
           "tier": 1,
           "county": "Oxford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04271"
+          ]
         },
         {
           "id": "ME-monson",
@@ -1178,7 +1481,10 @@
           "tier": 1,
           "county": "Piscataquis",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04464"
+          ]
         },
         {
           "id": "ME-brownville",
@@ -1187,7 +1493,10 @@
           "tier": 1,
           "county": "Piscataquis",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04414"
+          ]
         },
         {
           "id": "ME-brookton",
@@ -1196,7 +1505,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04413"
+          ]
         },
         {
           "id": "ME-harrington",
@@ -1205,7 +1517,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04643"
+          ]
         },
         {
           "id": "ME-steuben",
@@ -1214,7 +1529,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04680"
+          ]
         },
         {
           "id": "ME-frenchville",
@@ -1223,7 +1541,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04745"
+          ]
         },
         {
           "id": "ME-saint-francis",
@@ -1232,7 +1553,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04774"
+          ]
         },
         {
           "id": "ME-oquossoc",
@@ -1241,7 +1565,10 @@
           "tier": 1,
           "county": "Franklin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04964"
+          ]
         },
         {
           "id": "ME-aurora",
@@ -1250,7 +1577,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04408"
+          ]
         },
         {
           "id": "ME-mount-desert",
@@ -1259,7 +1589,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04660"
+          ]
         },
         {
           "id": "ME-sorrento",
@@ -1268,7 +1601,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04677"
+          ]
         },
         {
           "id": "ME-peru",
@@ -1277,7 +1613,10 @@
           "tier": 1,
           "county": "Oxford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04290"
+          ]
         },
         {
           "id": "ME-sumner",
@@ -1286,7 +1625,10 @@
           "tier": 1,
           "county": "Oxford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04292"
+          ]
         },
         {
           "id": "ME-denmark",
@@ -1295,7 +1637,10 @@
           "tier": 1,
           "county": "Oxford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04022"
+          ]
         },
         {
           "id": "ME-harmony",
@@ -1304,7 +1649,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04942"
+          ]
         },
         {
           "id": "ME-north-new-portland",
@@ -1313,7 +1661,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04961"
+          ]
         },
         {
           "id": "ME-caratunk",
@@ -1322,7 +1673,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04925"
+          ]
         },
         {
           "id": "ME-hinckley",
@@ -1331,7 +1685,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04944"
+          ]
         },
         {
           "id": "ME-perry",
@@ -1340,7 +1697,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04667"
+          ]
         },
         {
           "id": "ME-machiasport",
@@ -1349,7 +1709,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04655"
+          ]
         },
         {
           "id": "ME-cutler",
@@ -1358,7 +1721,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04626"
+          ]
         },
         {
           "id": "ME-new-sweden",
@@ -1367,7 +1733,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04762"
+          ]
         },
         {
           "id": "ME-saint-david",
@@ -1376,7 +1745,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04773"
+          ]
         },
         {
           "id": "ME-sherman-mills",
@@ -1385,7 +1757,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04776"
+          ]
         },
         {
           "id": "ME-sinclair",
@@ -1394,7 +1769,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04779"
+          ]
         },
         {
           "id": "ME-new-limerick",
@@ -1403,7 +1781,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04761"
+          ]
         },
         {
           "id": "ME-westfield",
@@ -1412,7 +1793,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04787"
+          ]
         },
         {
           "id": "ME-eustis",
@@ -1421,7 +1805,10 @@
           "tier": 1,
           "county": "Franklin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04936"
+          ]
         },
         {
           "id": "ME-corea",
@@ -1430,7 +1817,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04624"
+          ]
         },
         {
           "id": "ME-penobscot",
@@ -1439,7 +1829,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04476"
+          ]
         },
         {
           "id": "ME-surry",
@@ -1448,7 +1841,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04684"
+          ]
         },
         {
           "id": "ME-brooksville",
@@ -1457,7 +1853,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04617"
+          ]
         },
         {
           "id": "ME-prospect-harbor",
@@ -1466,7 +1865,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04669"
+          ]
         },
         {
           "id": "ME-bass-harbor",
@@ -1475,7 +1877,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04653"
+          ]
         },
         {
           "id": "ME-andover",
@@ -1484,7 +1889,10 @@
           "tier": 1,
           "county": "Oxford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04216"
+          ]
         },
         {
           "id": "ME-newry",
@@ -1493,7 +1901,10 @@
           "tier": 1,
           "county": "Oxford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04261"
+          ]
         },
         {
           "id": "ME-hiram",
@@ -1502,7 +1913,10 @@
           "tier": 1,
           "county": "Oxford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04041"
+          ]
         },
         {
           "id": "ME-abbot",
@@ -1511,7 +1925,10 @@
           "tier": 1,
           "county": "Piscataquis",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04406"
+          ]
         },
         {
           "id": "ME-smithfield",
@@ -1520,7 +1937,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04978"
+          ]
         },
         {
           "id": "ME-cambridge",
@@ -1529,7 +1949,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04923"
+          ]
         },
         {
           "id": "ME-dennysville",
@@ -1538,7 +1961,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04628"
+          ]
         },
         {
           "id": "ME-whiting",
@@ -1547,7 +1973,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04691"
+          ]
         },
         {
           "id": "ME-portage",
@@ -1556,7 +1985,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04768"
+          ]
         },
         {
           "id": "ME-benedicta",
@@ -1565,7 +1997,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04733"
+          ]
         },
         {
           "id": "ME-weld",
@@ -1574,7 +2009,10 @@
           "tier": 1,
           "county": "Franklin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04285"
+          ]
         },
         {
           "id": "ME-hancock",
@@ -1583,7 +2021,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04640"
+          ]
         },
         {
           "id": "ME-franklin",
@@ -1592,7 +2033,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04634"
+          ]
         },
         {
           "id": "ME-sedgwick",
@@ -1601,7 +2045,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04676"
+          ]
         },
         {
           "id": "ME-little-deer-isle",
@@ -1610,7 +2057,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04650"
+          ]
         },
         {
           "id": "ME-sunset",
@@ -1619,7 +2069,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04683"
+          ]
         },
         {
           "id": "ME-waterford",
@@ -1628,7 +2081,10 @@
           "tier": 1,
           "county": "Oxford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04088"
+          ]
         },
         {
           "id": "ME-bryant-pond",
@@ -1637,7 +2093,10 @@
           "tier": 1,
           "county": "Oxford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04219"
+          ]
         },
         {
           "id": "ME-detroit",
@@ -1646,7 +2105,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04929"
+          ]
         },
         {
           "id": "ME-shawmut",
@@ -1655,7 +2117,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04975"
+          ]
         },
         {
           "id": "ME-solon",
@@ -1664,7 +2129,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04979"
+          ]
         },
         {
           "id": "ME-wesley",
@@ -1673,7 +2141,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04686"
+          ]
         },
         {
           "id": "ME-grand-lake-stream",
@@ -1682,7 +2153,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04637"
+          ]
         },
         {
           "id": "ME-west-farmington",
@@ -1691,7 +2165,10 @@
           "tier": 1,
           "county": "Franklin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04992"
+          ]
         },
         {
           "id": "ME-cranberry-isles",
@@ -1700,7 +2177,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04625"
+          ]
         },
         {
           "id": "ME-deer-isle",
@@ -1709,7 +2189,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04627"
+          ]
         },
         {
           "id": "ME-east-orland",
@@ -1718,7 +2201,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04431"
+          ]
         },
         {
           "id": "ME-roxbury",
@@ -1727,7 +2213,10 @@
           "tier": 1,
           "county": "Oxford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04275"
+          ]
         },
         {
           "id": "ME-stoneham",
@@ -1736,7 +2225,10 @@
           "tier": 1,
           "county": "Oxford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04231"
+          ]
         },
         {
           "id": "ME-shirley-mills",
@@ -1745,7 +2237,10 @@
           "tier": 1,
           "county": "Piscataquis",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04485"
+          ]
         },
         {
           "id": "ME-rockwood",
@@ -1754,7 +2249,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04478"
+          ]
         },
         {
           "id": "ME-east-machias",
@@ -1763,7 +2261,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04630"
+          ]
         },
         {
           "id": "ME-pembroke",
@@ -1772,7 +2273,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04666"
+          ]
         },
         {
           "id": "ME-princeton",
@@ -1781,7 +2285,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04668"
+          ]
         },
         {
           "id": "ME-smyrna-mills",
@@ -1790,7 +2297,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04780"
+          ]
         },
         {
           "id": "ME-perham",
@@ -1799,7 +2309,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04766"
+          ]
         },
         {
           "id": "ME-wallagrass",
@@ -1808,7 +2321,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04781"
+          ]
         },
         {
           "id": "ME-farmington-falls",
@@ -1817,7 +2333,10 @@
           "tier": 1,
           "county": "Franklin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04940"
+          ]
         },
         {
           "id": "ME-new-vineyard",
@@ -1826,7 +2345,10 @@
           "tier": 1,
           "county": "Franklin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04956"
+          ]
         },
         {
           "id": "ME-bernard",
@@ -1835,7 +2357,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04612"
+          ]
         },
         {
           "id": "ME-hanover",
@@ -1844,7 +2369,10 @@
           "tier": 1,
           "county": "Oxford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04237"
+          ]
         },
         {
           "id": "ME-east-andover",
@@ -1853,7 +2381,10 @@
           "tier": 1,
           "county": "Oxford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04226"
+          ]
         },
         {
           "id": "ME-west-forks",
@@ -1862,7 +2393,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04985"
+          ]
         },
         {
           "id": "ME-topsfield",
@@ -1871,7 +2405,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04490"
+          ]
         },
         {
           "id": "ME-beals",
@@ -1880,7 +2417,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04611"
+          ]
         },
         {
           "id": "ME-stockholm",
@@ -1889,7 +2429,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04783"
+          ]
         },
         {
           "id": "ME-bridgewater",
@@ -1898,7 +2441,10 @@
           "tier": 1,
           "county": "Aroostook",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04735"
+          ]
         },
         {
           "id": "ME-stratton",
@@ -1907,7 +2453,10 @@
           "tier": 1,
           "county": "Franklin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04982"
+          ]
         },
         {
           "id": "ME-new-sharon",
@@ -1916,7 +2465,10 @@
           "tier": 1,
           "county": "Franklin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04955"
+          ]
         },
         {
           "id": "ME-gouldsboro",
@@ -1925,7 +2477,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04607"
+          ]
         },
         {
           "id": "ME-seal-cove",
@@ -1934,7 +2489,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04674"
+          ]
         },
         {
           "id": "ME-swans-island",
@@ -1943,7 +2501,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04685"
+          ]
         },
         {
           "id": "ME-islesford",
@@ -1952,7 +2513,10 @@
           "tier": 1,
           "county": "Hancock",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04646"
+          ]
         },
         {
           "id": "ME-west-paris",
@@ -1961,7 +2525,10 @@
           "tier": 1,
           "county": "Oxford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04289"
+          ]
         },
         {
           "id": "ME-hebron",
@@ -1970,7 +2537,10 @@
           "tier": 1,
           "county": "Oxford",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04238"
+          ]
         },
         {
           "id": "ME-east-dixfield",
@@ -1979,7 +2549,10 @@
           "tier": 1,
           "county": "Franklin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04227"
+          ]
         },
         {
           "id": "ME-sebec",
@@ -1988,7 +2561,10 @@
           "tier": 1,
           "county": "Piscataquis",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04481"
+          ]
         },
         {
           "id": "ME-palmyra",
@@ -1997,7 +2573,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04965"
+          ]
         },
         {
           "id": "ME-addison",
@@ -2006,7 +2585,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04606"
+          ]
         },
         {
           "id": "ME-meddybemps",
@@ -2015,7 +2597,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04657"
+          ]
         },
         {
           "id": "ME-baileyville",
@@ -2024,7 +2609,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04694"
+          ]
         },
         {
           "id": "ME-lambert-lake",
@@ -2033,7 +2621,10 @@
           "tier": 1,
           "county": "Washington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04454"
+          ]
         }
       ],
       "adTargeting": {
@@ -2249,7 +2840,10 @@
           "tier": 1,
           "county": "Kennebec",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04330"
+          ]
         },
         {
           "id": "ME-orono",
@@ -2258,7 +2852,11 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04469",
+            "04473"
+          ]
         },
         {
           "id": "ME-livermore-falls",
@@ -2267,7 +2865,10 @@
           "tier": 1,
           "county": "Androscoggin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04254"
+          ]
         },
         {
           "id": "ME-turner",
@@ -2276,7 +2877,10 @@
           "tier": 1,
           "county": "Androscoggin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04282"
+          ]
         },
         {
           "id": "ME-patten",
@@ -2285,7 +2889,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04765"
+          ]
         },
         {
           "id": "ME-sabattus",
@@ -2294,7 +2901,10 @@
           "tier": 1,
           "county": "Androscoggin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04280"
+          ]
         },
         {
           "id": "ME-oakland",
@@ -2303,7 +2913,10 @@
           "tier": 1,
           "county": "Kennebec",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04963"
+          ]
         },
         {
           "id": "ME-newport",
@@ -2312,7 +2925,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04953"
+          ]
         },
         {
           "id": "ME-boothbay-harbor",
@@ -2321,7 +2937,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04538"
+          ]
         },
         {
           "id": "ME-searsport",
@@ -2330,7 +2949,10 @@
           "tier": 1,
           "county": "Waldo",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04974"
+          ]
         },
         {
           "id": "ME-rockland",
@@ -2339,7 +2961,10 @@
           "tier": 1,
           "county": "Knox",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04841"
+          ]
         },
         {
           "id": "ME-auburn",
@@ -2348,7 +2973,10 @@
           "tier": 1,
           "county": "Androscoggin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04210"
+          ]
         },
         {
           "id": "ME-hallowell",
@@ -2357,7 +2985,10 @@
           "tier": 1,
           "county": "Kennebec",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04347"
+          ]
         },
         {
           "id": "ME-bangor",
@@ -2366,7 +2997,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04401"
+          ]
         },
         {
           "id": "ME-brewer",
@@ -2375,7 +3009,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04412"
+          ]
         },
         {
           "id": "ME-lincoln",
@@ -2384,7 +3021,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04457"
+          ]
         },
         {
           "id": "ME-damariscotta",
@@ -2393,7 +3033,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04543"
+          ]
         },
         {
           "id": "ME-richmond",
@@ -2402,7 +3045,10 @@
           "tier": 1,
           "county": "Sagadahoc",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04357"
+          ]
         },
         {
           "id": "ME-east-millinocket",
@@ -2411,7 +3057,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04430"
+          ]
         },
         {
           "id": "ME-howland",
@@ -2420,7 +3069,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04448"
+          ]
         },
         {
           "id": "ME-camden",
@@ -2429,7 +3081,10 @@
           "tier": 1,
           "county": "Knox",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04843"
+          ]
         },
         {
           "id": "ME-hampden",
@@ -2438,7 +3093,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04444"
+          ]
         },
         {
           "id": "ME-topsham",
@@ -2447,7 +3105,10 @@
           "tier": 1,
           "county": "Sagadahoc",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04086"
+          ]
         },
         {
           "id": "ME-greene",
@@ -2456,7 +3117,10 @@
           "tier": 1,
           "county": "Androscoggin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04236"
+          ]
         },
         {
           "id": "ME-mattawamkeag",
@@ -2465,7 +3129,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04459"
+          ]
         },
         {
           "id": "ME-bath",
@@ -2474,7 +3141,10 @@
           "tier": 1,
           "county": "Sagadahoc",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04530"
+          ]
         },
         {
           "id": "ME-bradley",
@@ -2483,7 +3153,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04411"
+          ]
         },
         {
           "id": "ME-mechanic-falls",
@@ -2492,7 +3165,10 @@
           "tier": 1,
           "county": "Androscoggin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04256"
+          ]
         },
         {
           "id": "ME-belfast",
@@ -2501,7 +3177,10 @@
           "tier": 1,
           "county": "Waldo",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04915"
+          ]
         },
         {
           "id": "ME-gardiner",
@@ -2510,7 +3189,10 @@
           "tier": 1,
           "county": "Kennebec",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04345"
+          ]
         },
         {
           "id": "ME-waterville",
@@ -2519,7 +3201,10 @@
           "tier": 1,
           "county": "Kennebec",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04901"
+          ]
         },
         {
           "id": "ME-old-town",
@@ -2528,7 +3213,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04468"
+          ]
         },
         {
           "id": "ME-bowdoinham",
@@ -2537,7 +3225,10 @@
           "tier": 1,
           "county": "Sagadahoc",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04008"
+          ]
         },
         {
           "id": "ME-clinton",
@@ -2546,7 +3237,10 @@
           "tier": 1,
           "county": "Kennebec",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04927"
+          ]
         },
         {
           "id": "ME-farmingdale",
@@ -2555,7 +3249,10 @@
           "tier": 1,
           "county": "Kennebec",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04344"
+          ]
         },
         {
           "id": "ME-winthrop",
@@ -2564,7 +3261,10 @@
           "tier": 1,
           "county": "Kennebec",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04364"
+          ]
         },
         {
           "id": "ME-wiscasset",
@@ -2573,7 +3273,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04578"
+          ]
         },
         {
           "id": "ME-milford",
@@ -2582,7 +3285,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04461"
+          ]
         },
         {
           "id": "ME-lisbon",
@@ -2591,7 +3297,10 @@
           "tier": 1,
           "county": "Androscoggin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04250"
+          ]
         },
         {
           "id": "ME-corinna",
@@ -2600,7 +3309,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04928"
+          ]
         },
         {
           "id": "ME-dexter",
@@ -2609,7 +3321,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04930"
+          ]
         },
         {
           "id": "ME-millinocket",
@@ -2618,7 +3333,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04462"
+          ]
         },
         {
           "id": "ME-lisbon-falls",
@@ -2627,7 +3345,10 @@
           "tier": 1,
           "county": "Androscoggin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04252"
+          ]
         },
         {
           "id": "ME-winterport",
@@ -2636,7 +3357,10 @@
           "tier": 1,
           "county": "Waldo",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04496"
+          ]
         },
         {
           "id": "ME-lewiston",
@@ -2645,7 +3369,10 @@
           "tier": 1,
           "county": "Androscoggin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04240"
+          ]
         },
         {
           "id": "ME-newcastle",
@@ -2654,7 +3381,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04553"
+          ]
         },
         {
           "id": "ME-randolph",
@@ -2663,7 +3393,10 @@
           "tier": 1,
           "county": "Kennebec",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04346"
+          ]
         },
         {
           "id": "ME-thomaston",
@@ -2672,7 +3405,10 @@
           "tier": 1,
           "county": "Knox",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04861"
+          ]
         },
         {
           "id": "ME-unity",
@@ -2681,7 +3417,10 @@
           "tier": 1,
           "county": "Waldo",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04988"
+          ]
         },
         {
           "id": "ME-waldoboro",
@@ -2690,7 +3429,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04572"
+          ]
         },
         {
           "id": "ME-belgrade",
@@ -2699,7 +3441,10 @@
           "tier": 1,
           "county": "Kennebec",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04917"
+          ]
         },
         {
           "id": "ME-belgrade-lakes",
@@ -2708,7 +3453,10 @@
           "tier": 1,
           "county": "Kennebec",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04918"
+          ]
         },
         {
           "id": "ME-boothbay",
@@ -2717,7 +3465,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04537"
+          ]
         },
         {
           "id": "ME-bowdoin",
@@ -2726,7 +3477,10 @@
           "tier": 1,
           "county": "Sagadahoc",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04287"
+          ]
         },
         {
           "id": "ME-bradford",
@@ -2735,7 +3489,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04410"
+          ]
         },
         {
           "id": "ME-charleston",
@@ -2744,7 +3501,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04422"
+          ]
         },
         {
           "id": "ME-dresden",
@@ -2753,7 +3513,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04342"
+          ]
         },
         {
           "id": "ME-durham",
@@ -2762,7 +3525,10 @@
           "tier": 1,
           "county": "Androscoggin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04222"
+          ]
         },
         {
           "id": "ME-eddington",
@@ -2771,7 +3537,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04428"
+          ]
         },
         {
           "id": "ME-edgecomb",
@@ -2780,7 +3549,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04556"
+          ]
         },
         {
           "id": "ME-jefferson",
@@ -2789,7 +3561,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04348"
+          ]
         },
         {
           "id": "ME-lincolnville",
@@ -2798,7 +3573,10 @@
           "tier": 1,
           "county": "Waldo",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04849"
+          ]
         },
         {
           "id": "ME-litchfield",
@@ -2807,7 +3585,10 @@
           "tier": 1,
           "county": "Kennebec",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04350"
+          ]
         },
         {
           "id": "ME-livermore",
@@ -2816,7 +3597,10 @@
           "tier": 1,
           "county": "Androscoggin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04253"
+          ]
         },
         {
           "id": "ME-morrill",
@@ -2825,7 +3609,10 @@
           "tier": 1,
           "county": "Waldo",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04952"
+          ]
         },
         {
           "id": "ME-rockport",
@@ -2834,7 +3621,10 @@
           "tier": 1,
           "county": "Knox",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04856"
+          ]
         },
         {
           "id": "ME-union",
@@ -2843,7 +3633,10 @@
           "tier": 1,
           "county": "Knox",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04862"
+          ]
         },
         {
           "id": "ME-mount-vernon",
@@ -2852,7 +3645,10 @@
           "tier": 1,
           "county": "Kennebec",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04352"
+          ]
         },
         {
           "id": "ME-south-thomaston",
@@ -2861,7 +3657,10 @@
           "tier": 1,
           "county": "Knox",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04858"
+          ]
         },
         {
           "id": "ME-north-haven",
@@ -2870,7 +3669,10 @@
           "tier": 1,
           "county": "Knox",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04853"
+          ]
         },
         {
           "id": "ME-bremen",
@@ -2879,7 +3681,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04551"
+          ]
         },
         {
           "id": "ME-passadumkeag",
@@ -2888,7 +3693,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04475"
+          ]
         },
         {
           "id": "ME-kenduskeag",
@@ -2897,7 +3705,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04450"
+          ]
         },
         {
           "id": "ME-garland",
@@ -2906,7 +3717,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04939"
+          ]
         },
         {
           "id": "ME-palermo",
@@ -2915,7 +3729,10 @@
           "tier": 1,
           "county": "Waldo",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04354"
+          ]
         },
         {
           "id": "ME-brooks",
@@ -2924,7 +3741,10 @@
           "tier": 1,
           "county": "Waldo",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04921"
+          ]
         },
         {
           "id": "ME-liberty",
@@ -2933,7 +3753,10 @@
           "tier": 1,
           "county": "Waldo",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04949"
+          ]
         },
         {
           "id": "ME-medway",
@@ -2942,7 +3765,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04460"
+          ]
         },
         {
           "id": "ME-monmouth",
@@ -2951,7 +3777,10 @@
           "tier": 1,
           "county": "Kennebec",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04259"
+          ]
         },
         {
           "id": "ME-vassalboro",
@@ -2960,7 +3789,10 @@
           "tier": 1,
           "county": "Kennebec",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04989"
+          ]
         },
         {
           "id": "ME-owls-head",
@@ -2969,7 +3801,10 @@
           "tier": 1,
           "county": "Knox",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04854"
+          ]
         },
         {
           "id": "ME-trevett",
@@ -2978,7 +3813,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04571"
+          ]
         },
         {
           "id": "ME-pemaquid",
@@ -2987,7 +3825,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04558"
+          ]
         },
         {
           "id": "ME-walpole",
@@ -2996,7 +3837,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04573"
+          ]
         },
         {
           "id": "ME-whitefield",
@@ -3005,7 +3849,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04353"
+          ]
         },
         {
           "id": "ME-greenbush",
@@ -3014,7 +3861,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04418"
+          ]
         },
         {
           "id": "ME-plymouth",
@@ -3023,7 +3873,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04969"
+          ]
         },
         {
           "id": "ME-east-newport",
@@ -3032,7 +3885,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04933"
+          ]
         },
         {
           "id": "ME-exeter",
@@ -3041,7 +3897,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04435"
+          ]
         },
         {
           "id": "ME-stillwater",
@@ -3050,7 +3909,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04489"
+          ]
         },
         {
           "id": "ME-georgetown",
@@ -3059,7 +3921,10 @@
           "tier": 1,
           "county": "Sagadahoc",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04548"
+          ]
         },
         {
           "id": "ME-east-livermore",
@@ -3068,7 +3933,10 @@
           "tier": 1,
           "county": "Androscoggin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04228"
+          ]
         },
         {
           "id": "ME-north-monmouth",
@@ -3077,7 +3945,10 @@
           "tier": 1,
           "county": "Kennebec",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04265"
+          ]
         },
         {
           "id": "ME-windsor",
@@ -3086,7 +3957,10 @@
           "tier": 1,
           "county": "Kennebec",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04363"
+          ]
         },
         {
           "id": "ME-west-enfield",
@@ -3095,7 +3969,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04493"
+          ]
         },
         {
           "id": "ME-hudson",
@@ -3104,7 +3981,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04449"
+          ]
         },
         {
           "id": "ME-thorndike",
@@ -3113,7 +3993,10 @@
           "tier": 1,
           "county": "Waldo",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04986"
+          ]
         },
         {
           "id": "ME-china-village",
@@ -3122,7 +4005,10 @@
           "tier": 1,
           "county": "Kennebec",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04926"
+          ]
         },
         {
           "id": "ME-friendship",
@@ -3131,7 +4017,10 @@
           "tier": 1,
           "county": "Knox",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04547"
+          ]
         },
         {
           "id": "ME-tenants-harbor",
@@ -3140,7 +4029,10 @@
           "tier": 1,
           "county": "Knox",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04860"
+          ]
         },
         {
           "id": "ME-nobleboro",
@@ -3149,7 +4041,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04555"
+          ]
         },
         {
           "id": "ME-chamberlain",
@@ -3158,7 +4053,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04541"
+          ]
         },
         {
           "id": "ME-west-boothbay-harbor",
@@ -3167,7 +4065,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04575"
+          ]
         },
         {
           "id": "ME-new-harbor",
@@ -3176,7 +4077,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04554"
+          ]
         },
         {
           "id": "ME-corinth",
@@ -3185,7 +4089,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04427"
+          ]
         },
         {
           "id": "ME-springfield",
@@ -3194,7 +4101,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04487"
+          ]
         },
         {
           "id": "ME-monroe",
@@ -3203,7 +4113,10 @@
           "tier": 1,
           "county": "Waldo",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04951"
+          ]
         },
         {
           "id": "ME-freedom",
@@ -3212,7 +4125,10 @@
           "tier": 1,
           "county": "Waldo",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04941"
+          ]
         },
         {
           "id": "ME-burnham",
@@ -3221,7 +4137,10 @@
           "tier": 1,
           "county": "Waldo",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04922"
+          ]
         },
         {
           "id": "ME-poland",
@@ -3230,7 +4149,10 @@
           "tier": 1,
           "county": "Androscoggin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04274"
+          ]
         },
         {
           "id": "ME-wayne",
@@ -3239,7 +4161,10 @@
           "tier": 1,
           "county": "Kennebec",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04284"
+          ]
         },
         {
           "id": "ME-south-china",
@@ -3248,7 +4173,10 @@
           "tier": 1,
           "county": "Kennebec",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04358"
+          ]
         },
         {
           "id": "ME-south-gardiner",
@@ -3257,7 +4185,10 @@
           "tier": 1,
           "county": "Kennebec",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04359"
+          ]
         },
         {
           "id": "ME-east-winthrop",
@@ -3266,7 +4197,10 @@
           "tier": 1,
           "county": "Kennebec",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04343"
+          ]
         },
         {
           "id": "ME-vinalhaven",
@@ -3275,7 +4209,10 @@
           "tier": 1,
           "county": "Knox",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04863"
+          ]
         },
         {
           "id": "ME-matinicus",
@@ -3284,7 +4221,10 @@
           "tier": 1,
           "county": "Knox",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04851"
+          ]
         },
         {
           "id": "ME-alna",
@@ -3293,7 +4233,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04535"
+          ]
         },
         {
           "id": "ME-monhegan",
@@ -3302,7 +4245,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04852"
+          ]
         },
         {
           "id": "ME-squirrel-island",
@@ -3311,7 +4257,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04570"
+          ]
         },
         {
           "id": "ME-burlington",
@@ -3320,7 +4269,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04417"
+          ]
         },
         {
           "id": "ME-frankfort",
@@ -3329,7 +4281,10 @@
           "tier": 1,
           "county": "Waldo",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04438"
+          ]
         },
         {
           "id": "ME-islesboro",
@@ -3338,7 +4293,10 @@
           "tier": 1,
           "county": "Waldo",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04848"
+          ]
         },
         {
           "id": "ME-minot",
@@ -3347,7 +4305,10 @@
           "tier": 1,
           "county": "Androscoggin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04258"
+          ]
         },
         {
           "id": "ME-leeds",
@@ -3356,7 +4317,10 @@
           "tier": 1,
           "county": "Androscoggin",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04263"
+          ]
         },
         {
           "id": "ME-albion",
@@ -3365,7 +4329,10 @@
           "tier": 1,
           "county": "Kennebec",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04910"
+          ]
         },
         {
           "id": "ME-manchester",
@@ -3374,7 +4341,10 @@
           "tier": 1,
           "county": "Kennebec",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04351"
+          ]
         },
         {
           "id": "ME-readfield",
@@ -3383,7 +4353,10 @@
           "tier": 1,
           "county": "Kennebec",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04355"
+          ]
         },
         {
           "id": "ME-hope",
@@ -3392,7 +4365,10 @@
           "tier": 1,
           "county": "Knox",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04847"
+          ]
         },
         {
           "id": "ME-port-clyde",
@@ -3401,7 +4377,10 @@
           "tier": 1,
           "county": "Knox",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04855"
+          ]
         },
         {
           "id": "ME-bristol",
@@ -3410,7 +4389,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04539"
+          ]
         },
         {
           "id": "ME-sherman-station",
@@ -3419,7 +4401,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04777"
+          ]
         },
         {
           "id": "ME-winn",
@@ -3428,7 +4413,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04495"
+          ]
         },
         {
           "id": "ME-levant",
@@ -3437,7 +4425,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04456"
+          ]
         },
         {
           "id": "ME-carmel",
@@ -3446,7 +4437,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04419"
+          ]
         },
         {
           "id": "ME-searsmont",
@@ -3455,7 +4449,10 @@
           "tier": 1,
           "county": "Waldo",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04973"
+          ]
         },
         {
           "id": "ME-troy",
@@ -3464,7 +4461,10 @@
           "tier": 1,
           "county": "Waldo",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04987"
+          ]
         },
         {
           "id": "ME-north-vassalboro",
@@ -3473,7 +4473,10 @@
           "tier": 1,
           "county": "Kennebec",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04962"
+          ]
         },
         {
           "id": "ME-spruce-head",
@@ -3482,7 +4485,10 @@
           "tier": 1,
           "county": "Knox",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04859"
+          ]
         },
         {
           "id": "ME-washington",
@@ -3491,7 +4497,10 @@
           "tier": 1,
           "county": "Knox",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04574"
+          ]
         },
         {
           "id": "ME-isle-au-haut",
@@ -3500,7 +4509,10 @@
           "tier": 1,
           "county": "Knox",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04645"
+          ]
         },
         {
           "id": "ME-east-boothbay",
@@ -3509,7 +4521,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04544"
+          ]
         },
         {
           "id": "ME-southport",
@@ -3518,7 +4533,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04576"
+          ]
         },
         {
           "id": "ME-orrington",
@@ -3527,7 +4545,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04474"
+          ]
         },
         {
           "id": "ME-dixmont",
@@ -3536,7 +4557,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04932"
+          ]
         },
         {
           "id": "ME-phippsburg",
@@ -3545,7 +4569,10 @@
           "tier": 1,
           "county": "Sagadahoc",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04562"
+          ]
         },
         {
           "id": "ME-kingman",
@@ -3554,7 +4581,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04451"
+          ]
         },
         {
           "id": "ME-holden",
@@ -3563,7 +4593,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04429"
+          ]
         },
         {
           "id": "ME-kents-hill",
@@ -3572,7 +4605,10 @@
           "tier": 1,
           "county": "Kennebec",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04349"
+          ]
         },
         {
           "id": "ME-vienna",
@@ -3581,7 +4617,10 @@
           "tier": 1,
           "county": "Kennebec",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04360"
+          ]
         },
         {
           "id": "ME-cushing",
@@ -3590,7 +4629,10 @@
           "tier": 1,
           "county": "Knox",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04563"
+          ]
         },
         {
           "id": "ME-warren",
@@ -3599,7 +4641,10 @@
           "tier": 1,
           "county": "Knox",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04864"
+          ]
         },
         {
           "id": "ME-round-pond",
@@ -3608,7 +4653,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04564"
+          ]
         },
         {
           "id": "ME-south-bristol",
@@ -3617,7 +4665,10 @@
           "tier": 1,
           "county": "Lincoln",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04568"
+          ]
         },
         {
           "id": "ME-lagrange",
@@ -3626,7 +4677,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04453"
+          ]
         },
         {
           "id": "ME-stetson",
@@ -3635,7 +4689,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04488"
+          ]
         },
         {
           "id": "ME-lee",
@@ -3644,7 +4701,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04455"
+          ]
         },
         {
           "id": "ME-etna",
@@ -3653,7 +4713,10 @@
           "tier": 1,
           "county": "Penobscot",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04434"
+          ]
         },
         {
           "id": "ME-woolwich",
@@ -3662,7 +4725,10 @@
           "tier": 1,
           "county": "Sagadahoc",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04579"
+          ]
         },
         {
           "id": "ME-stockton-springs",
@@ -3671,7 +4737,10 @@
           "tier": 1,
           "county": "Waldo",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04981"
+          ]
         }
       ],
       "adTargeting": {
@@ -3796,7 +4865,13 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04101",
+            "04103",
+            "04102",
+            "04109"
+          ]
         },
         {
           "id": "ME-kittery-point",
@@ -3805,7 +4880,10 @@
           "tier": 1,
           "county": "York",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03905"
+          ]
         },
         {
           "id": "ME-south-berwick",
@@ -3814,7 +4892,10 @@
           "tier": 1,
           "county": "York",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03908"
+          ]
         },
         {
           "id": "ME-bridgton",
@@ -3823,7 +4904,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04009"
+          ]
         },
         {
           "id": "ME-cornish",
@@ -3832,7 +4916,10 @@
           "tier": 1,
           "county": "York",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04020"
+          ]
         },
         {
           "id": "ME-berwick",
@@ -3841,7 +4928,10 @@
           "tier": 1,
           "county": "York",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03901"
+          ]
         },
         {
           "id": "ME-saco",
@@ -3850,7 +4940,10 @@
           "tier": 1,
           "county": "York",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04072"
+          ]
         },
         {
           "id": "ME-brunswick",
@@ -3859,7 +4952,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04011"
+          ]
         },
         {
           "id": "ME-cumberland-center",
@@ -3868,7 +4964,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04021"
+          ]
         },
         {
           "id": "ME-cape-neddick",
@@ -3877,7 +4976,10 @@
           "tier": 1,
           "county": "York",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03902"
+          ]
         },
         {
           "id": "ME-freeport",
@@ -3886,7 +4988,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04032"
+          ]
         },
         {
           "id": "ME-yarmouth",
@@ -3895,7 +5000,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04096"
+          ]
         },
         {
           "id": "ME-north-berwick",
@@ -3904,7 +5012,10 @@
           "tier": 1,
           "county": "York",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03906"
+          ]
         },
         {
           "id": "ME-old-orchard-beach",
@@ -3913,7 +5024,10 @@
           "tier": 1,
           "county": "York",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04064"
+          ]
         },
         {
           "id": "ME-york-harbor",
@@ -3922,7 +5036,10 @@
           "tier": 1,
           "county": "York",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03911"
+          ]
         },
         {
           "id": "ME-south-portland",
@@ -3931,7 +5048,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04106"
+          ]
         },
         {
           "id": "ME-alfred",
@@ -3940,7 +5060,10 @@
           "tier": 1,
           "county": "York",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04002"
+          ]
         },
         {
           "id": "ME-biddeford",
@@ -3949,7 +5072,10 @@
           "tier": 1,
           "county": "York",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04005"
+          ]
         },
         {
           "id": "ME-falmouth",
@@ -3958,7 +5084,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04105"
+          ]
         },
         {
           "id": "ME-casco",
@@ -3967,7 +5096,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04015"
+          ]
         },
         {
           "id": "ME-gray",
@@ -3976,7 +5108,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04039"
+          ]
         },
         {
           "id": "ME-naples",
@@ -3985,7 +5120,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04055"
+          ]
         },
         {
           "id": "ME-standish",
@@ -3994,7 +5132,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04084"
+          ]
         },
         {
           "id": "ME-westbrook",
@@ -4003,7 +5144,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04092"
+          ]
         },
         {
           "id": "ME-sanford",
@@ -4012,7 +5156,10 @@
           "tier": 1,
           "county": "York",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04073"
+          ]
         },
         {
           "id": "ME-kennebunk",
@@ -4021,7 +5168,10 @@
           "tier": 1,
           "county": "York",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04043"
+          ]
         },
         {
           "id": "ME-gorham",
@@ -4030,7 +5180,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04038"
+          ]
         },
         {
           "id": "ME-kittery",
@@ -4039,7 +5192,10 @@
           "tier": 1,
           "county": "York",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03904"
+          ]
         },
         {
           "id": "ME-kennebunkport",
@@ -4048,7 +5204,10 @@
           "tier": 1,
           "county": "York",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04046"
+          ]
         },
         {
           "id": "ME-steep-falls",
@@ -4057,7 +5216,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04085"
+          ]
         },
         {
           "id": "ME-acton",
@@ -4066,7 +5228,10 @@
           "tier": 1,
           "county": "York",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04001"
+          ]
         },
         {
           "id": "ME-buxton",
@@ -4075,7 +5240,10 @@
           "tier": 1,
           "county": "York",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04093"
+          ]
         },
         {
           "id": "ME-cape-elizabeth",
@@ -4084,7 +5252,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04107"
+          ]
         },
         {
           "id": "ME-eliot",
@@ -4093,7 +5264,10 @@
           "tier": 1,
           "county": "York",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03903"
+          ]
         },
         {
           "id": "ME-hollis-center",
@@ -4102,7 +5276,10 @@
           "tier": 1,
           "county": "York",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04042"
+          ]
         },
         {
           "id": "ME-limerick",
@@ -4111,7 +5288,10 @@
           "tier": 1,
           "county": "York",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04048"
+          ]
         },
         {
           "id": "ME-limington",
@@ -4120,7 +5300,10 @@
           "tier": 1,
           "county": "York",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04049"
+          ]
         },
         {
           "id": "ME-new-gloucester",
@@ -4129,7 +5312,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04260"
+          ]
         },
         {
           "id": "ME-north-yarmouth",
@@ -4138,7 +5324,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04097"
+          ]
         },
         {
           "id": "ME-ocean-park",
@@ -4147,7 +5336,10 @@
           "tier": 1,
           "county": "York",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04063"
+          ]
         },
         {
           "id": "ME-parsonsfield",
@@ -4156,7 +5348,10 @@
           "tier": 1,
           "county": "York",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04047"
+          ]
         },
         {
           "id": "ME-raymond",
@@ -4165,7 +5360,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04071"
+          ]
         },
         {
           "id": "ME-scarborough",
@@ -4174,7 +5372,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04074"
+          ]
         },
         {
           "id": "ME-springvale",
@@ -4183,7 +5384,10 @@
           "tier": 1,
           "county": "York",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04083"
+          ]
         },
         {
           "id": "ME-wells",
@@ -4192,7 +5396,10 @@
           "tier": 1,
           "county": "York",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04090"
+          ]
         },
         {
           "id": "ME-windham",
@@ -4201,7 +5408,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04062"
+          ]
         },
         {
           "id": "ME-york",
@@ -4210,7 +5420,10 @@
           "tier": 1,
           "county": "York",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03909"
+          ]
         },
         {
           "id": "ME-north-bridgton",
@@ -4219,7 +5432,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04057"
+          ]
         },
         {
           "id": "ME-cliff-island",
@@ -4228,7 +5444,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04019"
+          ]
         },
         {
           "id": "ME-long-island",
@@ -4237,7 +5456,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04050"
+          ]
         },
         {
           "id": "ME-ogunquit",
@@ -4246,7 +5468,10 @@
           "tier": 1,
           "county": "York",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03907"
+          ]
         },
         {
           "id": "ME-cumberland-foreside",
@@ -4255,7 +5480,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04110"
+          ]
         },
         {
           "id": "ME-orrs-island",
@@ -4264,7 +5492,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04066"
+          ]
         },
         {
           "id": "ME-york-beach",
@@ -4273,7 +5504,10 @@
           "tier": 1,
           "county": "York",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "03910"
+          ]
         },
         {
           "id": "ME-shapleigh",
@@ -4282,7 +5516,10 @@
           "tier": 1,
           "county": "York",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04076"
+          ]
         },
         {
           "id": "ME-harrison",
@@ -4291,7 +5528,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04040"
+          ]
         },
         {
           "id": "ME-bailey-island",
@@ -4300,7 +5540,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04003"
+          ]
         },
         {
           "id": "ME-newfield",
@@ -4309,7 +5552,10 @@
           "tier": 1,
           "county": "York",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04056"
+          ]
         },
         {
           "id": "ME-waterboro",
@@ -4318,7 +5564,10 @@
           "tier": 1,
           "county": "York",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04087"
+          ]
         },
         {
           "id": "ME-west-baldwin",
@@ -4327,7 +5576,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04091"
+          ]
         },
         {
           "id": "ME-sebago",
@@ -4336,7 +5588,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04029"
+          ]
         },
         {
           "id": "ME-biddeford-pool",
@@ -4345,7 +5600,10 @@
           "tier": 1,
           "county": "York",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04006"
+          ]
         },
         {
           "id": "ME-north-waterboro",
@@ -4354,7 +5612,10 @@
           "tier": 1,
           "county": "York",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04061"
+          ]
         },
         {
           "id": "ME-chebeague-island",
@@ -4363,7 +5624,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04017"
+          ]
         },
         {
           "id": "ME-east-waterboro",
@@ -4372,7 +5636,10 @@
           "tier": 1,
           "county": "York",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04030"
+          ]
         },
         {
           "id": "ME-east-baldwin",
@@ -4381,7 +5648,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04024"
+          ]
         },
         {
           "id": "ME-peaks-island",
@@ -4390,7 +5660,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04108"
+          ]
         },
         {
           "id": "ME-pownal",
@@ -4399,7 +5672,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04069"
+          ]
         },
         {
           "id": "ME-harpswell",
@@ -4408,7 +5684,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04079"
+          ]
         },
         {
           "id": "ME-west-newfield",
@@ -4417,7 +5696,10 @@
           "tier": 1,
           "county": "York",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04095"
+          ]
         },
         {
           "id": "ME-lebanon",
@@ -4426,7 +5708,10 @@
           "tier": 1,
           "county": "York",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04027"
+          ]
         }
       ],
       "adTargeting": {
@@ -4514,7 +5799,13 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04101",
+            "04103",
+            "04102",
+            "04109"
+          ]
         },
         {
           "id": "ME-bridgton",
@@ -4523,7 +5814,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04009"
+          ]
         },
         {
           "id": "ME-brunswick",
@@ -4532,7 +5826,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04011"
+          ]
         },
         {
           "id": "ME-cumberland-center",
@@ -4541,7 +5838,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04021"
+          ]
         },
         {
           "id": "ME-freeport",
@@ -4550,7 +5850,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04032"
+          ]
         },
         {
           "id": "ME-yarmouth",
@@ -4559,7 +5862,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04096"
+          ]
         },
         {
           "id": "ME-south-portland",
@@ -4568,7 +5874,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04106"
+          ]
         },
         {
           "id": "ME-falmouth",
@@ -4577,7 +5886,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04105"
+          ]
         },
         {
           "id": "ME-casco",
@@ -4586,7 +5898,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04015"
+          ]
         },
         {
           "id": "ME-gray",
@@ -4595,7 +5910,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04039"
+          ]
         },
         {
           "id": "ME-naples",
@@ -4604,7 +5922,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04055"
+          ]
         },
         {
           "id": "ME-standish",
@@ -4613,7 +5934,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04084"
+          ]
         },
         {
           "id": "ME-westbrook",
@@ -4622,7 +5946,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04092"
+          ]
         },
         {
           "id": "ME-gorham",
@@ -4631,7 +5958,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04038"
+          ]
         },
         {
           "id": "ME-steep-falls",
@@ -4640,7 +5970,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04085"
+          ]
         },
         {
           "id": "ME-cape-elizabeth",
@@ -4649,7 +5982,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04107"
+          ]
         },
         {
           "id": "ME-new-gloucester",
@@ -4658,7 +5994,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04260"
+          ]
         },
         {
           "id": "ME-north-yarmouth",
@@ -4667,7 +6006,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04097"
+          ]
         },
         {
           "id": "ME-raymond",
@@ -4676,7 +6018,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04071"
+          ]
         },
         {
           "id": "ME-scarborough",
@@ -4685,7 +6030,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04074"
+          ]
         },
         {
           "id": "ME-windham",
@@ -4694,7 +6042,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04062"
+          ]
         },
         {
           "id": "ME-north-bridgton",
@@ -4703,7 +6054,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04057"
+          ]
         },
         {
           "id": "ME-cliff-island",
@@ -4712,7 +6066,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04019"
+          ]
         },
         {
           "id": "ME-long-island",
@@ -4721,7 +6078,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04050"
+          ]
         },
         {
           "id": "ME-cumberland-foreside",
@@ -4730,7 +6090,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04110"
+          ]
         },
         {
           "id": "ME-orrs-island",
@@ -4739,7 +6102,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04066"
+          ]
         },
         {
           "id": "ME-harrison",
@@ -4748,7 +6114,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04040"
+          ]
         },
         {
           "id": "ME-bailey-island",
@@ -4757,7 +6126,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04003"
+          ]
         },
         {
           "id": "ME-west-baldwin",
@@ -4766,7 +6138,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04091"
+          ]
         },
         {
           "id": "ME-sebago",
@@ -4775,7 +6150,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04029"
+          ]
         },
         {
           "id": "ME-chebeague-island",
@@ -4784,7 +6162,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04017"
+          ]
         },
         {
           "id": "ME-east-baldwin",
@@ -4793,7 +6174,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04024"
+          ]
         },
         {
           "id": "ME-peaks-island",
@@ -4802,7 +6186,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04108"
+          ]
         },
         {
           "id": "ME-pownal",
@@ -4811,7 +6198,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04069"
+          ]
         },
         {
           "id": "ME-harpswell",
@@ -4820,7 +6210,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "04079"
+          ]
         }
       ],
       "adTargeting": {

@@ -170,7 +170,24 @@
           "tier": 1,
           "county": "Mercer",
           "zipCount": 15,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08619",
+            "08611",
+            "08640",
+            "08610",
+            "08641",
+            "08690",
+            "08648",
+            "08608",
+            "08628",
+            "08691",
+            "08620",
+            "08609",
+            "08629",
+            "08618",
+            "08638"
+          ]
         },
         {
           "id": "NJ-edison",
@@ -179,7 +196,12 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08820",
+            "08837",
+            "08817"
+          ]
         },
         {
           "id": "NJ-princeton",
@@ -188,7 +210,11 @@
           "tier": 1,
           "county": "Mercer",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08540",
+            "08542"
+          ]
         },
         {
           "id": "NJ-frenchtown",
@@ -197,7 +223,10 @@
           "tier": 1,
           "county": "Hunterdon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08825"
+          ]
         },
         {
           "id": "NJ-rocky-hill",
@@ -206,7 +235,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08553"
+          ]
         },
         {
           "id": "NJ-high-bridge",
@@ -215,7 +247,10 @@
           "tier": 1,
           "county": "Hunterdon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08829"
+          ]
         },
         {
           "id": "NJ-bound-brook",
@@ -224,7 +259,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08805"
+          ]
         },
         {
           "id": "NJ-milford",
@@ -233,7 +271,10 @@
           "tier": 1,
           "county": "Hunterdon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08848"
+          ]
         },
         {
           "id": "NJ-flagtown",
@@ -242,7 +283,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08821"
+          ]
         },
         {
           "id": "NJ-hampton",
@@ -251,7 +295,10 @@
           "tier": 1,
           "county": "Hunterdon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08827"
+          ]
         },
         {
           "id": "NJ-dunellen",
@@ -260,7 +307,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08812"
+          ]
         },
         {
           "id": "NJ-milltown",
@@ -269,7 +319,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08850"
+          ]
         },
         {
           "id": "NJ-highland-park",
@@ -278,7 +331,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08904"
+          ]
         },
         {
           "id": "NJ-avenel",
@@ -287,7 +343,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07001"
+          ]
         },
         {
           "id": "NJ-cranbury",
@@ -296,7 +355,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08512"
+          ]
         },
         {
           "id": "NJ-three-bridges",
@@ -305,7 +367,10 @@
           "tier": 1,
           "county": "Hunterdon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08887"
+          ]
         },
         {
           "id": "NJ-annandale",
@@ -314,7 +379,10 @@
           "tier": 1,
           "county": "Hunterdon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08801"
+          ]
         },
         {
           "id": "NJ-flemington",
@@ -323,7 +391,10 @@
           "tier": 1,
           "county": "Hunterdon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08822"
+          ]
         },
         {
           "id": "NJ-bloomsbury",
@@ -332,7 +403,10 @@
           "tier": 1,
           "county": "Hunterdon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08804"
+          ]
         },
         {
           "id": "NJ-metuchen",
@@ -341,7 +415,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08840"
+          ]
         },
         {
           "id": "NJ-glen-gardner",
@@ -350,7 +427,10 @@
           "tier": 1,
           "county": "Hunterdon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08826"
+          ]
         },
         {
           "id": "NJ-stockton",
@@ -359,7 +439,10 @@
           "tier": 1,
           "county": "Hunterdon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08559"
+          ]
         },
         {
           "id": "NJ-pennington",
@@ -368,7 +451,10 @@
           "tier": 1,
           "county": "Mercer",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08534"
+          ]
         },
         {
           "id": "NJ-hightstown",
@@ -377,7 +463,10 @@
           "tier": 1,
           "county": "Mercer",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08520"
+          ]
         },
         {
           "id": "NJ-clinton",
@@ -386,7 +475,10 @@
           "tier": 1,
           "county": "Hunterdon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08809"
+          ]
         },
         {
           "id": "NJ-south-river",
@@ -395,7 +487,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08882"
+          ]
         },
         {
           "id": "NJ-hopewell",
@@ -404,7 +499,10 @@
           "tier": 1,
           "county": "Mercer",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08525"
+          ]
         },
         {
           "id": "NJ-pottersville",
@@ -413,7 +511,10 @@
           "tier": 1,
           "county": "Hunterdon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07979"
+          ]
         },
         {
           "id": "NJ-windsor",
@@ -422,7 +523,10 @@
           "tier": 1,
           "county": "Mercer",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08561"
+          ]
         },
         {
           "id": "NJ-sewaren",
@@ -431,7 +535,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07077"
+          ]
         },
         {
           "id": "NJ-califon",
@@ -440,7 +547,10 @@
           "tier": 1,
           "county": "Hunterdon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07830"
+          ]
         },
         {
           "id": "NJ-far-hills",
@@ -449,7 +559,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07931"
+          ]
         },
         {
           "id": "NJ-manville",
@@ -458,7 +571,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08835"
+          ]
         },
         {
           "id": "NJ-somerville",
@@ -467,7 +583,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08876"
+          ]
         },
         {
           "id": "NJ-watchung",
@@ -476,7 +595,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07069"
+          ]
         },
         {
           "id": "NJ-oldwick",
@@ -485,7 +607,10 @@
           "tier": 1,
           "county": "Hunterdon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08858"
+          ]
         },
         {
           "id": "NJ-titusville",
@@ -494,7 +619,10 @@
           "tier": 1,
           "county": "Mercer",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08560"
+          ]
         },
         {
           "id": "NJ-hillsborough",
@@ -503,7 +631,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08844"
+          ]
         },
         {
           "id": "NJ-sayreville",
@@ -512,7 +643,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08872"
+          ]
         },
         {
           "id": "NJ-south-amboy",
@@ -521,7 +655,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08879"
+          ]
         },
         {
           "id": "NJ-spotswood",
@@ -530,7 +667,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08884"
+          ]
         },
         {
           "id": "NJ-helmetta",
@@ -539,7 +679,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08828"
+          ]
         },
         {
           "id": "NJ-middlesex",
@@ -548,7 +691,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08846"
+          ]
         },
         {
           "id": "NJ-south-plainfield",
@@ -557,7 +703,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07080"
+          ]
         },
         {
           "id": "NJ-somerset",
@@ -566,7 +715,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08873"
+          ]
         },
         {
           "id": "NJ-dayton",
@@ -575,7 +727,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08810"
+          ]
         },
         {
           "id": "NJ-fords",
@@ -584,7 +739,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08863"
+          ]
         },
         {
           "id": "NJ-kendall-park",
@@ -593,7 +751,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08824"
+          ]
         },
         {
           "id": "NJ-kingston",
@@ -602,7 +763,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08528"
+          ]
         },
         {
           "id": "NJ-princeton-junction",
@@ -611,7 +775,10 @@
           "tier": 1,
           "county": "Mercer",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08550"
+          ]
         },
         {
           "id": "NJ-belle-mead",
@@ -620,7 +787,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08502"
+          ]
         },
         {
           "id": "NJ-martinsville",
@@ -629,7 +799,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08836"
+          ]
         },
         {
           "id": "NJ-franklin-park",
@@ -638,7 +811,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08823"
+          ]
         },
         {
           "id": "NJ-port-reading",
@@ -647,7 +823,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07064"
+          ]
         },
         {
           "id": "NJ-basking-ridge",
@@ -656,7 +835,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07920"
+          ]
         },
         {
           "id": "NJ-keasbey",
@@ -665,7 +847,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08832"
+          ]
         },
         {
           "id": "NJ-monmouth-junction",
@@ -674,7 +859,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08852"
+          ]
         },
         {
           "id": "NJ-zarephath",
@@ -683,7 +871,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08890"
+          ]
         },
         {
           "id": "NJ-bernardsville",
@@ -692,7 +883,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07924"
+          ]
         },
         {
           "id": "NJ-lebanon",
@@ -701,7 +895,10 @@
           "tier": 1,
           "county": "Hunterdon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08833"
+          ]
         },
         {
           "id": "NJ-carteret",
@@ -710,7 +907,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07008"
+          ]
         },
         {
           "id": "NJ-lambertville",
@@ -719,7 +919,10 @@
           "tier": 1,
           "county": "Hunterdon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08530"
+          ]
         },
         {
           "id": "NJ-south-bound-brook",
@@ -728,7 +931,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08880"
+          ]
         },
         {
           "id": "NJ-neshanic-station",
@@ -737,7 +943,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08853"
+          ]
         },
         {
           "id": "NJ-skillman",
@@ -746,7 +955,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08558"
+          ]
         },
         {
           "id": "NJ-woodbridge",
@@ -755,7 +967,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07095"
+          ]
         },
         {
           "id": "NJ-old-bridge",
@@ -764,7 +979,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08857"
+          ]
         },
         {
           "id": "NJ-iselin",
@@ -773,7 +991,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08830"
+          ]
         },
         {
           "id": "NJ-perth-amboy",
@@ -782,7 +1003,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08861"
+          ]
         },
         {
           "id": "NJ-lyons",
@@ -791,7 +1015,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07939"
+          ]
         },
         {
           "id": "NJ-raritan",
@@ -800,7 +1027,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08869"
+          ]
         },
         {
           "id": "NJ-bedminster",
@@ -809,7 +1039,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07921"
+          ]
         },
         {
           "id": "NJ-new-brunswick",
@@ -818,7 +1051,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08901"
+          ]
         },
         {
           "id": "NJ-ringoes",
@@ -827,7 +1063,10 @@
           "tier": 1,
           "county": "Hunterdon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08551"
+          ]
         },
         {
           "id": "NJ-colonia",
@@ -836,7 +1075,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07067"
+          ]
         },
         {
           "id": "NJ-bridgewater",
@@ -845,7 +1087,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08807"
+          ]
         },
         {
           "id": "NJ-east-brunswick",
@@ -854,7 +1099,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08816"
+          ]
         },
         {
           "id": "NJ-monroe-township",
@@ -863,7 +1111,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08831"
+          ]
         },
         {
           "id": "NJ-north-brunswick",
@@ -872,7 +1123,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08902"
+          ]
         },
         {
           "id": "NJ-parlin",
@@ -881,7 +1135,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08859"
+          ]
         },
         {
           "id": "NJ-piscataway",
@@ -890,7 +1147,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08854"
+          ]
         },
         {
           "id": "NJ-pittstown",
@@ -899,7 +1159,10 @@
           "tier": 1,
           "county": "Hunterdon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08867"
+          ]
         },
         {
           "id": "NJ-plainsboro",
@@ -908,7 +1171,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08536"
+          ]
         },
         {
           "id": "NJ-warren",
@@ -917,7 +1183,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07059"
+          ]
         },
         {
           "id": "NJ-whitehouse-station",
@@ -926,7 +1195,10 @@
           "tier": 1,
           "county": "Hunterdon",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08889"
+          ]
         },
         {
           "id": "NJ-gladstone",
@@ -935,7 +1207,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07934"
+          ]
         },
         {
           "id": "NJ-peapack",
@@ -944,7 +1219,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07977"
+          ]
         },
         {
           "id": "NJ-renaissance-at-monroe",
@@ -953,7 +1231,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08512"
+          ]
         },
         {
           "id": "NJ-monroe-manor",
@@ -962,7 +1243,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08831"
+          ]
         },
         {
           "id": "NJ-encore-at-monroe",
@@ -971,7 +1255,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08831"
+          ]
         },
         {
           "id": "NJ-the-ponds",
@@ -980,7 +1267,10 @@
           "tier": 1,
           "county": "Middlesex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08831"
+          ]
         }
       ],
       "adTargeting": {
@@ -1289,7 +1579,18 @@
           "tier": 1,
           "county": "Passaic",
           "zipCount": 9,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07505",
+            "07504",
+            "07524",
+            "07514",
+            "07502",
+            "07501",
+            "07503",
+            "07513",
+            "07522"
+          ]
         },
         {
           "id": "NJ-newark",
@@ -1298,7 +1599,18 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 9,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07108",
+            "07104",
+            "07102",
+            "07106",
+            "07107",
+            "07112",
+            "07105",
+            "07114",
+            "07103"
+          ]
         },
         {
           "id": "NJ-jersey-city",
@@ -1307,7 +1619,16 @@
           "tier": 1,
           "county": "Hudson",
           "zipCount": 7,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07306",
+            "07311",
+            "07302",
+            "07304",
+            "07310",
+            "07305",
+            "07307"
+          ]
         },
         {
           "id": "NJ-clifton",
@@ -1316,7 +1637,13 @@
           "tier": 1,
           "county": "Passaic",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07014",
+            "07011",
+            "07013",
+            "07012"
+          ]
         },
         {
           "id": "NJ-elizabeth",
@@ -1325,7 +1652,13 @@
           "tier": 1,
           "county": "Union",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07208",
+            "07202",
+            "07201",
+            "07206"
+          ]
         },
         {
           "id": "NJ-plainfield",
@@ -1334,7 +1667,12 @@
           "tier": 1,
           "county": "Union",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07062",
+            "07060",
+            "07063"
+          ]
         },
         {
           "id": "NJ-morristown",
@@ -1343,7 +1681,11 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07960",
+            "07961"
+          ]
         },
         {
           "id": "NJ-east-orange",
@@ -1352,7 +1694,11 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07017",
+            "07018"
+          ]
         },
         {
           "id": "NJ-mahwah",
@@ -1361,7 +1707,11 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07430",
+            "07495"
+          ]
         },
         {
           "id": "NJ-montclair",
@@ -1370,7 +1720,11 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07043",
+            "07042"
+          ]
         },
         {
           "id": "NJ-newton",
@@ -1379,7 +1733,10 @@
           "tier": 1,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07860"
+          ]
         },
         {
           "id": "NJ-mountain-lakes",
@@ -1388,7 +1745,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07046"
+          ]
         },
         {
           "id": "NJ-northvale",
@@ -1397,7 +1757,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07647"
+          ]
         },
         {
           "id": "NJ-maywood",
@@ -1406,7 +1769,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07607"
+          ]
         },
         {
           "id": "NJ-broadway",
@@ -1415,7 +1781,10 @@
           "tier": 1,
           "county": "Warren",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08808"
+          ]
         },
         {
           "id": "NJ-highland-lakes",
@@ -1424,7 +1793,10 @@
           "tier": 1,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07422"
+          ]
         },
         {
           "id": "NJ-rahway",
@@ -1433,7 +1805,10 @@
           "tier": 1,
           "county": "Union",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07065"
+          ]
         },
         {
           "id": "NJ-andover",
@@ -1442,7 +1817,10 @@
           "tier": 1,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07821"
+          ]
         },
         {
           "id": "NJ-ogdensburg",
@@ -1451,7 +1829,10 @@
           "tier": 1,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07439"
+          ]
         },
         {
           "id": "NJ-ledgewood",
@@ -1460,7 +1841,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07852"
+          ]
         },
         {
           "id": "NJ-mendham",
@@ -1469,7 +1853,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07945"
+          ]
         },
         {
           "id": "NJ-rockaway",
@@ -1478,7 +1865,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07866"
+          ]
         },
         {
           "id": "NJ-closter",
@@ -1487,7 +1877,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07624"
+          ]
         },
         {
           "id": "NJ-midland-park",
@@ -1496,7 +1889,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07432"
+          ]
         },
         {
           "id": "NJ-norwood",
@@ -1505,7 +1901,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07648"
+          ]
         },
         {
           "id": "NJ-ridgefield-park",
@@ -1514,7 +1913,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07660"
+          ]
         },
         {
           "id": "NJ-teterboro",
@@ -1523,7 +1925,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07608"
+          ]
         },
         {
           "id": "NJ-totowa",
@@ -1532,7 +1937,10 @@
           "tier": 1,
           "county": "Passaic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07512"
+          ]
         },
         {
           "id": "NJ-secaucus",
@@ -1541,7 +1949,10 @@
           "tier": 1,
           "county": "Hudson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07094"
+          ]
         },
         {
           "id": "NJ-essex-fells",
@@ -1550,7 +1961,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07021"
+          ]
         },
         {
           "id": "NJ-fanwood",
@@ -1559,7 +1973,10 @@
           "tier": 1,
           "county": "Union",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07023"
+          ]
         },
         {
           "id": "NJ-fairview",
@@ -1568,7 +1985,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07022"
+          ]
         },
         {
           "id": "NJ-great-meadows",
@@ -1577,7 +1997,10 @@
           "tier": 1,
           "county": "Warren",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07838"
+          ]
         },
         {
           "id": "NJ-chester",
@@ -1586,7 +2009,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07930"
+          ]
         },
         {
           "id": "NJ-haworth",
@@ -1595,7 +2021,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07641"
+          ]
         },
         {
           "id": "NJ-haledon",
@@ -1604,7 +2033,10 @@
           "tier": 1,
           "county": "Passaic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07508"
+          ]
         },
         {
           "id": "NJ-dover",
@@ -1613,7 +2045,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07801"
+          ]
         },
         {
           "id": "NJ-blairstown",
@@ -1622,7 +2057,10 @@
           "tier": 1,
           "county": "Warren",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07825"
+          ]
         },
         {
           "id": "NJ-fort-lee",
@@ -1631,7 +2069,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07024"
+          ]
         },
         {
           "id": "NJ-washington",
@@ -1640,7 +2081,10 @@
           "tier": 1,
           "county": "Warren",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07882"
+          ]
         },
         {
           "id": "NJ-stewartsville",
@@ -1649,7 +2093,10 @@
           "tier": 1,
           "county": "Warren",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08886"
+          ]
         },
         {
           "id": "NJ-asbury",
@@ -1658,7 +2105,10 @@
           "tier": 1,
           "county": "Warren",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08802"
+          ]
         },
         {
           "id": "NJ-stanhope",
@@ -1667,7 +2117,10 @@
           "tier": 1,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07874"
+          ]
         },
         {
           "id": "NJ-dumont",
@@ -1676,7 +2129,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07628"
+          ]
         },
         {
           "id": "NJ-hawthorne",
@@ -1685,7 +2141,10 @@
           "tier": 1,
           "county": "Passaic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07506"
+          ]
         },
         {
           "id": "NJ-glen-rock",
@@ -1694,7 +2153,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07452"
+          ]
         },
         {
           "id": "NJ-chatham",
@@ -1703,7 +2165,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07928"
+          ]
         },
         {
           "id": "NJ-edgewater",
@@ -1712,7 +2177,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07020"
+          ]
         },
         {
           "id": "NJ-elmwood-park",
@@ -1721,7 +2189,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07407"
+          ]
         },
         {
           "id": "NJ-florham-park",
@@ -1730,7 +2201,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07932"
+          ]
         },
         {
           "id": "NJ-east-rutherford",
@@ -1739,7 +2213,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07073"
+          ]
         },
         {
           "id": "NJ-hoboken",
@@ -1748,7 +2225,10 @@
           "tier": 1,
           "county": "Hudson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07030"
+          ]
         },
         {
           "id": "NJ-englewood",
@@ -1757,7 +2237,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07631"
+          ]
         },
         {
           "id": "NJ-harrington-park",
@@ -1766,7 +2249,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07640"
+          ]
         },
         {
           "id": "NJ-linden",
@@ -1775,7 +2261,10 @@
           "tier": 1,
           "county": "Union",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07036"
+          ]
         },
         {
           "id": "NJ-waldwick",
@@ -1784,7 +2273,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07463"
+          ]
         },
         {
           "id": "NJ-hopatcong",
@@ -1793,7 +2285,10 @@
           "tier": 1,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07843"
+          ]
         },
         {
           "id": "NJ-cresskill",
@@ -1802,7 +2297,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07626"
+          ]
         },
         {
           "id": "NJ-gillette",
@@ -1811,7 +2309,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07933"
+          ]
         },
         {
           "id": "NJ-johnsonburg",
@@ -1820,7 +2321,10 @@
           "tier": 1,
           "county": "Warren",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07846"
+          ]
         },
         {
           "id": "NJ-newfoundland",
@@ -1829,7 +2333,10 @@
           "tier": 1,
           "county": "Passaic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07435"
+          ]
         },
         {
           "id": "NJ-emerson",
@@ -1838,7 +2345,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07630"
+          ]
         },
         {
           "id": "NJ-lincoln-park",
@@ -1847,7 +2357,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07035"
+          ]
         },
         {
           "id": "NJ-allamuchy",
@@ -1856,7 +2369,10 @@
           "tier": 1,
           "county": "Warren",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07820"
+          ]
         },
         {
           "id": "NJ-kenvil",
@@ -1865,7 +2381,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07847"
+          ]
         },
         {
           "id": "NJ-towaco",
@@ -1874,7 +2393,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07082"
+          ]
         },
         {
           "id": "NJ-green-village",
@@ -1883,7 +2405,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07935"
+          ]
         },
         {
           "id": "NJ-stirling",
@@ -1892,7 +2417,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07980"
+          ]
         },
         {
           "id": "NJ-kenilworth",
@@ -1901,7 +2429,10 @@
           "tier": 1,
           "county": "Union",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07033"
+          ]
         },
         {
           "id": "NJ-mountainside",
@@ -1910,7 +2441,10 @@
           "tier": 1,
           "county": "Union",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07092"
+          ]
         },
         {
           "id": "NJ-roselle",
@@ -1919,7 +2453,10 @@
           "tier": 1,
           "county": "Union",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07203"
+          ]
         },
         {
           "id": "NJ-roselle-park",
@@ -1928,7 +2465,10 @@
           "tier": 1,
           "county": "Union",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07204"
+          ]
         },
         {
           "id": "NJ-summit",
@@ -1937,7 +2477,10 @@
           "tier": 1,
           "county": "Union",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07901"
+          ]
         },
         {
           "id": "NJ-boonton",
@@ -1946,7 +2489,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07005"
+          ]
         },
         {
           "id": "NJ-butler",
@@ -1955,7 +2501,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07405"
+          ]
         },
         {
           "id": "NJ-mount-arlington",
@@ -1964,7 +2513,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07856"
+          ]
         },
         {
           "id": "NJ-netcong",
@@ -1973,7 +2525,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07857"
+          ]
         },
         {
           "id": "NJ-belvidere",
@@ -1982,7 +2537,10 @@
           "tier": 1,
           "county": "Warren",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07823"
+          ]
         },
         {
           "id": "NJ-hackettstown",
@@ -1991,7 +2549,10 @@
           "tier": 1,
           "county": "Warren",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07840"
+          ]
         },
         {
           "id": "NJ-parsippany",
@@ -2000,7 +2561,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07054"
+          ]
         },
         {
           "id": "NJ-pine-brook",
@@ -2009,7 +2573,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07058"
+          ]
         },
         {
           "id": "NJ-whippany",
@@ -2018,7 +2585,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07981"
+          ]
         },
         {
           "id": "NJ-pompton-plains",
@@ -2027,7 +2597,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07444"
+          ]
         },
         {
           "id": "NJ-flanders",
@@ -2036,7 +2609,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07836"
+          ]
         },
         {
           "id": "NJ-millington",
@@ -2045,7 +2621,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07946"
+          ]
         },
         {
           "id": "NJ-phillipsburg",
@@ -2054,7 +2633,10 @@
           "tier": 1,
           "county": "Warren",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08865"
+          ]
         },
         {
           "id": "NJ-hibernia",
@@ -2063,7 +2645,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07842"
+          ]
         },
         {
           "id": "NJ-layton",
@@ -2072,7 +2657,10 @@
           "tier": 1,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07851"
+          ]
         },
         {
           "id": "NJ-vauxhall",
@@ -2081,7 +2669,10 @@
           "tier": 1,
           "county": "Union",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07088"
+          ]
         },
         {
           "id": "NJ-branchville",
@@ -2090,7 +2681,10 @@
           "tier": 1,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07826"
+          ]
         },
         {
           "id": "NJ-franklin",
@@ -2099,7 +2693,10 @@
           "tier": 1,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07416"
+          ]
         },
         {
           "id": "NJ-sussex",
@@ -2108,7 +2705,10 @@
           "tier": 1,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07461"
+          ]
         },
         {
           "id": "NJ-west-new-york",
@@ -2117,7 +2717,10 @@
           "tier": 1,
           "county": "Hudson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07093"
+          ]
         },
         {
           "id": "NJ-hillsdale",
@@ -2126,7 +2729,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07642"
+          ]
         },
         {
           "id": "NJ-lodi",
@@ -2135,7 +2741,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07644"
+          ]
         },
         {
           "id": "NJ-bloomingdale",
@@ -2144,7 +2753,10 @@
           "tier": 1,
           "county": "Passaic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07403"
+          ]
         },
         {
           "id": "NJ-wanaque",
@@ -2153,7 +2765,10 @@
           "tier": 1,
           "county": "Passaic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07465"
+          ]
         },
         {
           "id": "NJ-montvale",
@@ -2162,7 +2777,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07645"
+          ]
         },
         {
           "id": "NJ-moonachie",
@@ -2171,7 +2789,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07074"
+          ]
         },
         {
           "id": "NJ-north-arlington",
@@ -2180,7 +2801,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07031"
+          ]
         },
         {
           "id": "NJ-oakland",
@@ -2189,7 +2813,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07436"
+          ]
         },
         {
           "id": "NJ-oradell",
@@ -2198,7 +2825,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07649"
+          ]
         },
         {
           "id": "NJ-paramus",
@@ -2207,7 +2837,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07652"
+          ]
         },
         {
           "id": "NJ-park-ridge",
@@ -2216,7 +2849,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07656"
+          ]
         },
         {
           "id": "NJ-ramsey",
@@ -2225,7 +2861,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07446"
+          ]
         },
         {
           "id": "NJ-ridgewood",
@@ -2234,7 +2873,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07450"
+          ]
         },
         {
           "id": "NJ-saddle-river",
@@ -2243,7 +2885,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07458"
+          ]
         },
         {
           "id": "NJ-westwood",
@@ -2252,7 +2897,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07675"
+          ]
         },
         {
           "id": "NJ-allendale",
@@ -2261,7 +2909,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07401"
+          ]
         },
         {
           "id": "NJ-alpine",
@@ -2270,7 +2921,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07620"
+          ]
         },
         {
           "id": "NJ-franklin-lakes",
@@ -2279,7 +2933,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07417"
+          ]
         },
         {
           "id": "NJ-hackensack",
@@ -2288,7 +2945,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07601"
+          ]
         },
         {
           "id": "NJ-hasbrouck-heights",
@@ -2297,7 +2957,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07604"
+          ]
         },
         {
           "id": "NJ-glen-ridge",
@@ -2306,7 +2969,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07028"
+          ]
         },
         {
           "id": "NJ-roseland",
@@ -2315,7 +2981,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07068"
+          ]
         },
         {
           "id": "NJ-river-edge",
@@ -2324,7 +2993,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07661"
+          ]
         },
         {
           "id": "NJ-bergenfield",
@@ -2333,7 +3005,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07621"
+          ]
         },
         {
           "id": "NJ-ringwood",
@@ -2342,7 +3017,10 @@
           "tier": 1,
           "county": "Passaic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07456"
+          ]
         },
         {
           "id": "NJ-rutherford",
@@ -2351,7 +3029,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07070"
+          ]
         },
         {
           "id": "NJ-new-milford",
@@ -2360,7 +3041,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07646"
+          ]
         },
         {
           "id": "NJ-new-providence",
@@ -2369,7 +3053,10 @@
           "tier": 1,
           "county": "Union",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07974"
+          ]
         },
         {
           "id": "NJ-oxford",
@@ -2378,7 +3065,10 @@
           "tier": 1,
           "county": "Warren",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07863"
+          ]
         },
         {
           "id": "NJ-ridgefield",
@@ -2387,7 +3077,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07657"
+          ]
         },
         {
           "id": "NJ-long-valley",
@@ -2396,7 +3089,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07853"
+          ]
         },
         {
           "id": "NJ-port-murray",
@@ -2405,7 +3101,10 @@
           "tier": 1,
           "county": "Warren",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07865"
+          ]
         },
         {
           "id": "NJ-hewitt",
@@ -2414,7 +3113,10 @@
           "tier": 1,
           "county": "Passaic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07421"
+          ]
         },
         {
           "id": "NJ-lake-hiawatha",
@@ -2423,7 +3125,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07034"
+          ]
         },
         {
           "id": "NJ-new-vernon",
@@ -2432,7 +3137,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07976"
+          ]
         },
         {
           "id": "NJ-cranford",
@@ -2441,7 +3149,10 @@
           "tier": 1,
           "county": "Union",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07016"
+          ]
         },
         {
           "id": "NJ-columbia",
@@ -2450,7 +3161,10 @@
           "tier": 1,
           "county": "Warren",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07832"
+          ]
         },
         {
           "id": "NJ-landing",
@@ -2459,7 +3173,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07850"
+          ]
         },
         {
           "id": "NJ-cedar-knolls",
@@ -2468,7 +3185,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07927"
+          ]
         },
         {
           "id": "NJ-oak-ridge",
@@ -2477,7 +3197,10 @@
           "tier": 1,
           "county": "Passaic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07438"
+          ]
         },
         {
           "id": "NJ-passaic",
@@ -2486,7 +3209,10 @@
           "tier": 1,
           "county": "Passaic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07055"
+          ]
         },
         {
           "id": "NJ-morris-plains",
@@ -2495,7 +3221,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07950"
+          ]
         },
         {
           "id": "NJ-riverdale",
@@ -2504,7 +3233,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07457"
+          ]
         },
         {
           "id": "NJ-cliffside-park",
@@ -2513,7 +3245,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07010"
+          ]
         },
         {
           "id": "NJ-englewood-cliffs",
@@ -2522,7 +3257,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07632"
+          ]
         },
         {
           "id": "NJ-leonia",
@@ -2531,7 +3269,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07605"
+          ]
         },
         {
           "id": "NJ-bayonne",
@@ -2540,7 +3281,10 @@
           "tier": 1,
           "county": "Hudson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07002"
+          ]
         },
         {
           "id": "NJ-kearny",
@@ -2549,7 +3293,10 @@
           "tier": 1,
           "county": "Hudson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07032"
+          ]
         },
         {
           "id": "NJ-wharton",
@@ -2558,7 +3305,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07885"
+          ]
         },
         {
           "id": "NJ-woodcliff-lake",
@@ -2567,7 +3317,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07677"
+          ]
         },
         {
           "id": "NJ-caldwell",
@@ -2576,7 +3329,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07006"
+          ]
         },
         {
           "id": "NJ-westfield",
@@ -2585,7 +3341,10 @@
           "tier": 1,
           "county": "Union",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07090"
+          ]
         },
         {
           "id": "NJ-fair-lawn",
@@ -2594,7 +3353,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07410"
+          ]
         },
         {
           "id": "NJ-wallington",
@@ -2603,7 +3365,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07057"
+          ]
         },
         {
           "id": "NJ-pompton-lakes",
@@ -2612,7 +3377,10 @@
           "tier": 1,
           "county": "Passaic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07442"
+          ]
         },
         {
           "id": "NJ-carlstadt",
@@ -2621,7 +3389,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07072"
+          ]
         },
         {
           "id": "NJ-bogota",
@@ -2630,7 +3401,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07603"
+          ]
         },
         {
           "id": "NJ-lake-hopatcong",
@@ -2639,7 +3413,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07849"
+          ]
         },
         {
           "id": "NJ-hamburg",
@@ -2648,7 +3425,10 @@
           "tier": 1,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07419"
+          ]
         },
         {
           "id": "NJ-vienna",
@@ -2657,7 +3437,10 @@
           "tier": 1,
           "county": "Warren",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07880"
+          ]
         },
         {
           "id": "NJ-springfield",
@@ -2666,7 +3449,10 @@
           "tier": 1,
           "county": "Union",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07081"
+          ]
         },
         {
           "id": "NJ-garwood",
@@ -2675,7 +3461,10 @@
           "tier": 1,
           "county": "Union",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07027"
+          ]
         },
         {
           "id": "NJ-brookside",
@@ -2684,7 +3473,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07926"
+          ]
         },
         {
           "id": "NJ-union-city",
@@ -2693,7 +3485,10 @@
           "tier": 1,
           "county": "Hudson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07087"
+          ]
         },
         {
           "id": "NJ-demarest",
@@ -2702,7 +3497,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07627"
+          ]
         },
         {
           "id": "NJ-little-ferry",
@@ -2711,7 +3509,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07643"
+          ]
         },
         {
           "id": "NJ-harrison",
@@ -2720,7 +3521,10 @@
           "tier": 1,
           "county": "Hudson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07029"
+          ]
         },
         {
           "id": "NJ-delaware",
@@ -2729,7 +3533,10 @@
           "tier": 1,
           "county": "Warren",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07833"
+          ]
         },
         {
           "id": "NJ-succasunna",
@@ -2738,7 +3545,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07876"
+          ]
         },
         {
           "id": "NJ-short-hills",
@@ -2747,7 +3557,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07078"
+          ]
         },
         {
           "id": "NJ-madison",
@@ -2756,7 +3569,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07940"
+          ]
         },
         {
           "id": "NJ-palisades-park",
@@ -2765,7 +3581,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07650"
+          ]
         },
         {
           "id": "NJ-tenafly",
@@ -2774,7 +3593,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07670"
+          ]
         },
         {
           "id": "NJ-budd-lake",
@@ -2783,7 +3605,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07828"
+          ]
         },
         {
           "id": "NJ-mount-tabor",
@@ -2792,7 +3617,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07878"
+          ]
         },
         {
           "id": "NJ-garfield",
@@ -2801,7 +3629,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07026"
+          ]
         },
         {
           "id": "NJ-belleville",
@@ -2810,7 +3641,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07109"
+          ]
         },
         {
           "id": "NJ-berkeley-heights",
@@ -2819,7 +3653,10 @@
           "tier": 1,
           "county": "Union",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07922"
+          ]
         },
         {
           "id": "NJ-bloomfield",
@@ -2828,7 +3665,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07003"
+          ]
         },
         {
           "id": "NJ-cedar-grove",
@@ -2837,7 +3677,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07009"
+          ]
         },
         {
           "id": "NJ-clark",
@@ -2846,7 +3689,10 @@
           "tier": 1,
           "county": "Union",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07066"
+          ]
         },
         {
           "id": "NJ-denville",
@@ -2855,7 +3701,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07834"
+          ]
         },
         {
           "id": "NJ-east-hanover",
@@ -2864,7 +3713,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07936"
+          ]
         },
         {
           "id": "NJ-fairfield",
@@ -2873,7 +3725,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07004"
+          ]
         },
         {
           "id": "NJ-haskell",
@@ -2882,7 +3737,10 @@
           "tier": 1,
           "county": "Passaic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07420"
+          ]
         },
         {
           "id": "NJ-hillside",
@@ -2891,7 +3749,10 @@
           "tier": 1,
           "county": "Union",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07205"
+          ]
         },
         {
           "id": "NJ-irvington",
@@ -2900,7 +3761,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07111"
+          ]
         },
         {
           "id": "NJ-little-falls",
@@ -2909,7 +3773,10 @@
           "tier": 1,
           "county": "Passaic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07424"
+          ]
         },
         {
           "id": "NJ-livingston",
@@ -2918,7 +3785,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07039"
+          ]
         },
         {
           "id": "NJ-lyndhurst",
@@ -2927,7 +3797,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07071"
+          ]
         },
         {
           "id": "NJ-maplewood",
@@ -2936,7 +3809,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07040"
+          ]
         },
         {
           "id": "NJ-mine-hill",
@@ -2945,7 +3821,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07803"
+          ]
         },
         {
           "id": "NJ-montague",
@@ -2954,7 +3833,10 @@
           "tier": 1,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07827"
+          ]
         },
         {
           "id": "NJ-montville",
@@ -2963,7 +3845,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07045"
+          ]
         },
         {
           "id": "NJ-north-bergen",
@@ -2972,7 +3857,10 @@
           "tier": 1,
           "county": "Hudson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07047"
+          ]
         },
         {
           "id": "NJ-nutley",
@@ -2981,7 +3869,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07110"
+          ]
         },
         {
           "id": "NJ-orange",
@@ -2990,7 +3881,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07050"
+          ]
         },
         {
           "id": "NJ-randolph",
@@ -2999,7 +3893,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07869"
+          ]
         },
         {
           "id": "NJ-rochelle-park",
@@ -3008,7 +3905,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07662"
+          ]
         },
         {
           "id": "NJ-saddle-brook",
@@ -3017,7 +3917,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07663"
+          ]
         },
         {
           "id": "NJ-scotch-plains",
@@ -3026,7 +3929,10 @@
           "tier": 1,
           "county": "Union",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07076"
+          ]
         },
         {
           "id": "NJ-south-hackensack",
@@ -3035,7 +3941,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07606"
+          ]
         },
         {
           "id": "NJ-south-orange",
@@ -3044,7 +3953,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07079"
+          ]
         },
         {
           "id": "NJ-sparta",
@@ -3053,7 +3965,10 @@
           "tier": 1,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07871"
+          ]
         },
         {
           "id": "NJ-teaneck",
@@ -3062,7 +3977,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07666"
+          ]
         },
         {
           "id": "NJ-township-of-washington",
@@ -3071,7 +3989,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07676"
+          ]
         },
         {
           "id": "NJ-union",
@@ -3080,7 +4001,10 @@
           "tier": 1,
           "county": "Union",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07083"
+          ]
         },
         {
           "id": "NJ-vernon",
@@ -3089,7 +4013,10 @@
           "tier": 1,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07462"
+          ]
         },
         {
           "id": "NJ-verona",
@@ -3098,7 +4025,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07044"
+          ]
         },
         {
           "id": "NJ-wayne",
@@ -3107,7 +4037,10 @@
           "tier": 1,
           "county": "Passaic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07470"
+          ]
         },
         {
           "id": "NJ-weehawken",
@@ -3116,7 +4049,10 @@
           "tier": 1,
           "county": "Hudson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07086"
+          ]
         },
         {
           "id": "NJ-west-milford",
@@ -3125,7 +4061,10 @@
           "tier": 1,
           "county": "Passaic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07480"
+          ]
         },
         {
           "id": "NJ-west-orange",
@@ -3134,7 +4073,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07052"
+          ]
         },
         {
           "id": "NJ-wyckoff",
@@ -3143,7 +4085,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07481"
+          ]
         },
         {
           "id": "NJ-schooleys-mountain",
@@ -3152,7 +4097,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07870"
+          ]
         },
         {
           "id": "NJ-millburn",
@@ -3161,7 +4109,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07041"
+          ]
         },
         {
           "id": "NJ-pequannock",
@@ -3170,7 +4121,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07440"
+          ]
         },
         {
           "id": "NJ-augusta",
@@ -3179,7 +4133,10 @@
           "tier": 1,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07822"
+          ]
         },
         {
           "id": "NJ-wallpack-center",
@@ -3188,7 +4145,10 @@
           "tier": 1,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07881"
+          ]
         },
         {
           "id": "NJ-glenwood",
@@ -3197,7 +4157,10 @@
           "tier": 1,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07418"
+          ]
         },
         {
           "id": "NJ-lafayette",
@@ -3206,7 +4169,10 @@
           "tier": 1,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07848"
+          ]
         },
         {
           "id": "NJ-stockholm",
@@ -3215,7 +4181,10 @@
           "tier": 1,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07460"
+          ]
         },
         {
           "id": "NJ-mount-freedom",
@@ -3224,7 +4193,10 @@
           "tier": 1,
           "county": "Morris",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07970"
+          ]
         },
         {
           "id": "NJ-victory-gardens",
@@ -3233,7 +4205,10 @@
           "tier": 1,
           "county": "Sussex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07843"
+          ]
         },
         {
           "id": "NJ-delaware-park",
@@ -3242,7 +4217,10 @@
           "tier": 1,
           "county": "Warren",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08865"
+          ]
         },
         {
           "id": "NJ-east-newark",
@@ -3251,7 +4229,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07104"
+          ]
         },
         {
           "id": "NJ-brainards",
@@ -3260,7 +4241,10 @@
           "tier": 1,
           "county": "Warren",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08865"
+          ]
         },
         {
           "id": "NJ-connecticut-farms",
@@ -3269,7 +4253,10 @@
           "tier": 1,
           "county": "Union",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07083"
+          ]
         }
       ],
       "adTargeting": {
@@ -3487,7 +4474,13 @@
           "tier": 1,
           "county": "Camden",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08105",
+            "08104",
+            "08102",
+            "08103"
+          ]
         },
         {
           "id": "NJ-cherry-hill",
@@ -3496,7 +4489,12 @@
           "tier": 1,
           "county": "Camden",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08002",
+            "08003",
+            "08034"
+          ]
         },
         {
           "id": "NJ-vineland",
@@ -3505,7 +4503,11 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08360",
+            "08361"
+          ]
         },
         {
           "id": "NJ-absecon",
@@ -3514,7 +4516,11 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08205",
+            "08201"
+          ]
         },
         {
           "id": "NJ-glassboro",
@@ -3523,7 +4529,10 @@
           "tier": 1,
           "county": "Gloucester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08028"
+          ]
         },
         {
           "id": "NJ-woodstown",
@@ -3532,7 +4541,10 @@
           "tier": 1,
           "county": "Salem",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08098"
+          ]
         },
         {
           "id": "NJ-hammonton",
@@ -3541,7 +4553,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08037"
+          ]
         },
         {
           "id": "NJ-elmer",
@@ -3550,7 +4565,10 @@
           "tier": 1,
           "county": "Salem",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08318"
+          ]
         },
         {
           "id": "NJ-buena",
@@ -3559,7 +4577,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08310"
+          ]
         },
         {
           "id": "NJ-cape-may-point",
@@ -3568,7 +4589,10 @@
           "tier": 1,
           "county": "Cape May",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08212"
+          ]
         },
         {
           "id": "NJ-margate-city",
@@ -3577,7 +4601,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08402"
+          ]
         },
         {
           "id": "NJ-longport",
@@ -3586,7 +4613,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08403"
+          ]
         },
         {
           "id": "NJ-avalon",
@@ -3595,7 +4625,10 @@
           "tier": 1,
           "county": "Cape May",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08202"
+          ]
         },
         {
           "id": "NJ-heislerville",
@@ -3604,7 +4637,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08324"
+          ]
         },
         {
           "id": "NJ-fortescue",
@@ -3613,7 +4649,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08321"
+          ]
         },
         {
           "id": "NJ-new-gretna",
@@ -3622,7 +4661,10 @@
           "tier": 1,
           "county": "Burlington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08224"
+          ]
         },
         {
           "id": "NJ-mount-royal",
@@ -3631,7 +4673,10 @@
           "tier": 1,
           "county": "Gloucester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08061"
+          ]
         },
         {
           "id": "NJ-berlin",
@@ -3640,7 +4685,10 @@
           "tier": 1,
           "county": "Camden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08009"
+          ]
         },
         {
           "id": "NJ-merchantville",
@@ -3649,7 +4697,10 @@
           "tier": 1,
           "county": "Camden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08109"
+          ]
         },
         {
           "id": "NJ-pemberton",
@@ -3658,7 +4709,10 @@
           "tier": 1,
           "county": "Burlington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08068"
+          ]
         },
         {
           "id": "NJ-florence",
@@ -3667,7 +4721,10 @@
           "tier": 1,
           "county": "Burlington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08518"
+          ]
         },
         {
           "id": "NJ-vincentown",
@@ -3676,7 +4733,10 @@
           "tier": 1,
           "county": "Burlington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08088"
+          ]
         },
         {
           "id": "NJ-richland",
@@ -3685,7 +4745,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08350"
+          ]
         },
         {
           "id": "NJ-wildwood",
@@ -3694,7 +4757,10 @@
           "tier": 1,
           "county": "Cape May",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08260"
+          ]
         },
         {
           "id": "NJ-egg-harbor-city",
@@ -3703,7 +4769,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08215"
+          ]
         },
         {
           "id": "NJ-somers-point",
@@ -3712,7 +4781,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08244"
+          ]
         },
         {
           "id": "NJ-beverly",
@@ -3721,7 +4793,10 @@
           "tier": 1,
           "county": "Burlington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08010"
+          ]
         },
         {
           "id": "NJ-audubon",
@@ -3730,7 +4805,10 @@
           "tier": 1,
           "county": "Camden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08106"
+          ]
         },
         {
           "id": "NJ-cedarville",
@@ -3739,7 +4817,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08311"
+          ]
         },
         {
           "id": "NJ-newfield",
@@ -3748,7 +4829,10 @@
           "tier": 1,
           "county": "Gloucester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08344"
+          ]
         },
         {
           "id": "NJ-gibbstown",
@@ -3757,7 +4841,10 @@
           "tier": 1,
           "county": "Gloucester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08027"
+          ]
         },
         {
           "id": "NJ-rio-grande",
@@ -3766,7 +4853,10 @@
           "tier": 1,
           "county": "Cape May",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08242"
+          ]
         },
         {
           "id": "NJ-glendora",
@@ -3775,7 +4865,10 @@
           "tier": 1,
           "county": "Camden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08029"
+          ]
         },
         {
           "id": "NJ-elwood",
@@ -3784,7 +4877,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08217"
+          ]
         },
         {
           "id": "NJ-hancocks-bridge",
@@ -3793,7 +4889,10 @@
           "tier": 1,
           "county": "Salem",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08038"
+          ]
         },
         {
           "id": "NJ-greenwich",
@@ -3802,7 +4901,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08323"
+          ]
         },
         {
           "id": "NJ-roebling",
@@ -3811,7 +4913,10 @@
           "tier": 1,
           "county": "Burlington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08554"
+          ]
         },
         {
           "id": "NJ-mullica-hill",
@@ -3820,7 +4925,10 @@
           "tier": 1,
           "county": "Gloucester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08062"
+          ]
         },
         {
           "id": "NJ-rosenhayn",
@@ -3829,7 +4937,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08352"
+          ]
         },
         {
           "id": "NJ-swedesboro",
@@ -3838,7 +4949,10 @@
           "tier": 1,
           "county": "Gloucester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08085"
+          ]
         },
         {
           "id": "NJ-lawnside",
@@ -3847,7 +4961,10 @@
           "tier": 1,
           "county": "Camden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08045"
+          ]
         },
         {
           "id": "NJ-palmyra",
@@ -3856,7 +4973,10 @@
           "tier": 1,
           "county": "Burlington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08065"
+          ]
         },
         {
           "id": "NJ-woodbine",
@@ -3865,7 +4985,10 @@
           "tier": 1,
           "county": "Cape May",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08270"
+          ]
         },
         {
           "id": "NJ-stone-harbor",
@@ -3874,7 +4997,10 @@
           "tier": 1,
           "county": "Cape May",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08247"
+          ]
         },
         {
           "id": "NJ-clayton",
@@ -3883,7 +5009,10 @@
           "tier": 1,
           "county": "Gloucester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08312"
+          ]
         },
         {
           "id": "NJ-salem",
@@ -3892,7 +5021,10 @@
           "tier": 1,
           "county": "Salem",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08079"
+          ]
         },
         {
           "id": "NJ-penns-grove",
@@ -3901,7 +5033,10 @@
           "tier": 1,
           "county": "Salem",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08069"
+          ]
         },
         {
           "id": "NJ-mount-ephraim",
@@ -3910,7 +5045,10 @@
           "tier": 1,
           "county": "Camden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08059"
+          ]
         },
         {
           "id": "NJ-wenonah",
@@ -3919,7 +5057,10 @@
           "tier": 1,
           "county": "Gloucester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08090"
+          ]
         },
         {
           "id": "NJ-barrington",
@@ -3928,7 +5069,10 @@
           "tier": 1,
           "county": "Camden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08007"
+          ]
         },
         {
           "id": "NJ-woodbury-heights",
@@ -3937,7 +5081,10 @@
           "tier": 1,
           "county": "Gloucester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08097"
+          ]
         },
         {
           "id": "NJ-cape-may",
@@ -3946,7 +5093,10 @@
           "tier": 1,
           "county": "Cape May",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08204"
+          ]
         },
         {
           "id": "NJ-somerdale",
@@ -3955,7 +5105,10 @@
           "tier": 1,
           "county": "Camden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08083"
+          ]
         },
         {
           "id": "NJ-riverton",
@@ -3964,7 +5117,10 @@
           "tier": 1,
           "county": "Burlington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08077"
+          ]
         },
         {
           "id": "NJ-haddon-heights",
@@ -3973,7 +5129,10 @@
           "tier": 1,
           "county": "Camden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08035"
+          ]
         },
         {
           "id": "NJ-richwood",
@@ -3982,7 +5141,10 @@
           "tier": 1,
           "county": "Gloucester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08074"
+          ]
         },
         {
           "id": "NJ-wrightstown",
@@ -3991,7 +5153,10 @@
           "tier": 1,
           "county": "Burlington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08562"
+          ]
         },
         {
           "id": "NJ-ocean-city",
@@ -4000,7 +5165,10 @@
           "tier": 1,
           "county": "Cape May",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08226"
+          ]
         },
         {
           "id": "NJ-marlton",
@@ -4009,7 +5177,10 @@
           "tier": 1,
           "county": "Burlington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08053"
+          ]
         },
         {
           "id": "NJ-browns-mills",
@@ -4018,7 +5189,10 @@
           "tier": 1,
           "county": "Burlington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08015"
+          ]
         },
         {
           "id": "NJ-ocean-view",
@@ -4027,7 +5201,10 @@
           "tier": 1,
           "county": "Cape May",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08230"
+          ]
         },
         {
           "id": "NJ-quinton",
@@ -4036,7 +5213,10 @@
           "tier": 1,
           "county": "Salem",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08072"
+          ]
         },
         {
           "id": "NJ-dorothy",
@@ -4045,7 +5225,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08317"
+          ]
         },
         {
           "id": "NJ-sicklerville",
@@ -4054,7 +5237,10 @@
           "tier": 1,
           "county": "Camden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08081"
+          ]
         },
         {
           "id": "NJ-williamstown",
@@ -4063,7 +5249,10 @@
           "tier": 1,
           "county": "Gloucester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08094"
+          ]
         },
         {
           "id": "NJ-alloway",
@@ -4072,7 +5261,10 @@
           "tier": 1,
           "county": "Salem",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08001"
+          ]
         },
         {
           "id": "NJ-leesburg",
@@ -4081,7 +5273,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08327"
+          ]
         },
         {
           "id": "NJ-clementon",
@@ -4090,7 +5285,10 @@
           "tier": 1,
           "county": "Camden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08021"
+          ]
         },
         {
           "id": "NJ-collingswood",
@@ -4099,7 +5297,10 @@
           "tier": 1,
           "county": "Camden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08108"
+          ]
         },
         {
           "id": "NJ-gloucester-city",
@@ -4108,7 +5309,10 @@
           "tier": 1,
           "county": "Camden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08030"
+          ]
         },
         {
           "id": "NJ-stratford",
@@ -4117,7 +5321,10 @@
           "tier": 1,
           "county": "Camden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08084"
+          ]
         },
         {
           "id": "NJ-malaga",
@@ -4126,7 +5333,10 @@
           "tier": 1,
           "county": "Gloucester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08328"
+          ]
         },
         {
           "id": "NJ-bridgeport",
@@ -4135,7 +5345,10 @@
           "tier": 1,
           "county": "Gloucester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08014"
+          ]
         },
         {
           "id": "NJ-mickleton",
@@ -4144,7 +5357,10 @@
           "tier": 1,
           "county": "Gloucester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08056"
+          ]
         },
         {
           "id": "NJ-west-berlin",
@@ -4153,7 +5369,10 @@
           "tier": 1,
           "county": "Camden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08091"
+          ]
         },
         {
           "id": "NJ-milmay",
@@ -4162,7 +5381,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08340"
+          ]
         },
         {
           "id": "NJ-newtonville",
@@ -4171,7 +5393,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08346"
+          ]
         },
         {
           "id": "NJ-dorchester",
@@ -4180,7 +5405,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08316"
+          ]
         },
         {
           "id": "NJ-south-seaville",
@@ -4189,7 +5417,10 @@
           "tier": 1,
           "county": "Cape May",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08246"
+          ]
         },
         {
           "id": "NJ-cookstown",
@@ -4198,7 +5429,10 @@
           "tier": 1,
           "county": "Burlington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08511"
+          ]
         },
         {
           "id": "NJ-bridgeton",
@@ -4207,7 +5441,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08302"
+          ]
         },
         {
           "id": "NJ-newport",
@@ -4216,7 +5453,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08345"
+          ]
         },
         {
           "id": "NJ-mauricetown",
@@ -4225,7 +5465,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08329"
+          ]
         },
         {
           "id": "NJ-national-park",
@@ -4234,7 +5477,10 @@
           "tier": 1,
           "county": "Gloucester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08063"
+          ]
         },
         {
           "id": "NJ-woodbury",
@@ -4243,7 +5489,10 @@
           "tier": 1,
           "county": "Gloucester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08096"
+          ]
         },
         {
           "id": "NJ-sea-isle-city",
@@ -4252,7 +5501,10 @@
           "tier": 1,
           "county": "Cape May",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08243"
+          ]
         },
         {
           "id": "NJ-brigantine",
@@ -4261,7 +5513,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08203"
+          ]
         },
         {
           "id": "NJ-bordentown",
@@ -4270,7 +5525,10 @@
           "tier": 1,
           "county": "Burlington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08505"
+          ]
         },
         {
           "id": "NJ-port-republic",
@@ -4279,7 +5537,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08241"
+          ]
         },
         {
           "id": "NJ-atlantic-city",
@@ -4288,7 +5549,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08401"
+          ]
         },
         {
           "id": "NJ-linwood",
@@ -4297,7 +5561,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08221"
+          ]
         },
         {
           "id": "NJ-runnemede",
@@ -4306,7 +5573,10 @@
           "tier": 1,
           "county": "Camden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08078"
+          ]
         },
         {
           "id": "NJ-shiloh",
@@ -4315,7 +5585,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08353"
+          ]
         },
         {
           "id": "NJ-port-norris",
@@ -4324,7 +5597,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08349"
+          ]
         },
         {
           "id": "NJ-burlington",
@@ -4333,7 +5609,10 @@
           "tier": 1,
           "county": "Burlington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08016"
+          ]
         },
         {
           "id": "NJ-blackwood",
@@ -4342,7 +5621,10 @@
           "tier": 1,
           "county": "Camden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08012"
+          ]
         },
         {
           "id": "NJ-pennsville",
@@ -4351,7 +5633,10 @@
           "tier": 1,
           "county": "Salem",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08070"
+          ]
         },
         {
           "id": "NJ-voorhees",
@@ -4360,7 +5645,10 @@
           "tier": 1,
           "county": "Camden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08043"
+          ]
         },
         {
           "id": "NJ-marmora",
@@ -4369,7 +5657,10 @@
           "tier": 1,
           "county": "Cape May",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08223"
+          ]
         },
         {
           "id": "NJ-franklinville",
@@ -4378,7 +5669,10 @@
           "tier": 1,
           "county": "Gloucester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08322"
+          ]
         },
         {
           "id": "NJ-delmont",
@@ -4387,7 +5681,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08314"
+          ]
         },
         {
           "id": "NJ-port-elizabeth",
@@ -4396,7 +5693,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08348"
+          ]
         },
         {
           "id": "NJ-mays-landing",
@@ -4405,7 +5705,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08330"
+          ]
         },
         {
           "id": "NJ-atco",
@@ -4414,7 +5717,10 @@
           "tier": 1,
           "county": "Camden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08004"
+          ]
         },
         {
           "id": "NJ-villas",
@@ -4423,7 +5729,10 @@
           "tier": 1,
           "county": "Cape May",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08251"
+          ]
         },
         {
           "id": "NJ-crosswicks",
@@ -4432,7 +5741,10 @@
           "tier": 1,
           "county": "Burlington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08515"
+          ]
         },
         {
           "id": "NJ-strathmere",
@@ -4441,7 +5753,10 @@
           "tier": 1,
           "county": "Cape May",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08248"
+          ]
         },
         {
           "id": "NJ-juliustown",
@@ -4450,7 +5765,10 @@
           "tier": 1,
           "county": "Burlington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08042"
+          ]
         },
         {
           "id": "NJ-fairton",
@@ -4459,7 +5777,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08320"
+          ]
         },
         {
           "id": "NJ-northfield",
@@ -4468,7 +5789,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08225"
+          ]
         },
         {
           "id": "NJ-ventnor-city",
@@ -4477,7 +5801,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08406"
+          ]
         },
         {
           "id": "NJ-cape-may-court-house",
@@ -4486,7 +5813,10 @@
           "tier": 1,
           "county": "Cape May",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08210"
+          ]
         },
         {
           "id": "NJ-pitman",
@@ -4495,7 +5825,10 @@
           "tier": 1,
           "county": "Gloucester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08071"
+          ]
         },
         {
           "id": "NJ-paulsboro",
@@ -4504,7 +5837,10 @@
           "tier": 1,
           "county": "Gloucester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08066"
+          ]
         },
         {
           "id": "NJ-gibbsboro",
@@ -4513,7 +5849,10 @@
           "tier": 1,
           "county": "Camden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08026"
+          ]
         },
         {
           "id": "NJ-oaklyn",
@@ -4522,7 +5861,10 @@
           "tier": 1,
           "county": "Camden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08107"
+          ]
         },
         {
           "id": "NJ-sewell",
@@ -4531,7 +5873,10 @@
           "tier": 1,
           "county": "Gloucester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08080"
+          ]
         },
         {
           "id": "NJ-millville",
@@ -4540,7 +5885,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08332"
+          ]
         },
         {
           "id": "NJ-thorofare",
@@ -4549,7 +5897,10 @@
           "tier": 1,
           "county": "Gloucester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08086"
+          ]
         },
         {
           "id": "NJ-magnolia",
@@ -4558,7 +5909,10 @@
           "tier": 1,
           "county": "Camden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08049"
+          ]
         },
         {
           "id": "NJ-estell-manor",
@@ -4567,7 +5921,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08319"
+          ]
         },
         {
           "id": "NJ-jobstown",
@@ -4576,7 +5933,10 @@
           "tier": 1,
           "county": "Burlington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08041"
+          ]
         },
         {
           "id": "NJ-pleasantville",
@@ -4585,7 +5945,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08232"
+          ]
         },
         {
           "id": "NJ-pedricktown",
@@ -4594,7 +5957,10 @@
           "tier": 1,
           "county": "Salem",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08067"
+          ]
         },
         {
           "id": "NJ-haddonfield",
@@ -4603,7 +5969,10 @@
           "tier": 1,
           "county": "Camden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08033"
+          ]
         },
         {
           "id": "NJ-bellmawr",
@@ -4612,7 +5981,10 @@
           "tier": 1,
           "county": "Camden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08031"
+          ]
         },
         {
           "id": "NJ-westville",
@@ -4621,7 +5993,10 @@
           "tier": 1,
           "county": "Gloucester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08093"
+          ]
         },
         {
           "id": "NJ-harrisonville",
@@ -4630,7 +6005,10 @@
           "tier": 1,
           "county": "Gloucester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08039"
+          ]
         },
         {
           "id": "NJ-pomona",
@@ -4639,7 +6017,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08240"
+          ]
         },
         {
           "id": "NJ-egg-harbor-township",
@@ -4648,7 +6029,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08234"
+          ]
         },
         {
           "id": "NJ-hainesport",
@@ -4657,7 +6041,10 @@
           "tier": 1,
           "county": "Burlington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08036"
+          ]
         },
         {
           "id": "NJ-landisville",
@@ -4666,7 +6053,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08326"
+          ]
         },
         {
           "id": "NJ-lumberton",
@@ -4675,7 +6065,10 @@
           "tier": 1,
           "county": "Burlington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08048"
+          ]
         },
         {
           "id": "NJ-mantua",
@@ -4684,7 +6077,10 @@
           "tier": 1,
           "county": "Gloucester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08051"
+          ]
         },
         {
           "id": "NJ-maple-shade",
@@ -4693,7 +6089,10 @@
           "tier": 1,
           "county": "Burlington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08052"
+          ]
         },
         {
           "id": "NJ-medford",
@@ -4702,7 +6101,10 @@
           "tier": 1,
           "county": "Burlington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08055"
+          ]
         },
         {
           "id": "NJ-moorestown",
@@ -4711,7 +6113,10 @@
           "tier": 1,
           "county": "Burlington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08057"
+          ]
         },
         {
           "id": "NJ-mount-holly",
@@ -4720,7 +6125,10 @@
           "tier": 1,
           "county": "Burlington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08060"
+          ]
         },
         {
           "id": "NJ-mount-laurel",
@@ -4729,7 +6137,10 @@
           "tier": 1,
           "county": "Burlington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08054"
+          ]
         },
         {
           "id": "NJ-pennsauken",
@@ -4738,7 +6149,10 @@
           "tier": 1,
           "county": "Camden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08110"
+          ]
         },
         {
           "id": "NJ-riverside",
@@ -4747,7 +6161,10 @@
           "tier": 1,
           "county": "Burlington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08075"
+          ]
         },
         {
           "id": "NJ-waterford-works",
@@ -4756,7 +6173,10 @@
           "tier": 1,
           "county": "Camden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08089"
+          ]
         },
         {
           "id": "NJ-willingboro",
@@ -4765,7 +6185,10 @@
           "tier": 1,
           "county": "Burlington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08046"
+          ]
         },
         {
           "id": "NJ-new-lisbon",
@@ -4774,7 +6197,10 @@
           "tier": 1,
           "county": "Burlington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08064"
+          ]
         },
         {
           "id": "NJ-deepwater",
@@ -4783,7 +6209,10 @@
           "tier": 1,
           "county": "Salem",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08023"
+          ]
         },
         {
           "id": "NJ-rancocas",
@@ -4792,7 +6221,10 @@
           "tier": 1,
           "county": "Burlington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08073"
+          ]
         },
         {
           "id": "NJ-birmingham",
@@ -4801,7 +6233,10 @@
           "tier": 1,
           "county": "Burlington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08011"
+          ]
         },
         {
           "id": "NJ-columbus",
@@ -4810,7 +6245,10 @@
           "tier": 1,
           "county": "Burlington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08022"
+          ]
         },
         {
           "id": "NJ-winslow",
@@ -4819,7 +6257,10 @@
           "tier": 1,
           "county": "Camden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08095"
+          ]
         },
         {
           "id": "NJ-monroeville",
@@ -4828,7 +6269,10 @@
           "tier": 1,
           "county": "Gloucester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08343"
+          ]
         },
         {
           "id": "NJ-chatsworth",
@@ -4837,7 +6281,10 @@
           "tier": 1,
           "county": "Burlington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08019"
+          ]
         },
         {
           "id": "NJ-clarksboro",
@@ -4846,7 +6293,10 @@
           "tier": 1,
           "county": "Gloucester",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08020"
+          ]
         },
         {
           "id": "NJ-minotola",
@@ -4855,7 +6305,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08341"
+          ]
         },
         {
           "id": "NJ-tavistock",
@@ -4864,7 +6317,10 @@
           "tier": 1,
           "county": "Burlington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08052"
+          ]
         },
         {
           "id": "NJ-leeds-point",
@@ -4873,7 +6329,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08205"
+          ]
         },
         {
           "id": "NJ-woodlynne",
@@ -4882,7 +6341,10 @@
           "tier": 1,
           "county": "Camden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08107"
+          ]
         },
         {
           "id": "NJ-lakeside-beebe-run",
@@ -4891,7 +6353,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08302"
+          ]
         },
         {
           "id": "NJ-gandys-beach",
@@ -4900,7 +6365,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08311"
+          ]
         },
         {
           "id": "NJ-hi-nella",
@@ -4909,7 +6377,10 @@
           "tier": 1,
           "county": "Burlington",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08052"
+          ]
         },
         {
           "id": "NJ-diamond-beach",
@@ -4918,7 +6389,10 @@
           "tier": 1,
           "county": "Cape May",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08260"
+          ]
         },
         {
           "id": "NJ-laurel-heights",
@@ -4927,7 +6401,10 @@
           "tier": 1,
           "county": "Cumberland",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08302"
+          ]
         },
         {
           "id": "NJ-audubon-park",
@@ -4936,7 +6413,10 @@
           "tier": 1,
           "county": "Camden",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08107"
+          ]
         }
       ],
       "adTargeting": {
@@ -5066,7 +6546,12 @@
           "tier": 1,
           "county": "Ocean",
           "zipCount": 3,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08753",
+            "08757",
+            "08755"
+          ]
         },
         {
           "id": "NJ-brick",
@@ -5075,7 +6560,11 @@
           "tier": 1,
           "county": "Ocean",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08723",
+            "08724"
+          ]
         },
         {
           "id": "NJ-beach-haven",
@@ -5084,7 +6573,10 @@
           "tier": 1,
           "county": "Ocean",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08008"
+          ]
         },
         {
           "id": "NJ-port-monmouth",
@@ -5093,7 +6585,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07758"
+          ]
         },
         {
           "id": "NJ-bradley-beach",
@@ -5102,7 +6597,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07720"
+          ]
         },
         {
           "id": "NJ-fair-haven",
@@ -5111,7 +6609,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07704"
+          ]
         },
         {
           "id": "NJ-neptune-city",
@@ -5120,7 +6621,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07753"
+          ]
         },
         {
           "id": "NJ-barnegat-light",
@@ -5129,7 +6633,10 @@
           "tier": 1,
           "county": "Ocean",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08006"
+          ]
         },
         {
           "id": "NJ-island-heights",
@@ -5138,7 +6645,10 @@
           "tier": 1,
           "county": "Ocean",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08732"
+          ]
         },
         {
           "id": "NJ-sea-girt",
@@ -5147,7 +6657,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08750"
+          ]
         },
         {
           "id": "NJ-englishtown",
@@ -5156,7 +6669,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07726"
+          ]
         },
         {
           "id": "NJ-ocean-gate",
@@ -5165,7 +6681,10 @@
           "tier": 1,
           "county": "Ocean",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08740"
+          ]
         },
         {
           "id": "NJ-allenhurst",
@@ -5174,7 +6693,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07711"
+          ]
         },
         {
           "id": "NJ-barnegat",
@@ -5183,7 +6705,10 @@
           "tier": 1,
           "county": "Ocean",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08005"
+          ]
         },
         {
           "id": "NJ-spring-lake",
@@ -5192,7 +6717,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07762"
+          ]
         },
         {
           "id": "NJ-seaside-park",
@@ -5201,7 +6729,10 @@
           "tier": 1,
           "county": "Ocean",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08752"
+          ]
         },
         {
           "id": "NJ-west-long-branch",
@@ -5210,7 +6741,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07764"
+          ]
         },
         {
           "id": "NJ-pine-beach",
@@ -5219,7 +6753,10 @@
           "tier": 1,
           "county": "Ocean",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08741"
+          ]
         },
         {
           "id": "NJ-roosevelt",
@@ -5228,7 +6765,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08555"
+          ]
         },
         {
           "id": "NJ-belford",
@@ -5237,7 +6777,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07718"
+          ]
         },
         {
           "id": "NJ-monmouth-beach",
@@ -5246,7 +6789,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07750"
+          ]
         },
         {
           "id": "NJ-lakehurst",
@@ -5255,7 +6801,10 @@
           "tier": 1,
           "county": "Ocean",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08733"
+          ]
         },
         {
           "id": "NJ-manasquan",
@@ -5264,7 +6813,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08736"
+          ]
         },
         {
           "id": "NJ-oceanport",
@@ -5273,7 +6825,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07757"
+          ]
         },
         {
           "id": "NJ-cream-ridge",
@@ -5282,7 +6837,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08514"
+          ]
         },
         {
           "id": "NJ-oakhurst",
@@ -5291,7 +6849,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07755"
+          ]
         },
         {
           "id": "NJ-allentown",
@@ -5300,7 +6861,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08501"
+          ]
         },
         {
           "id": "NJ-asbury-park",
@@ -5309,7 +6873,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07712"
+          ]
         },
         {
           "id": "NJ-deal",
@@ -5318,7 +6885,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07723"
+          ]
         },
         {
           "id": "NJ-eatontown",
@@ -5327,7 +6897,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07724"
+          ]
         },
         {
           "id": "NJ-freehold",
@@ -5336,7 +6909,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07728"
+          ]
         },
         {
           "id": "NJ-highlands",
@@ -5345,7 +6921,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07732"
+          ]
         },
         {
           "id": "NJ-long-branch",
@@ -5354,7 +6933,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07740"
+          ]
         },
         {
           "id": "NJ-shrewsbury",
@@ -5363,7 +6945,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07702"
+          ]
         },
         {
           "id": "NJ-marlboro",
@@ -5372,7 +6957,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07746"
+          ]
         },
         {
           "id": "NJ-beachwood",
@@ -5381,7 +6969,10 @@
           "tier": 1,
           "county": "Ocean",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08722"
+          ]
         },
         {
           "id": "NJ-lavallette",
@@ -5390,7 +6981,10 @@
           "tier": 1,
           "county": "Ocean",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08735"
+          ]
         },
         {
           "id": "NJ-mantoloking",
@@ -5399,7 +6993,10 @@
           "tier": 1,
           "county": "Ocean",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08738"
+          ]
         },
         {
           "id": "NJ-point-pleasant-beach",
@@ -5408,7 +7005,10 @@
           "tier": 1,
           "county": "Ocean",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08742"
+          ]
         },
         {
           "id": "NJ-tuckerton",
@@ -5417,7 +7017,10 @@
           "tier": 1,
           "county": "Ocean",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08087"
+          ]
         },
         {
           "id": "NJ-matawan",
@@ -5426,7 +7029,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07747"
+          ]
         },
         {
           "id": "NJ-belmar",
@@ -5435,7 +7041,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07719"
+          ]
         },
         {
           "id": "NJ-lakewood",
@@ -5444,7 +7053,10 @@
           "tier": 1,
           "county": "Ocean",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08701"
+          ]
         },
         {
           "id": "NJ-new-egypt",
@@ -5453,7 +7065,10 @@
           "tier": 1,
           "county": "Ocean",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08533"
+          ]
         },
         {
           "id": "NJ-allenwood",
@@ -5462,7 +7077,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08720"
+          ]
         },
         {
           "id": "NJ-forked-river",
@@ -5471,7 +7089,10 @@
           "tier": 1,
           "county": "Ocean",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08731"
+          ]
         },
         {
           "id": "NJ-manahawkin",
@@ -5480,7 +7101,10 @@
           "tier": 1,
           "county": "Ocean",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08050"
+          ]
         },
         {
           "id": "NJ-waretown",
@@ -5489,7 +7113,10 @@
           "tier": 1,
           "county": "Ocean",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08758"
+          ]
         },
         {
           "id": "NJ-keansburg",
@@ -5498,7 +7125,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07734"
+          ]
         },
         {
           "id": "NJ-little-silver",
@@ -5507,7 +7137,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07739"
+          ]
         },
         {
           "id": "NJ-red-bank",
@@ -5516,7 +7149,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07701"
+          ]
         },
         {
           "id": "NJ-lincroft",
@@ -5525,7 +7161,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07738"
+          ]
         },
         {
           "id": "NJ-farmingdale",
@@ -5534,7 +7173,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07727"
+          ]
         },
         {
           "id": "NJ-seaside-heights",
@@ -5543,7 +7185,10 @@
           "tier": 1,
           "county": "Ocean",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08751"
+          ]
         },
         {
           "id": "NJ-atlantic-highlands",
@@ -5552,7 +7197,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07716"
+          ]
         },
         {
           "id": "NJ-keyport",
@@ -5561,7 +7209,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07735"
+          ]
         },
         {
           "id": "NJ-rumson",
@@ -5570,7 +7221,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07760"
+          ]
         },
         {
           "id": "NJ-leonardo",
@@ -5579,7 +7233,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07737"
+          ]
         },
         {
           "id": "NJ-ocean-grove",
@@ -5588,7 +7245,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07756"
+          ]
         },
         {
           "id": "NJ-brielle",
@@ -5597,7 +7257,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08730"
+          ]
         },
         {
           "id": "NJ-morganville",
@@ -5606,7 +7269,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07751"
+          ]
         },
         {
           "id": "NJ-bayville",
@@ -5615,7 +7281,10 @@
           "tier": 1,
           "county": "Ocean",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08721"
+          ]
         },
         {
           "id": "NJ-colts-neck",
@@ -5624,7 +7293,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07722"
+          ]
         },
         {
           "id": "NJ-hazlet",
@@ -5633,7 +7305,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07730"
+          ]
         },
         {
           "id": "NJ-holmdel",
@@ -5642,7 +7317,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07733"
+          ]
         },
         {
           "id": "NJ-howell",
@@ -5651,7 +7329,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07731"
+          ]
         },
         {
           "id": "NJ-jackson",
@@ -5660,7 +7341,10 @@
           "tier": 1,
           "county": "Ocean",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08527"
+          ]
         },
         {
           "id": "NJ-lanoka-harbor",
@@ -5669,7 +7353,10 @@
           "tier": 1,
           "county": "Ocean",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08734"
+          ]
         },
         {
           "id": "NJ-manchester-township",
@@ -5678,7 +7365,10 @@
           "tier": 1,
           "county": "Ocean",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08759"
+          ]
         },
         {
           "id": "NJ-middletown",
@@ -5687,7 +7377,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07748"
+          ]
         },
         {
           "id": "NJ-neptune",
@@ -5696,7 +7389,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07753"
+          ]
         },
         {
           "id": "NJ-west-creek",
@@ -5705,7 +7401,10 @@
           "tier": 1,
           "county": "Ocean",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08092"
+          ]
         },
         {
           "id": "NJ-perrineville",
@@ -5714,7 +7413,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08535"
+          ]
         },
         {
           "id": "NJ-clarksburg",
@@ -5723,7 +7425,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08510"
+          ]
         },
         {
           "id": "NJ-cliffwood",
@@ -5732,7 +7437,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07721"
+          ]
         },
         {
           "id": "NJ-fort-monmouth",
@@ -5741,7 +7449,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07703"
+          ]
         },
         {
           "id": "NJ-lake-como",
@@ -5750,7 +7461,10 @@
           "tier": 1,
           "county": "Monmouth",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07762"
+          ]
         }
       ],
       "adTargeting": {
@@ -5842,7 +7556,11 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08205",
+            "08201"
+          ]
         },
         {
           "id": "NJ-hammonton",
@@ -5851,7 +7569,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08037"
+          ]
         },
         {
           "id": "NJ-buena",
@@ -5860,7 +7581,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08310"
+          ]
         },
         {
           "id": "NJ-cape-may-point",
@@ -5869,7 +7593,10 @@
           "tier": 1,
           "county": "Cape May",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08212"
+          ]
         },
         {
           "id": "NJ-margate-city",
@@ -5878,7 +7605,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08402"
+          ]
         },
         {
           "id": "NJ-longport",
@@ -5887,7 +7617,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08403"
+          ]
         },
         {
           "id": "NJ-avalon",
@@ -5896,7 +7629,10 @@
           "tier": 1,
           "county": "Cape May",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08202"
+          ]
         },
         {
           "id": "NJ-richland",
@@ -5905,7 +7641,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08350"
+          ]
         },
         {
           "id": "NJ-wildwood",
@@ -5914,7 +7653,10 @@
           "tier": 1,
           "county": "Cape May",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08260"
+          ]
         },
         {
           "id": "NJ-egg-harbor-city",
@@ -5923,7 +7665,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08215"
+          ]
         },
         {
           "id": "NJ-somers-point",
@@ -5932,7 +7677,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08244"
+          ]
         },
         {
           "id": "NJ-rio-grande",
@@ -5941,7 +7689,10 @@
           "tier": 1,
           "county": "Cape May",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08242"
+          ]
         },
         {
           "id": "NJ-elwood",
@@ -5950,7 +7701,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08217"
+          ]
         },
         {
           "id": "NJ-woodbine",
@@ -5959,7 +7713,10 @@
           "tier": 1,
           "county": "Cape May",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08270"
+          ]
         },
         {
           "id": "NJ-stone-harbor",
@@ -5968,7 +7725,10 @@
           "tier": 1,
           "county": "Cape May",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08247"
+          ]
         },
         {
           "id": "NJ-cape-may",
@@ -5977,7 +7737,10 @@
           "tier": 1,
           "county": "Cape May",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08204"
+          ]
         },
         {
           "id": "NJ-ocean-city",
@@ -5986,7 +7749,10 @@
           "tier": 1,
           "county": "Cape May",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08226"
+          ]
         },
         {
           "id": "NJ-ocean-view",
@@ -5995,7 +7761,10 @@
           "tier": 1,
           "county": "Cape May",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08230"
+          ]
         },
         {
           "id": "NJ-dorothy",
@@ -6004,7 +7773,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08317"
+          ]
         },
         {
           "id": "NJ-milmay",
@@ -6013,7 +7785,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08340"
+          ]
         },
         {
           "id": "NJ-newtonville",
@@ -6022,7 +7797,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08346"
+          ]
         },
         {
           "id": "NJ-south-seaville",
@@ -6031,7 +7809,10 @@
           "tier": 1,
           "county": "Cape May",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08246"
+          ]
         },
         {
           "id": "NJ-sea-isle-city",
@@ -6040,7 +7821,10 @@
           "tier": 1,
           "county": "Cape May",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08243"
+          ]
         },
         {
           "id": "NJ-brigantine",
@@ -6049,7 +7833,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08203"
+          ]
         },
         {
           "id": "NJ-port-republic",
@@ -6058,7 +7845,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08241"
+          ]
         },
         {
           "id": "NJ-atlantic-city",
@@ -6067,7 +7857,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08401"
+          ]
         },
         {
           "id": "NJ-linwood",
@@ -6076,7 +7869,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08221"
+          ]
         },
         {
           "id": "NJ-marmora",
@@ -6085,7 +7881,10 @@
           "tier": 1,
           "county": "Cape May",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08223"
+          ]
         },
         {
           "id": "NJ-mays-landing",
@@ -6094,7 +7893,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08330"
+          ]
         },
         {
           "id": "NJ-villas",
@@ -6103,7 +7905,10 @@
           "tier": 1,
           "county": "Cape May",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08251"
+          ]
         },
         {
           "id": "NJ-strathmere",
@@ -6112,7 +7917,10 @@
           "tier": 1,
           "county": "Cape May",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08248"
+          ]
         },
         {
           "id": "NJ-northfield",
@@ -6121,7 +7929,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08225"
+          ]
         },
         {
           "id": "NJ-ventnor-city",
@@ -6130,7 +7941,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08406"
+          ]
         },
         {
           "id": "NJ-cape-may-court-house",
@@ -6139,7 +7953,10 @@
           "tier": 1,
           "county": "Cape May",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08210"
+          ]
         },
         {
           "id": "NJ-estell-manor",
@@ -6148,7 +7965,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08319"
+          ]
         },
         {
           "id": "NJ-pleasantville",
@@ -6157,7 +7977,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08232"
+          ]
         },
         {
           "id": "NJ-pomona",
@@ -6166,7 +7989,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08240"
+          ]
         },
         {
           "id": "NJ-egg-harbor-township",
@@ -6175,7 +8001,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08234"
+          ]
         },
         {
           "id": "NJ-landisville",
@@ -6184,7 +8013,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08326"
+          ]
         },
         {
           "id": "NJ-minotola",
@@ -6193,7 +8025,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08341"
+          ]
         },
         {
           "id": "NJ-leeds-point",
@@ -6202,7 +8037,10 @@
           "tier": 1,
           "county": "Atlantic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08205"
+          ]
         },
         {
           "id": "NJ-diamond-beach",
@@ -6211,7 +8049,10 @@
           "tier": 1,
           "county": "Cape May",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08260"
+          ]
         }
       ],
       "adTargeting": {
@@ -6357,7 +8198,18 @@
           "tier": 1,
           "county": "Passaic",
           "zipCount": 9,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07505",
+            "07504",
+            "07524",
+            "07514",
+            "07502",
+            "07501",
+            "07503",
+            "07513",
+            "07522"
+          ]
         },
         {
           "id": "NJ-clifton",
@@ -6366,7 +8218,13 @@
           "tier": 1,
           "county": "Passaic",
           "zipCount": 4,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07014",
+            "07011",
+            "07013",
+            "07012"
+          ]
         },
         {
           "id": "NJ-mahwah",
@@ -6375,7 +8233,11 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07430",
+            "07495"
+          ]
         },
         {
           "id": "NJ-northvale",
@@ -6384,7 +8246,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07647"
+          ]
         },
         {
           "id": "NJ-maywood",
@@ -6393,7 +8258,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07607"
+          ]
         },
         {
           "id": "NJ-closter",
@@ -6402,7 +8270,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07624"
+          ]
         },
         {
           "id": "NJ-midland-park",
@@ -6411,7 +8282,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07432"
+          ]
         },
         {
           "id": "NJ-norwood",
@@ -6420,7 +8294,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07648"
+          ]
         },
         {
           "id": "NJ-ridgefield-park",
@@ -6429,7 +8306,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07660"
+          ]
         },
         {
           "id": "NJ-teterboro",
@@ -6438,7 +8318,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07608"
+          ]
         },
         {
           "id": "NJ-totowa",
@@ -6447,7 +8330,10 @@
           "tier": 1,
           "county": "Passaic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07512"
+          ]
         },
         {
           "id": "NJ-fairview",
@@ -6456,7 +8342,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07022"
+          ]
         },
         {
           "id": "NJ-haworth",
@@ -6465,7 +8354,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07641"
+          ]
         },
         {
           "id": "NJ-haledon",
@@ -6474,7 +8366,10 @@
           "tier": 1,
           "county": "Passaic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07508"
+          ]
         },
         {
           "id": "NJ-fort-lee",
@@ -6483,7 +8378,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07024"
+          ]
         },
         {
           "id": "NJ-dumont",
@@ -6492,7 +8390,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07628"
+          ]
         },
         {
           "id": "NJ-hawthorne",
@@ -6501,7 +8402,10 @@
           "tier": 1,
           "county": "Passaic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07506"
+          ]
         },
         {
           "id": "NJ-glen-rock",
@@ -6510,7 +8414,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07452"
+          ]
         },
         {
           "id": "NJ-edgewater",
@@ -6519,7 +8426,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07020"
+          ]
         },
         {
           "id": "NJ-elmwood-park",
@@ -6528,7 +8438,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07407"
+          ]
         },
         {
           "id": "NJ-east-rutherford",
@@ -6537,7 +8450,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07073"
+          ]
         },
         {
           "id": "NJ-englewood",
@@ -6546,7 +8462,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07631"
+          ]
         },
         {
           "id": "NJ-harrington-park",
@@ -6555,7 +8474,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07640"
+          ]
         },
         {
           "id": "NJ-waldwick",
@@ -6564,7 +8486,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07463"
+          ]
         },
         {
           "id": "NJ-cresskill",
@@ -6573,7 +8498,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07626"
+          ]
         },
         {
           "id": "NJ-newfoundland",
@@ -6582,7 +8510,10 @@
           "tier": 1,
           "county": "Passaic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07435"
+          ]
         },
         {
           "id": "NJ-emerson",
@@ -6591,7 +8522,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07630"
+          ]
         },
         {
           "id": "NJ-hillsdale",
@@ -6600,7 +8534,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07642"
+          ]
         },
         {
           "id": "NJ-lodi",
@@ -6609,7 +8546,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07644"
+          ]
         },
         {
           "id": "NJ-bloomingdale",
@@ -6618,7 +8558,10 @@
           "tier": 1,
           "county": "Passaic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07403"
+          ]
         },
         {
           "id": "NJ-wanaque",
@@ -6627,7 +8570,10 @@
           "tier": 1,
           "county": "Passaic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07465"
+          ]
         },
         {
           "id": "NJ-montvale",
@@ -6636,7 +8582,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07645"
+          ]
         },
         {
           "id": "NJ-moonachie",
@@ -6645,7 +8594,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07074"
+          ]
         },
         {
           "id": "NJ-north-arlington",
@@ -6654,7 +8606,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07031"
+          ]
         },
         {
           "id": "NJ-oakland",
@@ -6663,7 +8618,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07436"
+          ]
         },
         {
           "id": "NJ-oradell",
@@ -6672,7 +8630,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07649"
+          ]
         },
         {
           "id": "NJ-paramus",
@@ -6681,7 +8642,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07652"
+          ]
         },
         {
           "id": "NJ-park-ridge",
@@ -6690,7 +8654,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07656"
+          ]
         },
         {
           "id": "NJ-ramsey",
@@ -6699,7 +8666,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07446"
+          ]
         },
         {
           "id": "NJ-ridgewood",
@@ -6708,7 +8678,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07450"
+          ]
         },
         {
           "id": "NJ-saddle-river",
@@ -6717,7 +8690,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07458"
+          ]
         },
         {
           "id": "NJ-westwood",
@@ -6726,7 +8702,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07675"
+          ]
         },
         {
           "id": "NJ-allendale",
@@ -6735,7 +8714,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07401"
+          ]
         },
         {
           "id": "NJ-alpine",
@@ -6744,7 +8726,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07620"
+          ]
         },
         {
           "id": "NJ-franklin-lakes",
@@ -6753,7 +8738,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07417"
+          ]
         },
         {
           "id": "NJ-hackensack",
@@ -6762,7 +8750,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07601"
+          ]
         },
         {
           "id": "NJ-hasbrouck-heights",
@@ -6771,7 +8762,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07604"
+          ]
         },
         {
           "id": "NJ-river-edge",
@@ -6780,7 +8774,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07661"
+          ]
         },
         {
           "id": "NJ-bergenfield",
@@ -6789,7 +8786,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07621"
+          ]
         },
         {
           "id": "NJ-ringwood",
@@ -6798,7 +8798,10 @@
           "tier": 1,
           "county": "Passaic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07456"
+          ]
         },
         {
           "id": "NJ-rutherford",
@@ -6807,7 +8810,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07070"
+          ]
         },
         {
           "id": "NJ-new-milford",
@@ -6816,7 +8822,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07646"
+          ]
         },
         {
           "id": "NJ-ridgefield",
@@ -6825,7 +8834,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07657"
+          ]
         },
         {
           "id": "NJ-hewitt",
@@ -6834,7 +8846,10 @@
           "tier": 1,
           "county": "Passaic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07421"
+          ]
         },
         {
           "id": "NJ-oak-ridge",
@@ -6843,7 +8858,10 @@
           "tier": 1,
           "county": "Passaic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07438"
+          ]
         },
         {
           "id": "NJ-passaic",
@@ -6852,7 +8870,10 @@
           "tier": 1,
           "county": "Passaic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07055"
+          ]
         },
         {
           "id": "NJ-cliffside-park",
@@ -6861,7 +8882,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07010"
+          ]
         },
         {
           "id": "NJ-englewood-cliffs",
@@ -6870,7 +8894,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07632"
+          ]
         },
         {
           "id": "NJ-leonia",
@@ -6879,7 +8906,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07605"
+          ]
         },
         {
           "id": "NJ-woodcliff-lake",
@@ -6888,7 +8918,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07677"
+          ]
         },
         {
           "id": "NJ-fair-lawn",
@@ -6897,7 +8930,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07410"
+          ]
         },
         {
           "id": "NJ-wallington",
@@ -6906,7 +8942,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07057"
+          ]
         },
         {
           "id": "NJ-pompton-lakes",
@@ -6915,7 +8954,10 @@
           "tier": 1,
           "county": "Passaic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07442"
+          ]
         },
         {
           "id": "NJ-carlstadt",
@@ -6924,7 +8966,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07072"
+          ]
         },
         {
           "id": "NJ-bogota",
@@ -6933,7 +8978,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07603"
+          ]
         },
         {
           "id": "NJ-demarest",
@@ -6942,7 +8990,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07627"
+          ]
         },
         {
           "id": "NJ-little-ferry",
@@ -6951,7 +9002,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07643"
+          ]
         },
         {
           "id": "NJ-palisades-park",
@@ -6960,7 +9014,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07650"
+          ]
         },
         {
           "id": "NJ-tenafly",
@@ -6969,7 +9026,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07670"
+          ]
         },
         {
           "id": "NJ-garfield",
@@ -6978,7 +9038,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07026"
+          ]
         },
         {
           "id": "NJ-haskell",
@@ -6987,7 +9050,10 @@
           "tier": 1,
           "county": "Passaic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07420"
+          ]
         },
         {
           "id": "NJ-little-falls",
@@ -6996,7 +9062,10 @@
           "tier": 1,
           "county": "Passaic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07424"
+          ]
         },
         {
           "id": "NJ-lyndhurst",
@@ -7005,7 +9074,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07071"
+          ]
         },
         {
           "id": "NJ-rochelle-park",
@@ -7014,7 +9086,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07662"
+          ]
         },
         {
           "id": "NJ-saddle-brook",
@@ -7023,7 +9098,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07663"
+          ]
         },
         {
           "id": "NJ-south-hackensack",
@@ -7032,7 +9110,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07606"
+          ]
         },
         {
           "id": "NJ-teaneck",
@@ -7041,7 +9122,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07666"
+          ]
         },
         {
           "id": "NJ-township-of-washington",
@@ -7050,7 +9134,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07676"
+          ]
         },
         {
           "id": "NJ-wayne",
@@ -7059,7 +9146,10 @@
           "tier": 1,
           "county": "Passaic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07470"
+          ]
         },
         {
           "id": "NJ-west-milford",
@@ -7068,7 +9158,10 @@
           "tier": 1,
           "county": "Passaic",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07480"
+          ]
         },
         {
           "id": "NJ-wyckoff",
@@ -7077,7 +9170,10 @@
           "tier": 1,
           "county": "Bergen",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07481"
+          ]
         }
       ],
       "adTargeting": {
@@ -7175,7 +9271,18 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 9,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07108",
+            "07104",
+            "07102",
+            "07106",
+            "07107",
+            "07112",
+            "07105",
+            "07114",
+            "07103"
+          ]
         },
         {
           "id": "NJ-jersey-city",
@@ -7184,7 +9291,16 @@
           "tier": 1,
           "county": "Hudson",
           "zipCount": 7,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07306",
+            "07311",
+            "07302",
+            "07304",
+            "07310",
+            "07305",
+            "07307"
+          ]
         },
         {
           "id": "NJ-east-orange",
@@ -7193,7 +9309,11 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07017",
+            "07018"
+          ]
         },
         {
           "id": "NJ-montclair",
@@ -7202,7 +9322,11 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07043",
+            "07042"
+          ]
         },
         {
           "id": "NJ-secaucus",
@@ -7211,7 +9335,10 @@
           "tier": 1,
           "county": "Hudson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07094"
+          ]
         },
         {
           "id": "NJ-essex-fells",
@@ -7220,7 +9347,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07021"
+          ]
         },
         {
           "id": "NJ-hoboken",
@@ -7229,7 +9359,10 @@
           "tier": 1,
           "county": "Hudson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07030"
+          ]
         },
         {
           "id": "NJ-west-new-york",
@@ -7238,7 +9371,10 @@
           "tier": 1,
           "county": "Hudson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07093"
+          ]
         },
         {
           "id": "NJ-glen-ridge",
@@ -7247,7 +9383,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07028"
+          ]
         },
         {
           "id": "NJ-roseland",
@@ -7256,7 +9395,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07068"
+          ]
         },
         {
           "id": "NJ-bayonne",
@@ -7265,7 +9407,10 @@
           "tier": 1,
           "county": "Hudson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07002"
+          ]
         },
         {
           "id": "NJ-kearny",
@@ -7274,7 +9419,10 @@
           "tier": 1,
           "county": "Hudson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07032"
+          ]
         },
         {
           "id": "NJ-caldwell",
@@ -7283,7 +9431,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07006"
+          ]
         },
         {
           "id": "NJ-union-city",
@@ -7292,7 +9443,10 @@
           "tier": 1,
           "county": "Hudson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07087"
+          ]
         },
         {
           "id": "NJ-harrison",
@@ -7301,7 +9455,10 @@
           "tier": 1,
           "county": "Hudson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07029"
+          ]
         },
         {
           "id": "NJ-short-hills",
@@ -7310,7 +9467,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07078"
+          ]
         },
         {
           "id": "NJ-belleville",
@@ -7319,7 +9479,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07109"
+          ]
         },
         {
           "id": "NJ-bloomfield",
@@ -7328,7 +9491,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07003"
+          ]
         },
         {
           "id": "NJ-cedar-grove",
@@ -7337,7 +9503,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07009"
+          ]
         },
         {
           "id": "NJ-fairfield",
@@ -7346,7 +9515,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07004"
+          ]
         },
         {
           "id": "NJ-irvington",
@@ -7355,7 +9527,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07111"
+          ]
         },
         {
           "id": "NJ-livingston",
@@ -7364,7 +9539,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07039"
+          ]
         },
         {
           "id": "NJ-maplewood",
@@ -7373,7 +9551,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07040"
+          ]
         },
         {
           "id": "NJ-north-bergen",
@@ -7382,7 +9563,10 @@
           "tier": 1,
           "county": "Hudson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07047"
+          ]
         },
         {
           "id": "NJ-nutley",
@@ -7391,7 +9575,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07110"
+          ]
         },
         {
           "id": "NJ-orange",
@@ -7400,7 +9587,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07050"
+          ]
         },
         {
           "id": "NJ-south-orange",
@@ -7409,7 +9599,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07079"
+          ]
         },
         {
           "id": "NJ-verona",
@@ -7418,7 +9611,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07044"
+          ]
         },
         {
           "id": "NJ-weehawken",
@@ -7427,7 +9623,10 @@
           "tier": 1,
           "county": "Hudson",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07086"
+          ]
         },
         {
           "id": "NJ-west-orange",
@@ -7436,7 +9635,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07052"
+          ]
         },
         {
           "id": "NJ-millburn",
@@ -7445,7 +9647,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07041"
+          ]
         },
         {
           "id": "NJ-east-newark",
@@ -7454,7 +9659,10 @@
           "tier": 1,
           "county": "Essex",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07104"
+          ]
         }
       ],
       "adTargeting": {
@@ -7552,7 +9760,24 @@
           "tier": 1,
           "county": "Mercer",
           "zipCount": 15,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08619",
+            "08611",
+            "08640",
+            "08610",
+            "08641",
+            "08690",
+            "08648",
+            "08608",
+            "08628",
+            "08691",
+            "08620",
+            "08609",
+            "08629",
+            "08618",
+            "08638"
+          ]
         },
         {
           "id": "NJ-princeton",
@@ -7561,7 +9786,11 @@
           "tier": 1,
           "county": "Mercer",
           "zipCount": 2,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08540",
+            "08542"
+          ]
         },
         {
           "id": "NJ-rocky-hill",
@@ -7570,7 +9799,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08553"
+          ]
         },
         {
           "id": "NJ-bound-brook",
@@ -7579,7 +9811,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08805"
+          ]
         },
         {
           "id": "NJ-flagtown",
@@ -7588,7 +9823,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08821"
+          ]
         },
         {
           "id": "NJ-pennington",
@@ -7597,7 +9835,10 @@
           "tier": 1,
           "county": "Mercer",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08534"
+          ]
         },
         {
           "id": "NJ-hightstown",
@@ -7606,7 +9847,10 @@
           "tier": 1,
           "county": "Mercer",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08520"
+          ]
         },
         {
           "id": "NJ-hopewell",
@@ -7615,7 +9859,10 @@
           "tier": 1,
           "county": "Mercer",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08525"
+          ]
         },
         {
           "id": "NJ-windsor",
@@ -7624,7 +9871,10 @@
           "tier": 1,
           "county": "Mercer",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08561"
+          ]
         },
         {
           "id": "NJ-far-hills",
@@ -7633,7 +9883,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07931"
+          ]
         },
         {
           "id": "NJ-manville",
@@ -7642,7 +9895,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08835"
+          ]
         },
         {
           "id": "NJ-somerville",
@@ -7651,7 +9907,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08876"
+          ]
         },
         {
           "id": "NJ-watchung",
@@ -7660,7 +9919,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07069"
+          ]
         },
         {
           "id": "NJ-titusville",
@@ -7669,7 +9931,10 @@
           "tier": 1,
           "county": "Mercer",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08560"
+          ]
         },
         {
           "id": "NJ-hillsborough",
@@ -7678,7 +9943,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08844"
+          ]
         },
         {
           "id": "NJ-somerset",
@@ -7687,7 +9955,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08873"
+          ]
         },
         {
           "id": "NJ-kingston",
@@ -7696,7 +9967,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08528"
+          ]
         },
         {
           "id": "NJ-princeton-junction",
@@ -7705,7 +9979,10 @@
           "tier": 1,
           "county": "Mercer",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08550"
+          ]
         },
         {
           "id": "NJ-belle-mead",
@@ -7714,7 +9991,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08502"
+          ]
         },
         {
           "id": "NJ-martinsville",
@@ -7723,7 +10003,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08836"
+          ]
         },
         {
           "id": "NJ-franklin-park",
@@ -7732,7 +10015,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08823"
+          ]
         },
         {
           "id": "NJ-basking-ridge",
@@ -7741,7 +10027,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07920"
+          ]
         },
         {
           "id": "NJ-zarephath",
@@ -7750,7 +10039,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08890"
+          ]
         },
         {
           "id": "NJ-bernardsville",
@@ -7759,7 +10051,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07924"
+          ]
         },
         {
           "id": "NJ-south-bound-brook",
@@ -7768,7 +10063,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08880"
+          ]
         },
         {
           "id": "NJ-neshanic-station",
@@ -7777,7 +10075,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08853"
+          ]
         },
         {
           "id": "NJ-skillman",
@@ -7786,7 +10087,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08558"
+          ]
         },
         {
           "id": "NJ-lyons",
@@ -7795,7 +10099,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07939"
+          ]
         },
         {
           "id": "NJ-raritan",
@@ -7804,7 +10111,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08869"
+          ]
         },
         {
           "id": "NJ-bedminster",
@@ -7813,7 +10123,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07921"
+          ]
         },
         {
           "id": "NJ-bridgewater",
@@ -7822,7 +10135,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "08807"
+          ]
         },
         {
           "id": "NJ-warren",
@@ -7831,7 +10147,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07059"
+          ]
         },
         {
           "id": "NJ-gladstone",
@@ -7840,7 +10159,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07934"
+          ]
         },
         {
           "id": "NJ-peapack",
@@ -7849,7 +10171,10 @@
           "tier": 1,
           "county": "Somerset",
           "zipCount": 1,
-          "pop": 0
+          "pop": 0,
+          "zips": [
+            "07977"
+          ]
         }
       ],
       "adTargeting": {
