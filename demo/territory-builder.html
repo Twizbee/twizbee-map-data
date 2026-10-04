@@ -1602,62 +1602,94 @@
     function buildRegionsData() {
       if (!currentStateData || !currentStateData.zipcodes) return [];
 
-      // A. California Authentic Regional Markets
+      // A. California Authentic Regional Markets (incorporating Thumbtack submarkets and balanced rural clusters)
       function getCaliforniaRegion(z) {
         const county = (z.county || '').trim().replace(/\s+County$/i, '');
         const city = (z.city || '').trim().toLowerCase();
+        const zipCode = z.zip || '';
 
-        // 1. San Francisco & Peninsula
-        if (['San Francisco', 'San Mateo'].includes(county) ||
-            ['san francisco', 'daly city', 'san bruno', 'south san francisco', 'pacifica', 'san mateo', 'burlingame', 'redwood city', 'menlo park', 'san carlos', 'foster city', 'belmont', 'half moon bay', 'millbrae', 'brisbane', 'colma'].includes(city)) {
-          return 'San Francisco & Peninsula';
+        // 1. San Francisco (Exactly 18 neighborhoods)
+        if (zipCode !== '94128' && (county === 'San Francisco' || (city === 'san francisco' && county !== 'San Mateo') || ['94102','94103','94104','94105','94107','94108','94109','94110','94111','94112','94114','94115','94116','94117','94118','94121','94122','94123','94124','94127','94129','94130','94131','94132','94133','94134','94158'].includes(zipCode))) {
+          return 'San Francisco';
         }
 
-        // 2. East Bay
-        if (['Alameda', 'Contra Costa'].includes(county)) {
+        // 2. CoastSide
+        if (['half moon bay', 'montara', 'moss beach', 'pacifica', 'pescadero', 'san gregorio', 'el granada', 'la honda', 'loma mar'].includes(city)) {
+          return 'CoastSide';
+        }
+
+        // 3. Peninsula (San Mateo Bayside + North Santa Clara borders + SFO Airport)
+        if (zipCode === '94128' || county === 'San Mateo' || ['atherton', 'belmont', 'brisbane', 'burlingame', 'daly city', 'menlo park', 'millbrae', 'portola valley', 'redwood city', 'san bruno', 'san carlos', 'san mateo', 'south san francisco', 'stanford', 'foster city', 'woodside', 'colma', 'los altos', 'mountain view', 'palo alto'].includes(city)) {
+          return 'Peninsula';
+        }
+
+        // 4. East Alameda County (Tri-Valley)
+        if (['dublin', 'livermore', 'pleasanton', 'sunol'].includes(city)) {
+          return 'East Alameda County';
+        }
+
+        // 5. East Contra Costa County
+        if (['alamo', 'antioch', 'bethel island', 'brentwood', 'byron', 'canyon', 'clayton', 'concord', 'danville', 'diablo', 'discovery bay', 'knightsen', 'lafayette', 'martinez', 'moraga', 'oakley', 'orinda', 'pittsburg', 'pleasant hill', 'san ramon', 'walnut creek'].includes(city)) {
+          return 'East Contra Costa County';
+        }
+
+        // 6. East Bay (Inner East Bay corridor)
+        if (['alameda', 'albany', 'berkeley', 'castro valley', 'crockett', 'el cerrito', 'el sobrante', 'emeryville', 'fremont', 'hayward', 'hercules', 'newark', 'oakland', 'pinole', 'port costa', 'richmond', 'rodeo', 'san leandro', 'san lorenzo', 'san pablo', 'union city'].includes(city) || ['Alameda', 'Contra Costa'].includes(county)) {
           return 'East Bay';
         }
 
-        // 3. South Bay & Silicon Valley
-        if (county === 'Santa Clara' || ['san jose', 'sunnyvale', 'santa clara', 'cupertino', 'campbell', 'los gatos', 'milpitas', 'morgan hill', 'gilroy', 'saratoga', 'los altos'].includes(city)) {
-          return 'South Bay & Silicon Valley';
+        // 7. San Jose - Silicon Valley
+        if (county === 'Santa Clara' || ['san jose', 'santa clara', 'sunnyvale', 'campbell', 'cupertino', 'gilroy', 'los gatos', 'milpitas', 'morgan hill', 'saratoga', 'alviso', 'coyote', 'mount hamilton', 'san martin'].includes(city)) {
+          return 'San Jose - Silicon Valley';
         }
 
-        // 4. North Bay & Marin / Wine Country
-        if (['Marin', 'Sonoma', 'Napa', 'Solano'].includes(county)) {
-          return 'North Bay & Marin / Wine Country';
+        // 8. Sonoma Coast
+        if (['annapolis', 'bodega', 'bodega bay', 'cazadero', 'duncans mills', 'jenner', 'occidental', 'the sea ranch', 'valley ford', 'villa grande'].includes(city)) {
+          return 'Sonoma Coast';
         }
 
-        // 5. Los Angeles County Sub-regions
+        // 9. Wine Country
+        if (['napa', 'calistoga', 'saint helena', 'yountville', 'american canyon', 'santa rosa', 'petaluma', 'rohnert park', 'sonoma', 'healdsburg', 'windsor', 'cloverdale', 'sebastopol', 'glen ellen', 'kenwood'].includes(city) || ['Napa', 'Sonoma'].includes(county)) {
+          return 'Wine Country';
+        }
+
+        // 10. Marin County
+        if (county === 'Marin' || ['san rafael', 'novato', 'mill valley', 'sausalito', 'corte madera', 'larkspur', 'san anselmo', 'fairfax', 'tiburon', 'belvedere'].includes(city)) {
+          return 'Marin County';
+        }
+
+        // 11. East Solano County
+        if (county === 'Solano' || ['dixon', 'rio vista', 'travis afb', 'birds landing', 'elmira', 'vacaville', 'fairfield', 'suisun city', 'vallejo', 'benicia'].includes(city)) {
+          return 'East Solano County';
+        }
+
+        // 12. Los Angeles County Sub-regions
         if (county === 'Los Angeles') {
           // San Fernando Valley (The Valley)
-          if (['burbank', 'glendale', 'calabasas', 'canoga park', 'chatsworth', 'encino', 'granada hills', 'mission hills', 'north hills', 'north hollywood', 'northridge', 'pacoima', 'panorama city', 'reseda', 'san fernando', 'sherman oaks', 'studio city', 'sun valley', 'sunland', 'sylmar', 'tarzana', 'tujunga', 'valley village', 'van nuys', 'west hills', 'winnetka', 'woodland hills', 'porter ranch', 'agoura hills'].includes(city)) {
+          if (['burbank', 'glendale', 'calabasas', 'canoga park', 'chatsworth', 'encino', 'granada hills', 'mission hills', 'north hills', 'north hollywood', 'northridge', 'pacoima', 'panorama city', 'reseda', 'san fernando', 'sherman oaks', 'studio city', 'sun valley', 'sunland', 'sylmar', 'tarzana', 'tujunga', 'valley village', 'van nuys', 'west hills', 'winnetka', 'woodland hills', 'porter ranch', 'agoura hills', 'hidden hills', 'westlake village'].includes(city)) {
             return 'San Fernando Valley (The Valley)';
           }
-          // San Gabriel Valley & East LA
+          // San Gabriel Valley & East LA (includes Pasadena, Montebello, Rosemead)
           if (['alhambra', 'altadena', 'arcadia', 'azusa', 'baldwin park', 'city of industry', 'claremont', 'covina', 'duarte', 'el monte', 'glendora', 'hacienda heights', 'la puente', 'monrovia', 'montebello', 'monterey park', 'pasadena', 'pomona', 'rosemead', 'rowland heights', 'san gabriel', 'san marino', 'sierra madre', 'south el monte', 'south pasadena', 'temple city', 'walnut', 'west covina', 'diamond bar', 'la verne', 'san dimas', 'la crescenta', 'la canada flintridge', 'montrose', 'verdugo city', 'mt baldy'].includes(city)) {
             return 'San Gabriel Valley & East LA';
           }
           // Westside & Central LA
-          if (['beverly hills', 'culver city', 'los angeles', 'marina del rey', 'pacific palisades', 'playa del rey', 'playa vista', 'santa monica', 'venice', 'west hollywood', 'universal city', 'topanga', 'malibu'].includes(city)) {
+          if (['beverly hills', 'culver city', 'los angeles', 'marina del rey', 'pacific palisades', 'playa del rey', 'playa vista', 'santa monica', 'venice', 'west hollywood', 'universal city', 'topanga', 'malibu'].includes(city) || zipCode === '90090') {
             return 'Westside & Central Los Angeles';
           }
           // South Bay & Beach Cities / Long Beach
-          if (['avalon', 'el segundo', 'hermosa beach', 'lomita', 'long beach', 'manhattan beach', 'palos verdes peninsula', 'rancho palos verdes', 'redondo beach', 'rolling hills', 'rolling hills estates', 'san pedro', 'torrance', 'wilmington', 'harbor city'].includes(city)) {
+          if (['avalon', 'el segundo', 'hermosa beach', 'lomita', 'long beach', 'manhattan beach', 'palos verdes peninsula', 'rancho palos verdes', 'redondo beach', 'rolling hills', 'rolling hills estates', 'san pedro', 'torrance', 'wilmington', 'harbor city'].includes(city) || zipCode === '90755') {
             return 'South Bay & Long Beach';
-          }
-          // Gateway Cities & Southeast LA
-          if (['artesia', 'bell', 'bell gardens', 'bellflower', 'carson', 'cerritos', 'compton', 'downey', 'gardena', 'hawaiian gardens', 'hawthorne', 'huntington park', 'inglewood', 'la habra heights', 'la mirada', 'lakewood', 'lawndale', 'lynwood', 'maywood', 'norwalk', 'paramount', 'pico rivera', 'santa fe springs', 'signal hill', 'south gate', 'whittier', 'cudahy'].includes(city)) {
-            return 'Gateway Cities & Southeast LA';
           }
           // Antelope Valley & Santa Clarita
           if (['acton', 'canyon country', 'castaic', 'lancaster', 'littlerock', 'llano', 'newhall', 'palmdale', 'pearblossom', 'santa clarita', 'stevenson ranch', 'valencia', 'valyermo', 'lake hughes', 'quartz hill'].includes(city)) {
             return 'Antelope Valley & Santa Clarita';
           }
-          return 'San Gabriel Valley & East LA';
+          // Gateway Cities & Southeast LA
+          return 'Gateway Cities & Southeast LA';
         }
 
-        // 6. Orange County
+        // 13. Orange County
         if (county === 'Orange') {
           if (['anaheim', 'brea', 'buena park', 'fullerton', 'garden grove', 'la habra', 'la palma', 'orange', 'placentia', 'stanton', 'villa park', 'yorba linda'].includes(city)) {
             return 'North Orange County';
@@ -1665,7 +1697,7 @@
           return 'South Orange County & Coastal';
         }
 
-        // 7. Riverside County
+        // 14. Riverside County
         if (county === 'Riverside') {
           if (['palm springs', 'cathedral city', 'rancho mirage', 'palm desert', 'indian wells', 'la quinta', 'indio', 'coachella', 'desert hot springs', 'blythe', 'desert center', 'thermal', 'mecca', 'thousand palms', 'cabazon', 'north palm springs', 'white water'].includes(city)) {
             return 'Coachella Valley & Desert';
@@ -1676,7 +1708,7 @@
           return 'Riverside & Corona Metro';
         }
 
-        // 8. San Bernardino County
+        // 15. San Bernardino County
         if (county === 'San Bernardino') {
           if (['ontario', 'rancho cucamonga', 'chino', 'chino hills', 'fontana', 'upland', 'montclair'].includes(city)) {
             return 'Inland Empire West';
@@ -1684,7 +1716,7 @@
           return 'San Bernardino & High Desert';
         }
 
-        // 9. San Diego County
+        // 16. San Diego County
         if (county === 'San Diego') {
           if (['oceanside', 'carlsbad', 'encinitas', 'solana beach', 'del mar', 'escondido', 'san marcos', 'vista', 'poway', 'fallbrook', 'bonsall', 'valley center', 'rancho santa fe', 'ramona'].includes(city)) {
             return 'San Diego North County';
@@ -1695,35 +1727,38 @@
           return 'San Diego Metro & Central';
         }
 
-        // 10. Greater Sacramento
-        if (['Sacramento', 'Yolo', 'Placer', 'El Dorado'].includes(county)) {
-          return 'Greater Sacramento Area';
+        // 17. Greater Sacramento & Yolo
+        if (['Sacramento', 'Yolo'].includes(county)) {
+          return 'Sacramento & Yolo Metro';
         }
 
-        // 11. San Joaquin Valley
+        // 18. Central Coast & Monterey Bay
+        if (['Santa Cruz', 'Monterey', 'San Benito'].includes(county)) {
+          return 'Monterey Bay & Central Coast';
+        }
+        if (['San Luis Obispo', 'Santa Barbara', 'Ventura'].includes(county)) {
+          return 'Central Coast South & Ventura';
+        }
+
+        // 19. San Joaquin Valley
         if (['San Joaquin', 'Stanislaus', 'Merced'].includes(county)) {
-          return 'San Joaquin Valley - North';
+          return 'San Joaquin & Stanislaus';
         }
-        if (['Fresno', 'Kern', 'Kings', 'Madera', 'Tulare'].includes(county)) {
-          return 'San Joaquin Valley - South';
-        }
-
-        // 12. Central Coast & Ventura
-        if (['Santa Cruz', 'Monterey', 'San Benito', 'San Luis Obispo', 'Santa Barbara', 'Ventura'].includes(county)) {
-          return 'Central Coast & Ventura';
+        if (['Fresno', 'Kern', 'Kings', 'Madera', 'Tulare'].includes(county) || zipCode === '93314') {
+          return 'Fresno & Central Valley South';
         }
 
-        // 13. Northern California & Shasta Cascade
-        if (['Butte', 'Colusa', 'Glenn', 'Humboldt', 'Lake', 'Mendocino', 'Shasta', 'Siskiyou', 'Sutter', 'Tehama', 'Trinity', 'Yuba', 'Del Norte', 'Modoc', 'Lassen'].includes(county)) {
-          return 'Northern California & Shasta Cascade';
-        }
-
-        // 14. Sierra Nevada & Gold Country
-        if (['Amador', 'Calaveras', 'Inyo', 'Mariposa', 'Mono', 'Nevada', 'Sierra', 'Tuolumne', 'Alpine'].includes(county)) {
+        // 20. Sierra Nevada & Gold Country (consolidates Alpine, Amador, Calaveras, El Dorado, Placer, Tuolumne, Mariposa, Nevada)
+        if (['El Dorado', 'Placer', 'Amador', 'Calaveras', 'Tuolumne', 'Mariposa', 'Alpine', 'Nevada', 'Sierra', 'Inyo', 'Mono', 'Nye', 'Esmeralda', 'Washoe'].includes(county)) {
           return 'Sierra Nevada & Gold Country';
         }
 
-        return 'Other California Areas';
+        // 21. Northern California & North State (consolidates Butte, Colusa, Sutter, Yuba, Lake, Mendocino, Shasta, Humboldt, Siskiyou)
+        if (['Butte', 'Colusa', 'Glenn', 'Humboldt', 'Lake', 'Mendocino', 'Shasta', 'Siskiyou', 'Sutter', 'Tehama', 'Trinity', 'Yuba', 'Del Norte', 'Modoc', 'Lassen', 'Plumas', 'Imperial', 'Clark'].includes(county)) {
+          return 'Northern California & North State';
+        }
+
+        return `${county ? county : 'California'} Region`;
       }
 
       // B. Texas Authentic Regional Markets
@@ -1823,8 +1858,38 @@
         const rEntry = regionMap.get(rName);
         rEntry.zips.push(z.zip);
 
-        const cityName = (z.city || 'Area').trim();
+        let cityName = (z.city || 'Area').trim();
         const countyName = (z.county || '').trim();
+
+        // San Francisco: map to Thumbtack's 18 authentic neighborhoods
+        if (rName === 'San Francisco') {
+          const sfNeighborhoodMap = {
+            '94116': 'Sunset District', '94122': 'Sunset District',
+            '94115': 'Pacific Heights',
+            '94103': 'SOMA - Potrero', '94105': 'SOMA - Potrero', '94107': 'SOMA - Potrero', '94158': 'SOMA - Potrero',
+            '94112': 'Excelsior - Ingleside', '94134': 'Excelsior - Ingleside',
+            '94110': 'Mission - Bernal Heights',
+            '94124': 'Hunters Point',
+            '94127': 'Twin Peaks', '94131': 'Twin Peaks',
+            '94114': 'Castro - Noe Valley',
+            '94132': 'Lake Merced',
+            '94102': 'Downtown',
+            '94104': 'Chinatown - Financial District', '94108': 'Chinatown - Financial District', '94111': 'Chinatown - Financial District',
+            '94130': 'Treasure Island',
+            '94117': 'Western Addition',
+            '94109': 'Russian Hill - Nob Hill',
+            '94133': 'North Beach - Russian Hill',
+            '94123': 'Marina',
+            '94118': 'Richmond District', '94121': 'Richmond District',
+            '94129': 'Presidio'
+          };
+          if (sfNeighborhoodMap[z.zip]) {
+            cityName = sfNeighborhoodMap[z.zip];
+          }
+        } else if (z.zip === '94128') {
+          cityName = 'San Francisco International Airport';
+        }
+
         if (!rEntry.citiesMap.has(cityName)) {
           rEntry.citiesMap.set(cityName, {
             id: `city-${rEntry.id}-${cityName.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`,
