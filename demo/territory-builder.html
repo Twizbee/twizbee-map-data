@@ -2366,8 +2366,8 @@
         const hasSelected = activeCityZips.length > 0;
         const hasUnselected = activeCityZips.length < cityZips.length;
 
-        if (currentZipFilter === 'targeted' && !hasSelected) return;
-        if (currentZipFilter === 'available' && !hasUnselected) return;
+        if (!q && currentZipFilter === 'targeted' && !hasSelected) return;
+        if (!q && currentZipFilter === 'available' && !hasUnselected) return;
 
         if (q) {
           const nameMatch = city.name.toLowerCase().includes(q);
