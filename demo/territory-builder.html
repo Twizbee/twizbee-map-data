@@ -481,12 +481,24 @@
       border: 1px solid var(--chip-border);
       font-size: 12px;
       font-weight: 600;
-      padding: 5px 11px;
+      padding: 4px 10px;
       border-radius: 16px;
       cursor: pointer;
       user-select: none;
       transition: all 0.15s;
       letter-spacing: 0.2px;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      white-space: nowrap;
+    }
+
+    .zip-chip .chip-sublabel {
+      font-size: 11px;
+      font-weight: 500;
+      opacity: 0.85;
+      padding-left: 5px;
+      border-left: 1px solid currentColor;
     }
 
     .zip-chip:hover {
@@ -1583,13 +1595,46 @@
       });
 
       const countiesList = Array.from(countyMap.values()).map(c => {
-        const cities = Array.from(c.citiesMap.values()).sort((a, b) => b.zips.length - a.zips.length || a.name.localeCompare(b.name));
+        const rawCities = Array.from(c.citiesMap.values());
+        const majorCities = [];
+        const smallCommunityZips = [];
+        const smallCommunityNames = [];
+
+        rawCities.forEach(city => {
+          if (city.zips.length >= 3) {
+            majorCities.push({
+              ...city,
+              isCommunityGroup: false
+            });
+          } else {
+            city.zips.forEach(z => {
+              smallCommunityZips.push(z);
+              if (!smallCommunityNames.includes(city.name)) {
+                smallCommunityNames.push(city.name);
+              }
+            });
+          }
+        });
+
+        if (smallCommunityZips.length > 0) {
+          majorCities.push({
+            id: `city-${c.id}-communities`,
+            name: `${c.rawName} Communities`,
+            county: c.rawName,
+            zips: smallCommunityZips,
+            communityNames: smallCommunityNames,
+            isCommunityGroup: true
+          });
+        }
+
+        majorCities.sort((a, b) => b.zips.length - a.zips.length || a.name.localeCompare(b.name));
+
         return {
           id: c.id,
           name: c.name,
           rawName: c.rawName,
           zips: c.zips,
-          cities: cities
+          cities: majorCities
         };
       });
 
@@ -1716,37 +1761,82 @@
       return valid;
     }
 
-    // 5. Build Cities Data (All distinct cities with their ZIP codes and counties)
+    // 5. Build Cities Data (Major cities distinct, small/single-ZIP communities clustered by county)
     function buildCitiesData() {
       if (!currentStateData || !currentStateData.zipcodes) return [];
-      const cityMap = new Map();
+      const countyMap = new Map();
 
       currentStateData.zipcodes.forEach(z => {
+        let co = (z.county || '').trim();
+        if (!co) co = currentStateData.name ? `${currentStateData.name} Area` : 'Regional Area';
+
+        let rawCounty = co;
+        if (!rawCounty.toLowerCase().endsWith('county') && 
+            !rawCounty.toLowerCase().endsWith('parish') && 
+            !rawCounty.toLowerCase().endsWith('borough') &&
+            !rawCounty.toLowerCase().endsWith('city')) {
+          rawCounty = `${rawCounty} County`;
+        }
+
+        if (!countyMap.has(rawCounty)) {
+          countyMap.set(rawCounty, {
+            rawName: rawCounty,
+            citiesMap: new Map()
+          });
+        }
+
+        const cEntry = countyMap.get(rawCounty);
         let cityName = (z.city || '').trim();
-        let countyName = (z.county || '').trim();
-
-        // Sanitize numeric census FIPS codes into friendly names
         if (!cityName || /^\d+$/.test(cityName)) {
-          cityName = countyName ? `${countyName} Area (${z.zip})` : `ZIP ${z.zip} Area`;
-        }
-        if (!countyName) {
-          countyName = currentStateData.name ? `${currentStateData.name} Area` : 'Regional Area';
+          cityName = `${rawCounty} Area (${z.zip})`;
         }
 
-        const cityKey = `${cityName}|${countyName}`.toLowerCase();
-
-        if (!cityMap.has(cityKey)) {
-          cityMap.set(cityKey, {
-            id: `city-${cityName.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-${countyName.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`,
+        if (!cEntry.citiesMap.has(cityName)) {
+          cEntry.citiesMap.set(cityName, {
+            id: `city-${rawCounty.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-${cityName.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`,
             name: cityName,
-            county: countyName,
+            county: rawCounty,
             zips: []
           });
         }
-        cityMap.get(cityKey).zips.push(z.zip);
+        cEntry.citiesMap.get(cityName).zips.push(z.zip);
       });
 
-      const citiesList = Array.from(cityMap.values());
+      const citiesList = [];
+
+      countyMap.forEach((cEntry, countyName) => {
+        const rawCities = Array.from(cEntry.citiesMap.values());
+        const smallCommunityZips = [];
+        const smallCommunityNames = [];
+
+        rawCities.forEach(city => {
+          if (city.zips.length >= 3) {
+            citiesList.push({
+              ...city,
+              isCommunityGroup: false
+            });
+          } else {
+            city.zips.forEach(z => {
+              smallCommunityZips.push(z);
+              if (!smallCommunityNames.includes(city.name)) {
+                smallCommunityNames.push(city.name);
+              }
+            });
+          }
+        });
+
+        if (smallCommunityZips.length > 0) {
+          citiesList.push({
+            id: `city-communities-${countyName.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`,
+            name: `${countyName.replace(/\s+County$/i, '')} Communities`,
+            county: countyName,
+            zips: smallCommunityZips,
+            communityNames: smallCommunityNames,
+            isCommunityGroup: true
+          });
+        }
+      });
+
       // Major cities with largest ZIP counts first, then alphabetical
       citiesList.sort((a, b) => b.zips.length - a.zips.length || a.name.localeCompare(b.name));
       return citiesList;
@@ -2008,7 +2098,8 @@
             const nameMatch = c.name.toLowerCase().includes(q);
             const countyMatch = (c.county || '').toLowerCase().includes(q);
             const zipMatch = (c.zips || []).some(z => z.includes(q));
-            return groupMatches || nameMatch || countyMatch || zipMatch;
+            const commMatch = c.communityNames && c.communityNames.some(cn => cn.toLowerCase().includes(q));
+            return groupMatches || nameMatch || countyMatch || zipMatch || commMatch;
           });
           if (cities.length === 0 && !groupMatches) return;
         }
@@ -2021,6 +2112,8 @@
 
         const totalCities = cities.length;
         const activeCities = cities.filter(c => (c.zips || []).some(z => selectedZips.has(z))).length;
+        const isFullyChecked = totalZipsInGroup.length > 0 && activeZipsInGroup === totalZipsInGroup.length;
+        const isIndeterminate = activeZipsInGroup > 0 && activeZipsInGroup < totalZipsInGroup.length;
 
         const item = document.createElement('div');
         item.className = `region-item ${(gIdx === 0 && !q) || (q && cities.length > 0) ? 'expanded' : ''}`;
@@ -2028,10 +2121,23 @@
 
         item.innerHTML = `
           <div class="region-header">
-            <div class="region-info">
-              <div class="region-name">${group.name}, ${currentStateCode}</div>
-              <div class="region-counter">
-                <span class="active-count-text"><b>${activeCities}</b> of ${totalCities} cities selected (${activeZipsInGroup} ZIPs)</span>
+            <div style="display: flex; align-items: center; gap: 12px; flex: 1;">
+              <div class="custom-check ${isFullyChecked ? 'checked' : (isIndeterminate ? 'indeterminate' : '')}" title="Toggle all ZIPs in ${group.name}">
+                ${isFullyChecked ? `
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                ` : (isIndeterminate ? `
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                  </svg>
+                ` : '')}
+              </div>
+              <div class="region-info">
+                <div class="region-name">${group.name}, ${currentStateCode}</div>
+                <div class="region-counter">
+                  <span class="active-count-text"><b>${activeCities}</b> of ${totalCities} cities selected (${activeZipsInGroup} ZIPs)</span>
+                </div>
               </div>
             </div>
             <div class="region-actions">
@@ -2043,7 +2149,7 @@
                 Zoom
               </button>
               <button class="toggle-all-btn" data-action="toggle-all">
-                ${activeZipsInGroup === totalZipsInGroup.length && totalZipsInGroup.length > 0 ? 'Clear All' : 'Select All'}
+                ${isFullyChecked ? 'Clear All' : 'Select All'}
               </button>
               <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
                 <polyline points="6 9 12 15 18 9"></polyline>
@@ -2054,28 +2160,13 @@
         `;
 
         const header = item.querySelector('.region-header');
+        const checkEl = item.querySelector('.region-header .custom-check');
         const body = item.querySelector('.region-body');
         const toggleAllBtn = item.querySelector('.toggle-all-btn');
         const zoomBtn = item.querySelector('.city-zoom-btn');
 
-        header.addEventListener('click', (e) => {
-          if (e.target.closest('.toggle-all-btn') || e.target.closest('.city-zoom-btn')) return;
-          const isNowExpanded = !item.classList.contains('expanded');
-          item.classList.toggle('expanded', isNowExpanded);
-          if (isNowExpanded) {
-            zoomToZips(group.zips, 11);
-          }
-        });
-
-        zoomBtn.addEventListener('click', (e) => {
-          e.stopPropagation();
-          zoomToZips(group.zips, 11);
-        });
-
-        toggleAllBtn.addEventListener('click', (e) => {
-          e.stopPropagation();
-          const allSelected = (group.zips || []).every(z => selectedZips.has(z));
-          const activate = !allSelected;
+        const toggleGroupZips = () => {
+          const activate = !isFullyChecked;
           (group.zips || []).forEach(z => {
             if (activate) selectedZips.add(z);
             else selectedZips.delete(z);
@@ -2085,6 +2176,32 @@
           updateAccordionCounters();
           if (activeZipsCountLabel) activeZipsCountLabel.textContent = selectedZips.size;
           updateSummaryStats();
+        };
+
+        if (checkEl) {
+          checkEl.addEventListener('click', (e) => {
+            e.stopPropagation();
+            toggleGroupZips();
+          });
+        }
+
+        toggleAllBtn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          toggleGroupZips();
+        });
+
+        zoomBtn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          zoomToZips(group.zips, 11);
+        });
+
+        header.addEventListener('click', (e) => {
+          if (e.target.closest('.custom-check') || e.target.closest('.toggle-all-btn') || e.target.closest('.city-zoom-btn')) return;
+          const isNowExpanded = !item.classList.contains('expanded');
+          item.classList.toggle('expanded', isNowExpanded);
+          if (isNowExpanded) {
+            zoomToZips(group.zips, 11);
+          }
         });
 
         // Nested City Cards
@@ -2095,17 +2212,21 @@
 
           const cityZips = city.zips || [];
           const activeCityZips = cityZips.filter(z => selectedZips.has(z));
-          const isFullyChecked = cityZips.length > 0 && activeCityZips.length === cityZips.length;
-          const isIndeterminate = activeCityZips.length > 0 && activeCityZips.length < cityZips.length;
+          const cityFully = cityZips.length > 0 && activeCityZips.length === cityZips.length;
+          const cityIndet = activeCityZips.length > 0 && activeCityZips.length < cityZips.length;
+
+          const subLabelText = city.isCommunityGroup && city.communityNames
+            ? `${city.communityNames.length} small towns`
+            : (city.county ? city.county + (city.county.toLowerCase().includes('county') ? '' : ' Co.') : '');
 
           cityCard.innerHTML = `
             <div class="city-top">
-              <div class="custom-check ${isFullyChecked ? 'checked' : (isIndeterminate ? 'indeterminate' : '')}" title="Toggle all ZIPs in ${city.name}">
-                ${isFullyChecked ? `
+              <div class="custom-check ${cityFully ? 'checked' : (cityIndet ? 'indeterminate' : '')}" title="Toggle all ZIPs in ${city.name}">
+                ${cityFully ? `
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
-                ` : (isIndeterminate ? `
+                ` : (cityIndet ? `
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
                     <line x1="5" y1="12" x2="19" y2="12"></line>
                   </svg>
@@ -2114,7 +2235,7 @@
               <div class="city-label-wrap">
                 <span class="city-label" title="Click to zoom map to ${city.name}">${city.name}</span>
                 <div style="display: flex; align-items: center; gap: 8px;">
-                  <span class="city-county">${city.county ? city.county + (city.county.toLowerCase().includes('county') ? '' : ' Co.') : ''}</span>
+                  <span class="city-county">${subLabelText}</span>
                   <button class="city-zoom-btn" title="Zoom map to ${city.name}">
                     <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
                       <circle cx="11" cy="11" r="8"></circle>
@@ -2128,13 +2249,13 @@
             <div class="zip-chips-container"></div>
           `;
 
-          const checkEl = cityCard.querySelector('.custom-check');
+          const cardCheck = cityCard.querySelector('.custom-check');
           const cityLabel = cityCard.querySelector('.city-label');
           const cardZoomBtn = cityCard.querySelector('.city-zoom-btn');
           const chipsContainer = cityCard.querySelector('.zip-chips-container');
 
           const toggleCity = () => {
-            const activate = !isFullyChecked;
+            const activate = !cityFully;
             cityZips.forEach(z => {
               if (activate) selectedZips.add(z);
               else selectedZips.delete(z);
@@ -2146,7 +2267,7 @@
             updateSummaryStats();
           };
 
-          checkEl.addEventListener('click', (e) => {
+          cardCheck.addEventListener('click', (e) => {
             e.stopPropagation();
             toggleCity();
           });
@@ -2165,8 +2286,20 @@
             const chip = document.createElement('button');
             const isActive = selectedZips.has(zip);
             chip.className = `zip-chip ${isActive ? 'active' : ''}`;
-            chip.textContent = zip;
             chip.dataset.zip = zip;
+
+            const meta = zipMetaMap.get(zip);
+            if (city.isCommunityGroup && meta && meta.city) {
+              chip.innerHTML = `${zip}<span class="chip-sublabel">${meta.city}</span>`;
+              chip.title = `${zip} - ${meta.city}`;
+            } else {
+              chip.textContent = zip;
+              chip.title = `ZIP ${zip}`;
+            }
+
+            if (q && (zip.includes(q) || (meta && meta.city && meta.city.toLowerCase().includes(q)))) {
+              chip.classList.add('chip-pulse');
+            }
 
             chip.addEventListener('click', (e) => {
               e.stopPropagation();
@@ -2190,7 +2323,7 @@
       }
     }
 
-    // 8b. Render Direct Cities Accordion List
+    // 8b. Render Direct Cities Accordion List (Major cities distinct, small communities grouped by county)
     function renderCitiesAccordionList(filterQuery = '') {
       if (!cachedCitiesData || cachedCitiesData.length === 0) {
         regionsList.innerHTML = `<div style="padding: 30px; text-align: center; color: var(--text-muted); font-size: 14px;">No cities found</div>`;
@@ -2207,7 +2340,8 @@
           const nameMatch = city.name.toLowerCase().includes(q);
           const countyMatch = (city.county || '').toLowerCase().includes(q);
           const zipMatch = cityZips.some(z => z.includes(q));
-          if (!nameMatch && !countyMatch && !zipMatch) return;
+          const commMatch = city.communityNames && city.communityNames.some(cn => cn.toLowerCase().includes(q));
+          if (!nameMatch && !countyMatch && !zipMatch && !commMatch) return;
         }
 
         displayedCount++;
@@ -2219,6 +2353,10 @@
         const item = document.createElement('div');
         item.className = `region-item ${(cIdx === 0 && !q) || (q && displayedCount <= 3) ? 'expanded' : ''}`;
         item.dataset.cityId = city.id;
+
+        const subTitleHtml = city.isCommunityGroup && city.communityNames
+          ? `(${city.communityNames.length} communities, ${city.county})`
+          : (city.county ? '(' + city.county + (city.county.toLowerCase().includes('county') ? '' : ' Co.') + ')' : '');
 
         item.innerHTML = `
           <div class="region-header">
@@ -2235,7 +2373,7 @@
                 ` : '')}
               </div>
               <div class="region-info">
-                <div class="region-name">${city.name} <span style="font-size: 12px; font-weight: 500; color: var(--text-muted);">${city.county ? '(' + city.county + (city.county.toLowerCase().includes('county') ? '' : ' Co.') + ')' : ''}</span></div>
+                <div class="region-name">${city.name} <span style="font-size: 12px; font-weight: 500; color: var(--text-muted);">${subTitleHtml}</span></div>
                 <div class="region-counter">
                   <span class="active-count-text"><b>${activeCityZips.length}</b> of ${cityZips.length} ZIPs selected</span>
                 </div>
@@ -2293,22 +2431,34 @@
 
         zoomBtn.addEventListener('click', (e) => {
           e.stopPropagation();
-          zoomToZips(city.zips, 13);
+          zoomToZips(city.zips, 12);
         });
 
         header.addEventListener('click', (e) => {
           if (e.target.closest('.custom-check') || e.target.closest('.toggle-all-btn') || e.target.closest('.city-zoom-btn')) return;
           const isNowExpanded = !item.classList.contains('expanded');
           item.classList.toggle('expanded', isNowExpanded);
-          if (isNowExpanded) zoomToZips(city.zips, 13);
+          if (isNowExpanded) zoomToZips(city.zips, 12);
         });
 
         cityZips.forEach(zip => {
           const chip = document.createElement('button');
           const isActive = selectedZips.has(zip);
           chip.className = `zip-chip ${isActive ? 'active' : ''}`;
-          chip.textContent = zip;
           chip.dataset.zip = zip;
+
+          const meta = zipMetaMap.get(zip);
+          if (city.isCommunityGroup && meta && meta.city) {
+            chip.innerHTML = `${zip}<span class="chip-sublabel">${meta.city}</span>`;
+            chip.title = `${zip} - ${meta.city}`;
+          } else {
+            chip.textContent = zip;
+            chip.title = `ZIP ${zip}`;
+          }
+
+          if (q && (zip.includes(q) || (meta && meta.city && meta.city.toLowerCase().includes(q)))) {
+            chip.classList.add('chip-pulse');
+          }
 
           chip.addEventListener('click', (e) => {
             e.stopPropagation();
@@ -2329,23 +2479,28 @@
       }
     }
 
-    // 8c. Render Single ZIPs Mode List (Focused on Fine-Tuning & Individual Deselection)
+    // 8c. Render Single ZIPs Mode List (Organized by County with Cities & Community Groups for Fine-Tuning)
     function renderZipsAccordionList(filterQuery = '') {
       regionsList.innerHTML = '';
+      if (!cachedCountiesData || cachedCountiesData.length === 0) {
+        regionsList.innerHTML = `<div style="padding: 30px; text-align: center; color: var(--text-muted); font-size: 14px;">No counties found</div>`;
+        return;
+      }
+
       // Top filter toolbar
       const filterBar = document.createElement('div');
       filterBar.className = 'zip-filter-bar';
 
-      let targetedCitiesCount = 0;
-      (cachedCitiesData || []).forEach(c => {
-        if ((c.zips || []).some(z => selectedZips.has(z))) targetedCitiesCount++;
+      let targetedCountiesCount = 0;
+      cachedCountiesData.forEach(co => {
+        if ((co.zips || []).some(z => selectedZips.has(z))) targetedCountiesCount++;
       });
 
       filterBar.innerHTML = `
         <span style="font-size: 11px; font-weight: 700; color: var(--text-muted); text-transform: uppercase;">Filter:</span>
-        <button class="zip-filter-pill ${currentZipFilter === 'all' ? 'active' : ''}" data-filter="all">All Cities (${cachedCitiesData.length})</button>
-        <button class="zip-filter-pill ${currentZipFilter === 'targeted' ? 'active' : ''}" data-filter="targeted">Selected Areas (${targetedCitiesCount})</button>
-        <button class="zip-filter-pill ${currentZipFilter === 'available' ? 'active' : ''}" data-filter="available">Available Areas</button>
+        <button class="zip-filter-pill ${currentZipFilter === 'all' ? 'active' : ''}" data-filter="all">All Counties (${cachedCountiesData.length})</button>
+        <button class="zip-filter-pill ${currentZipFilter === 'targeted' ? 'active' : ''}" data-filter="targeted">Selected Counties (${targetedCountiesCount})</button>
+        <button class="zip-filter-pill ${currentZipFilter === 'available' ? 'active' : ''}" data-filter="available">Available Counties</button>
       `;
 
       filterBar.querySelectorAll('.zip-filter-pill').forEach(btn => {
@@ -2360,35 +2515,45 @@
       const q = filterQuery;
       let displayedCount = 0;
 
-      cachedCitiesData.forEach((city, cIdx) => {
-        const cityZips = city.zips || [];
-        const activeCityZips = cityZips.filter(z => selectedZips.has(z));
-        const hasSelected = activeCityZips.length > 0;
-        const hasUnselected = activeCityZips.length < cityZips.length;
+      cachedCountiesData.forEach((county, cIdx) => {
+        const countyZips = county.zips || [];
+        const activeCountyZips = countyZips.filter(z => selectedZips.has(z));
+        const hasSelected = activeCountyZips.length > 0;
+        const hasUnselected = activeCountyZips.length < countyZips.length;
 
         if (!q && currentZipFilter === 'targeted' && !hasSelected) return;
         if (!q && currentZipFilter === 'available' && !hasUnselected) return;
 
+        let cities = county.cities || [];
         if (q) {
-          const nameMatch = city.name.toLowerCase().includes(q);
-          const countyMatch = (city.county || '').toLowerCase().includes(q);
-          const zipMatch = cityZips.some(z => z.includes(q));
-          if (!nameMatch && !countyMatch && !zipMatch) return;
+          const countyMatches = county.name.toLowerCase().includes(q);
+          cities = cities.filter(c => {
+            const nameMatch = c.name.toLowerCase().includes(q);
+            const countyMatch = (c.county || '').toLowerCase().includes(q);
+            const zipMatch = (c.zips || []).some(z => z.includes(q));
+            const commMatch = c.communityNames && c.communityNames.some(cn => cn.toLowerCase().includes(q));
+            return countyMatches || nameMatch || countyMatch || zipMatch || commMatch;
+          });
+          if (cities.length === 0 && !countyMatches) return;
         }
 
         displayedCount++;
 
-        const isFullyChecked = cityZips.length > 0 && activeCityZips.length === cityZips.length;
-        const isIndeterminate = activeCityZips.length > 0 && activeCityZips.length < cityZips.length;
+        const isFullyChecked = countyZips.length > 0 && activeCountyZips.length === countyZips.length;
+        const isIndeterminate = activeCountyZips.length > 0 && activeCountyZips.length < countyZips.length;
 
         const item = document.createElement('div');
         item.className = `region-item ${(currentZipFilter === 'targeted') || (cIdx === 0 && !q) || (q && displayedCount <= 3) ? 'expanded' : ''}`;
-        item.dataset.cityId = city.id;
+        item.dataset.groupId = county.id;
+        item.dataset.countyId = county.id;
+
+        const totalCities = cities.length;
+        const activeCities = cities.filter(c => (c.zips || []).some(z => selectedZips.has(z))).length;
 
         item.innerHTML = `
           <div class="region-header">
             <div style="display: flex; align-items: center; gap: 12px; flex: 1;">
-              <div class="custom-check ${isFullyChecked ? 'checked' : (isIndeterminate ? 'indeterminate' : '')}" title="Toggle all ZIPs in ${city.name}">
+              <div class="custom-check ${isFullyChecked ? 'checked' : (isIndeterminate ? 'indeterminate' : '')}" title="Toggle all ZIPs in ${county.name}">
                 ${isFullyChecked ? `
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
                     <polyline points="20 6 9 17 4 12"></polyline>
@@ -2400,14 +2565,14 @@
                 ` : '')}
               </div>
               <div class="region-info">
-                <div class="region-name">${city.name} <span style="font-size: 12px; font-weight: 500; color: var(--text-muted);">${city.county ? '(' + city.county + (city.county.toLowerCase().includes('county') ? '' : ' Co.') + ')' : ''}</span></div>
+                <div class="region-name">${county.name}, ${currentStateCode}</div>
                 <div class="region-counter">
-                  <span class="active-count-text"><b>${activeCityZips.length}</b> of ${cityZips.length} ZIPs selected</span>
+                  <span class="active-count-text"><b>${activeCountyZips.length}</b> of ${countyZips.length} ZIPs selected (${activeCities} of ${totalCities} areas)</span>
                 </div>
               </div>
             </div>
             <div class="region-actions">
-              <button class="city-zoom-btn" title="Zoom map to ${city.name}">
+              <button class="city-zoom-btn" title="Zoom map to ${county.name}">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
                   <circle cx="11" cy="11" r="8"></circle>
                   <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
@@ -2422,20 +2587,18 @@
               </svg>
             </div>
           </div>
-          <div class="region-body">
-            <div class="zip-chips-container" style="margin-left: 0;"></div>
-          </div>
+          <div class="region-body"></div>
         `;
 
         const header = item.querySelector('.region-header');
-        const checkEl = item.querySelector('.custom-check');
+        const checkEl = item.querySelector('.region-header .custom-check');
         const zoomBtn = item.querySelector('.city-zoom-btn');
         const toggleAllBtn = item.querySelector('.toggle-all-btn');
-        const chipsContainer = item.querySelector('.zip-chips-container');
+        const body = item.querySelector('.region-body');
 
-        const toggleCityZips = () => {
+        const toggleCountyZips = () => {
           const activate = !isFullyChecked;
-          cityZips.forEach(z => {
+          countyZips.forEach(z => {
             if (activate) selectedZips.add(z);
             else selectedZips.delete(z);
             const lyr = zipToLeafletLayerMap.get(z);
@@ -2448,42 +2611,135 @@
 
         checkEl.addEventListener('click', (e) => {
           e.stopPropagation();
-          toggleCityZips();
+          toggleCountyZips();
         });
 
         toggleAllBtn.addEventListener('click', (e) => {
           e.stopPropagation();
-          toggleCityZips();
+          toggleCountyZips();
         });
 
         zoomBtn.addEventListener('click', (e) => {
           e.stopPropagation();
-          zoomToZips(city.zips, 13);
+          zoomToZips(county.zips, 11);
         });
 
         header.addEventListener('click', (e) => {
           if (e.target.closest('.custom-check') || e.target.closest('.toggle-all-btn') || e.target.closest('.city-zoom-btn')) return;
           const isNowExpanded = !item.classList.contains('expanded');
           item.classList.toggle('expanded', isNowExpanded);
-          if (isNowExpanded) zoomToZips(city.zips, 13);
+          if (isNowExpanded) zoomToZips(county.zips, 11);
         });
 
-        cityZips.forEach(zip => {
-          const chip = document.createElement('button');
-          const isActive = selectedZips.has(zip);
-          chip.className = `zip-chip ${isActive ? 'active' : ''}`;
-          chip.textContent = zip;
-          chip.dataset.zip = zip;
+        // Nested City and Community Cards
+        cities.forEach(city => {
+          const cityCard = document.createElement('div');
+          cityCard.className = 'city-card';
+          cityCard.dataset.cityId = city.id;
 
-          chip.addEventListener('click', (e) => {
+          const cityZips = city.zips || [];
+          const activeCityZips = cityZips.filter(z => selectedZips.has(z));
+          const cityFully = cityZips.length > 0 && activeCityZips.length === cityZips.length;
+          const cityIndet = activeCityZips.length > 0 && activeCityZips.length < cityZips.length;
+
+          const subLabelText = city.isCommunityGroup && city.communityNames
+            ? `${city.communityNames.length} small towns`
+            : `${cityZips.length} ZIPs`;
+
+          cityCard.innerHTML = `
+            <div class="city-top">
+              <div class="custom-check ${cityFully ? 'checked' : (cityIndet ? 'indeterminate' : '')}" title="Toggle all ZIPs in ${city.name}">
+                ${cityFully ? `
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                ` : (cityIndet ? `
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                  </svg>
+                ` : '')}
+              </div>
+              <div class="city-label-wrap">
+                <span class="city-label" title="Click to zoom map to ${city.name}">${city.name}</span>
+                <div style="display: flex; align-items: center; gap: 8px;">
+                  <span class="city-county">${subLabelText}</span>
+                  <button class="city-zoom-btn" title="Zoom map to ${city.name}">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                      <circle cx="11" cy="11" r="8"></circle>
+                      <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                    Zoom
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="zip-chips-container"></div>
+          `;
+
+          const cardCheck = cityCard.querySelector('.custom-check');
+          const cityLabel = cityCard.querySelector('.city-label');
+          const cardZoomBtn = cityCard.querySelector('.city-zoom-btn');
+          const chipsContainer = cityCard.querySelector('.zip-chips-container');
+
+          const toggleCity = () => {
+            const activate = !cityFully;
+            cityZips.forEach(z => {
+              if (activate) selectedZips.add(z);
+              else selectedZips.delete(z);
+              const lyr = zipToLeafletLayerMap.get(z);
+              if (lyr) lyr.setStyle(getLeafletZipStyle(activate));
+            });
+            updateAccordionCounters();
+            if (activeZipsCountLabel) activeZipsCountLabel.textContent = selectedZips.size;
+            updateSummaryStats();
+          };
+
+          cardCheck.addEventListener('click', (e) => {
             e.stopPropagation();
-            toggleZip(zip, undefined, false);
+            toggleCity();
           });
 
-          chip.addEventListener('mouseenter', () => highlightZipOnMap(zip));
-          chip.addEventListener('mouseleave', () => clearZipHighlight());
+          cityLabel.addEventListener('click', (e) => {
+            e.stopPropagation();
+            zoomToZips(city.zips, 13);
+          });
 
-          chipsContainer.appendChild(chip);
+          cardZoomBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            zoomToZips(city.zips, 13);
+          });
+
+          cityZips.forEach(zip => {
+            const chip = document.createElement('button');
+            const isActive = selectedZips.has(zip);
+            chip.className = `zip-chip ${isActive ? 'active' : ''}`;
+            chip.dataset.zip = zip;
+
+            const meta = zipMetaMap.get(zip);
+            if (city.isCommunityGroup && meta && meta.city) {
+              chip.innerHTML = `${zip}<span class="chip-sublabel">${meta.city}</span>`;
+              chip.title = `${zip} - ${meta.city}`;
+            } else {
+              chip.textContent = zip;
+              chip.title = `ZIP ${zip}`;
+            }
+
+            if (q && (zip.includes(q) || (meta && meta.city && meta.city.toLowerCase().includes(q)))) {
+              chip.classList.add('chip-pulse');
+            }
+
+            chip.addEventListener('click', (e) => {
+              e.stopPropagation();
+              toggleZip(zip, undefined, false);
+            });
+
+            chip.addEventListener('mouseenter', () => highlightZipOnMap(zip));
+            chip.addEventListener('mouseleave', () => clearZipHighlight());
+
+            chipsContainer.appendChild(chip);
+          });
+
+          body.appendChild(cityCard);
         });
 
         regionsList.appendChild(item);
@@ -2502,8 +2758,8 @@
         if (zip) chip.classList.toggle('active', selectedZips.has(zip));
       });
 
-      if (currentGroupingMode === 'counties' || currentGroupingMode === 'regions') {
-        const currentGroups = currentGroupingMode === 'counties' ? cachedCountiesData : cachedRegionsData;
+      if (currentGroupingMode === 'counties' || currentGroupingMode === 'regions' || currentGroupingMode === 'zips') {
+        const currentGroups = (currentGroupingMode === 'counties' || currentGroupingMode === 'zips') ? cachedCountiesData : cachedRegionsData;
         if (!currentGroups) return;
 
         let activeGroupsCount = 0;
@@ -2522,12 +2778,33 @@
 
           const countText = item.querySelector('.active-count-text');
           if (countText) {
-            countText.innerHTML = `<b>${activeCities}</b> of ${totalCities} cities selected (${activeZipsInGroup} ZIPs)`;
+            if (currentGroupingMode === 'zips') {
+              countText.innerHTML = `<b>${activeZipsInGroup}</b> of ${totalZipsInGroup.length} ZIPs selected (${activeCities} of ${totalCities} areas)`;
+            } else {
+              countText.innerHTML = `<b>${activeCities}</b> of ${totalCities} cities selected (${activeZipsInGroup} ZIPs)`;
+            }
           }
 
-          const toggleBtn = item.querySelector('.toggle-all-btn');
+          const isFully = totalZipsInGroup.length > 0 && activeZipsInGroup === totalZipsInGroup.length;
+          const isIndet = activeZipsInGroup > 0 && activeZipsInGroup < totalZipsInGroup.length;
+
+          const groupCheck = item.querySelector('.region-header .custom-check');
+          if (groupCheck) {
+            groupCheck.className = `custom-check ${isFully ? 'checked' : (isIndet ? 'indeterminate' : '')}`;
+            groupCheck.innerHTML = isFully ? `
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+            ` : (isIndet ? `
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+              </svg>
+            ` : '');
+          }
+
+          const toggleBtn = item.querySelector('.region-header .toggle-all-btn');
           if (toggleBtn) {
-            toggleBtn.textContent = (activeZipsInGroup === totalZipsInGroup.length && totalZipsInGroup.length > 0) ? 'Clear All' : 'Select All';
+            toggleBtn.textContent = isFully ? 'Clear All' : 'Select All';
           }
 
           cities.forEach(city => {
@@ -2537,15 +2814,15 @@
             if (!checkEl) return;
             const cityZips = city.zips || [];
             const activeCityZips = cityZips.filter(z => selectedZips.has(z));
-            const isFully = cityZips.length > 0 && activeCityZips.length === cityZips.length;
-            const isIndet = activeCityZips.length > 0 && activeCityZips.length < cityZips.length;
+            const cityFully = cityZips.length > 0 && activeCityZips.length === cityZips.length;
+            const cityIndet = activeCityZips.length > 0 && activeCityZips.length < cityZips.length;
 
-            checkEl.className = `custom-check ${isFully ? 'checked' : (isIndet ? 'indeterminate' : '')}`;
-            checkEl.innerHTML = isFully ? `
+            checkEl.className = `custom-check ${cityFully ? 'checked' : (cityIndet ? 'indeterminate' : '')}`;
+            checkEl.innerHTML = cityFully ? `
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
                 <polyline points="20 6 9 17 4 12"></polyline>
               </svg>
-            ` : (isIndet ? `
+            ` : (cityIndet ? `
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
                 <line x1="5" y1="12" x2="19" y2="12"></line>
               </svg>
@@ -2554,10 +2831,14 @@
         });
 
         if (groupingCountBadge) {
-          groupingCountBadge.textContent = `${activeGroupsCount} of ${currentGroups.length} selected`;
+          if (currentGroupingMode === 'zips') {
+            groupingCountBadge.textContent = `${selectedZips.size} ZIPs active`;
+          } else {
+            groupingCountBadge.textContent = `${activeGroupsCount} of ${currentGroups.length} selected`;
+          }
         }
       } else {
-        // 'cities' or 'zips' mode
+        // 'cities' mode
         if (!cachedCitiesData) return;
         let activeCitiesCount = 0;
 
@@ -2597,11 +2878,7 @@
         });
 
         if (groupingCountBadge) {
-          if (currentGroupingMode === 'cities') {
-            groupingCountBadge.textContent = `${activeCitiesCount} of ${cachedCitiesData.length} selected`;
-          } else {
-            groupingCountBadge.textContent = `${selectedZips.size} ZIPs active`;
-          }
+          groupingCountBadge.textContent = `${activeCitiesCount} of ${cachedCitiesData.length} selected`;
         }
       }
     }
