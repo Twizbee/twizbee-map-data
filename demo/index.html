@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Zoomable SVG Map Plugin • US States, Counties, Cities, Districts & Zip Codes</title>
+  
+  <!-- Plugin Stylesheet -->
+  <link rel="stylesheet" href="../dist/interactive-svg-map.css">
+  
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: #0f172a;
+      color: #f8fafc;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Top Showcase Header */
+    .showcase-header {
+      background: #1e293b;
+      border-bottom: 1px solid #334155;
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .brand-logo {
+      font-size: 28px;
+    }
+
+    .brand-title {
+      font-size: 18px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      color: #38bdf8;
+    }
+
+    .brand-subtitle {
+      font-size: 12px;
+      color: #94a3b8;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .select-dropdown {
+      padding: 8px 12px;
+      background: #0f172a;
+      border: 1px solid #334155;
+      color: #f8fafc;
+      border-radius: 8px;
+      font-size: 13px;
+      outline: none;
+      cursor: pointer;
+    }
+
+    .select-dropdown:focus {
+      border-color: #38bdf8;
+    }
+
+    .btn-action {
+      padding: 8px 14px;
+      background: #38bdf8;
+      color: #0f172a;
+      font-weight: 700;
+      font-size: 13px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: background 0.15s, transform 0.1s;
+    }
+
+    .btn-action:hover {
+      background: #7dd3fc;
+      transform: translateY(-1px);
+    }
+
+    .btn-secondary {
+      background: #334155;
+      color: #f8fafc;
+    }
+
+    .btn-secondary:hover {
+      background: #475569;
+    }
+
+    /* Main Layout */
+    .main-layout {
+      flex: 1;
+      display: grid;
+      grid-template-columns: 1fr 340px;
+      gap: 20px;
+      padding: 20px 24px;
+      max-width: 1700px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    @media (max-width: 1100px) {
+      .main-layout {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Map Box */
+    .map-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    #map-viewport-container {
+      width: 100%;
+      height: 640px;
+      background: #1e293b;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    /* Side Dashboard & Log */
+    .dashboard-panel {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .panel-card {
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 12px;
+      padding: 16px;
+    }
+
+    .card-title {
+      font-size: 13px;
+      font-weight: 700;
+      color: #94a3b8;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .badge-live {
+      background: rgba(34, 197, 94, 0.2);
+      color: #4ade80;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 10px;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .badge-live::before {
+      content: '';
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #4ade80;
+      animation: pulse 1.5s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+
+    /* Quick Stats Grid */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+
+    .stat-box {
+      background: #0f172a;
+      border: 1px solid #334155;
+      border-radius: 8px;
+      padding: 10px;
+    }
+
+    .stat-label {
+      font-size: 11px;
+      color: #94a3b8;
+      margin-bottom: 4px;
+    }
+
+    .stat-num {
+      font-size: 18px;
+      font-weight: 800;
+      color: #38bdf8;
+    }
+
+    /* Event Log Console */
+    .event-log {
+      height: 220px;
+      overflow-y: auto;
+      background: #0f172a;
+      border: 1px solid #334155;
+      border-radius: 8px;
+      padding: 10px;
+      font-family: 'Fira Code', Menlo, Monaco, Consolas, monospace;
+      font-size: 11px;
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 6px;
+    }
+
+    .log-entry {
+      padding: 4px 6px;
+      border-radius: 4px;
+      background: rgba(56, 189, 248, 0.05);
+      border-left: 2px solid #38bdf8;
+      word-break: break-all;
+    }
+
+    .log-time {
+      color: #64748b;
+      margin-right: 6px;
+    }
+
+    .log-type {
+      color: #f59e0b;
+      font-weight: 700;
+      margin-right: 4px;
+    }
+
+    /* Quick Guide Box */
+    .guide-box {
+      font-size: 12px;
+      color: #94a3b8;
+      line-height: 1.5;
+    }
+
+    .guide-box ul {
+      padding-left: 18px;
+      margin-top: 6px;
+    }
+
+    .guide-box li {
+      margin-bottom: 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Showcase Header -->
+  <header class="showcase-header">
+    <div class="brand">
+      <span class="brand-logo">🗺️</span>
+      <div>
+        <h1 class="brand-title">Interactive SVG GeoMap Plugin</h1>
+        <p class="brand-subtitle">Zoomable US States • Counties • Cities • Congressional Districts • Zip Codes</p>
+      </div>
+    </div>
+
+    <div class="header-actions">
+      <!-- Country Switcher -->
+      <select id="country-select" class="select-dropdown" style="font-weight:700;border-color:#38bdf8;">
+        <option value="usa" selected>🇺🇸 United States</option>
+        <option value="canada">🇨🇦 Canada</option>
+      </select>
+
+      <!-- Quick State Selector -->
+      <select id="state-select" class="select-dropdown">
+        <option value="">Jump to Subdivision...</option>
+      </select>
+
+      <!-- Theme Switcher -->
+      <select id="theme-select" class="select-dropdown">
+        <option value="light">Theme: Light (Clean)</option>
+        <option value="dark" selected>Theme: Dark (Cyber)</option>
+        <option value="emerald">Theme: Emerald (Mint)</option>
+      </select>
+
+      <button id="btn-reset-map" class="btn-action btn-secondary">⟲ National View</button>
+      <button id="btn-export-svg" class="btn-action">⬇ Download SVG</button>
+    </div>
+  </header>
+
+  <!-- Main Showcase Layout -->
+  <main class="main-layout">
+    
+    <!-- Map Viewport Container -->
+    <div class="map-wrapper">
+      <div id="map-viewport-container"></div>
+    </div>
+
+    <!-- Side Dashboard Panel -->
+    <aside class="dashboard-panel">
+      
+      <!-- Quick Status Card -->
+      <div class="panel-card">
+        <div class="card-title">
+          <span>Map Coverage</span>
+          <span class="badge-live">Live Ready</span>
+        </div>
+        <div class="stats-grid">
+          <div class="stat-box">
+            <div class="stat-label">States & Terr.</div>
+            <div class="stat-num">52</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-label">Counties</div>
+            <div class="stat-num">3,142</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-label">Cong. Districts</div>
+            <div class="stat-num">435+</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-label">Zip Codes Mapped</div>
+            <div class="stat-num">42,741</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Real-Time Event Log Card -->
+      <div class="panel-card">
+        <div class="card-title">
+          <span>Interaction Event Stream</span>
+          <button id="btn-clear-log" style="background:none;border:none;color:#64748b;cursor:pointer;font-size:11px;">Clear</button>
+        </div>
+        <div id="event-log" class="event-log">
+          <div class="log-entry">
+            <span class="log-time">00:00:00</span>
+            <span class="log-type">[READY]</span> Map initialized in national view
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Showcase Shortcuts -->
+      <div class="panel-card">
+        <div class="card-title">Quick Target Jumps</div>
+        <div id="quick-jump-container" style="display:flex;flex-wrap:wrap;gap:6px;"></div>
+      </div>
+
+      <!-- Quick Tips Card -->
+      <div class="panel-card">
+        <div class="card-title">Features & Controls</div>
+        <div class="guide-box">
+          <ul>
+            <li><strong>Click any state/province:</strong> Smoothly zooms into the regional view.</li>
+            <li><strong>Toggle Layer Pills:</strong> Switch between Counties/Divisions, Cities, Districts/Ridings, and Zip Codes/FSAs.</li>
+            <li><strong>Live Search Bar:</strong> Try typing <code>90210</code>, <code>Miami</code>, <code>Toronto</code>, or <code>M5V</code>!</li>
+            <li><strong>Pan & Zoom:</strong> Drag with mouse, scroll wheel or pinch to zoom into any detail.</li>
+            <li><strong>Stitched Cities:</strong> View true composite boundary outlines formed from member postal areas.</li>
+            <li><strong>Export:</strong> Instant standalone SVG export for any view.</li>
+          </ul>
+        </div>
+      </div>
+
+    </aside>
+
+  </main>
+
+  <!-- Load Offline Unified Data Bundles -->
+  <script src="../dist/usa-all-data.js"></script>
+  <script src="../dist/canada-all-data.js"></script>
+
+  <!-- Load Interactive SVG Map Plugin -->
+  <script src="../dist/interactive-svg-map.js"></script>
+
+  <script>
+    function initDemo() {
+      const logContainer = document.getElementById('event-log');
+      function logEvent(type, data) {
+        const time = new Date().toTimeString().split(' ')[0];
+        const entry = document.createElement('div');
+        entry.className = 'log-entry';
+        entry.innerHTML = `<span class="log-time">${time}</span><span class="log-type">[${type}]</span> ${typeof data === 'string' ? data : JSON.stringify(data)}`;
+        logContainer.prepend(entry);
+      }
+
+      // Initialize GeoMap Plugin
+      const map = new GeoMap('#map-viewport-container', {
+        country: 'usa',
+        dataBaseUrl: '../data/usa',
+        canadaDataBaseUrl: '../data/canada',
+        theme: 'dark',
+        activeLayer: 'counties',
+        enablePanZoom: true,
+        enableSearch: true,
+        enableBreadcrumbs: true,
+        enableInspector: true,
+        enableControls: true,
+        onStateClick: (state) => {
+          logEvent('STATE_CLICK', `${state.name} (${state.abbr}) - Pop: ${state.population?.toLocaleString()}`);
+          document.getElementById('state-select').value = state.abbr;
+        },
+        onCountyClick: (county) => {
+          logEvent('COUNTY_CLICK', `${county.name} (ID: ${county.id})`);
+        },
+        onCityClick: (city) => {
+          logEvent('CITY_CLICK', `${city.name} (${city.isCapital ? 'Capital' : 'City'}) • ${city.zipCount || 1} Stitched Zips`);
+        },
+        onDistrictClick: (district) => {
+          logEvent('DISTRICT_CLICK', `${district.name} (${district.shortName || district.id})`);
+        },
+        onRegionClick: (region) => {
+          logEvent('REGION_CLICK', `${region.name} (${region.citiesCount || region.cities?.length || 0} Cities Mapped)`);
+        },
+        onZipClick: (zip) => {
+          logEvent('ZIP_CLICK', `${zip.type === 'zip' && zip.zip.length === 3 ? 'FSA' : 'ZIP'} ${zip.zip} - ${zip.city}, ${zip.state}`);
+        },
+        onZoom: (level, entity) => {
+          logEvent('ZOOM', `Level: ${level} ${entity ? '(' + (entity.name || entity.id) + ')' : ''}`);
+        },
+        onLayerChange: (layer) => {
+          logEvent('LAYER', `Active layer changed to: ${layer}`);
+        }
+      });
+      window.map = map;
+
+      const stateSelect = document.getElementById('state-select');
+      const countrySelect = document.getElementById('country-select');
+      const quickJumpContainer = document.getElementById('quick-jump-container');
+
+      const USA_STATES = [
+        { abbr: 'AL', name: 'Alabama' }, { abbr: 'AK', name: 'Alaska' }, { abbr: 'AZ', name: 'Arizona' },
+        { abbr: 'AR', name: 'Arkansas' }, { abbr: 'CA', name: 'California' }, { abbr: 'CO', name: 'Colorado' },
+        { abbr: 'CT', name: 'Connecticut' }, { abbr: 'DE', name: 'Delaware' }, { abbr: 'DC', name: 'District of Columbia' },
+        { abbr: 'FL', name: 'Florida' }, { abbr: 'GA', name: 'Georgia' }, { abbr: 'HI', name: 'Hawaii' },
+        { abbr: 'ID', name: 'Idaho' }, { abbr: 'IL', name: 'Illinois' }, { abbr: 'IN', name: 'Indiana' },
+        { abbr: 'IA', name: 'Iowa' }, { abbr: 'KS', name: 'Kansas' }, { abbr: 'KY', name: 'Kentucky' },
+        { abbr: 'LA', name: 'Louisiana' }, { abbr: 'ME', name: 'Maine' }, { abbr: 'MD', name: 'Maryland' },
+        { abbr: 'MA', name: 'Massachusetts' }, { abbr: 'MI', name: 'Michigan' }, { abbr: 'MN', name: 'Minnesota' },
+        { abbr: 'MS', name: 'Mississippi' }, { abbr: 'MO', name: 'Missouri' }, { abbr: 'MT', name: 'Montana' },
+        { abbr: 'NE', name: 'Nebraska' }, { abbr: 'NV', name: 'Nevada' }, { abbr: 'NH', name: 'New Hampshire' },
+        { abbr: 'NJ', name: 'New Jersey' }, { abbr: 'NM', name: 'New Mexico' }, { abbr: 'NY', name: 'New York' },
+        { abbr: 'NC', name: 'North Carolina' }, { abbr: 'ND', name: 'North Dakota' }, { abbr: 'OH', name: 'Ohio' },
+        { abbr: 'OK', name: 'Oklahoma' }, { abbr: 'OR', name: 'Oregon' }, { abbr: 'PA', name: 'Pennsylvania' },
+        { abbr: 'RI', name: 'Rhode Island' }, { abbr: 'SC', name: 'South Carolina' }, { abbr: 'SD', name: 'South Dakota' },
+        { abbr: 'TN', name: 'Tennessee' }, { abbr: 'TX', name: 'Texas' }, { abbr: 'UT', name: 'Utah' },
+        { abbr: 'VT', name: 'Vermont' }, { abbr: 'VA', name: 'Virginia' }, { abbr: 'WA', name: 'Washington' },
+        { abbr: 'WV', name: 'West Virginia' }, { abbr: 'WI', name: 'Wisconsin' }, { abbr: 'WY', name: 'Wyoming' },
+        { abbr: 'PR', name: 'Puerto Rico' }
+      ];
+
+      const CANADA_PROVINCES = [
+        { abbr: 'AB', name: 'Alberta' },
+        { abbr: 'BC', name: 'British Columbia' },
+        { abbr: 'MB', name: 'Manitoba' },
+        { abbr: 'NB', name: 'New Brunswick' },
+        { abbr: 'NL', name: 'Newfoundland and Labrador' },
+        { abbr: 'NS', name: 'Nova Scotia' },
+        { abbr: 'NT', name: 'Northwest Territories' },
+        { abbr: 'NU', name: 'Nunavut' },
+        { abbr: 'ON', name: 'Ontario' },
+        { abbr: 'PE', name: 'Prince Edward Island' },
+        { abbr: 'QC', name: 'Quebec' },
+        { abbr: 'SK', name: 'Saskatchewan' },
+        { abbr: 'YT', name: 'Yukon' }
+      ];
+
+      const USA_QUICK_JUMPS = [
+        { label: '🗺️ San Jose & Silicon Valley (CA)', action: () => map.zoomToRegion('CA-san-jose-silicon-valley') },
+        { label: '🗺️ Santa Ana & Orange County (CA)', action: () => map.zoomToRegion('CA-santa-ana-orange-county') },
+        { label: '🗺️ South Florida (Miami/Keys)', action: () => map.zoomToRegion('FL-south-florida') },
+        { label: '🗺️ Greater Orlando (FL)', action: () => map.zoomToRegion('FL-greater-orlando') },
+        { label: '🚀 Space Coast (FL)', action: () => map.zoomToRegion('FL-space-coast') },
+        { label: '🗺️ Western Washington (WA)', action: () => map.zoomToRegion('WA-western-washington') },
+        { label: '🗺️ Seattle Metro (WA)', action: () => map.zoomToRegion('WA-seattle-metro') },
+        { label: '🗺️ Central California', action: () => map.zoomToRegion('CA-central-california') },
+        { label: '🗺️ North Texas (DFW)', action: () => map.zoomToRegion('TX-north-texas') },
+        { label: '🗺️ NYC (5 Boroughs)', action: () => map.zoomToRegion('NY-new-york-city') },
+        { label: '🗺️ Chicagoland (IL)', action: () => map.zoomToRegion('IL-chicagoland') },
+        { label: '🗺️ Greater Boston (MA)', action: () => map.zoomToRegion('MA-greater-boston') },
+        { label: '🗺️ Metro Atlanta (GA)', action: () => map.zoomToRegion('GA-metro-atlanta') },
+        { label: '🗺️ Middle TN (Nashville)', action: () => map.zoomToRegion('TN-middle-nashville-capital') },
+        { label: '🗺️ Greater Denver (CO)', action: () => map.zoomToRegion('CO-greater-denver') },
+        { label: '🗺️ Phoenix Metro (AZ)', action: () => map.zoomToRegion('AZ-phoenix-metro') },
+        { label: '🗺️ Portland Metro (OR)', action: () => map.zoomToRegion('OR-portland-metro') },
+        { label: '🗺️ Northwest Arkansas (NWA)', action: () => map.zoomToRegion('AR-northwest-arkansas-nwa') },
+        { label: '🗺️ Las Vegas Valley (NV)', action: () => map.zoomToRegion('NV-las-vegas-valley') },
+        { label: '🗺️ Western Puerto Rico', action: () => map.zoomToRegion('PR-western-porta-del-sol') },
+        { label: '🏙️ Austin, TX (Stitched)', action: () => map.zoomToCity('Austin, TX') },
+        { label: '🏖️ Miami, FL (Stitched)', action: () => map.zoomToCity('Miami, FL') },
+        { label: '🗺️ Silicon Valley', action: () => map.zoomToRegion('CA-silicon-valley') },
+        { label: '📮 Beverly Hills (90210)', action: () => map.zoomToZip('90210') },
+        { label: '🌴 Puerto Rico Inset', action: () => map.zoomToState('PR') }
+      ];
+
+      const CANADA_QUICK_JUMPS = [
+        { label: '🗺️ Greater Toronto Area (GTA)', action: () => map.zoomToRegion('ON-greater-toronto-area') },
+        { label: '🗺️ Greater Montreal (QC)', action: () => map.zoomToRegion('QC-greater-montreal') },
+        { label: '🗺️ Metro Vancouver (BC)', action: () => map.zoomToRegion('BC-metro-vancouver-lower-mainland') },
+        { label: '🗺️ Calgary Metro (AB)', action: () => map.zoomToRegion('AB-calgary-metropolitan-region') },
+        { label: '🏙️ North York (OSM Boundary)', action: () => map.zoomToCity('North York') },
+        { label: '⚜️ Ville-Marie (OSM Boundary)', action: () => map.zoomToCity('Ville-Marie') },
+        { label: '🏛️ Ottawa, ON (National Cap)', action: () => map.zoomToCity('Ottawa, ON') },
+        { label: '📮 Downtown Toronto (M5V)', action: () => map.zoomToZip('M5V') }
+      ];
+
+      function updateCountryUI(countryId) {
+        stateSelect.innerHTML = '<option value="">Jump to Subdivision...</option>';
+        const list = (countryId === 'canada') ? CANADA_PROVINCES : USA_STATES;
+        for (const s of list) {
+          const opt = document.createElement('option');
+          opt.value = s.abbr;
+          opt.textContent = `${s.name} (${s.abbr})`;
+          stateSelect.appendChild(opt);
+        }
+
+        // Update Quick Jumps
+        quickJumpContainer.innerHTML = '';
+        const jumps = (countryId === 'canada') ? CANADA_QUICK_JUMPS : USA_QUICK_JUMPS;
+        jumps.forEach(j => {
+          const btn = document.createElement('button');
+          btn.className = 'btn-action btn-secondary';
+          btn.style.fontSize = '11px';
+          btn.style.padding = '6px 10px';
+          btn.textContent = j.label;
+          btn.onclick = j.action;
+          quickJumpContainer.appendChild(btn);
+        });
+
+        // Update Stats Grid
+        const statBoxes = document.querySelectorAll('.stats-grid .stat-box');
+        if (statBoxes.length >= 4) {
+          if (countryId === 'canada') {
+            statBoxes[0].querySelector('.stat-label').textContent = 'Provinces & Terr.';
+            statBoxes[0].querySelector('.stat-num').textContent = '13';
+            statBoxes[1].querySelector('.stat-label').textContent = 'Census Divisions';
+            statBoxes[1].querySelector('.stat-num').textContent = '293';
+            statBoxes[2].querySelector('.stat-label').textContent = 'Federal Ridings';
+            statBoxes[2].querySelector('.stat-num').textContent = '338';
+            statBoxes[3].querySelector('.stat-label').textContent = 'Postal FSAs';
+            statBoxes[3].querySelector('.stat-num').textContent = '1,657';
+          } else {
+            statBoxes[0].querySelector('.stat-label').textContent = 'States & Terr.';
+            statBoxes[0].querySelector('.stat-num').textContent = '52';
+            statBoxes[1].querySelector('.stat-label').textContent = 'Counties';
+            statBoxes[1].querySelector('.stat-num').textContent = '3,142';
+            statBoxes[2].querySelector('.stat-label').textContent = 'Cong. Districts';
+            statBoxes[2].querySelector('.stat-num').textContent = '435+';
+            statBoxes[3].querySelector('.stat-label').textContent = 'Zip Codes Mapped';
+            statBoxes[3].querySelector('.stat-num').textContent = '42,741';
+          }
+        }
+      }
+
+      // Country Selector Listener
+      countrySelect.addEventListener('change', async (e) => {
+        const cId = e.target.value;
+        logEvent('COUNTRY_SWITCH', `Switched active country to ${cId.toUpperCase()}`);
+        updateCountryUI(cId);
+        await map.setCountry(cId);
+      });
+
+      updateCountryUI('usa');
+
+      stateSelect.addEventListener('change', (e) => {
+        if (e.target.value) {
+          map.zoomToState(e.target.value);
+        } else {
+          map.resetView();
+        }
+      });
+
+      // Theme Selector
+      document.getElementById('theme-select').addEventListener('change', (e) => {
+        map.setTheme(e.target.value);
+        logEvent('THEME', `Switched theme to ${e.target.value}`);
+      });
+
+      // Reset Button
+      document.getElementById('btn-reset-map').addEventListener('click', () => {
+        map.resetView();
+        stateSelect.value = '';
+      });
+
+      // Export SVG Button
+      document.getElementById('btn-export-svg').addEventListener('click', () => {
+        map.exportSVG();
+        logEvent('EXPORT', 'Downloaded SVG map file');
+      });
+
+      // Clear Log
+      document.getElementById('btn-clear-log').addEventListener('click', () => {
+        logContainer.innerHTML = '';
+      });
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initDemo);
+    } else {
+      initDemo();
+    }
+
+  </script>
+</body>
+</html>

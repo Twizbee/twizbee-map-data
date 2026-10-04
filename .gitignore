@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Raw Scratch & Download Directories (>2.5 GB of intermediate shapefile downloads)
+temp_zipcodes/
+temp_census/
+temp_canada/
+temp_thumbtack_geo_areas.json
+svgs/
+
+# Duplicate large cache/concat files (>90MB)
+data/cache/
+data/usa/all-states.json
+
+# OS & Environment
+.DS_Store
+Thumbs.db
+*.log

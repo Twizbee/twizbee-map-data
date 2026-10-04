@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Zoomable Map of Canada • Provinces, Census Divisions, Ridings, FSAs & Cities</title>
+  
+  <!-- Plugin Stylesheet -->
+  <link rel="stylesheet" href="../dist/interactive-svg-map.css">
+  
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: #0f172a;
+      color: #f8fafc;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .showcase-header {
+      background: #1e293b;
+      border-bottom: 1px solid #334155;
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .brand-logo {
+      font-size: 28px;
+    }
+
+    .brand-title {
+      font-size: 18px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      color: #38bdf8;
+    }
+
+    .brand-subtitle {
+      font-size: 12px;
+      color: #94a3b8;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .select-dropdown {
+      padding: 8px 12px;
+      background: #0f172a;
+      border: 1px solid #334155;
+      color: #f8fafc;
+      border-radius: 8px;
+      font-size: 13px;
+      outline: none;
+      cursor: pointer;
+    }
+
+    .select-dropdown:focus {
+      border-color: #38bdf8;
+    }
+
+    .btn-action {
+      padding: 8px 14px;
+      background: #38bdf8;
+      color: #0f172a;
+      font-weight: 700;
+      font-size: 13px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: background 0.15s, transform 0.1s;
+    }
+
+    .btn-action:hover {
+      background: #7dd3fc;
+      transform: translateY(-1px);
+    }
+
+    .btn-secondary {
+      background: #334155;
+      color: #f8fafc;
+    }
+
+    .btn-secondary:hover {
+      background: #475569;
+    }
+
+    .main-layout {
+      flex: 1;
+      display: grid;
+      grid-template-columns: 1fr 340px;
+      gap: 20px;
+      padding: 20px 24px;
+      max-width: 1700px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    @media (max-width: 1100px) {
+      .main-layout {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .map-wrapper {
+      position: relative;
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+      height: 720px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    #map-viewport-container {
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
+
+    .dashboard-panel {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .panel-card {
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 10px;
+      padding: 16px;
+    }
+
+    .card-title {
+      font-size: 13px;
+      font-weight: 700;
+      color: #f8fafc;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .badge-live {
+      background: rgba(16, 185, 129, 0.2);
+      color: #34d399;
+      border: 1px solid rgba(16, 185, 129, 0.4);
+      font-size: 10px;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 12px;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .stat-box {
+      background: #0f172a;
+      border: 1px solid #334155;
+      border-radius: 8px;
+      padding: 10px;
+    }
+
+    .stat-label {
+      font-size: 11px;
+      color: #94a3b8;
+      margin-bottom: 4px;
+    }
+
+    .stat-num {
+      font-size: 18px;
+      font-weight: 800;
+      color: #38bdf8;
+    }
+
+    .event-log {
+      height: 220px;
+      overflow-y: auto;
+      background: #0f172a;
+      border: 1px solid #334155;
+      border-radius: 8px;
+      padding: 10px;
+      font-family: 'Fira Code', Menlo, Monaco, Consolas, monospace;
+      font-size: 11px;
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 6px;
+    }
+
+    .log-entry {
+      padding: 4px 6px;
+      border-radius: 4px;
+      background: rgba(56, 189, 248, 0.05);
+      border-left: 2px solid #38bdf8;
+      word-break: break-all;
+    }
+
+    .log-time {
+      color: #64748b;
+      margin-right: 6px;
+    }
+
+    .log-type {
+      color: #f59e0b;
+      font-weight: 700;
+      margin-right: 4px;
+    }
+
+    .guide-box {
+      font-size: 12px;
+      color: #94a3b8;
+      line-height: 1.5;
+    }
+
+    .guide-box ul {
+      padding-left: 18px;
+      margin-top: 6px;
+    }
+
+    .guide-box li {
+      margin-bottom: 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Showcase Header -->
+  <header class="showcase-header">
+    <div class="brand">
+      <span class="brand-logo">🇨🇦</span>
+      <div>
+        <h1 class="brand-title">Canada Interactive SVG GeoMap</h1>
+        <p class="brand-subtitle">10 Provinces • 3 Territories • 293 Census Divisions • 338 Federal Ridings • 1,657 Postal FSAs</p>
+      </div>
+    </div>
+
+    <div class="header-actions">
+      <!-- Quick Province Selector -->
+      <select id="prov-select" class="select-dropdown">
+        <option value="">Jump to Province / Territory...</option>
+      </select>
+
+      <!-- Theme Switcher -->
+      <select id="theme-select" class="select-dropdown">
+        <option value="light">Theme: Light (Clean)</option>
+        <option value="dark" selected>Theme: Dark (Cyber)</option>
+        <option value="emerald">Theme: Emerald (Mint)</option>
+      </select>
+
+      <a href="index.html" class="btn-action btn-secondary" style="text-decoration:none;">🇺🇸 View USA Map</a>
+      <button id="btn-reset-map" class="btn-action btn-secondary">⟲ National View</button>
+      <button id="btn-export-svg" class="btn-action">⬇ Download SVG</button>
+    </div>
+  </header>
+
+  <!-- Main Showcase Layout -->
+  <main class="main-layout">
+    
+    <!-- Map Viewport Container -->
+    <div class="map-wrapper">
+      <div id="map-viewport-container"></div>
+    </div>
+
+    <!-- Side Dashboard Panel -->
+    <aside class="dashboard-panel">
+      
+      <!-- Quick Status Card -->
+      <div class="panel-card">
+        <div class="card-title">
+          <span>Canada Coverage</span>
+          <span class="badge-live">Official StatCan Data</span>
+        </div>
+        <div class="stats-grid">
+          <div class="stat-box">
+            <div class="stat-label">Provinces & Terr.</div>
+            <div class="stat-num">13</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-label">Census Divisions</div>
+            <div class="stat-num">293</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-label">Federal Ridings</div>
+            <div class="stat-num">338</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-label">Postal FSAs</div>
+            <div class="stat-num">1,657</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Showcase Shortcuts -->
+      <div class="panel-card">
+        <div class="card-title">Quick Target Jumps</div>
+        <div id="quick-jump-container" style="display:flex;flex-wrap:wrap;gap:6px;">
+          <button class="btn-action btn-secondary" style="font-size:11px;padding:6px 10px;" onclick="map.zoomToCity('Toronto, ON')">🏙️ Toronto, ON (Stitched)</button>
+          <button class="btn-action btn-secondary" style="font-size:11px;padding:6px 10px;" onclick="map.zoomToCity('Vancouver, BC')">🏔️ Vancouver, BC (Stitched)</button>
+          <button class="btn-action btn-secondary" style="font-size:11px;padding:6px 10px;" onclick="map.zoomToCity('Ottawa, ON')">🏛️ Ottawa, ON (National Cap)</button>
+          <button class="btn-action btn-secondary" style="font-size:11px;padding:6px 10px;" onclick="map.zoomToCity('Montreal, QC')">⚜️ Montreal, QC (Stitched)</button>
+          <button class="btn-action btn-secondary" style="font-size:11px;padding:6px 10px;" onclick="map.zoomToZip('M5V')">📮 Downtown Toronto (M5V)</button>
+          <button class="btn-action btn-secondary" style="font-size:11px;padding:6px 10px;" onclick="map.zoomToDistrict('QC-24054')">🍁 Outremont (QC Riding)</button>
+          <button class="btn-action btn-secondary" style="font-size:11px;padding:6px 10px;" onclick="map.zoomToState('BC')">🌲 British Columbia</button>
+        </div>
+      </div>
+
+      <!-- Real-Time Event Log Card -->
+      <div class="panel-card">
+        <div class="card-title">
+          <span>Interaction Event Stream</span>
+          <button id="btn-clear-log" style="background:none;border:none;color:#64748b;cursor:pointer;font-size:11px;">Clear</button>
+        </div>
+        <div id="event-log" class="event-log">
+          <div class="log-entry">
+            <span class="log-time">00:00:00</span>
+            <span class="log-type">[READY]</span> Canada map initialized in national view
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Tips Card -->
+      <div class="panel-card">
+        <div class="card-title">Features & Controls</div>
+        <div class="guide-box">
+          <ul>
+            <li><strong>Click any province:</strong> Smoothly zooms into the provincial view.</li>
+            <li><strong>Toggle Layer Pills:</strong> Switch between Census Divisions, Cities, Federal Ridings, and Postal FSAs.</li>
+            <li><strong>Live Search Bar:</strong> Try typing <code>Toronto</code>, <code>M5V</code>, <code>Outremont</code>, or <code>Vancouver</code>!</li>
+            <li><strong>Stitched Cities:</strong> View composite boundary outlines formed from member postal FSAs.</li>
+            <li><strong>Vector-effect non-scaling-stroke:</strong> Crisp, hairline borders at every zoom magnification.</li>
+          </ul>
+        </div>
+      </div>
+
+    </aside>
+
+  </main>
+
+  <!-- Load Pre-bundled Canada Data Bundle -->
+  <script src="../dist/canada-all-data.js"></script>
+
+  <!-- Load Interactive SVG Map Plugin -->
+  <script src="../dist/interactive-svg-map.js"></script>
+
+  <script>
+    function initDemo() {
+      const logContainer = document.getElementById('event-log');
+      function logEvent(type, data) {
+        const time = new Date().toTimeString().split(' ')[0];
+        const entry = document.createElement('div');
+        entry.className = 'log-entry';
+        entry.innerHTML = `<span class="log-time">${time}</span><span class="log-type">[${type}]</span> ${typeof data === 'string' ? data : JSON.stringify(data)}`;
+        logContainer.prepend(entry);
+      }
+
+      // Initialize GeoMap Plugin for Canada
+      const map = new GeoMap('#map-viewport-container', {
+        country: 'canada',
+        theme: 'dark',
+        activeLayer: 'counties',
+        enablePanZoom: true,
+        enableSearch: true,
+        enableBreadcrumbs: true,
+        enableInspector: true,
+        enableControls: true,
+        onStateClick: (prov) => {
+          logEvent('PROVINCE_CLICK', `${prov.name} (${prov.abbr}) - Pop: ${prov.population?.toLocaleString()}`);
+          document.getElementById('prov-select').value = prov.abbr;
+        },
+        onCountyClick: (cd) => {
+          logEvent('DIVISION_CLICK', `${cd.name} (CD UID: ${cd.id})`);
+        },
+        onCityClick: (city) => {
+          logEvent('CITY_CLICK', `${city.name} (${city.isCapital ? 'Capital' : (city.isFedCapital ? 'National Capital' : 'City')}) • ${city.zipCount || 1} Stitched FSAs`);
+        },
+        onDistrictClick: (riding) => {
+          logEvent('RIDING_CLICK', `${riding.name} (FED UID: ${riding.feduid})`);
+        },
+        onZipClick: (fsa) => {
+          logEvent('FSA_CLICK', `FSA ${fsa.zip} - ${fsa.city}, ${fsa.state}`);
+        },
+        onZoom: (level, entity) => {
+          logEvent('ZOOM', `Level: ${level} ${entity ? '(' + (entity.name || entity.id) + ')' : ''}`);
+        },
+        onLayerChange: (layer) => {
+          logEvent('LAYER', `Active layer changed to: ${layer}`);
+        }
+      });
+      window.map = map;
+
+      const provSelect = document.getElementById('prov-select');
+      const CANADA_PROVINCES = [
+        { abbr: 'AB', name: 'Alberta' },
+        { abbr: 'BC', name: 'British Columbia' },
+        { abbr: 'MB', name: 'Manitoba' },
+        { abbr: 'NB', name: 'New Brunswick' },
+        { abbr: 'NL', name: 'Newfoundland and Labrador' },
+        { abbr: 'NS', name: 'Nova Scotia' },
+        { abbr: 'NT', name: 'Northwest Territories' },
+        { abbr: 'NU', name: 'Nunavut' },
+        { abbr: 'ON', name: 'Ontario' },
+        { abbr: 'PE', name: 'Prince Edward Island' },
+        { abbr: 'QC', name: 'Quebec' },
+        { abbr: 'SK', name: 'Saskatchewan' },
+        { abbr: 'YT', name: 'Yukon' }
+      ];
+
+      for (const s of CANADA_PROVINCES) {
+        const opt = document.createElement('option');
+        opt.value = s.abbr;
+        opt.textContent = `${s.name} (${s.abbr})`;
+        provSelect.appendChild(opt);
+      }
+
+      provSelect.addEventListener('change', (e) => {
+        if (e.target.value) {
+          map.zoomToState(e.target.value);
+        } else {
+          map.resetView();
+        }
+      });
+
+      document.getElementById('theme-select').addEventListener('change', (e) => {
+        map.setTheme(e.target.value);
+        logEvent('THEME', `Switched theme to ${e.target.value}`);
+      });
+
+      document.getElementById('btn-reset-map').addEventListener('click', () => {
+        map.resetView();
+        provSelect.value = '';
+      });
+
+      document.getElementById('btn-export-svg').addEventListener('click', () => {
+        map.exportSVG();
+        logEvent('EXPORT', 'Downloaded Canada SVG map file');
+      });
+
+      document.getElementById('btn-clear-log').addEventListener('click', () => {
+        logContainer.innerHTML = '';
+      });
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initDemo);
+    } else {
+      initDemo();
+    }
+  </script>
+</body>
+</html>

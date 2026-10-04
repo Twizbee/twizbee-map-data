@@ -1,0 +1,45 @@
+{
+  "name": "interactive-svg-map",
+  "version": "1.0.0",
+  "description": "Zero-dependency, high-performance interactive zoomable SVG map plugin for US States, Counties, Cities, Congressional Districts, and Zip Codes with multi-country extensibility.",
+  "main": "dist/interactive-svg-map.js",
+  "module": "dist/interactive-svg-map.esm.js",
+  "types": "dist/interactive-svg-map.d.ts",
+  "style": "dist/interactive-svg-map.css",
+  "scripts": {
+    "build:data:usa": "node scripts/build-data.js",
+    "build:data:canada": "node scripts/build-canada-data.js",
+    "build:data": "node scripts/build-data.js && node scripts/build-canada-data.js",
+    "build:bundle": "node scripts/build-bundle.js",
+    "build": "npm run build:data && npm run build:bundle",
+    "serve": "python3 -m http.server 8085"
+  },
+  "keywords": [
+    "svg",
+    "map",
+    "interactive-map",
+    "us-states",
+    "counties",
+    "cities",
+    "congressional-districts",
+    "zipcodes",
+    "topojson",
+    "geojson",
+    "zoomable-map",
+    "vector-map"
+  ],
+  "author": "Open Source GIS & Interactive Web",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "d3-delaunay": "^6.0.4",
+    "d3-geo": "^3.1.1",
+    "shapefile": "^0.6.6",
+    "topojson-client": "^3.1.0",
+    "topojson-server": "^3.0.1",
+    "us-atlas": "^3.0.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Minimal Vanilla JS Map Integration</title>
+  <link rel="stylesheet" href="../dist/interactive-svg-map.css">
+  <style>
+    body { font-family: sans-serif; padding: 20px; background: #f1f5f9; }
+    #my-map { width: 1000px; max-width: 100%; height: 620px; margin: 0 auto; }
+  </style>
+</head>
+<body>
+  <h1>Interactive SVG Map - 3 Lines of Code</h1>
+  <div id="my-map"></div>
+
+  <!-- Load Map Scripts -->
+  <script src="../dist/usa-all-data.js"></script>
+  <script src="../dist/interactive-svg-map.js"></script>
+  <script>
+    const map = new GeoMap('#my-map', {
+      country: 'usa',
+      theme: 'light',
+      onStateClick: (state) => console.log('Clicked State:', state),
+      onZipClick: (zip) => console.log('Clicked Zip:', zip)
+    });
+  </script>
+</body>
+</html>
