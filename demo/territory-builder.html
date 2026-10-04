@@ -1598,121 +1598,257 @@
       return countiesList;
     }
 
-    // 4. Build Regions Data (Macro Metropolitan clusters, cleaning duplicates & 0-zip entries)
+    // 4. Build Regions Data (Authentic Market Regions & Local Metro Clusters)
     function buildRegionsData() {
-      if (!currentStateData || !currentStateData.regions) return [];
+      if (!currentStateData || !currentStateData.zipcodes) return [];
 
-      const seenNames = new Set();
-      const valid = [];
-      const norm = str => (str || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+      // A. California Authentic Regional Markets
+      function getCaliforniaRegion(z) {
+        const county = (z.county || '').trim().replace(/\s+County$/i, '');
+        const city = (z.city || '').trim().toLowerCase();
 
-      currentStateData.regions.forEach(r => {
-        let zips = (r.zips && r.zips.length > 0) ? [...r.zips] : [];
-        if (zips.length === 0 && r.cities) {
-          const zSet = new Set();
-          r.cities.forEach(c => (c.zips || []).forEach(z => zSet.add(z)));
-          zips = Array.from(zSet);
-        }
-        if (zips.length === 0) return;
-
-        const n = norm(r.name);
-        if (seenNames.has(n)) return;
-
-        // Skip whole-state super-regions if detailed metro areas exist
-        if (currentStateCode === 'CA' && ['centralcalifornia', 'northerncalifornia', 'southerncalifornia'].includes(n)) {
-          return;
-        }
-        if (currentStateCode === 'NY' && ['downstatenewyork', 'upstatenewyork'].includes(n)) {
-          return;
-        }
-        if (currentStateCode === 'WA' && ['westernwashington', 'easternwashington'].includes(n)) {
-          return;
+        // 1. San Francisco & Peninsula
+        if (['San Francisco', 'San Mateo'].includes(county) ||
+            ['san francisco', 'daly city', 'san bruno', 'south san francisco', 'pacifica', 'san mateo', 'burlingame', 'redwood city', 'menlo park', 'san carlos', 'foster city', 'belmont', 'half moon bay', 'millbrae', 'brisbane', 'colma'].includes(city)) {
+          return 'San Francisco & Peninsula';
         }
 
-        seenNames.add(n);
-
-        let cities = r.cities || [];
-        if (cities.length === 0) {
-          const cMap = new Map();
-          zips.forEach(z => {
-            const meta = zipMetaMap.get(z) || {};
-            const cName = meta.city || 'Area';
-            if (!cMap.has(cName)) {
-              cMap.set(cName, {
-                id: `city-${r.id}-${cName.toLowerCase()}`.replace(/[^a-z0-9]+/g, '-'),
-                name: cName,
-                county: meta.county || '',
-                zips: []
-              });
-            }
-            cMap.get(cName).zips.push(z);
-          });
-          cities = Array.from(cMap.values());
+        // 2. East Bay
+        if (['Alameda', 'Contra Costa'].includes(county)) {
+          return 'East Bay';
         }
 
-        if (cities.length > 0) {
-          const zipCityMap = new Map();
-          cities.forEach(c => (c.zips || []).forEach(z => zipCityMap.set(z, c)));
-          zips.forEach(z => {
-            if (!zipCityMap.has(z)) {
-              const meta = zipMetaMap.get(z) || {};
-              const targetCityName = (meta.city || 'Other Area').toLowerCase();
-              let targetCity = cities.find(c => c.name.toLowerCase() === targetCityName);
-              if (!targetCity) {
-                targetCity = {
-                  id: `city-${r.id || n}-${(meta.city || 'area').toLowerCase()}`.replace(/[^a-z0-9]+/g, '-'),
-                  name: meta.city || 'Area',
-                  county: meta.county || '',
-                  zips: []
-                };
-                cities.push(targetCity);
-              }
-              if (!targetCity.zips.includes(z)) {
-                targetCity.zips.push(z);
-              }
-            }
-          });
+        // 3. South Bay & Silicon Valley
+        if (county === 'Santa Clara' || ['san jose', 'sunnyvale', 'santa clara', 'cupertino', 'campbell', 'los gatos', 'milpitas', 'morgan hill', 'gilroy', 'saratoga', 'los altos'].includes(city)) {
+          return 'South Bay & Silicon Valley';
         }
 
-        cities.sort((a, b) => ((b.zips && b.zips.length) || 0) - ((a.zips && a.zips.length) || 0) || (a.name || '').localeCompare(b.name || ''));
+        // 4. North Bay & Marin / Wine Country
+        if (['Marin', 'Sonoma', 'Napa', 'Solano'].includes(county)) {
+          return 'North Bay & Marin / Wine Country';
+        }
 
-        valid.push({
-          id: r.id || `reg-${n}`,
-          name: r.name,
-          zips: zips,
-          cities: cities
-        });
-      });
-
-      // Cover any remaining ZIPs into a clean fallback region
-      const coveredZips = new Set();
-      valid.forEach(r => r.zips.forEach(z => coveredZips.add(z)));
-      const uncovered = (currentStateData.zipcodes || []).map(z => z.zip).filter(z => !coveredZips.has(z));
-
-      if (uncovered.length > 0) {
-        const otherCitiesMap = new Map();
-        uncovered.forEach(z => {
-          const meta = zipMetaMap.get(z) || {};
-          const cName = meta.city || 'Other Area';
-          if (!otherCitiesMap.has(cName)) {
-            otherCitiesMap.set(cName, {
-              id: `city-other-${cName.toLowerCase()}`.replace(/[^a-z0-9]+/g, '-'),
-              name: cName,
-              county: meta.county || '',
-              zips: []
-            });
+        // 5. Los Angeles County Sub-regions
+        if (county === 'Los Angeles') {
+          // San Fernando Valley (The Valley)
+          if (['burbank', 'glendale', 'calabasas', 'canoga park', 'chatsworth', 'encino', 'granada hills', 'mission hills', 'north hills', 'north hollywood', 'northridge', 'pacoima', 'panorama city', 'reseda', 'san fernando', 'sherman oaks', 'studio city', 'sun valley', 'sunland', 'sylmar', 'tarzana', 'tujunga', 'valley village', 'van nuys', 'west hills', 'winnetka', 'woodland hills', 'porter ranch', 'agoura hills'].includes(city)) {
+            return 'San Fernando Valley (The Valley)';
           }
-          otherCitiesMap.get(cName).zips.push(z);
-        });
-        valid.push({
-          id: `reg-${currentStateCode.toLowerCase()}-other-regions`,
-          name: `Other ${currentStateData.name || currentStateCode} Areas`,
-          zips: uncovered,
-          cities: Array.from(otherCitiesMap.values()).sort((a, b) => ((b.zips && b.zips.length) || 0) - ((a.zips && a.zips.length) || 0))
-        });
+          // San Gabriel Valley & East LA
+          if (['alhambra', 'altadena', 'arcadia', 'azusa', 'baldwin park', 'city of industry', 'claremont', 'covina', 'duarte', 'el monte', 'glendora', 'hacienda heights', 'la puente', 'monrovia', 'montebello', 'monterey park', 'pasadena', 'pomona', 'rosemead', 'rowland heights', 'san gabriel', 'san marino', 'sierra madre', 'south el monte', 'south pasadena', 'temple city', 'walnut', 'west covina', 'diamond bar', 'la verne', 'san dimas', 'la crescenta', 'la canada flintridge', 'montrose', 'verdugo city', 'mt baldy'].includes(city)) {
+            return 'San Gabriel Valley & East LA';
+          }
+          // Westside & Central LA
+          if (['beverly hills', 'culver city', 'los angeles', 'marina del rey', 'pacific palisades', 'playa del rey', 'playa vista', 'santa monica', 'venice', 'west hollywood', 'universal city', 'topanga', 'malibu'].includes(city)) {
+            return 'Westside & Central Los Angeles';
+          }
+          // South Bay & Beach Cities / Long Beach
+          if (['avalon', 'el segundo', 'hermosa beach', 'lomita', 'long beach', 'manhattan beach', 'palos verdes peninsula', 'rancho palos verdes', 'redondo beach', 'rolling hills', 'rolling hills estates', 'san pedro', 'torrance', 'wilmington', 'harbor city'].includes(city)) {
+            return 'South Bay & Long Beach';
+          }
+          // Gateway Cities & Southeast LA
+          if (['artesia', 'bell', 'bell gardens', 'bellflower', 'carson', 'cerritos', 'compton', 'downey', 'gardena', 'hawaiian gardens', 'hawthorne', 'huntington park', 'inglewood', 'la habra heights', 'la mirada', 'lakewood', 'lawndale', 'lynwood', 'maywood', 'norwalk', 'paramount', 'pico rivera', 'santa fe springs', 'signal hill', 'south gate', 'whittier', 'cudahy'].includes(city)) {
+            return 'Gateway Cities & Southeast LA';
+          }
+          // Antelope Valley & Santa Clarita
+          if (['acton', 'canyon country', 'castaic', 'lancaster', 'littlerock', 'llano', 'newhall', 'palmdale', 'pearblossom', 'santa clarita', 'stevenson ranch', 'valencia', 'valyermo', 'lake hughes', 'quartz hill'].includes(city)) {
+            return 'Antelope Valley & Santa Clarita';
+          }
+          return 'San Gabriel Valley & East LA';
+        }
+
+        // 6. Orange County
+        if (county === 'Orange') {
+          if (['anaheim', 'brea', 'buena park', 'fullerton', 'garden grove', 'la habra', 'la palma', 'orange', 'placentia', 'stanton', 'villa park', 'yorba linda'].includes(city)) {
+            return 'North Orange County';
+          }
+          return 'South Orange County & Coastal';
+        }
+
+        // 7. Riverside County
+        if (county === 'Riverside') {
+          if (['palm springs', 'cathedral city', 'rancho mirage', 'palm desert', 'indian wells', 'la quinta', 'indio', 'coachella', 'desert hot springs', 'blythe', 'desert center', 'thermal', 'mecca', 'thousand palms', 'cabazon', 'north palm springs', 'white water'].includes(city)) {
+            return 'Coachella Valley & Desert';
+          }
+          if (['temecula', 'murrieta', 'menifee', 'lake elsinore', 'wildomar', 'hemet', 'san jacinto', 'winchester', 'anza', 'aguanga', 'mountain center', 'idyllwild'].includes(city)) {
+            return 'Temecula Valley & Southwest Riverside';
+          }
+          return 'Riverside & Corona Metro';
+        }
+
+        // 8. San Bernardino County
+        if (county === 'San Bernardino') {
+          if (['ontario', 'rancho cucamonga', 'chino', 'chino hills', 'fontana', 'upland', 'montclair'].includes(city)) {
+            return 'Inland Empire West';
+          }
+          return 'San Bernardino & High Desert';
+        }
+
+        // 9. San Diego County
+        if (county === 'San Diego') {
+          if (['oceanside', 'carlsbad', 'encinitas', 'solana beach', 'del mar', 'escondido', 'san marcos', 'vista', 'poway', 'fallbrook', 'bonsall', 'valley center', 'rancho santa fe', 'ramona'].includes(city)) {
+            return 'San Diego North County';
+          }
+          if (['el cajon', 'la mesa', 'santee', 'chula vista', 'national city', 'imperial beach', 'spring valley', 'lemon grove', 'lakeside', 'alpine', 'bonita', 'jamul'].includes(city)) {
+            return 'San Diego East County & South Bay';
+          }
+          return 'San Diego Metro & Central';
+        }
+
+        // 10. Greater Sacramento
+        if (['Sacramento', 'Yolo', 'Placer', 'El Dorado'].includes(county)) {
+          return 'Greater Sacramento Area';
+        }
+
+        // 11. San Joaquin Valley
+        if (['San Joaquin', 'Stanislaus', 'Merced'].includes(county)) {
+          return 'San Joaquin Valley - North';
+        }
+        if (['Fresno', 'Kern', 'Kings', 'Madera', 'Tulare'].includes(county)) {
+          return 'San Joaquin Valley - South';
+        }
+
+        // 12. Central Coast & Ventura
+        if (['Santa Cruz', 'Monterey', 'San Benito', 'San Luis Obispo', 'Santa Barbara', 'Ventura'].includes(county)) {
+          return 'Central Coast & Ventura';
+        }
+
+        // 13. Northern California & Shasta Cascade
+        if (['Butte', 'Colusa', 'Glenn', 'Humboldt', 'Lake', 'Mendocino', 'Shasta', 'Siskiyou', 'Sutter', 'Tehama', 'Trinity', 'Yuba', 'Del Norte', 'Modoc', 'Lassen'].includes(county)) {
+          return 'Northern California & Shasta Cascade';
+        }
+
+        // 14. Sierra Nevada & Gold Country
+        if (['Amador', 'Calaveras', 'Inyo', 'Mariposa', 'Mono', 'Nevada', 'Sierra', 'Tuolumne', 'Alpine'].includes(county)) {
+          return 'Sierra Nevada & Gold Country';
+        }
+
+        return 'Other California Areas';
       }
 
-      valid.sort((a, b) => b.zips.length - a.zips.length);
+      // B. Texas Authentic Regional Markets
+      function getTexasRegion(z) {
+        const county = (z.county || '').trim().replace(/\s+County$/i, '');
+
+        if (['Dallas', 'Tarrant', 'Collin', 'Denton', 'Rockwall', 'Kaufman', 'Ellis', 'Johnson', 'Parker', 'Wise', 'Hunt'].includes(county)) {
+          return 'Dallas-Fort Worth Metroplex (DFW)';
+        }
+        if (['Harris', 'Fort Bend', 'Montgomery', 'Brazoria', 'Galveston', 'Liberty', 'Waller', 'Chambers', 'Matagorda', 'Wharton', 'Colorado', 'Austin'].includes(county)) {
+          return 'Greater Houston & Gulf Coast';
+        }
+        if (['Travis', 'Williamson', 'Hays', 'Bastrop', 'Caldwell', 'Blanco', 'Burnet', 'Llano', 'Gillespie', 'Fayette', 'Lee'].includes(county)) {
+          return 'Greater Austin & Hill Country';
+        }
+        if (['Bexar', 'Comal', 'Guadalupe', 'Medina', 'Wilson', 'Kendall', 'Bandera', 'Atascosa', 'Karnes', 'Frio'].includes(county)) {
+          return 'Greater San Antonio & South Central';
+        }
+        if (['Hidalgo', 'Cameron', 'Starr', 'Willacy'].includes(county)) {
+          return 'Rio Grande Valley (RGV)';
+        }
+        if (['Nueces', 'San Patricio', 'Victoria', 'Kleberg', 'Aransas', 'Bee', 'Jim Wells', 'Refugio', 'Calhoun', 'Jackson'].includes(county)) {
+          return 'Coastal Bend & Corpus Christi';
+        }
+        if (['McLennan', 'Bell', 'Coryell', 'Brazos', 'Falls', 'Limestone', 'Freestone', 'Leon', 'Robertson', 'Burleson', 'Milam', 'Lampasas', 'Hamilton', 'Bosque', 'Hill', 'Navarro'].includes(county)) {
+          return 'Central Texas (Waco & Killeen)';
+        }
+        if (['Potter', 'Randall', 'Lubbock', 'Moore', 'Hutchinson', 'Gray', 'Deaf Smith', 'Hale', 'Floyd', 'Lamb', 'Castro', 'Swisher', 'Parmer', 'Dallam', 'Sherman', 'Hansford', 'Ochiltree', 'Lipscomb', 'Hartley', 'Oldham', 'Carson', 'Armstrong', 'Donley', 'Collingsworth', 'Wheeler', 'Hemphill', 'Roberts', 'Hockley', 'Cochran', 'Yoakum', 'Terry', 'Lynn', 'Garza', 'Crosby', 'Dickens', 'Motley', 'Cottle', 'King', 'Kent', 'Bailey'].includes(county)) {
+          return 'Texas Panhandle & South Plains';
+        }
+        if (['El Paso', 'Hudspeth', 'Culberson', 'Reeves', 'Pecos', 'Terrell', 'Brewster', 'Presidio', 'Jeff Davis', 'Ward', 'Winkler', 'Loving', 'Ector', 'Midland', 'Andrews', 'Gaines', 'Dawson', 'Borden', 'Scurry', 'Martin', 'Howard', 'Mitchell', 'Nolan', 'Taylor', 'Jones', 'Fisher', 'Callahan', 'Eastland', 'Shackelford', 'Stephens', 'Runnels', 'Coleman', 'Brown', 'Tom Green', 'Concho', 'McCulloch', 'San Saba', 'Mason', 'Kimble', 'Menard', 'Schleicher', 'Sutton', 'Crockett', 'Val Verde', 'Edwards', 'Real', 'Uvalde', 'Kinney', 'Maverick', 'Zavala', 'Dimmit', 'La Salle', 'Webb', 'Zapata', 'Jim Hogg', 'Brooks', 'Kenedy', 'Duval', 'McMullen'].includes(county)) {
+          return 'El Paso & West Texas';
+        }
+        return 'East Texas & Piney Woods';
+      }
+
+      // C. Florida Authentic Regional Markets
+      function getFloridaRegion(z) {
+        const county = (z.county || '').trim().replace(/\s+County$/i, '');
+
+        if (['Escambia', 'Santa Rosa', 'Okaloosa', 'Walton', 'Bay', 'Washington', 'Holmes', 'Jackson', 'Calhoun', 'Gulf', 'Franklin', 'Liberty', 'Gadsden', 'Leon', 'Wakulla', 'Jefferson'].includes(county)) {
+          return 'Florida Panhandle';
+        }
+        if (['Hillsborough', 'Pinellas', 'Pasco', 'Polk', 'Hernando', 'Manatee', 'Sarasota'].includes(county)) {
+          return 'Tampa Bay Area';
+        }
+        if (county === 'Miami-Dade') {
+          return 'Miami-Dade Metro';
+        }
+        if (county === 'Broward') {
+          return 'Fort Lauderdale & Broward';
+        }
+        if (['Palm Beach', 'Martin', 'St. Lucie', 'Indian River'].includes(county)) {
+          return 'Palm Beach & Treasure Coast';
+        }
+        if (['Orange', 'Osceola', 'Seminole', 'Lake', 'Volusia', 'Brevard', 'Marion', 'Sumter', 'Flagler'].includes(county)) {
+          return 'Greater Orlando & Central Florida';
+        }
+        if (['Duval', 'St. Johns', 'Clay', 'Nassau', 'Baker', 'Putnam', 'Columbia', 'Alachua', 'Union', 'Bradford', 'Gilchrist', 'Levy', 'Dixie', 'Taylor', 'Madison', 'Hamilton', 'Suwannee', 'Lafayette'].includes(county)) {
+          return 'First Coast & North Florida';
+        }
+        if (['Lee', 'Collier', 'Charlotte', 'Glades', 'Hendry', 'Desoto', 'Hardee', 'Highlands'].includes(county)) {
+          return 'Southwest Florida';
+        }
+        if (county === 'Monroe') {
+          return 'Florida Keys';
+        }
+        return 'Other Florida Areas';
+      }
+
+      // Group all state ZIP codes into authentic regions
+      const regionMap = new Map();
+
+      currentStateData.zipcodes.forEach(z => {
+        let rName = '';
+        if (currentStateCode === 'CA') {
+          rName = getCaliforniaRegion(z);
+        } else if (currentStateCode === 'TX') {
+          rName = getTexasRegion(z);
+        } else if (currentStateCode === 'FL') {
+          rName = getFloridaRegion(z);
+        } else {
+          // Dynamic fallback for other states: use county
+          const co = (z.county || '').trim();
+          rName = co ? (co.toLowerCase().endsWith('county') ? co : `${co} County`) : `${currentStateData.name || currentStateCode} Area`;
+        }
+
+        if (!regionMap.has(rName)) {
+          regionMap.set(rName, {
+            id: `reg-${rName.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`,
+            name: rName,
+            zips: [],
+            citiesMap: new Map()
+          });
+        }
+
+        const rEntry = regionMap.get(rName);
+        rEntry.zips.push(z.zip);
+
+        const cityName = (z.city || 'Area').trim();
+        const countyName = (z.county || '').trim();
+        if (!rEntry.citiesMap.has(cityName)) {
+          rEntry.citiesMap.set(cityName, {
+            id: `city-${rEntry.id}-${cityName.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`,
+            name: cityName,
+            county: countyName,
+            zips: []
+          });
+        }
+        rEntry.citiesMap.get(cityName).zips.push(z.zip);
+      });
+
+      const valid = Array.from(regionMap.values()).map(r => {
+        const citiesList = Array.from(r.citiesMap.values());
+        citiesList.sort((a, b) => b.zips.length - a.zips.length || a.name.localeCompare(b.name));
+        return {
+          id: r.id,
+          name: r.name,
+          zips: r.zips,
+          cities: citiesList
+        };
+      });
+
+      // Sort regions by total ZIP count descending
+      valid.sort((a, b) => b.zips.length - a.zips.length || a.name.localeCompare(b.name));
       return valid;
     }
 
