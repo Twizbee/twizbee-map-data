@@ -1708,15 +1708,20 @@
           return 'Riverside & Corona Metro';
         }
 
-        // 15. San Bernardino County
-        if (county === 'San Bernardino') {
+        // 15. San Bernardino County & Clark border (Jean, NV / Mojave I-15)
+        if (county === 'San Bernardino' || county === 'Clark') {
           if (['ontario', 'rancho cucamonga', 'chino', 'chino hills', 'fontana', 'upland', 'montclair'].includes(city)) {
             return 'Inland Empire West';
           }
           return 'San Bernardino & High Desert';
         }
 
-        // 16. San Diego County
+        // 16. Imperial County (El Centro, Brawley, Calexico, Salton City)
+        if (county === 'Imperial') {
+          return 'Imperial Valley';
+        }
+
+        // 17. San Diego County
         if (county === 'San Diego') {
           if (['oceanside', 'carlsbad', 'encinitas', 'solana beach', 'del mar', 'escondido', 'san marcos', 'vista', 'poway', 'fallbrook', 'bonsall', 'valley center', 'rancho santa fe', 'ramona'].includes(city)) {
             return 'San Diego North County';
@@ -1727,12 +1732,12 @@
           return 'San Diego Metro & Central';
         }
 
-        // 17. Greater Sacramento & Yolo
+        // 18. Greater Sacramento & Yolo
         if (['Sacramento', 'Yolo'].includes(county)) {
           return 'Sacramento & Yolo Metro';
         }
 
-        // 18. Central Coast & Monterey Bay
+        // 19. Central Coast & Monterey Bay
         if (['Santa Cruz', 'Monterey', 'San Benito'].includes(county)) {
           return 'Monterey Bay & Central Coast';
         }
@@ -1740,7 +1745,7 @@
           return 'Central Coast South & Ventura';
         }
 
-        // 19. San Joaquin Valley
+        // 20. San Joaquin Valley
         if (['San Joaquin', 'Stanislaus', 'Merced'].includes(county)) {
           return 'San Joaquin & Stanislaus';
         }
@@ -1748,13 +1753,13 @@
           return 'Fresno & Central Valley South';
         }
 
-        // 20. Sierra Nevada & Gold Country (consolidates Alpine, Amador, Calaveras, El Dorado, Placer, Tuolumne, Mariposa, Nevada)
+        // 21. Sierra Nevada & Gold Country (consolidates Alpine, Amador, Calaveras, El Dorado, Placer, Tuolumne, Mariposa, Nevada, Sierra, Inyo, Mono, Nye, Esmeralda, Washoe)
         if (['El Dorado', 'Placer', 'Amador', 'Calaveras', 'Tuolumne', 'Mariposa', 'Alpine', 'Nevada', 'Sierra', 'Inyo', 'Mono', 'Nye', 'Esmeralda', 'Washoe'].includes(county)) {
           return 'Sierra Nevada & Gold Country';
         }
 
-        // 21. Northern California & North State (consolidates Butte, Colusa, Sutter, Yuba, Lake, Mendocino, Shasta, Humboldt, Siskiyou)
-        if (['Butte', 'Colusa', 'Glenn', 'Humboldt', 'Lake', 'Mendocino', 'Shasta', 'Siskiyou', 'Sutter', 'Tehama', 'Trinity', 'Yuba', 'Del Norte', 'Modoc', 'Lassen', 'Plumas', 'Imperial', 'Clark'].includes(county)) {
+        // 22. Northern California & North State (consolidates Butte, Colusa, Sutter, Yuba, Lake, Mendocino, Shasta, Humboldt, Siskiyou, Tehama, Glenn, Trinity, Del Norte, Modoc, Lassen, Plumas)
+        if (['Butte', 'Colusa', 'Glenn', 'Humboldt', 'Lake', 'Mendocino', 'Shasta', 'Siskiyou', 'Sutter', 'Tehama', 'Trinity', 'Yuba', 'Del Norte', 'Modoc', 'Lassen', 'Plumas'].includes(county)) {
           return 'Northern California & North State';
         }
 
