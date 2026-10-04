@@ -7,6 +7,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/d3-array@3"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3-geo@3"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <style>
     :root {
       --primary: #007c91;
@@ -493,18 +497,20 @@
       position: absolute;
       top: 14px;
       left: 16px;
-      z-index: 10;
-      background: rgba(255, 255, 255, 0.94);
+      right: 16px;
+      z-index: 500;
+      background: rgba(255, 255, 255, 0.95);
       backdrop-filter: blur(8px);
       padding: 8px 14px;
       border-radius: 8px;
       border: 1px solid var(--border-color);
       font-size: 13px;
       font-weight: 600;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
       display: flex;
       align-items: center;
-      gap: 8px;
+      justify-content: space-between;
+      gap: 12px;
     }
 
     .legend-indicator {
@@ -513,6 +519,33 @@
       background: var(--purple-territory);
       border-radius: 3px;
       opacity: 0.85;
+    }
+
+    .map-mode-toggle {
+      display: flex;
+      align-items: center;
+      background: #f1f5f9;
+      padding: 2px;
+      border-radius: 6px;
+      border: 1px solid var(--border-color);
+    }
+
+    .mode-pill-btn {
+      border: none;
+      background: none;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text-muted);
+      padding: 4px 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .mode-pill-btn.active {
+      background: #ffffff;
+      color: var(--primary-dark);
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     }
 
     .map-canvas-container {
@@ -528,10 +561,21 @@
       cursor: grabbing;
     }
 
+    #gmapBase {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+    }
+
     #territorySvg {
       width: 100%;
       height: 100%;
       display: block;
+      position: absolute;
+      inset: 0;
+      z-index: 2;
     }
 
     /* SVG styling with crisp scaled non-scaling strokes */
@@ -540,6 +584,40 @@
       stroke: #cbd5e1;
       stroke-width: 0.85px;
       vector-effect: non-scaling-stroke;
+    }
+
+    .county-bg-path {
+      fill: none;
+      stroke: #d8e2ec;
+      stroke-width: 0.5px;
+      stroke-dasharray: 2, 2;
+      vector-effect: non-scaling-stroke;
+    }
+
+    .zip-bg-path {
+      fill: #f1f5f9;
+      stroke: #e2e8f0;
+      stroke-width: 0.3px;
+      vector-effect: non-scaling-stroke;
+      transition: fill 0.15s, stroke 0.15s;
+    }
+
+    /* Inactive / Available ZIPs (clickable on map to ADD to territory) */
+    .zip-inactive-path {
+      fill: rgba(255, 255, 255, 0.45);
+      stroke: #94a3b8;
+      stroke-width: 0.35px;
+      stroke-opacity: 0.5;
+      vector-effect: non-scaling-stroke;
+      cursor: pointer;
+      transition: fill 0.15s, stroke 0.15s, stroke-width 0.15s;
+    }
+
+    .zip-inactive-path:hover {
+      fill: rgba(234, 179, 8, 0.35) !important;
+      stroke: #ca8a04 !important;
+      stroke-width: 1.6px !important;
+      stroke-opacity: 1 !important;
     }
 
     .county-bg-path {
@@ -606,7 +684,7 @@
       position: absolute;
       right: 16px;
       bottom: 24px;
-      z-index: 10;
+      z-index: 500;
       display: flex;
       flex-direction: column;
       gap: 6px;
@@ -845,7 +923,7 @@
       border-radius: 6px;
       font-size: 12px;
       font-weight: 500;
-      z-index: 100;
+      z-index: 1000;
       display: none;
       box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     }
@@ -914,13 +992,24 @@
       <section class="map-column">
         <div class="map-frame">
           <div class="map-header-overlay">
-            <div class="legend-indicator"></div>
-            <span id="mapLegendLabel">Active Service Territory (<span id="activeZipsCountLabel">0</span> ZIPs)</span>
+            <div style="display: flex; align-items: center; gap: 8px;">
+              <div class="legend-indicator"></div>
+              <span id="mapLegendLabel">Active Service Territory (<span id="activeZipsCountLabel">0</span> ZIPs)</span>
+            </div>
+            <div class="map-mode-toggle" id="mapModeToggle">
+              <button class="mode-pill-btn active" id="btnGmapMode" title="Google Map Reference Base with Streets & Highways">🗺️ Google Map</button>
+              <button class="mode-pill-btn" id="btnSvgMode" title="Clean Vector SVG Outline">📐 Vector View</button>
+            </div>
           </div>
 
           <div class="map-canvas-container" id="mapContainer">
-            <svg id="territorySvg" viewBox="0 0 960 600" preserveAspectRatio="xMidYMid meet">
+            <!-- Google Maps Base Container -->
+            <div id="gmapBase"></div>
+
+            <!-- SVG Vector Container -->
+            <svg id="territorySvg" viewBox="0 0 960 600" preserveAspectRatio="xMidYMid meet" style="display: none;">
               <g id="stateBackgroundGroup"></g>
+              <g id="inactiveZipGroup"></g>
               <g id="territoryGroup"></g>
               <g id="highlightGroup"></g>
             </svg>
@@ -1014,11 +1103,24 @@
     let zipPathMap = new Map();   // Map<zip, pathString>
     let zipMetaMap = new Map();   // Map<zip, { city, county, bounds }>
 
+    // Dual Map Mode State
+    let currentMapMode = 'gmap'; // 'gmap' | 'svg'
+    let leafletMap = null;
+    let leafletGeoLayer = null;
+    let zipToLeafletLayerMap = new Map(); // Map<zip, L.Path>
+    let stateGpsBounds = null;
+
+    // d3 Albers USA Inverter Projection for Exact GPS Coordinates
+    const albersUsaProj = d3.geoAlbersUsa()
+      .scale(1229.9094920122677)
+      .translate([515.7498290720735, 295.4844247274167]);
+
     // DOM Elements
     const stateSelector = document.getElementById('stateSelector');
     const regionsList = document.getElementById('regionsList');
     const areaSearch = document.getElementById('areaSearch');
     const territoryGroup = document.getElementById('territoryGroup');
+    const inactiveZipGroup = document.getElementById('inactiveZipGroup');
     const stateBgGroup = document.getElementById('stateBackgroundGroup');
     const highlightGroup = document.getElementById('highlightGroup');
     const activeZipsCountLabel = document.getElementById('activeZipsCountLabel');
@@ -1029,8 +1131,11 @@
     const closeModalBtn = document.getElementById('closeModalBtn');
     const mapTooltip = document.getElementById('mapTooltip');
     const territorySvg = document.getElementById('territorySvg');
+    const gmapBase = document.getElementById('gmapBase');
+    const btnGmapMode = document.getElementById('btnGmapMode');
+    const btnSvgMode = document.getElementById('btnSvgMode');
 
-    // Pan / Zoom variables
+    // Pan / Zoom variables for SVG mode
     let viewBox = { x: 0, y: 0, w: 960, h: 600 };
     let initialViewBox = { x: 0, y: 0, w: 960, h: 600 };
     let isPanning = false;
@@ -1052,11 +1157,81 @@
       });
 
       areaSearch.addEventListener('input', handleSearch);
+      setupModeToggle();
       setupZoomPan();
       setupModal();
+      initLeafletMap();
 
       // Load initial state (California)
       loadState('CA');
+    }
+
+    // Mode Toggle Setup
+    function setupModeToggle() {
+      btnGmapMode.addEventListener('click', () => setMapMode('gmap'));
+      btnSvgMode.addEventListener('click', () => setMapMode('svg'));
+    }
+
+    function setMapMode(mode) {
+      currentMapMode = mode;
+      if (mode === 'gmap') {
+        btnGmapMode.classList.add('active');
+        btnSvgMode.classList.remove('active');
+        gmapBase.style.display = 'block';
+        territorySvg.style.display = 'none';
+        if (leafletMap) {
+          leafletMap.invalidateSize();
+          if (stateGpsBounds) {
+            leafletMap.fitBounds(stateGpsBounds, { padding: [20, 20] });
+          }
+        }
+      } else {
+        btnSvgMode.classList.add('active');
+        btnGmapMode.classList.remove('active');
+        territorySvg.style.display = 'block';
+        gmapBase.style.display = 'none';
+        renderSvgTerritoryLayers();
+        zoomToFitState();
+      }
+    }
+
+    // Initialize Leaflet with Google Maps Roadmap Tiles
+    function initLeafletMap() {
+      if (leafletMap) return;
+      leafletMap = L.map('gmapBase', {
+        center: [37.7749, -122.4194],
+        zoom: 8,
+        zoomControl: false,
+        attributionControl: false
+      });
+
+      L.tileLayer('https://mt{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
+        subdomains: '0123',
+        maxZoom: 19
+      }).addTo(leafletMap);
+    }
+
+    // Helper: Parse SVG path into coordinate rings
+    function parseSvgPathToRings(d) {
+      if (!d) return [];
+      const commands = d.match(/[MLZ][^MLZ]*/g) || [];
+      const rings = [];
+      let currentRing = [];
+      for (const cmd of commands) {
+        const type = cmd[0];
+        const rest = cmd.slice(1).trim();
+        if (type === 'M' || type === 'L') {
+          const coords = rest.split(',').map(Number);
+          if (coords.length === 2 && !isNaN(coords[0]) && !isNaN(coords[1])) {
+            currentRing.push(coords);
+          }
+        } else if (type === 'Z') {
+          if (currentRing.length > 2) rings.push(currentRing);
+          currentRing = [];
+        }
+      }
+      if (currentRing.length > 2) rings.push(currentRing);
+      return rings;
     }
 
     // 2. Load State Data
@@ -1072,6 +1247,7 @@
         zipPathMap.clear();
         zipMetaMap.clear();
         selectedZips.clear();
+        zipToLeafletLayerMap.clear();
 
         (currentStateData.zipcodes || []).forEach(z => {
           if (z.path) zipPathMap.set(z.zip, z.path);
@@ -1082,7 +1258,7 @@
           });
         });
 
-        // Set initial selected ZIPs (default: first region selected as demo initial state)
+        // Default: first region selected as demo initial state
         if (currentStateData.regions && currentStateData.regions.length > 0) {
           const firstReg = currentStateData.regions[0];
           (firstReg.zips || []).forEach(z => selectedZips.add(z));
@@ -1090,9 +1266,16 @@
 
         renderBackground();
         renderRegionsList();
-        renderTerritoryLayer();
+        renderSvgTerritoryLayers();
+        buildLeafletTerritoryLayer();
         updateSummaryStats();
-        zoomToFitState();
+
+        if (currentMapMode === 'gmap' && leafletMap && stateGpsBounds) {
+          leafletMap.invalidateSize();
+          leafletMap.fitBounds(stateGpsBounds, { padding: [20, 20] });
+        } else {
+          zoomToFitState();
+        }
 
       } catch (err) {
         console.error('Failed to load state:', err);
@@ -1100,12 +1283,11 @@
       }
     }
 
-    // 3. Render Background SVG Outline
+    // 3. Render Background SVG Outline (County lines)
     function renderBackground() {
       stateBgGroup.innerHTML = '';
       if (!currentStateData) return;
 
-      // Draw counties in subtle outline
       (currentStateData.counties || []).forEach(co => {
         if (co.path) {
           const p = document.createElementNS('http://www.w3.org/2000/svg', 'path');
@@ -1116,7 +1298,192 @@
       });
     }
 
-    // 4. Render Accordion Regions List
+    // Google Maps Layer Style Generator
+    function getLeafletZipStyle(isActive) {
+      return {
+        fillColor: isActive ? '#6b46c1' : '#ffffff',
+        fillOpacity: isActive ? 0.42 : 0.05,
+        color: isActive ? '#553c9a' : '#94a3b8',
+        weight: isActive ? 1.0 : 0.4,
+        opacity: isActive ? 0.85 : 0.35
+      };
+    }
+
+    // Build Google Map Leaflet Territory Layer
+    function buildLeafletTerritoryLayer() {
+      if (!leafletMap) return;
+      if (leafletGeoLayer) {
+        leafletMap.removeLayer(leafletGeoLayer);
+        leafletGeoLayer = null;
+      }
+      zipToLeafletLayerMap.clear();
+
+      const geojsonFeatures = [];
+      const zips = Array.from(zipPathMap.keys());
+
+      for (const zip of zips) {
+        const pathD = zipPathMap.get(zip);
+        if (!pathD) continue;
+        const rings = parseSvgPathToRings(pathD);
+        const coordinates = rings.map(ring => {
+          return ring.map(([x, y]) => {
+            const lonLat = albersUsaProj.invert([x, y]);
+            return lonLat ? [lonLat[0], lonLat[1]] : null;
+          }).filter(Boolean);
+        }).filter(r => r.length > 2);
+
+        if (coordinates.length > 0) {
+          geojsonFeatures.push({
+            type: 'Feature',
+            id: zip,
+            properties: { zip },
+            geometry: {
+              type: coordinates.length === 1 ? 'Polygon' : 'MultiPolygon',
+              coordinates: coordinates.length === 1 ? coordinates : coordinates.map(c => [c])
+            }
+          });
+        }
+      }
+
+      leafletGeoLayer = L.geoJSON({
+        type: 'FeatureCollection',
+        features: geojsonFeatures
+      }, {
+        style: (feature) => {
+          const isAct = selectedZips.has(feature.id);
+          return getLeafletZipStyle(isAct);
+        },
+        onEachFeature: (feature, lyr) => {
+          const zip = feature.id;
+          zipToLeafletLayerMap.set(zip, lyr);
+
+          // Click on Google Map toggles active / inactive
+          lyr.on('click', () => {
+            toggleZip(zip);
+          });
+
+          // Hover highlights in gold & updates tooltip with action hint
+          lyr.on('mouseover', (e) => {
+            const meta = zipMetaMap.get(zip) || {};
+            const isAct = selectedZips.has(zip);
+            const actionText = isAct ? 'Click to REMOVE' : 'Click to ADD';
+            showTooltip(e.originalEvent, `${zip} • ${meta.city || 'ZIP'} (${meta.county || currentStateCode} Co.) • ${actionText}`);
+            lyr.setStyle({
+              fillColor: '#eab308',
+              fillOpacity: 0.45,
+              color: '#ca8a04',
+              weight: 2.0,
+              opacity: 1.0
+            });
+            lyr.bringToFront();
+          });
+
+          lyr.on('mousemove', (e) => {
+            moveTooltip(e.originalEvent);
+          });
+
+          lyr.on('mouseout', () => {
+            hideTooltip();
+            const isAct = selectedZips.has(zip);
+            lyr.setStyle(getLeafletZipStyle(isAct));
+          });
+        }
+      }).addTo(leafletMap);
+
+      if (geojsonFeatures.length > 0) {
+        stateGpsBounds = leafletGeoLayer.getBounds();
+      }
+    }
+
+    // 4. Universal Toggle: Add or Remove ZIP directly from Map or Accordion
+    function toggleZip(zip, forceState) {
+      const shouldBeActive = forceState !== undefined ? forceState : !selectedZips.has(zip);
+      if (shouldBeActive) {
+        selectedZips.add(zip);
+      } else {
+        selectedZips.delete(zip);
+      }
+
+      // 1. Update Google Map Leaflet polygon style immediately
+      const lyr = zipToLeafletLayerMap.get(zip);
+      if (lyr) {
+        lyr.setStyle(getLeafletZipStyle(shouldBeActive));
+      }
+
+      // 2. Update SVG layers if in SVG mode
+      if (currentMapMode === 'svg') {
+        renderSvgTerritoryLayers();
+      }
+
+      // 3. Update chip in left accordion
+      const chip = document.querySelector(`.zip-chip[data-zip="${zip}"]`);
+      if (chip) {
+        chip.classList.toggle('active', shouldBeActive);
+      }
+
+      // 4. Update parent city checkboxes and region counters
+      updateAccordionCounters();
+
+      // 5. Update summary counts
+      activeZipsCountLabel.textContent = selectedZips.size;
+      updateSummaryStats();
+    }
+
+    // 5. Render SVG Layers (Both Active Purple & Inactive Ghost Outlines)
+    function renderSvgTerritoryLayers() {
+      territoryGroup.innerHTML = '';
+      if (inactiveZipGroup) inactiveZipGroup.innerHTML = '';
+      if (!currentStateData) return;
+
+      zipPathMap.forEach((pathD, zip) => {
+        const isAct = selectedZips.has(zip);
+        const meta = zipMetaMap.get(zip) || {};
+
+        let maxDim = 2.0;
+        if (meta.bounds && meta.bounds.length >= 4) {
+          maxDim = Math.max(meta.bounds[2], meta.bounds[3]);
+        }
+
+        let scaleClass = 'zip-scale-md';
+        if (maxDim < 0.6) scaleClass = 'zip-scale-xs';
+        else if (maxDim < 1.5) scaleClass = 'zip-scale-sm';
+        else if (maxDim < 3.5) scaleClass = 'zip-scale-md';
+        else if (maxDim < 8.0) scaleClass = 'zip-scale-lg';
+        else scaleClass = 'zip-scale-xl';
+
+        const pathEl = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        pathEl.setAttribute('d', pathD);
+        pathEl.setAttribute('vector-effect', 'non-scaling-stroke');
+        pathEl.dataset.zip = zip;
+
+        if (isAct) {
+          pathEl.setAttribute('class', `zip-active-path ${scaleClass}`);
+          pathEl.addEventListener('mouseenter', (e) => {
+            showTooltip(e, `${zip} • ${meta.city || 'ZIP'} (${meta.county || currentStateCode} Co.) • Click to REMOVE`);
+            pathEl.classList.add('zip-hover-highlight');
+          });
+          pathEl.addEventListener('click', () => toggleZip(zip, false));
+          territoryGroup.appendChild(pathEl);
+        } else {
+          pathEl.setAttribute('class', `zip-inactive-path ${scaleClass}`);
+          pathEl.addEventListener('mouseenter', (e) => {
+            showTooltip(e, `${zip} • ${meta.city || 'ZIP'} (${meta.county || currentStateCode} Co.) • Click to ADD`);
+          });
+          pathEl.addEventListener('click', () => toggleZip(zip, true));
+          if (inactiveZipGroup) inactiveZipGroup.appendChild(pathEl);
+        }
+
+        pathEl.addEventListener('mousemove', moveTooltip);
+        pathEl.addEventListener('mouseleave', () => {
+          hideTooltip();
+          pathEl.classList.remove('zip-hover-highlight');
+        });
+      });
+
+      activeZipsCountLabel.textContent = selectedZips.size;
+    }
+
+    // 6. Render Accordion Regions List
     function renderRegionsList(filterQuery = '') {
       regionsList.innerHTML = '';
       if (!currentStateData || !currentStateData.regions) return;
@@ -1124,10 +1491,8 @@
       const q = filterQuery.toLowerCase().trim();
 
       currentStateData.regions.forEach((reg, regIdx) => {
-        // Collect cities in this region
         let cities = reg.cities || [];
 
-        // If searching, filter cities or check region name
         if (q) {
           const regMatches = reg.name.toLowerCase().includes(q);
           cities = cities.filter(c => {
@@ -1138,12 +1503,10 @@
           if (cities.length === 0 && !regMatches) return;
         }
 
-        // Region DOM Item
         const item = document.createElement('div');
         item.className = `region-item ${regIdx === 0 ? 'expanded' : ''}`;
         item.dataset.regionId = reg.id;
 
-        // Calculate selected count
         const totalZipsInReg = reg.zips || [];
         const activeZipsInReg = totalZipsInReg.filter(z => selectedZips.has(z)).length;
         const totalCities = cities.length;
@@ -1159,7 +1522,7 @@
             </div>
             <div class="region-actions">
               <button class="toggle-all-btn" data-action="toggle-all">
-                ${activeZipsInReg === totalZipsInReg.length ? 'Clear All' : 'Select All'}
+                ${activeZipsInReg === totalZipsInReg.length && totalZipsInReg.length > 0 ? 'Clear All' : 'Select All'}
               </button>
               <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
                 <polyline points="6 9 12 15 18 9"></polyline>
@@ -1173,7 +1536,6 @@
         const body = item.querySelector('.region-body');
         const toggleAllBtn = item.querySelector('.toggle-all-btn');
 
-        // Accordion expand/collapse
         header.addEventListener('click', (e) => {
           if (e.target.closest('.toggle-all-btn')) return;
           item.classList.toggle('expanded');
@@ -1182,19 +1544,22 @@
           }
         });
 
-        // Toggle All button
         toggleAllBtn.addEventListener('click', (e) => {
           e.stopPropagation();
           const allSelected = (reg.zips || []).every(z => selectedZips.has(z));
-          if (allSelected) {
-            (reg.zips || []).forEach(z => selectedZips.delete(z));
-          } else {
-            (reg.zips || []).forEach(z => selectedZips.add(z));
-          }
-          refreshAllUI();
+          const activate = !allSelected;
+          (reg.zips || []).forEach(z => {
+            if (activate) selectedZips.add(z);
+            else selectedZips.delete(z);
+            const lyr = zipToLeafletLayerMap.get(z);
+            if (lyr) lyr.setStyle(getLeafletZipStyle(activate));
+          });
+          if (currentMapMode === 'svg') renderSvgTerritoryLayers();
+          updateAccordionCounters();
+          activeZipsCountLabel.textContent = selectedZips.size;
+          updateSummaryStats();
         });
 
-        // Render each City / Town card
         cities.forEach(city => {
           const cityCard = document.createElement('div');
           cityCard.className = 'city-card';
@@ -1230,20 +1595,23 @@
           const cityLabel = cityCard.querySelector('.city-label');
           const chipsContainer = cityCard.querySelector('.zip-chips-container');
 
-          // City toggle action
           const toggleCity = () => {
-            if (isFullyChecked) {
-              cityZips.forEach(z => selectedZips.delete(z));
-            } else {
-              cityZips.forEach(z => selectedZips.add(z));
-            }
-            refreshAllUI();
+            const activate = !isFullyChecked;
+            cityZips.forEach(z => {
+              if (activate) selectedZips.add(z);
+              else selectedZips.delete(z);
+              const lyr = zipToLeafletLayerMap.get(z);
+              if (lyr) lyr.setStyle(getLeafletZipStyle(activate));
+            });
+            if (currentMapMode === 'svg') renderSvgTerritoryLayers();
+            updateAccordionCounters();
+            activeZipsCountLabel.textContent = selectedZips.size;
+            updateSummaryStats();
           };
 
           checkEl.addEventListener('click', toggleCity);
           cityLabel.addEventListener('click', toggleCity);
 
-          // Render individual ZIP code pill chips
           cityZips.forEach(zip => {
             const chip = document.createElement('button');
             const isActive = selectedZips.has(zip);
@@ -1251,18 +1619,11 @@
             chip.textContent = zip;
             chip.dataset.zip = zip;
 
-            // Click chip
             chip.addEventListener('click', (e) => {
               e.stopPropagation();
-              if (selectedZips.has(zip)) {
-                selectedZips.delete(zip);
-              } else {
-                selectedZips.add(zip);
-              }
-              refreshAllUI();
+              toggleZip(zip);
             });
 
-            // Hover chip flashes map boundary
             chip.addEventListener('mouseenter', () => highlightZipOnMap(zip));
             chip.addEventListener('mouseleave', () => clearZipHighlight());
 
@@ -1276,92 +1637,105 @@
       });
     }
 
-    // 5. Render Active Purple Territory Layer on SVG with scaled borders
-    function renderTerritoryLayer() {
-      territoryGroup.innerHTML = '';
-      if (!currentStateData) return;
+    // 7. Update Accordion Checkboxes and Counters without DOM recreation
+    function updateAccordionCounters() {
+      if (!currentStateData || !currentStateData.regions) return;
 
-      selectedZips.forEach(zip => {
-        const pathD = zipPathMap.get(zip);
-        if (!pathD) return;
+      currentStateData.regions.forEach(reg => {
+        const item = document.querySelector(`.region-item[data-region-id="${reg.id}"]`);
+        if (!item) return;
 
-        const pathEl = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-        pathEl.setAttribute('d', pathD);
-        pathEl.setAttribute('vector-effect', 'non-scaling-stroke');
-        pathEl.dataset.zip = zip;
+        const totalZipsInReg = reg.zips || [];
+        const activeZipsInReg = totalZipsInReg.filter(z => selectedZips.has(z)).length;
+        const cities = reg.cities || [];
+        const totalCities = cities.length;
+        const activeCities = cities.filter(c => (c.zips || []).some(z => selectedZips.has(z))).length;
 
-        // Proportional border scaling based on physical ZIP dimensions
-        const meta = zipMetaMap.get(zip) || {};
-        let maxDim = 2.0;
-        if (meta.bounds && meta.bounds.length >= 4) {
-          maxDim = Math.max(meta.bounds[2], meta.bounds[3]);
+        const countText = item.querySelector('.active-count-text');
+        if (countText) {
+          countText.innerHTML = `<b>${activeCities}</b> of ${totalCities} areas selected`;
         }
 
-        let scaleClass = 'zip-scale-md';
-        if (maxDim < 0.6) {
-          scaleClass = 'zip-scale-xs';
-        } else if (maxDim < 1.5) {
-          scaleClass = 'zip-scale-sm';
-        } else if (maxDim < 3.5) {
-          scaleClass = 'zip-scale-md';
-        } else if (maxDim < 8.0) {
-          scaleClass = 'zip-scale-lg';
-        } else {
-          scaleClass = 'zip-scale-xl';
+        const toggleBtn = item.querySelector('.toggle-all-btn');
+        if (toggleBtn) {
+          toggleBtn.textContent = (activeZipsInReg === totalZipsInReg.length && totalZipsInReg.length > 0) ? 'Clear All' : 'Select All';
         }
 
-        pathEl.setAttribute('class', `zip-active-path ${scaleClass}`);
+        cities.forEach(city => {
+          const card = item.querySelector(`.city-card[data-city-id="${city.id}"]`);
+          if (!card) return;
+          const checkEl = card.querySelector('.custom-check');
+          if (!checkEl) return;
+          const cityZips = city.zips || [];
+          const activeCityZips = cityZips.filter(z => selectedZips.has(z));
+          const isFully = cityZips.length > 0 && activeCityZips.length === cityZips.length;
+          const isIndet = activeCityZips.length > 0 && activeCityZips.length < cityZips.length;
 
-        // Tooltip listeners
-        pathEl.addEventListener('mouseenter', (e) => {
-          showTooltip(e, `${zip} • ${meta.city || 'ZIP'} (${meta.county || currentStateCode})`);
-          pathEl.classList.add('zip-hover-highlight');
+          checkEl.className = `custom-check ${isFully ? 'checked' : (isIndet ? 'indeterminate' : '')}`;
+          checkEl.innerHTML = isFully ? `
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+          ` : (isIndet ? `
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+          ` : '');
         });
-
-        pathEl.addEventListener('mousemove', moveTooltip);
-
-        pathEl.addEventListener('mouseleave', () => {
-          hideTooltip();
-          pathEl.classList.remove('zip-hover-highlight');
-        });
-
-        // Click on map toggles ZIP
-        pathEl.addEventListener('click', () => {
-          selectedZips.delete(zip);
-          refreshAllUI();
-        });
-
-        territoryGroup.appendChild(pathEl);
       });
-
-      activeZipsCountLabel.textContent = selectedZips.size;
     }
 
-    // 6. Highlight single ZIP on map when hovering chip
+    // 8. Highlight single ZIP on map when hovering chip
     function highlightZipOnMap(zip) {
-      clearZipHighlight();
-      const pathD = zipPathMap.get(zip);
-      if (!pathD) return;
-
-      const p = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-      p.setAttribute('d', pathD);
-      p.setAttribute('vector-effect', 'non-scaling-stroke');
-      p.setAttribute('class', 'zip-hover-highlight');
-      highlightGroup.appendChild(p);
+      if (currentMapMode === 'gmap') {
+        const lyr = zipToLeafletLayerMap.get(zip);
+        if (lyr) {
+          lyr.setStyle({
+            fillColor: '#eab308',
+            fillOpacity: 0.55,
+            color: '#ca8a04',
+            weight: 2.5,
+            opacity: 1.0
+          });
+          lyr.bringToFront();
+        }
+      } else {
+        clearZipHighlight();
+        const pathD = zipPathMap.get(zip);
+        if (!pathD) return;
+        const p = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        p.setAttribute('d', pathD);
+        p.setAttribute('vector-effect', 'non-scaling-stroke');
+        p.setAttribute('class', 'zip-hover-highlight');
+        highlightGroup.appendChild(p);
+      }
     }
 
     function clearZipHighlight() {
-      highlightGroup.innerHTML = '';
+      if (currentMapMode === 'gmap') {
+        zipToLeafletLayerMap.forEach((lyr, zip) => {
+          const isAct = selectedZips.has(zip);
+          lyr.setStyle(getLeafletZipStyle(isAct));
+        });
+      } else {
+        highlightGroup.innerHTML = '';
+      }
     }
 
-    // 7. Refresh UI across both columns
+    // 9. Refresh UI across both columns
     function refreshAllUI() {
-      renderTerritoryLayer();
+      if (currentMapMode === 'gmap') {
+        zipToLeafletLayerMap.forEach((lyr, zip) => {
+          lyr.setStyle(getLeafletZipStyle(selectedZips.has(zip)));
+        });
+      } else {
+        renderSvgTerritoryLayers();
+      }
       renderRegionsList(areaSearch.value);
       updateSummaryStats();
     }
 
-    // 8. Update bottom bar stats
+    // 10. Update bottom bar stats
     function updateSummaryStats() {
       if (!currentStateData) return;
 
@@ -1382,17 +1756,37 @@
       statSummaryText.textContent = `${targetedRegionsCount} regions • ${targetedCitiesCount} cities • ${selectedZips.size} ZIPs targeted`;
     }
 
-    // 9. Map Zoom / Fit functions
+    // 11. Map Zoom / Fit functions
     function zoomToFitState() {
-      if (!currentStateData) return;
-      const b = currentStateData.bounds || [0, 0, 960, 600];
-      animateViewBox(b[0] - 20, b[1] - 20, b[2] + 40, b[3] + 40);
+      if (currentMapMode === 'gmap' && leafletMap && stateGpsBounds) {
+        leafletMap.fitBounds(stateGpsBounds, { padding: [20, 20] });
+      } else if (currentStateData) {
+        const b = currentStateData.bounds || [0, 0, 960, 600];
+        animateViewBox(b[0] - 20, b[1] - 20, b[2] + 40, b[3] + 40);
+      }
     }
 
     function zoomToRegion(reg) {
-      if (reg.bounds) {
-        const [x, y, w, h] = reg.bounds;
-        animateViewBox(x - 15, y - 15, w + 30, h + 30);
+      if (currentMapMode === 'gmap') {
+        if (leafletMap && reg.zips && reg.zips.length > 0) {
+          const latLngs = [];
+          reg.zips.forEach(z => {
+            const lyr = zipToLeafletLayerMap.get(z);
+            if (lyr && lyr.getBounds) {
+              const b = lyr.getBounds();
+              latLngs.push(b.getSouthWest());
+              latLngs.push(b.getNorthEast());
+            }
+          });
+          if (latLngs.length > 0) {
+            leafletMap.fitBounds(L.latLngBounds(latLngs), { padding: [30, 30], maxZoom: 12 });
+          }
+        }
+      } else {
+        if (reg.bounds) {
+          const [x, y, w, h] = reg.bounds;
+          animateViewBox(x - 15, y - 15, w + 30, h + 30);
+        }
       }
     }
 
@@ -1401,38 +1795,53 @@
       territorySvg.setAttribute('viewBox', `${viewBox.x} ${viewBox.y} ${viewBox.w} ${viewBox.h}`);
     }
 
-    // Zoom controls
+    // Zoom controls & Pan
     function setupZoomPan() {
       document.getElementById('zoomInBtn').addEventListener('click', () => {
-        const factor = 0.75;
-        viewBox.x += (viewBox.w * (1 - factor)) / 2;
-        viewBox.y += (viewBox.h * (1 - factor)) / 2;
-        viewBox.w *= factor;
-        viewBox.h *= factor;
-        territorySvg.setAttribute('viewBox', `${viewBox.x} ${viewBox.y} ${viewBox.w} ${viewBox.h}`);
+        if (currentMapMode === 'gmap' && leafletMap) {
+          leafletMap.zoomIn();
+        } else {
+          const factor = 0.75;
+          viewBox.x += (viewBox.w * (1 - factor)) / 2;
+          viewBox.y += (viewBox.h * (1 - factor)) / 2;
+          viewBox.w *= factor;
+          viewBox.h *= factor;
+          territorySvg.setAttribute('viewBox', `${viewBox.x} ${viewBox.y} ${viewBox.w} ${viewBox.h}`);
+        }
       });
 
       document.getElementById('zoomOutBtn').addEventListener('click', () => {
-        const factor = 1.33;
-        viewBox.x -= (viewBox.w * (factor - 1)) / 2;
-        viewBox.y -= (viewBox.h * (factor - 1)) / 2;
-        viewBox.w *= factor;
-        viewBox.h *= factor;
-        territorySvg.setAttribute('viewBox', `${viewBox.x} ${viewBox.y} ${viewBox.w} ${viewBox.h}`);
+        if (currentMapMode === 'gmap' && leafletMap) {
+          leafletMap.zoomOut();
+        } else {
+          const factor = 1.33;
+          viewBox.x -= (viewBox.w * (factor - 1)) / 2;
+          viewBox.y -= (viewBox.h * (factor - 1)) / 2;
+          viewBox.w *= factor;
+          viewBox.h *= factor;
+          territorySvg.setAttribute('viewBox', `${viewBox.x} ${viewBox.y} ${viewBox.w} ${viewBox.h}`);
+        }
       });
 
-      document.getElementById('resetZoomBtn').addEventListener('click', zoomToFitState);
+      document.getElementById('resetZoomBtn').addEventListener('click', () => {
+        if (currentMapMode === 'gmap' && leafletMap && stateGpsBounds) {
+          leafletMap.fitBounds(stateGpsBounds, { padding: [20, 20] });
+        } else {
+          zoomToFitState();
+        }
+      });
 
-      // Mouse drag panning
+      // SVG mouse drag panning (only when in SVG mode)
       const mapContainer = document.getElementById('mapContainer');
       mapContainer.addEventListener('mousedown', (e) => {
+        if (currentMapMode !== 'svg') return;
         if (e.target.tagName === 'BUTTON') return;
         isPanning = true;
         startPoint = { x: e.clientX, y: e.clientY };
       });
 
       window.addEventListener('mousemove', (e) => {
-        if (!isPanning) return;
+        if (!isPanning || currentMapMode !== 'svg') return;
         const dx = (e.clientX - startPoint.x) * (viewBox.w / mapContainer.clientWidth);
         const dy = (e.clientY - startPoint.y) * (viewBox.h / mapContainer.clientHeight);
         viewBox.x -= dx;
@@ -1443,8 +1852,9 @@
 
       window.addEventListener('mouseup', () => { isPanning = false; });
 
-      // Wheel zoom
+      // SVG wheel zoom (only when in SVG mode)
       mapContainer.addEventListener('wheel', (e) => {
+        if (currentMapMode !== 'svg') return;
         e.preventDefault();
         const factor = e.deltaY > 0 ? 1.15 : 0.87;
         viewBox.x += (viewBox.w * (1 - factor)) / 2;
@@ -1455,19 +1865,25 @@
       });
     }
 
-    // 10. Search handler
+    // 12. Search handler
     function handleSearch(e) {
       renderRegionsList(e.target.value);
     }
 
-    // 11. Modal Setup & Export
+    // 13. Modal Setup & Export
     function setupModal() {
       const resetBtn = document.getElementById('resetAllBtn');
       const saveBtn = document.getElementById('savePreferencesBtn');
 
       resetBtn.addEventListener('click', () => {
         selectedZips.clear();
-        refreshAllUI();
+        if (leafletGeoLayer) {
+          zipToLeafletLayerMap.forEach(lyr => lyr.setStyle(getLeafletZipStyle(false)));
+        }
+        if (currentMapMode === 'svg') renderSvgTerritoryLayers();
+        updateAccordionCounters();
+        activeZipsCountLabel.textContent = 0;
+        updateSummaryStats();
       });
 
       saveBtn.addEventListener('click', () => {
@@ -1508,7 +1924,6 @@
           const activeInCity = cZips.filter(z => selectedZips.has(z));
           if (activeInCity.length > 0) {
             targetedCities.push(c.id);
-            // Any excluded ZIPs in a partially targeted city
             cZips.forEach(z => {
               if (!selectedZips.has(z)) excludedZips.push(z);
             });
@@ -1529,7 +1944,7 @@
       };
     }
 
-    // 12. Tooltip helpers
+    // 14. Tooltip helpers
     function showTooltip(e, text) {
       mapTooltip.textContent = text;
       mapTooltip.style.display = 'block';
