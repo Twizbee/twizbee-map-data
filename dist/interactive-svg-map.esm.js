@@ -525,8 +525,8 @@ var GeoMap = class {
       <!-- Layer: Cities & Capitals (Official Outlines Only - No Marker Circles or Large Text Labels) -->
       <g id="layer-cities" class="layer-cities" style="display: ${["cities", "all"].includes(this.activeLayer) ? "block" : "none"}">
         <g class="city-boundaries-sublayer">
-          ${(stateData.cities || []).filter((c) => c.path).map((c) => `
-            <path class="city-boundary-path" id="city-path-${c.id || c.name.toLowerCase().replace(/[^a-z0-9]+/g, "-")}" data-id="${c.id || ""}" data-name="${c.name}" d="${c.path}" vector-effect="non-scaling-stroke">
+          ${(stateData.cities || []).filter((c) => c.path || c.stitchedPath).map((c) => `
+            <path class="city-boundary-path" id="city-path-${c.id || c.name.toLowerCase().replace(/[^a-z0-9]+/g, "-")}" data-id="${c.id || ""}" data-name="${c.name}" d="${c.path || c.stitchedPath}" vector-effect="non-scaling-stroke">
               <title>${c.name}${c.county ? " (" + c.county + " Co.)" : ""} \u2022 ${c.zipCount || 1} ZIPs</title>
             </path>
           `).join("")}
