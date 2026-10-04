@@ -1139,10 +1139,10 @@
       <section class="accordion-column">
         <!-- Area Level Selection Tabs -->
         <div class="sidebar-tabs" id="sidebarTabs">
-          <button class="sidebar-tab-btn active" data-group="counties" title="Group and select by Counties">🏛️ Counties</button>
-          <button class="sidebar-tab-btn" data-group="regions" title="Group and select by Metropolitan Regions">🏙️ Regions</button>
-          <button class="sidebar-tab-btn" data-group="cities" title="Group and select by Cities">📍 Cities</button>
-          <button class="sidebar-tab-btn" data-group="zips" title="Fine-tune individual ZIP codes">🎯 Single ZIPs</button>
+          <button class="sidebar-tab-btn active" data-group="counties" title="Group and select by Counties">Counties</button>
+          <button class="sidebar-tab-btn" data-group="regions" title="Group and select by Metropolitan Regions">Regions</button>
+          <button class="sidebar-tab-btn" data-group="cities" title="Group and select by Cities">Cities</button>
+          <button class="sidebar-tab-btn" data-group="zips" title="Fine-tune individual ZIP codes">Single ZIPs</button>
         </div>
         <div class="search-bar-wrap">
           <input type="text" id="areaSearch" class="search-input" placeholder="Search county, region, city, or 5-digit ZIP code...">
@@ -1168,10 +1168,10 @@
               <span id="mapLegendLabel">Active Service Territory (<span id="activeZipsCountLabel">0</span> ZIPs)</span>
             </div>
             <div class="group-mode-toggle" id="groupModeToggle">
-              <button class="mode-pill-btn active" id="btnGroupCounties" data-group="counties" title="Clicking map adds entire County (all county ZIPs)">🏛️ Counties</button>
-              <button class="mode-pill-btn" id="btnGroupRegions" data-group="regions" title="Clicking map adds entire Metropolitan Region">🏙️ Regions</button>
-              <button class="mode-pill-btn" id="btnGroupCities" data-group="cities" title="Clicking map adds entire City (all city ZIPs)">📍 Cities</button>
-              <button class="mode-pill-btn" id="btnGroupZips" data-group="zips" title="Clicking map selects or deselects individual ZIPs">🎯 Single ZIPs</button>
+              <button class="mode-pill-btn active" id="btnGroupCounties" data-group="counties" title="Clicking map adds entire County (all county ZIPs)">Counties</button>
+              <button class="mode-pill-btn" id="btnGroupRegions" data-group="regions" title="Clicking map adds entire Metropolitan Region">Regions</button>
+              <button class="mode-pill-btn" id="btnGroupCities" data-group="cities" title="Clicking map adds entire City (all city ZIPs)">Cities</button>
+              <button class="mode-pill-btn" id="btnGroupZips" data-group="zips" title="Clicking map selects or deselects individual ZIPs">Single ZIPs</button>
             </div>
           </div>
 
@@ -1191,7 +1191,12 @@
           <div class="map-controls">
             <button class="control-btn" id="zoomInBtn" title="Zoom In">+</button>
             <button class="control-btn" id="zoomOutBtn" title="Zoom Out">−</button>
-            <button class="control-btn" id="resetZoomBtn" title="Reset View" style="font-size: 13px;">⟲</button>
+            <button class="control-btn" id="resetZoomBtn" title="Reset View" style="display: flex; align-items: center; justify-content: center;">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/>
+                <path d="M3 3v5h5"/>
+              </svg>
+            </button>
           </div>
         </div>
 
@@ -1450,11 +1455,40 @@
         selectedZips.clear();
         zipToLeafletLayerMap.clear();
 
+        // Ensure every ZIP has a valid county and human-readable city by snapping any missing metadata to nearest neighbor
+        const validZips = (currentStateData.zipcodes || []).filter(z => 
+          z.county && z.county.trim() && z.city && !/^\d+$/.test(z.city.trim())
+        );
+
         (currentStateData.zipcodes || []).forEach(z => {
+          let cName = (z.city || '').trim();
+          let coName = (z.county || '').trim();
+
+          if ((!coName || !cName || /^\d+$/.test(cName)) && validZips.length > 0 && z.lat != null && z.lon != null) {
+            let bestNeighbor = validZips[0];
+            let bestDistSq = Infinity;
+            for (let i = 0; i < validZips.length; i++) {
+              const vz = validZips[i];
+              const dSq = (vz.lat - z.lat) ** 2 + (vz.lon - z.lon) ** 2;
+              if (dSq < bestDistSq) {
+                bestDistSq = dSq;
+                bestNeighbor = vz;
+              }
+            }
+            if (!coName) {
+              coName = bestNeighbor.county;
+              z.county = coName;
+            }
+            if (!cName || /^\d+$/.test(cName)) {
+              cName = bestNeighbor.city;
+              z.city = cName;
+            }
+          }
+
           if (z.path) zipPathMap.set(z.zip, z.path);
           zipMetaMap.set(z.zip, {
-            city: z.city || '',
-            county: z.county || '',
+            city: cName,
+            county: coName,
             bounds: z.bounds || null,
             lat: z.lat,
             lon: z.lon
@@ -1614,6 +1648,30 @@
             cMap.get(cName).zips.push(z);
           });
           cities = Array.from(cMap.values());
+        }
+
+        if (cities.length > 0) {
+          const zipCityMap = new Map();
+          cities.forEach(c => (c.zips || []).forEach(z => zipCityMap.set(z, c)));
+          zips.forEach(z => {
+            if (!zipCityMap.has(z)) {
+              const meta = zipMetaMap.get(z) || {};
+              const targetCityName = (meta.city || 'Other Area').toLowerCase();
+              let targetCity = cities.find(c => c.name.toLowerCase() === targetCityName);
+              if (!targetCity) {
+                targetCity = {
+                  id: `city-${r.id || n}-${(meta.city || 'area').toLowerCase()}`.replace(/[^a-z0-9]+/g, '-'),
+                  name: meta.city || 'Area',
+                  county: meta.county || '',
+                  zips: []
+                };
+                cities.push(targetCity);
+              }
+              if (!targetCity.zips.includes(z)) {
+                targetCity.zips.push(z);
+              }
+            }
+          });
         }
 
         cities.sort((a, b) => ((b.zips && b.zips.length) || 0) - ((a.zips && a.zips.length) || 0) || (a.name || '').localeCompare(b.name || ''));
