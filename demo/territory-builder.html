@@ -392,9 +392,17 @@
       border-radius: 3px;
     }
 
-    /* Accordion Item */
+    /* Accordion Item — isolated layout/paint containment for fast INP in 200+ item lists */
     .region-item {
       border-bottom: 1px solid var(--border-color);
+      content-visibility: auto;
+      contain-intrinsic-size: auto 480px auto 68px;
+    }
+
+    @supports not (content-visibility: auto) {
+      .region-item {
+        contain: layout style paint;
+      }
     }
 
     .region-item:last-child {
@@ -956,13 +964,36 @@
       font-variant-numeric: tabular-nums;
     }
 
+    .legend-swatches {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .legend-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text-main);
+      white-space: nowrap;
+    }
+
     .legend-indicator {
-      width: 14px;
-      height: 14px;
+      width: 13px;
+      height: 13px;
       background: var(--purple-territory);
+      border: 1.5px solid #4c1d95;
       border-radius: 3px;
-      opacity: 0.85;
+      opacity: 0.9;
       flex-shrink: 0;
+    }
+
+    .legend-indicator.available {
+      background: #fde047;
+      border: 1.5px solid #ca8a04;
     }
 
     .group-mode-toggle {
@@ -1599,15 +1630,21 @@
       <section class="map-column">
         <div class="map-frame">
           <div class="map-header-overlay">
-            <div style="display: flex; align-items: center; gap: 8px;">
-              <div class="legend-indicator"></div>
-              <span id="mapLegendLabel">Active Service Territory (<span id="activeZipsCountLabel">0</span> ZIPs)</span>
+            <div class="legend-swatches" id="mapLegendLabel">
+              <span class="legend-item" title="Selected ZIP codes in your active service territory">
+                <span class="legend-indicator"></span>
+                <span>Selected (<b id="activeZipsCountLabel">0</b>)</span>
+              </span>
+              <span class="legend-item" title="Unselected areas and remaining ZIP codes available to add">
+                <span class="legend-indicator available"></span>
+                <span>Available (<b id="availableZipsCountLabel">0</b>)</span>
+              </span>
             </div>
             <div class="group-mode-toggle" id="groupModeToggle">
-              <button type="button" class="mode-pill-btn active" id="btnGroupCounties" data-group="counties" title="Clicking map adds entire County (all county ZIPs)">Counties</button>
-              <button type="button" class="mode-pill-btn" id="btnGroupRegions" data-group="regions" title="Clicking map adds entire Metropolitan Region">Regions</button>
-              <button type="button" class="mode-pill-btn" id="btnGroupCities" data-group="cities" title="Clicking map adds entire City (all city ZIPs)">Cities</button>
-              <button type="button" class="mode-pill-btn" id="btnGroupZips" data-group="zips" title="Clicking map selects or deselects individual ZIPs">Single ZIPs</button>
+              <button type="button" class="mode-pill-btn active" id="btnGroupCounties" data-group="counties" title="Show County boundaries and toggle entire Counties">Counties</button>
+              <button type="button" class="mode-pill-btn" id="btnGroupRegions" data-group="regions" title="Show Regional market boundaries and toggle entire Regions">Regions</button>
+              <button type="button" class="mode-pill-btn" id="btnGroupCities" data-group="cities" title="Show City boundaries and toggle entire Cities">Cities</button>
+              <button type="button" class="mode-pill-btn" id="btnGroupZips" data-group="zips" title="Show individual ZIP code boundaries and toggle Single ZIPs">Single ZIPs</button>
             </div>
           </div>
 
@@ -1772,8 +1809,13 @@
 
     // Permanent Google Maps Leaflet State
     let leafletMap = null;
+    let leafletSvgRenderer = null;
     let leafletGeoLayer = null;
-    let zipToLeafletLayerMap = new Map(); // Map<zip, L.Path>
+    let leafletModeBoundaryLayer = null;
+    let modeBoundaryLayerById = new Map(); // Map<groupId, L.Path>
+    let cachedModeGeoJsonMap = new Map();  // Map<'counties'|'regions'|'cities', FeatureCollection>
+    let zipQuantRingsMap = new Map();      // Map<zip, Array<Array<[xInt, yInt, lon, lat]>>>
+    let zipToLeafletLayerMap = new Map();  // Map<zip, L.Path>
     let stateGpsBounds = null;
 
     // d3 Albers USA Inverter Projection (50 States + DC) & Conic Equal Area Inset (Puerto Rico)
@@ -1795,6 +1837,7 @@
     const clearSearchBtn = document.getElementById('clearSearchBtn');
     const stateBgGroup = document.getElementById('stateBackgroundGroup');
     const activeZipsCountLabel = document.getElementById('activeZipsCountLabel');
+    const availableZipsCountLabel = document.getElementById('availableZipsCountLabel');
     const statSummaryText = document.getElementById('statSummaryText');
     const savedStatusPill = document.getElementById('savedStatusPill');
     const groupingLabel = document.getElementById('groupingLabel');
@@ -1920,11 +1963,14 @@
         leadDesc.textContent = 'Set areas and zip codes where you want to work. Switch between Counties, Regions, Cities, and Single ZIPs to build and fine-tune your territory.';
         if (groupToggle) groupToggle.style.display = 'flex';
         clearDistanceMapOverlays();
+        rebuildModeBoundaryLayer();
+        refreshAllZipPolygonStyles();
         renderAccordionList(areaSearch.value);
       } else if (mode === 'distance') {
         leadTitle.textContent = 'Select by travel distance';
         leadDesc.textContent = 'Choose a center ZIP code or click a map point to automatically select every ZIP code within your maximum travel radius.';
         if (groupToggle) groupToggle.style.display = 'none';
+        rebuildModeBoundaryLayer();
         ensureDefaultDistanceOrigin();
         applyDistanceSelection(true);
       } else if (mode === 'advanced') {
@@ -1932,6 +1978,8 @@
         leadDesc.textContent = 'Paste 5-digit ZIP lists from spreadsheets or ad campaigns to batch-add, replace, or exclude areas.';
         if (groupToggle) groupToggle.style.display = 'flex';
         clearDistanceMapOverlays();
+        rebuildModeBoundaryLayer();
+        refreshAllZipPolygonStyles();
       }
     }
 
@@ -1978,30 +2026,42 @@
 
       clearGroupHighlight();
       clearZipHighlight();
+      rebuildModeBoundaryLayer();
+      refreshAllZipPolygonStyles();
       if (regionsList) regionsList.scrollTop = 0;
       renderAccordionList(areaSearch.value);
       updateSummaryStats();
     }
 
-    // Initialize Leaflet with Google Maps Roadmap Tiles
+    // Initialize Leaflet with Google Maps Roadmap Tiles & Generous Off-Viewport SVG Buffer
     function initLeafletMap() {
       if (leafletMap) return;
+      leafletSvgRenderer = L.svg({ padding: 2.0 });
       leafletMap = L.map('gmapBase', {
         center: [37.7749, -122.4194],
         zoom: 8,
         zoomControl: false,
-        attributionControl: false
+        attributionControl: false,
+        renderer: leafletSvgRenderer
       });
 
       L.tileLayer('https://mt{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
         subdomains: '0123',
-        maxZoom: 19
+        maxZoom: 19,
+        keepBuffer: 6,
+        updateWhenIdle: false,
+        updateInterval: 80
       }).addTo(leafletMap);
 
       leafletMap.on('movestart zoomstart', () => {
         hideTooltip();
         clearGroupHighlight();
         clearZipHighlight();
+      });
+
+      leafletMap.on('zoomend', () => {
+        refreshAllZipPolygonStyles();
+        refreshModeBoundaryStyles();
       });
 
       leafletMap.on('click', (e) => {
@@ -2054,7 +2114,7 @@
       regionsList.innerHTML = `<div style="padding: 30px; text-align: center; color: var(--text-muted); font-size: 14px;">Loading ${code} territory data...</div>`;
 
       try {
-        const res = await fetch(`../data/usa/states/${code}.json`);
+        const res = await fetch(`../data/usa/states/${code}.json?v=2`, { cache: 'no-cache' });
         currentStateData = await res.json();
         currentStateData.state = code;
 
@@ -2062,6 +2122,9 @@
         zipMetaMap.clear();
         selectedZips.clear();
         zipToLeafletLayerMap.clear();
+        cachedModeGeoJsonMap.clear();
+        zipQuantRingsMap.clear();
+        modeBoundaryLayerById.clear();
 
         // Ensure every ZIP has a valid county and human-readable city by snapping any missing metadata to nearest neighbor
         const validZips = (currentStateData.zipcodes || []).filter(z =>
@@ -2094,10 +2157,15 @@
           }
 
           if (z.path) zipPathMap.set(z.zip, z.path);
+          const b = z.bounds || null;
+          const maxDim = b && b.length >= 4 ? Math.max(b[2], b[3]) : 1.0;
+          const scaleTier = maxDim < 0.35 ? 'xs' : (maxDim < 0.85 ? 'sm' : (maxDim < 2.2 ? 'md' : (maxDim < 6.0 ? 'lg' : 'xl')));
           zipMetaMap.set(z.zip, {
             city: cName,
             county: coName,
-            bounds: z.bounds || null,
+            bounds: b,
+            maxDim,
+            scaleTier,
             lat: z.lat,
             lon: z.lon
           });
@@ -2137,6 +2205,7 @@
 
         renderBackground();
         buildLeafletTerritoryLayer();
+        rebuildModeBoundaryLayer();
         renderAccordionList(areaSearch.value);
         updateSummaryStats();
 
@@ -2220,7 +2289,7 @@
     function buildRegionsData() {
       if (!currentStateData || !currentStateData.zipcodes) return [];
 
-      // A. California Authentic Regional Markets (Thumbtack submarkets + balanced rural clusters)
+      // A. California Authentic Regional Markets (Exact Thumbtack Bay Area/Peninsula parity + local submarkets)
       function getCaliforniaRegion(z) {
         const county = (z.county || '').trim().replace(/\s+County$/i, '');
         const city = (z.city || '').trim().toLowerCase();
@@ -2229,11 +2298,17 @@
         if (zipCode !== '94128' && (county === 'San Francisco' || (city === 'san francisco' && county !== 'San Mateo') || ['94102','94103','94104','94105','94107','94108','94109','94110','94111','94112','94114','94115','94116','94117','94118','94121','94122','94123','94124','94127','94129','94130','94131','94132','94133','94134','94158'].includes(zipCode))) {
           return 'San Francisco';
         }
-        if (['half moon bay', 'montara', 'moss beach', 'pacifica', 'pescadero', 'san gregorio', 'el granada', 'la honda', 'loma mar'].includes(city)) {
+        // CoastSide: exact 6 San Mateo Pacific coastal communities
+        if (['half moon bay', 'montara', 'moss beach', 'pacifica', 'pescadero', 'san gregorio', 'el granada'].includes(city)) {
           return 'CoastSide';
         }
-        if (zipCode === '94128' || county === 'San Mateo' || ['atherton', 'belmont', 'brisbane', 'burlingame', 'daly city', 'menlo park', 'millbrae', 'portola valley', 'redwood city', 'san bruno', 'san carlos', 'san mateo', 'south san francisco', 'stanford', 'foster city', 'woodside', 'colma', 'los altos', 'mountain view', 'palo alto'].includes(city)) {
+        // Peninsula: all 20 San Mateo & North Santa Clara Peninsula areas (including SFO 94128, La Honda 94020, Loma Mar 94021, Palo Alto, Mountain View, Los Altos)
+        if (zipCode === '94128' || county === 'San Mateo' || ['atherton', 'belmont', 'brisbane', 'burlingame', 'daly city', 'la honda', 'loma mar', 'menlo park', 'millbrae', 'portola valley', 'redwood city', 'san bruno', 'san carlos', 'san francisco international airport', 'san mateo', 'south san francisco', 'stanford', 'foster city', 'woodside', 'colma', 'los altos', 'mountain view', 'palo alto'].includes(city)) {
           return 'Peninsula';
+        }
+        // Santa Cruz County: checked before Silicon Valley so 95033 (Santa Cruz Mountains) stays in Santa Cruz County
+        if (county === 'Santa Cruz' || zipCode === '95033') {
+          return 'Santa Cruz County';
         }
         if (['dublin', 'livermore', 'pleasanton', 'sunol'].includes(city)) {
           return 'East Alameda County';
@@ -2247,16 +2322,19 @@
         if (county === 'Santa Clara' || ['san jose', 'santa clara', 'sunnyvale', 'campbell', 'cupertino', 'gilroy', 'los gatos', 'milpitas', 'morgan hill', 'saratoga', 'alviso', 'coyote', 'mount hamilton', 'san martin'].includes(city)) {
           return 'San Jose - Silicon Valley';
         }
-        if (['annapolis', 'bodega', 'bodega bay', 'cazadero', 'duncans mills', 'jenner', 'occidental', 'the sea ranch', 'valley ford', 'villa grande'].includes(city)) {
+        // Sonoma Coast: exact 9 coastal/redwood Sonoma areas (94923 Bodega Bay belongs to Wine Country in Thumbtack)
+        if (['annapolis', 'bodega', 'cazadero', 'duncans mills', 'jenner', 'occidental', 'the sea ranch', 'valley ford', 'villa grande'].includes(city)) {
           return 'Sonoma Coast';
         }
-        if (['napa', 'calistoga', 'saint helena', 'yountville', 'american canyon', 'santa rosa', 'petaluma', 'rohnert park', 'sonoma', 'healdsburg', 'windsor', 'cloverdale', 'sebastopol', 'glen ellen', 'kenwood'].includes(city) || ['Napa', 'Sonoma'].includes(county)) {
+        // Wine Country: Napa, Sonoma, and West/Central Solano (Vallejo, Benicia, Fairfield, Suisun City, American Canyon)
+        if (['vallejo', 'fairfield', 'benicia', 'suisun city', 'bodega bay', 'napa', 'calistoga', 'saint helena', 'yountville', 'american canyon', 'santa rosa', 'petaluma', 'rohnert park', 'sonoma', 'healdsburg', 'windsor', 'cloverdale', 'sebastopol', 'glen ellen', 'kenwood'].includes(city) || ['Napa', 'Sonoma'].includes(county)) {
           return 'Wine Country';
         }
         if (county === 'Marin' || ['san rafael', 'novato', 'mill valley', 'sausalito', 'corte madera', 'larkspur', 'san anselmo', 'fairfax', 'tiburon', 'belvedere'].includes(city)) {
           return 'Marin County';
         }
-        if (county === 'Solano' || ['dixon', 'rio vista', 'travis afb', 'birds landing', 'elmira', 'vacaville', 'fairfield', 'suisun city', 'vallejo', 'benicia'].includes(city)) {
+        // East Solano County: Vacaville, Dixon, Rio Vista, Travis AFB, Birds Landing, Elmira
+        if (county === 'Solano' || ['dixon', 'rio vista', 'travis afb', 'birds landing', 'elmira', 'vacaville'].includes(city)) {
           return 'East Solano County';
         }
 
@@ -2270,8 +2348,8 @@
           if (['beverly hills', 'culver city', 'los angeles', 'marina del rey', 'pacific palisades', 'playa del rey', 'playa vista', 'santa monica', 'venice', 'west hollywood', 'universal city', 'topanga', 'malibu'].includes(city) || zipCode === '90090') {
             return 'Westside & Central Los Angeles';
           }
-          if (['avalon', 'el segundo', 'hermosa beach', 'lomita', 'long beach', 'manhattan beach', 'palos verdes peninsula', 'rancho palos verdes', 'redondo beach', 'rolling hills', 'rolling hills estates', 'san pedro', 'torrance', 'wilmington', 'harbor city'].includes(city) || zipCode === '90755') {
-            return 'South Bay & Long Beach';
+          if (['avalon', 'el segundo', 'hermosa beach', 'lomita', 'long beach', 'manhattan beach', 'palos verdes peninsula', 'rancho palos verdes', 'redondo beach', 'rolling hills', 'rolling hills estates', 'san pedro', 'signal hill', 'torrance', 'wilmington', 'harbor city'].includes(city) || zipCode === '90755') {
+            return 'South Bay, Palos Verdes & Long Beach';
           }
           if (['acton', 'canyon country', 'castaic', 'lancaster', 'littlerock', 'llano', 'newhall', 'palmdale', 'pearblossom', 'santa clarita', 'stevenson ranch', 'valencia', 'valyermo', 'lake hughes', 'quartz hill'].includes(city)) {
             return 'Antelope Valley & Santa Clarita';
@@ -2280,10 +2358,10 @@
         }
 
         if (county === 'Orange') {
-          if (['anaheim', 'brea', 'buena park', 'fullerton', 'garden grove', 'la habra', 'la palma', 'orange', 'placentia', 'stanton', 'villa park', 'yorba linda'].includes(city)) {
-            return 'North Orange County';
+          if (['anaheim', 'brea', 'buena park', 'cypress', 'fountain valley', 'fullerton', 'garden grove', 'la habra', 'la palma', 'los alamitos', 'midway city', 'orange', 'placentia', 'santa ana', 'stanton', 'tustin', 'villa park', 'westminster', 'yorba linda'].includes(city)) {
+            return 'North & Central Orange County';
           }
-          return 'South Orange County & Coastal';
+          return 'Coastal & South Orange County';
         }
 
         if (county === 'Riverside') {
@@ -2296,7 +2374,7 @@
           return 'Riverside & Corona Metro';
         }
 
-        if (county === 'San Bernardino' || county === 'Clark') {
+        if (county === 'San Bernardino') {
           if (['ontario', 'rancho cucamonga', 'chino', 'chino hills', 'fontana', 'upland', 'montclair'].includes(city)) {
             return 'Inland Empire West';
           }
@@ -2308,21 +2386,21 @@
         }
 
         if (county === 'San Diego') {
-          if (['oceanside', 'carlsbad', 'encinitas', 'solana beach', 'del mar', 'escondido', 'san marcos', 'vista', 'poway', 'fallbrook', 'bonsall', 'valley center', 'rancho santa fe', 'ramona'].includes(city)) {
+          if (['oceanside', 'carlsbad', 'encinitas', 'cardiff by the sea', 'solana beach', 'del mar', 'escondido', 'san marcos', 'vista', 'poway', 'fallbrook', 'bonsall', 'valley center', 'rancho santa fe', 'ramona', 'camp pendleton', 'pala', 'pauma valley', 'palomar mountain', 'san luis rey'].includes(city)) {
             return 'San Diego North County';
           }
-          if (['el cajon', 'la mesa', 'santee', 'chula vista', 'national city', 'imperial beach', 'spring valley', 'lemon grove', 'lakeside', 'alpine', 'bonita', 'jamul'].includes(city)) {
-            return 'San Diego East County & South Bay';
+          if (['san diego', 'la jolla', 'coronado'].includes(city)) {
+            return 'San Diego Metro & Coastal';
           }
-          return 'San Diego Metro & Central';
+          return 'San Diego South Bay & East County';
         }
 
         if (['Sacramento', 'Yolo'].includes(county)) return 'Sacramento & Yolo Metro';
-        if (['Santa Cruz', 'Monterey', 'San Benito'].includes(county)) return 'Monterey Bay & Central Coast';
+        if (['Monterey', 'San Benito'].includes(county)) return 'Monterey Peninsula & San Benito';
         if (['San Luis Obispo', 'Santa Barbara', 'Ventura'].includes(county)) return 'Central Coast South & Ventura';
         if (['San Joaquin', 'Stanislaus', 'Merced'].includes(county)) return 'San Joaquin & Stanislaus';
         if (['Fresno', 'Kern', 'Kings', 'Madera', 'Tulare'].includes(county) || zipCode === '93314') return 'Fresno & Central Valley South';
-        if (['El Dorado', 'Placer', 'Amador', 'Calaveras', 'Tuolumne', 'Mariposa', 'Alpine', 'Nevada', 'Sierra', 'Inyo', 'Mono', 'Nye', 'Esmeralda', 'Washoe'].includes(county)) return 'Sierra Nevada & Gold Country';
+        if (['El Dorado', 'Placer', 'Amador', 'Calaveras', 'Tuolumne', 'Mariposa', 'Alpine', 'Nevada', 'Sierra', 'Inyo', 'Mono'].includes(county)) return 'Sierra Nevada & Gold Country';
         if (['Butte', 'Colusa', 'Glenn', 'Humboldt', 'Lake', 'Mendocino', 'Shasta', 'Siskiyou', 'Sutter', 'Tehama', 'Trinity', 'Yuba', 'Del Norte', 'Modoc', 'Lassen', 'Plumas'].includes(county)) return 'Northern California & North State';
 
         return `${county ? county : 'California'} Region`;
@@ -2409,16 +2487,38 @@
       const nationalZipRegionMap = new Map();
       if (!['CA', 'TX', 'FL'].includes(currentStateCode)) {
         const catalogRegions = (currentStateData.regions || []).filter(r => r.zips && r.zips.length > 0);
-        // Sort specific local submarkets (tier 2) first, then smallest-to-largest so umbrella regions never swallow boroughs/submarkets
-        const sortedRegs = [...catalogRegions].sort((a, b) => (b.tier - a.tier) || (a.zips.length - b.zips.length));
+        // Sort specific local submarkets (tier >= 2) first, then smallest-to-largest so umbrella regions never swallow boroughs/submarkets
+        const sortedRegs = [...catalogRegions].sort((a, b) => ((b.tier || 1) - (a.tier || 1)) || (a.zips.length - b.zips.length));
         const validStateZipSet = new Set(currentStateData.zipcodes.map(z => z.zip));
+        const claimedSubmarketNames = [];
+
+        const PARTIAL_UMBRELLA_RENAMES = {
+          'Northeast & Lehigh Valley': 'Northeast PA & Poconos',
+          'South Shore, Cape & Islands': 'South Shore & South Coast',
+          'Chicagoland': 'Greater Chicago & North Shore',
+          'Baltimore-Washington': 'Greater Baltimore & Central MD'
+        };
 
         for (const r of sortedRegs) {
           const validZips = r.zips.filter(z => validStateZipSet.has(z));
           if (validZips.length === 0) continue;
           const unclaimed = validZips.filter(z => !nationalZipRegionMap.has(z));
-          if (unclaimed.length >= 5 || (unclaimed.length > 0 && unclaimed.length / validZips.length >= 0.25)) {
-            const cleanName = r.name.replace(/\s+Core$/i, '');
+          const ratio = unclaimed.length / validZips.length;
+          const isUmbrella = (r.tier || 1) === 1 && ratio < 0.85;
+
+          if (unclaimed.length >= 6 || (!isUmbrella && unclaimed.length > 0 && ratio >= 0.35)) {
+            let cleanName = r.name.replace(/\s+Core$/i, '');
+            if (isUmbrella && PARTIAL_UMBRELLA_RENAMES[cleanName]) {
+              cleanName = PARTIAL_UMBRELLA_RENAMES[cleanName];
+            } else if (isUmbrella) {
+              // Strip submarket terms already claimed by a Tier-2 submarket
+              for (const sub of claimedSubmarketNames) {
+                if (cleanName !== sub && cleanName.includes(sub)) {
+                  cleanName = cleanName.replace(new RegExp(`\\s*(&|,|and)\\s*${sub.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}`, 'i'), '').trim();
+                }
+              }
+            }
+            claimedSubmarketNames.push(cleanName);
             unclaimed.forEach(z => nationalZipRegionMap.set(z, cleanName));
           }
         }
@@ -2536,14 +2636,28 @@
             id: `city-${rEntry.id}-${cityName.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`,
             name: cityName,
             county: countyName,
+            countyCounts: new Map(),
             zips: []
           });
         }
-        rEntry.citiesMap.get(cityName).zips.push(z.zip);
+        const cityBucket = rEntry.citiesMap.get(cityName);
+        cityBucket.zips.push(z.zip);
+        if (countyName) {
+          cityBucket.countyCounts.set(countyName, (cityBucket.countyCounts.get(countyName) || 0) + 1);
+        }
       });
 
       const valid = Array.from(regionMap.values()).map(r => {
-        const citiesList = Array.from(r.citiesMap.values());
+        const citiesList = Array.from(r.citiesMap.values()).map(c => {
+          if (c.countyCounts && c.countyCounts.size > 0) {
+            const orderedCounties = [...c.countyCounts.entries()]
+              .sort((a, b) => b[1] - a[1])
+              .map(([cn]) => cn);
+            c.county = orderedCounties.slice(0, 2).join(' / ');
+          }
+          delete c.countyCounts;
+          return c;
+        });
         citiesList.sort((a, b) => b.zips.length - a.zips.length || a.name.localeCompare(b.name));
         return {
           id: r.id,
@@ -2557,10 +2671,10 @@
       return valid;
     }
 
-    // 5. Build Cities Data (All distinct cities with their ZIP codes and counties)
+    // 5. Build Cities Data (Unifies contiguous multi-county cities like Palo Alto while separating distant homonyms)
     function buildCitiesData() {
       if (!currentStateData || !currentStateData.zipcodes) return [];
-      const cityMap = new Map();
+      const rawGroupsByName = new Map();
 
       currentStateData.zipcodes.forEach(z => {
         let cityName = (z.city || '').trim();
@@ -2573,20 +2687,59 @@
           countyName = currentStateData.name ? `${currentStateData.name} Area` : 'Regional Area';
         }
 
-        const cityKey = `${cityName}|${countyName}`.toLowerCase();
+        const nameKey = cityName.toLowerCase();
+        if (!rawGroupsByName.has(nameKey)) rawGroupsByName.set(nameKey, []);
+        const clusters = rawGroupsByName.get(nameKey);
 
-        if (!cityMap.has(cityKey)) {
-          cityMap.set(cityKey, {
-            id: `city-${cityName.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-${countyName.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`,
+        // Merge into an existing cluster of the same city name if same county OR within ~45 miles (0.65 deg)
+        let targetCluster = clusters.find(cl => {
+          if (cl.countyCounts.has(countyName)) return true;
+          if (z.lat != null && z.lon != null && cl.coordCount > 0) {
+            const cLat = cl.sumLat / cl.coordCount;
+            const cLon = cl.sumLon / cl.coordCount;
+            return Math.hypot(cLat - z.lat, cLon - z.lon) < 0.65;
+          }
+          return false;
+        });
+
+        if (!targetCluster) {
+          targetCluster = {
             name: cityName,
-            county: countyName,
-            zips: []
-          });
+            countyCounts: new Map(),
+            zips: [],
+            sumLat: 0,
+            sumLon: 0,
+            coordCount: 0
+          };
+          clusters.push(targetCluster);
         }
-        cityMap.get(cityKey).zips.push(z.zip);
+
+        targetCluster.zips.push(z.zip);
+        targetCluster.countyCounts.set(countyName, (targetCluster.countyCounts.get(countyName) || 0) + 1);
+        if (z.lat != null && z.lon != null) {
+          targetCluster.sumLat += z.lat;
+          targetCluster.sumLon += z.lon;
+          targetCluster.coordCount++;
+        }
       });
 
-      const citiesList = Array.from(cityMap.values());
+      const citiesList = [];
+      for (const clusters of rawGroupsByName.values()) {
+        for (const cl of clusters) {
+          const orderedCounties = [...cl.countyCounts.entries()]
+            .sort((a, b) => b[1] - a[1])
+            .map(([cn]) => cn);
+          const countyDisplay = orderedCounties.slice(0, 2).join(' / ');
+          const primarySlug = (orderedCounties[0] || 'area').toLowerCase().replace(/[^a-z0-9]+/g, '-');
+          citiesList.push({
+            id: `city-${cl.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-${primarySlug}`,
+            name: cl.name,
+            county: countyDisplay,
+            zips: cl.zips
+          });
+        }
+      }
+
       citiesList.sort((a, b) => b.zips.length - a.zips.length || a.name.localeCompare(b.name));
       return citiesList;
     }
@@ -2606,15 +2759,289 @@
       });
     }
 
-    // Google Maps Layer Style Generator
-    function getLeafletZipStyle(isActive) {
+    // Helper: Resolve active mode group object for a ZIP code
+    function getActiveModeGroupForZip(zip) {
+      if (currentTopMode === 'distance' || currentGroupingMode === 'zips') return null;
+      if (currentGroupingMode === 'counties') return zipToCountyMap.get(zip) || null;
+      if (currentGroupingMode === 'regions') return zipToRegionMap.get(zip) || null;
+      if (currentGroupingMode === 'cities') return zipToCityMap.get(zip) || null;
+      return null;
+    }
+
+    // Helper: Compute 'full' | 'partial' | 'none' selection status for any group
+    function getGroupSelectionStatus(groupObj) {
+      if (!groupObj || !groupObj.zips || groupObj.zips.length === 0) return 'none';
+      let active = 0;
+      const total = groupObj.zips.length;
+      for (let i = 0; i < total; i++) {
+        if (selectedZips.has(groupObj.zips[i])) active++;
+      }
+      if (active === 0) return 'none';
+      if (active === total) return 'full';
+      return 'partial';
+    }
+
+    // Helper: Zoom- & size-proportional base stroke weight for a ZIP polygon
+    function getProportionalZipBaseWeight(zip) {
+      const meta = zip ? zipMetaMap.get(zip) : null;
+      const tier = meta ? meta.scaleTier : 'md';
+      const zoom = leafletMap ? leafletMap.getZoom() : 7;
+      const tierBase = tier === 'xs' ? 0.32 : (tier === 'sm' ? 0.46 : (tier === 'md' ? 0.65 : (tier === 'lg' ? 0.85 : 1.05)));
+      const zoomFactor = zoom <= 6 ? 0.72 : (zoom <= 8 ? 0.95 : (zoom <= 10 ? 1.25 : (zoom <= 12 ? 1.6 : 1.95)));
+      return Math.min(2.2, Math.max(0.22, tierBase * zoomFactor));
+    }
+
+    // Google Maps Layer Style Generator (Purple selected vs Yellow unselected + partial-group spotlight)
+    function getLeafletZipStyle(isActive, zip) {
+      const baseW = getProportionalZipBaseWeight(zip);
+      const isMacroMode = currentTopMode !== 'distance' && currentGroupingMode !== 'zips';
+      const groupObj = isMacroMode && zip ? getActiveModeGroupForZip(zip) : null;
+      const groupStatus = groupObj ? getGroupSelectionStatus(groupObj) : 'none';
+
+      if (isActive) {
+        return {
+          fillColor: '#6b46c1',
+          fillOpacity: 0.40,
+          color: isMacroMode ? '#5b21b6' : '#4c1d95',
+          weight: isMacroMode ? Math.max(0.22, baseW * 0.48) : Math.max(0.42, baseW),
+          opacity: isMacroMode ? 0.30 : 0.86
+        };
+      }
+
+      // Unselected ZIP inside a partially-selected County, Region, or Multi-ZIP City (e.g. 9 of 10 selected -> 10th stands out in bright yellow!)
+      if (groupStatus === 'partial') {
+        return {
+          fillColor: '#eab308',
+          fillOpacity: 0.50,
+          color: '#a16207',
+          weight: Math.max(0.95, baseW * 1.2),
+          opacity: 0.94
+        };
+      }
+
+      // Unclicked / available County, Region, City, or Single ZIP shown in warm golden yellow
       return {
-        fillColor: isActive ? '#6b46c1' : '#ffffff',
-        fillOpacity: isActive ? 0.42 : 0.05,
-        color: isActive ? '#553c9a' : '#94a3b8',
-        weight: isActive ? 1.0 : 0.4,
-        opacity: isActive ? 0.85 : 0.35
+        fillColor: '#facc15',
+        fillOpacity: 0.28,
+        color: isMacroMode ? '#ca8a04' : '#b45309',
+        weight: isMacroMode ? Math.max(0.20, baseW * 0.42) : Math.max(0.38, baseW * 0.92),
+        opacity: isMacroMode ? 0.28 : 0.78
       };
+    }
+
+    // Dissolve shared interior ZIP edges so County, Region, and City modes draw true outer perimeter shapes
+    function dissolveZipGroupChains(zips) {
+      if (!zips || zips.length === 0) return [];
+      if (zips.length === 1) {
+        const single = zipQuantRingsMap.get(zips[0]);
+        return single ? single.map(r => r.map(pt => [pt[2], pt[3]])) : [];
+      }
+
+      const edgeMap = new Map();
+      for (let zIdx = 0; zIdx < zips.length; zIdx++) {
+        const rings = zipQuantRingsMap.get(zips[zIdx]);
+        if (!rings) continue;
+        for (let rIdx = 0; rIdx < rings.length; rIdx++) {
+          const r = rings[rIdx];
+          const len = r.length;
+          for (let i = 0; i < len; i++) {
+            const a = r[i];
+            const b = r[(i + 1) % len];
+            const pa = a[0] * 200000 + a[1];
+            const pb = b[0] * 200000 + b[1];
+            if (pa === pb) continue;
+            const lo = pa < pb ? pa : pb;
+            const hi = pa < pb ? pb : pa;
+            let sub = edgeMap.get(lo);
+            if (!sub) {
+              sub = new Map();
+              sub.set(hi, { count: 1, a, b });
+              edgeMap.set(lo, sub);
+            } else {
+              const prev = sub.get(hi);
+              if (prev) prev.count++;
+              else sub.set(hi, { count: 1, a, b });
+            }
+          }
+        }
+      }
+
+      const adj = new Map();
+      const ext = [];
+      for (const sub of edgeMap.values()) {
+        for (const e of sub.values()) {
+          if (e.count !== 1) continue;
+          const idx = ext.length;
+          ext.push(e);
+          const ka = e.a[0] * 200000 + e.a[1];
+          const kb = e.b[0] * 200000 + e.b[1];
+          let la = adj.get(ka);
+          if (!la) { la = []; adj.set(ka, la); }
+          la.push(idx);
+          let lb = adj.get(kb);
+          if (!lb) { lb = []; adj.set(kb, lb); }
+          lb.push(idx);
+        }
+      }
+
+      const used = new Uint8Array(ext.length);
+      const chains = [];
+      for (let i = 0; i < ext.length; i++) {
+        if (used[i]) continue;
+        used[i] = 1;
+        const e = ext[i];
+        const chain = [[e.a[2], e.a[3]], [e.b[2], e.b[3]]];
+        let cur = e.b;
+        while (true) {
+          const k = cur[0] * 200000 + cur[1];
+          const list = adj.get(k);
+          let nextIdx = -1;
+          if (list) {
+            for (let j = 0; j < list.length; j++) {
+              if (!used[list[j]]) { nextIdx = list[j]; break; }
+            }
+          }
+          if (nextIdx === -1) break;
+          used[nextIdx] = 1;
+          const ne = ext[nextIdx];
+          cur = (ne.a[0] === cur[0] && ne.a[1] === cur[1]) ? ne.b : ne.a;
+          chain.push([cur[2], cur[3]]);
+        }
+        if (chain.length > 1) chains.push(chain);
+      }
+      return chains;
+    }
+
+    // Style generator for the active mode's outer County / Region / City perimeter lines
+    function getModeBoundaryStyle(groupObj) {
+      const status = getGroupSelectionStatus(groupObj);
+      const zoom = leafletMap ? leafletMap.getZoom() : 7;
+      const zoomScale = zoom <= 6 ? 0.85 : (zoom <= 8 ? 1.0 : (zoom <= 10 ? 1.2 : 1.45));
+      const baseModeW = currentGroupingMode === 'cities' ? 1.05 : 1.55;
+
+      if (status === 'full') {
+        return {
+          color: '#4c1d95',
+          weight: baseModeW * zoomScale,
+          opacity: 0.92,
+          dashArray: null,
+          fill: false
+        };
+      }
+      if (status === 'partial') {
+        return {
+          color: '#5b21b6',
+          weight: (baseModeW + 0.35) * zoomScale,
+          opacity: 0.96,
+          dashArray: '6, 3',
+          fill: false
+        };
+      }
+      return {
+        color: '#b45309',
+        weight: (baseModeW * 0.82) * zoomScale,
+        opacity: 0.76,
+        dashArray: null,
+        fill: false
+      };
+    }
+
+    // Rebuild (or switch from cache) the drawn County / Region / City outer boundary layer
+    function rebuildModeBoundaryLayer() {
+      if (!leafletMap) return;
+      if (leafletModeBoundaryLayer) {
+        leafletMap.removeLayer(leafletModeBoundaryLayer);
+        leafletModeBoundaryLayer = null;
+      }
+      modeBoundaryLayerById.clear();
+
+      if (currentTopMode === 'distance' || currentGroupingMode === 'zips') {
+        return;
+      }
+
+      const mode = currentGroupingMode;
+      const groups = mode === 'counties'
+        ? cachedCountiesData
+        : (mode === 'regions' ? cachedRegionsData : cachedCitiesData);
+      if (!groups || groups.length === 0) return;
+
+      const groupById = new Map();
+      groups.forEach(g => groupById.set(g.id, g));
+
+      if (!cachedModeGeoJsonMap.has(mode)) {
+        const features = [];
+        for (let i = 0; i < groups.length; i++) {
+          const g = groups[i];
+          const chains = dissolveZipGroupChains(g.zips);
+          if (chains.length === 0) continue;
+          features.push({
+            type: 'Feature',
+            id: g.id,
+            properties: { groupId: g.id },
+            geometry: {
+              type: 'MultiLineString',
+              coordinates: chains
+            }
+          });
+        }
+        cachedModeGeoJsonMap.set(mode, {
+          type: 'FeatureCollection',
+          features
+        });
+      }
+
+      leafletModeBoundaryLayer = L.geoJSON(cachedModeGeoJsonMap.get(mode), {
+        renderer: leafletSvgRenderer,
+        interactive: false,
+        style: (feature) => getModeBoundaryStyle(groupById.get(feature.properties.groupId)),
+        onEachFeature: (feature, lyr) => {
+          modeBoundaryLayerById.set(feature.properties.groupId, { lyr, groupObj: groupById.get(feature.properties.groupId) });
+        }
+      }).addTo(leafletMap);
+
+      leafletModeBoundaryLayer.bringToFront();
+    }
+
+    function refreshModeBoundaryStyles() {
+      if (!leafletModeBoundaryLayer) return;
+      modeBoundaryLayerById.forEach(({ lyr, groupObj }) => {
+        lyr.setStyle(getModeBoundaryStyle(groupObj));
+      });
+      leafletModeBoundaryLayer.bringToFront();
+    }
+
+    function refreshAllZipPolygonStyles() {
+      zipToLeafletLayerMap.forEach((lyr, z) => {
+        lyr.setStyle(getLeafletZipStyle(selectedZips.has(z), z));
+      });
+      if (leafletModeBoundaryLayer) leafletModeBoundaryLayer.bringToFront();
+    }
+
+    // Restyle sibling ZIPs + mode boundary of affected group(s) so partial-group yellow holes update immediately
+    function syncAffectedGroupsAndBoundaries(changedZips) {
+      const restyledZips = new Set();
+      const touchedGroups = new Set();
+
+      (changedZips || []).forEach(z => {
+        const grp = getActiveModeGroupForZip(z);
+        if (grp) {
+          touchedGroups.add(grp);
+          (grp.zips || []).forEach(gz => restyledZips.add(gz));
+        } else {
+          restyledZips.add(z);
+        }
+      });
+
+      restyledZips.forEach(z => {
+        const lyr = zipToLeafletLayerMap.get(z);
+        if (lyr) lyr.setStyle(getLeafletZipStyle(selectedZips.has(z), z));
+      });
+
+      touchedGroups.forEach(grp => {
+        const entry = modeBoundaryLayerById.get(grp.id);
+        if (entry) entry.lyr.setStyle(getModeBoundaryStyle(grp));
+      });
+      if (leafletModeBoundaryLayer) leafletModeBoundaryLayer.bringToFront();
     }
 
     // 6. Build Google Map Leaflet Territory Layer
@@ -2624,7 +3051,13 @@
         leafletMap.removeLayer(leafletGeoLayer);
         leafletGeoLayer = null;
       }
+      if (leafletModeBoundaryLayer) {
+        leafletMap.removeLayer(leafletModeBoundaryLayer);
+        leafletModeBoundaryLayer = null;
+      }
       zipToLeafletLayerMap.clear();
+      zipQuantRingsMap.clear();
+      modeBoundaryLayerById.clear();
 
       const activeProj = currentStateCode === 'PR' ? prConicProj : albersUsaProj;
       const geojsonFeatures = [];
@@ -2634,14 +3067,36 @@
         const pathD = zipPathMap.get(zip);
         if (!pathD) continue;
         const rings = parseSvgPathToRings(pathD);
-        const coordinates = rings.map(ring => {
-          return ring.map(([x, y]) => {
+        const quantRings = [];
+        const coordinates = [];
+
+        for (let rIdx = 0; rIdx < rings.length; rIdx++) {
+          const ring = rings[rIdx];
+          const coordsRing = [];
+          const qRing = [];
+          for (let pIdx = 0; pIdx < ring.length; pIdx++) {
+            const x = ring[pIdx][0];
+            const y = ring[pIdx][1];
             const lonLat = activeProj.invert([x, y]);
-            return lonLat ? [lonLat[0], lonLat[1]] : null;
-          }).filter(Boolean);
-        }).filter(r => r.length > 2);
+            if (lonLat) {
+              coordsRing.push([lonLat[0], lonLat[1]]);
+              qRing.push([Math.round(x * 100), Math.round(y * 100), lonLat[0], lonLat[1]]);
+            }
+          }
+          if (coordsRing.length > 2) {
+            // Ensure GeoJSON ring closure for clean SVG polygon fill
+            const first = coordsRing[0];
+            const last = coordsRing[coordsRing.length - 1];
+            if (first[0] !== last[0] || first[1] !== last[1]) {
+              coordsRing.push([first[0], first[1]]);
+            }
+            coordinates.push(coordsRing);
+            quantRings.push(qRing);
+          }
+        }
 
         if (coordinates.length > 0) {
+          zipQuantRingsMap.set(zip, quantRings);
           geojsonFeatures.push({
             type: 'Feature',
             id: zip,
@@ -2658,9 +3113,10 @@
         type: 'FeatureCollection',
         features: geojsonFeatures
       }, {
+        renderer: leafletSvgRenderer,
         style: (feature) => {
           const isAct = selectedZips.has(feature.id);
-          return getLeafletZipStyle(isAct);
+          return getLeafletZipStyle(isAct, feature.id);
         },
         onEachFeature: (feature, lyr) => {
           const zip = feature.id;
@@ -2674,7 +3130,6 @@
             }
 
             if (currentTopMode === 'distance') {
-              // In distance mode, clicking a polygon sets or toggles individual fine-tune ZIP
               toggleZip(zip, undefined, false);
               return;
             }
@@ -2714,11 +3169,10 @@
             targetZips.forEach(z => {
               if (shouldActivate) selectedZips.add(z);
               else selectedZips.delete(z);
-              const l = zipToLeafletLayerMap.get(z);
-              if (l) l.setStyle(getLeafletZipStyle(shouldActivate));
             });
 
             clearGroupHighlight();
+            syncAffectedGroupsAndBoundaries(targetZips);
             jumpToAccordionItem(groupId, entityType, zip);
             updateAccordionCounters();
             if (activeZipsCountLabel) activeZipsCountLabel.textContent = selectedZips.size;
@@ -2769,12 +3223,18 @@
             const activeCount = targetZips.filter(z => selectedZips.has(z)).length;
             if (currentGroupingMode === 'zips') {
               const isAct = selectedZips.has(zip);
-              showTooltip(e.originalEvent, `${title} • ${isAct ? 'Click to remove ZIP' : 'Click to add ZIP'}`);
+              showTooltip(e.originalEvent, `${title} • ${isAct ? 'Selected • Click to remove' : 'Available • Click to add'}`);
             } else {
               const allActive = activeCount === targetZips.length && targetZips.length > 0;
-              const actionText = allActive
-                ? `All ${targetZips.length} ZIPs selected • Click to clear`
-                : `${activeCount} of ${targetZips.length} ZIPs active • Click to select all ${targetZips.length} ZIPs`;
+              const remaining = targetZips.length - activeCount;
+              let actionText = '';
+              if (allActive) {
+                actionText = `All ${targetZips.length} ZIPs selected • Click to clear`;
+              } else if (activeCount > 0) {
+                actionText = `${activeCount} of ${targetZips.length} ZIPs selected (${remaining} remaining in yellow) • Click to select all`;
+              } else {
+                actionText = `Available (${targetZips.length} ZIPs) • Click to select all`;
+              }
               showTooltip(e.originalEvent, `${title} • ${actionText}`);
             }
           });
@@ -2805,10 +3265,7 @@
         selectedZips.delete(zip);
       }
 
-      const lyr = zipToLeafletLayerMap.get(zip);
-      if (lyr) {
-        lyr.setStyle(getLeafletZipStyle(shouldBeActive));
-      }
+      syncAffectedGroupsAndBoundaries([zip]);
 
       const chips = document.querySelectorAll(`.zip-chip[data-zip="${zip}"]`);
       chips.forEach((chip, idx) => {
@@ -2845,9 +3302,8 @@
       (zips || []).forEach(z => {
         if (activate) selectedZips.add(z);
         else selectedZips.delete(z);
-        const lyr = zipToLeafletLayerMap.get(z);
-        if (lyr) lyr.setStyle(getLeafletZipStyle(activate));
       });
+      syncAffectedGroupsAndBoundaries(zips);
       updateAccordionCounters();
       if (activeZipsCountLabel) activeZipsCountLabel.textContent = selectedZips.size;
       updateSummaryStats();
@@ -3720,7 +4176,7 @@
       }
     }
 
-    // Group hover highlight helpers
+    // Group hover highlight helpers (preserves Purple vs Yellow distinction inside partial groups on hover!)
     function highlightGroupOnMap(groupKey, zips) {
       if (currentHoveredGroupKey === groupKey) return;
       clearGroupHighlight();
@@ -3729,24 +4185,42 @@
       currentHoveredZips.forEach(z => {
         const l = zipToLeafletLayerMap.get(z);
         if (l) {
+          const isAct = selectedZips.has(z);
           l.setStyle({
-            fillColor: '#eab308',
-            fillOpacity: 0.52,
-            color: '#ca8a04',
-            weight: 1.8,
-            opacity: 1.0
+            fillColor: isAct ? '#7c3aed' : '#f59e0b',
+            fillOpacity: isAct ? 0.56 : 0.52,
+            color: isAct ? '#4c1d95' : '#b45309',
+            weight: 1.5,
+            opacity: 0.95
           });
           l.bringToFront();
         }
       });
+      const modeEntry = modeBoundaryLayerById.get(groupKey);
+      if (modeEntry) {
+        modeEntry.lyr.setStyle({
+          color: '#1e1b4b',
+          weight: 2.6,
+          opacity: 1.0,
+          dashArray: null,
+          fill: false
+        });
+      }
+      if (leafletModeBoundaryLayer) leafletModeBoundaryLayer.bringToFront();
     }
 
     function clearGroupHighlight() {
       if (!currentHoveredGroupKey) return;
+      const prevKey = currentHoveredGroupKey;
       currentHoveredZips.forEach(z => {
         const l = zipToLeafletLayerMap.get(z);
-        if (l) l.setStyle(getLeafletZipStyle(selectedZips.has(z)));
+        if (l) l.setStyle(getLeafletZipStyle(selectedZips.has(z), z));
       });
+      const modeEntry = modeBoundaryLayerById.get(prevKey);
+      if (modeEntry) {
+        modeEntry.lyr.setStyle(getModeBoundaryStyle(modeEntry.groupObj));
+      }
+      if (leafletModeBoundaryLayer) leafletModeBoundaryLayer.bringToFront();
       currentHoveredGroupKey = null;
       currentHoveredZips = [];
     }
@@ -3758,11 +4232,12 @@
       currentHoveredChipZip = zip;
       const lyr = zipToLeafletLayerMap.get(zip);
       if (lyr) {
+        const isAct = selectedZips.has(zip);
         lyr.setStyle({
-          fillColor: '#eab308',
-          fillOpacity: 0.55,
-          color: '#ca8a04',
-          weight: 2.5,
+          fillColor: isAct ? '#7c3aed' : '#f59e0b',
+          fillOpacity: 0.58,
+          color: isAct ? '#3b0764' : '#b45309',
+          weight: 2.4,
           opacity: 1.0
         });
         lyr.bringToFront();
@@ -3771,10 +4246,12 @@
 
     function clearZipHighlight() {
       if (!currentHoveredChipZip) return;
-      const lyr = zipToLeafletLayerMap.get(currentHoveredChipZip);
+      const z = currentHoveredChipZip;
+      const lyr = zipToLeafletLayerMap.get(z);
       if (lyr) {
-        lyr.setStyle(getLeafletZipStyle(selectedZips.has(currentHoveredChipZip)));
+        lyr.setStyle(getLeafletZipStyle(selectedZips.has(z), z));
       }
+      if (leafletModeBoundaryLayer) leafletModeBoundaryLayer.bringToFront();
       currentHoveredChipZip = null;
     }
 
@@ -3861,6 +4338,7 @@
 
       const radiusMeters = distanceMiles * 1609.344;
       distanceCircleLayer = L.circle([distanceOrigin.lat, distanceOrigin.lon], {
+        renderer: leafletSvgRenderer,
         radius: radiusMeters,
         color: '#007c91',
         weight: 2,
@@ -3871,6 +4349,7 @@
       }).addTo(leafletMap);
 
       distancePinMarker = L.circleMarker([distanceOrigin.lat, distanceOrigin.lon], {
+        renderer: leafletSvgRenderer,
         radius: 6,
         color: '#ffffff',
         weight: 2,
@@ -3886,7 +4365,7 @@
           const isInside = dist <= distanceMiles;
           if (isInside) selectedZips.add(z);
           const lyr = zipToLeafletLayerMap.get(z);
-          if (lyr) lyr.setStyle(getLeafletZipStyle(isInside));
+          if (lyr) lyr.setStyle(getLeafletZipStyle(isInside, z));
         }
       });
 
@@ -4003,9 +4482,8 @@
       };
 
       const refreshAllMapStyles = () => {
-        zipToLeafletLayerMap.forEach((lyr, z) => {
-          lyr.setStyle(getLeafletZipStyle(selectedZips.has(z)));
-        });
+        refreshAllZipPolygonStyles();
+        refreshModeBoundaryStyles();
         updateAccordionCounters();
         if (activeZipsCountLabel) activeZipsCountLabel.textContent = selectedZips.size;
         updateSummaryStats();
@@ -4083,6 +4561,10 @@
       statSummaryText.textContent = `${targetedRegionsCount} regions • ${targetedCitiesCount} cities • ${selectedZips.size} ZIPs`;
       if (activeZipsCountLabel) {
         activeZipsCountLabel.textContent = selectedZips.size;
+      }
+      if (availableZipsCountLabel) {
+        const totalStateZips = zipMetaMap.size;
+        availableZipsCountLabel.textContent = Math.max(0, totalStateZips - selectedZips.size);
       }
 
       if (groupingCountBadge) {
@@ -4193,9 +4675,8 @@
         selectedZips.clear();
         try { localStorage.removeItem(getStorageKey(currentStateCode)); } catch (_) {}
         clearDistanceMapOverlays();
-        if (leafletGeoLayer) {
-          zipToLeafletLayerMap.forEach(lyr => lyr.setStyle(getLeafletZipStyle(false)));
-        }
+        refreshAllZipPolygonStyles();
+        refreshModeBoundaryStyles();
         if (currentGroupingMode === 'zips' && currentZipFilter !== 'all') {
           renderZipsAccordionList(areaSearch.value);
         } else {
@@ -4292,8 +4773,13 @@
 
     function moveTooltip(e) {
       if (!e) return;
-      const x = Math.min(window.innerWidth - 260, e.clientX + 14);
-      const y = Math.min(window.innerHeight - 48, e.clientY + 14);
+      const tipW = mapTooltip.offsetWidth || 260;
+      const tipH = mapTooltip.offsetHeight || 36;
+      const x = Math.max(12, Math.min(window.innerWidth - tipW - 14, e.clientX + 14));
+      // Place below cursor normally, or above if near bottom; keep clear of top overlay controls when hovering top edge
+      const y = e.clientY < 190
+        ? e.clientY + 22
+        : Math.max(12, Math.min(window.innerHeight - tipH - 14, e.clientY - tipH - 12));
       mapTooltip.style.left = x + 'px';
       mapTooltip.style.top = y + 'px';
     }

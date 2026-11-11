@@ -536,10 +536,10 @@ var GeoMapPlugin = (() => {
         let scaleCls = "";
         if (z.bounds && z.bounds.length >= 4) {
           const maxDim = Math.max(z.bounds[2], z.bounds[3]);
-          if (maxDim < 0.6) scaleCls = " zip-scale-xs";
-          else if (maxDim < 1.5) scaleCls = " zip-scale-sm";
-          else if (maxDim < 3.5) scaleCls = " zip-scale-md";
-          else if (maxDim < 8) scaleCls = " zip-scale-lg";
+          if (maxDim < 0.35) scaleCls = " zip-scale-xs";
+          else if (maxDim < 0.85) scaleCls = " zip-scale-sm";
+          else if (maxDim < 2.2) scaleCls = " zip-scale-md";
+          else if (maxDim < 6) scaleCls = " zip-scale-lg";
           else scaleCls = " zip-scale-xl";
         }
         return `
@@ -658,13 +658,14 @@ var GeoMapPlugin = (() => {
         });
         this._updateBreadcrumbs();
         const cTitle = isPR ? `${county.name} Municipio` : county.name.toLowerCase().includes("county") || county.name.toLowerCase().includes("division") ? county.name : `${county.name} County`;
-        const rawCountyName = county.name.toLowerCase().replace(/\s+county$/i, "").replace(/\s+municipio$/i, "").trim();
+        const normCountyKey = (s) => unaccent(s || "").replace(/\s+(county|municipio|division|parish)$/i, "").replace(/^saint\b/, "st").replace(/^st\./, "st").replace(/[^a-z0-9]/g, "");
+        const rawCountyKey = normCountyKey(county.name);
         const countyZips = (this.activeState.zipcodes || []).filter(
-          (z) => z.county && z.county.toLowerCase().replace(/\s+county$/i, "").replace(/\s+municipio$/i, "").trim() === rawCountyName
+          (z) => z.county && normCountyKey(z.county) === rawCountyKey
         );
         this.activeEntity.zips = countyZips.map((z) => z.zip);
         const countyCities = (this.activeState.cities || []).filter(
-          (c) => c.county && c.county.toLowerCase().replace(/\s+county$/i, "").replace(/\s+municipio$/i, "").trim() === rawCountyName || countyZips.some((z) => z.city && z.city.toLowerCase() === c.name.toLowerCase())
+          (c) => c.county && normCountyKey(c.county) === rawCountyKey || countyZips.some((z) => z.city && z.city.toLowerCase() === c.name.toLowerCase())
         );
         let extraCountyHtml = "";
         if (countyCities.length > 0) {
