@@ -807,19 +807,46 @@
 
     .distance-origin-row {
       display: flex;
-      gap: 10px;
-      margin-bottom: 20px;
+      gap: 8px;
+      margin-bottom: 8px;
+      flex-wrap: wrap;
     }
 
     .distance-zip-input {
       flex: 1;
+      min-width: 132px;
       padding: 10px 14px;
       border: 1px solid var(--border-color);
       border-radius: 8px;
-      font-size: 14px;
+      font-size: 16px;
       font-weight: 600;
       font-variant-numeric: tabular-nums;
       color: var(--text-main);
+      transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .distance-zip-input:focus-visible {
+      outline: 2px solid var(--primary);
+      outline-offset: 1px;
+      border-color: var(--primary);
+    }
+
+    .distance-zip-input:user-invalid,
+    .distance-zip-input[aria-invalid="true"] {
+      border-color: #dc2626;
+      background: #fef2f2;
+    }
+
+    .distance-input-feedback {
+      min-height: 18px;
+      font-size: 12px;
+      font-weight: 600;
+      color: #b91c1c;
+      margin-bottom: 10px;
+    }
+
+    .distance-input-feedback.info {
+      color: var(--primary-dark);
     }
 
     .secondary-action-btn {
@@ -841,47 +868,372 @@
       color: var(--primary-dark);
     }
 
+    .secondary-action-btn:active,
+    .primary-inline-btn:active,
+    .hub-icon-btn:active,
+    .zip-filter-pill:active {
+      transform: scale(0.96);
+    }
+
     .secondary-action-btn.active-pin {
       background: var(--primary-light);
       border-color: var(--primary);
       color: var(--primary-dark);
     }
 
+    /* Multi-Pin Travel Hubs List */
+    .distance-hubs-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      padding: 10px 0 8px 0;
+      border-top: 1px solid var(--border-color);
+      margin-bottom: 8px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .distance-hubs-title {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .distance-hubs-actions {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .distance-hubs-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-height: 410px;
+      overflow-y: auto;
+      padding-right: 2px;
+      margin-bottom: 14px;
+    }
+
+    .distance-hub-card {
+      background: #ffffff;
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 12px 14px;
+      box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
+      transition: border-color 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .distance-hub-card:hover {
+      border-color: #cbd5e1;
+    }
+
+    .distance-hub-card.is-focused {
+      border-color: var(--hub-color, var(--primary));
+      box-shadow: 0 0 0 1px var(--hub-color, var(--primary)), 0 4px 10px rgba(15, 23, 42, 0.06);
+    }
+
+    .distance-hub-card.is-muted {
+      opacity: 0.68;
+      background: #f8fafc;
+    }
+
+    .hub-card-top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    .hub-identity {
+      display: flex;
+      align-items: flex-start;
+      gap: 9px;
+      min-width: 0;
+      flex: 1;
+    }
+
+    .hub-enable-check {
+      width: 17px;
+      height: 17px;
+      margin: 3px 0 0 0;
+      accent-color: var(--hub-color, var(--primary));
+      cursor: pointer;
+      flex-shrink: 0;
+    }
+
+    .hub-enable-check:focus-visible {
+      outline: 2px solid var(--hub-color, var(--primary));
+      outline-offset: 2px;
+    }
+
+    .hub-pin-badge {
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: var(--hub-badge-bg, var(--primary-dark));
+      color: #ffffff;
+      font-size: 11.5px;
+      font-weight: 700;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: 1px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18);
+    }
+
+    .hub-title-group {
+      min-width: 0;
+      flex: 1;
+    }
+
+    .hub-title-label {
+      display: block;
+      font-size: 13.5px;
+      font-weight: 700;
+      color: var(--text-main);
+      line-height: 1.3;
+      cursor: pointer;
+      word-break: break-word;
+    }
+
+    .hub-meta-sub {
+      font-size: 11.5px;
+      font-weight: 500;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    .hub-card-actions {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      flex-shrink: 0;
+    }
+
+    .hub-icon-btn {
+      background: #f8fafc;
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      padding: 4px 8px;
+      min-height: 28px;
+      font-size: 11.5px;
+      font-weight: 600;
+      color: var(--text-muted);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+      transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease, transform 0.12s ease-out;
+    }
+
+    .hub-icon-btn:hover {
+      background: #f1f5f9;
+      border-color: #cbd5e1;
+      color: var(--text-main);
+    }
+
+    .hub-icon-btn.active-move {
+      background: var(--primary-light);
+      border-color: var(--primary);
+      color: var(--primary-dark);
+    }
+
+    .hub-icon-btn.remove-btn:hover {
+      background: #fef2f2;
+      border-color: #fca5a5;
+      color: #b91c1c;
+    }
+
     .radius-slider-header {
       display: flex;
       align-items: baseline;
       justify-content: space-between;
-      margin-bottom: 10px;
+      margin-bottom: 4px;
+    }
+
+    .hub-slider-label {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text-muted);
     }
 
     .radius-readout {
-      font-size: 22px;
+      font-size: 15px;
       font-weight: 700;
-      color: var(--primary-dark);
+      color: var(--hub-badge-bg, var(--primary-dark));
       font-variant-numeric: tabular-nums;
     }
 
-    .radius-range {
-      width: 100%;
-      accent-color: var(--primary);
+    /* Brand-Consistent Native Range Slider (modern-web-guidance: slider) */
+    input[type="range"].hub-radius-range {
+      --slider-track-size: 0.42rem;
+      --slider-thumb-size: 1.15rem;
+      --slider-track-radius: 999px;
+      --slider-thumb-radius: 50%;
+      --slider-track-color: #e2e8f0;
+      --slider-fill-color: var(--hub-color, #007c91);
+      --slider-thumb-color: var(--slider-fill-color);
+      --slider-direction: to right;
+      --attr-min: attr(min type(<number>), 5);
+      --attr-max: attr(max type(<number>), 100);
+      --control-value: attr(value type(<number>), 25);
+      --slider-progress: calc(
+        progress(var(--control-value), var(--attr-min), var(--attr-max)) * 100%
+      );
+
+      appearance: none;
+      inline-size: 100%;
+      block-size: 2rem;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      border-radius: 0;
+      background: transparent;
       cursor: pointer;
-      margin-bottom: 12px;
+    }
+
+    input[type="range"].hub-radius-range:dir(rtl) {
+      --slider-direction: to left;
+    }
+
+    @supports not (opacity: progress(1, 0, 100)) {
+      input[type="range"].hub-radius-range {
+        --slider-progress: calc(
+          (var(--control-value) - var(--attr-min)) /
+          (var(--attr-max) - var(--attr-min)) * 100%
+        );
+      }
+    }
+
+    input[type="range"].hub-radius-range::-webkit-slider-runnable-track {
+      block-size: var(--slider-track-size);
+      border: 0;
+      border-radius: var(--slider-track-radius);
+      background: linear-gradient(
+        var(--slider-direction),
+        var(--slider-fill-color) var(--slider-progress),
+        var(--slider-track-color) var(--slider-progress)
+      );
+    }
+
+    input[type="range"].hub-radius-range::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      inline-size: var(--slider-thumb-size);
+      block-size: var(--slider-thumb-size);
+      margin-block-start: calc(
+        (var(--slider-track-size) - var(--slider-thumb-size)) / 2
+      );
+      border: 2px solid #ffffff;
+      border-radius: var(--slider-thumb-radius);
+      background: var(--slider-thumb-color);
+      box-shadow: 0 1px 4px rgba(15, 23, 42, 0.28);
+    }
+
+    input[type="range"].hub-radius-range::-moz-range-track {
+      block-size: var(--slider-track-size);
+      border: 0;
+      border-radius: var(--slider-track-radius);
+      background: var(--slider-track-color);
+    }
+
+    input[type="range"].hub-radius-range::-moz-range-progress {
+      block-size: var(--slider-track-size);
+      border-radius: var(--slider-track-radius);
+      background: var(--slider-fill-color);
+    }
+
+    input[type="range"].hub-radius-range::-moz-range-thumb {
+      inline-size: var(--slider-thumb-size);
+      block-size: var(--slider-thumb-size);
+      border: 2px solid #ffffff;
+      border-radius: var(--slider-thumb-radius);
+      background: var(--slider-thumb-color);
+      box-shadow: 0 1px 4px rgba(15, 23, 42, 0.28);
+    }
+
+    input[type="range"].hub-radius-range:focus-visible {
+      outline: 2px solid var(--slider-fill-color);
+      outline-offset: 4px;
+      border-radius: 4px;
     }
 
     .radius-presets {
       display: flex;
-      gap: 8px;
+      align-items: center;
+      justify-content: space-between;
+      gap: 6px;
       flex-wrap: wrap;
-      margin-bottom: 20px;
+      margin-top: 4px;
+    }
+
+    .radius-preset-pills {
+      display: flex;
+      gap: 5px;
+      flex-wrap: wrap;
+    }
+
+    .hub-sync-all-btn {
+      background: none;
+      border: none;
+      padding: 3px 6px;
+      border-radius: 5px;
+      font-size: 11.5px;
+      font-weight: 600;
+      color: var(--primary);
+      cursor: pointer;
+      transition: background-color 0.15s ease, color 0.15s ease;
+    }
+
+    .hub-sync-all-btn:hover {
+      background: var(--primary-light);
+      color: var(--primary-dark);
+    }
+
+    .distance-empty-state {
+      text-align: center;
+      padding: 22px 16px;
+      border: 1px dashed #cbd5e1;
+      border-radius: 10px;
+      background: #f8fafc;
+      color: var(--text-muted);
+      font-size: 13px;
     }
 
     .distance-summary-card {
       background: #f8fafc;
       border: 1px solid var(--border-color);
       border-radius: 10px;
-      padding: 16px;
-      margin-top: 8px;
+      padding: 14px 16px;
+      margin-top: 6px;
       font-variant-numeric: tabular-nums;
+    }
+
+    .manual-tweaks-bar {
+      display: none;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      margin-bottom: 10px;
+      padding: 6px 10px;
+      border-radius: 7px;
+      background: #eef2ff;
+      border: 1px solid #c7d2fe;
+      font-size: 12px;
+      color: #3730a3;
+      font-weight: 600;
+    }
+
+    .manual-tweaks-bar.visible {
+      display: flex;
     }
 
     .bulk-textarea {
@@ -1049,6 +1401,99 @@
     .map-canvas-container.pin-pick-cursor,
     .map-canvas-container.pin-pick-cursor .leaflet-interactive {
       cursor: crosshair !important;
+    }
+
+    .distance-map-toolbar {
+      display: none;
+      align-items: center;
+      gap: 6px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .distance-map-toolbar.visible {
+      display: flex;
+    }
+
+    .distance-pins-pill {
+      font-size: 11.5px;
+      font-weight: 700;
+      color: var(--primary-dark);
+      background: #f1f5f9;
+      border: 1px solid var(--border-color);
+      border-radius: 7px;
+      padding: 4px 9px;
+      white-space: nowrap;
+    }
+
+    .map-pin-quick-btn {
+      background: #ffffff;
+      border: 1px solid var(--border-color);
+      border-radius: 7px;
+      padding: 4px 10px;
+      font-size: 11.5px;
+      font-weight: 700;
+      color: var(--primary-dark);
+      cursor: pointer;
+      white-space: nowrap;
+      transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease, transform 0.12s ease-out;
+    }
+
+    .map-pin-quick-btn:hover {
+      background: #f8fafc;
+      border-color: var(--primary);
+    }
+
+    .map-pin-quick-btn:active {
+      transform: scale(0.96);
+    }
+
+    .map-pin-quick-btn.active-pin {
+      background: var(--primary);
+      border-color: var(--primary);
+      color: #ffffff;
+    }
+
+    /* Draggable Numbered Map Dots in Travel by Distance Mode */
+    .distance-pin-wrapper {
+      background: transparent;
+      border: none;
+    }
+
+    .distance-map-pin {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: var(--pin-bg, #004754);
+      color: #ffffff;
+      border: 2.5px solid #ffffff;
+      box-shadow: 0 2px 7px rgba(15, 23, 42, 0.35);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight: 800;
+      font-variant-numeric: tabular-nums;
+      cursor: grab;
+      user-select: none;
+      transition: transform 0.14s ease-out, box-shadow 0.14s ease-out, opacity 0.15s ease;
+    }
+
+    .distance-map-pin:hover {
+      transform: scale(1.12);
+    }
+
+    .distance-map-pin:active {
+      cursor: grabbing;
+    }
+
+    .distance-map-pin.is-focused {
+      box-shadow: 0 0 0 3px var(--pin-ring, rgba(0, 124, 145, 0.35)), 0 3px 9px rgba(15, 23, 42, 0.4);
+      transform: scale(1.1);
+    }
+
+    .distance-map-pin.is-muted {
+      opacity: 0.55;
+      filter: grayscale(0.35);
     }
 
     #gmapBase {
@@ -1566,34 +2011,57 @@
           </div>
         </div>
 
-        <!-- 2. Select by Distance Mode Panel -->
+        <!-- 2. Select by Distance Mode Panel (Multi-Pin Travel Hubs) -->
         <div class="mode-panel" id="distanceModePanel">
           <div class="panel-card-inner">
-            <label class="field-label" for="distanceZipInput">Center ZIP Code or Map Pin</label>
-            <p class="field-help">Enter a 5-digit ZIP code in the current state or click "Pick on Map" and click any location to anchor your travel radius.</p>
-            <div class="distance-origin-row">
-              <input type="text" id="distanceZipInput" class="distance-zip-input" maxlength="5" placeholder="e.g. 90012">
-              <button type="button" class="primary-inline-btn" id="applyDistanceZipBtn">Center ZIP</button>
-              <button type="button" class="secondary-action-btn" id="pickCenterPinBtn">Pick on Map</button>
+            <form id="addDistanceHubForm" aria-labelledby="addDistanceHubLabel" novalidate>
+              <label class="field-label" id="addDistanceHubLabel" for="distanceZipInput">Add Travel Center ZIP or Map Pin</label>
+              <p class="field-help" id="distanceZipHelp">Add multiple travel dots by 5-digit ZIP code or drop pins directly on the map. Drag any numbered dot on the map or adjust its mileage slider individually.</p>
+              <div class="distance-origin-row">
+                <input
+                  type="text"
+                  id="distanceZipInput"
+                  name="distanceZip"
+                  class="distance-zip-input"
+                  inputmode="numeric"
+                  pattern="\d{5}"
+                  maxlength="5"
+                  autocomplete="postal-code"
+                  autocorrect="off"
+                  autocapitalize="none"
+                  spellcheck="false"
+                  enterkeyhint="done"
+                  aria-describedby="distanceZipHelp distanceInputError"
+                  placeholder="e.g. 94107"
+                >
+                <button type="submit" class="primary-inline-btn" id="applyDistanceZipBtn">+ Add ZIP Pin</button>
+                <button type="button" class="secondary-action-btn" id="pickCenterPinBtn">+ Drop Pin on Map</button>
+              </div>
+              <div id="distanceInputError" class="distance-input-feedback" role="status" aria-live="polite"></div>
+            </form>
+
+            <div class="distance-hubs-header" id="distanceHubsHeader">
+              <div class="distance-hubs-title">
+                <span>Travel Pins</span>
+                <span class="grouping-badge" id="distanceHubsCountBadge">0 active</span>
+              </div>
+              <div class="distance-hubs-actions">
+                <button type="button" class="fold-btn" id="fitAllDistanceHubsBtn" title="Zoom map to fit all active travel radii">Fit All</button>
+                <button type="button" class="fold-btn" id="clearAllDistanceHubsBtn" title="Remove all travel pins">Clear Pins</button>
+              </div>
             </div>
 
-            <div class="radius-slider-header">
-              <label class="field-label" for="distanceRadiusSlider" style="margin-bottom: 0;">Maximum Travel Distance</label>
-              <span class="radius-readout" id="distanceRadiusReadout">25 miles</span>
-            </div>
-            <input type="range" id="distanceRadiusSlider" class="radius-range" min="5" max="100" step="1" value="25">
-
-            <div class="radius-presets">
-              <button type="button" class="zip-filter-pill" data-radius="10">10 mi</button>
-              <button type="button" class="zip-filter-pill active" data-radius="25">25 mi</button>
-              <button type="button" class="zip-filter-pill" data-radius="40">40 mi</button>
-              <button type="button" class="zip-filter-pill" data-radius="60">60 mi</button>
-              <button type="button" class="zip-filter-pill" data-radius="85">85 mi</button>
+            <div class="distance-hubs-list" id="distanceHubsList" role="list" aria-label="Travel radius pins">
+              <!-- Populated dynamically via JS -->
             </div>
 
             <div class="distance-summary-card" id="distanceSummaryCard">
-              <div style="font-size: 14px; font-weight: 700; color: var(--text-main); margin-bottom: 4px;" id="distanceCenterLabel">Origin: Not set</div>
-              <div style="font-size: 13px; color: var(--text-muted); margin-bottom: 12px;" id="distanceMatchedText">Adjust the slider or enter a ZIP code to select all surrounding ZIPs within your travel radius.</div>
+              <div class="manual-tweaks-bar" id="distanceManualTweaksBar">
+                <span id="distanceManualTweaksText">0 manual ZIP tweaks</span>
+                <button type="button" class="hub-sync-all-btn" id="clearDistanceTweaksBtn">Reset tweaks</button>
+              </div>
+              <div style="font-size: 14px; font-weight: 700; color: var(--text-main); margin-bottom: 4px;" id="distanceCenterLabel">Combined Coverage: 0 active pins</div>
+              <div style="font-size: 13px; color: var(--text-muted); margin-bottom: 12px;" id="distanceMatchedText">Add one or more travel pins above to automatically cover every ZIP code within each pin's travel radius.</div>
               <button type="button" class="secondary-action-btn" id="fineTuneFromDistanceBtn">Fine-tune individual ZIPs in list</button>
             </div>
           </div>
@@ -1645,6 +2113,11 @@
               <button type="button" class="mode-pill-btn" id="btnGroupRegions" data-group="regions" title="Show Regional market boundaries and toggle entire Regions">Regions</button>
               <button type="button" class="mode-pill-btn" id="btnGroupCities" data-group="cities" title="Show City boundaries and toggle entire Cities">Cities</button>
               <button type="button" class="mode-pill-btn" id="btnGroupZips" data-group="zips" title="Show individual ZIP code boundaries and toggle Single ZIPs">Single ZIPs</button>
+            </div>
+            <div class="distance-map-toolbar" id="distanceMapToolbar">
+              <span class="distance-pins-pill" id="distanceMapPinsCount">0 pins active</span>
+              <button type="button" class="map-pin-quick-btn" id="mapQuickDropPinBtn" title="Click anywhere on the map to drop another travel pin">+ Drop Pin</button>
+              <button type="button" class="map-pin-quick-btn" id="mapQuickFitPinsBtn" title="Zoom map to fit all active travel radii">Fit Pins</button>
             </div>
           </div>
 
@@ -1797,12 +2270,24 @@
     // Single ZIP mode filter state: 'all' | 'targeted' | 'available'
     let currentZipFilter = 'all';
 
-    // Distance Mode State
-    let distanceOrigin = null; // { lat, lon, label, zip }
-    let distanceMiles = 25;
-    let isPickingDistancePin = false;
-    let distanceCircleLayer = null;
-    let distancePinMarker = null;
+    // Multi-Pin Travel by Distance Mode State
+    const DISTANCE_HUB_PALETTE = [
+      { ring: '#007c91', badge: '#004754', halo: 'rgba(0, 124, 145, 0.34)' },
+      { ring: '#4f46e5', badge: '#3730a3', halo: 'rgba(79, 70, 229, 0.34)' },
+      { ring: '#059669', badge: '#065f46', halo: 'rgba(5, 150, 105, 0.34)' },
+      { ring: '#e11d48', badge: '#9f1239', halo: 'rgba(225, 29, 72, 0.34)' },
+      { ring: '#0284c7', badge: '#075985', halo: 'rgba(2, 132, 199, 0.34)' },
+      { ring: '#7c3aed', badge: '#5b21b6', halo: 'rgba(124, 58, 237, 0.34)' }
+    ];
+    let distanceHubs = []; // Array<{ id, lat, lon, zip, city, isExactZip, miles, enabled, colorIdx, _coveredCount, _uniqueCount }>
+    let activeDistanceHubId = null;
+    let distanceDefaultMiles = 25;
+    let distancePinPickTarget = null; // null | 'add' | hubId
+    let distanceOverlayMap = new Map(); // Map<hubId, { circle: L.Circle, marker: L.Marker }>
+    let distanceManualAdded = new Set();
+    let distanceManualExcluded = new Set();
+    let distanceHubSeq = 1;
+    let distanceDragRaf = 0;
 
     // Export Format State: 'json' | 'csv' | 'lines' | 'summary'
     let currentExportFormat = 'json';
@@ -1855,6 +2340,10 @@
       return `tt_pro_territory_zips_${code}`;
     }
 
+    function getDistanceHubsStorageKey(code) {
+      return `tt_pro_distance_hubs_${code}`;
+    }
+
     function loadPersistedSelection(code) {
       try {
         const raw = localStorage.getItem(getStorageKey(code));
@@ -1865,9 +2354,41 @@
       return null;
     }
 
+    function loadPersistedDistanceHubs(code) {
+      try {
+        const raw = localStorage.getItem(getDistanceHubsStorageKey(code));
+        if (!raw) return null;
+        const parsed = JSON.parse(raw);
+        if (parsed && Array.isArray(parsed.hubs)) return parsed;
+      } catch (_) {}
+      return null;
+    }
+
+    function persistDistanceHubsState() {
+      try {
+        const payload = {
+          hubs: distanceHubs.map(h => ({
+            id: h.id,
+            lat: h.lat,
+            lon: h.lon,
+            zip: h.zip,
+            city: h.city,
+            isExactZip: Boolean(h.isExactZip),
+            miles: h.miles,
+            enabled: Boolean(h.enabled),
+            colorIdx: h.colorIdx
+          })),
+          manualAdded: Array.from(distanceManualAdded),
+          manualExcluded: Array.from(distanceManualExcluded)
+        };
+        localStorage.setItem(getDistanceHubsStorageKey(currentStateCode), JSON.stringify(payload));
+      } catch (_) {}
+    }
+
     function persistCurrentSelection(showFlash = false) {
       try {
         localStorage.setItem(getStorageKey(currentStateCode), JSON.stringify(Array.from(selectedZips)));
+        persistDistanceHubsState();
         if (showFlash && savedStatusPill) {
           savedStatusPill.classList.add('visible');
           clearTimeout(persistCurrentSelection._timer);
@@ -1936,13 +2457,7 @@
 
     function setTopMode(mode) {
       currentTopMode = mode;
-      isPickingDistancePin = false;
-      mapContainer.classList.remove('pin-pick-cursor');
-      const pickBtn = document.getElementById('pickCenterPinBtn');
-      if (pickBtn) {
-        pickBtn.classList.remove('active-pin');
-        pickBtn.textContent = 'Pick on Map';
-      }
+      setDistancePinPickMode(null);
 
       document.querySelectorAll('#topModeTabs .tab-btn').forEach(btn => {
         const active = btn.dataset.topMode === mode;
@@ -1957,26 +2472,30 @@
       const leadTitle = document.getElementById('sectionLeadTitle');
       const leadDesc = document.getElementById('sectionLeadDesc');
       const groupToggle = document.getElementById('groupModeToggle');
+      const distanceMapToolbar = document.getElementById('distanceMapToolbar');
 
       if (mode === 'area') {
         leadTitle.textContent = 'Select by area and zip code';
         leadDesc.textContent = 'Set areas and zip codes where you want to work. Switch between Counties, Regions, Cities, and Single ZIPs to build and fine-tune your territory.';
         if (groupToggle) groupToggle.style.display = 'flex';
+        if (distanceMapToolbar) distanceMapToolbar.classList.remove('visible');
         clearDistanceMapOverlays();
         rebuildModeBoundaryLayer();
         refreshAllZipPolygonStyles();
         renderAccordionList(areaSearch.value);
       } else if (mode === 'distance') {
         leadTitle.textContent = 'Select by travel distance';
-        leadDesc.textContent = 'Choose a center ZIP code or click a map point to automatically select every ZIP code within your maximum travel radius.';
+        leadDesc.textContent = 'Drop one or multiple travel pins on the map or add 5-digit ZIP codes. Each pin projects its own adjustable mileage radius and combines into your active service territory.';
         if (groupToggle) groupToggle.style.display = 'none';
+        if (distanceMapToolbar) distanceMapToolbar.classList.add('visible');
         rebuildModeBoundaryLayer();
-        ensureDefaultDistanceOrigin();
+        ensureDefaultDistanceHub();
         applyDistanceSelection(true);
       } else if (mode === 'advanced') {
         leadTitle.textContent = 'Advanced bulk territory tools';
         leadDesc.textContent = 'Paste 5-digit ZIP lists from spreadsheets or ad campaigns to batch-add, replace, or exclude areas.';
         if (groupToggle) groupToggle.style.display = 'flex';
+        if (distanceMapToolbar) distanceMapToolbar.classList.remove('visible');
         clearDistanceMapOverlays();
         rebuildModeBoundaryLayer();
         refreshAllZipPolygonStyles();
@@ -2065,8 +2584,8 @@
       });
 
       leafletMap.on('click', (e) => {
-        if (currentTopMode === 'distance' && isPickingDistancePin) {
-          setDistanceOriginByLatLng(e.latlng.lat, e.latlng.lng);
+        if (currentTopMode === 'distance' && distancePinPickTarget) {
+          handleDistanceMapPinClick(e.latlng.lat, e.latlng.lng, null);
         }
       });
     }
@@ -2109,7 +2628,11 @@
     // 2. Load State Data
     async function loadState(code) {
       currentStateCode = code;
-      distanceOrigin = null;
+      distanceHubs = [];
+      activeDistanceHubId = null;
+      distanceManualAdded.clear();
+      distanceManualExcluded.clear();
+      setDistancePinPickMode(null);
       clearDistanceMapOverlays();
       regionsList.innerHTML = `<div style="padding: 30px; text-align: center; color: var(--text-muted); font-size: 14px;">Loading ${code} territory data...</div>`;
 
@@ -2193,7 +2716,7 @@
           (city.zips || []).forEach(z => zipToCityMap.set(z, city));
         });
 
-        // Restore persisted selection for this state if present; otherwise seed initial primary metro city
+        // Restore persisted selection & persisted multi-pin distance hubs for this state if present
         const persisted = loadPersistedSelection(code);
         if (persisted !== null) {
           persisted.forEach(z => {
@@ -2203,6 +2726,34 @@
           cachedCitiesData[0].zips.forEach(z => selectedZips.add(z));
         }
 
+        const persistedDist = loadPersistedDistanceHubs(code);
+        if (persistedDist && Array.isArray(persistedDist.hubs)) {
+          distanceHubs = persistedDist.hubs
+            .filter(h => h && typeof h.lat === 'number' && typeof h.lon === 'number')
+            .map((h, idx) => ({
+              id: h.id || `hub-${distanceHubSeq++}`,
+              lat: h.lat,
+              lon: h.lon,
+              zip: h.zip || '',
+              city: h.city || '',
+              isExactZip: Boolean(h.isExactZip),
+              miles: Math.max(5, Math.min(100, Number(h.miles) || 25)),
+              enabled: h.enabled !== false,
+              colorIdx: typeof h.colorIdx === 'number' ? h.colorIdx : idx,
+              _coveredCount: 0,
+              _uniqueCount: 0
+            }));
+          if (distanceHubs.length > 0) {
+            activeDistanceHubId = distanceHubs[0].id;
+          }
+          (persistedDist.manualAdded || []).forEach(z => {
+            if (zipMetaMap.has(z)) distanceManualAdded.add(z);
+          });
+          (persistedDist.manualExcluded || []).forEach(z => {
+            if (zipMetaMap.has(z)) distanceManualExcluded.add(z);
+          });
+        }
+
         renderBackground();
         buildLeafletTerritoryLayer();
         rebuildModeBoundaryLayer();
@@ -2210,7 +2761,7 @@
         updateSummaryStats();
 
         if (currentTopMode === 'distance') {
-          ensureDefaultDistanceOrigin();
+          ensureDefaultDistanceHub();
           applyDistanceSelection(true);
         } else if (leafletMap && stateGpsBounds) {
           leafletMap.invalidateSize();
@@ -3123,14 +3674,14 @@
           zipToLeafletLayerMap.set(zip, lyr);
 
           lyr.on('click', (e) => {
-            if (currentTopMode === 'distance' && isPickingDistancePin) {
+            if (currentTopMode === 'distance' && distancePinPickTarget) {
               L.DomEvent.stopPropagation(e);
-              setDistanceOriginByLatLng(e.latlng.lat, e.latlng.lng, zip);
+              handleDistanceMapPinClick(e.latlng.lat, e.latlng.lng, zip);
               return;
             }
 
             if (currentTopMode === 'distance') {
-              toggleZip(zip, undefined, false);
+              toggleDistanceManualZip(zip);
               return;
             }
 
@@ -3184,12 +3735,16 @@
             if (currentTopMode === 'distance') {
               const isAct = selectedZips.has(zip);
               highlightZipOnMap(zip);
-              showTooltip(
-                e.originalEvent,
-                isPickingDistancePin
-                  ? `Click to anchor radius at ${zip} (${meta.city || 'Area'})`
-                  : `${zip} • ${meta.city || 'ZIP'} • ${isAct ? 'Click to exclude ZIP' : 'Click to include ZIP'}`
-              );
+              let tipText = '';
+              if (distancePinPickTarget === 'add') {
+                tipText = `Click to drop new travel pin at ${zip} (${meta.city || 'Area'})`;
+              } else if (distancePinPickTarget) {
+                const moveIdx = distanceHubs.findIndex(h => h.id === distancePinPickTarget);
+                tipText = `Click to relocate Pin #${moveIdx >= 0 ? moveIdx + 1 : ''} to ${zip} (${meta.city || 'Area'})`;
+              } else {
+                tipText = `${zip} • ${meta.city || 'ZIP'} • ${isAct ? 'Click to exclude ZIP' : 'Click to include ZIP'}`;
+              }
+              showTooltip(e.originalEvent, tipText);
               return;
             }
 
@@ -4255,7 +4810,7 @@
       currentHoveredChipZip = null;
     }
 
-    // 12. Distance Mode Implementation (Haversine Radius + Interactive Pin)
+    // 12. Multi-Pin Travel by Distance Mode (Multiple Haversine Radii + Draggable Pins + Per-Pin Controls)
     function haversineMiles(lat1, lon1, lat2, lon2) {
       const toRad = Math.PI / 180;
       const R = 3958.7613; // Earth mean radius in miles
@@ -4265,19 +4820,117 @@
       return 2 * R * Math.asin(Math.min(1, Math.sqrt(a)));
     }
 
-    function clearDistanceMapOverlays() {
-      if (leafletMap && distanceCircleLayer) {
-        leafletMap.removeLayer(distanceCircleLayer);
-        distanceCircleLayer = null;
+    function getHubPalette(colorIdx) {
+      const idx = Math.abs(Number(colorIdx) || 0) % DISTANCE_HUB_PALETTE.length;
+      return DISTANCE_HUB_PALETTE[idx];
+    }
+
+    function getNextHubColorIdx() {
+      const used = new Set(distanceHubs.map(h => h.colorIdx));
+      for (let i = 0; i < DISTANCE_HUB_PALETTE.length; i++) {
+        if (!used.has(i)) return i;
       }
-      if (leafletMap && distancePinMarker) {
-        leafletMap.removeLayer(distancePinMarker);
-        distancePinMarker = null;
+      return distanceHubs.length % DISTANCE_HUB_PALETTE.length;
+    }
+
+    function formatDistanceHubTitle(hub) {
+      if (hub.zip) {
+        const cityPart = hub.city || currentStateCode;
+        return hub.isExactZip
+          ? `${hub.zip} · ${cityPart}`
+          : `Near ${hub.zip} · ${cityPart}`;
+      }
+      return `${hub.lat.toFixed(4)}, ${hub.lon.toFixed(4)}`;
+    }
+
+    function formatDistanceHubMeta(hub, enabledHubCount) {
+      if (!hub.enabled) {
+        return `${hub._coveredCount || 0} ZIPs in range · Paused`;
+      }
+      if (enabledHubCount > 1) {
+        return `${hub._coveredCount || 0} ZIPs in range · ${hub._uniqueCount || 0} unique to this pin`;
+      }
+      return `${hub._coveredCount || 0} ZIPs in range`;
+    }
+
+    function syncRangeCustomProps(sliderEl) {
+      if (!sliderEl) return;
+      sliderEl.style.setProperty('--attr-min', sliderEl.min || '5');
+      sliderEl.style.setProperty('--attr-max', sliderEl.max || '100');
+      sliderEl.style.setProperty('--control-value', sliderEl.value);
+      sliderEl.setAttribute('aria-valuetext', `${sliderEl.value} miles`);
+    }
+
+    function setDistanceInputFeedback(msg, isInfo = false) {
+      const el = document.getElementById('distanceInputError');
+      const zipInput = document.getElementById('distanceZipInput');
+      if (el) {
+        el.textContent = msg || '';
+        el.classList.toggle('info', Boolean(msg && isInfo));
+      }
+      if (zipInput) {
+        if (msg && !isInfo) {
+          zipInput.setAttribute('aria-invalid', 'true');
+        } else {
+          zipInput.removeAttribute('aria-invalid');
+        }
       }
     }
 
-    function ensureDefaultDistanceOrigin() {
-      if (distanceOrigin) return;
+    function setDistancePinPickMode(target) {
+      distancePinPickTarget = target || null;
+      if (mapContainer) {
+        mapContainer.classList.toggle('pin-pick-cursor', Boolean(distancePinPickTarget));
+      }
+
+      const pickBtn = document.getElementById('pickCenterPinBtn');
+      if (pickBtn) {
+        const isAdding = distancePinPickTarget === 'add';
+        pickBtn.classList.toggle('active-pin', isAdding);
+        pickBtn.textContent = isAdding ? 'Click Map to Drop...' : '+ Drop Pin on Map';
+      }
+
+      const quickDropBtn = document.getElementById('mapQuickDropPinBtn');
+      if (quickDropBtn) {
+        const isAdding = distancePinPickTarget === 'add';
+        quickDropBtn.classList.toggle('active-pin', isAdding);
+        quickDropBtn.textContent = isAdding ? 'Click Map...' : '+ Drop Pin';
+      }
+
+      document.querySelectorAll('.hub-icon-btn[data-action="move"]').forEach(btn => {
+        const isMovingThis = Boolean(distancePinPickTarget && btn.dataset.hubId === distancePinPickTarget);
+        btn.classList.toggle('active-move', isMovingThis);
+        btn.textContent = isMovingThis ? 'Click Map...' : 'Move';
+      });
+    }
+
+    function clearDistanceMapOverlays() {
+      if (leafletMap) {
+        distanceOverlayMap.forEach(({ circle, marker }) => {
+          if (circle) leafletMap.removeLayer(circle);
+          if (marker) leafletMap.removeLayer(marker);
+        });
+      }
+      distanceOverlayMap.clear();
+    }
+
+    function findNearestStateZip(lat, lon) {
+      let nearestZip = '';
+      let bestDist = Infinity;
+      zipMetaMap.forEach((meta, z) => {
+        if (meta.lat != null && meta.lon != null) {
+          const d = haversineMiles(lat, lon, meta.lat, meta.lon);
+          if (d < bestDist) {
+            bestDist = d;
+            nearestZip = z;
+          }
+        }
+      });
+      return nearestZip;
+    }
+
+    function ensureDefaultDistanceHub() {
+      if (distanceHubs.length > 0) return;
       let seedZip = Array.from(selectedZips)[0];
       if (!seedZip || !zipMetaMap.has(seedZip)) {
         seedZip = cachedCitiesData && cachedCitiesData[0] && cachedCitiesData[0].zips[0];
@@ -4285,184 +4938,787 @@
       if (seedZip && zipMetaMap.has(seedZip)) {
         const meta = zipMetaMap.get(seedZip);
         if (meta.lat != null && meta.lon != null) {
-          distanceOrigin = {
+          const hub = {
+            id: `hub-${distanceHubSeq++}`,
             lat: meta.lat,
             lon: meta.lon,
             zip: seedZip,
-            label: `${seedZip} (${meta.city || currentStateCode})`
+            city: meta.city || currentStateCode,
+            isExactZip: true,
+            miles: distanceDefaultMiles,
+            enabled: true,
+            colorIdx: 0,
+            _coveredCount: 0,
+            _uniqueCount: 0
           };
-          const zipInput = document.getElementById('distanceZipInput');
-          if (zipInput) zipInput.value = seedZip;
+          distanceHubs.push(hub);
+          activeDistanceHubId = hub.id;
         }
       }
     }
 
-    function setDistanceOriginByLatLng(lat, lon, hintZip = null) {
-      isPickingDistancePin = false;
-      mapContainer.classList.remove('pin-pick-cursor');
-      const pickBtn = document.getElementById('pickCenterPinBtn');
-      if (pickBtn) {
-        pickBtn.classList.remove('active-pin');
-        pickBtn.textContent = 'Pick on Map';
-      }
-
-      let nearestZip = hintZip;
-      if (!nearestZip) {
-        let bestDist = Infinity;
-        zipMetaMap.forEach((meta, z) => {
-          if (meta.lat != null && meta.lon != null) {
-            const d = (meta.lat - lat) ** 2 + (meta.lon - lon) ** 2;
-            if (d < bestDist) {
-              bestDist = d;
-              nearestZip = z;
-            }
-          }
-        });
-      }
-
-      const meta = nearestZip ? zipMetaMap.get(nearestZip) : null;
-      distanceOrigin = {
-        lat,
-        lon,
-        zip: nearestZip || '',
-        label: nearestZip && meta ? `Pin near ${nearestZip} (${meta.city || currentStateCode})` : `${lat.toFixed(4)}, ${lon.toFixed(4)}`
-      };
-      const zipInput = document.getElementById('distanceZipInput');
-      if (zipInput && nearestZip) zipInput.value = nearestZip;
-      applyDistanceSelection(true);
+    function createDistancePinDivIcon(hub, indexOneBased) {
+      const pal = getHubPalette(hub.colorIdx);
+      const isFocused = hub.id === activeDistanceHubId;
+      const cls = `distance-map-pin${isFocused ? ' is-focused' : ''}${!hub.enabled ? ' is-muted' : ''}`;
+      return L.divIcon({
+        className: 'distance-pin-wrapper',
+        iconSize: [28, 28],
+        iconAnchor: [14, 14],
+        html: `<div class="${cls}" style="--pin-bg:${pal.badge};--pin-ring:${pal.halo};">${indexOneBased}</div>`
+      });
     }
 
-    function applyDistanceSelection(fitCamera = false) {
-      if (!distanceOrigin || !leafletMap) return;
-      clearDistanceMapOverlays();
+    function getDistanceCircleStyle(hub) {
+      const pal = getHubPalette(hub.colorIdx);
+      const isFocused = hub.id === activeDistanceHubId;
+      if (!hub.enabled) {
+        return {
+          color: pal.ring,
+          weight: 1.5,
+          opacity: 0.35,
+          dashArray: '4, 6',
+          fillColor: pal.ring,
+          fillOpacity: 0.02
+        };
+      }
+      return {
+        color: pal.ring,
+        weight: isFocused ? 2.6 : 1.9,
+        opacity: isFocused ? 0.95 : 0.78,
+        dashArray: '6, 5',
+        fillColor: pal.ring,
+        fillOpacity: isFocused ? 0.09 : 0.05
+      };
+    }
 
-      const radiusMeters = distanceMiles * 1609.344;
-      distanceCircleLayer = L.circle([distanceOrigin.lat, distanceOrigin.lon], {
-        renderer: leafletSvgRenderer,
-        radius: radiusMeters,
-        color: '#007c91',
-        weight: 2,
-        dashArray: '6, 6',
-        fillColor: '#007c91',
-        fillOpacity: 0.08,
-        interactive: false
-      }).addTo(leafletMap);
+    function syncDistanceMapOverlays() {
+      if (!leafletMap || currentTopMode !== 'distance') return;
 
-      distancePinMarker = L.circleMarker([distanceOrigin.lat, distanceOrigin.lon], {
-        renderer: leafletSvgRenderer,
-        radius: 6,
-        color: '#ffffff',
-        weight: 2,
-        fillColor: '#004754',
-        fillOpacity: 1,
-        interactive: false
-      }).addTo(leafletMap);
-
-      selectedZips.clear();
-      zipMetaMap.forEach((meta, z) => {
-        if (meta.lat != null && meta.lon != null) {
-          const dist = haversineMiles(distanceOrigin.lat, distanceOrigin.lon, meta.lat, meta.lon);
-          const isInside = dist <= distanceMiles;
-          if (isInside) selectedZips.add(z);
-          const lyr = zipToLeafletLayerMap.get(z);
-          if (lyr) lyr.setStyle(getLeafletZipStyle(isInside, z));
+      // Remove stale overlays for deleted hubs
+      const validIds = new Set(distanceHubs.map(h => h.id));
+      distanceOverlayMap.forEach((entry, id) => {
+        if (!validIds.has(id)) {
+          if (entry.circle) leafletMap.removeLayer(entry.circle);
+          if (entry.marker) leafletMap.removeLayer(entry.marker);
+          distanceOverlayMap.delete(id);
         }
       });
 
-      const centerLabel = document.getElementById('distanceCenterLabel');
-      const matchedText = document.getElementById('distanceMatchedText');
-      if (centerLabel) centerLabel.textContent = `Origin: ${distanceOrigin.label}`;
-      if (matchedText) {
-        matchedText.textContent = `${selectedZips.size} ZIP codes selected within ${distanceMiles} miles. You can click individual polygons on the map or switch to Single ZIPs to fine-tune.`;
+      distanceHubs.forEach((hub, idx) => {
+        const radiusMeters = hub.miles * 1609.344;
+        const existing = distanceOverlayMap.get(hub.id);
+
+        if (existing) {
+          existing.circle.setLatLng([hub.lat, hub.lon]);
+          existing.circle.setRadius(radiusMeters);
+          existing.circle.setStyle(getDistanceCircleStyle(hub));
+          existing.marker.setLatLng([hub.lat, hub.lon]);
+          existing.marker.setIcon(createDistancePinDivIcon(hub, idx + 1));
+          existing.marker.setZIndexOffset(hub.id === activeDistanceHubId ? 500 : 100 + idx);
+        } else {
+          const circle = L.circle([hub.lat, hub.lon], Object.assign({
+            renderer: leafletSvgRenderer,
+            radius: radiusMeters,
+            interactive: false
+          }, getDistanceCircleStyle(hub))).addTo(leafletMap);
+
+          const marker = L.marker([hub.lat, hub.lon], {
+            icon: createDistancePinDivIcon(hub, idx + 1),
+            draggable: true,
+            keyboard: true,
+            title: `Travel Pin #${idx + 1}`,
+            zIndexOffset: hub.id === activeDistanceHubId ? 500 : 100 + idx
+          }).addTo(leafletMap);
+
+          marker.on('click', (ev) => {
+            L.DomEvent.stopPropagation(ev);
+            focusDistanceHub(hub.id, false);
+          });
+
+          marker.on('mouseover', (ev) => {
+            const rank = distanceHubs.findIndex(h => h.id === hub.id) + 1;
+            showTooltip(
+              ev.originalEvent,
+              `Pin #${rank}: ${formatDistanceHubTitle(hub)} • ${hub.miles} mi radius • Drag to reposition`
+            );
+          });
+
+          marker.on('mousemove', (ev) => {
+            moveTooltip(ev.originalEvent);
+          });
+
+          marker.on('mouseout', () => {
+            hideTooltip();
+          });
+
+          marker.on('dragstart', () => {
+            hideTooltip();
+            activeDistanceHubId = hub.id;
+          });
+
+          marker.on('drag', (ev) => {
+            const pos = ev.target.getLatLng();
+            hub.lat = pos.lat;
+            hub.lon = pos.lng;
+            circle.setLatLng(pos);
+            if (!distanceDragRaf) {
+              distanceDragRaf = requestAnimationFrame(() => {
+                distanceDragRaf = 0;
+                recomputeDistanceUnion(true);
+                updateDistanceSummaryUI();
+              });
+            }
+          });
+
+          marker.on('dragend', (ev) => {
+            const pos = ev.target.getLatLng();
+            hub.lat = pos.lat;
+            hub.lon = pos.lng;
+            const nearZip = findNearestStateZip(hub.lat, hub.lon);
+            const meta = nearZip ? zipMetaMap.get(nearZip) : null;
+            hub.zip = nearZip || '';
+            hub.city = meta ? (meta.city || currentStateCode) : currentStateCode;
+            hub.isExactZip = false;
+            circle.setLatLng(pos);
+            recomputeDistanceUnion(true);
+            renderDistanceHubsList();
+            syncDistanceMapOverlays();
+            updateDistanceSummaryUI();
+            persistDistanceHubsState();
+          });
+
+          distanceOverlayMap.set(hub.id, { circle, marker });
+        }
+      });
+    }
+
+    function recomputeDistanceUnion(differentialOnly = false) {
+      distanceHubs.forEach(h => {
+        h._coveredCount = 0;
+        h._uniqueCount = 0;
+      });
+
+      const nextSelected = new Set();
+      zipMetaMap.forEach((meta, z) => {
+        if (meta.lat == null || meta.lon == null) return;
+        let activeMatchCount = 0;
+        let firstActiveHub = null;
+
+        for (let i = 0; i < distanceHubs.length; i++) {
+          const h = distanceHubs[i];
+          const d = haversineMiles(h.lat, h.lon, meta.lat, meta.lon);
+          if (d <= h.miles) {
+            h._coveredCount++;
+            if (h.enabled) {
+              activeMatchCount++;
+              if (activeMatchCount === 1) firstActiveHub = h;
+            }
+          }
+        }
+
+        if (activeMatchCount > 0) {
+          nextSelected.add(z);
+          if (activeMatchCount === 1 && firstActiveHub) {
+            firstActiveHub._uniqueCount++;
+          }
+        }
+      });
+
+      distanceManualExcluded.forEach(z => nextSelected.delete(z));
+      distanceManualAdded.forEach(z => {
+        if (zipMetaMap.has(z)) nextSelected.add(z);
+      });
+
+      if (differentialOnly) {
+        const changed = new Set();
+        selectedZips.forEach(z => {
+          if (!nextSelected.has(z)) changed.add(z);
+        });
+        nextSelected.forEach(z => {
+          if (!selectedZips.has(z)) changed.add(z);
+        });
+
+        selectedZips.clear();
+        nextSelected.forEach(z => selectedZips.add(z));
+
+        changed.forEach(z => {
+          const lyr = zipToLeafletLayerMap.get(z);
+          if (lyr) lyr.setStyle(getLeafletZipStyle(selectedZips.has(z), z));
+        });
+      } else {
+        selectedZips.clear();
+        nextSelected.forEach(z => selectedZips.add(z));
+        zipToLeafletLayerMap.forEach((lyr, z) => {
+          lyr.setStyle(getLeafletZipStyle(selectedZips.has(z), z));
+        });
       }
 
       if (activeZipsCountLabel) activeZipsCountLabel.textContent = selectedZips.size;
       updateSummaryStats();
+    }
 
-      if (fitCamera && distanceCircleLayer) {
-        leafletMap.flyToBounds(distanceCircleLayer.getBounds(), { padding: [35, 35], duration: 0.55 });
+    function updateDistanceSummaryUI() {
+      const enabledHubs = distanceHubs.filter(h => h.enabled);
+      const totalHubs = distanceHubs.length;
+
+      const countBadge = document.getElementById('distanceHubsCountBadge');
+      if (countBadge) {
+        countBadge.textContent = totalHubs === enabledHubs.length
+          ? `${enabledHubs.length} active`
+          : `${enabledHubs.length} of ${totalHubs} active`;
+      }
+
+      const mapPinsCount = document.getElementById('distanceMapPinsCount');
+      if (mapPinsCount) {
+        mapPinsCount.textContent = `${enabledHubs.length} ${enabledHubs.length === 1 ? 'pin' : 'pins'} active`;
+      }
+
+      // Sync each card's subtitle counts in place without rebuilding range inputs
+      const listEl = document.getElementById('distanceHubsList');
+      if (listEl) {
+        distanceHubs.forEach(hub => {
+          const subEl = listEl.querySelector(`.distance-hub-card[data-hub-id="${hub.id}"] .hub-meta-sub`);
+          if (subEl) {
+            subEl.textContent = formatDistanceHubMeta(hub, enabledHubs.length);
+          }
+        });
+      }
+
+      const tweaksBar = document.getElementById('distanceManualTweaksBar');
+      const tweaksText = document.getElementById('distanceManualTweaksText');
+      const totalTweaks = distanceManualAdded.size + distanceManualExcluded.size;
+      if (tweaksBar && tweaksText) {
+        tweaksBar.classList.toggle('visible', totalTweaks > 0);
+        if (totalTweaks > 0) {
+          const parts = [];
+          if (distanceManualAdded.size > 0) parts.push(`+${distanceManualAdded.size} added`);
+          if (distanceManualExcluded.size > 0) parts.push(`-${distanceManualExcluded.size} excluded`);
+          tweaksText.textContent = `Manual border tweaks: ${parts.join(', ')}`;
+        }
+      }
+
+      const centerLabel = document.getElementById('distanceCenterLabel');
+      const matchedText = document.getElementById('distanceMatchedText');
+      if (centerLabel) {
+        if (totalHubs === 0) {
+          centerLabel.textContent = 'Combined Coverage: No travel pins placed';
+        } else if (enabledHubs.length === 1) {
+          centerLabel.textContent = `1 active pin (${formatDistanceHubTitle(enabledHubs[0])})`;
+        } else {
+          centerLabel.textContent = `Combined Coverage: ${enabledHubs.length} active pins`;
+        }
+      }
+      if (matchedText) {
+        if (totalHubs === 0) {
+          matchedText.textContent = 'Enter a 5-digit ZIP code above or click "+ Drop Pin on Map" to place your first travel center.';
+        } else if (enabledHubs.length === 0) {
+          matchedText.textContent = `All ${totalHubs} travel ${totalHubs === 1 ? 'pin is' : 'pins are'} currently paused. Check any pin above to re-enable its radius.`;
+        } else {
+          matchedText.textContent = `${selectedZips.size} unique ZIP codes covered across ${enabledHubs.length} ${enabledHubs.length === 1 ? 'travel radius' : 'combined travel radii'}. Drag any numbered dot on the map or click border polygons to fine-tune.`;
+        }
       }
     }
 
-    function setupDistanceMode() {
-      const zipInput = document.getElementById('distanceZipInput');
-      const applyZipBtn = document.getElementById('applyDistanceZipBtn');
-      const pickPinBtn = document.getElementById('pickCenterPinBtn');
-      const slider = document.getElementById('distanceRadiusSlider');
-      const readout = document.getElementById('distanceRadiusReadout');
-      const presetBtns = document.querySelectorAll('.radius-presets .zip-filter-pill');
-      const fineTuneBtn = document.getElementById('fineTuneFromDistanceBtn');
+    function fitCameraToDistanceHubs(onlyHubId = null) {
+      if (!leafletMap) return;
+      const targets = onlyHubId
+        ? distanceHubs.filter(h => h.id === onlyHubId)
+        : distanceHubs.filter(h => h.enabled);
+      const list = targets.length > 0 ? targets : distanceHubs;
+      if (list.length === 0) return;
 
-      const syncSliderUI = (val) => {
-        distanceMiles = Number(val);
-        if (readout) readout.textContent = `${distanceMiles} miles`;
-        if (slider) slider.value = String(distanceMiles);
-        presetBtns.forEach(b => b.classList.toggle('active', Number(b.dataset.radius) === distanceMiles));
-      };
+      let combinedBounds = null;
+      list.forEach(h => {
+        const entry = distanceOverlayMap.get(h.id);
+        if (entry && entry.circle) {
+          const b = entry.circle.getBounds();
+          combinedBounds = combinedBounds ? combinedBounds.extend(b) : L.latLngBounds(b.getSouthWest(), b.getNorthEast());
+        }
+      });
 
-      const applyTypedZip = () => {
-        const z = (zipInput.value || '').trim();
-        if (!zipMetaMap.has(z)) {
-          const matchedText = document.getElementById('distanceMatchedText');
-          if (matchedText) matchedText.textContent = `ZIP ${z || '(empty)'} was not found in ${currentStateCode}. Switch states in the top bar or enter a valid ${currentStateCode} ZIP.`;
+      if (combinedBounds && combinedBounds.isValid()) {
+        leafletMap.flyToBounds(combinedBounds, { padding: [36, 36], maxZoom: 12, duration: 0.5 });
+      }
+    }
+
+    function focusDistanceHub(hubId, flyToHub = false) {
+      activeDistanceHubId = hubId;
+      const listEl = document.getElementById('distanceHubsList');
+      if (listEl) {
+        listEl.querySelectorAll('.distance-hub-card').forEach(card => {
+          card.classList.toggle('is-focused', card.dataset.hubId === hubId);
+        });
+        const activeCard = listEl.querySelector(`.distance-hub-card[data-hub-id="${hubId}"]`);
+        if (activeCard) {
+          activeCard.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+        }
+      }
+      syncDistanceMapOverlays();
+      if (flyToHub) fitCameraToDistanceHubs(hubId);
+    }
+
+    function renderDistanceHubsList() {
+      const listEl = document.getElementById('distanceHubsList');
+      if (!listEl) return;
+      listEl.innerHTML = '';
+
+      if (distanceHubs.length === 0) {
+        const empty = document.createElement('div');
+        empty.className = 'distance-empty-state';
+        empty.textContent = 'No travel pins active. Add a 5-digit ZIP code above or click "+ Drop Pin on Map" to place one or more service hubs.';
+        listEl.appendChild(empty);
+        return;
+      }
+
+      const enabledCount = distanceHubs.filter(h => h.enabled).length;
+      const presets = [10, 25, 40, 60, 85];
+
+      distanceHubs.forEach((hub, idx) => {
+        const pal = getHubPalette(hub.colorIdx);
+        const card = document.createElement('div');
+        card.className = `distance-hub-card${hub.id === activeDistanceHubId ? ' is-focused' : ''}${!hub.enabled ? ' is-muted' : ''}`;
+        card.dataset.hubId = hub.id;
+        card.setAttribute('role', 'listitem');
+        card.style.setProperty('--hub-color', pal.ring);
+        card.style.setProperty('--hub-badge-bg', pal.badge);
+
+        card.addEventListener('click', (e) => {
+          if (e.target.closest('button, input')) return;
+          focusDistanceHub(hub.id, false);
+        });
+
+        // Top row: checkbox + numbered badge + title/meta + Zoom / Move / Remove
+        const topRow = document.createElement('div');
+        topRow.className = 'hub-card-top';
+
+        const identity = document.createElement('div');
+        identity.className = 'hub-identity';
+
+        const checkId = `hub-enable-${hub.id}`;
+        const check = document.createElement('input');
+        check.type = 'checkbox';
+        check.id = checkId;
+        check.name = checkId;
+        check.className = 'hub-enable-check';
+        check.checked = Boolean(hub.enabled);
+        check.title = hub.enabled ? 'Pause this travel pin' : 'Enable this travel pin';
+        check.addEventListener('change', () => {
+          hub.enabled = check.checked;
+          card.classList.toggle('is-muted', !hub.enabled);
+          recomputeDistanceUnion(true);
+          syncDistanceMapOverlays();
+          renderDistanceHubsList();
+          updateDistanceSummaryUI();
+          persistDistanceHubsState();
+        });
+
+        const badge = document.createElement('span');
+        badge.className = 'hub-pin-badge';
+        badge.setAttribute('aria-hidden', 'true');
+        badge.textContent = String(idx + 1);
+
+        const titleGroup = document.createElement('div');
+        titleGroup.className = 'hub-title-group';
+
+        const titleLabel = document.createElement('label');
+        titleLabel.className = 'hub-title-label';
+        titleLabel.htmlFor = checkId;
+        titleLabel.textContent = formatDistanceHubTitle(hub);
+
+        const metaSub = document.createElement('div');
+        metaSub.className = 'hub-meta-sub';
+        metaSub.textContent = formatDistanceHubMeta(hub, enabledCount);
+
+        titleGroup.appendChild(titleLabel);
+        titleGroup.appendChild(metaSub);
+        identity.appendChild(check);
+        identity.appendChild(badge);
+        identity.appendChild(titleGroup);
+
+        const actions = document.createElement('div');
+        actions.className = 'hub-card-actions';
+
+        const zoomBtn = document.createElement('button');
+        zoomBtn.type = 'button';
+        zoomBtn.className = 'hub-icon-btn';
+        zoomBtn.textContent = 'Zoom';
+        zoomBtn.title = `Zoom map to Pin #${idx + 1}`;
+        zoomBtn.addEventListener('click', () => {
+          focusDistanceHub(hub.id, true);
+        });
+
+        const moveBtn = document.createElement('button');
+        moveBtn.type = 'button';
+        moveBtn.className = `hub-icon-btn${distancePinPickTarget === hub.id ? ' active-move' : ''}`;
+        moveBtn.dataset.action = 'move';
+        moveBtn.dataset.hubId = hub.id;
+        moveBtn.textContent = distancePinPickTarget === hub.id ? 'Click Map...' : 'Move';
+        moveBtn.title = `Click map to relocate Pin #${idx + 1} (or drag pin #${idx + 1} directly on map)`;
+        moveBtn.addEventListener('click', () => {
+          activeDistanceHubId = hub.id;
+          setDistancePinPickMode(distancePinPickTarget === hub.id ? null : hub.id);
+        });
+
+        const removeBtn = document.createElement('button');
+        removeBtn.type = 'button';
+        removeBtn.className = 'hub-icon-btn remove-btn';
+        removeBtn.setAttribute('aria-label', `Remove travel pin ${idx + 1} (${formatDistanceHubTitle(hub)})`);
+        removeBtn.title = `Remove Pin #${idx + 1}`;
+        removeBtn.textContent = 'Remove';
+        removeBtn.addEventListener('click', () => {
+          if (distancePinPickTarget === hub.id) setDistancePinPickMode(null);
+          distanceHubs = distanceHubs.filter(h => h.id !== hub.id);
+          if (activeDistanceHubId === hub.id) {
+            activeDistanceHubId = distanceHubs[0] ? distanceHubs[0].id : null;
+          }
+          recomputeDistanceUnion(false);
+          syncDistanceMapOverlays();
+          renderDistanceHubsList();
+          updateDistanceSummaryUI();
+          persistDistanceHubsState();
+        });
+
+        actions.appendChild(zoomBtn);
+        actions.appendChild(moveBtn);
+        actions.appendChild(removeBtn);
+
+        topRow.appendChild(identity);
+        topRow.appendChild(actions);
+        card.appendChild(topRow);
+
+        // Slider row
+        const sliderId = `hub-slider-${hub.id}`;
+        const sliderHeader = document.createElement('div');
+        sliderHeader.className = 'radius-slider-header';
+
+        const sliderLabel = document.createElement('label');
+        sliderLabel.className = 'hub-slider-label';
+        sliderLabel.htmlFor = sliderId;
+        sliderLabel.textContent = `Pin #${idx + 1} travel radius`;
+
+        const readout = document.createElement('span');
+        readout.className = 'radius-readout';
+        readout.textContent = `${hub.miles} mi`;
+
+        sliderHeader.appendChild(sliderLabel);
+        sliderHeader.appendChild(readout);
+        card.appendChild(sliderHeader);
+
+        const slider = document.createElement('input');
+        slider.type = 'range';
+        slider.id = sliderId;
+        slider.name = sliderId;
+        slider.className = 'hub-radius-range';
+        slider.min = '5';
+        slider.max = '100';
+        slider.step = '1';
+        slider.value = String(hub.miles);
+        syncRangeCustomProps(slider);
+        card.appendChild(slider);
+
+        // Presets + optional "Sync all" button
+        const presetsRow = document.createElement('div');
+        presetsRow.className = 'radius-presets';
+
+        const pillsWrap = document.createElement('div');
+        pillsWrap.className = 'radius-preset-pills';
+
+        const pillButtons = [];
+        presets.forEach(pVal => {
+          const pill = document.createElement('button');
+          pill.type = 'button';
+          pill.className = `zip-filter-pill${hub.miles === pVal ? ' active' : ''}`;
+          pill.textContent = `${pVal} mi`;
+          pill.addEventListener('click', () => {
+            hub.miles = pVal;
+            distanceDefaultMiles = pVal;
+            activeDistanceHubId = hub.id;
+            slider.value = String(pVal);
+            readout.textContent = `${pVal} mi`;
+            syncRangeCustomProps(slider);
+            pillButtons.forEach(pb => pb.classList.toggle('active', pb === pill));
+            if (syncAllBtn) syncAllBtn.textContent = `Sync all (${pVal} mi)`;
+            syncDistanceMapOverlays();
+            recomputeDistanceUnion(true);
+            updateDistanceSummaryUI();
+            fitCameraToDistanceHubs(hub.id);
+            persistDistanceHubsState();
+          });
+          pillButtons.push(pill);
+          pillsWrap.appendChild(pill);
+        });
+
+        presetsRow.appendChild(pillsWrap);
+
+        let syncAllBtn = null;
+        if (distanceHubs.length > 1) {
+          syncAllBtn = document.createElement('button');
+          syncAllBtn.type = 'button';
+          syncAllBtn.className = 'hub-sync-all-btn';
+          syncAllBtn.textContent = `Sync all (${hub.miles} mi)`;
+          syncAllBtn.title = `Set all ${distanceHubs.length} pins to ${hub.miles} miles`;
+          syncAllBtn.addEventListener('click', () => {
+            const targetMiles = hub.miles;
+            distanceDefaultMiles = targetMiles;
+            distanceHubs.forEach(h => { h.miles = targetMiles; });
+            syncDistanceMapOverlays();
+            recomputeDistanceUnion(true);
+            renderDistanceHubsList();
+            updateDistanceSummaryUI();
+            fitCameraToDistanceHubs(null);
+            persistDistanceHubsState();
+          });
+          presetsRow.appendChild(syncAllBtn);
+        }
+
+        slider.addEventListener('input', () => {
+          const val = Number(slider.value);
+          hub.miles = val;
+          distanceDefaultMiles = val;
+          activeDistanceHubId = hub.id;
+          readout.textContent = `${val} mi`;
+          syncRangeCustomProps(slider);
+          pillButtons.forEach((pb, i) => pb.classList.toggle('active', presets[i] === val));
+          if (syncAllBtn) syncAllBtn.textContent = `Sync all (${val} mi)`;
+
+          const ov = distanceOverlayMap.get(hub.id);
+          if (ov && ov.circle) ov.circle.setRadius(val * 1609.344);
+
+          recomputeDistanceUnion(true);
+          updateDistanceSummaryUI();
+        });
+
+        slider.addEventListener('change', () => {
+          syncDistanceMapOverlays();
+          persistDistanceHubsState();
+        });
+
+        card.appendChild(presetsRow);
+        listEl.appendChild(card);
+      });
+    }
+
+    function applyDistanceSelection(fitCamera = false) {
+      if (!leafletMap) return;
+      recomputeDistanceUnion(false);
+      renderDistanceHubsList();
+      syncDistanceMapOverlays();
+      updateDistanceSummaryUI();
+      if (fitCamera && distanceHubs.length > 0) {
+        fitCameraToDistanceHubs(null);
+      }
+    }
+
+    function handleDistanceMapPinClick(lat, lon, hintZip = null) {
+      const target = distancePinPickTarget;
+      setDistancePinPickMode(null);
+      setDistanceInputFeedback('');
+
+      const nearZip = hintZip || findNearestStateZip(lat, lon);
+      const meta = nearZip ? zipMetaMap.get(nearZip) : null;
+
+      if (target && target !== 'add') {
+        const existing = distanceHubs.find(h => h.id === target);
+        if (existing) {
+          existing.lat = lat;
+          existing.lon = lon;
+          existing.zip = nearZip || '';
+          existing.city = meta ? (meta.city || currentStateCode) : currentStateCode;
+          existing.isExactZip = false;
+          existing.enabled = true;
+          activeDistanceHubId = existing.id;
+          recomputeDistanceUnion(true);
+          renderDistanceHubsList();
+          syncDistanceMapOverlays();
+          updateDistanceSummaryUI();
+          fitCameraToDistanceHubs(existing.id);
+          persistDistanceHubsState();
           return;
         }
+      }
+
+      const newHub = {
+        id: `hub-${distanceHubSeq++}`,
+        lat,
+        lon,
+        zip: nearZip || '',
+        city: meta ? (meta.city || currentStateCode) : currentStateCode,
+        isExactZip: false,
+        miles: distanceDefaultMiles,
+        enabled: true,
+        colorIdx: getNextHubColorIdx(),
+        _coveredCount: 0,
+        _uniqueCount: 0
+      };
+      distanceHubs.push(newHub);
+      activeDistanceHubId = newHub.id;
+      recomputeDistanceUnion(true);
+      renderDistanceHubsList();
+      syncDistanceMapOverlays();
+      updateDistanceSummaryUI();
+      fitCameraToDistanceHubs(newHub.id);
+      persistDistanceHubsState();
+    }
+
+    function toggleDistanceManualZip(zip) {
+      const isCurrentlyActive = selectedZips.has(zip);
+      if (isCurrentlyActive) {
+        distanceManualAdded.delete(zip);
+        distanceManualExcluded.add(zip);
+      } else {
+        distanceManualExcluded.delete(zip);
+        distanceManualAdded.add(zip);
+      }
+      recomputeDistanceUnion(true);
+      updateDistanceSummaryUI();
+      persistDistanceHubsState();
+    }
+
+    function setupDistanceMode() {
+      const form = document.getElementById('addDistanceHubForm');
+      const zipInput = document.getElementById('distanceZipInput');
+      const pickPinBtn = document.getElementById('pickCenterPinBtn');
+      const quickDropBtn = document.getElementById('mapQuickDropPinBtn');
+      const fitAllBtn = document.getElementById('fitAllDistanceHubsBtn');
+      const quickFitBtn = document.getElementById('mapQuickFitPinsBtn');
+      const clearPinsBtn = document.getElementById('clearAllDistanceHubsBtn');
+      const clearTweaksBtn = document.getElementById('clearDistanceTweaksBtn');
+      const fineTuneBtn = document.getElementById('fineTuneFromDistanceBtn');
+
+      const addZipAsHub = () => {
+        const z = (zipInput.value || '').trim();
+        if (!/^\d{5}$/.test(z)) {
+          setDistanceInputFeedback(`Enter a 5-digit ${currentStateCode} ZIP code to add a travel pin.`);
+          zipInput.focus();
+          return;
+        }
+        if (!zipMetaMap.has(z)) {
+          setDistanceInputFeedback(`ZIP ${z} is outside ${currentStateCode}. Switch states in the top bar or enter a ${currentStateCode} ZIP.`);
+          zipInput.focus();
+          return;
+        }
+
+        const existingIdx = distanceHubs.findIndex(h => h.isExactZip && h.zip === z);
+        if (existingIdx >= 0) {
+          const dup = distanceHubs[existingIdx];
+          dup.enabled = true;
+          activeDistanceHubId = dup.id;
+          zipInput.value = '';
+          setDistanceInputFeedback(`Pin #${existingIdx + 1} is already set at ${z} (${dup.city}). Focused on map.`, true);
+          recomputeDistanceUnion(true);
+          renderDistanceHubsList();
+          syncDistanceMapOverlays();
+          updateDistanceSummaryUI();
+          fitCameraToDistanceHubs(dup.id);
+          persistDistanceHubsState();
+          return;
+        }
+
         const meta = zipMetaMap.get(z);
-        distanceOrigin = {
+        const newHub = {
+          id: `hub-${distanceHubSeq++}`,
           lat: meta.lat,
           lon: meta.lon,
           zip: z,
-          label: `${z} (${meta.city || currentStateCode})`
+          city: meta.city || currentStateCode,
+          isExactZip: true,
+          miles: distanceDefaultMiles,
+          enabled: true,
+          colorIdx: getNextHubColorIdx(),
+          _coveredCount: 0,
+          _uniqueCount: 0
         };
-        applyDistanceSelection(true);
+        distanceHubs.push(newHub);
+        activeDistanceHubId = newHub.id;
+        zipInput.value = '';
+        setDistanceInputFeedback('');
+
+        recomputeDistanceUnion(true);
+        renderDistanceHubsList();
+        syncDistanceMapOverlays();
+        updateDistanceSummaryUI();
+        fitCameraToDistanceHubs(distanceHubs.length > 1 ? null : newHub.id);
+        persistDistanceHubsState();
       };
 
-      applyZipBtn.addEventListener('click', applyTypedZip);
-      zipInput.addEventListener('focus', () => zipInput.select());
+      if (form) {
+        form.addEventListener('submit', (e) => {
+          e.preventDefault();
+          addZipAsHub();
+        });
+      }
+
       zipInput.addEventListener('input', () => {
         const cleaned = (zipInput.value || '').replace(/\D+/g, '').slice(0, 5);
         if (zipInput.value !== cleaned) zipInput.value = cleaned;
-        if (cleaned.length === 5 && zipMetaMap.has(cleaned)) {
-          applyTypedZip();
-        }
+        setDistanceInputFeedback('');
       });
+
       zipInput.addEventListener('keydown', (e) => {
         if (e.key === 'Enter' && !e.isComposing) {
           e.preventDefault();
-          applyTypedZip();
+          addZipAsHub();
         }
       });
 
-      pickPinBtn.addEventListener('click', () => {
-        isPickingDistancePin = !isPickingDistancePin;
-        pickPinBtn.classList.toggle('active-pin', isPickingDistancePin);
-        pickPinBtn.textContent = isPickingDistancePin ? 'Click Map...' : 'Pick on Map';
-        mapContainer.classList.toggle('pin-pick-cursor', isPickingDistancePin);
-      });
-
-      slider.addEventListener('input', (e) => {
-        syncSliderUI(e.target.value);
-        applyDistanceSelection(false);
-      });
-
-      slider.addEventListener('change', () => {
-        if (distanceCircleLayer && leafletMap) {
-          leafletMap.flyToBounds(distanceCircleLayer.getBounds(), { padding: [35, 35], duration: 0.45 });
+      zipInput.addEventListener('blur', () => {
+        const val = (zipInput.value || '').trim();
+        if (val.length > 0 && val.length < 5) {
+          setDistanceInputFeedback('Please enter all 5 digits of the ZIP code.');
+        } else if (val.length === 5 && !zipMetaMap.has(val)) {
+          setDistanceInputFeedback(`ZIP ${val} was not found in ${currentStateCode}.`);
         }
       });
 
-      presetBtns.forEach(btn => {
-        btn.addEventListener('click', () => {
-          syncSliderUI(btn.dataset.radius);
-          applyDistanceSelection(true);
+      const toggleAddPinMode = () => {
+        setDistancePinPickMode(distancePinPickTarget === 'add' ? null : 'add');
+      };
+
+      if (pickPinBtn) pickPinBtn.addEventListener('click', toggleAddPinMode);
+      if (quickDropBtn) quickDropBtn.addEventListener('click', toggleAddPinMode);
+
+      if (fitAllBtn) fitAllBtn.addEventListener('click', () => fitCameraToDistanceHubs(null));
+      if (quickFitBtn) quickFitBtn.addEventListener('click', () => fitCameraToDistanceHubs(null));
+
+      if (clearPinsBtn) {
+        clearPinsBtn.addEventListener('click', () => {
+          setDistancePinPickMode(null);
+          distanceHubs = [];
+          activeDistanceHubId = null;
+          distanceManualAdded.clear();
+          distanceManualExcluded.clear();
+          clearDistanceMapOverlays();
+          recomputeDistanceUnion(false);
+          renderDistanceHubsList();
+          updateDistanceSummaryUI();
+          persistDistanceHubsState();
         });
+      }
+
+      if (clearTweaksBtn) {
+        clearTweaksBtn.addEventListener('click', () => {
+          distanceManualAdded.clear();
+          distanceManualExcluded.clear();
+          recomputeDistanceUnion(true);
+          updateDistanceSummaryUI();
+          persistDistanceHubsState();
+        });
+      }
+
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && distancePinPickTarget) {
+          setDistancePinPickMode(null);
+        }
       });
 
-      fineTuneBtn.addEventListener('click', () => {
-        currentZipFilter = 'targeted';
-        setTopMode('area');
-        setGroupingMode('zips');
-      });
+      if (fineTuneBtn) {
+        fineTuneBtn.addEventListener('click', () => {
+          currentZipFilter = 'targeted';
+          setTopMode('area');
+          setGroupingMode('zips');
+        });
+      }
     }
 
     // 13. Advanced Bulk Tools Implementation
@@ -4627,12 +5883,20 @@
           : 'No ZIP codes selected.';
       } else if (currentExportFormat === 'summary') {
         const lines = [
-          `State: ${payload.state} (${payload.targetedZipsCount} active ZIP codes)`,
+          `State: ${payload.state} (${payload.targetedZipsCount} active ZIP codes)`
+        ];
+        if (payload.distanceHubs && payload.distanceHubs.length > 0) {
+          lines.push(
+            `Travel Pins (${payload.distanceHubs.length}): ` +
+            payload.distanceHubs.map((h, i) => `#${i + 1} ${h.label} (${h.radiusMiles} mi${h.enabled ? '' : ', paused'})`).join('; ')
+          );
+        }
+        lines.push(
           `Regions (${payload.targetedRegions.length}): ${payload.targetedRegions.join(', ') || 'None'}`,
           `Counties (${payload.targetedCounties.length}): ${payload.targetedCounties.join(', ') || 'None'}`,
           `Cities (${payload.targetedCities.length}): ${payload.targetedCities.join(', ') || 'None'}`,
           payload.excludedZips.length > 0 ? `Excluded ZIPs in Active Cities (${payload.excludedZips.length}): ${payload.excludedZips.join(', ')}` : 'Excluded ZIPs in Active Cities: None'
-        ];
+        );
         jsonPayloadPreview.textContent = lines.join('\n\n');
       }
     }
@@ -4673,11 +5937,22 @@
 
       resetBtn.addEventListener('click', () => {
         selectedZips.clear();
-        try { localStorage.removeItem(getStorageKey(currentStateCode)); } catch (_) {}
+        distanceHubs = [];
+        activeDistanceHubId = null;
+        distanceManualAdded.clear();
+        distanceManualExcluded.clear();
+        setDistancePinPickMode(null);
+        try {
+          localStorage.removeItem(getStorageKey(currentStateCode));
+          localStorage.removeItem(getDistanceHubsStorageKey(currentStateCode));
+        } catch (_) {}
         clearDistanceMapOverlays();
         refreshAllZipPolygonStyles();
         refreshModeBoundaryStyles();
-        if (currentGroupingMode === 'zips' && currentZipFilter !== 'all') {
+        if (currentTopMode === 'distance') {
+          renderDistanceHubsList();
+          updateDistanceSummaryUI();
+        } else if (currentGroupingMode === 'zips' && currentZipFilter !== 'all') {
           renderZipsAccordionList(areaSearch.value);
         } else {
           updateAccordionCounters();
@@ -4753,6 +6028,17 @@
         selectionMode: currentTopMode,
         groupingMode: currentGroupingMode,
         serviceCategoryId: 'plumbing',
+        distanceHubs: distanceHubs.map((h, idx) => ({
+          pinNumber: idx + 1,
+          id: h.id,
+          label: formatDistanceHubTitle(h),
+          zip: h.zip || null,
+          city: h.city || null,
+          lat: Number(h.lat.toFixed(5)),
+          lon: Number(h.lon.toFixed(5)),
+          radiusMiles: h.miles,
+          enabled: Boolean(h.enabled)
+        })),
         targetedCounties: Array.from(new Set(targetedCounties)),
         targetedRegions: Array.from(new Set(targetedRegions)),
         targetedCities: Array.from(new Set(targetedCities)),
